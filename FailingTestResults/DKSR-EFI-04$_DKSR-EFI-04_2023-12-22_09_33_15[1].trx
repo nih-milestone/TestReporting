@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="56e94c12-0d2f-4093-ab33-0fbea556c41d" name="DKSR-EFI-04$@DKSR-EFI-04 2023-12-22 09:33:15" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-12-22T09:33:15.0217894+01:00" queuing="2023-12-22T09:33:15.0217894+01:00" start="2023-12-22T09:33:03.6936098+01:00" finish="2023-12-22T09:33:17.0999227+01:00" />
+  <TestSettings name="default" id="7e5940bf-1bbd-4c90-941f-805609178089">
+    <Deployment runDeploymentRoot="DKSR-EFI-04$_DKSR-EFI-04_2023-12-22_09_33_15" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="eee991df-a8ab-4dc4-b883-3805287c78e1" testId="d1897294-edb9-1be7-94e8-2d09096ea3c4" testName="Full_Ctor_SetServerAddress_AddressToSetIsNull_ThrowsArgumentNullException" computerName="DKSR-EFI-04" duration="00:00:00.0510777" startTime="2023-12-22T09:33:16.2717956+01:00" endTime="2023-12-22T09:33:16.3186699+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eee991df-a8ab-4dc4-b883-3805287c78e1" />
+    <UnitTestResult executionId="346c6012-d143-4fa7-8a9f-acc3f531d8bf" testId="a9465648-51f1-2c05-b685-0d75f51e72ee" testName="RegisterThisService_EmptyCtor_UseInitializer_StatusCodeIsSuccess" computerName="DKSR-EFI-04" duration="00:00:00.1726039" startTime="2023-12-22T09:33:16.0217954+01:00" endTime="2023-12-22T09:33:16.1936697+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="346c6012-d143-4fa7-8a9f-acc3f531d8bf" />
+    <UnitTestResult executionId="78a22fc6-036c-4b9f-838b-6ee0fe166f71" testId="0b625d6a-34f1-d5d8-a44f-2bbfe7d218fc" testName="UpgradeRecorderXmlFile_DisabledSsl_Upgrade_EnableSsl" computerName="DKSR-EFI-04" duration="00:00:01.9668816" startTime="2023-12-22T09:33:12.4436517+01:00" endTime="2023-12-22T09:33:14.9280403+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="78a22fc6-036c-4b9f-838b-6ee0fe166f71" />
+    <UnitTestResult executionId="62963090-fb86-4ed0-8f43-37196686d11f" testId="3c877d84-7728-02ed-4106-8fd0db5cc87c" testName="SetServerAddress_EmptyCtor_UseInitializer_StatusCodeIsSuccess" computerName="DKSR-EFI-04" duration="00:00:00.0141635" startTime="2023-12-22T09:33:16.3186699+01:00" endTime="2023-12-22T09:33:16.3342963+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62963090-fb86-4ed0-8f43-37196686d11f" />
+    <UnitTestResult executionId="2212da5c-9730-451f-97fb-0405a3281095" testId="10518efc-680e-0ed3-cd76-d25f5dba9492" testName="Given_RegistrarCreated_WhereSetServerAddress_Then_TheServerAddressSectionIsUpdatedWithTheExtractedHostAddress" computerName="DKSR-EFI-04" duration="00:00:00.0154652" startTime="2023-12-22T09:33:16.3499188+01:00" endTime="2023-12-22T09:33:16.3655459+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2212da5c-9730-451f-97fb-0405a3281095" />
+    <UnitTestResult executionId="872597a5-7102-421d-b8c1-7e4bcf2386e1" testId="b7e30f2b-2962-f07e-d3d9-edee769a423a" testName="Given_RegistrarCreated_WhereRegisterThisService_Then_TheWebApiSectionIsUpdatedWithTheCurrentHostName" computerName="DKSR-EFI-04" duration="00:00:00.0631996" startTime="2023-12-22T09:33:16.2092957+01:00" endTime="2023-12-22T09:33:16.2717956+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="872597a5-7102-421d-b8c1-7e4bcf2386e1" />
+    <UnitTestResult executionId="60790c74-93a6-4a73-af09-5144d109344a" testId="00d2a2ba-7677-5d86-2e56-1ee49e501ac1" testName="Full_Ctor_RegisterThisService_ServerToRegisterToIsNull_ThrowsArgumentNullException" computerName="DKSR-EFI-04" duration="00:00:01.0188699" startTime="2023-12-22T09:33:15.0076394+01:00" endTime="2023-12-22T09:33:16.0217954+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60790c74-93a6-4a73-af09-5144d109344a" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Given_RegistrarCreated_WhereRegisterThisService_Then_TheWebApiSectionIsUpdatedWithTheCurrentHostName" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.recorder.certificateregistration.unittests\bin\x64\debug\net472\videoos.recorder.certificateregistration.unittests.dll" id="b7e30f2b-2962-f07e-d3d9-edee769a423a">
+      <Execution id="872597a5-7102-421d-b8c1-7e4bcf2386e1" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.Recorder.CertificateRegistration.UnitTests\bin\x64\Debug\net472\VideoOS.Recorder.CertificateRegistration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Recorder.CertificateRegistration.UnitTests.RecorderServerRegisterServiceUnitTest" name="Given_RegistrarCreated_WhereRegisterThisService_Then_TheWebApiSectionIsUpdatedWithTheCurrentHostName" />
+    </UnitTest>
+    <UnitTest name="Full_Ctor_RegisterThisService_ServerToRegisterToIsNull_ThrowsArgumentNullException" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.recorder.certificateregistration.unittests\bin\x64\debug\net472\videoos.recorder.certificateregistration.unittests.dll" id="00d2a2ba-7677-5d86-2e56-1ee49e501ac1">
+      <Execution id="60790c74-93a6-4a73-af09-5144d109344a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.Recorder.CertificateRegistration.UnitTests\bin\x64\Debug\net472\VideoOS.Recorder.CertificateRegistration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Recorder.CertificateRegistration.UnitTests.RecorderServerRegisterServiceUnitTest" name="Full_Ctor_RegisterThisService_ServerToRegisterToIsNull_ThrowsArgumentNullException" />
+    </UnitTest>
+    <UnitTest name="UpgradeRecorderXmlFile_DisabledSsl_Upgrade_EnableSsl" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.recorder.certificateregistration.unittests\bin\x64\debug\net472\videoos.recorder.certificateregistration.unittests.dll" id="0b625d6a-34f1-d5d8-a44f-2bbfe7d218fc">
+      <Execution id="78a22fc6-036c-4b9f-838b-6ee0fe166f71" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.Recorder.CertificateRegistration.UnitTests\bin\x64\Debug\net472\VideoOS.Recorder.CertificateRegistration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Recorder.CertificateRegistration.UnitTests.ImageSeverCertificateRegistrationUnitTest" name="UpgradeRecorderXmlFile_DisabledSsl_Upgrade_EnableSsl" />
+    </UnitTest>
+    <UnitTest name="SetServerAddress_EmptyCtor_UseInitializer_StatusCodeIsSuccess" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.recorder.certificateregistration.unittests\bin\x64\debug\net472\videoos.recorder.certificateregistration.unittests.dll" id="3c877d84-7728-02ed-4106-8fd0db5cc87c">
+      <Execution id="62963090-fb86-4ed0-8f43-37196686d11f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.Recorder.CertificateRegistration.UnitTests\bin\x64\Debug\net472\VideoOS.Recorder.CertificateRegistration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Recorder.CertificateRegistration.UnitTests.RecorderSetManagementServerUnitTest" name="SetServerAddress_EmptyCtor_UseInitializer_StatusCodeIsSuccess" />
+    </UnitTest>
+    <UnitTest name="Full_Ctor_SetServerAddress_AddressToSetIsNull_ThrowsArgumentNullException" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.recorder.certificateregistration.unittests\bin\x64\debug\net472\videoos.recorder.certificateregistration.unittests.dll" id="d1897294-edb9-1be7-94e8-2d09096ea3c4">
+      <Execution id="eee991df-a8ab-4dc4-b883-3805287c78e1" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.Recorder.CertificateRegistration.UnitTests\bin\x64\Debug\net472\VideoOS.Recorder.CertificateRegistration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Recorder.CertificateRegistration.UnitTests.RecorderSetManagementServerUnitTest" name="Full_Ctor_SetServerAddress_AddressToSetIsNull_ThrowsArgumentNullException" />
+    </UnitTest>
+    <UnitTest name="Given_RegistrarCreated_WhereSetServerAddress_Then_TheServerAddressSectionIsUpdatedWithTheExtractedHostAddress" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.recorder.certificateregistration.unittests\bin\x64\debug\net472\videoos.recorder.certificateregistration.unittests.dll" id="10518efc-680e-0ed3-cd76-d25f5dba9492">
+      <Execution id="2212da5c-9730-451f-97fb-0405a3281095" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.Recorder.CertificateRegistration.UnitTests\bin\x64\Debug\net472\VideoOS.Recorder.CertificateRegistration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Recorder.CertificateRegistration.UnitTests.RecorderSetManagementServerUnitTest" name="Given_RegistrarCreated_WhereSetServerAddress_Then_TheServerAddressSectionIsUpdatedWithTheExtractedHostAddress" />
+    </UnitTest>
+    <UnitTest name="RegisterThisService_EmptyCtor_UseInitializer_StatusCodeIsSuccess" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.recorder.certificateregistration.unittests\bin\x64\debug\net472\videoos.recorder.certificateregistration.unittests.dll" id="a9465648-51f1-2c05-b685-0d75f51e72ee">
+      <Execution id="346c6012-d143-4fa7-8a9f-acc3f531d8bf" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.Recorder.CertificateRegistration.UnitTests\bin\x64\Debug\net472\VideoOS.Recorder.CertificateRegistration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Recorder.CertificateRegistration.UnitTests.RecorderServerRegisterServiceUnitTest" name="RegisterThisService_EmptyCtor_UseInitializer_StatusCodeIsSuccess" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="d1897294-edb9-1be7-94e8-2d09096ea3c4" executionId="eee991df-a8ab-4dc4-b883-3805287c78e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a9465648-51f1-2c05-b685-0d75f51e72ee" executionId="346c6012-d143-4fa7-8a9f-acc3f531d8bf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0b625d6a-34f1-d5d8-a44f-2bbfe7d218fc" executionId="78a22fc6-036c-4b9f-838b-6ee0fe166f71" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c877d84-7728-02ed-4106-8fd0db5cc87c" executionId="62963090-fb86-4ed0-8f43-37196686d11f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="10518efc-680e-0ed3-cd76-d25f5dba9492" executionId="2212da5c-9730-451f-97fb-0405a3281095" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b7e30f2b-2962-f07e-d3d9-edee769a423a" executionId="872597a5-7102-421d-b8c1-7e4bcf2386e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="00d2a2ba-7677-5d86-2e56-1ee49e501ac1" executionId="60790c74-93a6-4a73-af09-5144d109344a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="7" executed="7" passed="7" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

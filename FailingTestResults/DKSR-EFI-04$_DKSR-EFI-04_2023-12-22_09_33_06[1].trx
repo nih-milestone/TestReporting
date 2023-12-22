@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="eef69cca-3c8c-4a6f-b174-0d15b743b075" name="DKSR-EFI-04$@DKSR-EFI-04 2023-12-22 09:33:06" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-12-22T09:33:06.6936255+01:00" queuing="2023-12-22T09:33:06.6936255+01:00" start="2023-12-22T09:33:05.2561166+01:00" finish="2023-12-22T09:33:06.7405004+01:00" />
+  <TestSettings name="default" id="885ef410-aa3c-44a2-a61a-1990dd71ad04">
+    <Deployment runDeploymentRoot="DKSR-EFI-04$_DKSR-EFI-04_2023-12-22_09_33_06" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="cc22f8d2-087c-4309-a572-8df4fbf9798a" testId="03ef8ba2-aea7-cb15-56b6-27b3eed3dcd8" testName="TestForAssemblyCoverage" computerName="DKSR-EFI-04" duration="00:00:00.0626592" startTime="2023-12-22T09:33:06.0842465+01:00" endTime="2023-12-22T09:33:06.3342471+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc22f8d2-087c-4309-a572-8df4fbf9798a" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestForAssemblyCoverage" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.recorder.service.unittests\bin\x64\debug\net472\videoos.recorder.service.unittests.dll" id="03ef8ba2-aea7-cb15-56b6-27b3eed3dcd8">
+      <Execution id="cc22f8d2-087c-4309-a572-8df4fbf9798a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.Recorder.Service.UnitTests\bin\x64\Debug\net472\VideoOS.Recorder.Service.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Recorder.Service.UnitTests.UnitTest1" name="TestForAssemblyCoverage" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="03ef8ba2-aea7-cb15-56b6-27b3eed3dcd8" executionId="cc22f8d2-087c-4309-a572-8df4fbf9798a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

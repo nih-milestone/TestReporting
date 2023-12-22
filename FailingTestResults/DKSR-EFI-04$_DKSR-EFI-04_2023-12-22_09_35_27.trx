@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="8574c900-3f44-4f3a-915b-d85c4afbf44a" name="DKSR-EFI-04$@DKSR-EFI-04 2023-12-22 09:35:27" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-12-22T09:35:27.1474524+01:00" queuing="2023-12-22T09:35:27.1474524+01:00" start="2023-12-22T09:35:25.3349442+01:00" finish="2023-12-22T09:35:27.1943255+01:00" />
+  <TestSettings name="default" id="e1664ceb-2c38-4cee-8e71-28ae8a637b1e">
+    <Deployment runDeploymentRoot="DKSR-EFI-04$_DKSR-EFI-04_2023-12-22_09_35_27" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="a6b60586-9c99-45d0-8048-abf8e256feb6" testId="0102de43-9303-0615-d767-a94c2b85d80f" testName="TestReflectionSpeed" computerName="DKSR-EFI-04" duration="00:00:00.4261289" startTime="2023-12-22T09:35:26.1786996+01:00" endTime="2023-12-22T09:35:26.6787016+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6b60586-9c99-45d0-8048-abf8e256feb6">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+out1: 140.624&#xD;
+out2: 265.6298</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c6f11c1d-81d0-46a2-bb74-2ce016e0d5f8" testId="c4b85348-e1b0-ec3c-c7fd-729fa5fad522" testName="BasicValidatorTest" computerName="DKSR-EFI-04" duration="00:00:00.1290808" startTime="2023-12-22T09:35:26.6943242+01:00" endTime="2023-12-22T09:35:26.8193260+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c6f11c1d-81d0-46a2-bb74-2ce016e0d5f8" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestReflectionSpeed" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.administrator.test\bin\debug\net472\videoos.mobile.administrator.test.dll" id="0102de43-9303-0615-d767-a94c2b85d80f">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LongRunning" />
+      </TestCategory>
+      <Execution id="a6b60586-9c99-45d0-8048-abf8e256feb6" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Administrator.Test\bin\Debug\net472\VideoOS.Mobile.Administrator.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Administrator.Test.Admin.Mobile.MobileServiceScannerTest" name="TestReflectionSpeed" />
+    </UnitTest>
+    <UnitTest name="BasicValidatorTest" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.administrator.test\bin\debug\net472\videoos.mobile.administrator.test.dll" id="c4b85348-e1b0-ec3c-c7fd-729fa5fad522">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="c6f11c1d-81d0-46a2-bb74-2ce016e0d5f8" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Administrator.Test\bin\Debug\net472\VideoOS.Mobile.Administrator.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Administrator.Test.Admin.Mobile.Validators.BasicValidatorTests" name="BasicValidatorTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="0102de43-9303-0615-d767-a94c2b85d80f" executionId="a6b60586-9c99-45d0-8048-abf8e256feb6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c4b85348-e1b0-ec3c-c7fd-729fa5fad522" executionId="c6f11c1d-81d0-46a2-bb74-2ce016e0d5f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

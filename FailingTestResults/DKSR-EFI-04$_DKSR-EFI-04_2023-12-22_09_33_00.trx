@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="c78b1f23-fd71-465d-ab21-5800b7dbed68" name="DKSR-EFI-04$@DKSR-EFI-04 2023-12-22 09:33:00" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-12-22T09:33:00.5373455+01:00" queuing="2023-12-22T09:33:00.5373455+01:00" start="2023-12-22T09:32:59.4904651+01:00" finish="2023-12-22T09:33:00.7717216+01:00" />
+  <TestSettings name="default" id="e73713ca-9575-4311-8417-2cf9ce3dbcf7">
+    <Deployment runDeploymentRoot="DKSR-EFI-04$_DKSR-EFI-04_2023-12-22_09_33_00" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="8a2e25dc-b766-411f-a23b-e6294149139d" testId="7a1e053e-27f5-4707-3435-fb55ce887665" testName="StreamSetup_Add_CreatesOneStreamTypeForDevice_OnOneStreamInfo" computerName="DKSR-EFI-04" duration="00:00:00.0059689" startTime="2023-12-22T09:33:00.5217222+01:00" endTime="2023-12-22T09:33:00.5217222+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a2e25dc-b766-411f-a23b-e6294149139d" />
+    <UnitTestResult executionId="90b37cee-c450-4b36-a3a4-a6c3fb430ef2" testId="44c4e60c-e27a-3f69-5f97-ef2fab8fd5e7" testName="PreparePtzMoveCommand_ReturnsCorrectPtzData_OnTwoCallsWithDifferentPtzArguments" computerName="DKSR-EFI-04" duration="00:00:00.0052828" startTime="2023-12-22T09:33:00.5060940+01:00" endTime="2023-12-22T09:33:00.5217222+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90b37cee-c450-4b36-a3a4-a6c3fb430ef2" />
+    <UnitTestResult executionId="3067412e-68e6-40db-b60e-0fc1a847b815" testId="1e06b1ec-0ee0-2930-a9eb-2d164b2ceb0f" testName="PreparePtzMoveCommand_ReturnsCorrectPtzData_OnValidInput" computerName="DKSR-EFI-04" duration="00:00:00.0048666" startTime="2023-12-22T09:33:00.5060940+01:00" endTime="2023-12-22T09:33:00.5060940+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3067412e-68e6-40db-b60e-0fc1a847b815" />
+    <UnitTestResult executionId="fdaf428f-06a9-436d-b20a-9137ad2ae2cd" testId="9efb3bf0-a806-a417-a241-310760078e97" testName="StreamSetup_GetSupportedStreamTypeTypes_InsertsName_OnOneStreamAdded" computerName="DKSR-EFI-04" duration="00:00:00.0022860" startTime="2023-12-22T09:33:00.5373455+01:00" endTime="2023-12-22T09:33:00.5529716+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fdaf428f-06a9-436d-b20a-9137ad2ae2cd" />
+    <UnitTestResult executionId="4f184845-0c97-42fe-8a7d-a2b0f1b12c79" testId="46dd0565-655b-f05a-9e14-50b01c800ecb" testName="GetMetadataItems_ThrowsException_OnNullAsDeviceHwid" computerName="DKSR-EFI-04" duration="00:00:00.0003947" startTime="2023-12-22T09:33:00.5685949+01:00" endTime="2023-12-22T09:33:00.5685949+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f184845-0c97-42fe-8a7d-a2b0f1b12c79" />
+    <UnitTestResult executionId="4be97429-2b4d-42d7-9fa2-b0edafcd1b8b" testId="d18acf0e-9b55-9856-5a9c-386cfcb9f0fa" testName="AddMetadata_InsertsCorrectMetadataItemHwid_OnSecondMetadataItem" computerName="DKSR-EFI-04" duration="00:00:00.0002663" startTime="2023-12-22T09:33:00.5685949+01:00" endTime="2023-12-22T09:33:00.5685949+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4be97429-2b4d-42d7-9fa2-b0edafcd1b8b" />
+    <UnitTestResult executionId="df76b372-94b0-4f9c-aec8-4b931329b590" testId="8ae43f56-3084-809e-5c9f-1322b6b0be7c" testName="StreamSetup_AddStream_DoesNotAddStreamInformation_OnEmptyListAsStreamList" computerName="DKSR-EFI-04" duration="00:00:00.0002885" startTime="2023-12-22T09:33:00.5529716+01:00" endTime="2023-12-22T09:33:00.5529716+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="df76b372-94b0-4f9c-aec8-4b931329b590" />
+    <UnitTestResult executionId="8594aa53-557f-48e1-a0f1-0ec476eb6efa" testId="99394a71-9e3f-b099-b50a-771d30558cc5" testName="StreamSetup_Add_InsertsEdgeStorageSupportedCapability_OnEachStream" computerName="DKSR-EFI-04" duration="00:00:00.0008746" startTime="2023-12-22T09:33:00.5373455+01:00" endTime="2023-12-22T09:33:00.5373455+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8594aa53-557f-48e1-a0f1-0ec476eb6efa" />
+    <UnitTestResult executionId="2ed394a4-dd1d-404e-9def-82b9b5d25be4" testId="3444cea8-4504-bd4b-7e1a-33b38a357737" testName="PreparePtzMoveCommand_ReturnsNull_OnSamePtzArgumentsSentTwice" computerName="DKSR-EFI-04" duration="00:00:00.0007189" startTime="2023-12-22T09:33:00.5060940+01:00" endTime="2023-12-22T09:33:00.5060940+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ed394a4-dd1d-404e-9def-82b9b5d25be4" />
+    <UnitTestResult executionId="0bbb8c29-f9af-4dbd-8992-dc8a5f81532f" testId="ea76195c-b0b2-dc83-d593-67b5140a1fd6" testName="PreparePtzMoveCommand_ReturnsCorrectCommandData_OnAutoFocus" computerName="DKSR-EFI-04" duration="00:00:00.0006873" startTime="2023-12-22T09:33:00.5217222+01:00" endTime="2023-12-22T09:33:00.5217222+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0bbb8c29-f9af-4dbd-8992-dc8a5f81532f" />
+    <UnitTestResult executionId="4135f83e-e692-4dd6-a3c2-fa6f7b33e893" testId="f5751b5a-cf0f-6c33-434a-231504e90d10" testName="StreamSetup_Add_InsertsCorrectStreamHwid_OnFirstStream" computerName="DKSR-EFI-04" duration="00:00:00.0003922" startTime="2023-12-22T09:33:00.5373455+01:00" endTime="2023-12-22T09:33:00.5373455+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4135f83e-e692-4dd6-a3c2-fa6f7b33e893" />
+    <UnitTestResult executionId="d593f600-de57-4ec6-bc45-d5ac6399f0ee" testId="7ed770e4-b3c4-7306-7f83-225994dafa9a" testName="StreamSetup_Add_CreatesTwoStreamTypes_OnStreamDataWithTwoStreams" computerName="DKSR-EFI-04" duration="00:00:00.0003311" startTime="2023-12-22T09:33:00.5373455+01:00" endTime="2023-12-22T09:33:00.5373455+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d593f600-de57-4ec6-bc45-d5ac6399f0ee" />
+    <UnitTestResult executionId="67c9f0df-a65b-4cf1-9098-8522c0a12081" testId="ecb1f12a-c2ae-77f1-ac62-f7037dc01a3c" testName="StreamSetup_Add_InsertsCorrectStreamHwid_OnSecondDevice" computerName="DKSR-EFI-04" duration="00:00:00.0002950" startTime="2023-12-22T09:33:00.5373455+01:00" endTime="2023-12-22T09:33:00.5373455+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67c9f0df-a65b-4cf1-9098-8522c0a12081" />
+    <UnitTestResult executionId="cb01d547-0f73-48a0-8e6d-0e6e832d2d55" testId="77599e09-bcd8-edd3-f7ec-50cde7725286" testName="StreamSetup_GetSupportedStreamTypeTypes_ReturnsOneOnAllowedConcurrentLength_OnOneStreamAdded" computerName="DKSR-EFI-04" duration="00:00:00.0003613" startTime="2023-12-22T09:33:00.5529716+01:00" endTime="2023-12-22T09:33:00.5529716+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb01d547-0f73-48a0-8e6d-0e6e832d2d55" />
+    <UnitTestResult executionId="ccb35af0-17be-4098-92ec-892492edb7a7" testId="801979ea-3ace-5db3-66a6-2fac152798b9" testName="GetProperty_ThrowsException_OnNullAsName" computerName="DKSR-EFI-04" duration="00:00:00.0004263" startTime="2023-12-22T09:33:00.5842212+01:00" endTime="2023-12-22T09:33:00.5842212+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ccb35af0-17be-4098-92ec-892492edb7a7" />
+    <UnitTestResult executionId="19551ea1-1ff5-45b8-a070-8d3872814918" testId="3f4152a6-4b7e-0c2e-1a54-cd58d226135a" testName="StreamSetup_GetSupportedStreamTypeTypes_ReturnsOneselfInAllowedConcurrent_OnOneStreamAdded" computerName="DKSR-EFI-04" duration="00:00:00.0004905" startTime="2023-12-22T09:33:00.5529716+01:00" endTime="2023-12-22T09:33:00.5529716+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="19551ea1-1ff5-45b8-a070-8d3872814918" />
+    <UnitTestResult executionId="f1aa924f-d83b-4590-8cf4-e3d60a9eca82" testId="d22b54ef-b2d4-69b4-7d2b-e26ca27a5da7" testName="StreamSetup_GetSupportedStreamTypeTypes_ReturnsListOf2_OnTwoStreamsAdded" computerName="DKSR-EFI-04" duration="00:00:00.0002455" startTime="2023-12-22T09:33:00.5529716+01:00" endTime="2023-12-22T09:33:00.5529716+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f1aa924f-d83b-4590-8cf4-e3d60a9eca82" />
+    <UnitTestResult executionId="0df927d3-8885-4332-b080-7323a4a48fc9" testId="50f67ad7-75ce-ff7e-0db6-74289337d374" testName="AddMetadata_DoesNotAddMetadataItemInformation_OnEmptyListAsMetadataList" computerName="DKSR-EFI-04" duration="00:00:00.0002592" startTime="2023-12-22T09:33:00.5685949+01:00" endTime="2023-12-22T09:33:00.5685949+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0df927d3-8885-4332-b080-7323a4a48fc9" />
+    <UnitTestResult executionId="642089f9-7559-430e-9a23-585b63687def" testId="19204dcb-3619-3f65-7336-0eab2cae1363" testName="AddMetadata_CreatesTwoMetadataItemTypes_OnTwoMetadataItems" computerName="DKSR-EFI-04" duration="00:00:00.0002061" startTime="2023-12-22T09:33:00.5685949+01:00" endTime="2023-12-22T09:33:00.5685949+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="642089f9-7559-430e-9a23-585b63687def" />
+    <UnitTestResult executionId="18d3ac7d-78c1-4dad-bf6c-7da44b7f86b7" testId="23817b17-6d4d-4711-d895-412b07c9f1fe" testName="AddMetadata_InsertsMetadataNameIntoMetadataItemType_OnValidInput" computerName="DKSR-EFI-04" duration="00:00:00.0004110" startTime="2023-12-22T09:33:00.5685949+01:00" endTime="2023-12-22T09:33:00.5685949+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18d3ac7d-78c1-4dad-bf6c-7da44b7f86b7" />
+    <UnitTestResult executionId="2d2eef84-83fd-4905-acf6-1846388c9577" testId="e0f7b127-d362-8985-1f9e-1ab9487e8777" testName="StreamSetup_GetSupportedStreamTypeTypes_ThrowsException_OnNullAsDeviceHwid" computerName="DKSR-EFI-04" duration="00:00:00.0004856" startTime="2023-12-22T09:33:00.5685949+01:00" endTime="2023-12-22T09:33:00.5685949+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2d2eef84-83fd-4905-acf6-1846388c9577" />
+    <UnitTestResult executionId="6af7e392-f061-4328-b008-2cc211a94015" testId="54ccd0b0-2368-151f-e544-4316c849ad33" testName="StreamSetup_GetSupportedStreamTypeTypes_InsertsDisplayName_OnOneStreamAdded" computerName="DKSR-EFI-04" duration="00:00:00.0004170" startTime="2023-12-22T09:33:00.5529716+01:00" endTime="2023-12-22T09:33:00.5529716+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6af7e392-f061-4328-b008-2cc211a94015" />
+    <UnitTestResult executionId="d102e625-9c54-40c5-9412-7b26146e4928" testId="3f447a3d-874c-25c4-7889-df24d3b2ca41" testName="StreamSetup_GetSupportedStreamTypeTypes_InsertsReferenceId_OnOneStreamAdded" computerName="DKSR-EFI-04" duration="00:00:00.0003771" startTime="2023-12-22T09:33:00.5529716+01:00" endTime="2023-12-22T09:33:00.5529716+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d102e625-9c54-40c5-9412-7b26146e4928" />
+    <UnitTestResult executionId="18792cc9-8290-4cc4-b3e6-3d60b74c5f01" testId="2064c620-2005-c452-3572-cbe6bb334791" testName="StreamSetup_GetSupportedStreamTypeTypes_ReturnsTwoOnAllowedConcurrentLength_OnTwoStreamAdded" computerName="DKSR-EFI-04" duration="00:00:00.0002568" startTime="2023-12-22T09:33:00.5529716+01:00" endTime="2023-12-22T09:33:00.5529716+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18792cc9-8290-4cc4-b3e6-3d60b74c5f01" />
+    <UnitTestResult executionId="b83b13ed-1c49-4bdc-b069-593a9f0ebc0f" testId="2fdf7b80-e9a2-7ab1-32b1-df6555fcdaba" testName="StreamSetup_GetStreamTypes_ThrowsException_OnNullAsDeviceHwid" computerName="DKSR-EFI-04" duration="00:00:00.0072381" startTime="2023-12-22T09:33:00.5529716+01:00" endTime="2023-12-22T09:33:00.5529716+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b83b13ed-1c49-4bdc-b069-593a9f0ebc0f" />
+    <UnitTestResult executionId="aec5f011-0afb-4767-af54-0dc2eee63ae8" testId="8f1b1d1f-c304-caa8-d278-476197dc49c6" testName="Addmetadata_ThrowsException_OnNullAsMetadataList" computerName="DKSR-EFI-04" duration="00:00:00.0005632" startTime="2023-12-22T09:33:00.5685949+01:00" endTime="2023-12-22T09:33:00.5685949+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aec5f011-0afb-4767-af54-0dc2eee63ae8" />
+    <UnitTestResult executionId="3aea5ac0-a29b-4a22-b739-6dff39169a9a" testId="f84d78d4-f1f7-f077-8f46-02a83a96e4ee" testName="AddMetadata_InsertsCorrectMetadataItemHwid_OnFirstMetadataItem" computerName="DKSR-EFI-04" duration="00:00:00.0003091" startTime="2023-12-22T09:33:00.5685949+01:00" endTime="2023-12-22T09:33:00.5685949+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3aea5ac0-a29b-4a22-b739-6dff39169a9a" />
+    <UnitTestResult executionId="912810d6-8c10-4a89-bff6-9328e350ed37" testId="28022747-bbc2-92c8-5c99-39320c142983" testName="PreparePtzMoveCommand_ReturnsCorrectCommandData_OnNegativeFocus" computerName="DKSR-EFI-04" duration="00:00:00.0002490" startTime="2023-12-22T09:33:00.5217222+01:00" endTime="2023-12-22T09:33:00.5217222+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="912810d6-8c10-4a89-bff6-9328e350ed37" />
+    <UnitTestResult executionId="f335a0dc-8ea3-4bd3-acc2-1e46d96fe073" testId="73b05d55-d1ca-39b6-5e42-741859ded29b" testName="AddMetadata_CreatesOneMetadataItemType_OnOneMetadataItem" computerName="DKSR-EFI-04" duration="00:00:00.0028695" startTime="2023-12-22T09:33:00.5685949+01:00" endTime="2023-12-22T09:33:00.5685949+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f335a0dc-8ea3-4bd3-acc2-1e46d96fe073" />
+    <UnitTestResult executionId="8278ac21-fe35-42ab-b4ec-3aa7442536b7" testId="6314b363-54c1-2599-0cf5-2d3016bd852a" testName="StreamSetup_Add_InsertsReferenceIdIntoStreamType_OnValidStream" computerName="DKSR-EFI-04" duration="00:00:00.0003874" startTime="2023-12-22T09:33:00.5373455+01:00" endTime="2023-12-22T09:33:00.5373455+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8278ac21-fe35-42ab-b4ec-3aa7442536b7" />
+    <UnitTestResult executionId="35791989-b8a5-4c9d-9696-751922b1aaf6" testId="6cd3590b-9def-090e-0fd2-70bd4953b6f6" testName="AddMetadata_InsertsValidTimeIntoMetadataItemType_OnValidInput" computerName="DKSR-EFI-04" duration="00:00:00.0006236" startTime="2023-12-22T09:33:00.5685949+01:00" endTime="2023-12-22T09:33:00.5685949+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="35791989-b8a5-4c9d-9696-751922b1aaf6" />
+    <UnitTestResult executionId="6c7f4307-d872-4afa-b31c-515d006d8a3f" testId="fe2e7f1c-ff9c-399e-2747-33d9ca3bcc00" testName="PreparePtzMoveCommand_ThrowsException_OnNullAsPtzArguments" computerName="DKSR-EFI-04" duration="00:00:00.2196082" startTime="2023-12-22T09:33:00.1935927+01:00" endTime="2023-12-22T09:33:00.4904705+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6c7f4307-d872-4afa-b31c-515d006d8a3f" />
+    <UnitTestResult executionId="e923b291-6c9d-491c-970b-5301c9d86e9d" testId="bf3d24ab-9ed5-e37e-c3f2-229fb37f8bae" testName="StreamSetup_GetSupportedStreamTypeTypes_ReturnsOtherStreamInAllowedConcurrent_OnTwoStreamAdded" computerName="DKSR-EFI-04" duration="00:00:00.0003161" startTime="2023-12-22T09:33:00.5529716+01:00" endTime="2023-12-22T09:33:00.5529716+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e923b291-6c9d-491c-970b-5301c9d86e9d" />
+    <UnitTestResult executionId="a7cfd60f-8fa4-42e9-9469-2372593ad247" testId="d14bfdbc-352b-abef-c69d-7f31b6c06a23" testName="StreamSetup_GetStreamtypes_ReturnsEmptyList_OnNotAddedDevice" computerName="DKSR-EFI-04" duration="00:00:00.0002468" startTime="2023-12-22T09:33:00.5373455+01:00" endTime="2023-12-22T09:33:00.5373455+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a7cfd60f-8fa4-42e9-9469-2372593ad247" />
+    <UnitTestResult executionId="0fa82010-784a-4e3d-95fe-00c66d00dc82" testId="b859bdea-2fc0-6376-aa64-b8254fd3b927" testName="StreamSetup_AddStream_ThrowsException_OnNullAsStreamList" computerName="DKSR-EFI-04" duration="00:00:00.0005557" startTime="2023-12-22T09:33:00.5529716+01:00" endTime="2023-12-22T09:33:00.5529716+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0fa82010-784a-4e3d-95fe-00c66d00dc82" />
+    <UnitTestResult executionId="c722cc68-ffd3-4b25-ba76-358127c72c2b" testId="783a6ac4-fcae-9e98-c6a7-8a56bd96d89f" testName="GetProperty_ThrowsException_OnMissingProperty" computerName="DKSR-EFI-04" duration="00:00:00.0011242" startTime="2023-12-22T09:33:00.5685949+01:00" endTime="2023-12-22T09:33:00.5685949+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c722cc68-ffd3-4b25-ba76-358127c72c2b" />
+    <UnitTestResult executionId="5aa92ea3-5fa6-4253-a8bd-1fb2c0a56afe" testId="14c47f62-e8d0-5be6-b2c3-fdd6664be5a1" testName="StreamSetup_Add_InsertsStreamNameAsDisplayNameIntoStreamType_OnValidStream" computerName="DKSR-EFI-04" duration="00:00:00.0003523" startTime="2023-12-22T09:33:00.5373455+01:00" endTime="2023-12-22T09:33:00.5373455+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5aa92ea3-5fa6-4253-a8bd-1fb2c0a56afe" />
+    <UnitTestResult executionId="054884d6-41ca-4631-9f7e-34c21f0cf826" testId="076451c6-0ae9-a0b8-573f-9b985c3c2e91" testName="GetMetadataItems_RetrievesMetadataItemTypesForCorrectDevice_OnTwoDevices" computerName="DKSR-EFI-04" duration="00:00:00.0002146" startTime="2023-12-22T09:33:00.5685949+01:00" endTime="2023-12-22T09:33:00.5685949+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="054884d6-41ca-4631-9f7e-34c21f0cf826" />
+    <UnitTestResult executionId="6205783a-57a2-44d9-8565-de2c6cc863ab" testId="1ee6f271-4ad7-b5d9-0b33-ae2fdd8dc10e" testName="StreamSetup_GetSupportedStreamTypeTypes_ReturnsEmptyList_OnDeviceNotAdded" computerName="DKSR-EFI-04" duration="00:00:00.0002254" startTime="2023-12-22T09:33:00.5529716+01:00" endTime="2023-12-22T09:33:00.5529716+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6205783a-57a2-44d9-8565-de2c6cc863ab" />
+    <UnitTestResult executionId="54258f8a-673f-468a-b523-10024823bfd2" testId="08367c1a-d8a5-1ddd-c5b0-bb37fb7fe068" testName="PreparePtzMoveCommand_ReturnsCorrectCommandData_OnpositiveFocus" computerName="DKSR-EFI-04" duration="00:00:00.0001539" startTime="2023-12-22T09:33:00.5217222+01:00" endTime="2023-12-22T09:33:00.5217222+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="54258f8a-673f-468a-b523-10024823bfd2" />
+    <UnitTestResult executionId="529f8a2f-4aae-4791-9e6e-6033969ad62d" testId="f3bddfd6-2016-0579-d899-122e4581d3a1" testName="StreamSetup_GetSupportedStreamTypeTypes_ReturnsOneOnAllowedConcurrentForSameStream_OnOneStreamAdded" computerName="DKSR-EFI-04" duration="00:00:00.0003869" startTime="2023-12-22T09:33:00.5529716+01:00" endTime="2023-12-22T09:33:00.5529716+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="529f8a2f-4aae-4791-9e6e-6033969ad62d" />
+    <UnitTestResult executionId="50b8dc81-e7f3-463b-a687-cacd03d557d6" testId="144fb55a-747b-8b95-de9e-4e291af6cedd" testName="AddMetadata_ThrowsException_OnNullAsDeviceHwid" computerName="DKSR-EFI-04" duration="00:00:00.0007303" startTime="2023-12-22T09:33:00.5685949+01:00" endTime="2023-12-22T09:33:00.5685949+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50b8dc81-e7f3-463b-a687-cacd03d557d6" />
+    <UnitTestResult executionId="7f3052f5-2ca4-4306-bd57-6c6a040c5885" testId="23770f63-16d9-496a-183b-477ff2231981" testName="StreamSetup_GetStreamTypes_RetrievesStreamTypesForCorrectDevice_OnTwoDevices" computerName="DKSR-EFI-04" duration="00:00:00.0003244" startTime="2023-12-22T09:33:00.5373455+01:00" endTime="2023-12-22T09:33:00.5373455+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f3052f5-2ca4-4306-bd57-6c6a040c5885" />
+    <UnitTestResult executionId="c04b4727-0981-470f-b2d6-5ac9d19d3d52" testId="0454514e-d2a6-5e07-a92d-8b4ca68b26ca" testName="AddMetadata_InsertsDisplayNameIntoMetadataItemType_OnValidInput" computerName="DKSR-EFI-04" duration="00:00:00.0004338" startTime="2023-12-22T09:33:00.5685949+01:00" endTime="2023-12-22T09:33:00.5685949+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c04b4727-0981-470f-b2d6-5ac9d19d3d52" />
+    <UnitTestResult executionId="1229db54-5b19-4f03-9e00-637cf1892fb6" testId="fddace2c-71ca-c7dd-68f1-e3336856b31d" testName="StreamSetup_Add_InsertsReferenceIdAsStreamTypeIntoStreamType_OnValidStream" computerName="DKSR-EFI-04" duration="00:00:00.0002838" startTime="2023-12-22T09:33:00.5373455+01:00" endTime="2023-12-22T09:33:00.5373455+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1229db54-5b19-4f03-9e00-637cf1892fb6" />
+    <UnitTestResult executionId="40f0d7cb-846a-4538-80fb-a376a2694137" testId="5114154f-c28e-2db7-3c63-2aa3b7aca8bc" testName="AddMetadata_InsertsReferenceIdIntoMetadataItemType_OnValidInput" computerName="DKSR-EFI-04" duration="00:00:00.0003967" startTime="2023-12-22T09:33:00.5685949+01:00" endTime="2023-12-22T09:33:00.5685949+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40f0d7cb-846a-4538-80fb-a376a2694137" />
+    <UnitTestResult executionId="87af24db-3aba-4de7-ad28-5597cadf2f9c" testId="9b70c453-dfd1-8612-3618-8f473e71cdf4" testName="GetProperty_ReturnsValue_OnFoundProperty" computerName="DKSR-EFI-04" duration="00:00:00.0001275" startTime="2023-12-22T09:33:00.5685949+01:00" endTime="2023-12-22T09:33:00.5842212+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87af24db-3aba-4de7-ad28-5597cadf2f9c" />
+    <UnitTestResult executionId="08f82b78-4cea-4a44-903f-cac9aa9a0bba" testId="b8fc86af-afb5-d1e2-d479-31dfa8b28470" testName="StreamSetup_Add_InsertsReferenceIdAsDisplayNameReferenceIdIntoStreamType_OnValidStream" computerName="DKSR-EFI-04" duration="00:00:00.0004014" startTime="2023-12-22T09:33:00.5373455+01:00" endTime="2023-12-22T09:33:00.5373455+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="08f82b78-4cea-4a44-903f-cac9aa9a0bba" />
+    <UnitTestResult executionId="809efb6c-5f45-41e3-8e58-4896f75242b0" testId="5820404f-9a30-e868-5be4-bc50996b659c" testName="AddMetadata_InsertsCorrectMetadataItemHwid_OnSecondDevice" computerName="DKSR-EFI-04" duration="00:00:00.0003105" startTime="2023-12-22T09:33:00.5685949+01:00" endTime="2023-12-22T09:33:00.5685949+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="809efb6c-5f45-41e3-8e58-4896f75242b0" />
+    <UnitTestResult executionId="e1c6c4bf-d758-4935-9299-0d1dc466c1ba" testId="4a6c6e60-32da-dfc3-f4db-9b29b79491e5" testName="PreparePtzMoveCommand_ReturnsCorrectCommandData_On0AsFocus" computerName="DKSR-EFI-04" duration="00:00:00.0001643" startTime="2023-12-22T09:33:00.5217222+01:00" endTime="2023-12-22T09:33:00.5217222+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e1c6c4bf-d758-4935-9299-0d1dc466c1ba" />
+    <UnitTestResult executionId="14943b50-c27a-476b-9bd7-027f679aa02d" testId="6dd1c0cb-66ce-a8e3-e9fc-3ee7a661e67d" testName="StreamSetup_Add_InsertsStreamNameIntoStreamType_OnValidInput" computerName="DKSR-EFI-04" duration="00:00:00.0003628" startTime="2023-12-22T09:33:00.5373455+01:00" endTime="2023-12-22T09:33:00.5373455+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14943b50-c27a-476b-9bd7-027f679aa02d" />
+    <UnitTestResult executionId="3f01018e-c154-4a89-9d0d-9d47cc95069f" testId="7de71375-610f-b3d2-82e1-02e525d2d54b" testName="GetProperty_ThrowsException_OnNullAsDictionary" computerName="DKSR-EFI-04" duration="00:00:00.0004562" startTime="2023-12-22T09:33:00.5842212+01:00" endTime="2023-12-22T09:33:00.5842212+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f01018e-c154-4a89-9d0d-9d47cc95069f" />
+    <UnitTestResult executionId="ea56ccd9-b8cf-498d-a169-2090bd853193" testId="2c264d0c-bb5d-2a16-b28c-ee77ef854209" testName="GetMetadataItems_ReturnsEmptyList_OnNotAddedDevice" computerName="DKSR-EFI-04" duration="00:00:00.0002870" startTime="2023-12-22T09:33:00.5685949+01:00" endTime="2023-12-22T09:33:00.5685949+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea56ccd9-b8cf-498d-a169-2090bd853193" />
+    <UnitTestResult executionId="1993a353-904f-4720-9a6e-84ca9a2757f4" testId="d125e3d3-e95e-f646-6234-2301b00a139b" testName="StreamSetup_Add_InsertsCorrectStreamHwid_OnSecondStream" computerName="DKSR-EFI-04" duration="00:00:00.0002771" startTime="2023-12-22T09:33:00.5373455+01:00" endTime="2023-12-22T09:33:00.5373455+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1993a353-904f-4720-9a6e-84ca9a2757f4" />
+    <UnitTestResult executionId="421eb121-a5ab-4b76-b582-07f2a003db61" testId="4139bf3d-188e-afbf-238f-90657c7d67ea" testName="AddMetadata_InsertsDisplayNameReferenceIdIntoMetadataItemType_OnValidInput" computerName="DKSR-EFI-04" duration="00:00:00.0003197" startTime="2023-12-22T09:33:00.5685949+01:00" endTime="2023-12-22T09:33:00.5685949+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="421eb121-a5ab-4b76-b582-07f2a003db61" />
+    <UnitTestResult executionId="5b39f5ab-bff6-4b83-9ff0-2b8ef165ed92" testId="5aaf4c5e-59f6-001d-13e0-8237eca86d34" testName="StreamSetup_GetSupportedStreamTypeTypes_ReturnsOneOnAllowedConcurrentForSecondStream_OnTwoStreamAdded" computerName="DKSR-EFI-04" duration="00:00:00.0003075" startTime="2023-12-22T09:33:00.5529716+01:00" endTime="2023-12-22T09:33:00.5529716+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b39f5ab-bff6-4b83-9ff0-2b8ef165ed92" />
+    <UnitTestResult executionId="a8bf00c1-a225-430f-b11e-00a933b22761" testId="424e7bd1-260e-5e7d-e631-50b2e0e81c68" testName="StreamSetup_AddStream_ThrowsException_OnNullAsDeviceHwid" computerName="DKSR-EFI-04" duration="00:00:00.0007195" startTime="2023-12-22T09:33:00.5529716+01:00" endTime="2023-12-22T09:33:00.5529716+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a8bf00c1-a225-430f-b11e-00a933b22761" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="StreamSetup_Add_CreatesOneStreamTypeForDevice_OnOneStreamInfo" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="7a1e053e-27f5-4707-3435-fb55ce887665">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="8a2e25dc-b766-411f-a23b-e6294149139d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="StreamSetup_Add_CreatesOneStreamTypeForDevice_OnOneStreamInfo" />
+    </UnitTest>
+    <UnitTest name="StreamSetup_GetStreamtypes_ReturnsEmptyList_OnNotAddedDevice" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="d14bfdbc-352b-abef-c69d-7f31b6c06a23">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="a7cfd60f-8fa4-42e9-9469-2372593ad247" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="StreamSetup_GetStreamtypes_ReturnsEmptyList_OnNotAddedDevice" />
+    </UnitTest>
+    <UnitTest name="StreamSetup_AddStream_ThrowsException_OnNullAsStreamList" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="b859bdea-2fc0-6376-aa64-b8254fd3b927">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="0fa82010-784a-4e3d-95fe-00c66d00dc82" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="StreamSetup_AddStream_ThrowsException_OnNullAsStreamList" />
+    </UnitTest>
+    <UnitTest name="GetProperty_ThrowsException_OnNullAsDictionary" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="7de71375-610f-b3d2-82e1-02e525d2d54b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICP" />
+      </TestCategory>
+      <Execution id="3f01018e-c154-4a89-9d0d-9d47cc95069f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCommon.UnitTests.SdkHelperTests" name="GetProperty_ThrowsException_OnNullAsDictionary" />
+    </UnitTest>
+    <UnitTest name="StreamSetup_GetSupportedStreamTypeTypes_InsertsName_OnOneStreamAdded" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="9efb3bf0-a806-a417-a241-310760078e97">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="fdaf428f-06a9-436d-b20a-9137ad2ae2cd" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="StreamSetup_GetSupportedStreamTypeTypes_InsertsName_OnOneStreamAdded" />
+    </UnitTest>
+    <UnitTest name="StreamSetup_GetSupportedStreamTypeTypes_InsertsDisplayName_OnOneStreamAdded" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="54ccd0b0-2368-151f-e544-4316c849ad33">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="6af7e392-f061-4328-b008-2cc211a94015" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="StreamSetup_GetSupportedStreamTypeTypes_InsertsDisplayName_OnOneStreamAdded" />
+    </UnitTest>
+    <UnitTest name="AddMetadata_ThrowsException_OnNullAsDeviceHwid" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="144fb55a-747b-8b95-de9e-4e291af6cedd">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Metadata" />
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="50b8dc81-e7f3-463b-a687-cacd03d557d6" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="AddMetadata_ThrowsException_OnNullAsDeviceHwid" />
+    </UnitTest>
+    <UnitTest name="StreamSetup_Add_InsertsReferenceIdIntoStreamType_OnValidStream" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="6314b363-54c1-2599-0cf5-2d3016bd852a">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="8278ac21-fe35-42ab-b4ec-3aa7442536b7" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="StreamSetup_Add_InsertsReferenceIdIntoStreamType_OnValidStream" />
+    </UnitTest>
+    <UnitTest name="StreamSetup_GetSupportedStreamTypeTypes_ReturnsOneselfInAllowedConcurrent_OnOneStreamAdded" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="3f4152a6-4b7e-0c2e-1a54-cd58d226135a">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="19551ea1-1ff5-45b8-a070-8d3872814918" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="StreamSetup_GetSupportedStreamTypeTypes_ReturnsOneselfInAllowedConcurrent_OnOneStreamAdded" />
+    </UnitTest>
+    <UnitTest name="StreamSetup_Add_InsertsEdgeStorageSupportedCapability_OnEachStream" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="99394a71-9e3f-b099-b50a-771d30558cc5">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="8594aa53-557f-48e1-a0f1-0ec476eb6efa" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="StreamSetup_Add_InsertsEdgeStorageSupportedCapability_OnEachStream" />
+    </UnitTest>
+    <UnitTest name="StreamSetup_AddStream_DoesNotAddStreamInformation_OnEmptyListAsStreamList" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="8ae43f56-3084-809e-5c9f-1322b6b0be7c">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="df76b372-94b0-4f9c-aec8-4b931329b590" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="StreamSetup_AddStream_DoesNotAddStreamInformation_OnEmptyListAsStreamList" />
+    </UnitTest>
+    <UnitTest name="StreamSetup_AddStream_ThrowsException_OnNullAsDeviceHwid" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="424e7bd1-260e-5e7d-e631-50b2e0e81c68">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="a8bf00c1-a225-430f-b11e-00a933b22761" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="StreamSetup_AddStream_ThrowsException_OnNullAsDeviceHwid" />
+    </UnitTest>
+    <UnitTest name="GetProperty_ThrowsException_OnNullAsName" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="801979ea-3ace-5db3-66a6-2fac152798b9">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICP" />
+      </TestCategory>
+      <Execution id="ccb35af0-17be-4098-92ec-892492edb7a7" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCommon.UnitTests.SdkHelperTests" name="GetProperty_ThrowsException_OnNullAsName" />
+    </UnitTest>
+    <UnitTest name="StreamSetup_GetSupportedStreamTypeTypes_ReturnsOneOnAllowedConcurrentLength_OnOneStreamAdded" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="77599e09-bcd8-edd3-f7ec-50cde7725286">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="cb01d547-0f73-48a0-8e6d-0e6e832d2d55" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="StreamSetup_GetSupportedStreamTypeTypes_ReturnsOneOnAllowedConcurrentLength_OnOneStreamAdded" />
+    </UnitTest>
+    <UnitTest name="AddMetadata_InsertsDisplayNameIntoMetadataItemType_OnValidInput" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="0454514e-d2a6-5e07-a92d-8b4ca68b26ca">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Metadata" />
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="c04b4727-0981-470f-b2d6-5ac9d19d3d52" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="AddMetadata_InsertsDisplayNameIntoMetadataItemType_OnValidInput" />
+    </UnitTest>
+    <UnitTest name="AddMetadata_InsertsCorrectMetadataItemHwid_OnFirstMetadataItem" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="f84d78d4-f1f7-f077-8f46-02a83a96e4ee">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Metadata" />
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="3aea5ac0-a29b-4a22-b739-6dff39169a9a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="AddMetadata_InsertsCorrectMetadataItemHwid_OnFirstMetadataItem" />
+    </UnitTest>
+    <UnitTest name="PreparePtzMoveCommand_ReturnsNull_OnSamePtzArgumentsSentTwice" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="3444cea8-4504-bd4b-7e1a-33b38a357737">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Ptz" />
+      </TestCategory>
+      <Execution id="2ed394a4-dd1d-404e-9def-82b9b5d25be4" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.SdkUtilityTests" name="PreparePtzMoveCommand_ReturnsNull_OnSamePtzArgumentsSentTwice" />
+    </UnitTest>
+    <UnitTest name="StreamSetup_Add_CreatesTwoStreamTypes_OnStreamDataWithTwoStreams" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="7ed770e4-b3c4-7306-7f83-225994dafa9a">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="d593f600-de57-4ec6-bc45-d5ac6399f0ee" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="StreamSetup_Add_CreatesTwoStreamTypes_OnStreamDataWithTwoStreams" />
+    </UnitTest>
+    <UnitTest name="StreamSetup_GetSupportedStreamTypeTypes_ReturnsEmptyList_OnDeviceNotAdded" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="1ee6f271-4ad7-b5d9-0b33-ae2fdd8dc10e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="6205783a-57a2-44d9-8565-de2c6cc863ab" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="StreamSetup_GetSupportedStreamTypeTypes_ReturnsEmptyList_OnDeviceNotAdded" />
+    </UnitTest>
+    <UnitTest name="StreamSetup_Add_InsertsReferenceIdAsDisplayNameReferenceIdIntoStreamType_OnValidStream" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="b8fc86af-afb5-d1e2-d479-31dfa8b28470">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="08f82b78-4cea-4a44-903f-cac9aa9a0bba" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="StreamSetup_Add_InsertsReferenceIdAsDisplayNameReferenceIdIntoStreamType_OnValidStream" />
+    </UnitTest>
+    <UnitTest name="StreamSetup_GetSupportedStreamTypeTypes_ReturnsListOf2_OnTwoStreamsAdded" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="d22b54ef-b2d4-69b4-7d2b-e26ca27a5da7">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="f1aa924f-d83b-4590-8cf4-e3d60a9eca82" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="StreamSetup_GetSupportedStreamTypeTypes_ReturnsListOf2_OnTwoStreamsAdded" />
+    </UnitTest>
+    <UnitTest name="StreamSetup_GetSupportedStreamTypeTypes_ReturnsOtherStreamInAllowedConcurrent_OnTwoStreamAdded" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="bf3d24ab-9ed5-e37e-c3f2-229fb37f8bae">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="e923b291-6c9d-491c-970b-5301c9d86e9d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="StreamSetup_GetSupportedStreamTypeTypes_ReturnsOtherStreamInAllowedConcurrent_OnTwoStreamAdded" />
+    </UnitTest>
+    <UnitTest name="StreamSetup_Add_InsertsCorrectStreamHwid_OnSecondDevice" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="ecb1f12a-c2ae-77f1-ac62-f7037dc01a3c">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="67c9f0df-a65b-4cf1-9098-8522c0a12081" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="StreamSetup_Add_InsertsCorrectStreamHwid_OnSecondDevice" />
+    </UnitTest>
+    <UnitTest name="GetProperty_ReturnsValue_OnFoundProperty" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="9b70c453-dfd1-8612-3618-8f473e71cdf4">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICP" />
+      </TestCategory>
+      <Execution id="87af24db-3aba-4de7-ad28-5597cadf2f9c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCommon.UnitTests.SdkHelperTests" name="GetProperty_ReturnsValue_OnFoundProperty" />
+    </UnitTest>
+    <UnitTest name="AddMetadata_InsertsReferenceIdIntoMetadataItemType_OnValidInput" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="5114154f-c28e-2db7-3c63-2aa3b7aca8bc">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Metadata" />
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="40f0d7cb-846a-4538-80fb-a376a2694137" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="AddMetadata_InsertsReferenceIdIntoMetadataItemType_OnValidInput" />
+    </UnitTest>
+    <UnitTest name="GetMetadataItems_RetrievesMetadataItemTypesForCorrectDevice_OnTwoDevices" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="076451c6-0ae9-a0b8-573f-9b985c3c2e91">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Metadata" />
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="054884d6-41ca-4631-9f7e-34c21f0cf826" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="GetMetadataItems_RetrievesMetadataItemTypesForCorrectDevice_OnTwoDevices" />
+    </UnitTest>
+    <UnitTest name="AddMetadata_CreatesTwoMetadataItemTypes_OnTwoMetadataItems" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="19204dcb-3619-3f65-7336-0eab2cae1363">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Metadata" />
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="642089f9-7559-430e-9a23-585b63687def" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="AddMetadata_CreatesTwoMetadataItemTypes_OnTwoMetadataItems" />
+    </UnitTest>
+    <UnitTest name="StreamSetup_Add_InsertsReferenceIdAsStreamTypeIntoStreamType_OnValidStream" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="fddace2c-71ca-c7dd-68f1-e3336856b31d">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="1229db54-5b19-4f03-9e00-637cf1892fb6" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="StreamSetup_Add_InsertsReferenceIdAsStreamTypeIntoStreamType_OnValidStream" />
+    </UnitTest>
+    <UnitTest name="StreamSetup_GetSupportedStreamTypeTypes_InsertsReferenceId_OnOneStreamAdded" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="3f447a3d-874c-25c4-7889-df24d3b2ca41">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="d102e625-9c54-40c5-9412-7b26146e4928" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="StreamSetup_GetSupportedStreamTypeTypes_InsertsReferenceId_OnOneStreamAdded" />
+    </UnitTest>
+    <UnitTest name="StreamSetup_Add_InsertsCorrectStreamHwid_OnSecondStream" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="d125e3d3-e95e-f646-6234-2301b00a139b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="1993a353-904f-4720-9a6e-84ca9a2757f4" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="StreamSetup_Add_InsertsCorrectStreamHwid_OnSecondStream" />
+    </UnitTest>
+    <UnitTest name="StreamSetup_GetStreamTypes_ThrowsException_OnNullAsDeviceHwid" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="2fdf7b80-e9a2-7ab1-32b1-df6555fcdaba">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="b83b13ed-1c49-4bdc-b069-593a9f0ebc0f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="StreamSetup_GetStreamTypes_ThrowsException_OnNullAsDeviceHwid" />
+    </UnitTest>
+    <UnitTest name="StreamSetup_GetSupportedStreamTypeTypes_ReturnsOneOnAllowedConcurrentForSameStream_OnOneStreamAdded" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="f3bddfd6-2016-0579-d899-122e4581d3a1">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="529f8a2f-4aae-4791-9e6e-6033969ad62d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="StreamSetup_GetSupportedStreamTypeTypes_ReturnsOneOnAllowedConcurrentForSameStream_OnOneStreamAdded" />
+    </UnitTest>
+    <UnitTest name="StreamSetup_GetSupportedStreamTypeTypes_ReturnsTwoOnAllowedConcurrentLength_OnTwoStreamAdded" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="2064c620-2005-c452-3572-cbe6bb334791">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="18792cc9-8290-4cc4-b3e6-3d60b74c5f01" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="StreamSetup_GetSupportedStreamTypeTypes_ReturnsTwoOnAllowedConcurrentLength_OnTwoStreamAdded" />
+    </UnitTest>
+    <UnitTest name="AddMetadata_InsertsMetadataNameIntoMetadataItemType_OnValidInput" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="23817b17-6d4d-4711-d895-412b07c9f1fe">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Metadata" />
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="18d3ac7d-78c1-4dad-bf6c-7da44b7f86b7" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="AddMetadata_InsertsMetadataNameIntoMetadataItemType_OnValidInput" />
+    </UnitTest>
+    <UnitTest name="AddMetadata_InsertsCorrectMetadataItemHwid_OnSecondMetadataItem" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="d18acf0e-9b55-9856-5a9c-386cfcb9f0fa">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Metadata" />
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="4be97429-2b4d-42d7-9fa2-b0edafcd1b8b" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="AddMetadata_InsertsCorrectMetadataItemHwid_OnSecondMetadataItem" />
+    </UnitTest>
+    <UnitTest name="GetMetadataItems_ReturnsEmptyList_OnNotAddedDevice" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="2c264d0c-bb5d-2a16-b28c-ee77ef854209">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Metadata" />
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="ea56ccd9-b8cf-498d-a169-2090bd853193" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="GetMetadataItems_ReturnsEmptyList_OnNotAddedDevice" />
+    </UnitTest>
+    <UnitTest name="Addmetadata_ThrowsException_OnNullAsMetadataList" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="8f1b1d1f-c304-caa8-d278-476197dc49c6">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Metadata" />
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="aec5f011-0afb-4767-af54-0dc2eee63ae8" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="Addmetadata_ThrowsException_OnNullAsMetadataList" />
+    </UnitTest>
+    <UnitTest name="PreparePtzMoveCommand_ReturnsCorrectCommandData_On0AsFocus" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="4a6c6e60-32da-dfc3-f4db-9b29b79491e5">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Ptz" />
+      </TestCategory>
+      <Execution id="e1c6c4bf-d758-4935-9299-0d1dc466c1ba" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.SdkUtilityTests" name="PreparePtzMoveCommand_ReturnsCorrectCommandData_On0AsFocus" />
+    </UnitTest>
+    <UnitTest name="PreparePtzMoveCommand_ReturnsCorrectCommandData_OnAutoFocus" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="ea76195c-b0b2-dc83-d593-67b5140a1fd6">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Ptz" />
+      </TestCategory>
+      <Execution id="0bbb8c29-f9af-4dbd-8992-dc8a5f81532f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.SdkUtilityTests" name="PreparePtzMoveCommand_ReturnsCorrectCommandData_OnAutoFocus" />
+    </UnitTest>
+    <UnitTest name="GetProperty_ThrowsException_OnMissingProperty" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="783a6ac4-fcae-9e98-c6a7-8a56bd96d89f">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICP" />
+      </TestCategory>
+      <Execution id="c722cc68-ffd3-4b25-ba76-358127c72c2b" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCommon.UnitTests.SdkHelperTests" name="GetProperty_ThrowsException_OnMissingProperty" />
+    </UnitTest>
+    <UnitTest name="AddMetadata_DoesNotAddMetadataItemInformation_OnEmptyListAsMetadataList" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="50f67ad7-75ce-ff7e-0db6-74289337d374">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Metadata" />
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="0df927d3-8885-4332-b080-7323a4a48fc9" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="AddMetadata_DoesNotAddMetadataItemInformation_OnEmptyListAsMetadataList" />
+    </UnitTest>
+    <UnitTest name="PreparePtzMoveCommand_ReturnsCorrectCommandData_OnNegativeFocus" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="28022747-bbc2-92c8-5c99-39320c142983">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Ptz" />
+      </TestCategory>
+      <Execution id="912810d6-8c10-4a89-bff6-9328e350ed37" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.SdkUtilityTests" name="PreparePtzMoveCommand_ReturnsCorrectCommandData_OnNegativeFocus" />
+    </UnitTest>
+    <UnitTest name="StreamSetup_Add_InsertsStreamNameAsDisplayNameIntoStreamType_OnValidStream" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="14c47f62-e8d0-5be6-b2c3-fdd6664be5a1">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="5aa92ea3-5fa6-4253-a8bd-1fb2c0a56afe" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="StreamSetup_Add_InsertsStreamNameAsDisplayNameIntoStreamType_OnValidStream" />
+    </UnitTest>
+    <UnitTest name="StreamSetup_Add_InsertsCorrectStreamHwid_OnFirstStream" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="f5751b5a-cf0f-6c33-434a-231504e90d10">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="4135f83e-e692-4dd6-a3c2-fa6f7b33e893" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="StreamSetup_Add_InsertsCorrectStreamHwid_OnFirstStream" />
+    </UnitTest>
+    <UnitTest name="StreamSetup_GetStreamTypes_RetrievesStreamTypesForCorrectDevice_OnTwoDevices" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="23770f63-16d9-496a-183b-477ff2231981">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="7f3052f5-2ca4-4306-bd57-6c6a040c5885" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="StreamSetup_GetStreamTypes_RetrievesStreamTypesForCorrectDevice_OnTwoDevices" />
+    </UnitTest>
+    <UnitTest name="StreamSetup_Add_InsertsStreamNameIntoStreamType_OnValidInput" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="6dd1c0cb-66ce-a8e3-e9fc-3ee7a661e67d">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="14943b50-c27a-476b-9bd7-027f679aa02d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="StreamSetup_Add_InsertsStreamNameIntoStreamType_OnValidInput" />
+    </UnitTest>
+    <UnitTest name="GetMetadataItems_ThrowsException_OnNullAsDeviceHwid" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="46dd0565-655b-f05a-9e14-50b01c800ecb">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Metadata" />
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="4f184845-0c97-42fe-8a7d-a2b0f1b12c79" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="GetMetadataItems_ThrowsException_OnNullAsDeviceHwid" />
+    </UnitTest>
+    <UnitTest name="AddMetadata_InsertsCorrectMetadataItemHwid_OnSecondDevice" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="5820404f-9a30-e868-5be4-bc50996b659c">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Metadata" />
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="809efb6c-5f45-41e3-8e58-4896f75242b0" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="AddMetadata_InsertsCorrectMetadataItemHwid_OnSecondDevice" />
+    </UnitTest>
+    <UnitTest name="AddMetadata_CreatesOneMetadataItemType_OnOneMetadataItem" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="73b05d55-d1ca-39b6-5e42-741859ded29b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Metadata" />
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="f335a0dc-8ea3-4bd3-acc2-1e46d96fe073" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="AddMetadata_CreatesOneMetadataItemType_OnOneMetadataItem" />
+    </UnitTest>
+    <UnitTest name="AddMetadata_InsertsDisplayNameReferenceIdIntoMetadataItemType_OnValidInput" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="4139bf3d-188e-afbf-238f-90657c7d67ea">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Metadata" />
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="421eb121-a5ab-4b76-b582-07f2a003db61" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="AddMetadata_InsertsDisplayNameReferenceIdIntoMetadataItemType_OnValidInput" />
+    </UnitTest>
+    <UnitTest name="PreparePtzMoveCommand_ReturnsCorrectPtzData_OnTwoCallsWithDifferentPtzArguments" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="44c4e60c-e27a-3f69-5f97-ef2fab8fd5e7">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Ptz" />
+      </TestCategory>
+      <Execution id="90b37cee-c450-4b36-a3a4-a6c3fb430ef2" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.SdkUtilityTests" name="PreparePtzMoveCommand_ReturnsCorrectPtzData_OnTwoCallsWithDifferentPtzArguments" />
+    </UnitTest>
+    <UnitTest name="PreparePtzMoveCommand_ThrowsException_OnNullAsPtzArguments" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="fe2e7f1c-ff9c-399e-2747-33d9ca3bcc00">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Ptz" />
+      </TestCategory>
+      <Execution id="6c7f4307-d872-4afa-b31c-515d006d8a3f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.SdkUtilityTests" name="PreparePtzMoveCommand_ThrowsException_OnNullAsPtzArguments" />
+    </UnitTest>
+    <UnitTest name="AddMetadata_InsertsValidTimeIntoMetadataItemType_OnValidInput" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="6cd3590b-9def-090e-0fd2-70bd4953b6f6">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Metadata" />
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="35791989-b8a5-4c9d-9696-751922b1aaf6" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="AddMetadata_InsertsValidTimeIntoMetadataItemType_OnValidInput" />
+    </UnitTest>
+    <UnitTest name="StreamSetup_GetSupportedStreamTypeTypes_ReturnsOneOnAllowedConcurrentForSecondStream_OnTwoStreamAdded" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="5aaf4c5e-59f6-001d-13e0-8237eca86d34">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="5b39f5ab-bff6-4b83-9ff0-2b8ef165ed92" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="StreamSetup_GetSupportedStreamTypeTypes_ReturnsOneOnAllowedConcurrentForSecondStream_OnTwoStreamAdded" />
+    </UnitTest>
+    <UnitTest name="PreparePtzMoveCommand_ReturnsCorrectCommandData_OnpositiveFocus" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="08367c1a-d8a5-1ddd-c5b0-bb37fb7fe068">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Ptz" />
+      </TestCategory>
+      <Execution id="54258f8a-673f-468a-b523-10024823bfd2" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.SdkUtilityTests" name="PreparePtzMoveCommand_ReturnsCorrectCommandData_OnpositiveFocus" />
+    </UnitTest>
+    <UnitTest name="StreamSetup_GetSupportedStreamTypeTypes_ThrowsException_OnNullAsDeviceHwid" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="e0f7b127-d362-8985-1f9e-1ab9487e8777">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICPCorp" />
+      </TestCategory>
+      <Execution id="2d2eef84-83fd-4905-acf6-1846388c9577" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.StreamSetupTests" name="StreamSetup_GetSupportedStreamTypeTypes_ThrowsException_OnNullAsDeviceHwid" />
+    </UnitTest>
+    <UnitTest name="PreparePtzMoveCommand_ReturnsCorrectPtzData_OnValidInput" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcorpdriver.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcorpdriver.unittests.dll" id="1e06b1ec-0ee0-2930-a9eb-2d164b2ceb0f">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Ptz" />
+      </TestCategory>
+      <Execution id="3067412e-68e6-40db-b60e-0fc1a847b815" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCorpDriver.UnitTests.SdkUtilityTests" name="PreparePtzMoveCommand_ReturnsCorrectPtzData_OnValidInput" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="7a1e053e-27f5-4707-3435-fb55ce887665" executionId="8a2e25dc-b766-411f-a23b-e6294149139d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="44c4e60c-e27a-3f69-5f97-ef2fab8fd5e7" executionId="90b37cee-c450-4b36-a3a4-a6c3fb430ef2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1e06b1ec-0ee0-2930-a9eb-2d164b2ceb0f" executionId="3067412e-68e6-40db-b60e-0fc1a847b815" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9efb3bf0-a806-a417-a241-310760078e97" executionId="fdaf428f-06a9-436d-b20a-9137ad2ae2cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="46dd0565-655b-f05a-9e14-50b01c800ecb" executionId="4f184845-0c97-42fe-8a7d-a2b0f1b12c79" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d18acf0e-9b55-9856-5a9c-386cfcb9f0fa" executionId="4be97429-2b4d-42d7-9fa2-b0edafcd1b8b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ae43f56-3084-809e-5c9f-1322b6b0be7c" executionId="df76b372-94b0-4f9c-aec8-4b931329b590" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99394a71-9e3f-b099-b50a-771d30558cc5" executionId="8594aa53-557f-48e1-a0f1-0ec476eb6efa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3444cea8-4504-bd4b-7e1a-33b38a357737" executionId="2ed394a4-dd1d-404e-9def-82b9b5d25be4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ea76195c-b0b2-dc83-d593-67b5140a1fd6" executionId="0bbb8c29-f9af-4dbd-8992-dc8a5f81532f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5751b5a-cf0f-6c33-434a-231504e90d10" executionId="4135f83e-e692-4dd6-a3c2-fa6f7b33e893" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7ed770e4-b3c4-7306-7f83-225994dafa9a" executionId="d593f600-de57-4ec6-bc45-d5ac6399f0ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ecb1f12a-c2ae-77f1-ac62-f7037dc01a3c" executionId="67c9f0df-a65b-4cf1-9098-8522c0a12081" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77599e09-bcd8-edd3-f7ec-50cde7725286" executionId="cb01d547-0f73-48a0-8e6d-0e6e832d2d55" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="801979ea-3ace-5db3-66a6-2fac152798b9" executionId="ccb35af0-17be-4098-92ec-892492edb7a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f4152a6-4b7e-0c2e-1a54-cd58d226135a" executionId="19551ea1-1ff5-45b8-a070-8d3872814918" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d22b54ef-b2d4-69b4-7d2b-e26ca27a5da7" executionId="f1aa924f-d83b-4590-8cf4-e3d60a9eca82" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="50f67ad7-75ce-ff7e-0db6-74289337d374" executionId="0df927d3-8885-4332-b080-7323a4a48fc9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19204dcb-3619-3f65-7336-0eab2cae1363" executionId="642089f9-7559-430e-9a23-585b63687def" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="23817b17-6d4d-4711-d895-412b07c9f1fe" executionId="18d3ac7d-78c1-4dad-bf6c-7da44b7f86b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0f7b127-d362-8985-1f9e-1ab9487e8777" executionId="2d2eef84-83fd-4905-acf6-1846388c9577" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="54ccd0b0-2368-151f-e544-4316c849ad33" executionId="6af7e392-f061-4328-b008-2cc211a94015" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f447a3d-874c-25c4-7889-df24d3b2ca41" executionId="d102e625-9c54-40c5-9412-7b26146e4928" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2064c620-2005-c452-3572-cbe6bb334791" executionId="18792cc9-8290-4cc4-b3e6-3d60b74c5f01" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2fdf7b80-e9a2-7ab1-32b1-df6555fcdaba" executionId="b83b13ed-1c49-4bdc-b069-593a9f0ebc0f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f1b1d1f-c304-caa8-d278-476197dc49c6" executionId="aec5f011-0afb-4767-af54-0dc2eee63ae8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f84d78d4-f1f7-f077-8f46-02a83a96e4ee" executionId="3aea5ac0-a29b-4a22-b739-6dff39169a9a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="28022747-bbc2-92c8-5c99-39320c142983" executionId="912810d6-8c10-4a89-bff6-9328e350ed37" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73b05d55-d1ca-39b6-5e42-741859ded29b" executionId="f335a0dc-8ea3-4bd3-acc2-1e46d96fe073" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6314b363-54c1-2599-0cf5-2d3016bd852a" executionId="8278ac21-fe35-42ab-b4ec-3aa7442536b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6cd3590b-9def-090e-0fd2-70bd4953b6f6" executionId="35791989-b8a5-4c9d-9696-751922b1aaf6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fe2e7f1c-ff9c-399e-2747-33d9ca3bcc00" executionId="6c7f4307-d872-4afa-b31c-515d006d8a3f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf3d24ab-9ed5-e37e-c3f2-229fb37f8bae" executionId="e923b291-6c9d-491c-970b-5301c9d86e9d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d14bfdbc-352b-abef-c69d-7f31b6c06a23" executionId="a7cfd60f-8fa4-42e9-9469-2372593ad247" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b859bdea-2fc0-6376-aa64-b8254fd3b927" executionId="0fa82010-784a-4e3d-95fe-00c66d00dc82" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="783a6ac4-fcae-9e98-c6a7-8a56bd96d89f" executionId="c722cc68-ffd3-4b25-ba76-358127c72c2b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="14c47f62-e8d0-5be6-b2c3-fdd6664be5a1" executionId="5aa92ea3-5fa6-4253-a8bd-1fb2c0a56afe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="076451c6-0ae9-a0b8-573f-9b985c3c2e91" executionId="054884d6-41ca-4631-9f7e-34c21f0cf826" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1ee6f271-4ad7-b5d9-0b33-ae2fdd8dc10e" executionId="6205783a-57a2-44d9-8565-de2c6cc863ab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="08367c1a-d8a5-1ddd-c5b0-bb37fb7fe068" executionId="54258f8a-673f-468a-b523-10024823bfd2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3bddfd6-2016-0579-d899-122e4581d3a1" executionId="529f8a2f-4aae-4791-9e6e-6033969ad62d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="144fb55a-747b-8b95-de9e-4e291af6cedd" executionId="50b8dc81-e7f3-463b-a687-cacd03d557d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="23770f63-16d9-496a-183b-477ff2231981" executionId="7f3052f5-2ca4-4306-bd57-6c6a040c5885" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0454514e-d2a6-5e07-a92d-8b4ca68b26ca" executionId="c04b4727-0981-470f-b2d6-5ac9d19d3d52" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fddace2c-71ca-c7dd-68f1-e3336856b31d" executionId="1229db54-5b19-4f03-9e00-637cf1892fb6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5114154f-c28e-2db7-3c63-2aa3b7aca8bc" executionId="40f0d7cb-846a-4538-80fb-a376a2694137" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9b70c453-dfd1-8612-3618-8f473e71cdf4" executionId="87af24db-3aba-4de7-ad28-5597cadf2f9c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b8fc86af-afb5-d1e2-d479-31dfa8b28470" executionId="08f82b78-4cea-4a44-903f-cac9aa9a0bba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5820404f-9a30-e868-5be4-bc50996b659c" executionId="809efb6c-5f45-41e3-8e58-4896f75242b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4a6c6e60-32da-dfc3-f4db-9b29b79491e5" executionId="e1c6c4bf-d758-4935-9299-0d1dc466c1ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6dd1c0cb-66ce-a8e3-e9fc-3ee7a661e67d" executionId="14943b50-c27a-476b-9bd7-027f679aa02d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7de71375-610f-b3d2-82e1-02e525d2d54b" executionId="3f01018e-c154-4a89-9d0d-9d47cc95069f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c264d0c-bb5d-2a16-b28c-ee77ef854209" executionId="ea56ccd9-b8cf-498d-a169-2090bd853193" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d125e3d3-e95e-f646-6234-2301b00a139b" executionId="1993a353-904f-4720-9a6e-84ca9a2757f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4139bf3d-188e-afbf-238f-90657c7d67ea" executionId="421eb121-a5ab-4b76-b582-07f2a003db61" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5aaf4c5e-59f6-001d-13e0-8237eca86d34" executionId="5b39f5ab-bff6-4b83-9ff0-2b8ef165ed92" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="424e7bd1-260e-5e7d-e631-50b2e0e81c68" executionId="a8bf00c1-a225-430f-b11e-00a933b22761" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="57" executed="57" passed="57" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="90f87474-6f25-4c45-9df7-2af248bab1e3" name="DKSR-EFI-04$@DKSR-EFI-04 2023-12-22 09:33:46" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-12-22T09:33:46.5844434+01:00" queuing="2023-12-22T09:33:46.5844434+01:00" start="2023-12-22T09:33:45.3344384+01:00" finish="2023-12-22T09:33:46.6313176+01:00" />
+  <TestSettings name="default" id="9b0e4a97-56ad-4e36-b800-94a85d3d7323">
+    <Deployment runDeploymentRoot="DKSR-EFI-04$_DKSR-EFI-04_2023-12-22_09_33_46" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="723d1bf8-3241-4325-ab98-c022596f401e" testId="6e3e37f3-fa68-4b79-3db4-e54fa2ea50fa" testName="ServerConfigXml_UseWebApi_Removed" computerName="DKSR-EFI-04" duration="00:00:00.0089592" startTime="2023-12-22T09:33:46.0844417+01:00" endTime="2023-12-22T09:33:46.1781910+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="723d1bf8-3241-4325-ab98-c022596f401e" />
+    <UnitTestResult executionId="c23553e8-8f60-4411-9190-4a1fd9b193a7" testId="137939e2-3aa6-ddb8-bb44-efc3d3bd0336" testName="TestForAssemblyCoverage" computerName="DKSR-EFI-04" duration="00:00:00.0328889" startTime="2023-12-22T09:33:46.1938137+01:00" endTime="2023-12-22T09:33:46.2250709+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c23553e8-8f60-4411-9190-4a1fd9b193a7" />
+    <UnitTestResult executionId="2ebf2b5d-780b-489e-9d8e-ec216f98e859" testId="4688e2a7-5fc8-2e6f-0976-7c757aaac738" testName="ServerConfigXml_UseRemoting_Removed" computerName="DKSR-EFI-04" duration="00:00:00.0007435" startTime="2023-12-22T09:33:46.1938137+01:00" endTime="2023-12-22T09:33:46.1938137+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ebf2b5d-780b-489e-9d8e-ec216f98e859" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ServerConfigXml_UseWebApi_Removed" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.server.service.unittests\bin\x64\debug\net472\videoos.server.service.unittests.dll" id="6e3e37f3-fa68-4b79-3db4-e54fa2ea50fa">
+      <Execution id="723d1bf8-3241-4325-ab98-c022596f401e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Server.Service.UnitTests\bin\x64\Debug\net472\VideoOS.Server.Service.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Server.Service.UnitTests.ServerConfigXmlTest" name="ServerConfigXml_UseWebApi_Removed" />
+    </UnitTest>
+    <UnitTest name="ServerConfigXml_UseRemoting_Removed" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.server.service.unittests\bin\x64\debug\net472\videoos.server.service.unittests.dll" id="4688e2a7-5fc8-2e6f-0976-7c757aaac738">
+      <Execution id="2ebf2b5d-780b-489e-9d8e-ec216f98e859" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Server.Service.UnitTests\bin\x64\Debug\net472\VideoOS.Server.Service.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Server.Service.UnitTests.ServerConfigXmlTest" name="ServerConfigXml_UseRemoting_Removed" />
+    </UnitTest>
+    <UnitTest name="TestForAssemblyCoverage" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.server.service.unittests\bin\x64\debug\net472\videoos.server.service.unittests.dll" id="137939e2-3aa6-ddb8-bb44-efc3d3bd0336">
+      <Execution id="c23553e8-8f60-4411-9190-4a1fd9b193a7" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Server.Service.UnitTests\bin\x64\Debug\net472\VideoOS.Server.Service.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Server.Service.UnitTests.UnitTest1" name="TestForAssemblyCoverage" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="6e3e37f3-fa68-4b79-3db4-e54fa2ea50fa" executionId="723d1bf8-3241-4325-ab98-c022596f401e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="137939e2-3aa6-ddb8-bb44-efc3d3bd0336" executionId="c23553e8-8f60-4411-9190-4a1fd9b193a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4688e2a7-5fc8-2e6f-0976-7c757aaac738" executionId="2ebf2b5d-780b-489e-9d8e-ec216f98e859" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

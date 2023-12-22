@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="8cb13031-7757-4d53-99ff-9bbd19be8fe6" name="DKSR-EFI-04$@DKSR-EFI-04 2023-12-22 09:35:23" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-12-22T09:35:23.0224445+01:00" queuing="2023-12-22T09:35:23.0224445+01:00" start="2023-12-22T09:35:20.3817928+01:00" finish="2023-12-22T09:35:25.0224409+01:00" />
+  <TestSettings name="default" id="7288237f-7386-4d71-9367-0ec0a2eb2eef">
+    <Deployment runDeploymentRoot="DKSR-EFI-04$_DKSR-EFI-04_2023-12-22_09_35_23" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="1e5ef841-6d87-42c7-8b37-3dc0843f157d" testId="34dd6073-72f3-7452-2410-e6841f900937" testName="CommandAcknowledgementHandler_Returns_AfterTaskSucceeds" computerName="DKSR-EFI-04" duration="00:00:00.0854058" startTime="2023-12-22T09:35:22.2698641+01:00" endTime="2023-12-22T09:35:22.3557556+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e5ef841-6d87-42c7-8b37-3dc0843f157d" />
+    <UnitTestResult executionId="75aea37e-c4a4-42b1-99eb-64f21e01f4c3" testId="369b70fb-adea-0c7a-c53f-0e4a5434b378" testName="MessageClient_ConnectsSubscribesAndReceivesMessages" computerName="DKSR-EFI-04" duration="00:00:00.1247676" startTime="2023-12-22T09:35:22.7432549+01:00" endTime="2023-12-22T09:35:22.8684215+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75aea37e-c4a4-42b1-99eb-64f21e01f4c3" />
+    <UnitTestResult executionId="68c79143-8e3f-483b-a3df-0499d2df6b54" testId="61c7e091-1b3e-1a39-515c-79461bbab0f9" testName="UnmanagedMessagesClient_CreateAndConnectWebSocket_SetsCorrectUriAndToken" computerName="DKSR-EFI-04" duration="00:00:00.0093617" startTime="2023-12-22T09:35:23.0368021+01:00" endTime="2023-12-22T09:35:23.0463650+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="68c79143-8e3f-483b-a3df-0499d2df6b54" />
+    <UnitTestResult executionId="38fe3133-4e0e-4cd7-8909-aed9e395e287" testId="b62116f8-b23d-e89b-a86d-2123115909d7" testName="IncomingCommandProcessor_NotifiesHandler_OnAck" computerName="DKSR-EFI-04" duration="00:00:00.1849347" startTime="2023-12-22T09:35:22.3558619+01:00" endTime="2023-12-22T09:35:22.5410843+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38fe3133-4e0e-4cd7-8909-aed9e395e287" />
+    <UnitTestResult executionId="982db6b7-3478-47f1-a86b-f9a1bcb43a43" testId="d4a31fd0-d7bb-644e-ae0f-28595237d2c2" testName="UnmanagedMessagesClient_UnsubscribeAsyncThrowsArgumentNullException_WhenEmptyTopic" computerName="DKSR-EFI-04" duration="00:00:00.0030225" startTime="2023-12-22T09:35:23.1363887+01:00" endTime="2023-12-22T09:35:23.1395390+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="982db6b7-3478-47f1-a86b-f9a1bcb43a43" />
+    <UnitTestResult executionId="d91109f7-e88e-41e2-990f-bac71871fe8d" testId="ddd6506e-79b0-b218-a118-9e4bb15f5787" testName="UnmanagedMessagesClient_NewMessageAsyncCalled_WhenMessageIsReceived" computerName="DKSR-EFI-04" duration="00:00:00.0136977" startTime="2023-12-22T09:35:23.2749514+01:00" endTime="2023-12-22T09:35:23.2887999+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d91109f7-e88e-41e2-990f-bac71871fe8d">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+Session id: &#xD;
+Last seq: 0</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="91bd6e4e-f504-4562-9914-744d4a092eff" testId="51cb1d8b-21a7-3ead-df4d-dff7b13c3162" testName="LastProcessedMessageSequence_KeepsHigherValue_WhenCalledFromMultipleThreads (5,1000)" computerName="DKSR-EFI-04" duration="00:00:00.1833244" startTime="2023-12-22T09:35:22.5541730+01:00" endTime="2023-12-22T09:35:22.7431156+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="91bd6e4e-f504-4562-9914-744d4a092eff" />
+    <UnitTestResult executionId="f783942e-a56f-4c84-8e1b-13ec6abdd530" testId="f321d583-6820-e8ad-87f2-98ed884298f5" testName="IncomingCommandProcessor_NotifiesHandler_OnMessage" computerName="DKSR-EFI-04" duration="00:00:00.0085668" startTime="2023-12-22T09:35:22.5411515+01:00" endTime="2023-12-22T09:35:22.5499092+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f783942e-a56f-4c84-8e1b-13ec6abdd530" />
+    <UnitTestResult executionId="a26f5b72-bcac-4196-a636-af210b1eeb18" testId="844a9fa4-118c-b932-6fa0-4c03835f9391" testName="CommandAcknowledgementHandler_Throws_AfterTimeoutExpiration" computerName="DKSR-EFI-04" duration="00:00:00.2570997" startTime="2023-12-22T09:35:21.9694029+01:00" endTime="2023-12-22T09:35:22.2602514+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a26f5b72-bcac-4196-a636-af210b1eeb18" />
+    <UnitTestResult executionId="56ef6640-137b-4fa7-b7b3-c15c6fd1db26" testId="e3f43c17-4ef6-ef50-cf90-968950273566" testName="UnmanagedMessagesClient_SubscribeAsyncThrowsInvalidOperationException_WhenNotConnected" computerName="DKSR-EFI-04" duration="00:00:00.0054062" startTime="2023-12-22T09:35:23.0883823+01:00" endTime="2023-12-22T09:35:23.0939492+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56ef6640-137b-4fa7-b7b3-c15c6fd1db26" />
+    <UnitTestResult executionId="1932a83d-34e4-4b7f-ac7b-bed4afd75e10" testId="e2649807-37bb-a070-b4f0-e51dd597a82c" testName="MessageClient_PublishesSuccessfuly" computerName="DKSR-EFI-04" duration="00:00:00.0081402" startTime="2023-12-22T09:35:22.8684874+01:00" endTime="2023-12-22T09:35:22.8767848+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1932a83d-34e4-4b7f-ac7b-bed4afd75e10" />
+    <UnitTestResult executionId="755ffab6-5914-42e5-89a7-c42d16df95be" testId="7fd14a29-ca57-7558-05c9-27914b466fd4" testName="UnmanagedMessagesClient_UnsubscribeAsyncThrowsCommunicationMipException_OnUnacknoledgedCommand" computerName="DKSR-EFI-04" duration="00:00:00.0309411" startTime="2023-12-22T09:35:23.2437662+01:00" endTime="2023-12-22T09:35:23.2748704+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="755ffab6-5914-42e5-89a7-c42d16df95be">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+Session id: &#xD;
+Last seq: 0</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d6760cf1-daab-413c-ade2-91e2e058f65a" testId="a15bb082-9826-e2d8-2bbc-381a4fd3bbf1" testName="UnmanagedMessagesClient_SubscribeAsync_Succeeedes" computerName="DKSR-EFI-04" duration="00:00:00.0050001" startTime="2023-12-22T09:35:23.1483580+01:00" endTime="2023-12-22T09:35:23.1534985+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6760cf1-daab-413c-ade2-91e2e058f65a">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+Session id: &#xD;
+Last seq: 0</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1631042b-52ec-4d44-9495-eb0300961ed0" testId="e57fdccb-2ce2-77ef-c1eb-db1df10e4742" testName="UnmanagedMessagesClient_SubscribeAsyncThrowsArgumentNullException_WhenEmptyTopic" computerName="DKSR-EFI-04" duration="00:00:00.0040468" startTime="2023-12-22T09:35:23.1318648+01:00" endTime="2023-12-22T09:35:23.1363235+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1631042b-52ec-4d44-9495-eb0300961ed0" />
+    <UnitTestResult executionId="37b46b47-6b7f-41b7-81f2-aef872880b76" testId="9812aa59-30cc-6a30-4d77-58d7a0c7120b" testName="UnmanagedMessagesClient_UnsubscribeAsyncThrowsInvalidOperationException_WhenNotConnected" computerName="DKSR-EFI-04" duration="00:00:00.0052959" startTime="2023-12-22T09:35:23.0940250+01:00" endTime="2023-12-22T09:35:23.0995317+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="37b46b47-6b7f-41b7-81f2-aef872880b76" />
+    <UnitTestResult executionId="4ade9075-f106-4ee4-9716-f7b9bb855c06" testId="ba323f9b-6e86-6a0e-98bc-09de9ded2195" testName="UnmanagedMessagesClient_PublishAsyncThrowsArgumentNullException_WhenEmptyTopic" computerName="DKSR-EFI-04" duration="00:00:00.0063198" startTime="2023-12-22T09:35:23.0996005+01:00" endTime="2023-12-22T09:35:23.1061528+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4ade9075-f106-4ee4-9716-f7b9bb855c06" />
+    <UnitTestResult executionId="e2e08c45-c27c-48f8-a414-e82fac395de0" testId="ab926be0-7655-5fef-6b82-420cc027711b" testName="UnmanagedMessagesClient_ConnectAsync_CreatesAllNeededObjects" computerName="DKSR-EFI-04" duration="00:00:00.1014668" startTime="2023-12-22T09:35:22.9337431+01:00" endTime="2023-12-22T09:35:23.0358397+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2e08c45-c27c-48f8-a414-e82fac395de0">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+Session id: &#xD;
+Last seq: 0</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a0374bbd-2441-49d5-baa4-a87c1695b327" testId="35dd3e81-08e9-d17b-8a33-778f4b16c0db" testName="MessageClient_ReconnectsOnFail_WithoutSessionId" computerName="DKSR-EFI-04" duration="00:00:00.0094023" startTime="2023-12-22T09:35:22.8768661+01:00" endTime="2023-12-22T09:35:22.8864242+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0374bbd-2441-49d5-baa4-a87c1695b327" />
+    <UnitTestResult executionId="56ffe240-9eaf-4eea-b72b-8a57999ed41d" testId="146134db-aca7-0597-22bc-748555377921" testName="UnmanagedMessagesClient_SubscribeAsyncThrowsCommunicationMipException_OnUnacknoledgedCommand" computerName="DKSR-EFI-04" duration="00:00:00.0489030" startTime="2023-12-22T09:35:23.1946187+01:00" endTime="2023-12-22T09:35:23.2436848+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56ffe240-9eaf-4eea-b72b-8a57999ed41d">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+Session id: &#xD;
+Last seq: 0</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b1b77dba-9233-402c-a0ae-b532a4d1eb48" testId="2e76a750-4ed1-5036-c84f-51bd1128499d" testName="UnmanagedMessagesClient_CommandAcknowledged_OnAckMessageReceived" computerName="DKSR-EFI-04" duration="00:00:00.0066590" startTime="2023-12-22T09:35:23.2908600+01:00" endTime="2023-12-22T09:35:23.2976760+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1b77dba-9233-402c-a0ae-b532a4d1eb48">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+Session id: &#xD;
+Last seq: 0</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="dd059126-05fc-4335-8227-c0a773390741" testId="bde86493-a81b-62bb-0fb3-667dae30f73a" testName="UnmanagedMessagesClient_UnsubscribeAsync_Succeeedes" computerName="DKSR-EFI-04" duration="00:00:00.0045992" startTime="2023-12-22T09:35:23.1535699+01:00" endTime="2023-12-22T09:35:23.1583003+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd059126-05fc-4335-8227-c0a773390741">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+Session id: &#xD;
+Last seq: 0</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ada35868-976d-49bb-b1b1-195388945b2e" testId="0c8abb15-32af-342b-38ad-0fe9a5c21c5d" testName="UnmanagedMessagesClient_PublishAsync_Succeeedes" computerName="DKSR-EFI-04" duration="00:00:00.0085530" startTime="2023-12-22T09:35:23.1396002+01:00" endTime="2023-12-22T09:35:23.1482831+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ada35868-976d-49bb-b1b1-195388945b2e">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+Session id: &#xD;
+Last seq: 0</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="213ee85e-a164-43bb-a4c4-fd051d91c99a" testId="0354bd2c-a3af-b7d1-6ee3-5d4076361cc9" testName="UnmanagedMessagesClient_CreateAndConnectWebSocket_ThrowsCommunicationMIPException_On400Response" computerName="DKSR-EFI-04" duration="00:00:00.0237915" startTime="2023-12-22T09:35:23.0464330+01:00" endTime="2023-12-22T09:35:23.0703824+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="213ee85e-a164-43bb-a4c4-fd051d91c99a" />
+    <UnitTestResult executionId="9faa6799-2d61-4130-8ff2-e8cc8360a8c1" testId="7b3b8817-3629-0f9e-a5c9-7ef07eb00100" testName="UnmanagedMessagesClient_PublishAsyncThrowsInvalidOperationException_WhenNotConnected" computerName="DKSR-EFI-04" duration="00:00:00.0125131" startTime="2023-12-22T09:35:23.0756296+01:00" endTime="2023-12-22T09:35:23.0883091+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9faa6799-2d61-4130-8ff2-e8cc8360a8c1" />
+    <UnitTestResult executionId="b1bb42cf-eec9-4af1-8982-a48d8eaa7c19" testId="481ad207-9461-54b4-1bba-f9024d9501f6" testName="UnmanagedMessagesClient_SessionEstablished_OnHelloMessageReceived" computerName="DKSR-EFI-04" duration="00:00:01.5554323" startTime="2023-12-22T09:35:23.2977471+01:00" endTime="2023-12-22T09:35:24.8544742+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1bb42cf-eec9-4af1-8982-a48d8eaa7c19">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+Session id: &#xD;
+Last seq: 0</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7addb596-8f8c-4ee9-8d03-1ca4a9f9db81" testId="15cf5f1f-ab36-1240-895a-02520d6709ad" testName="IncomingCommandProcessor_NotifiesHandler_OnHello" computerName="DKSR-EFI-04" duration="00:00:00.0039619" startTime="2023-12-22T09:35:22.5499768+01:00" endTime="2023-12-22T09:35:22.5541069+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7addb596-8f8c-4ee9-8d03-1ca4a9f9db81" />
+    <UnitTestResult executionId="0af84f28-5d46-4b88-a67f-82e6eecc744c" testId="53bbdfd4-a0d7-b932-63ba-34eb278b5174" testName="MessageClient_ReconnectsOnFail_WithSessionId" computerName="DKSR-EFI-04" duration="00:00:00.0044788" startTime="2023-12-22T09:35:22.9289192+01:00" endTime="2023-12-22T09:35:22.9336827+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0af84f28-5d46-4b88-a67f-82e6eecc744c" />
+    <UnitTestResult executionId="9fb6a257-05f5-4dc5-b604-8a7baac275cc" testId="6113d585-1c52-6ee0-8117-c47df2400b11" testName="UnmanagedMessagesClient_PublishAsyncThrowsCommunicationMipException_OnUnacknoledgedCommand" computerName="DKSR-EFI-04" duration="00:00:00.0360178" startTime="2023-12-22T09:35:23.1583691+01:00" endTime="2023-12-22T09:35:23.1945419+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9fb6a257-05f5-4dc5-b604-8a7baac275cc">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+Session id: &#xD;
+Last seq: 0</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b52697d0-36f6-4141-8998-b405457148a3" testId="8f23febd-4c80-4a0b-73f8-cd4e072a3be3" testName="UnmanagedMessagesClient_CreateAndConnectWebSocket_ThrowsNotAuthorizedMIPException_On401Response" computerName="DKSR-EFI-04" duration="00:00:00.0049101" startTime="2023-12-22T09:35:23.0704717+01:00" endTime="2023-12-22T09:35:23.0755609+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b52697d0-36f6-4141-8998-b405457148a3" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="UnmanagedMessagesClient_PublishAsyncThrowsArgumentNullException_WhenEmptyTopic" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\mip\mipsdk\tst\videoos.platform.common.unittests\bin\x64\debug\net6.0-windows\videoos.platform.common.tests.dll" id="ba323f9b-6e86-6a0e-98bc-09de9ded2195">
+      <Execution id="4ade9075-f106-4ee4-9716-f7b9bb855c06" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\MIP\MIPSDK\tst\VideoOS.Platform.Common.UnitTests\bin\x64\Debug\net6.0-windows\VideoOS.Platform.Common.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Platform.Common.Tests.MessagesClient.UnmanagedMessagesClientTests" name="UnmanagedMessagesClient_PublishAsyncThrowsArgumentNullException_WhenEmptyTopic" />
+    </UnitTest>
+    <UnitTest name="UnmanagedMessagesClient_SubscribeAsyncThrowsArgumentNullException_WhenEmptyTopic" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\mip\mipsdk\tst\videoos.platform.common.unittests\bin\x64\debug\net6.0-windows\videoos.platform.common.tests.dll" id="e57fdccb-2ce2-77ef-c1eb-db1df10e4742">
+      <Execution id="1631042b-52ec-4d44-9495-eb0300961ed0" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\MIP\MIPSDK\tst\VideoOS.Platform.Common.UnitTests\bin\x64\Debug\net6.0-windows\VideoOS.Platform.Common.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Platform.Common.Tests.MessagesClient.UnmanagedMessagesClientTests" name="UnmanagedMessagesClient_SubscribeAsyncThrowsArgumentNullException_WhenEmptyTopic" />
+    </UnitTest>
+    <UnitTest name="IncomingCommandProcessor_NotifiesHandler_OnAck" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\mip\mipsdk\tst\videoos.platform.common.unittests\bin\x64\debug\net6.0-windows\videoos.platform.common.tests.dll" id="b62116f8-b23d-e89b-a86d-2123115909d7">
+      <Execution id="38fe3133-4e0e-4cd7-8909-aed9e395e287" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\MIP\MIPSDK\tst\VideoOS.Platform.Common.UnitTests\bin\x64\Debug\net6.0-windows\VideoOS.Platform.Common.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Platform.Common.Tests.MessagesClient.IncomingCommandProcessorTests" name="IncomingCommandProcessor_NotifiesHandler_OnAck" />
+    </UnitTest>
+    <UnitTest name="UnmanagedMessagesClient_SessionEstablished_OnHelloMessageReceived" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\mip\mipsdk\tst\videoos.platform.common.unittests\bin\x64\debug\net6.0-windows\videoos.platform.common.tests.dll" id="481ad207-9461-54b4-1bba-f9024d9501f6">
+      <Execution id="b1bb42cf-eec9-4af1-8982-a48d8eaa7c19" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\MIP\MIPSDK\tst\VideoOS.Platform.Common.UnitTests\bin\x64\Debug\net6.0-windows\VideoOS.Platform.Common.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Platform.Common.Tests.MessagesClient.UnmanagedMessagesClientTests" name="UnmanagedMessagesClient_SessionEstablished_OnHelloMessageReceived" />
+    </UnitTest>
+    <UnitTest name="IncomingCommandProcessor_NotifiesHandler_OnMessage" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\mip\mipsdk\tst\videoos.platform.common.unittests\bin\x64\debug\net6.0-windows\videoos.platform.common.tests.dll" id="f321d583-6820-e8ad-87f2-98ed884298f5">
+      <Execution id="f783942e-a56f-4c84-8e1b-13ec6abdd530" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\MIP\MIPSDK\tst\VideoOS.Platform.Common.UnitTests\bin\x64\Debug\net6.0-windows\VideoOS.Platform.Common.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Platform.Common.Tests.MessagesClient.IncomingCommandProcessorTests" name="IncomingCommandProcessor_NotifiesHandler_OnMessage" />
+    </UnitTest>
+    <UnitTest name="UnmanagedMessagesClient_ConnectAsync_CreatesAllNeededObjects" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\mip\mipsdk\tst\videoos.platform.common.unittests\bin\x64\debug\net6.0-windows\videoos.platform.common.tests.dll" id="ab926be0-7655-5fef-6b82-420cc027711b">
+      <Execution id="e2e08c45-c27c-48f8-a414-e82fac395de0" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\MIP\MIPSDK\tst\VideoOS.Platform.Common.UnitTests\bin\x64\Debug\net6.0-windows\VideoOS.Platform.Common.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Platform.Common.Tests.MessagesClient.UnmanagedMessagesClientTests" name="UnmanagedMessagesClient_ConnectAsync_CreatesAllNeededObjects" />
+    </UnitTest>
+    <UnitTest name="UnmanagedMessagesClient_PublishAsyncThrowsInvalidOperationException_WhenNotConnected" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\mip\mipsdk\tst\videoos.platform.common.unittests\bin\x64\debug\net6.0-windows\videoos.platform.common.tests.dll" id="7b3b8817-3629-0f9e-a5c9-7ef07eb00100">
+      <Execution id="9faa6799-2d61-4130-8ff2-e8cc8360a8c1" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\MIP\MIPSDK\tst\VideoOS.Platform.Common.UnitTests\bin\x64\Debug\net6.0-windows\VideoOS.Platform.Common.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Platform.Common.Tests.MessagesClient.UnmanagedMessagesClientTests" name="UnmanagedMessagesClient_PublishAsyncThrowsInvalidOperationException_WhenNotConnected" />
+    </UnitTest>
+    <UnitTest name="UnmanagedMessagesClient_CreateAndConnectWebSocket_SetsCorrectUriAndToken" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\mip\mipsdk\tst\videoos.platform.common.unittests\bin\x64\debug\net6.0-windows\videoos.platform.common.tests.dll" id="61c7e091-1b3e-1a39-515c-79461bbab0f9">
+      <Execution id="68c79143-8e3f-483b-a3df-0499d2df6b54" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\MIP\MIPSDK\tst\VideoOS.Platform.Common.UnitTests\bin\x64\Debug\net6.0-windows\VideoOS.Platform.Common.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Platform.Common.Tests.MessagesClient.UnmanagedMessagesClientTests" name="UnmanagedMessagesClient_CreateAndConnectWebSocket_SetsCorrectUriAndToken" />
+    </UnitTest>
+    <UnitTest name="UnmanagedMessagesClient_SubscribeAsyncThrowsCommunicationMipException_OnUnacknoledgedCommand" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\mip\mipsdk\tst\videoos.platform.common.unittests\bin\x64\debug\net6.0-windows\videoos.platform.common.tests.dll" id="146134db-aca7-0597-22bc-748555377921">
+      <Execution id="56ffe240-9eaf-4eea-b72b-8a57999ed41d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\MIP\MIPSDK\tst\VideoOS.Platform.Common.UnitTests\bin\x64\Debug\net6.0-windows\VideoOS.Platform.Common.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Platform.Common.Tests.MessagesClient.UnmanagedMessagesClientTests" name="UnmanagedMessagesClient_SubscribeAsyncThrowsCommunicationMipException_OnUnacknoledgedCommand" />
+    </UnitTest>
+    <UnitTest name="UnmanagedMessagesClient_CreateAndConnectWebSocket_ThrowsNotAuthorizedMIPException_On401Response" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\mip\mipsdk\tst\videoos.platform.common.unittests\bin\x64\debug\net6.0-windows\videoos.platform.common.tests.dll" id="8f23febd-4c80-4a0b-73f8-cd4e072a3be3">
+      <Execution id="b52697d0-36f6-4141-8998-b405457148a3" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\MIP\MIPSDK\tst\VideoOS.Platform.Common.UnitTests\bin\x64\Debug\net6.0-windows\VideoOS.Platform.Common.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Platform.Common.Tests.MessagesClient.UnmanagedMessagesClientTests" name="UnmanagedMessagesClient_CreateAndConnectWebSocket_ThrowsNotAuthorizedMIPException_On401Response" />
+    </UnitTest>
+    <UnitTest name="CommandAcknowledgementHandler_Returns_AfterTaskSucceeds" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\mip\mipsdk\tst\videoos.platform.common.unittests\bin\x64\debug\net6.0-windows\videoos.platform.common.tests.dll" id="34dd6073-72f3-7452-2410-e6841f900937">
+      <Execution id="1e5ef841-6d87-42c7-8b37-3dc0843f157d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\MIP\MIPSDK\tst\VideoOS.Platform.Common.UnitTests\bin\x64\Debug\net6.0-windows\VideoOS.Platform.Common.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Platform.Common.Tests.MessagesClient.CommandAcknowledgementHandlerTests" name="CommandAcknowledgementHandler_Returns_AfterTaskSucceeds" />
+    </UnitTest>
+    <UnitTest name="UnmanagedMessagesClient_SubscribeAsyncThrowsInvalidOperationException_WhenNotConnected" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\mip\mipsdk\tst\videoos.platform.common.unittests\bin\x64\debug\net6.0-windows\videoos.platform.common.tests.dll" id="e3f43c17-4ef6-ef50-cf90-968950273566">
+      <Execution id="56ef6640-137b-4fa7-b7b3-c15c6fd1db26" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\MIP\MIPSDK\tst\VideoOS.Platform.Common.UnitTests\bin\x64\Debug\net6.0-windows\VideoOS.Platform.Common.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Platform.Common.Tests.MessagesClient.UnmanagedMessagesClientTests" name="UnmanagedMessagesClient_SubscribeAsyncThrowsInvalidOperationException_WhenNotConnected" />
+    </UnitTest>
+    <UnitTest name="CommandAcknowledgementHandler_Throws_AfterTimeoutExpiration" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\mip\mipsdk\tst\videoos.platform.common.unittests\bin\x64\debug\net6.0-windows\videoos.platform.common.tests.dll" id="844a9fa4-118c-b932-6fa0-4c03835f9391">
+      <Execution id="a26f5b72-bcac-4196-a636-af210b1eeb18" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\MIP\MIPSDK\tst\VideoOS.Platform.Common.UnitTests\bin\x64\Debug\net6.0-windows\VideoOS.Platform.Common.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Platform.Common.Tests.MessagesClient.CommandAcknowledgementHandlerTests" name="CommandAcknowledgementHandler_Throws_AfterTimeoutExpiration" />
+    </UnitTest>
+    <UnitTest name="UnmanagedMessagesClient_NewMessageAsyncCalled_WhenMessageIsReceived" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\mip\mipsdk\tst\videoos.platform.common.unittests\bin\x64\debug\net6.0-windows\videoos.platform.common.tests.dll" id="ddd6506e-79b0-b218-a118-9e4bb15f5787">
+      <Execution id="d91109f7-e88e-41e2-990f-bac71871fe8d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\MIP\MIPSDK\tst\VideoOS.Platform.Common.UnitTests\bin\x64\Debug\net6.0-windows\VideoOS.Platform.Common.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Platform.Common.Tests.MessagesClient.UnmanagedMessagesClientTests" name="UnmanagedMessagesClient_NewMessageAsyncCalled_WhenMessageIsReceived" />
+    </UnitTest>
+    <UnitTest name="UnmanagedMessagesClient_UnsubscribeAsync_Succeeedes" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\mip\mipsdk\tst\videoos.platform.common.unittests\bin\x64\debug\net6.0-windows\videoos.platform.common.tests.dll" id="bde86493-a81b-62bb-0fb3-667dae30f73a">
+      <Execution id="dd059126-05fc-4335-8227-c0a773390741" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\MIP\MIPSDK\tst\VideoOS.Platform.Common.UnitTests\bin\x64\Debug\net6.0-windows\VideoOS.Platform.Common.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Platform.Common.Tests.MessagesClient.UnmanagedMessagesClientTests" name="UnmanagedMessagesClient_UnsubscribeAsync_Succeeedes" />
+    </UnitTest>
+    <UnitTest name="IncomingCommandProcessor_NotifiesHandler_OnHello" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\mip\mipsdk\tst\videoos.platform.common.unittests\bin\x64\debug\net6.0-windows\videoos.platform.common.tests.dll" id="15cf5f1f-ab36-1240-895a-02520d6709ad">
+      <Execution id="7addb596-8f8c-4ee9-8d03-1ca4a9f9db81" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\MIP\MIPSDK\tst\VideoOS.Platform.Common.UnitTests\bin\x64\Debug\net6.0-windows\VideoOS.Platform.Common.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Platform.Common.Tests.MessagesClient.IncomingCommandProcessorTests" name="IncomingCommandProcessor_NotifiesHandler_OnHello" />
+    </UnitTest>
+    <UnitTest name="UnmanagedMessagesClient_CreateAndConnectWebSocket_ThrowsCommunicationMIPException_On400Response" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\mip\mipsdk\tst\videoos.platform.common.unittests\bin\x64\debug\net6.0-windows\videoos.platform.common.tests.dll" id="0354bd2c-a3af-b7d1-6ee3-5d4076361cc9">
+      <Execution id="213ee85e-a164-43bb-a4c4-fd051d91c99a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\MIP\MIPSDK\tst\VideoOS.Platform.Common.UnitTests\bin\x64\Debug\net6.0-windows\VideoOS.Platform.Common.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Platform.Common.Tests.MessagesClient.UnmanagedMessagesClientTests" name="UnmanagedMessagesClient_CreateAndConnectWebSocket_ThrowsCommunicationMIPException_On400Response" />
+    </UnitTest>
+    <UnitTest name="UnmanagedMessagesClient_UnsubscribeAsyncThrowsInvalidOperationException_WhenNotConnected" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\mip\mipsdk\tst\videoos.platform.common.unittests\bin\x64\debug\net6.0-windows\videoos.platform.common.tests.dll" id="9812aa59-30cc-6a30-4d77-58d7a0c7120b">
+      <Execution id="37b46b47-6b7f-41b7-81f2-aef872880b76" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\MIP\MIPSDK\tst\VideoOS.Platform.Common.UnitTests\bin\x64\Debug\net6.0-windows\VideoOS.Platform.Common.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Platform.Common.Tests.MessagesClient.UnmanagedMessagesClientTests" name="UnmanagedMessagesClient_UnsubscribeAsyncThrowsInvalidOperationException_WhenNotConnected" />
+    </UnitTest>
+    <UnitTest name="UnmanagedMessagesClient_PublishAsync_Succeeedes" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\mip\mipsdk\tst\videoos.platform.common.unittests\bin\x64\debug\net6.0-windows\videoos.platform.common.tests.dll" id="0c8abb15-32af-342b-38ad-0fe9a5c21c5d">
+      <Execution id="ada35868-976d-49bb-b1b1-195388945b2e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\MIP\MIPSDK\tst\VideoOS.Platform.Common.UnitTests\bin\x64\Debug\net6.0-windows\VideoOS.Platform.Common.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Platform.Common.Tests.MessagesClient.UnmanagedMessagesClientTests" name="UnmanagedMessagesClient_PublishAsync_Succeeedes" />
+    </UnitTest>
+    <UnitTest name="MessageClient_PublishesSuccessfuly" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\mip\mipsdk\tst\videoos.platform.common.unittests\bin\x64\debug\net6.0-windows\videoos.platform.common.tests.dll" id="e2649807-37bb-a070-b4f0-e51dd597a82c">
+      <Execution id="1932a83d-34e4-4b7f-ac7b-bed4afd75e10" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\MIP\MIPSDK\tst\VideoOS.Platform.Common.UnitTests\bin\x64\Debug\net6.0-windows\VideoOS.Platform.Common.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Platform.Common.Tests.MessagesClient.MessageClientTests" name="MessageClient_PublishesSuccessfuly" />
+    </UnitTest>
+    <UnitTest name="UnmanagedMessagesClient_CommandAcknowledged_OnAckMessageReceived" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\mip\mipsdk\tst\videoos.platform.common.unittests\bin\x64\debug\net6.0-windows\videoos.platform.common.tests.dll" id="2e76a750-4ed1-5036-c84f-51bd1128499d">
+      <Execution id="b1b77dba-9233-402c-a0ae-b532a4d1eb48" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\MIP\MIPSDK\tst\VideoOS.Platform.Common.UnitTests\bin\x64\Debug\net6.0-windows\VideoOS.Platform.Common.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Platform.Common.Tests.MessagesClient.UnmanagedMessagesClientTests" name="UnmanagedMessagesClient_CommandAcknowledged_OnAckMessageReceived" />
+    </UnitTest>
+    <UnitTest name="LastProcessedMessageSequence_KeepsHigherValue_WhenCalledFromMultipleThreads (5,1000)" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\mip\mipsdk\tst\videoos.platform.common.unittests\bin\x64\debug\net6.0-windows\videoos.platform.common.tests.dll" id="51cb1d8b-21a7-3ead-df4d-dff7b13c3162">
+      <Execution id="91bd6e4e-f504-4562-9914-744d4a092eff" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\MIP\MIPSDK\tst\VideoOS.Platform.Common.UnitTests\bin\x64\Debug\net6.0-windows\VideoOS.Platform.Common.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Platform.Common.Tests.MessagesClient.LastProcessedMessageSequenceTests" name="LastProcessedMessageSequence_KeepsHigherValue_WhenCalledFromMultipleThreads" />
+    </UnitTest>
+    <UnitTest name="UnmanagedMessagesClient_SubscribeAsync_Succeeedes" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\mip\mipsdk\tst\videoos.platform.common.unittests\bin\x64\debug\net6.0-windows\videoos.platform.common.tests.dll" id="a15bb082-9826-e2d8-2bbc-381a4fd3bbf1">
+      <Execution id="d6760cf1-daab-413c-ade2-91e2e058f65a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\MIP\MIPSDK\tst\VideoOS.Platform.Common.UnitTests\bin\x64\Debug\net6.0-windows\VideoOS.Platform.Common.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Platform.Common.Tests.MessagesClient.UnmanagedMessagesClientTests" name="UnmanagedMessagesClient_SubscribeAsync_Succeeedes" />
+    </UnitTest>
+    <UnitTest name="MessageClient_ConnectsSubscribesAndReceivesMessages" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\mip\mipsdk\tst\videoos.platform.common.unittests\bin\x64\debug\net6.0-windows\videoos.platform.common.tests.dll" id="369b70fb-adea-0c7a-c53f-0e4a5434b378">
+      <Execution id="75aea37e-c4a4-42b1-99eb-64f21e01f4c3" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\MIP\MIPSDK\tst\VideoOS.Platform.Common.UnitTests\bin\x64\Debug\net6.0-windows\VideoOS.Platform.Common.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Platform.Common.Tests.MessagesClient.MessageClientTests" name="MessageClient_ConnectsSubscribesAndReceivesMessages" />
+    </UnitTest>
+    <UnitTest name="UnmanagedMessagesClient_PublishAsyncThrowsCommunicationMipException_OnUnacknoledgedCommand" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\mip\mipsdk\tst\videoos.platform.common.unittests\bin\x64\debug\net6.0-windows\videoos.platform.common.tests.dll" id="6113d585-1c52-6ee0-8117-c47df2400b11">
+      <Execution id="9fb6a257-05f5-4dc5-b604-8a7baac275cc" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\MIP\MIPSDK\tst\VideoOS.Platform.Common.UnitTests\bin\x64\Debug\net6.0-windows\VideoOS.Platform.Common.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Platform.Common.Tests.MessagesClient.UnmanagedMessagesClientTests" name="UnmanagedMessagesClient_PublishAsyncThrowsCommunicationMipException_OnUnacknoledgedCommand" />
+    </UnitTest>
+    <UnitTest name="MessageClient_ReconnectsOnFail_WithSessionId" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\mip\mipsdk\tst\videoos.platform.common.unittests\bin\x64\debug\net6.0-windows\videoos.platform.common.tests.dll" id="53bbdfd4-a0d7-b932-63ba-34eb278b5174">
+      <Execution id="0af84f28-5d46-4b88-a67f-82e6eecc744c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\MIP\MIPSDK\tst\VideoOS.Platform.Common.UnitTests\bin\x64\Debug\net6.0-windows\VideoOS.Platform.Common.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Platform.Common.Tests.MessagesClient.MessageClientTests" name="MessageClient_ReconnectsOnFail_WithSessionId" />
+    </UnitTest>
+    <UnitTest name="UnmanagedMessagesClient_UnsubscribeAsyncThrowsArgumentNullException_WhenEmptyTopic" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\mip\mipsdk\tst\videoos.platform.common.unittests\bin\x64\debug\net6.0-windows\videoos.platform.common.tests.dll" id="d4a31fd0-d7bb-644e-ae0f-28595237d2c2">
+      <Execution id="982db6b7-3478-47f1-a86b-f9a1bcb43a43" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\MIP\MIPSDK\tst\VideoOS.Platform.Common.UnitTests\bin\x64\Debug\net6.0-windows\VideoOS.Platform.Common.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Platform.Common.Tests.MessagesClient.UnmanagedMessagesClientTests" name="UnmanagedMessagesClient_UnsubscribeAsyncThrowsArgumentNullException_WhenEmptyTopic" />
+    </UnitTest>
+    <UnitTest name="MessageClient_ReconnectsOnFail_WithoutSessionId" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\mip\mipsdk\tst\videoos.platform.common.unittests\bin\x64\debug\net6.0-windows\videoos.platform.common.tests.dll" id="35dd3e81-08e9-d17b-8a33-778f4b16c0db">
+      <Execution id="a0374bbd-2441-49d5-baa4-a87c1695b327" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\MIP\MIPSDK\tst\VideoOS.Platform.Common.UnitTests\bin\x64\Debug\net6.0-windows\VideoOS.Platform.Common.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Platform.Common.Tests.MessagesClient.MessageClientTests" name="MessageClient_ReconnectsOnFail_WithoutSessionId" />
+    </UnitTest>
+    <UnitTest name="UnmanagedMessagesClient_UnsubscribeAsyncThrowsCommunicationMipException_OnUnacknoledgedCommand" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\mip\mipsdk\tst\videoos.platform.common.unittests\bin\x64\debug\net6.0-windows\videoos.platform.common.tests.dll" id="7fd14a29-ca57-7558-05c9-27914b466fd4">
+      <Execution id="755ffab6-5914-42e5-89a7-c42d16df95be" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\MIP\MIPSDK\tst\VideoOS.Platform.Common.UnitTests\bin\x64\Debug\net6.0-windows\VideoOS.Platform.Common.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Platform.Common.Tests.MessagesClient.UnmanagedMessagesClientTests" name="UnmanagedMessagesClient_UnsubscribeAsyncThrowsCommunicationMipException_OnUnacknoledgedCommand" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="34dd6073-72f3-7452-2410-e6841f900937" executionId="1e5ef841-6d87-42c7-8b37-3dc0843f157d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="369b70fb-adea-0c7a-c53f-0e4a5434b378" executionId="75aea37e-c4a4-42b1-99eb-64f21e01f4c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="61c7e091-1b3e-1a39-515c-79461bbab0f9" executionId="68c79143-8e3f-483b-a3df-0499d2df6b54" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b62116f8-b23d-e89b-a86d-2123115909d7" executionId="38fe3133-4e0e-4cd7-8909-aed9e395e287" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4a31fd0-d7bb-644e-ae0f-28595237d2c2" executionId="982db6b7-3478-47f1-a86b-f9a1bcb43a43" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ddd6506e-79b0-b218-a118-9e4bb15f5787" executionId="d91109f7-e88e-41e2-990f-bac71871fe8d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51cb1d8b-21a7-3ead-df4d-dff7b13c3162" executionId="91bd6e4e-f504-4562-9914-744d4a092eff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f321d583-6820-e8ad-87f2-98ed884298f5" executionId="f783942e-a56f-4c84-8e1b-13ec6abdd530" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="844a9fa4-118c-b932-6fa0-4c03835f9391" executionId="a26f5b72-bcac-4196-a636-af210b1eeb18" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e3f43c17-4ef6-ef50-cf90-968950273566" executionId="56ef6640-137b-4fa7-b7b3-c15c6fd1db26" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e2649807-37bb-a070-b4f0-e51dd597a82c" executionId="1932a83d-34e4-4b7f-ac7b-bed4afd75e10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7fd14a29-ca57-7558-05c9-27914b466fd4" executionId="755ffab6-5914-42e5-89a7-c42d16df95be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a15bb082-9826-e2d8-2bbc-381a4fd3bbf1" executionId="d6760cf1-daab-413c-ade2-91e2e058f65a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e57fdccb-2ce2-77ef-c1eb-db1df10e4742" executionId="1631042b-52ec-4d44-9495-eb0300961ed0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9812aa59-30cc-6a30-4d77-58d7a0c7120b" executionId="37b46b47-6b7f-41b7-81f2-aef872880b76" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ba323f9b-6e86-6a0e-98bc-09de9ded2195" executionId="4ade9075-f106-4ee4-9716-f7b9bb855c06" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab926be0-7655-5fef-6b82-420cc027711b" executionId="e2e08c45-c27c-48f8-a414-e82fac395de0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="35dd3e81-08e9-d17b-8a33-778f4b16c0db" executionId="a0374bbd-2441-49d5-baa4-a87c1695b327" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="146134db-aca7-0597-22bc-748555377921" executionId="56ffe240-9eaf-4eea-b72b-8a57999ed41d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2e76a750-4ed1-5036-c84f-51bd1128499d" executionId="b1b77dba-9233-402c-a0ae-b532a4d1eb48" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bde86493-a81b-62bb-0fb3-667dae30f73a" executionId="dd059126-05fc-4335-8227-c0a773390741" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0c8abb15-32af-342b-38ad-0fe9a5c21c5d" executionId="ada35868-976d-49bb-b1b1-195388945b2e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0354bd2c-a3af-b7d1-6ee3-5d4076361cc9" executionId="213ee85e-a164-43bb-a4c4-fd051d91c99a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b3b8817-3629-0f9e-a5c9-7ef07eb00100" executionId="9faa6799-2d61-4130-8ff2-e8cc8360a8c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="481ad207-9461-54b4-1bba-f9024d9501f6" executionId="b1bb42cf-eec9-4af1-8982-a48d8eaa7c19" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="15cf5f1f-ab36-1240-895a-02520d6709ad" executionId="7addb596-8f8c-4ee9-8d03-1ca4a9f9db81" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="53bbdfd4-a0d7-b932-63ba-34eb278b5174" executionId="0af84f28-5d46-4b88-a67f-82e6eecc744c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6113d585-1c52-6ee0-8117-c47df2400b11" executionId="9fb6a257-05f5-4dc5-b604-8a7baac275cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f23febd-4c80-4a0b-73f8-cd4e072a3be3" executionId="b52697d0-36f6-4141-8998-b405457148a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="29" executed="29" passed="29" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

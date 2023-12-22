@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="7b84b585-6d29-4c0a-a9ca-2745abc18b4f" name="DKSR-EFI-04$@DKSR-EFI-04 2023-12-22 09:34:36" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-12-22T09:34:36.7878186+01:00" queuing="2023-12-22T09:34:36.7878186+01:00" start="2023-12-22T09:34:35.4753116+01:00" finish="2023-12-22T09:34:42.7722236+01:00" />
+  <TestSettings name="default" id="27ba3f81-0cd8-49f6-bff9-8d5f83ec6e4f">
+    <Deployment runDeploymentRoot="DKSR-EFI-04$_DKSR-EFI-04_2023-12-22_09_34_36" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="833baeef-2466-4014-a939-a5f01791f4b8" testId="d8783e72-69e3-afff-4d3d-6d4bb483c081" testName="Instance_ShouldBeSingleton_WhenCalled" computerName="DKSR-EFI-04" duration="00:00:00.0011564" startTime="2023-12-22T09:34:38.5222031+01:00" endTime="2023-12-22T09:34:38.5222031+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="833baeef-2466-4014-a939-a5f01791f4b8" />
+    <UnitTestResult executionId="e809fb45-7842-4cc7-8e67-a4d1066f94a9" testId="0f5b699f-e338-cc4a-3646-a930682a8493" testName="InitApplyIncidentRetentionAfter_ShouldRaiseArgumentNullException_WhenRetentionTimeIncidentDecoratorIsNull" computerName="DKSR-EFI-04" duration="00:00:00.0442998" startTime="2023-12-22T09:34:36.6471951+01:00" endTime="2023-12-22T09:34:36.6940696+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e809fb45-7842-4cc7-8e67-a4d1066f94a9" />
+    <UnitTestResult executionId="4cc26f3a-b080-4039-ae14-6fe335076481" testId="4458e61b-d5cf-d06c-af68-c9c89ce52008" testName="Constructor_ShouldThrowArgumentException_WhenEntityIsNotSupported" computerName="DKSR-EFI-04" duration="00:00:00.0625533" startTime="2023-12-22T09:34:39.9909589+01:00" endTime="2023-12-22T09:34:40.0534612+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4cc26f3a-b080-4039-ae14-6fe335076481" />
+    <UnitTestResult executionId="54b62059-9952-4dc2-96c4-e50829df811b" testId="307685d3-f73a-9c18-2f49-ae92306afba1" testName="InitVerifyLicenseValidationStatus_ShouldKeepStartingIncidentRetentionTime_WhenStartingIncidentRetentionTimeIsDefined" computerName="DKSR-EFI-04" duration="00:00:00.0012429" startTime="2023-12-22T09:34:36.7721929+01:00" endTime="2023-12-22T09:34:36.7721929+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="54b62059-9952-4dc2-96c4-e50829df811b" />
+    <UnitTestResult executionId="57362ba7-ee36-4a54-bdf3-afa35a417845" testId="5cf96fd9-7f4d-dace-15cd-95c6e808e8b2" testName="StartVerifyLicenseValidationStatusAsync_ShouldThrowInvalidOperationException_WhenIsCurrentlyRunning" computerName="DKSR-EFI-04" duration="00:00:00.5504116" startTime="2023-12-22T09:34:38.6940803+01:00" endTime="2023-12-22T09:34:39.2409545+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="57362ba7-ee36-4a54-bdf3-afa35a417845" />
+    <UnitTestResult executionId="8f87cc31-d75b-4b09-bfc8-f889fa6cbf5c" testId="928897b7-2968-a86b-8d8d-1b6c94ce2d15" testName="VideoOsIMServerRepositoryEntityFrameworkMetadata_ShouldBeEqualTo_VersionControlMetadata" computerName="DKSR-EFI-04" duration="00:00:00.0007138" startTime="2023-12-22T09:34:40.1315866+01:00" endTime="2023-12-22T09:34:40.1315866+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8f87cc31-d75b-4b09-bfc8-f889fa6cbf5c" />
+    <UnitTestResult executionId="177f534a-1b88-40c0-8b4d-16b56a846822" testId="d3087028-b4d0-9798-6d81-f473d3cde8a4" testName="VideoOsIMServerLoggerMetadata_ShouldBeEqualTo_VersionControlMetadata" computerName="DKSR-EFI-04" duration="00:00:00.0006198" startTime="2023-12-22T09:34:40.1003378+01:00" endTime="2023-12-22T09:34:40.1003378+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="177f534a-1b88-40c0-8b4d-16b56a846822" />
+    <UnitTestResult executionId="44263bef-0551-4806-8809-8d064ab4adec" testId="63ddc633-32c7-db2a-5634-7b29b0ff97df" testName="InitApplyIncidentRetentionAfter_ShouldRaiseArgumentNullException_WhenTimeProviderIsNull" computerName="DKSR-EFI-04" duration="00:00:00.0007836" startTime="2023-12-22T09:34:36.6940696+01:00" endTime="2023-12-22T09:34:36.6940696+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="44263bef-0551-4806-8809-8d064ab4adec" />
+    <UnitTestResult executionId="07c7374b-499d-411f-95e3-c2bd14535688" testId="9973461d-3a23-5bee-4ac0-8ae790a8b115" testName="StartApplyingRetentionTimeCleanupAsync_ShouldThrowInvalidOperationException_WhenCalledBeforeInit" computerName="DKSR-EFI-04" duration="00:00:00.0013285" startTime="2023-12-22T09:34:36.7721929+01:00" endTime="2023-12-22T09:34:36.7721929+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07c7374b-499d-411f-95e3-c2bd14535688" />
+    <UnitTestResult executionId="30e31b2d-07a2-40e4-bf76-8a3166087e5c" testId="bb8f297f-5137-d7ca-ee5f-055274e099fe" testName="Initialize_ShouldThrowArgumentNullException_WhenLogWriterIsNull" computerName="DKSR-EFI-04" duration="00:00:00.0007212" startTime="2023-12-22T09:34:40.2253369+01:00" endTime="2023-12-22T09:34:40.2253369+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="30e31b2d-07a2-40e4-bf76-8a3166087e5c" />
+    <UnitTestResult executionId="0520f029-4908-40d4-9d44-dbf706375200" testId="0d8e6ba6-7fc7-eed4-333b-e3540263c146" testName="Instance_ShouldBeSingleton_WhenCalled" computerName="DKSR-EFI-04" duration="00:00:00.3182621" startTime="2023-12-22T09:34:36.2253168+01:00" endTime="2023-12-22T09:34:36.6159438+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0520f029-4908-40d4-9d44-dbf706375200" />
+    <UnitTestResult executionId="f1a6022b-b4cd-4779-a967-aa49a4150712" testId="bc3a9838-88be-c8cb-41e1-0a91adf572d4" testName="InitVerifyLicenseValidationStatus_ShouldThrowInvalidOperationException_WhenCalledMoreThanOnce" computerName="DKSR-EFI-04" duration="00:00:00.0587424" startTime="2023-12-22T09:34:38.6003301+01:00" endTime="2023-12-22T09:34:38.6628273+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f1a6022b-b4cd-4779-a967-aa49a4150712" />
+    <UnitTestResult executionId="b876bac1-7230-4ffa-ae7b-87ba65086dcb" testId="10e25c2e-bf35-b69a-bdac-9894ed0e83ff" testName="InitVerifyLicenseValidationStatus_ShouldLogCustomLogError_WhenMSSitesResponseIsEmpty" computerName="DKSR-EFI-04" duration="00:00:00.0078794" startTime="2023-12-22T09:34:38.6628273+01:00" endTime="2023-12-22T09:34:38.6628273+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b876bac1-7230-4ffa-ae7b-87ba65086dcb" />
+    <UnitTestResult executionId="caa0223c-5fda-4f8d-923c-9b318d4b9a3e" testId="8818148f-b04b-5f52-99ec-bc97422bd8a3" testName="VideoOsIMServerWebApiMetadata_ShouldBeEqualTo_VersionControlMetadata" computerName="DKSR-EFI-04" duration="00:00:00.0416370" startTime="2023-12-22T09:34:40.1315866+01:00" endTime="2023-12-22T09:34:40.1784604+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="caa0223c-5fda-4f8d-923c-9b318d4b9a3e" />
+    <UnitTestResult executionId="3311347b-66ae-4c38-8ab4-e14123a8c9c7" testId="3ffb06c7-9b69-3510-e821-15a0c1204024" testName="InitVerifyLicenseValidationStatus_ShouldRaiseArgumentNullException_WhenWebApiClientIsNull" computerName="DKSR-EFI-04" duration="00:00:00.0043404" startTime="2023-12-22T09:34:38.5847027+01:00" endTime="2023-12-22T09:34:38.5847027+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3311347b-66ae-4c38-8ab4-e14123a8c9c7" />
+    <UnitTestResult executionId="a6a8f772-33a1-482c-82dc-14644b0ad0b6" testId="13d1af1d-f5f5-2c11-9a63-c5e16e7b57c9" testName="Constructor_ShouldThrowArgumentException_WhenIncidentPropertiesParameterIsNull" computerName="DKSR-EFI-04" duration="00:00:00.0005278" startTime="2023-12-22T09:34:39.9909589+01:00" endTime="2023-12-22T09:34:39.9909589+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6a8f772-33a1-482c-82dc-14644b0ad0b6" />
+    <UnitTestResult executionId="a49e0680-66a6-4773-bde9-b2bee192c1d3" testId="3c9a24ee-9b6b-0dfd-0bff-cd271bb7ec90" testName="Decorate_ShouldRaiseArgumentNullException_WhenDtoIncidentsIsNull" computerName="DKSR-EFI-04" duration="00:00:00.0005991" startTime="2023-12-22T09:34:38.4284539+01:00" endTime="2023-12-22T09:34:38.4284539+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a49e0680-66a6-4773-bde9-b2bee192c1d3" />
+    <UnitTestResult executionId="6e85c85e-1032-41b6-a6fa-f26b8c0572d0" testId="df722627-cb17-54c5-d50a-07c0ed10edc5" testName="InitVerifyLicenseValidationStatus_ShouldSetStartingIncidentRetentionTime_WhenStartingIncidentRetentionTimeIsNull" computerName="DKSR-EFI-04" duration="00:00:00.0547230" startTime="2023-12-22T09:34:36.7096949+01:00" endTime="2023-12-22T09:34:36.7721929+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6e85c85e-1032-41b6-a6fa-f26b8c0572d0" />
+    <UnitTestResult executionId="30c73889-7860-470d-ab83-c1f84bf936a4" testId="445599d9-9d16-da23-159e-5bfb5f5211ed" testName="VideoOsIMServerRegistrarsMetadata_ShouldBeEqualTo_VersionControlMetadata" computerName="DKSR-EFI-04" duration="00:00:00.0251950" startTime="2023-12-22T09:34:40.1003378+01:00" endTime="2023-12-22T09:34:40.1315866+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="30c73889-7860-470d-ab83-c1f84bf936a4" />
+    <UnitTestResult executionId="0c935fdd-127d-41a5-bd3d-aa9aba27d074" testId="806a2e90-364c-6d72-43a2-9a50b4e9ce36" testName="IsIncidentRetentionTimeRunning_ShouldThrowInvalidOperationException_WhenCalledBeforeInit" computerName="DKSR-EFI-04" duration="00:00:00.0005810" startTime="2023-12-22T09:34:38.4284539+01:00" endTime="2023-12-22T09:34:38.4284539+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c935fdd-127d-41a5-bd3d-aa9aba27d074" />
+    <UnitTestResult executionId="e43d28d8-afd0-42cf-8b24-120e6de659c5" testId="4bf7abe5-c900-da8c-e9eb-09c369a7644f" testName="InitVerifyLicenseValidationStatus_ShouldSetIsLicenseValidToTrue_WhenMSLicenseInformationResponseExpirationDateIsUnrestricted" computerName="DKSR-EFI-04" duration="00:00:00.0037124" startTime="2023-12-22T09:34:38.6784539+01:00" endTime="2023-12-22T09:34:38.6784539+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e43d28d8-afd0-42cf-8b24-120e6de659c5" />
+    <UnitTestResult executionId="0b450c2d-9275-4838-b2c7-c767b4c61eaa" testId="5a33fdc5-e966-e887-4925-2165427a3614" testName="InitVerifyLicenseValidationStatus_ShouldThrowUriFormatException_WhenMSAddressIsEmpty" computerName="DKSR-EFI-04" duration="00:00:00.0043427" startTime="2023-12-22T09:34:38.6003301+01:00" endTime="2023-12-22T09:34:38.6003301+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0b450c2d-9275-4838-b2c7-c767b4c61eaa" />
+    <UnitTestResult executionId="91eae8dd-37d3-4387-bff8-c03be872dbff" testId="9d4a7009-bd87-4df1-75bf-f2ed84b4eaff" testName="StartApplyingRetentionTimeCleanupAsync_ShouldChangeIsIncidentRetentionTimeRunning_WhenCalled" computerName="DKSR-EFI-04" duration="00:00:00.5160603" startTime="2023-12-22T09:34:37.3503226+01:00" endTime="2023-12-22T09:34:37.8659487+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="91eae8dd-37d3-4387-bff8-c03be872dbff" />
+    <UnitTestResult executionId="f2ecfa99-eb8d-43fe-b3a9-3fed51ce1a65" testId="9be17a8a-059b-46fc-d2f4-7a8b32934474" testName="Initialize_ShouldThrowArgumentNullException_WhenLogServerUriIsNull" computerName="DKSR-EFI-04" duration="00:00:00.0468334" startTime="2023-12-22T09:34:40.1784604+01:00" endTime="2023-12-22T09:34:40.2253369+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2ecfa99-eb8d-43fe-b3a9-3fed51ce1a65" />
+    <UnitTestResult executionId="0f3de13f-f54a-4f72-a4ee-96d1f9fb61f2" testId="8a8c5cfe-c320-cc87-dba8-d976eb08c1ad" testName="InitVerifyLicenseValidationStatus_ShouldThrowInvalidOperationException_WhenCalledMoreThanOnce" computerName="DKSR-EFI-04" duration="00:00:00.0197522" startTime="2023-12-22T09:34:36.6940696+01:00" endTime="2023-12-22T09:34:36.7096949+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0f3de13f-f54a-4f72-a4ee-96d1f9fb61f2" />
+    <UnitTestResult executionId="c7826147-544d-4d9f-a5be-f4b256e3a2ea" testId="69ab16f1-54a4-25fe-4e87-5eec70ba3b52" testName="WriteAuditLogEntryAsync_ShouldCallWriteLoglineAsync_WhenCalled" computerName="DKSR-EFI-04" duration="00:00:02.1104081" startTime="2023-12-22T09:34:40.2253369+01:00" endTime="2023-12-22T09:34:42.3503472+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c7826147-544d-4d9f-a5be-f4b256e3a2ea" />
+    <UnitTestResult executionId="f0ce701a-57b2-4cf6-a3d0-0ea512d55d25" testId="27af1b4e-2451-9f4a-7da2-3c4e48c721b9" testName="InitVerifyLicenseValidationStatus_ShouldSetIsLicenseValidToTrue_WhenMSLicenseInformationResponseExpirationDateIsHigherThanToday" computerName="DKSR-EFI-04" duration="00:00:00.0047049" startTime="2023-12-22T09:34:38.6784539+01:00" endTime="2023-12-22T09:34:38.6940803+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f0ce701a-57b2-4cf6-a3d0-0ea512d55d25" />
+    <UnitTestResult executionId="afe546bc-bde2-4d2f-9ee2-100aa8001c44" testId="cbe4517e-4972-ca5e-79f8-cc6d9c0831fc" testName="StartVerifyLicenseValidationStatusAsync_ShouldThrowInvalidOperationException_WhenCalledBeforeInit" computerName="DKSR-EFI-04" duration="00:00:00.0010026" startTime="2023-12-22T09:34:38.6940803+01:00" endTime="2023-12-22T09:34:38.6940803+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="afe546bc-bde2-4d2f-9ee2-100aa8001c44" />
+    <UnitTestResult executionId="5770c784-6b5e-45a7-8bc3-0ef2d014b00a" testId="b980153d-11d7-d7f2-3f1b-4df4dc142dca" testName="StartVerifyLicenseValidationStatusAsync_ShouldStop_WhenCalledBeforeInit2" computerName="DKSR-EFI-04" duration="00:00:00.5330389" startTime="2023-12-22T09:34:39.2409545+01:00" endTime="2023-12-22T09:34:39.7722097+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5770c784-6b5e-45a7-8bc3-0ef2d014b00a" />
+    <UnitTestResult executionId="ec5c4676-7d89-455a-a550-451d009f2328" testId="355351f2-4395-f033-c2f8-f0786b67ee79" testName="InitVerifyLicenseValidationStatus_ShouldRaiseArgumentNullException_WhenOemResourceServiceIsNull" computerName="DKSR-EFI-04" duration="00:00:00.0008284" startTime="2023-12-22T09:34:38.5847027+01:00" endTime="2023-12-22T09:34:38.6003301+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ec5c4676-7d89-455a-a550-451d009f2328" />
+    <UnitTestResult executionId="516cef79-329d-46a6-a507-12bf1faceb43" testId="3605ec3f-9bb4-034b-14bc-a693c55d3c7d" testName="VideoOsIMServerServiceMetadata_ShouldBeEqualTo_VersionControlMetadata" computerName="DKSR-EFI-04" duration="00:00:00.0005343" startTime="2023-12-22T09:34:40.1315866+01:00" endTime="2023-12-22T09:34:40.1315866+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="516cef79-329d-46a6-a507-12bf1faceb43" />
+    <UnitTestResult executionId="5e3905af-fe15-4347-b421-c975942398a9" testId="bf671d8a-3f32-5b51-c44a-ecbea43f6d94" testName="StartApplyingRetentionTimeCleanupAsync_ShouldThrowInvalidOperationException_WhenIsCurrentlyRunning" computerName="DKSR-EFI-04" duration="00:00:00.5623930" startTime="2023-12-22T09:34:36.7878186+01:00" endTime="2023-12-22T09:34:37.3503226+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5e3905af-fe15-4347-b421-c975942398a9" />
+    <UnitTestResult executionId="11d9bf73-2841-4dfe-b5f4-cda3b2553af2" testId="dc86c0a9-d1b0-88ad-d080-f55b3a63c5b3" testName="VideoOsIMServerDataMapperMetadata_ShouldBeEqualTo_VersionControlMetadata" computerName="DKSR-EFI-04" duration="00:00:00.0311049" startTime="2023-12-22T09:34:40.0690851+01:00" endTime="2023-12-22T09:34:40.1003378+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="11d9bf73-2841-4dfe-b5f4-cda3b2553af2" />
+    <UnitTestResult executionId="5ce8740c-d4a0-4986-a242-23643b522fe1" testId="138d76a8-6473-7dec-615f-794e32b1ce43" testName="InitVerifyLicenseValidationStatus_ShouldRaiseArgumentNullException_WhenLoggerProviderIsNull" computerName="DKSR-EFI-04" duration="00:00:00.0006826" startTime="2023-12-22T09:34:38.5847027+01:00" endTime="2023-12-22T09:34:38.5847027+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ce8740c-d4a0-4986-a242-23643b522fe1" />
+    <UnitTestResult executionId="7923c90f-acf4-45b6-ad54-a5136595959d" testId="1458d4d6-86f6-3a05-03f9-18d660f7dd7a" testName="InitApplyIncidentRetentionAfter_ShouldRaiseArgumentNullException_WhenDtoGlobalSettingsManagerIsNull" computerName="DKSR-EFI-04" duration="00:00:00.0040919" startTime="2023-12-22T09:34:36.6940696+01:00" endTime="2023-12-22T09:34:36.6940696+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7923c90f-acf4-45b6-ad54-a5136595959d" />
+    <UnitTestResult executionId="3c90e5a4-95b1-4444-b741-c53f2abe0842" testId="3becaebc-4673-578b-17f5-631e7304badb" testName="Decorate_ShouldRaiseArgumentNullException_WhenDaysToKeepIncidentsIsLowerThanZero" computerName="DKSR-EFI-04" duration="00:00:00.0004717" startTime="2023-12-22T09:34:38.4284539+01:00" endTime="2023-12-22T09:34:38.4284539+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c90e5a4-95b1-4444-b741-c53f2abe0842" />
+    <UnitTestResult executionId="ed3b8a92-2251-4205-b50c-d7b99c4fae68" testId="80a128f1-2aa8-909e-fd5c-4b177d44cd9a" testName="VideoOsIMServerRepositoryModelEntityFrameworkMetadata_ShouldBeEqualTo_VersionControlMetadata" computerName="DKSR-EFI-04" duration="00:00:00.0005021" startTime="2023-12-22T09:34:40.1315866+01:00" endTime="2023-12-22T09:34:40.1315866+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed3b8a92-2251-4205-b50c-d7b99c4fae68" />
+    <UnitTestResult executionId="f28df6bd-27b5-4632-a60a-cfbc78017f9a" testId="22d22de8-c655-6e79-3431-6deaaebc829b" testName="IsLicenseValid_ShouldThrowInvalidOperationException_WhenCalledBeforeInit" computerName="DKSR-EFI-04" duration="00:00:00.0005688" startTime="2023-12-22T09:34:39.7722097+01:00" endTime="2023-12-22T09:34:39.7722097+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f28df6bd-27b5-4632-a60a-cfbc78017f9a" />
+    <UnitTestResult executionId="98668750-5e1e-463d-b5ae-daafafc5f17a" testId="cce6db67-11f2-17a0-2e1d-082c9531cb5c" testName="Constructor_ShouldThrowArgumentException_WhenEntityParameterIsNull" computerName="DKSR-EFI-04" duration="00:00:00.0007706" startTime="2023-12-22T09:34:39.9909589+01:00" endTime="2023-12-22T09:34:39.9909589+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98668750-5e1e-463d-b5ae-daafafc5f17a" />
+    <UnitTestResult executionId="40ec5090-71c3-42b3-bc01-1b9d39ad2fd9" testId="c57d895a-6877-e4b1-8a32-5970fdab089e" testName="WriteAuditLogEntryAsync_ShouldDoNothing_WhenLogServerIsNotRegistered" computerName="DKSR-EFI-04" duration="00:00:00.0045362" startTime="2023-12-22T09:34:40.2253369+01:00" endTime="2023-12-22T09:34:40.2253369+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40ec5090-71c3-42b3-bc01-1b9d39ad2fd9" />
+    <UnitTestResult executionId="ee134c99-6120-45f4-935d-a329251fd341" testId="c02b8d9d-1e61-0354-fc92-7f2314ade102" testName="Constructor_ShouldThrowArgumentException_WhenActivityLogParameterIsNull" computerName="DKSR-EFI-04" duration="00:00:00.2061043" startTime="2023-12-22T09:34:39.7722097+01:00" endTime="2023-12-22T09:34:39.9909589+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee134c99-6120-45f4-935d-a329251fd341" />
+    <UnitTestResult executionId="48eed9e0-f5e0-4f83-8ae9-f82ef5586b3a" testId="0ba3898c-b7c6-344b-4ee6-452372174a43" testName="VideoOsIMServerRepositoryMetadata_ShouldBeEqualTo_VersionControlMetadata" computerName="DKSR-EFI-04" duration="00:00:00.0060871" startTime="2023-12-22T09:34:40.1315866+01:00" endTime="2023-12-22T09:34:40.1315866+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="48eed9e0-f5e0-4f83-8ae9-f82ef5586b3a" />
+    <UnitTestResult executionId="faca5199-8669-4496-bf03-83aeec93cb3f" testId="7312ab10-7df9-ff92-3445-cabfa1e65ff5" testName="InitVerifyLicenseValidationStatus_ShouldSetIsLicenseValidToFalse_WhenMSLicenseInformationResponseExpirationDateIsLowerThanToday" computerName="DKSR-EFI-04" duration="00:00:00.0034905" startTime="2023-12-22T09:34:38.6940803+01:00" endTime="2023-12-22T09:34:38.6940803+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="faca5199-8669-4496-bf03-83aeec93cb3f" />
+    <UnitTestResult executionId="9a499f66-d255-485b-af3e-786b710d27a1" testId="ca277973-f43d-bfdb-6283-ffbaf3f65327" testName="GetDescription_ShouldReturnALocalizableDescriptionWrapperAsJson" computerName="DKSR-EFI-04" duration="00:00:00.0187531" startTime="2023-12-22T09:34:40.0534612+01:00" endTime="2023-12-22T09:34:40.0690851+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9a499f66-d255-485b-af3e-786b710d27a1" />
+    <UnitTestResult executionId="388ff324-7ea4-48f7-a313-7cda58581ab1" testId="5e76ad1f-55c1-1e25-0f7c-cb8e2cf1b96d" testName="IsLicenseValidationRunning_ShouldThrowInvalidOperationException_WhenCalledBeforeInit" computerName="DKSR-EFI-04" duration="00:00:00.0004375" startTime="2023-12-22T09:34:39.7722097+01:00" endTime="2023-12-22T09:34:39.7722097+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="388ff324-7ea4-48f7-a313-7cda58581ab1" />
+    <UnitTestResult executionId="9c483cd4-3704-4161-8092-dc1e8adf1319" testId="07ecb19c-6370-df32-805d-1851e826966a" testName="InitVerifyLicenseValidationStatus_ShouldCallSaveToDBStartingIncidentRetentionTime_WhenStartingIncidentRetentionTimeIsNull" computerName="DKSR-EFI-04" duration="00:00:00.0009302" startTime="2023-12-22T09:34:36.7721929+01:00" endTime="2023-12-22T09:34:36.7721929+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9c483cd4-3704-4161-8092-dc1e8adf1319" />
+    <UnitTestResult executionId="5c42eee4-6755-427c-bdf6-80f7b77a9947" testId="e458ea74-25a2-36e5-9cdc-71b21041bf98" testName="InitVerifyLicenseValidationStatus_ShouldLogCustomLogError_WhenMSLicenseInformationResponseDoesNotHaveIncidentManager" computerName="DKSR-EFI-04" duration="00:00:00.0071917" startTime="2023-12-22T09:34:38.6784539+01:00" endTime="2023-12-22T09:34:38.6784539+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c42eee4-6755-427c-bdf6-80f7b77a9947" />
+    <UnitTestResult executionId="43eedaf8-abe7-434a-bfd3-f4fd4d95056e" testId="6c73c9b8-8eb7-3aa7-8a5b-e8f92739f28b" testName="InitVerifyLicenseValidationStatus_ShouldRaiseArgumentNullException_WhenWinRegistryServiceIsNull" computerName="DKSR-EFI-04" duration="00:00:00.0649971" startTime="2023-12-22T09:34:38.5222031+01:00" endTime="2023-12-22T09:34:38.5847027+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43eedaf8-abe7-434a-bfd3-f4fd4d95056e" />
+    <UnitTestResult executionId="c98a16f9-7bb5-403c-ae33-7cc20fa3431c" testId="8393060d-d2f4-c1cc-0492-8f2579df93bf" testName="Decorate_ShouldModifyTimeCreated_WhenCalled" computerName="DKSR-EFI-04" duration="00:00:00.0921406" startTime="2023-12-22T09:34:38.4284539+01:00" endTime="2023-12-22T09:34:38.5222031+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c98a16f9-7bb5-403c-ae33-7cc20fa3431c" />
+    <UnitTestResult executionId="7a68a724-be69-431f-bf2d-821ea3dcda14" testId="caed90b9-6f98-e50e-91b4-0294d5e6dcbf" testName="StartApplyingRetentionTimeCleanupAsync_ShouldDeleteFourIncidents_WhenRetentionTimeCanBeApplied" computerName="DKSR-EFI-04" duration="00:00:00.5628934" startTime="2023-12-22T09:34:37.8659487+01:00" endTime="2023-12-22T09:34:38.4284539+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a68a724-be69-431f-bf2d-821ea3dcda14" />
+    <UnitTestResult executionId="9f708225-ecf5-4314-8b75-2f003788cd26" testId="4a995ef5-7ba5-78cf-e23b-32b10e81d3c2" testName="InitVerifyLicenseValidationStatus_ShouldLogCustomLogError_WhenMSLicenseInformationResponseIsEmpty" computerName="DKSR-EFI-04" duration="00:00:00.0065319" startTime="2023-12-22T09:34:38.6628273+01:00" endTime="2023-12-22T09:34:38.6784539+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f708225-ecf5-4314-8b75-2f003788cd26" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="InitVerifyLicenseValidationStatus_ShouldCallSaveToDBStartingIncidentRetentionTime_WhenStartingIncidentRetentionTimeIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="07ecb19c-6370-df32-805d-1851e826966a">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.RetentionTimes" />
+      </TestCategory>
+      <Execution id="9c483cd4-3704-4161-8092-dc1e8adf1319" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.RetentionTimes.IncidentRetentionTimeCleanupServiceTests" name="InitVerifyLicenseValidationStatus_ShouldCallSaveToDBStartingIncidentRetentionTime_WhenStartingIncidentRetentionTimeIsNull" />
+    </UnitTest>
+    <UnitTest name="InitVerifyLicenseValidationStatus_ShouldSetIsLicenseValidToTrue_WhenMSLicenseInformationResponseExpirationDateIsUnrestricted" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="4bf7abe5-c900-da8c-e9eb-09c369a7644f">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.Licenses" />
+      </TestCategory>
+      <Execution id="e43d28d8-afd0-42cf-8b24-120e6de659c5" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.Licenses.LicenseServiceTests" name="InitVerifyLicenseValidationStatus_ShouldSetIsLicenseValidToTrue_WhenMSLicenseInformationResponseExpirationDateIsUnrestricted" />
+    </UnitTest>
+    <UnitTest name="StartVerifyLicenseValidationStatusAsync_ShouldThrowInvalidOperationException_WhenIsCurrentlyRunning" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="5cf96fd9-7f4d-dace-15cd-95c6e808e8b2">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.Licenses" />
+      </TestCategory>
+      <Execution id="57362ba7-ee36-4a54-bdf3-afa35a417845" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.Licenses.LicenseServiceTests" name="StartVerifyLicenseValidationStatusAsync_ShouldThrowInvalidOperationException_WhenIsCurrentlyRunning" />
+    </UnitTest>
+    <UnitTest name="StartVerifyLicenseValidationStatusAsync_ShouldThrowInvalidOperationException_WhenCalledBeforeInit" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="cbe4517e-4972-ca5e-79f8-cc6d9c0831fc">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.Licenses" />
+      </TestCategory>
+      <Execution id="afe546bc-bde2-4d2f-9ee2-100aa8001c44" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.Licenses.LicenseServiceTests" name="StartVerifyLicenseValidationStatusAsync_ShouldThrowInvalidOperationException_WhenCalledBeforeInit" />
+    </UnitTest>
+    <UnitTest name="StartVerifyLicenseValidationStatusAsync_ShouldStop_WhenCalledBeforeInit2" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="b980153d-11d7-d7f2-3f1b-4df4dc142dca">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.Licenses" />
+      </TestCategory>
+      <Execution id="5770c784-6b5e-45a7-8bc3-0ef2d014b00a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.Licenses.LicenseServiceTests" name="StartVerifyLicenseValidationStatusAsync_ShouldStop_WhenCalledBeforeInit2" />
+    </UnitTest>
+    <UnitTest name="InitVerifyLicenseValidationStatus_ShouldSetStartingIncidentRetentionTime_WhenStartingIncidentRetentionTimeIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="df722627-cb17-54c5-d50a-07c0ed10edc5">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.RetentionTimes" />
+      </TestCategory>
+      <Execution id="6e85c85e-1032-41b6-a6fa-f26b8c0572d0" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.RetentionTimes.IncidentRetentionTimeCleanupServiceTests" name="InitVerifyLicenseValidationStatus_ShouldSetStartingIncidentRetentionTime_WhenStartingIncidentRetentionTimeIsNull" />
+    </UnitTest>
+    <UnitTest name="InitVerifyLicenseValidationStatus_ShouldRaiseArgumentNullException_WhenOemResourceServiceIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="355351f2-4395-f033-c2f8-f0786b67ee79">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.Licenses" />
+      </TestCategory>
+      <Execution id="ec5c4676-7d89-455a-a550-451d009f2328" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.Licenses.LicenseServiceTests" name="InitVerifyLicenseValidationStatus_ShouldRaiseArgumentNullException_WhenOemResourceServiceIsNull" />
+    </UnitTest>
+    <UnitTest name="Constructor_ShouldThrowArgumentException_WhenEntityParameterIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="cce6db67-11f2-17a0-2e1d-082c9531cb5c">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Repository.EntityFramework.Context" />
+      </TestCategory>
+      <Execution id="98668750-5e1e-463d-b5ae-daafafc5f17a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Repository.EntityFramework.Context.ActivityLogKeyWriterTest" name="Constructor_ShouldThrowArgumentException_WhenEntityParameterIsNull" />
+    </UnitTest>
+    <UnitTest name="Decorate_ShouldRaiseArgumentNullException_WhenDaysToKeepIncidentsIsLowerThanZero" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="3becaebc-4673-578b-17f5-631e7304badb">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.RetentionTimes.Decorators" />
+      </TestCategory>
+      <Execution id="3c90e5a4-95b1-4444-b741-c53f2abe0842" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.RetentionTimes.Decorators.RetentionTimeIncidentDecoratorTests" name="Decorate_ShouldRaiseArgumentNullException_WhenDaysToKeepIncidentsIsLowerThanZero" />
+    </UnitTest>
+    <UnitTest name="IsIncidentRetentionTimeRunning_ShouldThrowInvalidOperationException_WhenCalledBeforeInit" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="806a2e90-364c-6d72-43a2-9a50b4e9ce36">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.RetentionTimes" />
+      </TestCategory>
+      <Execution id="0c935fdd-127d-41a5-bd3d-aa9aba27d074" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.RetentionTimes.IncidentRetentionTimeCleanupServiceTests" name="IsIncidentRetentionTimeRunning_ShouldThrowInvalidOperationException_WhenCalledBeforeInit" />
+    </UnitTest>
+    <UnitTest name="Decorate_ShouldRaiseArgumentNullException_WhenDtoIncidentsIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="3c9a24ee-9b6b-0dfd-0bff-cd271bb7ec90">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.RetentionTimes.Decorators" />
+      </TestCategory>
+      <Execution id="a49e0680-66a6-4773-bde9-b2bee192c1d3" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.RetentionTimes.Decorators.RetentionTimeIncidentDecoratorTests" name="Decorate_ShouldRaiseArgumentNullException_WhenDtoIncidentsIsNull" />
+    </UnitTest>
+    <UnitTest name="VideoOsIMServerWebApiMetadata_ShouldBeEqualTo_VersionControlMetadata" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="8818148f-b04b-5f52-99ec-bc97422bd8a3">
+      <Execution id="caa0223c-5fda-4f8d-923c-9b318d4b9a3e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.MetadataTests.ServerMetadataTests" name="VideoOsIMServerWebApiMetadata_ShouldBeEqualTo_VersionControlMetadata" />
+    </UnitTest>
+    <UnitTest name="VideoOsIMServerDataMapperMetadata_ShouldBeEqualTo_VersionControlMetadata" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="dc86c0a9-d1b0-88ad-d080-f55b3a63c5b3">
+      <Execution id="11d9bf73-2841-4dfe-b5f4-cda3b2553af2" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.MetadataTests.ServerMetadataTests" name="VideoOsIMServerDataMapperMetadata_ShouldBeEqualTo_VersionControlMetadata" />
+    </UnitTest>
+    <UnitTest name="VideoOsIMServerLoggerMetadata_ShouldBeEqualTo_VersionControlMetadata" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="d3087028-b4d0-9798-6d81-f473d3cde8a4">
+      <Execution id="177f534a-1b88-40c0-8b4d-16b56a846822" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.MetadataTests.ServerMetadataTests" name="VideoOsIMServerLoggerMetadata_ShouldBeEqualTo_VersionControlMetadata" />
+    </UnitTest>
+    <UnitTest name="InitVerifyLicenseValidationStatus_ShouldRaiseArgumentNullException_WhenWebApiClientIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="3ffb06c7-9b69-3510-e821-15a0c1204024">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.Licenses" />
+      </TestCategory>
+      <Execution id="3311347b-66ae-4c38-8ab4-e14123a8c9c7" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.Licenses.LicenseServiceTests" name="InitVerifyLicenseValidationStatus_ShouldRaiseArgumentNullException_WhenWebApiClientIsNull" />
+    </UnitTest>
+    <UnitTest name="StartApplyingRetentionTimeCleanupAsync_ShouldThrowInvalidOperationException_WhenCalledBeforeInit" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="9973461d-3a23-5bee-4ac0-8ae790a8b115">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.RetentionTimes" />
+      </TestCategory>
+      <Execution id="07c7374b-499d-411f-95e3-c2bd14535688" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.RetentionTimes.IncidentRetentionTimeCleanupServiceTests" name="StartApplyingRetentionTimeCleanupAsync_ShouldThrowInvalidOperationException_WhenCalledBeforeInit" />
+    </UnitTest>
+    <UnitTest name="InitVerifyLicenseValidationStatus_ShouldLogCustomLogError_WhenMSLicenseInformationResponseIsEmpty" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="4a995ef5-7ba5-78cf-e23b-32b10e81d3c2">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.Licenses" />
+      </TestCategory>
+      <Execution id="9f708225-ecf5-4314-8b75-2f003788cd26" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.Licenses.LicenseServiceTests" name="InitVerifyLicenseValidationStatus_ShouldLogCustomLogError_WhenMSLicenseInformationResponseIsEmpty" />
+    </UnitTest>
+    <UnitTest name="VideoOsIMServerRepositoryModelEntityFrameworkMetadata_ShouldBeEqualTo_VersionControlMetadata" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="80a128f1-2aa8-909e-fd5c-4b177d44cd9a">
+      <Execution id="ed3b8a92-2251-4205-b50c-d7b99c4fae68" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.MetadataTests.ServerMetadataTests" name="VideoOsIMServerRepositoryModelEntityFrameworkMetadata_ShouldBeEqualTo_VersionControlMetadata" />
+    </UnitTest>
+    <UnitTest name="InitVerifyLicenseValidationStatus_ShouldThrowUriFormatException_WhenMSAddressIsEmpty" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="5a33fdc5-e966-e887-4925-2165427a3614">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.Licenses" />
+      </TestCategory>
+      <Execution id="0b450c2d-9275-4838-b2c7-c767b4c61eaa" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.Licenses.LicenseServiceTests" name="InitVerifyLicenseValidationStatus_ShouldThrowUriFormatException_WhenMSAddressIsEmpty" />
+    </UnitTest>
+    <UnitTest name="StartApplyingRetentionTimeCleanupAsync_ShouldChangeIsIncidentRetentionTimeRunning_WhenCalled" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="9d4a7009-bd87-4df1-75bf-f2ed84b4eaff">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.RetentionTimes" />
+      </TestCategory>
+      <Execution id="91eae8dd-37d3-4387-bff8-c03be872dbff" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.RetentionTimes.IncidentRetentionTimeCleanupServiceTests" name="StartApplyingRetentionTimeCleanupAsync_ShouldChangeIsIncidentRetentionTimeRunning_WhenCalled" />
+    </UnitTest>
+    <UnitTest name="InitApplyIncidentRetentionAfter_ShouldRaiseArgumentNullException_WhenDtoGlobalSettingsManagerIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="1458d4d6-86f6-3a05-03f9-18d660f7dd7a">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.RetentionTimes" />
+      </TestCategory>
+      <Execution id="7923c90f-acf4-45b6-ad54-a5136595959d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.RetentionTimes.IncidentRetentionTimeCleanupServiceTests" name="InitApplyIncidentRetentionAfter_ShouldRaiseArgumentNullException_WhenDtoGlobalSettingsManagerIsNull" />
+    </UnitTest>
+    <UnitTest name="IsLicenseValidationRunning_ShouldThrowInvalidOperationException_WhenCalledBeforeInit" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="5e76ad1f-55c1-1e25-0f7c-cb8e2cf1b96d">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.Licenses" />
+      </TestCategory>
+      <Execution id="388ff324-7ea4-48f7-a313-7cda58581ab1" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.Licenses.LicenseServiceTests" name="IsLicenseValidationRunning_ShouldThrowInvalidOperationException_WhenCalledBeforeInit" />
+    </UnitTest>
+    <UnitTest name="Initialize_ShouldThrowArgumentNullException_WhenLogServerUriIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="9be17a8a-059b-46fc-d2f4-7a8b32934474">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Logger.AuditLog" />
+      </TestCategory>
+      <Execution id="f2ecfa99-eb8d-43fe-b3a9-3fed51ce1a65" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Logger.AuditLog.AuditLoggerTests" name="Initialize_ShouldThrowArgumentNullException_WhenLogServerUriIsNull" />
+    </UnitTest>
+    <UnitTest name="InitVerifyLicenseValidationStatus_ShouldThrowInvalidOperationException_WhenCalledMoreThanOnce" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="bc3a9838-88be-c8cb-41e1-0a91adf572d4">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.Licenses" />
+      </TestCategory>
+      <Execution id="f1a6022b-b4cd-4779-a967-aa49a4150712" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.Licenses.LicenseServiceTests" name="InitVerifyLicenseValidationStatus_ShouldThrowInvalidOperationException_WhenCalledMoreThanOnce" />
+    </UnitTest>
+    <UnitTest name="WriteAuditLogEntryAsync_ShouldCallWriteLoglineAsync_WhenCalled" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="69ab16f1-54a4-25fe-4e87-5eec70ba3b52">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Logger.AuditLog" />
+      </TestCategory>
+      <Execution id="c7826147-544d-4d9f-a5be-f4b256e3a2ea" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Logger.AuditLog.AuditLoggerTests" name="WriteAuditLogEntryAsync_ShouldCallWriteLoglineAsync_WhenCalled" />
+    </UnitTest>
+    <UnitTest name="InitApplyIncidentRetentionAfter_ShouldRaiseArgumentNullException_WhenRetentionTimeIncidentDecoratorIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="0f5b699f-e338-cc4a-3646-a930682a8493">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.RetentionTimes" />
+      </TestCategory>
+      <Execution id="e809fb45-7842-4cc7-8e67-a4d1066f94a9" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.RetentionTimes.IncidentRetentionTimeCleanupServiceTests" name="InitApplyIncidentRetentionAfter_ShouldRaiseArgumentNullException_WhenRetentionTimeIncidentDecoratorIsNull" />
+    </UnitTest>
+    <UnitTest name="Constructor_ShouldThrowArgumentException_WhenActivityLogParameterIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="c02b8d9d-1e61-0354-fc92-7f2314ade102">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Repository.EntityFramework.Context" />
+      </TestCategory>
+      <Execution id="ee134c99-6120-45f4-935d-a329251fd341" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Repository.EntityFramework.Context.ActivityLogKeyWriterTest" name="Constructor_ShouldThrowArgumentException_WhenActivityLogParameterIsNull" />
+    </UnitTest>
+    <UnitTest name="InitVerifyLicenseValidationStatus_ShouldRaiseArgumentNullException_WhenLoggerProviderIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="138d76a8-6473-7dec-615f-794e32b1ce43">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.Licenses" />
+      </TestCategory>
+      <Execution id="5ce8740c-d4a0-4986-a242-23643b522fe1" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.Licenses.LicenseServiceTests" name="InitVerifyLicenseValidationStatus_ShouldRaiseArgumentNullException_WhenLoggerProviderIsNull" />
+    </UnitTest>
+    <UnitTest name="StartApplyingRetentionTimeCleanupAsync_ShouldThrowInvalidOperationException_WhenIsCurrentlyRunning" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="bf671d8a-3f32-5b51-c44a-ecbea43f6d94">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.RetentionTimes" />
+      </TestCategory>
+      <Execution id="5e3905af-fe15-4347-b421-c975942398a9" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.RetentionTimes.IncidentRetentionTimeCleanupServiceTests" name="StartApplyingRetentionTimeCleanupAsync_ShouldThrowInvalidOperationException_WhenIsCurrentlyRunning" />
+    </UnitTest>
+    <UnitTest name="VideoOsIMServerRepositoryMetadata_ShouldBeEqualTo_VersionControlMetadata" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="0ba3898c-b7c6-344b-4ee6-452372174a43">
+      <Execution id="48eed9e0-f5e0-4f83-8ae9-f82ef5586b3a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.MetadataTests.ServerMetadataTests" name="VideoOsIMServerRepositoryMetadata_ShouldBeEqualTo_VersionControlMetadata" />
+    </UnitTest>
+    <UnitTest name="StartApplyingRetentionTimeCleanupAsync_ShouldDeleteFourIncidents_WhenRetentionTimeCanBeApplied" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="caed90b9-6f98-e50e-91b4-0294d5e6dcbf">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.RetentionTimes" />
+      </TestCategory>
+      <Execution id="7a68a724-be69-431f-bf2d-821ea3dcda14" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.RetentionTimes.IncidentRetentionTimeCleanupServiceTests" name="StartApplyingRetentionTimeCleanupAsync_ShouldDeleteFourIncidents_WhenRetentionTimeCanBeApplied" />
+    </UnitTest>
+    <UnitTest name="InitVerifyLicenseValidationStatus_ShouldLogCustomLogError_WhenMSLicenseInformationResponseDoesNotHaveIncidentManager" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="e458ea74-25a2-36e5-9cdc-71b21041bf98">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.Licenses" />
+      </TestCategory>
+      <Execution id="5c42eee4-6755-427c-bdf6-80f7b77a9947" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.Licenses.LicenseServiceTests" name="InitVerifyLicenseValidationStatus_ShouldLogCustomLogError_WhenMSLicenseInformationResponseDoesNotHaveIncidentManager" />
+    </UnitTest>
+    <UnitTest name="Decorate_ShouldModifyTimeCreated_WhenCalled" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="8393060d-d2f4-c1cc-0492-8f2579df93bf">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.RetentionTimes.Decorators" />
+      </TestCategory>
+      <Execution id="c98a16f9-7bb5-403c-ae33-7cc20fa3431c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.RetentionTimes.Decorators.RetentionTimeIncidentDecoratorTests" name="Decorate_ShouldModifyTimeCreated_WhenCalled" />
+    </UnitTest>
+    <UnitTest name="Constructor_ShouldThrowArgumentException_WhenEntityIsNotSupported" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="4458e61b-d5cf-d06c-af68-c9c89ce52008">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Repository.EntityFramework.Context" />
+      </TestCategory>
+      <Execution id="4cc26f3a-b080-4039-ae14-6fe335076481" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Repository.EntityFramework.Context.ActivityLogKeyWriterTest" name="Constructor_ShouldThrowArgumentException_WhenEntityIsNotSupported" />
+    </UnitTest>
+    <UnitTest name="VideoOsIMServerRepositoryEntityFrameworkMetadata_ShouldBeEqualTo_VersionControlMetadata" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="928897b7-2968-a86b-8d8d-1b6c94ce2d15">
+      <Execution id="8f87cc31-d75b-4b09-bfc8-f889fa6cbf5c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.MetadataTests.ServerMetadataTests" name="VideoOsIMServerRepositoryEntityFrameworkMetadata_ShouldBeEqualTo_VersionControlMetadata" />
+    </UnitTest>
+    <UnitTest name="InitApplyIncidentRetentionAfter_ShouldRaiseArgumentNullException_WhenTimeProviderIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="63ddc633-32c7-db2a-5634-7b29b0ff97df">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.RetentionTimes" />
+      </TestCategory>
+      <Execution id="44263bef-0551-4806-8809-8d064ab4adec" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.RetentionTimes.IncidentRetentionTimeCleanupServiceTests" name="InitApplyIncidentRetentionAfter_ShouldRaiseArgumentNullException_WhenTimeProviderIsNull" />
+    </UnitTest>
+    <UnitTest name="InitVerifyLicenseValidationStatus_ShouldSetIsLicenseValidToFalse_WhenMSLicenseInformationResponseExpirationDateIsLowerThanToday" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="7312ab10-7df9-ff92-3445-cabfa1e65ff5">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.Licenses" />
+      </TestCategory>
+      <Execution id="faca5199-8669-4496-bf03-83aeec93cb3f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.Licenses.LicenseServiceTests" name="InitVerifyLicenseValidationStatus_ShouldSetIsLicenseValidToFalse_WhenMSLicenseInformationResponseExpirationDateIsLowerThanToday" />
+    </UnitTest>
+    <UnitTest name="GetDescription_ShouldReturnALocalizableDescriptionWrapperAsJson" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="ca277973-f43d-bfdb-6283-ffbaf3f65327">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Repository.EntityFramework.Context" />
+      </TestCategory>
+      <Execution id="9a499f66-d255-485b-af3e-786b710d27a1" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Repository.EntityFramework.Context.ActivityLogKeyWriterTest" name="GetDescription_ShouldReturnALocalizableDescriptionWrapperAsJson" />
+    </UnitTest>
+    <UnitTest name="InitVerifyLicenseValidationStatus_ShouldThrowInvalidOperationException_WhenCalledMoreThanOnce" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="8a8c5cfe-c320-cc87-dba8-d976eb08c1ad">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.RetentionTimes" />
+      </TestCategory>
+      <Execution id="0f3de13f-f54a-4f72-a4ee-96d1f9fb61f2" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.RetentionTimes.IncidentRetentionTimeCleanupServiceTests" name="InitVerifyLicenseValidationStatus_ShouldThrowInvalidOperationException_WhenCalledMoreThanOnce" />
+    </UnitTest>
+    <UnitTest name="InitVerifyLicenseValidationStatus_ShouldSetIsLicenseValidToTrue_WhenMSLicenseInformationResponseExpirationDateIsHigherThanToday" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="27af1b4e-2451-9f4a-7da2-3c4e48c721b9">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.Licenses" />
+      </TestCategory>
+      <Execution id="f0ce701a-57b2-4cf6-a3d0-0ea512d55d25" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.Licenses.LicenseServiceTests" name="InitVerifyLicenseValidationStatus_ShouldSetIsLicenseValidToTrue_WhenMSLicenseInformationResponseExpirationDateIsHigherThanToday" />
+    </UnitTest>
+    <UnitTest name="VideoOsIMServerRegistrarsMetadata_ShouldBeEqualTo_VersionControlMetadata" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="445599d9-9d16-da23-159e-5bfb5f5211ed">
+      <Execution id="30c73889-7860-470d-ab83-c1f84bf936a4" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.MetadataTests.ServerMetadataTests" name="VideoOsIMServerRegistrarsMetadata_ShouldBeEqualTo_VersionControlMetadata" />
+    </UnitTest>
+    <UnitTest name="InitVerifyLicenseValidationStatus_ShouldRaiseArgumentNullException_WhenWinRegistryServiceIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="6c73c9b8-8eb7-3aa7-8a5b-e8f92739f28b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.Licenses" />
+      </TestCategory>
+      <Execution id="43eedaf8-abe7-434a-bfd3-f4fd4d95056e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.Licenses.LicenseServiceTests" name="InitVerifyLicenseValidationStatus_ShouldRaiseArgumentNullException_WhenWinRegistryServiceIsNull" />
+    </UnitTest>
+    <UnitTest name="WriteAuditLogEntryAsync_ShouldDoNothing_WhenLogServerIsNotRegistered" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="c57d895a-6877-e4b1-8a32-5970fdab089e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Logger.AuditLog" />
+      </TestCategory>
+      <Execution id="40ec5090-71c3-42b3-bc01-1b9d39ad2fd9" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Logger.AuditLog.AuditLoggerTests" name="WriteAuditLogEntryAsync_ShouldDoNothing_WhenLogServerIsNotRegistered" />
+    </UnitTest>
+    <UnitTest name="Initialize_ShouldThrowArgumentNullException_WhenLogWriterIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="bb8f297f-5137-d7ca-ee5f-055274e099fe">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Logger.AuditLog" />
+      </TestCategory>
+      <Execution id="30e31b2d-07a2-40e4-bf76-8a3166087e5c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Logger.AuditLog.AuditLoggerTests" name="Initialize_ShouldThrowArgumentNullException_WhenLogWriterIsNull" />
+    </UnitTest>
+    <UnitTest name="Constructor_ShouldThrowArgumentException_WhenIncidentPropertiesParameterIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="13d1af1d-f5f5-2c11-9a63-c5e16e7b57c9">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Repository.EntityFramework.Context" />
+      </TestCategory>
+      <Execution id="a6a8f772-33a1-482c-82dc-14644b0ad0b6" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Repository.EntityFramework.Context.ActivityLogKeyWriterTest" name="Constructor_ShouldThrowArgumentException_WhenIncidentPropertiesParameterIsNull" />
+    </UnitTest>
+    <UnitTest name="VideoOsIMServerServiceMetadata_ShouldBeEqualTo_VersionControlMetadata" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="3605ec3f-9bb4-034b-14bc-a693c55d3c7d">
+      <Execution id="516cef79-329d-46a6-a507-12bf1faceb43" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.MetadataTests.ServerMetadataTests" name="VideoOsIMServerServiceMetadata_ShouldBeEqualTo_VersionControlMetadata" />
+    </UnitTest>
+    <UnitTest name="Instance_ShouldBeSingleton_WhenCalled" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="0d8e6ba6-7fc7-eed4-333b-e3540263c146">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.RetentionTimes" />
+      </TestCategory>
+      <Execution id="0520f029-4908-40d4-9d44-dbf706375200" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.RetentionTimes.IncidentRetentionTimeCleanupServiceTests" name="Instance_ShouldBeSingleton_WhenCalled" />
+    </UnitTest>
+    <UnitTest name="Instance_ShouldBeSingleton_WhenCalled" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="d8783e72-69e3-afff-4d3d-6d4bb483c081">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.Licenses" />
+      </TestCategory>
+      <Execution id="833baeef-2466-4014-a939-a5f01791f4b8" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.Licenses.LicenseServiceTests" name="Instance_ShouldBeSingleton_WhenCalled" />
+    </UnitTest>
+    <UnitTest name="IsLicenseValid_ShouldThrowInvalidOperationException_WhenCalledBeforeInit" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="22d22de8-c655-6e79-3431-6deaaebc829b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.Licenses" />
+      </TestCategory>
+      <Execution id="f28df6bd-27b5-4632-a60a-cfbc78017f9a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.Licenses.LicenseServiceTests" name="IsLicenseValid_ShouldThrowInvalidOperationException_WhenCalledBeforeInit" />
+    </UnitTest>
+    <UnitTest name="InitVerifyLicenseValidationStatus_ShouldLogCustomLogError_WhenMSSitesResponseIsEmpty" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="10e25c2e-bf35-b69a-bdac-9894ed0e83ff">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.Licenses" />
+      </TestCategory>
+      <Execution id="b876bac1-7230-4ffa-ae7b-87ba65086dcb" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.Licenses.LicenseServiceTests" name="InitVerifyLicenseValidationStatus_ShouldLogCustomLogError_WhenMSSitesResponseIsEmpty" />
+    </UnitTest>
+    <UnitTest name="InitVerifyLicenseValidationStatus_ShouldKeepStartingIncidentRetentionTime_WhenStartingIncidentRetentionTimeIsDefined" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\server\tst\videoos.im.server.unittest\bin\debug\videoos.im.server.unittest.dll" id="307685d3-f73a-9c18-2f49-ae92306afba1">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Server.UnitTest.Service.RetentionTimes" />
+      </TestCategory>
+      <Execution id="54b62059-9952-4dc2-96c4-e50829df811b" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Server\tst\VideoOS.IM.Server.UnitTest\bin\Debug\VideoOS.IM.Server.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Server.UnitTest.Service.RetentionTimes.IncidentRetentionTimeCleanupServiceTests" name="InitVerifyLicenseValidationStatus_ShouldKeepStartingIncidentRetentionTime_WhenStartingIncidentRetentionTimeIsDefined" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="d8783e72-69e3-afff-4d3d-6d4bb483c081" executionId="833baeef-2466-4014-a939-a5f01791f4b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f5b699f-e338-cc4a-3646-a930682a8493" executionId="e809fb45-7842-4cc7-8e67-a4d1066f94a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4458e61b-d5cf-d06c-af68-c9c89ce52008" executionId="4cc26f3a-b080-4039-ae14-6fe335076481" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="307685d3-f73a-9c18-2f49-ae92306afba1" executionId="54b62059-9952-4dc2-96c4-e50829df811b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5cf96fd9-7f4d-dace-15cd-95c6e808e8b2" executionId="57362ba7-ee36-4a54-bdf3-afa35a417845" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="928897b7-2968-a86b-8d8d-1b6c94ce2d15" executionId="8f87cc31-d75b-4b09-bfc8-f889fa6cbf5c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3087028-b4d0-9798-6d81-f473d3cde8a4" executionId="177f534a-1b88-40c0-8b4d-16b56a846822" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="63ddc633-32c7-db2a-5634-7b29b0ff97df" executionId="44263bef-0551-4806-8809-8d064ab4adec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9973461d-3a23-5bee-4ac0-8ae790a8b115" executionId="07c7374b-499d-411f-95e3-c2bd14535688" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb8f297f-5137-d7ca-ee5f-055274e099fe" executionId="30e31b2d-07a2-40e4-bf76-8a3166087e5c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0d8e6ba6-7fc7-eed4-333b-e3540263c146" executionId="0520f029-4908-40d4-9d44-dbf706375200" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bc3a9838-88be-c8cb-41e1-0a91adf572d4" executionId="f1a6022b-b4cd-4779-a967-aa49a4150712" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="10e25c2e-bf35-b69a-bdac-9894ed0e83ff" executionId="b876bac1-7230-4ffa-ae7b-87ba65086dcb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8818148f-b04b-5f52-99ec-bc97422bd8a3" executionId="caa0223c-5fda-4f8d-923c-9b318d4b9a3e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3ffb06c7-9b69-3510-e821-15a0c1204024" executionId="3311347b-66ae-4c38-8ab4-e14123a8c9c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="13d1af1d-f5f5-2c11-9a63-c5e16e7b57c9" executionId="a6a8f772-33a1-482c-82dc-14644b0ad0b6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c9a24ee-9b6b-0dfd-0bff-cd271bb7ec90" executionId="a49e0680-66a6-4773-bde9-b2bee192c1d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="df722627-cb17-54c5-d50a-07c0ed10edc5" executionId="6e85c85e-1032-41b6-a6fa-f26b8c0572d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="445599d9-9d16-da23-159e-5bfb5f5211ed" executionId="30c73889-7860-470d-ab83-c1f84bf936a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="806a2e90-364c-6d72-43a2-9a50b4e9ce36" executionId="0c935fdd-127d-41a5-bd3d-aa9aba27d074" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4bf7abe5-c900-da8c-e9eb-09c369a7644f" executionId="e43d28d8-afd0-42cf-8b24-120e6de659c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a33fdc5-e966-e887-4925-2165427a3614" executionId="0b450c2d-9275-4838-b2c7-c767b4c61eaa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9d4a7009-bd87-4df1-75bf-f2ed84b4eaff" executionId="91eae8dd-37d3-4387-bff8-c03be872dbff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9be17a8a-059b-46fc-d2f4-7a8b32934474" executionId="f2ecfa99-eb8d-43fe-b3a9-3fed51ce1a65" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8a8c5cfe-c320-cc87-dba8-d976eb08c1ad" executionId="0f3de13f-f54a-4f72-a4ee-96d1f9fb61f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="69ab16f1-54a4-25fe-4e87-5eec70ba3b52" executionId="c7826147-544d-4d9f-a5be-f4b256e3a2ea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="27af1b4e-2451-9f4a-7da2-3c4e48c721b9" executionId="f0ce701a-57b2-4cf6-a3d0-0ea512d55d25" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cbe4517e-4972-ca5e-79f8-cc6d9c0831fc" executionId="afe546bc-bde2-4d2f-9ee2-100aa8001c44" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b980153d-11d7-d7f2-3f1b-4df4dc142dca" executionId="5770c784-6b5e-45a7-8bc3-0ef2d014b00a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="355351f2-4395-f033-c2f8-f0786b67ee79" executionId="ec5c4676-7d89-455a-a550-451d009f2328" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3605ec3f-9bb4-034b-14bc-a693c55d3c7d" executionId="516cef79-329d-46a6-a507-12bf1faceb43" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf671d8a-3f32-5b51-c44a-ecbea43f6d94" executionId="5e3905af-fe15-4347-b421-c975942398a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dc86c0a9-d1b0-88ad-d080-f55b3a63c5b3" executionId="11d9bf73-2841-4dfe-b5f4-cda3b2553af2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="138d76a8-6473-7dec-615f-794e32b1ce43" executionId="5ce8740c-d4a0-4986-a242-23643b522fe1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1458d4d6-86f6-3a05-03f9-18d660f7dd7a" executionId="7923c90f-acf4-45b6-ad54-a5136595959d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3becaebc-4673-578b-17f5-631e7304badb" executionId="3c90e5a4-95b1-4444-b741-c53f2abe0842" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="80a128f1-2aa8-909e-fd5c-4b177d44cd9a" executionId="ed3b8a92-2251-4205-b50c-d7b99c4fae68" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="22d22de8-c655-6e79-3431-6deaaebc829b" executionId="f28df6bd-27b5-4632-a60a-cfbc78017f9a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cce6db67-11f2-17a0-2e1d-082c9531cb5c" executionId="98668750-5e1e-463d-b5ae-daafafc5f17a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c57d895a-6877-e4b1-8a32-5970fdab089e" executionId="40ec5090-71c3-42b3-bc01-1b9d39ad2fd9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c02b8d9d-1e61-0354-fc92-7f2314ade102" executionId="ee134c99-6120-45f4-935d-a329251fd341" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0ba3898c-b7c6-344b-4ee6-452372174a43" executionId="48eed9e0-f5e0-4f83-8ae9-f82ef5586b3a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7312ab10-7df9-ff92-3445-cabfa1e65ff5" executionId="faca5199-8669-4496-bf03-83aeec93cb3f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ca277973-f43d-bfdb-6283-ffbaf3f65327" executionId="9a499f66-d255-485b-af3e-786b710d27a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5e76ad1f-55c1-1e25-0f7c-cb8e2cf1b96d" executionId="388ff324-7ea4-48f7-a313-7cda58581ab1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="07ecb19c-6370-df32-805d-1851e826966a" executionId="9c483cd4-3704-4161-8092-dc1e8adf1319" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e458ea74-25a2-36e5-9cdc-71b21041bf98" executionId="5c42eee4-6755-427c-bdf6-80f7b77a9947" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6c73c9b8-8eb7-3aa7-8a5b-e8f92739f28b" executionId="43eedaf8-abe7-434a-bfd3-f4fd4d95056e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8393060d-d2f4-c1cc-0492-8f2579df93bf" executionId="c98a16f9-7bb5-403c-ae33-7cc20fa3431c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="caed90b9-6f98-e50e-91b4-0294d5e6dcbf" executionId="7a68a724-be69-431f-bf2d-821ea3dcda14" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4a995ef5-7ba5-78cf-e23b-32b10e81d3c2" executionId="9f708225-ecf5-4314-8b75-2f003788cd26" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="51" executed="51" passed="51" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

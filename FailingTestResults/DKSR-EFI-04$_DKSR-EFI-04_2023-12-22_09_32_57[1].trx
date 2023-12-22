@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="ee9c7cd6-aae9-43ca-a1a6-7537cb289ac9" name="DKSR-EFI-04$@DKSR-EFI-04 2023-12-22 09:32:57" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-12-22T09:32:57.7717075+01:00" queuing="2023-12-22T09:32:57.7717075+01:00" start="2023-12-22T09:32:49.0060409+01:00" finish="2023-12-22T09:32:57.8029578+01:00" />
+  <TestSettings name="default" id="5bed78da-ad10-4649-96eb-b8381c3f2c94">
+    <Deployment runDeploymentRoot="DKSR-EFI-04$_DKSR-EFI-04_2023-12-22_09_32_57" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="251f4f2d-fd78-45c3-a169-72dc8fdaab33" testId="a505468e-f359-5447-b49d-0eebc09b8b0f" testName="Test_CreateFailoverErrorStatePerformanceCounter" computerName="DKSR-EFI-04" duration="00:00:00.0011092" startTime="2023-12-22T09:32:57.4435826+01:00" endTime="2023-12-22T09:32:57.4435826+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="251f4f2d-fd78-45c3-a169-72dc8fdaab33" />
+    <UnitTestResult executionId="fd4ba33b-ef1f-4c57-9d92-995af790962a" testId="0ffc2386-f290-29d7-a185-7da8cb021074" testName="Test_CreateFailoverStartedCounter" computerName="DKSR-EFI-04" duration="00:00:00.0243182" startTime="2023-12-22T09:32:56.7717031+01:00" endTime="2023-12-22T09:32:57.3029571+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fd4ba33b-ef1f-4c57-9d92-995af790962a" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Test_CreateFailoverErrorStatePerformanceCounter" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\failoverservice\tst\videoos.recorder.failover.service.unittests\bin\x64\debug\net472\videoos.recorder.failover.service.unittests.dll" id="a505468e-f359-5447-b49d-0eebc09b8b0f">
+      <Execution id="251f4f2d-fd78-45c3-a169-72dc8fdaab33" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\FailoverService\tst\VideoOS.Recorder.Failover.Service.UnitTests\bin\x64\Debug\net472\VideoOS.Recorder.Failover.Service.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Recorder.Failover.Service.UnitTests.FailoverStateHandlerTest" name="Test_CreateFailoverErrorStatePerformanceCounter" />
+    </UnitTest>
+    <UnitTest name="Test_CreateFailoverStartedCounter" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\failoverservice\tst\videoos.recorder.failover.service.unittests\bin\x64\debug\net472\videoos.recorder.failover.service.unittests.dll" id="0ffc2386-f290-29d7-a185-7da8cb021074">
+      <Execution id="fd4ba33b-ef1f-4c57-9d92-995af790962a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\FailoverService\tst\VideoOS.Recorder.Failover.Service.UnitTests\bin\x64\Debug\net472\VideoOS.Recorder.Failover.Service.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Recorder.Failover.Service.UnitTests.FailoverStateHandlerTest" name="Test_CreateFailoverStartedCounter" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="a505468e-f359-5447-b49d-0eebc09b8b0f" executionId="251f4f2d-fd78-45c3-a169-72dc8fdaab33" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0ffc2386-f290-29d7-a185-7da8cb021074" executionId="fd4ba33b-ef1f-4c57-9d92-995af790962a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="e4938144-2818-47fd-b84f-7b32f7bb2c37" name="DKSR-EFI-04$@DKSR-EFI-04 2023-12-22 09:34:53" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-12-22T09:34:53.5847817+01:00" queuing="2023-12-22T09:34:53.5847817+01:00" start="2023-12-22T09:34:48.0535008+01:00" finish="2023-12-22T09:34:54.3191581+01:00" />
+  <TestSettings name="default" id="16044413-dff7-4bd9-846d-0f7a46da4d53">
+    <Deployment runDeploymentRoot="DKSR-EFI-04$_DKSR-EFI-04_2023-12-22_09_34_53" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="4b8622f4-84ee-4d80-8d40-345ceeb81c8d" testId="f1f68455-da00-ecaf-d649-504c76770721" testName="Sequencer_AddImmediateUnistallActions_WithMultipleTrueParameters_ShouldAddOneServiceAction" computerName="DKSR-EFI-04" duration="00:00:00.0083917" startTime="2023-12-22T09:34:53.9910316+01:00" endTime="2023-12-22T09:34:53.9910316+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b8622f4-84ee-4d80-8d40-345ceeb81c8d" />
+    <UnitTestResult executionId="3d5e64aa-22af-402d-a3bf-d21340dad0a7" testId="9fa95074-1dcf-e787-5f2d-13c21ec1d185" testName="Sequencer_Install_Reboot" computerName="DKSR-EFI-04" duration="00:00:00.0457127" startTime="2023-12-22T09:34:53.8660317+01:00" endTime="2023-12-22T09:34:53.9129066+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d5e64aa-22af-402d-a3bf-d21340dad0a7">
+      <Output>
+        <StdOut>Debug Trace:
+Adding package to be installed 'packTest1' with package id 'packTest1'...Adding package to be installed 'packTest2' with package id 'packTest2'...</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="481dda17-3401-407f-98e2-95481c70bec6" testId="dcc0d5aa-5747-21a1-8f92-e8cc9c562c0e" testName="Sequencer_Modify_Success" computerName="DKSR-EFI-04" duration="00:00:00.0087582" startTime="2023-12-22T09:34:53.9129066+01:00" endTime="2023-12-22T09:34:53.9285310+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="481dda17-3401-407f-98e2-95481c70bec6">
+      <Output>
+        <StdOut>Debug Trace:
+Uninstalling package...Adding package to be installed 'packTest2' with package id 'packTest2'...</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ad7e73be-4398-4baa-84a2-5665cce1af1e" testId="f354479c-c3c7-5e5c-03fc-c83e2135dcec" testName="Sequencer_Uninstall_Failed" computerName="DKSR-EFI-04" duration="00:00:00.0038334" startTime="2023-12-22T09:34:53.9597820+01:00" endTime="2023-12-22T09:34:53.9597820+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ad7e73be-4398-4baa-84a2-5665cce1af1e">
+      <Output>
+        <StdOut>Debug Trace:
+Uninstalling package...</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5e82bafe-2533-403e-a8ad-69818c8181f6" testId="549e7d9a-fa2c-7741-7b16-8e4de5a0e3cc" testName="Sequencer_Uninstall_Reboot" computerName="DKSR-EFI-04" duration="00:00:00.0054858" startTime="2023-12-22T09:34:53.9754081+01:00" endTime="2023-12-22T09:34:53.9754081+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5e82bafe-2533-403e-a8ad-69818c8181f6">
+      <Output>
+        <StdOut>Debug Trace:
+Uninstalling package...</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="40e4c4a0-e5be-4057-aab8-8c2ec13b2577" testId="bee90090-6de5-1f1d-7d77-23e64da7cc12" testName="Sequencer_AddImmediateUnistallActions_WithAnyFalseParameter_ShouldNotAddServiceActions" computerName="DKSR-EFI-04" duration="00:00:00.0014488" startTime="2023-12-22T09:34:53.9910316+01:00" endTime="2023-12-22T09:34:53.9910316+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40e4c4a0-e5be-4057-aab8-8c2ec13b2577" />
+    <UnitTestResult executionId="bcc5a327-a203-4358-94b7-6cf6b812073b" testId="c0d9ac27-462f-0fb0-c568-22ffd38b72ba" testName="Sequencer_DoByPassUninstall" computerName="DKSR-EFI-04" duration="00:00:00.0029068" startTime="2023-12-22T09:34:53.9441571+01:00" endTime="2023-12-22T09:34:53.9597820+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bcc5a327-a203-4358-94b7-6cf6b812073b" />
+    <UnitTestResult executionId="61b81ea4-e4b3-4e5c-8693-379f93c5cd92" testId="ed2e219a-35fd-f3d6-386f-fc2a691d8b52" testName="Sequencer_AddImmediateUnistallActions_WithNonExistingParameterWithEmptyValue_ShouldAddOneServiceAction" computerName="DKSR-EFI-04" duration="00:00:00.0012843" startTime="2023-12-22T09:34:53.9910316+01:00" endTime="2023-12-22T09:34:53.9910316+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61b81ea4-e4b3-4e5c-8693-379f93c5cd92" />
+    <UnitTestResult executionId="c99ca0df-c2cd-4ebe-8e03-8b0140b284a4" testId="9a0bb8b2-532f-0021-22e0-f9c3bbd3016b" testName="Sequencer_Contructor" computerName="DKSR-EFI-04" duration="00:00:00.1831281" startTime="2023-12-22T09:34:53.5222796+01:00" endTime="2023-12-22T09:34:53.6941546+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c99ca0df-c2cd-4ebe-8e03-8b0140b284a4" />
+    <UnitTestResult executionId="e974c764-dd11-4169-9f3a-a0b66eaf29db" testId="7ccb6183-34d6-f850-8d94-acb168dac93c" testName="Sequencer_Install_Success" computerName="DKSR-EFI-04" duration="00:00:00.1403909" startTime="2023-12-22T09:34:53.7097803+01:00" endTime="2023-12-22T09:34:53.8504059+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e974c764-dd11-4169-9f3a-a0b66eaf29db">
+      <Output>
+        <StdOut>Debug Trace:
+Adding package to be installed 'packTest1' with package id 'packTest1'...Adding package to be installed 'packTest1' with package id 'packTest1'...Adding package to be installed 'packTest2' with package id 'packTest2'...Adding package to be installed 'packTest1' with package id 'packTest1'...Adding package to be installed 'packTest2' with package id 'packTest2'...Adding package to be installed 'packTest1' with package id 'packTest1'...Adding package to be installed 'packTest2' with package id 'packTest2'...Adding package to be installed 'packTest3' with package id 'packTest3'...</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3a159ae7-79ca-44bf-a419-96d3a92c1b80" testId="a406ad52-1568-e394-4bd2-9195a2f852bf" testName="Sequencer_Modify_FailedUninstall" computerName="DKSR-EFI-04" duration="00:00:00.0038571" startTime="2023-12-22T09:34:53.9285310+01:00" endTime="2023-12-22T09:34:53.9285310+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a159ae7-79ca-44bf-a419-96d3a92c1b80">
+      <Output>
+        <StdOut>Debug Trace:
+Uninstalling package...Adding package to be installed 'packTest2' with package id 'packTest2'...</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b0bfff13-5822-42ad-b9cd-a64eb27fd9ca" testId="540c21af-fff6-9d7e-aa5d-7763701b5de1" testName="Sequencer_Uninstall_AddImmediateUnistallActions" computerName="DKSR-EFI-04" duration="00:00:00.0069266" startTime="2023-12-22T09:34:53.9754081+01:00" endTime="2023-12-22T09:34:53.9754081+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b0bfff13-5822-42ad-b9cd-a64eb27fd9ca" />
+    <UnitTestResult executionId="c858083d-800f-4dbd-9b85-1d7fc12a4118" testId="68b9cd89-25d1-3913-0cfb-d11596bcf360" testName="Sequencer_Modify_FailedInstall" computerName="DKSR-EFI-04" duration="00:00:00.0046396" startTime="2023-12-22T09:34:53.9441571+01:00" endTime="2023-12-22T09:34:53.9441571+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c858083d-800f-4dbd-9b85-1d7fc12a4118">
+      <Output>
+        <StdOut>Debug Trace:
+Uninstalling package...Adding package to be installed 'packTest2' with package id 'packTest2'...</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bb9830f1-8eaf-4f1b-951c-074ea3644f9d" testId="0caffd2e-3d3c-ce01-1904-833739e4085f" testName="Sequencer_Install_Failed" computerName="DKSR-EFI-04" duration="00:00:00.0114544" startTime="2023-12-22T09:34:53.8504059+01:00" endTime="2023-12-22T09:34:53.8660317+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb9830f1-8eaf-4f1b-951c-074ea3644f9d">
+      <Output>
+        <StdOut>Debug Trace:
+Adding package to be installed 'packTest1' with package id 'packTest1'...Adding package to be installed 'packTest2' with package id 'packTest2'...</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b83dcc9f-737d-4e87-b8a5-bbe136b90493" testId="8ed752ef-64cd-bf4b-6674-6901cbcf4606" testName="Sequencer_Modify_NeedReboot" computerName="DKSR-EFI-04" duration="00:00:00.0044290" startTime="2023-12-22T09:34:53.9441571+01:00" endTime="2023-12-22T09:34:53.9441571+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b83dcc9f-737d-4e87-b8a5-bbe136b90493">
+      <Output>
+        <StdOut>Debug Trace:
+Uninstalling package...Adding package to be installed 'packTest2' with package id 'packTest2'...</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bd5b1c3d-bb88-4e11-bf36-71e178340cfd" testId="c61986fa-caef-ff3a-af88-9c56980a6d7e" testName="Sequencer_Contructor_ThrowException" computerName="DKSR-EFI-04" duration="00:00:00.0796718" startTime="2023-12-22T09:34:53.2879048+01:00" endTime="2023-12-22T09:34:53.4285298+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd5b1c3d-bb88-4e11-bf36-71e178340cfd" />
+    <UnitTestResult executionId="28f1f641-8957-421c-a408-b4ea9b16d922" testId="ba58a6fa-438b-4996-ecc5-7f2ef31031d2" testName="Sequencer_Uninstall_Success" computerName="DKSR-EFI-04" duration="00:00:00.0041950" startTime="2023-12-22T09:34:53.9597820+01:00" endTime="2023-12-22T09:34:53.9597820+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="28f1f641-8957-421c-a408-b4ea9b16d922">
+      <Output>
+        <StdOut>Debug Trace:
+Uninstalling package...</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="07a21b11-6bcb-4d97-8b20-6df7f7f93764" testId="84d8af02-b4ff-f66c-963a-6b3158c9a7b6" testName="Sequencer_GetPackagesByPlatform" computerName="DKSR-EFI-04" duration="00:00:00.0061231" startTime="2023-12-22T09:34:53.7097803+01:00" endTime="2023-12-22T09:34:53.7097803+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07a21b11-6bcb-4d97-8b20-6df7f7f93764" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Sequencer_AddImmediateUnistallActions_WithAnyFalseParameter_ShouldNotAddServiceActions" storage="d:\actions-runner\_work\xpco\xpco\installerframework\videoos.installer.sequencer.unittests\bin\debug\videoos.installer.sequencer.unittests.dll" id="bee90090-6de5-1f1d-7d77-23e64da7cc12">
+      <Execution id="40e4c4a0-e5be-4057-aab8-8c2ec13b2577" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\InstallerFramework\VideoOS.Installer.Sequencer.UnitTests\bin\Debug\VideoOS.Installer.Sequencer.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Installer.Sequencer.UnitTests.SequencerUnitTests" name="Sequencer_AddImmediateUnistallActions_WithAnyFalseParameter_ShouldNotAddServiceActions" />
+    </UnitTest>
+    <UnitTest name="Sequencer_AddImmediateUnistallActions_WithMultipleTrueParameters_ShouldAddOneServiceAction" storage="d:\actions-runner\_work\xpco\xpco\installerframework\videoos.installer.sequencer.unittests\bin\debug\videoos.installer.sequencer.unittests.dll" id="f1f68455-da00-ecaf-d649-504c76770721">
+      <Execution id="4b8622f4-84ee-4d80-8d40-345ceeb81c8d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\InstallerFramework\VideoOS.Installer.Sequencer.UnitTests\bin\Debug\VideoOS.Installer.Sequencer.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Installer.Sequencer.UnitTests.SequencerUnitTests" name="Sequencer_AddImmediateUnistallActions_WithMultipleTrueParameters_ShouldAddOneServiceAction" />
+    </UnitTest>
+    <UnitTest name="Sequencer_GetPackagesByPlatform" storage="d:\actions-runner\_work\xpco\xpco\installerframework\videoos.installer.sequencer.unittests\bin\debug\videoos.installer.sequencer.unittests.dll" id="84d8af02-b4ff-f66c-963a-6b3158c9a7b6">
+      <Execution id="07a21b11-6bcb-4d97-8b20-6df7f7f93764" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\InstallerFramework\VideoOS.Installer.Sequencer.UnitTests\bin\Debug\VideoOS.Installer.Sequencer.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Installer.Sequencer.UnitTests.SequencerUnitTests" name="Sequencer_GetPackagesByPlatform" />
+    </UnitTest>
+    <UnitTest name="Sequencer_Contructor" storage="d:\actions-runner\_work\xpco\xpco\installerframework\videoos.installer.sequencer.unittests\bin\debug\videoos.installer.sequencer.unittests.dll" id="9a0bb8b2-532f-0021-22e0-f9c3bbd3016b">
+      <Execution id="c99ca0df-c2cd-4ebe-8e03-8b0140b284a4" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\InstallerFramework\VideoOS.Installer.Sequencer.UnitTests\bin\Debug\VideoOS.Installer.Sequencer.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Installer.Sequencer.UnitTests.SequencerUnitTests" name="Sequencer_Contructor" />
+    </UnitTest>
+    <UnitTest name="Sequencer_Uninstall_Failed" storage="d:\actions-runner\_work\xpco\xpco\installerframework\videoos.installer.sequencer.unittests\bin\debug\videoos.installer.sequencer.unittests.dll" id="f354479c-c3c7-5e5c-03fc-c83e2135dcec">
+      <Execution id="ad7e73be-4398-4baa-84a2-5665cce1af1e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\InstallerFramework\VideoOS.Installer.Sequencer.UnitTests\bin\Debug\VideoOS.Installer.Sequencer.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Installer.Sequencer.UnitTests.SequencerUnitTests" name="Sequencer_Uninstall_Failed" />
+    </UnitTest>
+    <UnitTest name="Sequencer_Modify_Success" storage="d:\actions-runner\_work\xpco\xpco\installerframework\videoos.installer.sequencer.unittests\bin\debug\videoos.installer.sequencer.unittests.dll" id="dcc0d5aa-5747-21a1-8f92-e8cc9c562c0e">
+      <Execution id="481dda17-3401-407f-98e2-95481c70bec6" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\InstallerFramework\VideoOS.Installer.Sequencer.UnitTests\bin\Debug\VideoOS.Installer.Sequencer.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Installer.Sequencer.UnitTests.SequencerUnitTests" name="Sequencer_Modify_Success" />
+    </UnitTest>
+    <UnitTest name="Sequencer_Contructor_ThrowException" storage="d:\actions-runner\_work\xpco\xpco\installerframework\videoos.installer.sequencer.unittests\bin\debug\videoos.installer.sequencer.unittests.dll" id="c61986fa-caef-ff3a-af88-9c56980a6d7e">
+      <Execution id="bd5b1c3d-bb88-4e11-bf36-71e178340cfd" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\InstallerFramework\VideoOS.Installer.Sequencer.UnitTests\bin\Debug\VideoOS.Installer.Sequencer.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Installer.Sequencer.UnitTests.SequencerUnitTests" name="Sequencer_Contructor_ThrowException" />
+    </UnitTest>
+    <UnitTest name="Sequencer_Install_Success" storage="d:\actions-runner\_work\xpco\xpco\installerframework\videoos.installer.sequencer.unittests\bin\debug\videoos.installer.sequencer.unittests.dll" id="7ccb6183-34d6-f850-8d94-acb168dac93c">
+      <Execution id="e974c764-dd11-4169-9f3a-a0b66eaf29db" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\InstallerFramework\VideoOS.Installer.Sequencer.UnitTests\bin\Debug\VideoOS.Installer.Sequencer.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Installer.Sequencer.UnitTests.SequencerUnitTests" name="Sequencer_Install_Success" />
+    </UnitTest>
+    <UnitTest name="Sequencer_Modify_FailedInstall" storage="d:\actions-runner\_work\xpco\xpco\installerframework\videoos.installer.sequencer.unittests\bin\debug\videoos.installer.sequencer.unittests.dll" id="68b9cd89-25d1-3913-0cfb-d11596bcf360">
+      <Execution id="c858083d-800f-4dbd-9b85-1d7fc12a4118" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\InstallerFramework\VideoOS.Installer.Sequencer.UnitTests\bin\Debug\VideoOS.Installer.Sequencer.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Installer.Sequencer.UnitTests.SequencerUnitTests" name="Sequencer_Modify_FailedInstall" />
+    </UnitTest>
+    <UnitTest name="Sequencer_Modify_NeedReboot" storage="d:\actions-runner\_work\xpco\xpco\installerframework\videoos.installer.sequencer.unittests\bin\debug\videoos.installer.sequencer.unittests.dll" id="8ed752ef-64cd-bf4b-6674-6901cbcf4606">
+      <Execution id="b83dcc9f-737d-4e87-b8a5-bbe136b90493" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\InstallerFramework\VideoOS.Installer.Sequencer.UnitTests\bin\Debug\VideoOS.Installer.Sequencer.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Installer.Sequencer.UnitTests.SequencerUnitTests" name="Sequencer_Modify_NeedReboot" />
+    </UnitTest>
+    <UnitTest name="Sequencer_Uninstall_AddImmediateUnistallActions" storage="d:\actions-runner\_work\xpco\xpco\installerframework\videoos.installer.sequencer.unittests\bin\debug\videoos.installer.sequencer.unittests.dll" id="540c21af-fff6-9d7e-aa5d-7763701b5de1">
+      <Execution id="b0bfff13-5822-42ad-b9cd-a64eb27fd9ca" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\InstallerFramework\VideoOS.Installer.Sequencer.UnitTests\bin\Debug\VideoOS.Installer.Sequencer.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Installer.Sequencer.UnitTests.SequencerUnitTests" name="Sequencer_Uninstall_AddImmediateUnistallActions" />
+    </UnitTest>
+    <UnitTest name="Sequencer_DoByPassUninstall" storage="d:\actions-runner\_work\xpco\xpco\installerframework\videoos.installer.sequencer.unittests\bin\debug\videoos.installer.sequencer.unittests.dll" id="c0d9ac27-462f-0fb0-c568-22ffd38b72ba">
+      <Execution id="bcc5a327-a203-4358-94b7-6cf6b812073b" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\InstallerFramework\VideoOS.Installer.Sequencer.UnitTests\bin\Debug\VideoOS.Installer.Sequencer.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Installer.Sequencer.UnitTests.SequencerUnitTests" name="Sequencer_DoByPassUninstall" />
+    </UnitTest>
+    <UnitTest name="Sequencer_Install_Reboot" storage="d:\actions-runner\_work\xpco\xpco\installerframework\videoos.installer.sequencer.unittests\bin\debug\videoos.installer.sequencer.unittests.dll" id="9fa95074-1dcf-e787-5f2d-13c21ec1d185">
+      <Execution id="3d5e64aa-22af-402d-a3bf-d21340dad0a7" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\InstallerFramework\VideoOS.Installer.Sequencer.UnitTests\bin\Debug\VideoOS.Installer.Sequencer.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Installer.Sequencer.UnitTests.SequencerUnitTests" name="Sequencer_Install_Reboot" />
+    </UnitTest>
+    <UnitTest name="Sequencer_Uninstall_Success" storage="d:\actions-runner\_work\xpco\xpco\installerframework\videoos.installer.sequencer.unittests\bin\debug\videoos.installer.sequencer.unittests.dll" id="ba58a6fa-438b-4996-ecc5-7f2ef31031d2">
+      <Execution id="28f1f641-8957-421c-a408-b4ea9b16d922" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\InstallerFramework\VideoOS.Installer.Sequencer.UnitTests\bin\Debug\VideoOS.Installer.Sequencer.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Installer.Sequencer.UnitTests.SequencerUnitTests" name="Sequencer_Uninstall_Success" />
+    </UnitTest>
+    <UnitTest name="Sequencer_Uninstall_Reboot" storage="d:\actions-runner\_work\xpco\xpco\installerframework\videoos.installer.sequencer.unittests\bin\debug\videoos.installer.sequencer.unittests.dll" id="549e7d9a-fa2c-7741-7b16-8e4de5a0e3cc">
+      <Execution id="5e82bafe-2533-403e-a8ad-69818c8181f6" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\InstallerFramework\VideoOS.Installer.Sequencer.UnitTests\bin\Debug\VideoOS.Installer.Sequencer.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Installer.Sequencer.UnitTests.SequencerUnitTests" name="Sequencer_Uninstall_Reboot" />
+    </UnitTest>
+    <UnitTest name="Sequencer_AddImmediateUnistallActions_WithNonExistingParameterWithEmptyValue_ShouldAddOneServiceAction" storage="d:\actions-runner\_work\xpco\xpco\installerframework\videoos.installer.sequencer.unittests\bin\debug\videoos.installer.sequencer.unittests.dll" id="ed2e219a-35fd-f3d6-386f-fc2a691d8b52">
+      <Execution id="61b81ea4-e4b3-4e5c-8693-379f93c5cd92" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\InstallerFramework\VideoOS.Installer.Sequencer.UnitTests\bin\Debug\VideoOS.Installer.Sequencer.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Installer.Sequencer.UnitTests.SequencerUnitTests" name="Sequencer_AddImmediateUnistallActions_WithNonExistingParameterWithEmptyValue_ShouldAddOneServiceAction" />
+    </UnitTest>
+    <UnitTest name="Sequencer_Install_Failed" storage="d:\actions-runner\_work\xpco\xpco\installerframework\videoos.installer.sequencer.unittests\bin\debug\videoos.installer.sequencer.unittests.dll" id="0caffd2e-3d3c-ce01-1904-833739e4085f">
+      <Execution id="bb9830f1-8eaf-4f1b-951c-074ea3644f9d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\InstallerFramework\VideoOS.Installer.Sequencer.UnitTests\bin\Debug\VideoOS.Installer.Sequencer.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Installer.Sequencer.UnitTests.SequencerUnitTests" name="Sequencer_Install_Failed" />
+    </UnitTest>
+    <UnitTest name="Sequencer_Modify_FailedUninstall" storage="d:\actions-runner\_work\xpco\xpco\installerframework\videoos.installer.sequencer.unittests\bin\debug\videoos.installer.sequencer.unittests.dll" id="a406ad52-1568-e394-4bd2-9195a2f852bf">
+      <Execution id="3a159ae7-79ca-44bf-a419-96d3a92c1b80" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\InstallerFramework\VideoOS.Installer.Sequencer.UnitTests\bin\Debug\VideoOS.Installer.Sequencer.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Installer.Sequencer.UnitTests.SequencerUnitTests" name="Sequencer_Modify_FailedUninstall" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="f1f68455-da00-ecaf-d649-504c76770721" executionId="4b8622f4-84ee-4d80-8d40-345ceeb81c8d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9fa95074-1dcf-e787-5f2d-13c21ec1d185" executionId="3d5e64aa-22af-402d-a3bf-d21340dad0a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dcc0d5aa-5747-21a1-8f92-e8cc9c562c0e" executionId="481dda17-3401-407f-98e2-95481c70bec6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f354479c-c3c7-5e5c-03fc-c83e2135dcec" executionId="ad7e73be-4398-4baa-84a2-5665cce1af1e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="549e7d9a-fa2c-7741-7b16-8e4de5a0e3cc" executionId="5e82bafe-2533-403e-a8ad-69818c8181f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bee90090-6de5-1f1d-7d77-23e64da7cc12" executionId="40e4c4a0-e5be-4057-aab8-8c2ec13b2577" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c0d9ac27-462f-0fb0-c568-22ffd38b72ba" executionId="bcc5a327-a203-4358-94b7-6cf6b812073b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed2e219a-35fd-f3d6-386f-fc2a691d8b52" executionId="61b81ea4-e4b3-4e5c-8693-379f93c5cd92" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9a0bb8b2-532f-0021-22e0-f9c3bbd3016b" executionId="c99ca0df-c2cd-4ebe-8e03-8b0140b284a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7ccb6183-34d6-f850-8d94-acb168dac93c" executionId="e974c764-dd11-4169-9f3a-a0b66eaf29db" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a406ad52-1568-e394-4bd2-9195a2f852bf" executionId="3a159ae7-79ca-44bf-a419-96d3a92c1b80" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="540c21af-fff6-9d7e-aa5d-7763701b5de1" executionId="b0bfff13-5822-42ad-b9cd-a64eb27fd9ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="68b9cd89-25d1-3913-0cfb-d11596bcf360" executionId="c858083d-800f-4dbd-9b85-1d7fc12a4118" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0caffd2e-3d3c-ce01-1904-833739e4085f" executionId="bb9830f1-8eaf-4f1b-951c-074ea3644f9d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ed752ef-64cd-bf4b-6674-6901cbcf4606" executionId="b83dcc9f-737d-4e87-b8a5-bbe136b90493" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c61986fa-caef-ff3a-af88-9c56980a6d7e" executionId="bd5b1c3d-bb88-4e11-bf36-71e178340cfd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ba58a6fa-438b-4996-ecc5-7f2ef31031d2" executionId="28f1f641-8957-421c-a408-b4ea9b16d922" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="84d8af02-b4ff-f66c-963a-6b3158c9a7b6" executionId="07a21b11-6bcb-4d97-8b20-6df7f7f93764" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="18" executed="18" passed="18" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

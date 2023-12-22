@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="4fac33f6-b05f-4dde-a99f-671025d09389" name="DKSR-EFI-04$@DKSR-EFI-04 2023-12-22 09:35:41" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-12-22T09:35:41.8350292+01:00" queuing="2023-12-22T09:35:41.8350292+01:00" start="2023-12-22T09:35:40.5693970+01:00" finish="2023-12-22T09:35:42.2412817+01:00" />
+  <TestSettings name="default" id="5efd3db1-5eed-44ae-906c-dc98e666f86d">
+    <Deployment runDeploymentRoot="DKSR-EFI-04$_DKSR-EFI-04_2023-12-22_09_35_41" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="fa0d98db-7cac-4a5d-8387-f1766c844f7a" testId="6881acb6-de34-badb-06e6-b9586e825cdc" testName="ElevateExecutionStartInfo" computerName="DKSR-EFI-04" duration="00:00:00.0071448" startTime="2023-12-22T09:35:41.8350292+01:00" endTime="2023-12-22T09:35:41.8506545+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa0d98db-7cac-4a5d-8387-f1766c844f7a" />
+    <UnitTestResult executionId="aeaf2fce-5169-4d39-9a69-93f0289aa91d" testId="f13405bd-4692-ac9a-c7f8-6a796fd7057b" testName="ChangePortsActionParameters" computerName="DKSR-EFI-04" duration="00:00:00.0045179" startTime="2023-12-22T09:35:41.8350292+01:00" endTime="2023-12-22T09:35:41.8350292+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aeaf2fce-5169-4d39-9a69-93f0289aa91d" />
+    <UnitTestResult executionId="4cba3b08-5b1a-48fe-b159-97cd21a1864c" testId="28e26486-cc51-fd68-4c4e-0e3a2036228a" testName="LocalizedHelpLinkMissingLanguage" computerName="DKSR-EFI-04" duration="00:00:00.0002504" startTime="2023-12-22T09:35:41.6631551+01:00" endTime="2023-12-22T09:35:41.6631551+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4cba3b08-5b1a-48fe-b159-97cd21a1864c" />
+    <UnitTestResult executionId="07e5ed0f-af9d-4936-a694-f844db2b42ba" testId="04c9614c-5448-fbe9-211c-4549c92966d7" testName="ChangeExportFolderActionParams" computerName="DKSR-EFI-04" duration="00:00:00.1532393" startTime="2023-12-22T09:35:41.6787824+01:00" endTime="2023-12-22T09:35:41.8350292+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07e5ed0f-af9d-4936-a694-f844db2b42ba" />
+    <UnitTestResult executionId="15bf9e05-162a-4ea1-8df2-0f9c7d2c34d9" testId="e3429bb6-4232-aa47-a196-38fddc085ba9" testName="LocalizedHelpLinkNoLangPlaceHolder" computerName="DKSR-EFI-04" duration="00:00:00.0084937" startTime="2023-12-22T09:35:41.5069054+01:00" endTime="2023-12-22T09:35:41.6475291+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="15bf9e05-162a-4ea1-8df2-0f9c7d2c34d9" />
+    <UnitTestResult executionId="baed53a7-76cd-4c13-970f-98e7346f44d8" testId="d55559d6-1638-3ff4-f140-752f8d8960d7" testName="LocalizedHelpLinkNoLanguages" computerName="DKSR-EFI-04" duration="00:00:00.0002901" startTime="2023-12-22T09:35:41.6631551+01:00" endTime="2023-12-22T09:35:41.6631551+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="baed53a7-76cd-4c13-970f-98e7346f44d8" />
+    <UnitTestResult executionId="38b4e735-9a8d-4cc6-a30e-5c57b2afd3bc" testId="ab140734-b0b3-19b1-861d-f291951aba8d" testName="LocalizedHelpLinkSupportedLanguage" computerName="DKSR-EFI-04" duration="00:00:00.0002018" startTime="2023-12-22T09:35:41.6631551+01:00" endTime="2023-12-22T09:35:41.6631551+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38b4e735-9a8d-4cc6-a30e-5c57b2afd3bc" />
+    <UnitTestResult executionId="d81f1409-d471-493a-9846-e96f8ae2500b" testId="c3d99c60-5d52-f613-cac5-1511be39f799" testName="ChangeServerAddressSCActionParams" computerName="DKSR-EFI-04" duration="00:00:00.0006597" startTime="2023-12-22T09:35:41.8350292+01:00" endTime="2023-12-22T09:35:41.8350292+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d81f1409-d471-493a-9846-e96f8ae2500b" />
+    <UnitTestResult executionId="22b80dc3-0c45-446a-8aa3-f53ee6457c64" testId="13c453b3-b940-b276-ced5-2a094345fc8b" testName="LaunchServerConfiguratorAction" computerName="DKSR-EFI-04" duration="00:00:00.0050937" startTime="2023-12-22T09:35:41.6631551+01:00" endTime="2023-12-22T09:35:41.6787824+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22b80dc3-0c45-446a-8aa3-f53ee6457c64" />
+    <UnitTestResult executionId="5cc8e877-9d35-4629-86b0-47b80231439a" testId="ebabbb59-9a6d-b2c3-c867-034c0a703029" testName="ChangeServerAddressActionParams" computerName="DKSR-EFI-04" duration="00:00:00.0009854" startTime="2023-12-22T09:35:41.8350292+01:00" endTime="2023-12-22T09:35:41.8350292+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5cc8e877-9d35-4629-86b0-47b80231439a" />
+    <UnitTestResult executionId="ebb0d1f2-ad7a-45f2-b7f4-fa5a698378f7" testId="05ceb618-375a-754e-610c-8237ce64c6c7" testName="TestServiceActionsParams" computerName="DKSR-EFI-04" duration="00:00:00.0009347" startTime="2023-12-22T09:35:41.6787824+01:00" endTime="2023-12-22T09:35:41.6787824+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ebb0d1f2-ad7a-45f2-b7f4-fa5a698378f7" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="LaunchServerConfiguratorAction" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.traycontroller.common.test\bin\debug\net472\videoos.mobile.traycontroller.common.test.dll" id="13c453b3-b940-b276-ced5-2a094345fc8b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="22b80dc3-0c45-446a-8aa3-f53ee6457c64" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.TrayController.Common.Test\bin\Debug\net472\VideoOS.Mobile.TrayController.Common.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.TrayController.Common.Test.ElevatedActions.ChangeCertificateActionTests" name="LaunchServerConfiguratorAction" />
+    </UnitTest>
+    <UnitTest name="LocalizedHelpLinkNoLanguages" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.traycontroller.common.test\bin\debug\net472\videoos.mobile.traycontroller.common.test.dll" id="d55559d6-1638-3ff4-f140-752f8d8960d7">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="baed53a7-76cd-4c13-970f-98e7346f44d8" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.TrayController.Common.Test\bin\Debug\net472\VideoOS.Mobile.TrayController.Common.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.TrayController.Common.Test.Utilities.TrayLocalizationTests" name="LocalizedHelpLinkNoLanguages" />
+    </UnitTest>
+    <UnitTest name="ChangePortsActionParameters" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.traycontroller.common.test\bin\debug\net472\videoos.mobile.traycontroller.common.test.dll" id="f13405bd-4692-ac9a-c7f8-6a796fd7057b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="aeaf2fce-5169-4d39-9a69-93f0289aa91d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.TrayController.Common.Test\bin\Debug\net472\VideoOS.Mobile.TrayController.Common.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.TrayController.Common.Test.ElevatedActions.ElevatedActionsTests" name="ChangePortsActionParameters" />
+    </UnitTest>
+    <UnitTest name="TestServiceActionsParams" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.traycontroller.common.test\bin\debug\net472\videoos.mobile.traycontroller.common.test.dll" id="05ceb618-375a-754e-610c-8237ce64c6c7">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="ebb0d1f2-ad7a-45f2-b7f4-fa5a698378f7" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.TrayController.Common.Test\bin\Debug\net472\VideoOS.Mobile.TrayController.Common.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.TrayController.Common.Test.ElevatedActions.ElevatedActionsTests" name="TestServiceActionsParams" />
+    </UnitTest>
+    <UnitTest name="ChangeServerAddressSCActionParams" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.traycontroller.common.test\bin\debug\net472\videoos.mobile.traycontroller.common.test.dll" id="c3d99c60-5d52-f613-cac5-1511be39f799">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="d81f1409-d471-493a-9846-e96f8ae2500b" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.TrayController.Common.Test\bin\Debug\net472\VideoOS.Mobile.TrayController.Common.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.TrayController.Common.Test.ElevatedActions.ElevatedActionsTests" name="ChangeServerAddressSCActionParams" />
+    </UnitTest>
+    <UnitTest name="ChangeExportFolderActionParams" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.traycontroller.common.test\bin\debug\net472\videoos.mobile.traycontroller.common.test.dll" id="04c9614c-5448-fbe9-211c-4549c92966d7">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LongRunning" />
+      </TestCategory>
+      <Execution id="07e5ed0f-af9d-4936-a694-f844db2b42ba" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.TrayController.Common.Test\bin\Debug\net472\VideoOS.Mobile.TrayController.Common.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.TrayController.Common.Test.ElevatedActions.ElevatedActionsTests" name="ChangeExportFolderActionParams" />
+    </UnitTest>
+    <UnitTest name="LocalizedHelpLinkNoLangPlaceHolder" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.traycontroller.common.test\bin\debug\net472\videoos.mobile.traycontroller.common.test.dll" id="e3429bb6-4232-aa47-a196-38fddc085ba9">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="15bf9e05-162a-4ea1-8df2-0f9c7d2c34d9" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.TrayController.Common.Test\bin\Debug\net472\VideoOS.Mobile.TrayController.Common.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.TrayController.Common.Test.Utilities.TrayLocalizationTests" name="LocalizedHelpLinkNoLangPlaceHolder" />
+    </UnitTest>
+    <UnitTest name="ChangeServerAddressActionParams" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.traycontroller.common.test\bin\debug\net472\videoos.mobile.traycontroller.common.test.dll" id="ebabbb59-9a6d-b2c3-c867-034c0a703029">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="5cc8e877-9d35-4629-86b0-47b80231439a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.TrayController.Common.Test\bin\Debug\net472\VideoOS.Mobile.TrayController.Common.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.TrayController.Common.Test.ElevatedActions.ElevatedActionsTests" name="ChangeServerAddressActionParams" />
+    </UnitTest>
+    <UnitTest name="ElevateExecutionStartInfo" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.traycontroller.common.test\bin\debug\net472\videoos.mobile.traycontroller.common.test.dll" id="6881acb6-de34-badb-06e6-b9586e825cdc">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LongRunning" />
+      </TestCategory>
+      <Execution id="fa0d98db-7cac-4a5d-8387-f1766c844f7a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.TrayController.Common.Test\bin\Debug\net472\VideoOS.Mobile.TrayController.Common.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.TrayController.Common.Test.ElevatedActions.ElevatedActionsTests" name="ElevateExecutionStartInfo" />
+    </UnitTest>
+    <UnitTest name="LocalizedHelpLinkSupportedLanguage" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.traycontroller.common.test\bin\debug\net472\videoos.mobile.traycontroller.common.test.dll" id="ab140734-b0b3-19b1-861d-f291951aba8d">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="38b4e735-9a8d-4cc6-a30e-5c57b2afd3bc" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.TrayController.Common.Test\bin\Debug\net472\VideoOS.Mobile.TrayController.Common.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.TrayController.Common.Test.Utilities.TrayLocalizationTests" name="LocalizedHelpLinkSupportedLanguage" />
+    </UnitTest>
+    <UnitTest name="LocalizedHelpLinkMissingLanguage" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.traycontroller.common.test\bin\debug\net472\videoos.mobile.traycontroller.common.test.dll" id="28e26486-cc51-fd68-4c4e-0e3a2036228a">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="4cba3b08-5b1a-48fe-b159-97cd21a1864c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.TrayController.Common.Test\bin\Debug\net472\VideoOS.Mobile.TrayController.Common.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.TrayController.Common.Test.Utilities.TrayLocalizationTests" name="LocalizedHelpLinkMissingLanguage" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="6881acb6-de34-badb-06e6-b9586e825cdc" executionId="fa0d98db-7cac-4a5d-8387-f1766c844f7a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f13405bd-4692-ac9a-c7f8-6a796fd7057b" executionId="aeaf2fce-5169-4d39-9a69-93f0289aa91d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="28e26486-cc51-fd68-4c4e-0e3a2036228a" executionId="4cba3b08-5b1a-48fe-b159-97cd21a1864c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="04c9614c-5448-fbe9-211c-4549c92966d7" executionId="07e5ed0f-af9d-4936-a694-f844db2b42ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e3429bb6-4232-aa47-a196-38fddc085ba9" executionId="15bf9e05-162a-4ea1-8df2-0f9c7d2c34d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d55559d6-1638-3ff4-f140-752f8d8960d7" executionId="baed53a7-76cd-4c13-970f-98e7346f44d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab140734-b0b3-19b1-861d-f291951aba8d" executionId="38b4e735-9a8d-4cc6-a30e-5c57b2afd3bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c3d99c60-5d52-f613-cac5-1511be39f799" executionId="d81f1409-d471-493a-9846-e96f8ae2500b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="13c453b3-b940-b276-ced5-2a094345fc8b" executionId="22b80dc3-0c45-446a-8aa3-f53ee6457c64" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ebabbb59-9a6d-b2c3-c867-034c0a703029" executionId="5cc8e877-9d35-4629-86b0-47b80231439a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="05ceb618-375a-754e-610c-8237ce64c6c7" executionId="ebb0d1f2-ad7a-45f2-b7f4-fa5a698378f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="11" executed="11" passed="11" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

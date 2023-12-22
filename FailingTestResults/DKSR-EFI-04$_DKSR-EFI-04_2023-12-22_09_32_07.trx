@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="f53c4f81-5e92-4b4c-afd2-9e9a87103627" name="DKSR-EFI-04$@DKSR-EFI-04 2023-12-22 09:32:07" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-12-22T09:32:07.3652249+01:00" queuing="2023-12-22T09:32:07.3652249+01:00" start="2023-12-22T09:32:04.0214625+01:00" finish="2023-12-22T09:32:07.6777282+01:00" />
+  <TestSettings name="default" id="6840537c-da7b-4c6e-a2b0-3a143763c62a">
+    <Deployment runDeploymentRoot="DKSR-EFI-04$_DKSR-EFI-04_2023-12-22_09_32_07" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="b405b411-ce17-44c8-ad51-bcf87124842e" testId="a44cc9e1-9284-8301-2ce6-eb8574ddf404" testName="SaveLicensedDevicesShouldSetTheDevicesInLicense" computerName="DKSR-EFI-04" duration="00:00:01.1719716" startTime="2023-12-22T09:32:05.8495932+01:00" endTime="2023-12-22T09:32:07.2558497+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b405b411-ce17-44c8-ad51-bcf87124842e" />
+    <UnitTestResult executionId="ace37394-ff77-4ede-ac22-02399e882960" testId="8ed52918-ab39-f488-cb26-b7f2a141d38b" testName="SaveLicensedDevicesShouldSaveNotMoreDevicesThanTheLicenseCounter" computerName="DKSR-EFI-04" duration="00:00:00.0040940" startTime="2023-12-22T09:32:07.2558497+01:00" endTime="2023-12-22T09:32:07.2714753+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ace37394-ff77-4ede-ac22-02399e882960" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="SaveLicensedDevicesShouldSetTheDevicesInLicense" storage="d:\actions-runner\_work\xpco\xpco\addons\plugins\common\tst\videoos.plugins.common.mc.unittests\bin\x64\debug\net472\videoos.plugins.common.mc.unittests.dll" id="a44cc9e1-9284-8301-2ce6-eb8574ddf404">
+      <Execution id="b405b411-ce17-44c8-ad51-bcf87124842e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AddOns\Plugins\Common\tst\VideoOS.Plugins.Common.MC.UnitTests\bin\x64\Debug\net472\VideoOS.Plugins.Common.MC.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Plugins.Common.MC.UnitTests.PluginLicenseReaderTests" name="SaveLicensedDevicesShouldSetTheDevicesInLicense" />
+    </UnitTest>
+    <UnitTest name="SaveLicensedDevicesShouldSaveNotMoreDevicesThanTheLicenseCounter" storage="d:\actions-runner\_work\xpco\xpco\addons\plugins\common\tst\videoos.plugins.common.mc.unittests\bin\x64\debug\net472\videoos.plugins.common.mc.unittests.dll" id="8ed52918-ab39-f488-cb26-b7f2a141d38b">
+      <Execution id="ace37394-ff77-4ede-ac22-02399e882960" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AddOns\Plugins\Common\tst\VideoOS.Plugins.Common.MC.UnitTests\bin\x64\Debug\net472\VideoOS.Plugins.Common.MC.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Plugins.Common.MC.UnitTests.PluginLicenseReaderTests" name="SaveLicensedDevicesShouldSaveNotMoreDevicesThanTheLicenseCounter" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="a44cc9e1-9284-8301-2ce6-eb8574ddf404" executionId="b405b411-ce17-44c8-ad51-bcf87124842e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ed52918-ab39-f488-cb26-b7f2a141d38b" executionId="ace37394-ff77-4ede-ac22-02399e882960" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

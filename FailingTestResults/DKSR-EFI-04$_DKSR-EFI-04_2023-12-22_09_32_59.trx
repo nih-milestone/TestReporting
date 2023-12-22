@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="c63d9c33-1a92-49ae-8032-7311b32880cf" name="DKSR-EFI-04$@DKSR-EFI-04 2023-12-22 09:32:59" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-12-22T09:32:59.1467127+01:00" queuing="2023-12-22T09:32:59.1467127+01:00" start="2023-12-22T09:32:57.6935822+01:00" finish="2023-12-22T09:32:59.1779631+01:00" />
+  <TestSettings name="default" id="ee0c5b14-51a2-4092-8cb0-465ea32d6435">
+    <Deployment runDeploymentRoot="DKSR-EFI-04$_DKSR-EFI-04_2023-12-22_09_32_59" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="30677830-b65a-4ed2-8d46-87c73b359fc1" testId="68df64d1-e6b2-3f5a-e678-61773bbab9dc" testName="CreateTriggerTimeMetadata_CratesWellKnowMetadata_OnValidTime" computerName="DKSR-EFI-04" duration="00:00:00.2276564" startTime="2023-12-22T09:32:58.5373370+01:00" endTime="2023-12-22T09:32:58.9279609+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="30677830-b65a-4ed2-8d46-87c73b359fc1" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="CreateTriggerTimeMetadata_CratesWellKnowMetadata_OnValidTime" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.icpcommon.unittests\bin\x64\debug\net472\videoos.io.drivers.icpcommon.unittests.dll" id="68df64d1-e6b2-3f5a-e678-61773bbab9dc">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ICP" />
+      </TestCategory>
+      <Execution id="30677830-b65a-4ed2-8d46-87c73b359fc1" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.ICPCommon.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.ICPCommon.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.ICPCommon.UnitTests.ICPMiscTests" name="CreateTriggerTimeMetadata_CratesWellKnowMetadata_OnValidTime" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="68df64d1-e6b2-3f5a-e678-61773bbab9dc" executionId="30677830-b65a-4ed2-8d46-87c73b359fc1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="7bc70b97-917b-4c6a-99ac-e9b00e8b424c" name="DKSR-EFI-04$@DKSR-EFI-04 2023-12-22 09:36:04" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-12-22T09:36:04.9289005+01:00" queuing="2023-12-22T09:36:04.9289005+01:00" start="2023-12-22T09:36:03.5226430+01:00" finish="2023-12-22T09:36:04.9757750+01:00" />
+  <TestSettings name="default" id="5e337e67-484d-4634-8306-14f7ce41605a">
+    <Deployment runDeploymentRoot="DKSR-EFI-04$_DKSR-EFI-04_2023-12-22_09_36_04" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="f04094b0-7b2f-4b0a-86fd-db907a65809e" testId="e2dc872d-0ede-c3df-16ac-91d36eae1144" testName="MessageMedia_StandardCreateInterprete_OK" computerName="DKSR-EFI-04" duration="00:00:00.0009778" startTime="2023-12-22T09:36:04.6007757+01:00" endTime="2023-12-22T09:36:04.6007757+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f04094b0-7b2f-4b0a-86fd-db907a65809e" />
+    <UnitTestResult executionId="2420a6c8-8ead-4333-b9da-47e26c07ea2f" testId="2962bff4-824b-9a29-8c70-871ee7ef61bf" testName="MessageMetadata_StandardCreateInterprete_OK" computerName="DKSR-EFI-04" duration="00:00:00.0351191" startTime="2023-12-22T09:36:04.4445229+01:00" endTime="2023-12-22T09:36:04.5851495+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2420a6c8-8ead-4333-b9da-47e26c07ea2f" />
+    <UnitTestResult executionId="f26ace69-870d-42ba-9334-4de651dff4f1" testId="99c33a2d-b245-2083-4ccf-f73da44633a6" testName="MessageEvent_StandardCreateInterprete_OK" computerName="DKSR-EFI-04" duration="00:00:00.0033905" startTime="2023-12-22T09:36:04.6007757+01:00" endTime="2023-12-22T09:36:04.6007757+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f26ace69-870d-42ba-9334-4de651dff4f1" />
+    <UnitTestResult executionId="0aa21f9a-76fd-4d72-8e8e-02dcfdec6c63" testId="3c376a7f-f501-b6ad-9dc8-1b58e7b4ac60" testName="MessageConfiguration_StandardCreateInterprete_OK" computerName="DKSR-EFI-04" duration="00:00:00.0018967" startTime="2023-12-22T09:36:04.6007757+01:00" endTime="2023-12-22T09:36:04.6007757+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0aa21f9a-76fd-4d72-8e8e-02dcfdec6c63" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="MessageMedia_StandardCreateInterprete_OK" storage="d:\actions-runner\_work\xpco\xpco\vps\vpscommon\videoos.vps.vpscommon.unittests\bin\x64\debug\net472\videoos.vps.vpscommon.unittests.dll" id="e2dc872d-0ede-c3df-16ac-91d36eae1144">
+      <Execution id="f04094b0-7b2f-4b0a-86fd-db907a65809e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\VPS\VpsCommon\VideoOS.Vps.VpsCommon.UnitTests\bin\x64\Debug\net472\VideoOS.Vps.VpsCommon.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vps.VpsCommon.Message.UnitTests.MessageTests" name="MessageMedia_StandardCreateInterprete_OK" />
+    </UnitTest>
+    <UnitTest name="MessageMetadata_StandardCreateInterprete_OK" storage="d:\actions-runner\_work\xpco\xpco\vps\vpscommon\videoos.vps.vpscommon.unittests\bin\x64\debug\net472\videoos.vps.vpscommon.unittests.dll" id="2962bff4-824b-9a29-8c70-871ee7ef61bf">
+      <Execution id="2420a6c8-8ead-4333-b9da-47e26c07ea2f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\VPS\VpsCommon\VideoOS.Vps.VpsCommon.UnitTests\bin\x64\Debug\net472\VideoOS.Vps.VpsCommon.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vps.VpsCommon.Message.UnitTests.MessageTests" name="MessageMetadata_StandardCreateInterprete_OK" />
+    </UnitTest>
+    <UnitTest name="MessageEvent_StandardCreateInterprete_OK" storage="d:\actions-runner\_work\xpco\xpco\vps\vpscommon\videoos.vps.vpscommon.unittests\bin\x64\debug\net472\videoos.vps.vpscommon.unittests.dll" id="99c33a2d-b245-2083-4ccf-f73da44633a6">
+      <Execution id="f26ace69-870d-42ba-9334-4de651dff4f1" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\VPS\VpsCommon\VideoOS.Vps.VpsCommon.UnitTests\bin\x64\Debug\net472\VideoOS.Vps.VpsCommon.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vps.VpsCommon.Message.UnitTests.MessageTests" name="MessageEvent_StandardCreateInterprete_OK" />
+    </UnitTest>
+    <UnitTest name="MessageConfiguration_StandardCreateInterprete_OK" storage="d:\actions-runner\_work\xpco\xpco\vps\vpscommon\videoos.vps.vpscommon.unittests\bin\x64\debug\net472\videoos.vps.vpscommon.unittests.dll" id="3c376a7f-f501-b6ad-9dc8-1b58e7b4ac60">
+      <Execution id="0aa21f9a-76fd-4d72-8e8e-02dcfdec6c63" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\VPS\VpsCommon\VideoOS.Vps.VpsCommon.UnitTests\bin\x64\Debug\net472\VideoOS.Vps.VpsCommon.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vps.VpsCommon.Message.UnitTests.MessageTests" name="MessageConfiguration_StandardCreateInterprete_OK" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="e2dc872d-0ede-c3df-16ac-91d36eae1144" executionId="f04094b0-7b2f-4b0a-86fd-db907a65809e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2962bff4-824b-9a29-8c70-871ee7ef61bf" executionId="2420a6c8-8ead-4333-b9da-47e26c07ea2f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99c33a2d-b245-2083-4ccf-f73da44633a6" executionId="f26ace69-870d-42ba-9334-4de651dff4f1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c376a7f-f501-b6ad-9dc8-1b58e7b4ac60" executionId="0aa21f9a-76fd-4d72-8e8e-02dcfdec6c63" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

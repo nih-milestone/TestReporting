@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="46caa398-0be7-4e73-918d-818af9b903f0" name="DKSR-EFI-04$@DKSR-EFI-04 2023-12-22 09:34:11" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-12-22T09:34:11.9595689+01:00" queuing="2023-12-22T09:34:11.9595689+01:00" start="2023-12-22T09:34:10.1939365+01:00" finish="2023-12-22T09:34:12.7720754+01:00" />
+  <TestSettings name="default" id="830ef839-1cb9-4785-86f6-885c4fb0b67a">
+    <Deployment runDeploymentRoot="DKSR-EFI-04$_DKSR-EFI-04_2023-12-22_09_34_11" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="e7bddbb2-1e5c-427b-9192-42f0c0dd0f26" testId="492413c3-1451-a889-ac06-0ec205d02f5c" testName="SecureEnableTrueOnSettingsFileWWhenCertificateSet" computerName="DKSR-EFI-04" duration="00:00:00.0061438" startTime="2023-12-22T09:34:12.4595727+01:00" endTime="2023-12-22T09:34:12.4751983+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7bddbb2-1e5c-427b-9192-42f0c0dd0f26" />
+    <UnitTestResult executionId="77067b73-e989-4d24-95ab-73f2cc74d623" testId="1e3cd871-7a5e-3ed2-cf70-a8c3d9715ab9" testName="Empty_Ctor_SetServerAddress" computerName="DKSR-EFI-04" duration="00:00:00.1013583" startTime="2023-12-22T09:34:12.3033216+01:00" endTime="2023-12-22T09:34:12.4126971+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="77067b73-e989-4d24-95ab-73f2cc74d623" />
+    <UnitTestResult executionId="eea2f5a1-bd40-412b-86b3-9d6ca7c28df3" testId="3029a148-fe01-5032-36a9-03ec91964a4e" testName="UpgradingFromAConfigFileWithoutWebSocketEntry_Then_ANewWebSocketEntryIsCreated" computerName="DKSR-EFI-04" duration="00:00:00.0329675" startTime="2023-12-22T09:34:12.4908210+01:00" endTime="2023-12-22T09:34:12.5376952+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eea2f5a1-bd40-412b-86b3-9d6ca7c28df3" />
+    <UnitTestResult executionId="6cdd0ce4-e73c-4bc4-9a2c-c13a27d68225" testId="b50740e4-e43e-e26e-5ae3-be5f004022b1" testName="Full_Ctor_SetServerAddress_AddressToSetIsNull_ThrowsArgumentNullException" computerName="DKSR-EFI-04" duration="00:00:00.3560424" startTime="2023-12-22T09:34:11.9595689+01:00" endTime="2023-12-22T09:34:12.3033216+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6cdd0ce4-e73c-4bc4-9a2c-c13a27d68225" />
+    <UnitTestResult executionId="931b096e-1686-4f1e-b01b-215785b1d6db" testId="9ea8f298-518a-c370-0aaa-deaf279e8138" testName="SecureEnabledFalseOnSettingsFileWhenNoCertificateSet" computerName="DKSR-EFI-04" duration="00:00:00.0230846" startTime="2023-12-22T09:34:12.4751983+01:00" endTime="2023-12-22T09:34:12.4908210+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="931b096e-1686-4f1e-b01b-215785b1d6db" />
+    <UnitTestResult executionId="0ef18dcd-fe76-4c05-a2f3-1d9764ab2f64" testId="c2514dfa-8632-5973-0605-841c137cb321" testName="UpdateSettingsFieldsChecksAndCreatesFileWhenFileIsMissing" computerName="DKSR-EFI-04" duration="00:00:00.0523710" startTime="2023-12-22T09:34:12.4126971+01:00" endTime="2023-12-22T09:34:12.4595727+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ef18dcd-fe76-4c05-a2f3-1d9764ab2f64" />
+    <UnitTestResult executionId="02c6381f-852e-4734-88c7-0120f2be3e99" testId="59000c81-d81b-c5d2-2522-2bf0d12ae8b1" testName="Empty_Ctor_SetServerAddress_AddressToSetIsNull_ThrowsArgumentNullException" computerName="DKSR-EFI-04" duration="00:00:00.4300273" startTime="2023-12-22T09:34:11.2876933+01:00" endTime="2023-12-22T09:34:11.9283194+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="02c6381f-852e-4734-88c7-0120f2be3e99" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="UpdateSettingsFieldsChecksAndCreatesFileWhenFileIsMissing" storage="d:\actions-runner\_work\xpco\xpco\eventserver\server\components\central\registrars.unittest\bin\x64\debug\videoos.eventserver.registrars.unittest.dll" id="c2514dfa-8632-5973-0605-841c137cb321">
+      <Execution id="0ef18dcd-fe76-4c05-a2f3-1d9764ab2f64" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Server\Components\Central\Registrars.UnitTest\bin\x64\Debug\VideoOS.EventServer.Registrars.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.EventServer.Registrars.UnitTest.ServerEndpointRegistrarTest" name="UpdateSettingsFieldsChecksAndCreatesFileWhenFileIsMissing" />
+    </UnitTest>
+    <UnitTest name="UpgradingFromAConfigFileWithoutWebSocketEntry_Then_ANewWebSocketEntryIsCreated" storage="d:\actions-runner\_work\xpco\xpco\eventserver\server\components\central\registrars.unittest\bin\x64\debug\videoos.eventserver.registrars.unittest.dll" id="3029a148-fe01-5032-36a9-03ec91964a4e">
+      <Execution id="eea2f5a1-bd40-412b-86b3-9d6ca7c28df3" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Server\Components\Central\Registrars.UnitTest\bin\x64\Debug\VideoOS.EventServer.Registrars.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.EventServer.Registrars.UnitTest.ServiceConfigSettingsUnitTest" name="UpgradingFromAConfigFileWithoutWebSocketEntry_Then_ANewWebSocketEntryIsCreated" />
+    </UnitTest>
+    <UnitTest name="SecureEnabledFalseOnSettingsFileWhenNoCertificateSet" storage="d:\actions-runner\_work\xpco\xpco\eventserver\server\components\central\registrars.unittest\bin\x64\debug\videoos.eventserver.registrars.unittest.dll" id="9ea8f298-518a-c370-0aaa-deaf279e8138">
+      <Execution id="931b096e-1686-4f1e-b01b-215785b1d6db" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Server\Components\Central\Registrars.UnitTest\bin\x64\Debug\VideoOS.EventServer.Registrars.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.EventServer.Registrars.UnitTest.ServerEndpointRegistrarTest" name="SecureEnabledFalseOnSettingsFileWhenNoCertificateSet" />
+    </UnitTest>
+    <UnitTest name="SecureEnableTrueOnSettingsFileWWhenCertificateSet" storage="d:\actions-runner\_work\xpco\xpco\eventserver\server\components\central\registrars.unittest\bin\x64\debug\videoos.eventserver.registrars.unittest.dll" id="492413c3-1451-a889-ac06-0ec205d02f5c">
+      <Execution id="e7bddbb2-1e5c-427b-9192-42f0c0dd0f26" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Server\Components\Central\Registrars.UnitTest\bin\x64\Debug\VideoOS.EventServer.Registrars.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.EventServer.Registrars.UnitTest.ServerEndpointRegistrarTest" name="SecureEnableTrueOnSettingsFileWWhenCertificateSet" />
+    </UnitTest>
+    <UnitTest name="Empty_Ctor_SetServerAddress_AddressToSetIsNull_ThrowsArgumentNullException" storage="d:\actions-runner\_work\xpco\xpco\eventserver\server\components\central\registrars.unittest\bin\x64\debug\videoos.eventserver.registrars.unittest.dll" id="59000c81-d81b-c5d2-2522-2bf0d12ae8b1">
+      <Execution id="02c6381f-852e-4734-88c7-0120f2be3e99" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Server\Components\Central\Registrars.UnitTest\bin\x64\Debug\VideoOS.EventServer.Registrars.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.EventServer.Registrars.UnitTest.EventServerSetManagementServerRegistrarUnitTest" name="Empty_Ctor_SetServerAddress_AddressToSetIsNull_ThrowsArgumentNullException" />
+    </UnitTest>
+    <UnitTest name="Full_Ctor_SetServerAddress_AddressToSetIsNull_ThrowsArgumentNullException" storage="d:\actions-runner\_work\xpco\xpco\eventserver\server\components\central\registrars.unittest\bin\x64\debug\videoos.eventserver.registrars.unittest.dll" id="b50740e4-e43e-e26e-5ae3-be5f004022b1">
+      <Execution id="6cdd0ce4-e73c-4bc4-9a2c-c13a27d68225" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Server\Components\Central\Registrars.UnitTest\bin\x64\Debug\VideoOS.EventServer.Registrars.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.EventServer.Registrars.UnitTest.EventServerSetManagementServerRegistrarUnitTest" name="Full_Ctor_SetServerAddress_AddressToSetIsNull_ThrowsArgumentNullException" />
+    </UnitTest>
+    <UnitTest name="Empty_Ctor_SetServerAddress" storage="d:\actions-runner\_work\xpco\xpco\eventserver\server\components\central\registrars.unittest\bin\x64\debug\videoos.eventserver.registrars.unittest.dll" id="1e3cd871-7a5e-3ed2-cf70-a8c3d9715ab9">
+      <Execution id="77067b73-e989-4d24-95ab-73f2cc74d623" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Server\Components\Central\Registrars.UnitTest\bin\x64\Debug\VideoOS.EventServer.Registrars.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.EventServer.Registrars.UnitTest.EventServerSetManagementServerRegistrarUnitTest" name="Empty_Ctor_SetServerAddress" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="492413c3-1451-a889-ac06-0ec205d02f5c" executionId="e7bddbb2-1e5c-427b-9192-42f0c0dd0f26" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1e3cd871-7a5e-3ed2-cf70-a8c3d9715ab9" executionId="77067b73-e989-4d24-95ab-73f2cc74d623" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3029a148-fe01-5032-36a9-03ec91964a4e" executionId="eea2f5a1-bd40-412b-86b3-9d6ca7c28df3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b50740e4-e43e-e26e-5ae3-be5f004022b1" executionId="6cdd0ce4-e73c-4bc4-9a2c-c13a27d68225" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ea8f298-518a-c370-0aaa-deaf279e8138" executionId="931b096e-1686-4f1e-b01b-215785b1d6db" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2514dfa-8632-5973-0605-841c137cb321" executionId="0ef18dcd-fe76-4c05-a2f3-1d9764ab2f64" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="59000c81-d81b-c5d2-2522-2bf0d12ae8b1" executionId="02c6381f-852e-4734-88c7-0120f2be3e99" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="7" executed="7" passed="7" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="f5c7c101-94e0-470a-8bef-0db3f8fa743c" name="DKSR-EFI-04$@DKSR-EFI-04 2023-12-22 09:33:15" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-12-22T09:33:15.9749192+01:00" queuing="2023-12-22T09:33:15.9749192+01:00" start="2023-12-22T09:33:06.9748757+01:00" finish="2023-12-22T09:33:16.7092974+01:00" />
+  <TestSettings name="default" id="756244be-1ef6-4d4d-b64e-dc3d060344e3">
+    <Deployment runDeploymentRoot="DKSR-EFI-04$_DKSR-EFI-04_2023-12-22_09_33_15" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="1bbc1057-e050-4231-90dd-3c12949a919e" testId="73df3ae1-17dc-5685-df7e-a529b6829dad" testName="AvailableCertificates_Requires_ServerAuthentication" computerName="DKSR-EFI-04" duration="00:00:00.0004296" startTime="2023-12-22T09:33:15.9905676+01:00" endTime="2023-12-22T09:33:15.9905676+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1bbc1057-e050-4231-90dd-3c12949a919e" />
+    <UnitTestResult executionId="d04de763-5620-47bc-a1af-f9cad5ef081a" testId="f6b2b235-2d3e-9a72-b275-c9ccf2bb16d7" testName="BuildTechnicalDetailsText_Exception_With_InnerException_With_StackTrace" computerName="DKSR-EFI-04" duration="00:00:00.0011102" startTime="2023-12-22T09:33:15.7249181+01:00" endTime="2023-12-22T09:33:15.7249181+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d04de763-5620-47bc-a1af-f9cad5ef081a" />
+    <UnitTestResult executionId="412b2288-500b-47c5-8b09-827f1a75a7aa" testId="6e90e5be-5a00-cd3a-1b95-8102dddf5296" testName="SelectedCertificateData_NoSelection_ReturnNull" computerName="DKSR-EFI-04" duration="00:00:00.0008847" startTime="2023-12-22T09:33:15.9905676+01:00" endTime="2023-12-22T09:33:15.9905676+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="412b2288-500b-47c5-8b09-827f1a75a7aa" />
+    <UnitTestResult executionId="c303d87d-14f4-4acf-b0da-74670a04143d" testId="b7e2835c-f41e-79bf-9e02-1cd866038487" testName="BuildTechnicalDetailsText_Exception_With_StackTrace" computerName="DKSR-EFI-04" duration="00:00:00.0369168" startTime="2023-12-22T09:33:15.2249156+01:00" endTime="2023-12-22T09:33:15.6624159+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c303d87d-14f4-4acf-b0da-74670a04143d" />
+    <UnitTestResult executionId="f9f377df-296b-4db0-ad71-3252c8eaeece" testId="18f03128-3185-9deb-3d5b-aec60d4c47e6" testName="ChooseCertificate_DisableEncryptionTest" computerName="DKSR-EFI-04" duration="00:00:00.0006188" startTime="2023-12-22T09:33:15.9592927+01:00" endTime="2023-12-22T09:33:15.9592927+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f9f377df-296b-4db0-ad71-3252c8eaeece" />
+    <UnitTestResult executionId="7ec51df4-6e78-4104-bda5-1f0c84b2c693" testId="8bb26156-d2eb-a594-addd-346c634737a8" testName="IsSelectionvalid_ChangingMode_ChangesResult" computerName="DKSR-EFI-04" duration="00:00:00.0006673" startTime="2023-12-22T09:33:16.0061708+01:00" endTime="2023-12-22T09:33:16.0061708+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ec51df4-6e78-4104-bda5-1f0c84b2c693" />
+    <UnitTestResult executionId="867db45f-55fb-4a23-8cfe-c6d2eb666e90" testId="20f6740b-787e-2840-f067-8361c79c60d4" testName="ChooseCertificate_NonExistingCertificate" computerName="DKSR-EFI-04" duration="00:00:00.0008302" startTime="2023-12-22T09:33:15.9592927+01:00" endTime="2023-12-22T09:33:15.9592927+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="867db45f-55fb-4a23-8cfe-c6d2eb666e90" />
+    <UnitTestResult executionId="e68ac013-6800-48bd-aa21-2433278d1eb0" testId="797dcfc7-5065-fd67-1c0b-b1fb2b97a0fe" testName="AvailableCertificates_Requires_ValidNow" computerName="DKSR-EFI-04" duration="00:00:00.0006085" startTime="2023-12-22T09:33:15.9749192+01:00" endTime="2023-12-22T09:33:15.9749192+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e68ac013-6800-48bd-aa21-2433278d1eb0" />
+    <UnitTestResult executionId="831df272-a269-49b0-a248-06e0b68e3ee5" testId="3b6268aa-da4d-8954-6cee-4818a6ee2f82" testName="AvailableCertificates_Requires_PrivateKey" computerName="DKSR-EFI-04" duration="00:00:00.0041130" startTime="2023-12-22T09:33:15.9749192+01:00" endTime="2023-12-22T09:33:15.9749192+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="831df272-a269-49b0-a248-06e0b68e3ee5" />
+    <UnitTestResult executionId="a2127a0b-8246-4aca-96ce-c45a2ec695b2" testId="14c74d5c-941e-6b36-3d11-dbcecfb8b300" testName="GetValue_ReturnsRowValue_OnRowInTable" computerName="DKSR-EFI-04" duration="00:00:00.0023651" startTime="2023-12-22T09:33:15.8967930+01:00" endTime="2023-12-22T09:33:15.8967930+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a2127a0b-8246-4aca-96ce-c45a2ec695b2" />
+    <UnitTestResult executionId="f109e2b0-00e1-41f3-8161-012373547cfd" testId="0ad2bd35-7d6c-cf4e-46b9-90f8527acd6b" testName="DisabledEncryptionTest" computerName="DKSR-EFI-04" duration="00:00:00.0005502" startTime="2023-12-22T09:33:15.9436692+01:00" endTime="2023-12-22T09:33:15.9436692+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f109e2b0-00e1-41f3-8161-012373547cfd" />
+    <UnitTestResult executionId="14006260-d861-4d7c-8f55-26edbc152c03" testId="8c34367a-64fe-064e-e91f-41082dfcd9c0" testName="GetValue_ReturnsNull_OnRowNotInTable" computerName="DKSR-EFI-04" duration="00:00:00.0008089" startTime="2023-12-22T09:33:15.8811691+01:00" endTime="2023-12-22T09:33:15.8967930+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14006260-d861-4d7c-8f55-26edbc152c03" />
+    <UnitTestResult executionId="ef3ce20c-315d-415e-93ba-8d9e0d09b45a" testId="13a26ddb-be37-5ff5-6b82-28a6521473d5" testName="ValidCertificateSelectedTest" computerName="DKSR-EFI-04" duration="00:00:00.0322180" startTime="2023-12-22T09:33:15.9124195+01:00" endTime="2023-12-22T09:33:15.9436692+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef3ce20c-315d-415e-93ba-8d9e0d09b45a" />
+    <UnitTestResult executionId="0d564a50-e760-4703-bf86-c561614b9202" testId="ea56bb24-09f1-6704-4221-368d26a50476" testName="BuildTechnicalDetailsText_Null_Throws_ArgumentNullexception" computerName="DKSR-EFI-04" duration="00:00:00.1243377" startTime="2023-12-22T09:33:15.7249181+01:00" endTime="2023-12-22T09:33:15.8499188+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0d564a50-e760-4703-bf86-c561614b9202">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+Fail: Argument null</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5bcb70ee-7d7b-4921-8f8e-e462840c0f0b" testId="d640b232-5b18-2c40-82b3-7c2becec1ae1" testName="CertificateSelection_Null_ThrowsArgumentNullException" computerName="DKSR-EFI-04" duration="00:00:00.0003931" startTime="2023-12-22T09:33:15.9905676+01:00" endTime="2023-12-22T09:33:15.9905676+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5bcb70ee-7d7b-4921-8f8e-e462840c0f0b" />
+    <UnitTestResult executionId="7d70d349-5ff4-4e79-bdad-e0757b0c8b52" testId="e6849ee5-6129-c8bb-3208-74ce5eba2857" testName="ResolveSelectedMode_DifferentCertificates_Individual" computerName="DKSR-EFI-04" duration="00:00:00.0006719" startTime="2023-12-22T09:33:16.0061708+01:00" endTime="2023-12-22T09:33:16.0061708+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d70d349-5ff4-4e79-bdad-e0757b0c8b52" />
+    <UnitTestResult executionId="966482c3-0193-4ff0-91dd-f1884da9636f" testId="dc1a371f-f258-a43f-80e4-0cc838b39de4" testName="GetValue_ReturnsNull_OnSectionNotInTable" computerName="DKSR-EFI-04" duration="00:00:00.0106041" startTime="2023-12-22T09:33:15.8655434+01:00" endTime="2023-12-22T09:33:15.8811691+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="966482c3-0193-4ff0-91dd-f1884da9636f" />
+    <UnitTestResult executionId="4d2caa8b-4684-4f8d-b2ee-a6765ebf4be4" testId="c21f1558-9459-7e23-3250-12c19672c272" testName="ChooseCertificate_DisableAndEnableEncryptionTest" computerName="DKSR-EFI-04" duration="00:00:00.0005553" startTime="2023-12-22T09:33:15.9749192+01:00" endTime="2023-12-22T09:33:15.9749192+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d2caa8b-4684-4f8d-b2ee-a6765ebf4be4" />
+    <UnitTestResult executionId="1cbc2401-c1c2-47c8-a12b-8652d7971fb1" testId="39c58669-6bd9-c8fe-d8a3-1137090fad15" testName="AvailableCertificates_Requires_NotExpired" computerName="DKSR-EFI-04" duration="00:00:00.0005378" startTime="2023-12-22T09:33:15.9749192+01:00" endTime="2023-12-22T09:33:15.9749192+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1cbc2401-c1c2-47c8-a12b-8652d7971fb1" />
+    <UnitTestResult executionId="1c83d24c-158c-4f32-9fdc-2b3502f9210c" testId="41c501d2-a4c2-b59c-0b9a-f2eb5ffec647" testName="ResolveSelectedMode_DifferentEncryptionEnabled_Individual" computerName="DKSR-EFI-04" duration="00:00:00.0004104" startTime="2023-12-22T09:33:16.0061708+01:00" endTime="2023-12-22T09:33:16.0061708+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c83d24c-158c-4f32-9fdc-2b3502f9210c" />
+    <UnitTestResult executionId="ae0fe2eb-24b0-4759-92db-55de0024dc63" testId="be90c233-b86c-a18d-beb2-d27e7615e7ed" testName="ResolveSelectedMode_SameSettings_SameCertificateForAllServices" computerName="DKSR-EFI-04" duration="00:00:00.0051490" startTime="2023-12-22T09:33:15.9905676+01:00" endTime="2023-12-22T09:33:16.0061708+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ae0fe2eb-24b0-4759-92db-55de0024dc63" />
+    <UnitTestResult executionId="f4ef65f2-8b39-4608-b222-7cb55cee880f" testId="1acf79c6-8a24-6124-df39-b76d3d3930c5" testName="Constructor_EmptyStoreTest" computerName="DKSR-EFI-04" duration="00:00:00.0056788" startTime="2023-12-22T09:33:15.8967930+01:00" endTime="2023-12-22T09:33:15.8967930+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f4ef65f2-8b39-4608-b222-7cb55cee880f" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="AvailableCertificates_Requires_ValidNow" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\common.controls\tst\videoos.common.controls.unittests\bin\x64\debug\net472\videoos.common.controls.unittests.dll" id="797dcfc7-5065-fd67-1c0b-b1fb2b97a0fe">
+      <Execution id="e68ac013-6800-48bd-aa21-2433278d1eb0" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Common.Controls\tst\VideoOS.Common.Controls.UnitTests\bin\x64\Debug\net472\VideoOS.Common.Controls.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Common.Controls.UnitTests.ServerCertificateSelector.CertificateSelectionViewModelUnitTests" name="AvailableCertificates_Requires_ValidNow" />
+    </UnitTest>
+    <UnitTest name="ValidCertificateSelectedTest" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\common.controls\tst\videoos.common.controls.unittests\bin\x64\debug\net472\videoos.common.controls.unittests.dll" id="13a26ddb-be37-5ff5-6b82-28a6521473d5">
+      <Execution id="ef3ce20c-315d-415e-93ba-8d9e0d09b45a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Common.Controls\tst\VideoOS.Common.Controls.UnitTests\bin\x64\Debug\net472\VideoOS.Common.Controls.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Common.Controls.UnitTests.ServerCertificateSelector.CertificateSelectionViewModelUnitTests" name="ValidCertificateSelectedTest" />
+    </UnitTest>
+    <UnitTest name="AvailableCertificates_Requires_PrivateKey" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\common.controls\tst\videoos.common.controls.unittests\bin\x64\debug\net472\videoos.common.controls.unittests.dll" id="3b6268aa-da4d-8954-6cee-4818a6ee2f82">
+      <Execution id="831df272-a269-49b0-a248-06e0b68e3ee5" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Common.Controls\tst\VideoOS.Common.Controls.UnitTests\bin\x64\Debug\net472\VideoOS.Common.Controls.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Common.Controls.UnitTests.ServerCertificateSelector.CertificateSelectionViewModelUnitTests" name="AvailableCertificates_Requires_PrivateKey" />
+    </UnitTest>
+    <UnitTest name="AvailableCertificates_Requires_NotExpired" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\common.controls\tst\videoos.common.controls.unittests\bin\x64\debug\net472\videoos.common.controls.unittests.dll" id="39c58669-6bd9-c8fe-d8a3-1137090fad15">
+      <Execution id="1cbc2401-c1c2-47c8-a12b-8652d7971fb1" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Common.Controls\tst\VideoOS.Common.Controls.UnitTests\bin\x64\Debug\net472\VideoOS.Common.Controls.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Common.Controls.UnitTests.ServerCertificateSelector.CertificateSelectionViewModelUnitTests" name="AvailableCertificates_Requires_NotExpired" />
+    </UnitTest>
+    <UnitTest name="GetValue_ReturnsRowValue_OnRowInTable" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\common.controls\tst\videoos.common.controls.unittests\bin\x64\debug\net472\videoos.common.controls.unittests.dll" id="14c74d5c-941e-6b36-3d11-dbcecfb8b300">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Reporting" />
+      </TestCategory>
+      <Execution id="a2127a0b-8246-4aca-96ce-c45a2ec695b2" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Common.Controls\tst\VideoOS.Common.Controls.UnitTests\bin\x64\Debug\net472\VideoOS.Common.Controls.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Common.Controls.UnitTests.KeyValueSectionsTableTests" name="GetValue_ReturnsRowValue_OnRowInTable" />
+    </UnitTest>
+    <UnitTest name="BuildTechnicalDetailsText_Exception_With_StackTrace" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\common.controls\tst\videoos.common.controls.unittests\bin\x64\debug\net472\videoos.common.controls.unittests.dll" id="b7e2835c-f41e-79bf-9e02-1cd866038487">
+      <Execution id="c303d87d-14f4-4acf-b0da-74670a04143d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Common.Controls\tst\VideoOS.Common.Controls.UnitTests\bin\x64\Debug\net472\VideoOS.Common.Controls.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Common.Controls.UnitTests.ExceptionDetailsFormatterUnitTests" name="BuildTechnicalDetailsText_Exception_With_StackTrace" />
+    </UnitTest>
+    <UnitTest name="ChooseCertificate_NonExistingCertificate" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\common.controls\tst\videoos.common.controls.unittests\bin\x64\debug\net472\videoos.common.controls.unittests.dll" id="20f6740b-787e-2840-f067-8361c79c60d4">
+      <Execution id="867db45f-55fb-4a23-8cfe-c6d2eb666e90" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Common.Controls\tst\VideoOS.Common.Controls.UnitTests\bin\x64\Debug\net472\VideoOS.Common.Controls.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Common.Controls.UnitTests.ServerCertificateSelector.CertificateSelectionViewModelUnitTests" name="ChooseCertificate_NonExistingCertificate" />
+    </UnitTest>
+    <UnitTest name="Constructor_EmptyStoreTest" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\common.controls\tst\videoos.common.controls.unittests\bin\x64\debug\net472\videoos.common.controls.unittests.dll" id="1acf79c6-8a24-6124-df39-b76d3d3930c5">
+      <Execution id="f4ef65f2-8b39-4608-b222-7cb55cee880f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Common.Controls\tst\VideoOS.Common.Controls.UnitTests\bin\x64\Debug\net472\VideoOS.Common.Controls.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Common.Controls.UnitTests.ServerCertificateSelector.CertificateSelectionViewModelUnitTests" name="Constructor_EmptyStoreTest" />
+    </UnitTest>
+    <UnitTest name="IsSelectionvalid_ChangingMode_ChangesResult" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\common.controls\tst\videoos.common.controls.unittests\bin\x64\debug\net472\videoos.common.controls.unittests.dll" id="8bb26156-d2eb-a594-addd-346c634737a8">
+      <Execution id="7ec51df4-6e78-4104-bda5-1f0c84b2c693" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Common.Controls\tst\VideoOS.Common.Controls.UnitTests\bin\x64\Debug\net472\VideoOS.Common.Controls.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Common.Controls.UnitTests.ServerCertificateSelector.MultipleCertificateSelectionViewModelUnitTests" name="IsSelectionvalid_ChangingMode_ChangesResult" />
+    </UnitTest>
+    <UnitTest name="GetValue_ReturnsNull_OnSectionNotInTable" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\common.controls\tst\videoos.common.controls.unittests\bin\x64\debug\net472\videoos.common.controls.unittests.dll" id="dc1a371f-f258-a43f-80e4-0cc838b39de4">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Reporting" />
+      </TestCategory>
+      <Execution id="966482c3-0193-4ff0-91dd-f1884da9636f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Common.Controls\tst\VideoOS.Common.Controls.UnitTests\bin\x64\Debug\net472\VideoOS.Common.Controls.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Common.Controls.UnitTests.KeyValueSectionsTableTests" name="GetValue_ReturnsNull_OnSectionNotInTable" />
+    </UnitTest>
+    <UnitTest name="BuildTechnicalDetailsText_Null_Throws_ArgumentNullexception" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\common.controls\tst\videoos.common.controls.unittests\bin\x64\debug\net472\videoos.common.controls.unittests.dll" id="ea56bb24-09f1-6704-4221-368d26a50476">
+      <Execution id="0d564a50-e760-4703-bf86-c561614b9202" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Common.Controls\tst\VideoOS.Common.Controls.UnitTests\bin\x64\Debug\net472\VideoOS.Common.Controls.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Common.Controls.UnitTests.ExceptionDetailsFormatterUnitTests" name="BuildTechnicalDetailsText_Null_Throws_ArgumentNullexception" />
+    </UnitTest>
+    <UnitTest name="ResolveSelectedMode_DifferentCertificates_Individual" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\common.controls\tst\videoos.common.controls.unittests\bin\x64\debug\net472\videoos.common.controls.unittests.dll" id="e6849ee5-6129-c8bb-3208-74ce5eba2857">
+      <Execution id="7d70d349-5ff4-4e79-bdad-e0757b0c8b52" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Common.Controls\tst\VideoOS.Common.Controls.UnitTests\bin\x64\Debug\net472\VideoOS.Common.Controls.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Common.Controls.UnitTests.ServerCertificateSelector.MultipleCertificateSelectionViewModelUnitTests" name="ResolveSelectedMode_DifferentCertificates_Individual" />
+    </UnitTest>
+    <UnitTest name="ChooseCertificate_DisableAndEnableEncryptionTest" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\common.controls\tst\videoos.common.controls.unittests\bin\x64\debug\net472\videoos.common.controls.unittests.dll" id="c21f1558-9459-7e23-3250-12c19672c272">
+      <Execution id="4d2caa8b-4684-4f8d-b2ee-a6765ebf4be4" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Common.Controls\tst\VideoOS.Common.Controls.UnitTests\bin\x64\Debug\net472\VideoOS.Common.Controls.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Common.Controls.UnitTests.ServerCertificateSelector.CertificateSelectionViewModelUnitTests" name="ChooseCertificate_DisableAndEnableEncryptionTest" />
+    </UnitTest>
+    <UnitTest name="CertificateSelection_Null_ThrowsArgumentNullException" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\common.controls\tst\videoos.common.controls.unittests\bin\x64\debug\net472\videoos.common.controls.unittests.dll" id="d640b232-5b18-2c40-82b3-7c2becec1ae1">
+      <Execution id="5bcb70ee-7d7b-4921-8f8e-e462840c0f0b" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Common.Controls\tst\VideoOS.Common.Controls.UnitTests\bin\x64\Debug\net472\VideoOS.Common.Controls.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Common.Controls.UnitTests.ServerCertificateSelector.CertificateSelectionViewModelUnitTests" name="CertificateSelection_Null_ThrowsArgumentNullException" />
+    </UnitTest>
+    <UnitTest name="BuildTechnicalDetailsText_Exception_With_InnerException_With_StackTrace" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\common.controls\tst\videoos.common.controls.unittests\bin\x64\debug\net472\videoos.common.controls.unittests.dll" id="f6b2b235-2d3e-9a72-b275-c9ccf2bb16d7">
+      <Execution id="d04de763-5620-47bc-a1af-f9cad5ef081a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Common.Controls\tst\VideoOS.Common.Controls.UnitTests\bin\x64\Debug\net472\VideoOS.Common.Controls.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Common.Controls.UnitTests.ExceptionDetailsFormatterUnitTests" name="BuildTechnicalDetailsText_Exception_With_InnerException_With_StackTrace" />
+    </UnitTest>
+    <UnitTest name="ResolveSelectedMode_SameSettings_SameCertificateForAllServices" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\common.controls\tst\videoos.common.controls.unittests\bin\x64\debug\net472\videoos.common.controls.unittests.dll" id="be90c233-b86c-a18d-beb2-d27e7615e7ed">
+      <Execution id="ae0fe2eb-24b0-4759-92db-55de0024dc63" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Common.Controls\tst\VideoOS.Common.Controls.UnitTests\bin\x64\Debug\net472\VideoOS.Common.Controls.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Common.Controls.UnitTests.ServerCertificateSelector.MultipleCertificateSelectionViewModelUnitTests" name="ResolveSelectedMode_SameSettings_SameCertificateForAllServices" />
+    </UnitTest>
+    <UnitTest name="SelectedCertificateData_NoSelection_ReturnNull" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\common.controls\tst\videoos.common.controls.unittests\bin\x64\debug\net472\videoos.common.controls.unittests.dll" id="6e90e5be-5a00-cd3a-1b95-8102dddf5296">
+      <Execution id="412b2288-500b-47c5-8b09-827f1a75a7aa" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Common.Controls\tst\VideoOS.Common.Controls.UnitTests\bin\x64\Debug\net472\VideoOS.Common.Controls.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Common.Controls.UnitTests.ServerCertificateSelector.CertificateSelectionViewModelUnitTests" name="SelectedCertificateData_NoSelection_ReturnNull" />
+    </UnitTest>
+    <UnitTest name="ChooseCertificate_DisableEncryptionTest" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\common.controls\tst\videoos.common.controls.unittests\bin\x64\debug\net472\videoos.common.controls.unittests.dll" id="18f03128-3185-9deb-3d5b-aec60d4c47e6">
+      <Execution id="f9f377df-296b-4db0-ad71-3252c8eaeece" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Common.Controls\tst\VideoOS.Common.Controls.UnitTests\bin\x64\Debug\net472\VideoOS.Common.Controls.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Common.Controls.UnitTests.ServerCertificateSelector.CertificateSelectionViewModelUnitTests" name="ChooseCertificate_DisableEncryptionTest" />
+    </UnitTest>
+    <UnitTest name="AvailableCertificates_Requires_ServerAuthentication" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\common.controls\tst\videoos.common.controls.unittests\bin\x64\debug\net472\videoos.common.controls.unittests.dll" id="73df3ae1-17dc-5685-df7e-a529b6829dad">
+      <Execution id="1bbc1057-e050-4231-90dd-3c12949a919e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Common.Controls\tst\VideoOS.Common.Controls.UnitTests\bin\x64\Debug\net472\VideoOS.Common.Controls.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Common.Controls.UnitTests.ServerCertificateSelector.CertificateSelectionViewModelUnitTests" name="AvailableCertificates_Requires_ServerAuthentication" />
+    </UnitTest>
+    <UnitTest name="DisabledEncryptionTest" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\common.controls\tst\videoos.common.controls.unittests\bin\x64\debug\net472\videoos.common.controls.unittests.dll" id="0ad2bd35-7d6c-cf4e-46b9-90f8527acd6b">
+      <Execution id="f109e2b0-00e1-41f3-8161-012373547cfd" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Common.Controls\tst\VideoOS.Common.Controls.UnitTests\bin\x64\Debug\net472\VideoOS.Common.Controls.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Common.Controls.UnitTests.ServerCertificateSelector.CertificateSelectionViewModelUnitTests" name="DisabledEncryptionTest" />
+    </UnitTest>
+    <UnitTest name="ResolveSelectedMode_DifferentEncryptionEnabled_Individual" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\common.controls\tst\videoos.common.controls.unittests\bin\x64\debug\net472\videoos.common.controls.unittests.dll" id="41c501d2-a4c2-b59c-0b9a-f2eb5ffec647">
+      <Execution id="1c83d24c-158c-4f32-9fdc-2b3502f9210c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Common.Controls\tst\VideoOS.Common.Controls.UnitTests\bin\x64\Debug\net472\VideoOS.Common.Controls.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Common.Controls.UnitTests.ServerCertificateSelector.MultipleCertificateSelectionViewModelUnitTests" name="ResolveSelectedMode_DifferentEncryptionEnabled_Individual" />
+    </UnitTest>
+    <UnitTest name="GetValue_ReturnsNull_OnRowNotInTable" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\common.controls\tst\videoos.common.controls.unittests\bin\x64\debug\net472\videoos.common.controls.unittests.dll" id="8c34367a-64fe-064e-e91f-41082dfcd9c0">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Reporting" />
+      </TestCategory>
+      <Execution id="14006260-d861-4d7c-8f55-26edbc152c03" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Common.Controls\tst\VideoOS.Common.Controls.UnitTests\bin\x64\Debug\net472\VideoOS.Common.Controls.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Common.Controls.UnitTests.KeyValueSectionsTableTests" name="GetValue_ReturnsNull_OnRowNotInTable" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="73df3ae1-17dc-5685-df7e-a529b6829dad" executionId="1bbc1057-e050-4231-90dd-3c12949a919e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f6b2b235-2d3e-9a72-b275-c9ccf2bb16d7" executionId="d04de763-5620-47bc-a1af-f9cad5ef081a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6e90e5be-5a00-cd3a-1b95-8102dddf5296" executionId="412b2288-500b-47c5-8b09-827f1a75a7aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b7e2835c-f41e-79bf-9e02-1cd866038487" executionId="c303d87d-14f4-4acf-b0da-74670a04143d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="18f03128-3185-9deb-3d5b-aec60d4c47e6" executionId="f9f377df-296b-4db0-ad71-3252c8eaeece" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8bb26156-d2eb-a594-addd-346c634737a8" executionId="7ec51df4-6e78-4104-bda5-1f0c84b2c693" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="20f6740b-787e-2840-f067-8361c79c60d4" executionId="867db45f-55fb-4a23-8cfe-c6d2eb666e90" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="797dcfc7-5065-fd67-1c0b-b1fb2b97a0fe" executionId="e68ac013-6800-48bd-aa21-2433278d1eb0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b6268aa-da4d-8954-6cee-4818a6ee2f82" executionId="831df272-a269-49b0-a248-06e0b68e3ee5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="14c74d5c-941e-6b36-3d11-dbcecfb8b300" executionId="a2127a0b-8246-4aca-96ce-c45a2ec695b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0ad2bd35-7d6c-cf4e-46b9-90f8527acd6b" executionId="f109e2b0-00e1-41f3-8161-012373547cfd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8c34367a-64fe-064e-e91f-41082dfcd9c0" executionId="14006260-d861-4d7c-8f55-26edbc152c03" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="13a26ddb-be37-5ff5-6b82-28a6521473d5" executionId="ef3ce20c-315d-415e-93ba-8d9e0d09b45a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ea56bb24-09f1-6704-4221-368d26a50476" executionId="0d564a50-e760-4703-bf86-c561614b9202" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d640b232-5b18-2c40-82b3-7c2becec1ae1" executionId="5bcb70ee-7d7b-4921-8f8e-e462840c0f0b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e6849ee5-6129-c8bb-3208-74ce5eba2857" executionId="7d70d349-5ff4-4e79-bdad-e0757b0c8b52" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dc1a371f-f258-a43f-80e4-0cc838b39de4" executionId="966482c3-0193-4ff0-91dd-f1884da9636f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c21f1558-9459-7e23-3250-12c19672c272" executionId="4d2caa8b-4684-4f8d-b2ee-a6765ebf4be4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="39c58669-6bd9-c8fe-d8a3-1137090fad15" executionId="1cbc2401-c1c2-47c8-a12b-8652d7971fb1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="41c501d2-a4c2-b59c-0b9a-f2eb5ffec647" executionId="1c83d24c-158c-4f32-9fdc-2b3502f9210c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be90c233-b86c-a18d-beb2-d27e7615e7ed" executionId="ae0fe2eb-24b0-4759-92db-55de0024dc63" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1acf79c6-8a24-6124-df39-b76d3d3930c5" executionId="f4ef65f2-8b39-4608-b222-7cb55cee880f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="22" executed="22" passed="22" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

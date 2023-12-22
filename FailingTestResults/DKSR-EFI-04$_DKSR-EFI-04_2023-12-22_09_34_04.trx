@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="191cf94d-5ab8-4f83-994c-d57b6c148546" name="DKSR-EFI-04$@DKSR-EFI-04 2023-12-22 09:34:04" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-12-22T09:34:04.0845282+01:00" queuing="2023-12-22T09:34:04.0845282+01:00" start="2023-12-22T09:33:50.3344595+01:00" finish="2023-12-22T09:34:06.3501675+01:00" />
+  <TestSettings name="default" id="8d730eae-cd79-4afb-b538-d134e1a6f6ea">
+    <Deployment runDeploymentRoot="DKSR-EFI-04$_DKSR-EFI-04_2023-12-22_09_34_04" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="b05e4e1a-a704-47cd-baae-e2dd5b0adbf9" testId="31a63df1-f4f6-247c-5e65-3eb661da918c" testName="VideoOS.DataCollector.Service.Integration.Tests.DataCollectorGrpcServiceTests.isAlive_true" computerName="DKSR-EFI-04" duration="00:00:00.2897693" startTime="2023-12-22T09:34:05.4491938+01:00" endTime="2023-12-22T09:34:05.4491943+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b05e4e1a-a704-47cd-baae-e2dd5b0adbf9" />
+    <UnitTestResult executionId="60f9b66e-becf-4a93-a348-5318d5626b2e" testId="01221dbc-ca49-666e-5c3e-1a15531605b1" testName="VideoOS.DataCollector.Service.Integration.Tests.DataCollectorGrpcServiceTests.GetCategories_Success" computerName="DKSR-EFI-04" duration="00:00:05.7582918" startTime="2023-12-22T09:34:04.0633015+01:00" endTime="2023-12-22T09:34:04.0633456+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60f9b66e-becf-4a93-a348-5318d5626b2e" />
+    <UnitTestResult executionId="342295fc-a77d-4fc7-b4c8-2ecf93fb0bf5" testId="c1686217-4217-6b83-c75e-444f212b2907" testName="VideoOS.DataCollector.Service.Integration.Tests.DataCollectorGrpcServiceTests.GetPerformanceCounterValues_Success" computerName="DKSR-EFI-04" duration="00:00:00.7262142" startTime="2023-12-22T09:34:05.1593151+01:00" endTime="2023-12-22T09:34:05.1593154+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="342295fc-a77d-4fc7-b4c8-2ecf93fb0bf5" />
+    <UnitTestResult executionId="af520edb-6e7e-4356-a134-9bbc961efb2a" testId="0ae2b898-8f66-c89a-0709-13ff6138390b" testName="VideoOS.DataCollector.Service.Integration.Tests.DataCollectorGrpcServiceTests.GetPerformanceCounterInstances_Success" computerName="DKSR-EFI-04" duration="00:00:00.2047893" startTime="2023-12-22T09:34:05.6541603+01:00" endTime="2023-12-22T09:34:05.6541611+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af520edb-6e7e-4356-a134-9bbc961efb2a" />
+    <UnitTestResult executionId="af2b48b7-d314-4237-87ff-b7e8005f48a6" testId="2d200c5d-6dcc-fa29-4dc0-371a8366835f" testName="VideoOS.DataCollector.Service.Integration.Tests.DataCollectorGrpcServiceTests.PostUpdatedCounterStateRuleConfigurations_Success" computerName="DKSR-EFI-04" duration="00:00:00.3028174" startTime="2023-12-22T09:34:05.9570671+01:00" endTime="2023-12-22T09:34:05.9570674+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af2b48b7-d314-4237-87ff-b7e8005f48a6" />
+    <UnitTestResult executionId="be404485-8078-44f9-a51b-acc9e6bbbd27" testId="929abfd5-02ec-22f2-e531-d040f04bf1b3" testName="VideoOS.DataCollector.Service.Integration.Tests.DataCollectorGrpcServiceTests.GetDataCollectorId_IsSet_Returned" computerName="DKSR-EFI-04" duration="00:00:00.3723350" startTime="2023-12-22T09:34:04.4326757+01:00" endTime="2023-12-22T09:34:04.4326759+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be404485-8078-44f9-a51b-acc9e6bbbd27" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="VideoOS.DataCollector.Service.Integration.Tests.DataCollectorGrpcServiceTests.GetPerformanceCounterInstances_Success" storage="d:\actions-runner\_work\xpco\xpco\datacollector\service\tst\videoos.datacollector.service.integration.tests\bin\x64\debug\net6.0-windows\win-x64\videoos.datacollector.service.integration.tests.dll" id="0ae2b898-8f66-c89a-0709-13ff6138390b">
+      <Execution id="af520edb-6e7e-4356-a134-9bbc961efb2a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\DataCollector\Service\tst\VideoOS.DataCollector.Service.Integration.Tests\bin\x64\Debug\net6.0-windows\win-x64\VideoOS.DataCollector.Service.Integration.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="VideoOS.DataCollector.Service.Integration.Tests.DataCollectorGrpcServiceTests" name="GetPerformanceCounterInstances_Success" />
+    </UnitTest>
+    <UnitTest name="VideoOS.DataCollector.Service.Integration.Tests.DataCollectorGrpcServiceTests.isAlive_true" storage="d:\actions-runner\_work\xpco\xpco\datacollector\service\tst\videoos.datacollector.service.integration.tests\bin\x64\debug\net6.0-windows\win-x64\videoos.datacollector.service.integration.tests.dll" id="31a63df1-f4f6-247c-5e65-3eb661da918c">
+      <Execution id="b05e4e1a-a704-47cd-baae-e2dd5b0adbf9" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\DataCollector\Service\tst\VideoOS.DataCollector.Service.Integration.Tests\bin\x64\Debug\net6.0-windows\win-x64\VideoOS.DataCollector.Service.Integration.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="VideoOS.DataCollector.Service.Integration.Tests.DataCollectorGrpcServiceTests" name="isAlive_true" />
+    </UnitTest>
+    <UnitTest name="VideoOS.DataCollector.Service.Integration.Tests.DataCollectorGrpcServiceTests.PostUpdatedCounterStateRuleConfigurations_Success" storage="d:\actions-runner\_work\xpco\xpco\datacollector\service\tst\videoos.datacollector.service.integration.tests\bin\x64\debug\net6.0-windows\win-x64\videoos.datacollector.service.integration.tests.dll" id="2d200c5d-6dcc-fa29-4dc0-371a8366835f">
+      <Execution id="af2b48b7-d314-4237-87ff-b7e8005f48a6" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\DataCollector\Service\tst\VideoOS.DataCollector.Service.Integration.Tests\bin\x64\Debug\net6.0-windows\win-x64\VideoOS.DataCollector.Service.Integration.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="VideoOS.DataCollector.Service.Integration.Tests.DataCollectorGrpcServiceTests" name="PostUpdatedCounterStateRuleConfigurations_Success" />
+    </UnitTest>
+    <UnitTest name="VideoOS.DataCollector.Service.Integration.Tests.DataCollectorGrpcServiceTests.GetCategories_Success" storage="d:\actions-runner\_work\xpco\xpco\datacollector\service\tst\videoos.datacollector.service.integration.tests\bin\x64\debug\net6.0-windows\win-x64\videoos.datacollector.service.integration.tests.dll" id="01221dbc-ca49-666e-5c3e-1a15531605b1">
+      <Execution id="60f9b66e-becf-4a93-a348-5318d5626b2e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\DataCollector\Service\tst\VideoOS.DataCollector.Service.Integration.Tests\bin\x64\Debug\net6.0-windows\win-x64\VideoOS.DataCollector.Service.Integration.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="VideoOS.DataCollector.Service.Integration.Tests.DataCollectorGrpcServiceTests" name="GetCategories_Success" />
+    </UnitTest>
+    <UnitTest name="VideoOS.DataCollector.Service.Integration.Tests.DataCollectorGrpcServiceTests.GetPerformanceCounterValues_Success" storage="d:\actions-runner\_work\xpco\xpco\datacollector\service\tst\videoos.datacollector.service.integration.tests\bin\x64\debug\net6.0-windows\win-x64\videoos.datacollector.service.integration.tests.dll" id="c1686217-4217-6b83-c75e-444f212b2907">
+      <Execution id="342295fc-a77d-4fc7-b4c8-2ecf93fb0bf5" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\DataCollector\Service\tst\VideoOS.DataCollector.Service.Integration.Tests\bin\x64\Debug\net6.0-windows\win-x64\VideoOS.DataCollector.Service.Integration.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="VideoOS.DataCollector.Service.Integration.Tests.DataCollectorGrpcServiceTests" name="GetPerformanceCounterValues_Success" />
+    </UnitTest>
+    <UnitTest name="VideoOS.DataCollector.Service.Integration.Tests.DataCollectorGrpcServiceTests.GetDataCollectorId_IsSet_Returned" storage="d:\actions-runner\_work\xpco\xpco\datacollector\service\tst\videoos.datacollector.service.integration.tests\bin\x64\debug\net6.0-windows\win-x64\videoos.datacollector.service.integration.tests.dll" id="929abfd5-02ec-22f2-e531-d040f04bf1b3">
+      <Execution id="be404485-8078-44f9-a51b-acc9e6bbbd27" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\DataCollector\Service\tst\VideoOS.DataCollector.Service.Integration.Tests\bin\x64\Debug\net6.0-windows\win-x64\VideoOS.DataCollector.Service.Integration.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="VideoOS.DataCollector.Service.Integration.Tests.DataCollectorGrpcServiceTests" name="GetDataCollectorId_IsSet_Returned" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="31a63df1-f4f6-247c-5e65-3eb661da918c" executionId="b05e4e1a-a704-47cd-baae-e2dd5b0adbf9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="01221dbc-ca49-666e-5c3e-1a15531605b1" executionId="60f9b66e-becf-4a93-a348-5318d5626b2e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c1686217-4217-6b83-c75e-444f212b2907" executionId="342295fc-a77d-4fc7-b4c8-2ecf93fb0bf5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0ae2b898-8f66-c89a-0709-13ff6138390b" executionId="af520edb-6e7e-4356-a134-9bbc961efb2a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d200c5d-6dcc-fa29-4dc0-371a8366835f" executionId="af2b48b7-d314-4237-87ff-b7e8005f48a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="929abfd5-02ec-22f2-e531-d040f04bf1b3" executionId="be404485-8078-44f9-a51b-acc9e6bbbd27" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET 6.0.25)&#xD;
+[xUnit.net 00:00:05.71]   Discovering: VideoOS.DataCollector.Service.Integration.Tests&#xD;
+[xUnit.net 00:00:05.80]   Discovered:  VideoOS.DataCollector.Service.Integration.Tests&#xD;
+[xUnit.net 00:00:05.81]   Starting:    VideoOS.DataCollector.Service.Integration.Tests&#xD;
+[xUnit.net 00:00:13.92]   Finished:    VideoOS.DataCollector.Service.Integration.Tests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

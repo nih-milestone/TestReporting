@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="9a1c61fa-fc9f-4e6a-bef4-329565df0fb4" name="DKSR-EFI-04$@DKSR-EFI-04 2023-12-22 09:34:47" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-12-22T09:34:47.8503743+01:00" queuing="2023-12-22T09:34:47.8503743+01:00" start="2023-12-22T09:34:39.6472072+01:00" finish="2023-12-22T09:34:47.9128751+01:00" />
+  <TestSettings name="default" id="580136df-b26b-4f3a-bd9b-376546d17814">
+    <Deployment runDeploymentRoot="DKSR-EFI-04$_DKSR-EFI-04_2023-12-22_09_34_47" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="7409f1c1-a508-4b3c-9b44-e379569b47bf" testId="ac2e9a45-9b03-add8-0d28-646af0b55acb" testName="ContentLink_ShouldFailWhenLinkTextsAndUrisLengtAreNotEqual" computerName="DKSR-EFI-04" duration="00:00:00.0006436" startTime="2023-12-22T09:34:47.2878707+01:00" endTime="2023-12-22T09:34:47.2878707+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7409f1c1-a508-4b3c-9b44-e379569b47bf" />
+    <UnitTestResult executionId="d5b79c40-8709-4efd-8b53-7deed47ea515" testId="0d635747-7ca6-3222-7fe8-60d8cd91281c" testName="ContentLink_ShouldHaveRepetitions" computerName="DKSR-EFI-04" duration="00:00:00.0010088" startTime="2023-12-22T09:34:47.2722463+01:00" endTime="2023-12-22T09:34:47.2722463+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5b79c40-8709-4efd-8b53-7deed47ea515" />
+    <UnitTestResult executionId="6b4b73cf-0db9-4e02-81f4-121f6a0f48a4" testId="485c3303-7caf-dc8d-a28c-e3baa5bbd205" testName="ContentLink_ShouldFailWhenFormatSpecifiesArgumentOutOfBounds" computerName="DKSR-EFI-04" duration="00:00:00.0005166" startTime="2023-12-22T09:34:47.2878707+01:00" endTime="2023-12-22T09:34:47.2878707+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6b4b73cf-0db9-4e02-81f4-121f6a0f48a4" />
+    <UnitTestResult executionId="1fb0b037-7d5b-4f58-9fcb-a4b3f3f07d3e" testId="9a932af3-f0ec-a1c6-463a-9f4cb569645a" testName="ContentLink_ShouldFailWhenFormatSpecifiesTooManyArguments" computerName="DKSR-EFI-04" duration="00:00:00.0048720" startTime="2023-12-22T09:34:47.2722463+01:00" endTime="2023-12-22T09:34:47.2722463+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1fb0b037-7d5b-4f58-9fcb-a4b3f3f07d3e" />
+    <UnitTestResult executionId="78059b90-14f4-4b99-9fb7-e55e467da1fc" testId="26c1010e-5025-942e-132f-6ae4f8156cb6" testName="ContentLink_ShouldSupportLinksSpecifiedWithStringUriPairs" computerName="DKSR-EFI-04" duration="00:00:00.0021607" startTime="2023-12-22T09:34:47.2878707+01:00" endTime="2023-12-22T09:34:47.2878707+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="78059b90-14f4-4b99-9fb7-e55e467da1fc" />
+    <UnitTestResult executionId="f6fb0c9a-a658-4b65-a198-ff268d0ef62e" testId="5f29cee2-eb50-7d06-3e68-25f75db0823a" testName="ContentLink_ShouldSupportActionsInsteadOfUris" computerName="DKSR-EFI-04" duration="00:00:00.0037171" startTime="2023-12-22T09:34:47.2878707+01:00" endTime="2023-12-22T09:34:47.3034973+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f6fb0c9a-a658-4b65-a198-ff268d0ef62e" />
+    <UnitTestResult executionId="482e0242-6250-48d0-86c9-6c52de67399d" testId="30f128e2-f356-a0bb-91f4-6bd9af39dea1" testName="ContentLink_ShouldSetTextField" computerName="DKSR-EFI-04" duration="00:00:00.0948262" startTime="2023-12-22T09:34:46.1472427+01:00" endTime="2023-12-22T09:34:46.4441165+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="482e0242-6250-48d0-86c9-6c52de67399d" />
+    <UnitTestResult executionId="17a10452-483a-4ad7-a5a8-5d78b9566e37" testId="32ca44d8-6e77-af06-8b5d-3e7219db8b51" testName="ContentLink_ShouldUseLinkTextCombinedWithUri" computerName="DKSR-EFI-04" duration="00:00:00.0031248" startTime="2023-12-22T09:34:47.2566219+01:00" endTime="2023-12-22T09:34:47.2722463+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="17a10452-483a-4ad7-a5a8-5d78b9566e37" />
+    <UnitTestResult executionId="2af84dbc-13f9-4983-b419-8ad7f61c4a95" testId="d8a1c22a-b340-963c-785c-87c3b8761619" testName="ContentLink_ShouldUseUriAsLinkText" computerName="DKSR-EFI-04" duration="00:00:00.7496840" startTime="2023-12-22T09:34:46.5066175+01:00" endTime="2023-12-22T09:34:47.2566219+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2af84dbc-13f9-4983-b419-8ad7f61c4a95" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ContentLink_ShouldFailWhenFormatSpecifiesTooManyArguments" storage="d:\actions-runner\_work\xpco\xpco\installerframework\videoos.installer.interfaces.unittests\bin\debug\videoos.installer.interfaces.unittests.dll" id="9a932af3-f0ec-a1c6-463a-9f4cb569645a">
+      <Execution id="1fb0b037-7d5b-4f58-9fcb-a4b3f3f07d3e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\InstallerFramework\VideoOS.Installer.Interfaces.UnitTests\bin\Debug\VideoOS.Installer.Interfaces.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideOS.Installer.Interfaces.UnitTests.ContentLinkTextUnitTest" name="ContentLink_ShouldFailWhenFormatSpecifiesTooManyArguments" />
+    </UnitTest>
+    <UnitTest name="ContentLink_ShouldUseLinkTextCombinedWithUri" storage="d:\actions-runner\_work\xpco\xpco\installerframework\videoos.installer.interfaces.unittests\bin\debug\videoos.installer.interfaces.unittests.dll" id="32ca44d8-6e77-af06-8b5d-3e7219db8b51">
+      <Execution id="17a10452-483a-4ad7-a5a8-5d78b9566e37" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\InstallerFramework\VideoOS.Installer.Interfaces.UnitTests\bin\Debug\VideoOS.Installer.Interfaces.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideOS.Installer.Interfaces.UnitTests.ContentLinkTextUnitTest" name="ContentLink_ShouldUseLinkTextCombinedWithUri" />
+    </UnitTest>
+    <UnitTest name="ContentLink_ShouldUseUriAsLinkText" storage="d:\actions-runner\_work\xpco\xpco\installerframework\videoos.installer.interfaces.unittests\bin\debug\videoos.installer.interfaces.unittests.dll" id="d8a1c22a-b340-963c-785c-87c3b8761619">
+      <Execution id="2af84dbc-13f9-4983-b419-8ad7f61c4a95" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\InstallerFramework\VideoOS.Installer.Interfaces.UnitTests\bin\Debug\VideoOS.Installer.Interfaces.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideOS.Installer.Interfaces.UnitTests.ContentLinkTextUnitTest" name="ContentLink_ShouldUseUriAsLinkText" />
+    </UnitTest>
+    <UnitTest name="ContentLink_ShouldSupportLinksSpecifiedWithStringUriPairs" storage="d:\actions-runner\_work\xpco\xpco\installerframework\videoos.installer.interfaces.unittests\bin\debug\videoos.installer.interfaces.unittests.dll" id="26c1010e-5025-942e-132f-6ae4f8156cb6">
+      <Execution id="78059b90-14f4-4b99-9fb7-e55e467da1fc" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\InstallerFramework\VideoOS.Installer.Interfaces.UnitTests\bin\Debug\VideoOS.Installer.Interfaces.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideOS.Installer.Interfaces.UnitTests.ContentLinkTextUnitTest" name="ContentLink_ShouldSupportLinksSpecifiedWithStringUriPairs" />
+    </UnitTest>
+    <UnitTest name="ContentLink_ShouldHaveRepetitions" storage="d:\actions-runner\_work\xpco\xpco\installerframework\videoos.installer.interfaces.unittests\bin\debug\videoos.installer.interfaces.unittests.dll" id="0d635747-7ca6-3222-7fe8-60d8cd91281c">
+      <Execution id="d5b79c40-8709-4efd-8b53-7deed47ea515" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\InstallerFramework\VideoOS.Installer.Interfaces.UnitTests\bin\Debug\VideoOS.Installer.Interfaces.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideOS.Installer.Interfaces.UnitTests.ContentLinkTextUnitTest" name="ContentLink_ShouldHaveRepetitions" />
+    </UnitTest>
+    <UnitTest name="ContentLink_ShouldSetTextField" storage="d:\actions-runner\_work\xpco\xpco\installerframework\videoos.installer.interfaces.unittests\bin\debug\videoos.installer.interfaces.unittests.dll" id="30f128e2-f356-a0bb-91f4-6bd9af39dea1">
+      <Execution id="482e0242-6250-48d0-86c9-6c52de67399d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\InstallerFramework\VideoOS.Installer.Interfaces.UnitTests\bin\Debug\VideoOS.Installer.Interfaces.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideOS.Installer.Interfaces.UnitTests.ContentLinkTextUnitTest" name="ContentLink_ShouldSetTextField" />
+    </UnitTest>
+    <UnitTest name="ContentLink_ShouldFailWhenLinkTextsAndUrisLengtAreNotEqual" storage="d:\actions-runner\_work\xpco\xpco\installerframework\videoos.installer.interfaces.unittests\bin\debug\videoos.installer.interfaces.unittests.dll" id="ac2e9a45-9b03-add8-0d28-646af0b55acb">
+      <Execution id="7409f1c1-a508-4b3c-9b44-e379569b47bf" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\InstallerFramework\VideoOS.Installer.Interfaces.UnitTests\bin\Debug\VideoOS.Installer.Interfaces.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideOS.Installer.Interfaces.UnitTests.ContentLinkTextUnitTest" name="ContentLink_ShouldFailWhenLinkTextsAndUrisLengtAreNotEqual" />
+    </UnitTest>
+    <UnitTest name="ContentLink_ShouldFailWhenFormatSpecifiesArgumentOutOfBounds" storage="d:\actions-runner\_work\xpco\xpco\installerframework\videoos.installer.interfaces.unittests\bin\debug\videoos.installer.interfaces.unittests.dll" id="485c3303-7caf-dc8d-a28c-e3baa5bbd205">
+      <Execution id="6b4b73cf-0db9-4e02-81f4-121f6a0f48a4" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\InstallerFramework\VideoOS.Installer.Interfaces.UnitTests\bin\Debug\VideoOS.Installer.Interfaces.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideOS.Installer.Interfaces.UnitTests.ContentLinkTextUnitTest" name="ContentLink_ShouldFailWhenFormatSpecifiesArgumentOutOfBounds" />
+    </UnitTest>
+    <UnitTest name="ContentLink_ShouldSupportActionsInsteadOfUris" storage="d:\actions-runner\_work\xpco\xpco\installerframework\videoos.installer.interfaces.unittests\bin\debug\videoos.installer.interfaces.unittests.dll" id="5f29cee2-eb50-7d06-3e68-25f75db0823a">
+      <Execution id="f6fb0c9a-a658-4b65-a198-ff268d0ef62e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\InstallerFramework\VideoOS.Installer.Interfaces.UnitTests\bin\Debug\VideoOS.Installer.Interfaces.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideOS.Installer.Interfaces.UnitTests.ContentLinkTextUnitTest" name="ContentLink_ShouldSupportActionsInsteadOfUris" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="ac2e9a45-9b03-add8-0d28-646af0b55acb" executionId="7409f1c1-a508-4b3c-9b44-e379569b47bf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0d635747-7ca6-3222-7fe8-60d8cd91281c" executionId="d5b79c40-8709-4efd-8b53-7deed47ea515" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="485c3303-7caf-dc8d-a28c-e3baa5bbd205" executionId="6b4b73cf-0db9-4e02-81f4-121f6a0f48a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9a932af3-f0ec-a1c6-463a-9f4cb569645a" executionId="1fb0b037-7d5b-4f58-9fcb-a4b3f3f07d3e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="26c1010e-5025-942e-132f-6ae4f8156cb6" executionId="78059b90-14f4-4b99-9fb7-e55e467da1fc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5f29cee2-eb50-7d06-3e68-25f75db0823a" executionId="f6fb0c9a-a658-4b65-a198-ff268d0ef62e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="30f128e2-f356-a0bb-91f4-6bd9af39dea1" executionId="482e0242-6250-48d0-86c9-6c52de67399d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32ca44d8-6e77-af06-8b5d-3e7219db8b51" executionId="17a10452-483a-4ad7-a5a8-5d78b9566e37" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d8a1c22a-b340-963c-785c-87c3b8761619" executionId="2af84dbc-13f9-4983-b419-8ad7f61c4a95" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="9" executed="9" passed="9" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

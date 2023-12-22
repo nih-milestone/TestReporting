@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="5969e0fa-3faa-458d-b211-70e769074109" name="DKSR-EFI-04$@DKSR-EFI-04 2023-12-22 09:34:17" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-12-22T09:34:17.4439708+01:00" queuing="2023-12-22T09:34:17.4439708+01:00" start="2023-12-22T09:34:15.6783378+01:00" finish="2023-12-22T09:34:18.1627261+01:00" />
+  <TestSettings name="default" id="4948d5ea-dbc9-4c88-b595-167a9c2d4f3f">
+    <Deployment runDeploymentRoot="DKSR-EFI-04$_DKSR-EFI-04_2023-12-22_09_34_17" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="4fcb770a-ce18-4a3a-98e3-e44ed2057d61" testId="1e623a32-213e-3e6f-618a-f64ebd046eec" testName="GetStatistics_OnAdmin_ReturnsAllStatistics" computerName="DKSR-EFI-04" duration="00:00:00.0040767" startTime="2023-12-22T09:34:17.8189737+01:00" endTime="2023-12-22T09:34:17.8189737+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4fcb770a-ce18-4a3a-98e3-e44ed2057d61" />
+    <UnitTestResult executionId="ea019392-7581-4256-8330-e394a9615285" testId="4624c7cf-0808-ccc2-1354-42d39484f92b" testName="SecurityHandler_NotCalled_WhenAdminUser" computerName="DKSR-EFI-04" duration="00:00:00.0174388" startTime="2023-12-22T09:34:17.8189737+01:00" endTime="2023-12-22T09:34:17.8345981+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea019392-7581-4256-8330-e394a9615285" />
+    <UnitTestResult executionId="0be0515a-60c4-429e-80d2-7f5092ffb8de" testId="434baac6-a68f-7ede-d002-21dd7770fcf1" testName="AttachSnapshot_CallsSnapshotsHandler" computerName="DKSR-EFI-04" duration="00:00:00.0314242" startTime="2023-12-22T09:34:17.8658479+01:00" endTime="2023-12-22T09:34:17.8970986+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0be0515a-60c4-429e-80d2-7f5092ffb8de" />
+    <UnitTestResult executionId="54a1ce55-5ed7-486c-a3d0-0aa4604e731f" testId="f92ac7e0-af28-d48a-71df-ea24b0a6d6f3" testName="SecurityHandler_Called_WithNonAdminUser_AttachSnapshot" computerName="DKSR-EFI-04" duration="00:00:00.0015457" startTime="2023-12-22T09:34:17.8502236+01:00" endTime="2023-12-22T09:34:17.8502236+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="54a1ce55-5ed7-486c-a3d0-0aa4604e731f" />
+    <UnitTestResult executionId="08bdc870-c402-44a7-8368-1ce17c69eb24" testId="1a8e4594-967b-56b8-b4d6-00fffa0a8ae6" testName="GetStatistics_OnNonAdmin_ReturnsAllowedStatistics" computerName="DKSR-EFI-04" duration="00:00:00.3729429" startTime="2023-12-22T09:34:17.4439708+01:00" endTime="2023-12-22T09:34:17.8189737+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="08bdc870-c402-44a7-8368-1ce17c69eb24" />
+    <UnitTestResult executionId="1597d6f3-da35-4478-bf37-0b90f8f7d8e1" testId="ceaa262f-e3cc-5e1c-f224-6472df703d49" testName="SecurityHandler_Called_WithNonAdminUser_GetSnapshot" computerName="DKSR-EFI-04" duration="00:00:00.0023793" startTime="2023-12-22T09:34:17.8345981+01:00" endTime="2023-12-22T09:34:17.8502236+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1597d6f3-da35-4478-bf37-0b90f8f7d8e1" />
+    <UnitTestResult executionId="165db559-e034-410e-bac1-29ee92281ec9" testId="5443d4fa-38ee-a8c9-324e-9eef1892df66" testName="GetSnapshots_CallsSnapshotsHandler_AndReturnSameResult" computerName="DKSR-EFI-04" duration="00:00:00.0132056" startTime="2023-12-22T09:34:17.8502236+01:00" endTime="2023-12-22T09:34:17.8658479+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="165db559-e034-410e-bac1-29ee92281ec9" />
+    <UnitTestResult executionId="d210f3a9-395b-4851-aaa0-e034b6ec7747" testId="3d666180-93d4-c8a0-90cf-1acaf74f5aea" testName="Constructor_Succeeds_WithoutArguments" computerName="DKSR-EFI-04" duration="00:00:00.2859297" startTime="2023-12-22T09:34:16.9908440+01:00" endTime="2023-12-22T09:34:17.4127216+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d210f3a9-395b-4851-aaa0-e034b6ec7747" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="SecurityHandler_NotCalled_WhenAdminUser" storage="d:\actions-runner\_work\xpco\xpco\eventserver\server\components\central\videoos.eventserver.alarms.infrastructure.unittest2\bin\debug\net472\videoos.eventserver.alarms.infrastructure.unittest.dll" id="4624c7cf-0808-ccc2-1354-42d39484f92b">
+      <Execution id="ea019392-7581-4256-8330-e394a9615285" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Server\Components\Central\VideoOS.EventServer.Alarms.Infrastructure.UnitTest2\bin\Debug\net472\VideoOS.EventServer.Alarms.Infrastructure.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.EventServer.Alarms.Infrastructure.UnitTest.Repository.AlarmSnapshotsRepositoryTest" name="SecurityHandler_NotCalled_WhenAdminUser" />
+    </UnitTest>
+    <UnitTest name="SecurityHandler_Called_WithNonAdminUser_GetSnapshot" storage="d:\actions-runner\_work\xpco\xpco\eventserver\server\components\central\videoos.eventserver.alarms.infrastructure.unittest2\bin\debug\net472\videoos.eventserver.alarms.infrastructure.unittest.dll" id="ceaa262f-e3cc-5e1c-f224-6472df703d49">
+      <Execution id="1597d6f3-da35-4478-bf37-0b90f8f7d8e1" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Server\Components\Central\VideoOS.EventServer.Alarms.Infrastructure.UnitTest2\bin\Debug\net472\VideoOS.EventServer.Alarms.Infrastructure.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.EventServer.Alarms.Infrastructure.UnitTest.Repository.AlarmSnapshotsRepositoryTest" name="SecurityHandler_Called_WithNonAdminUser_GetSnapshot" />
+    </UnitTest>
+    <UnitTest name="GetStatistics_OnAdmin_ReturnsAllStatistics" storage="d:\actions-runner\_work\xpco\xpco\eventserver\server\components\central\videoos.eventserver.alarms.infrastructure.unittest2\bin\debug\net472\videoos.eventserver.alarms.infrastructure.unittest.dll" id="1e623a32-213e-3e6f-618a-f64ebd046eec">
+      <Execution id="4fcb770a-ce18-4a3a-98e3-e44ed2057d61" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Server\Components\Central\VideoOS.EventServer.Alarms.Infrastructure.UnitTest2\bin\Debug\net472\VideoOS.EventServer.Alarms.Infrastructure.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.EventServer.Alarms.Infrastructure.UnitTest.AlarmStatisticsRepositoryTest" name="GetStatistics_OnAdmin_ReturnsAllStatistics" />
+    </UnitTest>
+    <UnitTest name="GetStatistics_OnNonAdmin_ReturnsAllowedStatistics" storage="d:\actions-runner\_work\xpco\xpco\eventserver\server\components\central\videoos.eventserver.alarms.infrastructure.unittest2\bin\debug\net472\videoos.eventserver.alarms.infrastructure.unittest.dll" id="1a8e4594-967b-56b8-b4d6-00fffa0a8ae6">
+      <Execution id="08bdc870-c402-44a7-8368-1ce17c69eb24" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Server\Components\Central\VideoOS.EventServer.Alarms.Infrastructure.UnitTest2\bin\Debug\net472\VideoOS.EventServer.Alarms.Infrastructure.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.EventServer.Alarms.Infrastructure.UnitTest.AlarmStatisticsRepositoryTest" name="GetStatistics_OnNonAdmin_ReturnsAllowedStatistics" />
+    </UnitTest>
+    <UnitTest name="Constructor_Succeeds_WithoutArguments" storage="d:\actions-runner\_work\xpco\xpco\eventserver\server\components\central\videoos.eventserver.alarms.infrastructure.unittest2\bin\debug\net472\videoos.eventserver.alarms.infrastructure.unittest.dll" id="3d666180-93d4-c8a0-90cf-1acaf74f5aea">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AlarmCache" />
+      </TestCategory>
+      <Execution id="d210f3a9-395b-4851-aaa0-e034b6ec7747" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Server\Components\Central\VideoOS.EventServer.Alarms.Infrastructure.UnitTest2\bin\Debug\net472\VideoOS.EventServer.Alarms.Infrastructure.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.EventServer.Alarms.Infrastructure.UnitTest.AlarmCacheTest" name="Constructor_Succeeds_WithoutArguments" />
+    </UnitTest>
+    <UnitTest name="GetSnapshots_CallsSnapshotsHandler_AndReturnSameResult" storage="d:\actions-runner\_work\xpco\xpco\eventserver\server\components\central\videoos.eventserver.alarms.infrastructure.unittest2\bin\debug\net472\videoos.eventserver.alarms.infrastructure.unittest.dll" id="5443d4fa-38ee-a8c9-324e-9eef1892df66">
+      <Execution id="165db559-e034-410e-bac1-29ee92281ec9" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Server\Components\Central\VideoOS.EventServer.Alarms.Infrastructure.UnitTest2\bin\Debug\net472\VideoOS.EventServer.Alarms.Infrastructure.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.EventServer.Alarms.Infrastructure.UnitTest.Repository.AlarmSnapshotsRepositoryTest" name="GetSnapshots_CallsSnapshotsHandler_AndReturnSameResult" />
+    </UnitTest>
+    <UnitTest name="SecurityHandler_Called_WithNonAdminUser_AttachSnapshot" storage="d:\actions-runner\_work\xpco\xpco\eventserver\server\components\central\videoos.eventserver.alarms.infrastructure.unittest2\bin\debug\net472\videoos.eventserver.alarms.infrastructure.unittest.dll" id="f92ac7e0-af28-d48a-71df-ea24b0a6d6f3">
+      <Execution id="54a1ce55-5ed7-486c-a3d0-0aa4604e731f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Server\Components\Central\VideoOS.EventServer.Alarms.Infrastructure.UnitTest2\bin\Debug\net472\VideoOS.EventServer.Alarms.Infrastructure.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.EventServer.Alarms.Infrastructure.UnitTest.Repository.AlarmSnapshotsRepositoryTest" name="SecurityHandler_Called_WithNonAdminUser_AttachSnapshot" />
+    </UnitTest>
+    <UnitTest name="AttachSnapshot_CallsSnapshotsHandler" storage="d:\actions-runner\_work\xpco\xpco\eventserver\server\components\central\videoos.eventserver.alarms.infrastructure.unittest2\bin\debug\net472\videoos.eventserver.alarms.infrastructure.unittest.dll" id="434baac6-a68f-7ede-d002-21dd7770fcf1">
+      <Execution id="0be0515a-60c4-429e-80d2-7f5092ffb8de" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Server\Components\Central\VideoOS.EventServer.Alarms.Infrastructure.UnitTest2\bin\Debug\net472\VideoOS.EventServer.Alarms.Infrastructure.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.EventServer.Alarms.Infrastructure.UnitTest.Repository.AlarmSnapshotsRepositoryTest" name="AttachSnapshot_CallsSnapshotsHandler" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="1e623a32-213e-3e6f-618a-f64ebd046eec" executionId="4fcb770a-ce18-4a3a-98e3-e44ed2057d61" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4624c7cf-0808-ccc2-1354-42d39484f92b" executionId="ea019392-7581-4256-8330-e394a9615285" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="434baac6-a68f-7ede-d002-21dd7770fcf1" executionId="0be0515a-60c4-429e-80d2-7f5092ffb8de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f92ac7e0-af28-d48a-71df-ea24b0a6d6f3" executionId="54a1ce55-5ed7-486c-a3d0-0aa4604e731f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1a8e4594-967b-56b8-b4d6-00fffa0a8ae6" executionId="08bdc870-c402-44a7-8368-1ce17c69eb24" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ceaa262f-e3cc-5e1c-f224-6472df703d49" executionId="1597d6f3-da35-4478-bf37-0b90f8f7d8e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5443d4fa-38ee-a8c9-324e-9eef1892df66" executionId="165db559-e034-410e-bac1-29ee92281ec9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d666180-93d4-c8a0-90cf-1acaf74f5aea" executionId="d210f3a9-395b-4851-aaa0-e034b6ec7747" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="8" executed="8" passed="8" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

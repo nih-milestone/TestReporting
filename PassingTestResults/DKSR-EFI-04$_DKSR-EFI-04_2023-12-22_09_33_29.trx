@@ -1,0 +1,1007 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="bc4b315e-4976-4dd5-8e83-9350a660d55f" name="DKSR-EFI-04$@DKSR-EFI-04 2023-12-22 09:33:29" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-12-22T09:33:29.4749847+01:00" queuing="2023-12-22T09:33:29.4749847+01:00" start="2023-12-22T09:33:20.6468142+01:00" finish="2023-12-22T09:33:31.1624916+01:00" />
+  <TestSettings name="default" id="36aa96af-0e27-4cc6-99f1-4290a10d33a9">
+    <Deployment runDeploymentRoot="DKSR-EFI-04$_DKSR-EFI-04_2023-12-22_09_33_29" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="082f66cd-0234-4541-a544-4b31a6694e06" testId="2d291e7f-6d39-5468-9430-651dabc8e209" testName="SetAllowInsecureConnectionsFromCommandLine_IsAllowed_True" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5531099+01:00" endTime="2023-12-22T09:33:29.5531099+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="082f66cd-0234-4541-a544-4b31a6694e06">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c9bd0b44-8b86-4e59-9103-b7b6f4acc8e1" testId="39b358fc-2228-c548-76d5-86633029cc80" testName="HandleException_FaultExceptionWithUnknownExceptionCode_ThrowsServerCommunicationException" computerName="DKSR-EFI-04" duration="00:00:00.0006490" startTime="2023-12-22T09:33:29.4281085+01:00" endTime="2023-12-22T09:33:29.4281085+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c9bd0b44-8b86-4e59-9103-b7b6f4acc8e1" />
+    <UnitTestResult executionId="1c4d42a3-6293-4115-a17c-0c7a2bfd4f42" testId="0b10d70b-dfd6-dd9e-3fd5-42957d08880a" testName="SetAllowInsecureConnectionsFromCommandLine_IsAllowed_False" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5687338+01:00" endTime="2023-12-22T09:33:29.5687338+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c4d42a3-6293-4115-a17c-0c7a2bfd4f42">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="76e218f2-256e-4498-93e0-c8c4d74bbfce" testId="190c290d-48e9-e0e1-2256-110a8bfdf33f" testName="GetCommandLineCredentials_PasswordNotEncrypted_RetrievesValidCredentials" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5687338+01:00" endTime="2023-12-22T09:33:29.5687338+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="76e218f2-256e-4498-93e0-c8c4d74bbfce">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="07b9c531-d960-4122-a79c-f5cd01efbdcd" testId="a143ec15-7319-d17b-4b77-25de9beb0149" testName="HandleLogOnError_Vmo_VmoUnauthorizedAccessException_Success" computerName="DKSR-EFI-04" duration="00:00:00.0003876" startTime="2023-12-22T09:33:30.5062390+01:00" endTime="2023-12-22T09:33:30.5218665+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07b9c531-d960-4122-a79c-f5cd01efbdcd" />
+    <UnitTestResult executionId="8f00552f-3545-4ab3-a994-4edbe01e19b9" testId="d2bf8e51-256c-0432-8f94-2ca9bccadb41" testName="GetUserName_ValueFound_Success" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5999839+01:00" endTime="2023-12-22T09:33:29.5999839+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8f00552f-3545-4ab3-a994-4edbe01e19b9">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="73678af7-8842-42a2-a2b2-395531f7aed7" testId="7962aff8-6b97-db80-e5ed-f476f5610258" testName="HandleException_ExceptionIsLoggedInILogInstance_WithoutDebug_Success" computerName="DKSR-EFI-04" duration="00:00:00.0013774" startTime="2023-12-22T09:33:29.5218575+01:00" endTime="2023-12-22T09:33:29.5218575+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73678af7-8842-42a2-a2b2-395531f7aed7" />
+    <UnitTestResult executionId="59a7e687-d919-46be-9737-c95ecf300f08" testId="2388295d-e43f-7e64-cc72-3f5dd61b2d49" testName="Construct_DefaultInstance_CorrectlyUsesEnvironmentCommandLineArgs" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5374837+01:00" endTime="2023-12-22T09:33:29.5374837+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="59a7e687-d919-46be-9737-c95ecf300f08">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b0b2c2fc-9d0d-46ea-a4fd-9260ffd2bd0d" testId="88713123-cbd6-df24-a848-8e737bd1229f" testName="HandleLogOnError_IdpCommon_LockedOutException_Success" computerName="DKSR-EFI-04" duration="00:00:00.0006822" startTime="2023-12-22T09:33:30.5374880+01:00" endTime="2023-12-22T09:33:30.5531147+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b0b2c2fc-9d0d-46ea-a4fd-9260ffd2bd0d" />
+    <UnitTestResult executionId="e3da727f-11c9-422a-b4c6-203a0f4c7408" testId="b993dbc5-8760-48b3-49b7-753ab6160087" testName="HandleException_Other_DefaultErrorException_ReturnsTrue" computerName="DKSR-EFI-04" duration="00:00:00.0002826" startTime="2023-12-22T09:33:29.5218575+01:00" endTime="2023-12-22T09:33:29.5218575+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3da727f-11c9-422a-b4c6-203a0f4c7408" />
+    <UnitTestResult executionId="5cd61857-8661-4d5b-9d68-5297ffa9272a" testId="1c81f3bb-d450-771a-9b9e-e0cce87abbfa" testName="HandleLogOnError_IdpCommon_IdpNonceMismatchException_Success" computerName="DKSR-EFI-04" duration="00:00:00.0003121" startTime="2023-12-22T09:33:30.5531147+01:00" endTime="2023-12-22T09:33:30.5531147+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5cd61857-8661-4d5b-9d68-5297ffa9272a" />
+    <UnitTestResult executionId="c4ceabad-c4fa-4810-b6e2-4063a2a93a0f" testId="82819833-5413-cc64-a2bf-aed3bde5d39e" testName="HandleException_FaultExceptionWithExceptionCode52000_ThrowsServerCommunicationException" computerName="DKSR-EFI-04" duration="00:00:00.0007250" startTime="2023-12-22T09:33:29.4281085+01:00" endTime="2023-12-22T09:33:29.4281085+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c4ceabad-c4fa-4810-b6e2-4063a2a93a0f" />
+    <UnitTestResult executionId="e0c072e6-b23f-447a-af40-fc8d5fd7e40f" testId="76c3301e-797c-9d8a-18b3-20fcfb4524ff" testName="HandleException_NullException_ReturnsFalse" computerName="DKSR-EFI-04" duration="00:00:00.0003303" startTime="2023-12-22T09:33:29.3812330+01:00" endTime="2023-12-22T09:33:29.3812330+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e0c072e6-b23f-447a-af40-fc8d5fd7e40f" />
+    <UnitTestResult executionId="1a37815c-3819-4d10-8092-5dd16e0d2f88" testId="e206d375-05fa-9f0b-d364-21b2faf0c6ee" testName="HandleException_AdminIdentityNotFound_ThrowsUnauthorizedAccessException" computerName="DKSR-EFI-04" duration="00:00:00.0007204" startTime="2023-12-22T09:33:29.5218575+01:00" endTime="2023-12-22T09:33:29.5218575+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a37815c-3819-4d10-8092-5dd16e0d2f88" />
+    <UnitTestResult executionId="036d4c7b-6d5f-49bb-8940-1784cc502541" testId="a425ed9f-401f-4a6d-78ad-a8d9eb349c0a" testName="HandleException_FaultExceptionWithExceptionCode51100_ThrowsDualAuthorizationRequiredException" computerName="DKSR-EFI-04" duration="00:00:00.0006436" startTime="2023-12-22T09:33:29.4124834+01:00" endTime="2023-12-22T09:33:29.4124834+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="036d4c7b-6d5f-49bb-8940-1784cc502541" />
+    <UnitTestResult executionId="dd02c607-278c-4107-a41f-0b7e7632449e" testId="dac4f57f-f33b-3685-8c65-13147b95e885" testName="Encrypt_NullValue_Throws_ArgumentNullException" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5531099+01:00" endTime="2023-12-22T09:33:29.5531099+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd02c607-278c-4107-a41f-0b7e7632449e">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="beee740a-5ed0-466f-8687-a68755a82653" testId="dbabbd11-4285-4565-e954-79763ba738cd" testName="HandleException_InvalidUserName_ReturnsTrue" computerName="DKSR-EFI-04" duration="00:00:00.0001890" startTime="2023-12-22T09:33:29.4749847+01:00" endTime="2023-12-22T09:33:29.4749847+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="beee740a-5ed0-466f-8687-a68755a82653" />
+    <UnitTestResult executionId="c145081a-caf2-4e74-9607-d76ce56df6ae" testId="0d97a676-0ba2-4387-9803-a35cec0698eb" testName="HandleLogOnError_IdpCommon_DefaultErrorException_Success" computerName="DKSR-EFI-04" duration="00:00:00.0002457" startTime="2023-12-22T09:33:30.5531147+01:00" endTime="2023-12-22T09:33:30.5531147+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c145081a-caf2-4e74-9607-d76ce56df6ae" />
+    <UnitTestResult executionId="0200d5cf-3d60-48ba-a19e-585b95ae83e7" testId="5dd6d77b-dfae-4999-00a3-79b5c74b75e2" testName="HandleException_LoginAlreadyAssociated_ReturnsTrue" computerName="DKSR-EFI-04" duration="00:00:00.0002760" startTime="2023-12-22T09:33:29.5062351+01:00" endTime="2023-12-22T09:33:29.5062351+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0200d5cf-3d60-48ba-a19e-585b95ae83e7" />
+    <UnitTestResult executionId="4dc73ab0-ab9d-440d-9004-75df847999d4" testId="1021f476-dcb5-0d8e-f8c4-12a4e841d6a4" testName="LocalUserOptions_LoadWhenSettingsSaved_InsecureNotAllowed_ReturnsValidInstance" computerName="DKSR-EFI-04" duration="00:00:00.0337778" startTime="2023-12-22T09:33:30.1781150+01:00" endTime="2023-12-22T09:33:30.2093628+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4dc73ab0-ab9d-440d-9004-75df847999d4" />
+    <UnitTestResult executionId="4afad787-ede9-4a49-b530-338731f1abd4" testId="3109b7d5-db2f-7b20-2d9f-0d4893833120" testName="EncryptAndDecrypt_Success" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5531099+01:00" endTime="2023-12-22T09:33:29.5531099+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4afad787-ede9-4a49-b530-338731f1abd4">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d28bbf7a-dd42-44c9-bd2b-07cdf23ddaa7" testId="c25bc540-8392-4508-efb1-7676417cb939" testName="HandleException_UserNotFoundException_ThrowsUnauthorizedAccessException" computerName="DKSR-EFI-04" duration="00:00:00.0069782" startTime="2023-12-22T09:33:29.4593577+01:00" endTime="2023-12-22T09:33:29.4749847+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d28bbf7a-dd42-44c9-bd2b-07cdf23ddaa7" />
+    <UnitTestResult executionId="3aaeff02-e2b5-4a7c-b7d9-d7700d4b772c" testId="1a225a35-6fc4-6a00-ddc9-19833b06fd5c" testName="GetLoginProviderId_ValueFound_Success" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5999839+01:00" endTime="2023-12-22T09:33:29.5999839+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3aaeff02-e2b5-4a7c-b7d9-d7700d4b772c">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d57bdaf0-7696-4176-b2fa-ad31caddcd65" testId="673425df-99c1-86b3-794f-9d639113f4c4" testName="GetPassword_ValueNotFound_ReturnsNull" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.6156141+01:00" endTime="2023-12-22T09:33:29.6156141+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d57bdaf0-7696-4176-b2fa-ad31caddcd65">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="299f83d3-629a-4b2a-bd79-4ad8d0bfc52d" testId="42481a92-aba3-7994-9799-039f3c630b8b" testName="HandleLogOnError_Integration_UnauthorizedException_Success" computerName="DKSR-EFI-04" duration="00:00:00.0004145" startTime="2023-12-22T09:33:30.5062390+01:00" endTime="2023-12-22T09:33:30.5062390+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="299f83d3-629a-4b2a-bd79-4ad8d0bfc52d" />
+    <UnitTestResult executionId="8385db7e-7456-45b0-9bb1-be6c1d497905" testId="107d5a73-e96a-cd67-4748-c9b51cfedd07" testName="HandleLogOnError_Vmo_UserNamePasswordException_Success" computerName="DKSR-EFI-04" duration="00:00:00.0004799" startTime="2023-12-22T09:33:30.5062390+01:00" endTime="2023-12-22T09:33:30.5062390+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8385db7e-7456-45b0-9bb1-be6c1d497905" />
+    <UnitTestResult executionId="53c90698-8067-4697-8b4c-ab509c0d3b74" testId="cfbeec7e-dfc3-bf0b-a124-11740b7de6ba" testName="Construct_InvalidInstance_NullServiceContainer_Throws_ArgumentNullException" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5374837+01:00" endTime="2023-12-22T09:33:29.5374837+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53c90698-8067-4697-8b4c-ab509c0d3b74">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="77a549a0-b513-4586-990b-2575703da19f" testId="4390d7a6-bf0a-48ea-ceae-11a9b6a4458a" testName="LocalUserOptions_LoadWhenSettingsSaved_InsecureNotSet_ReturnsValidInstance" computerName="DKSR-EFI-04" duration="00:00:00.2990421" startTime="2023-12-22T09:33:29.8812379+01:00" endTime="2023-12-22T09:33:30.1781150+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="77a549a0-b513-4586-990b-2575703da19f" />
+    <UnitTestResult executionId="49a3f683-135e-4e61-aac1-1096d3050cde" testId="f79504dc-5a02-577f-493b-d72f73f0b8ee" testName="HandleLogOnError_Vmo_ConnectionException_ServerException_Success" computerName="DKSR-EFI-04" duration="00:00:00.0003820" startTime="2023-12-22T09:33:30.5218665+01:00" endTime="2023-12-22T09:33:30.5218665+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49a3f683-135e-4e61-aac1-1096d3050cde" />
+    <UnitTestResult executionId="4d5f9373-1b0c-4a15-8e96-c0e6aa594d79" testId="6389dc83-4565-4d7f-e6a8-3a1d2b5544a1" testName="HandleLogOnError_IdpCommon_UnauthorizedException_Success" computerName="DKSR-EFI-04" duration="00:00:00.0026103" startTime="2023-12-22T09:33:30.5374880+01:00" endTime="2023-12-22T09:33:30.5374880+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d5f9373-1b0c-4a15-8e96-c0e6aa594d79" />
+    <UnitTestResult executionId="b48b3990-ca52-4388-8c5e-651991e7d706" testId="ed0be081-c52a-ae5e-41a6-fa01b047333f" testName="GetDomain_ValueFound_Success" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.6156141+01:00" endTime="2023-12-22T09:33:29.6156141+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b48b3990-ca52-4388-8c5e-651991e7d706">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="64bbf9df-d5d1-45b4-a78b-44c662ea0d54" testId="4173ba70-1dcd-6e84-485b-1d78a0483847" testName="GetConnectionInfoFromCommandLine_SilentLoginNotAllowed_InvalidCertificateWarning" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5843601+01:00" endTime="2023-12-22T09:33:29.5843601+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="64bbf9df-d5d1-45b4-a78b-44c662ea0d54">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="00408d1e-8f34-4493-9812-6bc3c7849d90" testId="cb3e9fd5-a3dd-7f7c-8347-3c8bef5da397" testName="HandleException_NotAllowed_ThrowsUnauthorizedAccessException" computerName="DKSR-EFI-04" duration="00:00:00.0006663" startTime="2023-12-22T09:33:29.5062351+01:00" endTime="2023-12-22T09:33:29.5062351+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="00408d1e-8f34-4493-9812-6bc3c7849d90" />
+    <UnitTestResult executionId="c57ba236-8e73-4019-b748-c6a5a3a18ad2" testId="baa71c4f-9ce7-f996-50a3-2e789fde5952" testName="BuildArgumentList_CurrentWindowsUser_NullCredentials" computerName="DKSR-EFI-04" duration="00:00:00.0001934" startTime="2023-12-22T09:33:30.3343629+01:00" endTime="2023-12-22T09:33:30.3343629+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c57ba236-8e73-4019-b748-c6a5a3a18ad2" />
+    <UnitTestResult executionId="64750814-e9c2-4baf-877c-c306b8664878" testId="3cdc3baf-7583-6e9e-143a-0a0feff17b4b" testName="HandleLogOnError_EndpointNotFoundException_Success" computerName="DKSR-EFI-04" duration="00:00:00.0053806" startTime="2023-12-22T09:33:30.4906148+01:00" endTime="2023-12-22T09:33:30.4906148+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="64750814-e9c2-4baf-877c-c306b8664878" />
+    <UnitTestResult executionId="392dfae1-4f6e-4ee9-839c-ae9ee645bb32" testId="c6de2aab-12d9-7241-38c3-26687355bc4c" testName="GetSilentLoginFromCommandLine_SilentLoginFound_ReturnsTrue" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5374837+01:00" endTime="2023-12-22T09:33:29.5374837+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="392dfae1-4f6e-4ee9-839c-ae9ee645bb32">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a93be19b-2b02-4cbe-a6ae-9c368075690d" testId="505d6fca-f707-836f-b193-3eb275a0485d" testName="GetConnectionInfoFromCommandLine_SilentLoginAllowed_BasicUserDomian_WithoutUsername_RevertsToCurrentWindowsUser" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5843601+01:00" endTime="2023-12-22T09:33:29.5843601+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a93be19b-2b02-4cbe-a6ae-9c368075690d">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3c3d94cf-544f-46d4-978c-e2e9334bc111" testId="14c6f940-6aa2-0a30-ba07-bebc11a63046" testName="GetConnectionInfoFromCommandLine_NullUriHandler_Throws_ArgumentNullException" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5687338+01:00" endTime="2023-12-22T09:33:29.5687338+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c3d94cf-544f-46d4-978c-e2e9334bc111">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="97e63070-8ee1-4eb3-a4c2-201c70a6ea23" testId="ac9cb484-517b-e08f-a117-4fb14c474371" testName="LocalUserOptions_LoadWhenSettingsSaved_InsecureAllowed_ReturnsValidInstance" computerName="DKSR-EFI-04" duration="00:00:00.0107566" startTime="2023-12-22T09:33:30.2093628+01:00" endTime="2023-12-22T09:33:30.2249885+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="97e63070-8ee1-4eb3-a4c2-201c70a6ea23" />
+    <UnitTestResult executionId="35f7e622-ab56-430b-a86b-858365cfd2b8" testId="03b7b66a-3826-f5c7-44ce-15c426a24bef" testName="GetConnectionInfoFromCommandLine_InvalidServerInformation_Throws_InvalidOperationException" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5687338+01:00" endTime="2023-12-22T09:33:29.5687338+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="35f7e622-ab56-430b-a86b-858365cfd2b8">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b7fbe0c5-ce09-4ecc-bf40-b80fe663de32" testId="c4c42ef0-0640-c57a-65b9-a5a5a55f0976" testName="GetAuthenticationType_ValueFound_Success" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5999839+01:00" endTime="2023-12-22T09:33:29.5999839+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b7fbe0c5-ce09-4ecc-bf40-b80fe663de32">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c9b3ada1-3b61-4927-b307-6c4f18edab80" testId="85bf4641-76a6-ef7e-e04d-747c4587a8a6" testName="HandleException_ArgumentsNotResolved_ReturnsTrue" computerName="DKSR-EFI-04" duration="00:00:00.0002443" startTime="2023-12-22T09:33:29.5062351+01:00" endTime="2023-12-22T09:33:29.5062351+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c9b3ada1-3b61-4927-b307-6c4f18edab80" />
+    <UnitTestResult executionId="89bff9b6-85ea-4d39-9a97-afa55bad6bb4" testId="2e7fc70a-3235-f988-e5d5-862e7f060524" testName="Decrypt_FormatException_ReturnsNull" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5531099+01:00" endTime="2023-12-22T09:33:29.5531099+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="89bff9b6-85ea-4d39-9a97-afa55bad6bb4">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7f156dc3-3419-4182-8194-7c0f1139f138" testId="f23cc637-a6ad-59ab-8002-516cf353bf46" testName="GetDomain_ValueNotFound_ReturnsNull" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.6156141+01:00" endTime="2023-12-22T09:33:29.6156141+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f156dc3-3419-4182-8194-7c0f1139f138">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5fcaf720-85f9-48b2-98aa-9b764bc403ee" testId="706db54b-cf5d-b039-1fb7-7091ea33f771" testName="HandleException_PasswordTooShort_ReturnsTrue" computerName="DKSR-EFI-04" duration="00:00:00.0001558" startTime="2023-12-22T09:33:29.5062351+01:00" endTime="2023-12-22T09:33:29.5062351+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5fcaf720-85f9-48b2-98aa-9b764bc403ee" />
+    <UnitTestResult executionId="edc03519-48dd-48da-aaa0-a811224e6da3" testId="fd1d39db-756c-e554-1a4b-b1cb4d2d441f" testName="GetServerAddressFromCommandLine_NotFound_ReturnsNull" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5374837+01:00" endTime="2023-12-22T09:33:29.5374837+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="edc03519-48dd-48da-aaa0-a811224e6da3">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="979960cb-3ad2-4fa8-8e3c-1781aa6eacdf" testId="c4bf81d6-7e1b-0d28-b492-9a36273e5776" testName="GetLoginProviderId_ValueNotFound_ReturnsNull" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5999839+01:00" endTime="2023-12-22T09:33:29.5999839+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="979960cb-3ad2-4fa8-8e3c-1781aa6eacdf">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ba37300b-405b-407b-aee9-9c35e448c37c" testId="c9465136-dcba-be8d-2785-93b6d7b50ca3" testName="HandleLogOnError_UnauthorizedAccessException_Success" computerName="DKSR-EFI-04" duration="00:00:00.0002130" startTime="2023-12-22T09:33:30.5062390+01:00" endTime="2023-12-22T09:33:30.5062390+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba37300b-405b-407b-aee9-9c35e448c37c" />
+    <UnitTestResult executionId="b68471c4-27a5-4602-a964-49cd665354f1" testId="95b4712c-d4c8-23aa-0f5a-05e6aab541b6" testName="HandleException_ServerCommunicationException_ReturnsTrue" computerName="DKSR-EFI-04" duration="00:00:00.0003975" startTime="2023-12-22T09:33:29.3812330+01:00" endTime="2023-12-22T09:33:29.3812330+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b68471c4-27a5-4602-a964-49cd665354f1" />
+    <UnitTestResult executionId="ba181da6-9089-42d5-89b9-6df91ee19290" testId="25ff399b-5c18-4067-61e6-5ec5b7675030" testName="HandleException_InvalidRoleName_ReturnsTrue" computerName="DKSR-EFI-04" duration="00:00:00.0004218" startTime="2023-12-22T09:33:29.4749847+01:00" endTime="2023-12-22T09:33:29.4749847+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba181da6-9089-42d5-89b9-6df91ee19290" />
+    <UnitTestResult executionId="290e120d-4630-4d4f-92f8-4db143b7446b" testId="41866230-32be-26e2-1ee7-efebcaee2b66" testName="HandleException_DuplicateEmail_ReturnsTrue" computerName="DKSR-EFI-04" duration="00:00:00.0002662" startTime="2023-12-22T09:33:29.4906094+01:00" endTime="2023-12-22T09:33:29.4906094+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="290e120d-4630-4d4f-92f8-4db143b7446b" />
+    <UnitTestResult executionId="e1bda28a-8cc5-40f5-8e8d-09afb3355048" testId="6c44a44e-fc07-a15b-e844-a038818935ce" testName="BuildArgumentList_ExternalValidProviderName_WithAllowHttp" computerName="DKSR-EFI-04" duration="00:00:00.0002085" startTime="2023-12-22T09:33:30.3343629+01:00" endTime="2023-12-22T09:33:30.3343629+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e1bda28a-8cc5-40f5-8e8d-09afb3355048" />
+    <UnitTestResult executionId="dd3dbb97-7646-414d-bbaf-a556dd2ec283" testId="7bf79235-3910-d0d5-b85f-586a417b5c1b" testName="GetConnectionInfoFromCommandLine_SilentLoginAllowed_BasicUser_UserHasAllowedThroughOptions" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5843601+01:00" endTime="2023-12-22T09:33:29.5843601+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd3dbb97-7646-414d-bbaf-a556dd2ec283">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="efde7153-cb95-4553-b0c2-b6e6592e8f32" testId="9b2e65c2-ac08-f2dd-ce1d-cb17194a4ead" testName="HandleLogOnError_Integration_ServerException_Success" computerName="DKSR-EFI-04" duration="00:00:00.0004456" startTime="2023-12-22T09:33:30.5218665+01:00" endTime="2023-12-22T09:33:30.5218665+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="efde7153-cb95-4553-b0c2-b6e6592e8f32" />
+    <UnitTestResult executionId="fe78268b-9215-4b6c-8a97-07ee22999e01" testId="edae705d-182a-e06d-66f2-1ac2abe110dc" testName="BuildArgumentList_ExternalNoProviderName_WithSilentLogin" computerName="DKSR-EFI-04" duration="00:00:00.0002460" startTime="2023-12-22T09:33:30.3343629+01:00" endTime="2023-12-22T09:33:30.3343629+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe78268b-9215-4b6c-8a97-07ee22999e01" />
+    <UnitTestResult executionId="aa084e7e-09f2-454f-a9e7-1079027b2ff7" testId="f3ca49a2-2439-027d-6483-4c0f194afe21" testName="HandleException_PasswordRequiresDigit_ReturnsTrue" computerName="DKSR-EFI-04" duration="00:00:00.0002994" startTime="2023-12-22T09:33:29.4906094+01:00" endTime="2023-12-22T09:33:29.4906094+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aa084e7e-09f2-454f-a9e7-1079027b2ff7" />
+    <UnitTestResult executionId="96cc9dcc-70ba-427b-829f-7e6e758ccaf1" testId="ac7240e9-9d5a-8be1-0652-b13267eebe56" testName="HandleLogOnError_IdpCommon_IdpNullTokenException_Success" computerName="DKSR-EFI-04" duration="00:00:00.0003459" startTime="2023-12-22T09:33:30.5531147+01:00" endTime="2023-12-22T09:33:30.5531147+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96cc9dcc-70ba-427b-829f-7e6e758ccaf1" />
+    <UnitTestResult executionId="3e1bd8ec-cae3-444c-9e45-8ece6ded8ee5" testId="c3be0a3b-6d89-acbb-40b6-f8621e9daf01" testName="HandleException_PasswordRequiresUpper_ReturnsTrue" computerName="DKSR-EFI-04" duration="00:00:00.0001403" startTime="2023-12-22T09:33:29.5062351+01:00" endTime="2023-12-22T09:33:29.5062351+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e1bd8ec-cae3-444c-9e45-8ece6ded8ee5" />
+    <UnitTestResult executionId="7a6e927d-42fb-4354-8a54-c95f844b4401" testId="f670a4e4-2d0c-766c-47ea-51b0ea00c270" testName="HandleException_UnauthorizedException_ThrowsUnauthorizedAccessException" computerName="DKSR-EFI-04" duration="00:00:00.0080119" startTime="2023-12-22T09:33:29.4437324+01:00" endTime="2023-12-22T09:33:29.4593577+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a6e927d-42fb-4354-8a54-c95f844b4401" />
+    <UnitTestResult executionId="d71ae040-3cd7-4635-9cf3-0ddcba5f30bf" testId="810133d3-ae19-6ed1-83ff-16e3db2e2baa" testName="HandleLogOnError_ServerCommunicationException_ServerException_Success" computerName="DKSR-EFI-04" duration="00:00:00.0002919" startTime="2023-12-22T09:33:30.5218665+01:00" endTime="2023-12-22T09:33:30.5218665+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d71ae040-3cd7-4635-9cf3-0ddcba5f30bf" />
+    <UnitTestResult executionId="e48dd216-f5c8-4c73-b7fa-572621530feb" testId="b15948d0-dfc5-0f74-6a46-b14b8b9d9bc9" testName="GetAuthenticationType_ValueNotFound_ReturnsUnknown" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5843601+01:00" endTime="2023-12-22T09:33:29.5843601+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e48dd216-f5c8-4c73-b7fa-572621530feb">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ff913ece-48f8-445d-9e94-92a2e622275f" testId="efe595bd-6445-41bd-5d78-9a3f66be50f6" testName="HandleException_NotFoundException_ThrowsNotFoundException" computerName="DKSR-EFI-04" duration="00:00:00.0006373" startTime="2023-12-22T09:33:29.4749847+01:00" endTime="2023-12-22T09:33:29.4749847+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff913ece-48f8-445d-9e94-92a2e622275f" />
+    <UnitTestResult executionId="5914915d-ea0b-4d86-86ce-459e9651ba37" testId="cdcc7b09-c244-bc06-a2cf-45b29872cc2b" testName="HandleLogOnError_IdpCommon_IdpStateMismatchException_Success" computerName="DKSR-EFI-04" duration="00:00:00.0002984" startTime="2023-12-22T09:33:30.5531147+01:00" endTime="2023-12-22T09:33:30.5531147+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5914915d-ea0b-4d86-86ce-459e9651ba37" />
+    <UnitTestResult executionId="5ac88b8f-90c3-4f85-acbc-53c5e4d63ee4" testId="9b3c353a-8131-bfeb-e930-c289dd604806" testName="HandleLogOnError_InvalidVersionException_Success" computerName="DKSR-EFI-04" duration="00:00:00.0002754" startTime="2023-12-22T09:33:30.5218665+01:00" endTime="2023-12-22T09:33:30.5218665+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ac88b8f-90c3-4f85-acbc-53c5e4d63ee4" />
+    <UnitTestResult executionId="889cf54c-f3c4-46c0-a912-00b39ed29f49" testId="2e9bb337-a380-ea06-e3c5-90c2ef702946" testName="HandleException_InnerFaultExceptionWithExceptionCode51000_ThrowsUnauthorizedAccessException" computerName="DKSR-EFI-04" duration="00:00:00.0233545" startTime="2023-12-22T09:33:29.3812330+01:00" endTime="2023-12-22T09:33:29.4124834+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="889cf54c-f3c4-46c0-a912-00b39ed29f49" />
+    <UnitTestResult executionId="757de5ee-0b01-4c02-bdef-7e5a68d4f67a" testId="fc832703-9b93-93a3-6435-4763e1bc066c" testName="HandleException_PasswordRequiresUniqueChars_ReturnsTrue" computerName="DKSR-EFI-04" duration="00:00:00.0001722" startTime="2023-12-22T09:33:29.4906094+01:00" endTime="2023-12-22T09:33:29.4906094+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="757de5ee-0b01-4c02-bdef-7e5a68d4f67a" />
+    <UnitTestResult executionId="8c9d0bf9-7061-4198-ae1f-885a79d0f7c8" testId="93517234-dcc2-c803-002e-b98a2df09c92" testName="HandleException_ForbiddenException_ThrowsUnauthorizedAccessException" computerName="DKSR-EFI-04" duration="00:00:00.0006333" startTime="2023-12-22T09:33:29.4593577+01:00" endTime="2023-12-22T09:33:29.4593577+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c9d0bf9-7061-4198-ae1f-885a79d0f7c8" />
+    <UnitTestResult executionId="a0062e2b-9433-41a2-b11d-efaaece5082a" testId="3d884529-c3be-d4d4-cd4c-6261ec2ca523" testName="GetAuthenticationType_ValueNotValid_ReturnsUnknown" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5999839+01:00" endTime="2023-12-22T09:33:29.5999839+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0062e2b-9433-41a2-b11d-efaaece5082a">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ff9946c2-3b99-47bd-a3bd-544edf212d8c" testId="2c676722-9580-4142-fba8-21ca9c7d3b68" testName="HandleException_ExceptionIsLoggedInILogInstance_WithDebug_Success" computerName="DKSR-EFI-04" duration="00:00:00.0002267" startTime="2023-12-22T09:33:29.5218575+01:00" endTime="2023-12-22T09:33:29.5218575+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff9946c2-3b99-47bd-a3bd-544edf212d8c" />
+    <UnitTestResult executionId="8cdd375a-2be1-4feb-84bb-57fa5d5c3f53" testId="d7a3a6e7-7bb8-8d11-cfb0-b5782c3e7bd4" testName="HandleLogOnError_IdpCommon_IdpNullCodeException_Success" computerName="DKSR-EFI-04" duration="00:00:00.0004443" startTime="2023-12-22T09:33:30.5531147+01:00" endTime="2023-12-22T09:33:30.5531147+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8cdd375a-2be1-4feb-84bb-57fa5d5c3f53" />
+    <UnitTestResult executionId="564bb5ea-c256-4e10-aa9d-72b7bd731b20" testId="0d135733-c5f5-94bb-6dc0-9de99c5153ab" testName="LocalUserOptions_LoadWhenSettingsNotSaved_ReturnsDefaultInstance" computerName="DKSR-EFI-04" duration="00:00:00.2541136" startTime="2023-12-22T09:33:29.6156141+01:00" endTime="2023-12-22T09:33:29.8656112+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="564bb5ea-c256-4e10-aa9d-72b7bd731b20" />
+    <UnitTestResult executionId="572630e3-b193-421a-b8bc-a7edec533490" testId="758b7028-5c46-b60e-7234-340a823032d1" testName="GetSilentLoginFromCommandLine_NullValue_ReturnsFalse" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5374837+01:00" endTime="2023-12-22T09:33:29.5374837+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="572630e3-b193-421a-b8bc-a7edec533490">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ea839faf-368f-4f9c-ab2d-f79aee176859" testId="d5d7456a-3658-98f4-e5d0-dbb6f05b7a94" testName="HandleException_DuplicateAdminIdentity_ThrowsUnauthorizedAccessException" computerName="DKSR-EFI-04" duration="00:00:00.0006107" startTime="2023-12-22T09:33:29.5062351+01:00" endTime="2023-12-22T09:33:29.5062351+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea839faf-368f-4f9c-ab2d-f79aee176859" />
+    <UnitTestResult executionId="62990e57-37cb-4405-91d2-5b30d06f0cd4" testId="6f3002ed-8547-53e1-a5dc-f1c21ad26bb9" testName="HandleException_StandardExceptionNotHandledByExceptionHandler_ReturnsTrue" computerName="DKSR-EFI-04" duration="00:00:00.1874501" startTime="2023-12-22T09:33:28.6468575+01:00" endTime="2023-12-22T09:33:29.2718583+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62990e57-37cb-4405-91d2-5b30d06f0cd4" />
+    <UnitTestResult executionId="4a394bf0-d7e9-4018-adaa-bd790fb96bfa" testId="3746303b-5222-2a2b-c21f-818c290b6207" testName="HandleException_DuplicateUserName_ReturnsTrue" computerName="DKSR-EFI-04" duration="00:00:00.0002847" startTime="2023-12-22T09:33:29.4749847+01:00" endTime="2023-12-22T09:33:29.4749847+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a394bf0-d7e9-4018-adaa-bd790fb96bfa" />
+    <UnitTestResult executionId="00928a86-0c92-4a5c-bc50-b85da19c8205" testId="59b76e42-646b-15ab-23a6-c93dee3b4c03" testName="GetConnectionInfoFromCommandLine_RetrievesValidCredentials" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5687338+01:00" endTime="2023-12-22T09:33:29.5687338+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="00928a86-0c92-4a5c-bc50-b85da19c8205">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="15a6bf65-a943-4bc0-a64a-3ef61b13f775" testId="5b25a65f-8d8f-f0b8-4b44-23d31b2c85ba" testName="BuildArgumentListWindowsDefaultUser" computerName="DKSR-EFI-04" duration="00:00:00.0475551" startTime="2023-12-22T09:33:30.2718637+01:00" endTime="2023-12-22T09:33:30.3343629+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="15a6bf65-a943-4bc0-a64a-3ef61b13f775" />
+    <UnitTestResult executionId="5c103b2f-4c98-4982-aff6-bf2d44f253a0" testId="02a18d51-a82e-e903-59cb-a8fac1bed7a3" testName="GetConnectionInfoFromCommandLine_SilentLoginAllowed_DisableCurrentUser_RevertsToWindowsUser" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5843601+01:00" endTime="2023-12-22T09:33:29.5843601+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c103b2f-4c98-4982-aff6-bf2d44f253a0">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a6e061aa-fac7-427e-b595-b5f5ce06b894" testId="d044f70d-4b82-2985-17a6-16738a371e0c" testName="HandleLogOnError_SelfAuthorizationException_Success" computerName="DKSR-EFI-04" duration="00:00:00.0004310" startTime="2023-12-22T09:33:30.5374880+01:00" endTime="2023-12-22T09:33:30.5374880+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6e061aa-fac7-427e-b595-b5f5ce06b894" />
+    <UnitTestResult executionId="3bbc9359-f92d-4eb2-abc4-e452881757e1" testId="8bd237cb-1821-3e76-55f3-5c1606bb5d9e" testName="HandleException_FaultExceptionWithExceptionCode51000_ThrowsUnauthorizedAccessException" computerName="DKSR-EFI-04" duration="00:00:00.0005930" startTime="2023-12-22T09:33:29.4124834+01:00" endTime="2023-12-22T09:33:29.4124834+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3bbc9359-f92d-4eb2-abc4-e452881757e1" />
+    <UnitTestResult executionId="b50b5f3e-acb9-4c5a-8c3c-51c7388de639" testId="87070804-c132-849a-1cd4-fcb28d989aee" testName="HandleException_FaultExceptionWithExceptionSubCode51100_ThrowsDualAuthorizationRequiredException" computerName="DKSR-EFI-04" duration="00:00:00.0007641" startTime="2023-12-22T09:33:29.4281085+01:00" endTime="2023-12-22T09:33:29.4281085+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b50b5f3e-acb9-4c5a-8c3c-51c7388de639" />
+    <UnitTestResult executionId="ce35546c-2e92-44a7-af0f-7202e7004240" testId="e1280668-b314-947c-50f3-4ce4037b3664" testName="HandleLogOnError_NullUserException_Throws_ArgumentNullException" computerName="DKSR-EFI-04" duration="00:00:00.1394484" startTime="2023-12-22T09:33:30.3343629+01:00" endTime="2023-12-22T09:33:30.4906148+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce35546c-2e92-44a7-af0f-7202e7004240" />
+    <UnitTestResult executionId="9017e6f6-3107-4f14-b59b-64fa21f979e0" testId="a2016b5e-6a42-cbd1-5edd-f5c0f5650a0d" testName="GetConnectionInfoFromCommandLine_EmptyServerAddress_ReturnsNull" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5687338+01:00" endTime="2023-12-22T09:33:29.5687338+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9017e6f6-3107-4f14-b59b-64fa21f979e0">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="316f7d94-64fd-4400-97bd-1856cbe50c68" testId="2b36a0dd-a1fa-be4d-b5f0-af6b7478d37f" testName="BuildArgumentList_ExternalValidProviderName_WithoutAllowHttp" computerName="DKSR-EFI-04" duration="00:00:00.0002185" startTime="2023-12-22T09:33:30.3343629+01:00" endTime="2023-12-22T09:33:30.3343629+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="316f7d94-64fd-4400-97bd-1856cbe50c68" />
+    <UnitTestResult executionId="bda4ea33-8f8c-4d54-840b-675297a04786" testId="27ce45ee-7a2d-5bf7-1a18-400cc5a0633f" testName="LocalUserOptions_SetInsecureAllowed_SaveAndReload_ReturnsValidInstanceWithAllowInsecureConnectionsTrue" computerName="DKSR-EFI-04" duration="00:00:00.0483595" startTime="2023-12-22T09:33:30.2249885+01:00" endTime="2023-12-22T09:33:30.2718637+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bda4ea33-8f8c-4d54-840b-675297a04786" />
+    <UnitTestResult executionId="2cbadfcf-72f3-4fe0-8fa2-b3512a64aa3a" testId="878111f9-488a-779f-dd4e-1e9660771eb9" testName="HandleException_PasswordRequiresLower_ReturnsTrue" computerName="DKSR-EFI-04" duration="00:00:00.0001712" startTime="2023-12-22T09:33:29.4906094+01:00" endTime="2023-12-22T09:33:29.4906094+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2cbadfcf-72f3-4fe0-8fa2-b3512a64aa3a" />
+    <UnitTestResult executionId="2bc3a19d-33a5-4fc4-b916-445332752d2f" testId="d9e19a6e-edb2-f5cf-2c31-6fd8ee572245" testName="Construct_ValidInstance_NullArgs_ConvertsToEmptyArray" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5374837+01:00" endTime="2023-12-22T09:33:29.5374837+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2bc3a19d-33a5-4fc4-b916-445332752d2f">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9b48800a-c5fb-4926-923a-358fdb3192e2" testId="b8373626-4ea9-9df7-44cb-3bdf9ec4cb4f" testName="HandleLogOnError_NotMemberOfAuthorizationRoleException_Success" computerName="DKSR-EFI-04" duration="00:00:00.0003882" startTime="2023-12-22T09:33:30.5374880+01:00" endTime="2023-12-22T09:33:30.5374880+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b48800a-c5fb-4926-923a-358fdb3192e2" />
+    <UnitTestResult executionId="75be4f78-406a-4ece-ae77-31fa6b11f182" testId="b798fd8f-efb9-8245-a4ae-1a5e49c050be" testName="HandleLogOnError_IdpCommon_IdpServerException_Success" computerName="DKSR-EFI-04" duration="00:00:00.0003517" startTime="2023-12-22T09:33:30.5374880+01:00" endTime="2023-12-22T09:33:30.5374880+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75be4f78-406a-4ece-ae77-31fa6b11f182" />
+    <UnitTestResult executionId="03e70d08-9f58-4449-81c2-eb1abc74b036" testId="5d466fea-a0b0-5250-a0d9-9c417e127f77" testName="SetAllowInsecureConnectionsFromCommandLine_IsNotAllowed" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5531099+01:00" endTime="2023-12-22T09:33:29.5531099+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="03e70d08-9f58-4449-81c2-eb1abc74b036">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1cca4939-72a5-4ab3-b473-bc10ff3d31a1" testId="9c09113c-1422-3f1c-1577-ceeae6dd4d41" testName="HandleLogOnError_Vmo_ConnectionFailureException_Success" computerName="DKSR-EFI-04" duration="00:00:00.0011432" startTime="2023-12-22T09:33:30.5062390+01:00" endTime="2023-12-22T09:33:30.5062390+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1cca4939-72a5-4ab3-b473-bc10ff3d31a1" />
+    <UnitTestResult executionId="8aa5489e-c208-4275-8b12-62ac8c23f3e6" testId="778b8af1-c789-5e60-7b6a-8ce927d8ca69" testName="GetConnectionInfoFromCommandLine_BadlyFormedAddress_ReturnsNull" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5687338+01:00" endTime="2023-12-22T09:33:29.5687338+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8aa5489e-c208-4275-8b12-62ac8c23f3e6">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d84d9fb8-6ff4-41db-a195-f2303db2929d" testId="1f0d1fec-2037-b88a-1465-30ccaa64789e" testName="HandleLogOnError_DefaultException_Success" computerName="DKSR-EFI-04" duration="00:00:00.0002166" startTime="2023-12-22T09:33:30.5531147+01:00" endTime="2023-12-22T09:33:30.5687390+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d84d9fb8-6ff4-41db-a195-f2303db2929d" />
+    <UnitTestResult executionId="4b8de0d4-64d1-4df2-91d4-d91641181e42" testId="12720682-442e-0841-7f60-8f9803d371fd" testName="GetPassword_ValueFound_Success" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.6156141+01:00" endTime="2023-12-22T09:33:29.6156141+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b8de0d4-64d1-4df2-91d4-d91641181e42">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c1ec0aa2-cb3e-40c3-a2ed-4ab9fa787eb6" testId="90d7c8c6-37a5-ed1f-b134-4cdd9452c8fb" testName="GetUserName_ValueNotFound_ReturnsNull" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5999839+01:00" endTime="2023-12-22T09:33:29.5999839+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1ec0aa2-cb3e-40c3-a2ed-4ab9fa787eb6">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="22c4e535-f6bd-435e-9487-39e0aee1c3bc" testId="9a8f6a0c-b275-c1f8-08c9-18ab36590f44" testName="HandleException_PasswordRequiresNonAlphanumeric_ReturnsTrue" computerName="DKSR-EFI-04" duration="00:00:00.0001842" startTime="2023-12-22T09:33:29.4906094+01:00" endTime="2023-12-22T09:33:29.4906094+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22c4e535-f6bd-435e-9487-39e0aee1c3bc" />
+    <UnitTestResult executionId="74d58a0c-1210-4de9-a75d-4b4f71c67f20" testId="7d9f033a-2f24-f67b-57e1-4b20eb4b6140" testName="Decrypt_NullValue_ReturnsNull" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5531099+01:00" endTime="2023-12-22T09:33:29.5531099+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="74d58a0c-1210-4de9-a75d-4b4f71c67f20">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="de9ff333-aaf7-41db-9862-26e35ee91743" testId="2e5ae53f-6215-3926-616c-ac30bc11d3d2" testName="GetConnectionInfoFromCommandLine_External" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5843601+01:00" endTime="2023-12-22T09:33:29.5843601+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="de9ff333-aaf7-41db-9862-26e35ee91743">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4f7b36f7-6e0b-4296-b800-bb5faefbd8dd" testId="b77cc879-5882-cba0-4025-9f04e4bc06e5" testName="GetConnectionInfoFromCommandLine_SilentLoginNotAllowed_InsecureEndpointNotFoundWarning" computerName="DKSR-EFI-04" startTime="2023-12-22T09:33:29.5843601+01:00" endTime="2023-12-22T09:33:29.5843601+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f7b36f7-6e0b-4296-b800-bb5faefbd8dd">
+      <Output></Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="BuildArgumentList_ExternalNoProviderName_WithSilentLogin" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="edae705d-182a-e06d-66f2-1ac2abe110dc">
+      <Execution id="fe78268b-9215-4b6c-8a97-07ee22999e01" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.MCLauncherTests" name="BuildArgumentList_ExternalNoProviderName_WithSilentLogin" />
+    </UnitTest>
+    <UnitTest name="GetConnectionInfoFromCommandLine_BadlyFormedAddress_ReturnsNull" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="778b8af1-c789-5e60-7b6a-8ce927d8ca69">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="8aa5489e-c208-4275-8b12-62ac8c23f3e6" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="GetConnectionInfoFromCommandLine_BadlyFormedAddress_ReturnsNull" />
+    </UnitTest>
+    <UnitTest name="HandleLogOnError_IdpCommon_IdpNullCodeException_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="d7a3a6e7-7bb8-8d11-cfb0-b5782c3e7bd4">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LogOnErrorHandler" />
+      </TestCategory>
+      <Execution id="8cdd375a-2be1-4feb-84bb-57fa5d5c3f53" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.Handlers.LogOnErrorHandlerTests" name="HandleLogOnError_IdpCommon_IdpNullCodeException_Success" />
+    </UnitTest>
+    <UnitTest name="HandleLogOnError_IdpCommon_LockedOutException_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="88713123-cbd6-df24-a848-8e737bd1229f">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LogOnErrorHandler" />
+      </TestCategory>
+      <Execution id="b0b2c2fc-9d0d-46ea-a4fd-9260ffd2bd0d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.Handlers.LogOnErrorHandlerTests" name="HandleLogOnError_IdpCommon_LockedOutException_Success" />
+    </UnitTest>
+    <UnitTest name="Construct_InvalidInstance_NullServiceContainer_Throws_ArgumentNullException" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="cfbeec7e-dfc3-bf0b-a124-11740b7de6ba">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="53c90698-8067-4697-8b4c-ab509c0d3b74" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="Construct_InvalidInstance_NullServiceContainer_Throws_ArgumentNullException" />
+    </UnitTest>
+    <UnitTest name="HandleException_FaultExceptionWithExceptionSubCode51100_ThrowsDualAuthorizationRequiredException" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="87070804-c132-849a-1cd4-fcb28d989aee">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="b50b5f3e-acb9-4c5a-8c3c-51c7388de639" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_FaultExceptionWithExceptionSubCode51100_ThrowsDualAuthorizationRequiredException" />
+    </UnitTest>
+    <UnitTest name="GetServerAddressFromCommandLine_NotFound_ReturnsNull" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="fd1d39db-756c-e554-1a4b-b1cb4d2d441f">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="edc03519-48dd-48da-aaa0-a811224e6da3" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="GetServerAddressFromCommandLine_NotFound_ReturnsNull" />
+    </UnitTest>
+    <UnitTest name="HandleException_UnauthorizedException_ThrowsUnauthorizedAccessException" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="f670a4e4-2d0c-766c-47ea-51b0ea00c270">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="7a6e927d-42fb-4354-8a54-c95f844b4401" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_UnauthorizedException_ThrowsUnauthorizedAccessException" />
+    </UnitTest>
+    <UnitTest name="HandleLogOnError_ServerCommunicationException_ServerException_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="810133d3-ae19-6ed1-83ff-16e3db2e2baa">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LogOnErrorHandler" />
+      </TestCategory>
+      <Execution id="d71ae040-3cd7-4635-9cf3-0ddcba5f30bf" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.Handlers.LogOnErrorHandlerTests" name="HandleLogOnError_ServerCommunicationException_ServerException_Success" />
+    </UnitTest>
+    <UnitTest name="HandleLogOnError_DefaultException_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="1f0d1fec-2037-b88a-1465-30ccaa64789e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LogOnErrorHandler" />
+      </TestCategory>
+      <Execution id="d84d9fb8-6ff4-41db-a195-f2303db2929d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.Handlers.LogOnErrorHandlerTests" name="HandleLogOnError_DefaultException_Success" />
+    </UnitTest>
+    <UnitTest name="GetPassword_ValueFound_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="12720682-442e-0841-7f60-8f9803d371fd">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="4b8de0d4-64d1-4df2-91d4-d91641181e42" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="GetPassword_ValueFound_Success" />
+    </UnitTest>
+    <UnitTest name="GetConnectionInfoFromCommandLine_InvalidServerInformation_Throws_InvalidOperationException" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="03b7b66a-3826-f5c7-44ce-15c426a24bef">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="35f7e622-ab56-430b-a86b-858365cfd2b8" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="GetConnectionInfoFromCommandLine_InvalidServerInformation_Throws_InvalidOperationException" />
+    </UnitTest>
+    <UnitTest name="HandleLogOnError_IdpCommon_DefaultErrorException_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="0d97a676-0ba2-4387-9803-a35cec0698eb">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LogOnErrorHandler" />
+      </TestCategory>
+      <Execution id="c145081a-caf2-4e74-9607-d76ce56df6ae" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.Handlers.LogOnErrorHandlerTests" name="HandleLogOnError_IdpCommon_DefaultErrorException_Success" />
+    </UnitTest>
+    <UnitTest name="GetConnectionInfoFromCommandLine_SilentLoginAllowed_DisableCurrentUser_RevertsToWindowsUser" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="02a18d51-a82e-e903-59cb-a8fac1bed7a3">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="5c103b2f-4c98-4982-aff6-bf2d44f253a0" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="GetConnectionInfoFromCommandLine_SilentLoginAllowed_DisableCurrentUser_RevertsToWindowsUser" />
+    </UnitTest>
+    <UnitTest name="HandleException_FaultExceptionWithExceptionCode51000_ThrowsUnauthorizedAccessException" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="8bd237cb-1821-3e76-55f3-5c1606bb5d9e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="3bbc9359-f92d-4eb2-abc4-e452881757e1" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_FaultExceptionWithExceptionCode51000_ThrowsUnauthorizedAccessException" />
+    </UnitTest>
+    <UnitTest name="HandleException_InnerFaultExceptionWithExceptionCode51000_ThrowsUnauthorizedAccessException" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="2e9bb337-a380-ea06-e3c5-90c2ef702946">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="889cf54c-f3c4-46c0-a912-00b39ed29f49" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_InnerFaultExceptionWithExceptionCode51000_ThrowsUnauthorizedAccessException" />
+    </UnitTest>
+    <UnitTest name="HandleException_Other_DefaultErrorException_ReturnsTrue" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="b993dbc5-8760-48b3-49b7-753ab6160087">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="e3da727f-11c9-422a-b4c6-203a0f4c7408" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_Other_DefaultErrorException_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="GetLoginProviderId_ValueNotFound_ReturnsNull" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="c4bf81d6-7e1b-0d28-b492-9a36273e5776">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="979960cb-3ad2-4fa8-8e3c-1781aa6eacdf" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="GetLoginProviderId_ValueNotFound_ReturnsNull" />
+    </UnitTest>
+    <UnitTest name="GetLoginProviderId_ValueFound_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="1a225a35-6fc4-6a00-ddc9-19833b06fd5c">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="3aaeff02-e2b5-4a7c-b7d9-d7700d4b772c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="GetLoginProviderId_ValueFound_Success" />
+    </UnitTest>
+    <UnitTest name="Construct_ValidInstance_NullArgs_ConvertsToEmptyArray" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="d9e19a6e-edb2-f5cf-2c31-6fd8ee572245">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="2bc3a19d-33a5-4fc4-b916-445332752d2f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="Construct_ValidInstance_NullArgs_ConvertsToEmptyArray" />
+    </UnitTest>
+    <UnitTest name="GetUserName_ValueFound_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="d2bf8e51-256c-0432-8f94-2ca9bccadb41">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="8f00552f-3545-4ab3-a994-4edbe01e19b9" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="GetUserName_ValueFound_Success" />
+    </UnitTest>
+    <UnitTest name="Construct_DefaultInstance_CorrectlyUsesEnvironmentCommandLineArgs" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="2388295d-e43f-7e64-cc72-3f5dd61b2d49">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="59a7e687-d919-46be-9737-c95ecf300f08" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="Construct_DefaultInstance_CorrectlyUsesEnvironmentCommandLineArgs" />
+    </UnitTest>
+    <UnitTest name="LocalUserOptions_LoadWhenSettingsSaved_InsecureAllowed_ReturnsValidInstance" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="ac9cb484-517b-e08f-a117-4fb14c474371">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Administration" />
+      </TestCategory>
+      <Execution id="97e63070-8ee1-4eb3-a4c2-201c70a6ea23" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.LocalUserOptionTests" name="LocalUserOptions_LoadWhenSettingsSaved_InsecureAllowed_ReturnsValidInstance" />
+    </UnitTest>
+    <UnitTest name="EncryptAndDecrypt_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="3109b7d5-db2f-7b20-2d9f-0d4893833120">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="4afad787-ede9-4a49-b530-338731f1abd4" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="EncryptAndDecrypt_Success" />
+    </UnitTest>
+    <UnitTest name="HandleException_NotFoundException_ThrowsNotFoundException" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="efe595bd-6445-41bd-5d78-9a3f66be50f6">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="ff913ece-48f8-445d-9e94-92a2e622275f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_NotFoundException_ThrowsNotFoundException" />
+    </UnitTest>
+    <UnitTest name="HandleException_ExceptionIsLoggedInILogInstance_WithoutDebug_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="7962aff8-6b97-db80-e5ed-f476f5610258">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="73678af7-8842-42a2-a2b2-395531f7aed7" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_ExceptionIsLoggedInILogInstance_WithoutDebug_Success" />
+    </UnitTest>
+    <UnitTest name="HandleException_PasswordRequiresUpper_ReturnsTrue" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="c3be0a3b-6d89-acbb-40b6-f8621e9daf01">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="3e1bd8ec-cae3-444c-9e45-8ece6ded8ee5" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_PasswordRequiresUpper_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="HandleLogOnError_Integration_UnauthorizedException_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="42481a92-aba3-7994-9799-039f3c630b8b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LogOnErrorHandler" />
+      </TestCategory>
+      <Execution id="299f83d3-629a-4b2a-bd79-4ad8d0bfc52d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.Handlers.LogOnErrorHandlerTests" name="HandleLogOnError_Integration_UnauthorizedException_Success" />
+    </UnitTest>
+    <UnitTest name="HandleLogOnError_EndpointNotFoundException_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="3cdc3baf-7583-6e9e-143a-0a0feff17b4b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LogOnErrorHandler" />
+      </TestCategory>
+      <Execution id="64750814-e9c2-4baf-877c-c306b8664878" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.Handlers.LogOnErrorHandlerTests" name="HandleLogOnError_EndpointNotFoundException_Success" />
+    </UnitTest>
+    <UnitTest name="GetAuthenticationType_ValueNotFound_ReturnsUnknown" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="b15948d0-dfc5-0f74-6a46-b14b8b9d9bc9">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="e48dd216-f5c8-4c73-b7fa-572621530feb" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="GetAuthenticationType_ValueNotFound_ReturnsUnknown" />
+    </UnitTest>
+    <UnitTest name="GetConnectionInfoFromCommandLine_External" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="2e5ae53f-6215-3926-616c-ac30bc11d3d2">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="de9ff333-aaf7-41db-9862-26e35ee91743" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="GetConnectionInfoFromCommandLine_External" />
+    </UnitTest>
+    <UnitTest name="HandleLogOnError_SelfAuthorizationException_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="d044f70d-4b82-2985-17a6-16738a371e0c">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LogOnErrorHandler" />
+      </TestCategory>
+      <Execution id="a6e061aa-fac7-427e-b595-b5f5ce06b894" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.Handlers.LogOnErrorHandlerTests" name="HandleLogOnError_SelfAuthorizationException_Success" />
+    </UnitTest>
+    <UnitTest name="HandleLogOnError_Vmo_VmoUnauthorizedAccessException_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="a143ec15-7319-d17b-4b77-25de9beb0149">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LogOnErrorHandler" />
+      </TestCategory>
+      <Execution id="07b9c531-d960-4122-a79c-f5cd01efbdcd" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.Handlers.LogOnErrorHandlerTests" name="HandleLogOnError_Vmo_VmoUnauthorizedAccessException_Success" />
+    </UnitTest>
+    <UnitTest name="HandleException_NotAllowed_ThrowsUnauthorizedAccessException" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="cb3e9fd5-a3dd-7f7c-8347-3c8bef5da397">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="00408d1e-8f34-4493-9812-6bc3c7849d90" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_NotAllowed_ThrowsUnauthorizedAccessException" />
+    </UnitTest>
+    <UnitTest name="GetConnectionInfoFromCommandLine_NullUriHandler_Throws_ArgumentNullException" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="14c6f940-6aa2-0a30-ba07-bebc11a63046">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="3c3d94cf-544f-46d4-978c-e2e9334bc111" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="GetConnectionInfoFromCommandLine_NullUriHandler_Throws_ArgumentNullException" />
+    </UnitTest>
+    <UnitTest name="HandleException_StandardExceptionNotHandledByExceptionHandler_ReturnsTrue" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="6f3002ed-8547-53e1-a5dc-f1c21ad26bb9">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="62990e57-37cb-4405-91d2-5b30d06f0cd4" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_StandardExceptionNotHandledByExceptionHandler_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="BuildArgumentList_ExternalValidProviderName_WithAllowHttp" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="6c44a44e-fc07-a15b-e844-a038818935ce">
+      <Execution id="e1bda28a-8cc5-40f5-8e8d-09afb3355048" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.MCLauncherTests" name="BuildArgumentList_ExternalValidProviderName_WithAllowHttp" />
+    </UnitTest>
+    <UnitTest name="Decrypt_NullValue_ReturnsNull" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="7d9f033a-2f24-f67b-57e1-4b20eb4b6140">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="74d58a0c-1210-4de9-a75d-4b4f71c67f20" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="Decrypt_NullValue_ReturnsNull" />
+    </UnitTest>
+    <UnitTest name="BuildArgumentList_ExternalValidProviderName_WithoutAllowHttp" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="2b36a0dd-a1fa-be4d-b5f0-af6b7478d37f">
+      <Execution id="316f7d94-64fd-4400-97bd-1856cbe50c68" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.MCLauncherTests" name="BuildArgumentList_ExternalValidProviderName_WithoutAllowHttp" />
+    </UnitTest>
+    <UnitTest name="LocalUserOptions_LoadWhenSettingsSaved_InsecureNotAllowed_ReturnsValidInstance" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="1021f476-dcb5-0d8e-f8c4-12a4e841d6a4">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Administration" />
+      </TestCategory>
+      <Execution id="4dc73ab0-ab9d-440d-9004-75df847999d4" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.LocalUserOptionTests" name="LocalUserOptions_LoadWhenSettingsSaved_InsecureNotAllowed_ReturnsValidInstance" />
+    </UnitTest>
+    <UnitTest name="GetCommandLineCredentials_PasswordNotEncrypted_RetrievesValidCredentials" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="190c290d-48e9-e0e1-2256-110a8bfdf33f">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="76e218f2-256e-4498-93e0-c8c4d74bbfce" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="GetCommandLineCredentials_PasswordNotEncrypted_RetrievesValidCredentials" />
+    </UnitTest>
+    <UnitTest name="GetConnectionInfoFromCommandLine_SilentLoginAllowed_BasicUser_UserHasAllowedThroughOptions" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="7bf79235-3910-d0d5-b85f-586a417b5c1b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="dd3dbb97-7646-414d-bbaf-a556dd2ec283" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="GetConnectionInfoFromCommandLine_SilentLoginAllowed_BasicUser_UserHasAllowedThroughOptions" />
+    </UnitTest>
+    <UnitTest name="HandleException_PasswordRequiresDigit_ReturnsTrue" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="f3ca49a2-2439-027d-6483-4c0f194afe21">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="aa084e7e-09f2-454f-a9e7-1079027b2ff7" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_PasswordRequiresDigit_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="HandleException_ForbiddenException_ThrowsUnauthorizedAccessException" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="93517234-dcc2-c803-002e-b98a2df09c92">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="8c9d0bf9-7061-4198-ae1f-885a79d0f7c8" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_ForbiddenException_ThrowsUnauthorizedAccessException" />
+    </UnitTest>
+    <UnitTest name="GetPassword_ValueNotFound_ReturnsNull" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="673425df-99c1-86b3-794f-9d639113f4c4">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="d57bdaf0-7696-4176-b2fa-ad31caddcd65" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="GetPassword_ValueNotFound_ReturnsNull" />
+    </UnitTest>
+    <UnitTest name="GetDomain_ValueNotFound_ReturnsNull" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="f23cc637-a6ad-59ab-8002-516cf353bf46">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="7f156dc3-3419-4182-8194-7c0f1139f138" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="GetDomain_ValueNotFound_ReturnsNull" />
+    </UnitTest>
+    <UnitTest name="HandleException_InvalidRoleName_ReturnsTrue" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="25ff399b-5c18-4067-61e6-5ec5b7675030">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="ba181da6-9089-42d5-89b9-6df91ee19290" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_InvalidRoleName_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="HandleLogOnError_Vmo_UserNamePasswordException_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="107d5a73-e96a-cd67-4748-c9b51cfedd07">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LogOnErrorHandler" />
+      </TestCategory>
+      <Execution id="8385db7e-7456-45b0-9bb1-be6c1d497905" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.Handlers.LogOnErrorHandlerTests" name="HandleLogOnError_Vmo_UserNamePasswordException_Success" />
+    </UnitTest>
+    <UnitTest name="Decrypt_FormatException_ReturnsNull" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="2e7fc70a-3235-f988-e5d5-862e7f060524">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="89bff9b6-85ea-4d39-9a97-afa55bad6bb4" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="Decrypt_FormatException_ReturnsNull" />
+    </UnitTest>
+    <UnitTest name="GetUserName_ValueNotFound_ReturnsNull" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="90d7c8c6-37a5-ed1f-b134-4cdd9452c8fb">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="c1ec0aa2-cb3e-40c3-a2ed-4ab9fa787eb6" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="GetUserName_ValueNotFound_ReturnsNull" />
+    </UnitTest>
+    <UnitTest name="GetConnectionInfoFromCommandLine_SilentLoginAllowed_BasicUserDomian_WithoutUsername_RevertsToCurrentWindowsUser" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="505d6fca-f707-836f-b193-3eb275a0485d">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="a93be19b-2b02-4cbe-a6ae-9c368075690d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="GetConnectionInfoFromCommandLine_SilentLoginAllowed_BasicUserDomian_WithoutUsername_RevertsToCurrentWindowsUser" />
+    </UnitTest>
+    <UnitTest name="HandleException_FaultExceptionWithUnknownExceptionCode_ThrowsServerCommunicationException" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="39b358fc-2228-c548-76d5-86633029cc80">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="c9bd0b44-8b86-4e59-9103-b7b6f4acc8e1" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_FaultExceptionWithUnknownExceptionCode_ThrowsServerCommunicationException" />
+    </UnitTest>
+    <UnitTest name="HandleException_PasswordRequiresLower_ReturnsTrue" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="878111f9-488a-779f-dd4e-1e9660771eb9">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="2cbadfcf-72f3-4fe0-8fa2-b3512a64aa3a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_PasswordRequiresLower_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="HandleLogOnError_IdpCommon_IdpStateMismatchException_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="cdcc7b09-c244-bc06-a2cf-45b29872cc2b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LogOnErrorHandler" />
+      </TestCategory>
+      <Execution id="5914915d-ea0b-4d86-86ce-459e9651ba37" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.Handlers.LogOnErrorHandlerTests" name="HandleLogOnError_IdpCommon_IdpStateMismatchException_Success" />
+    </UnitTest>
+    <UnitTest name="HandleException_ArgumentsNotResolved_ReturnsTrue" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="85bf4641-76a6-ef7e-e04d-747c4587a8a6">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="c9b3ada1-3b61-4927-b307-6c4f18edab80" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_ArgumentsNotResolved_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="HandleException_InvalidUserName_ReturnsTrue" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="dbabbd11-4285-4565-e954-79763ba738cd">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="beee740a-5ed0-466f-8687-a68755a82653" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_InvalidUserName_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="SetAllowInsecureConnectionsFromCommandLine_IsAllowed_False" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="0b10d70b-dfd6-dd9e-3fd5-42957d08880a">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="1c4d42a3-6293-4115-a17c-0c7a2bfd4f42" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="SetAllowInsecureConnectionsFromCommandLine_IsAllowed_False" />
+    </UnitTest>
+    <UnitTest name="HandleException_ExceptionIsLoggedInILogInstance_WithDebug_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="2c676722-9580-4142-fba8-21ca9c7d3b68">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="ff9946c2-3b99-47bd-a3bd-544edf212d8c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_ExceptionIsLoggedInILogInstance_WithDebug_Success" />
+    </UnitTest>
+    <UnitTest name="HandleException_DuplicateEmail_ReturnsTrue" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="41866230-32be-26e2-1ee7-efebcaee2b66">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="290e120d-4630-4d4f-92f8-4db143b7446b" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_DuplicateEmail_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="GetConnectionInfoFromCommandLine_RetrievesValidCredentials" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="59b76e42-646b-15ab-23a6-c93dee3b4c03">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="00928a86-0c92-4a5c-bc50-b85da19c8205" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="GetConnectionInfoFromCommandLine_RetrievesValidCredentials" />
+    </UnitTest>
+    <UnitTest name="Encrypt_NullValue_Throws_ArgumentNullException" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="dac4f57f-f33b-3685-8c65-13147b95e885">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="dd02c607-278c-4107-a41f-0b7e7632449e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="Encrypt_NullValue_Throws_ArgumentNullException" />
+    </UnitTest>
+    <UnitTest name="HandleLogOnError_Vmo_ConnectionException_ServerException_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="f79504dc-5a02-577f-493b-d72f73f0b8ee">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LogOnErrorHandler" />
+      </TestCategory>
+      <Execution id="49a3f683-135e-4e61-aac1-1096d3050cde" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.Handlers.LogOnErrorHandlerTests" name="HandleLogOnError_Vmo_ConnectionException_ServerException_Success" />
+    </UnitTest>
+    <UnitTest name="HandleLogOnError_UnauthorizedAccessException_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="c9465136-dcba-be8d-2785-93b6d7b50ca3">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LogOnErrorHandler" />
+      </TestCategory>
+      <Execution id="ba37300b-405b-407b-aee9-9c35e448c37c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.Handlers.LogOnErrorHandlerTests" name="HandleLogOnError_UnauthorizedAccessException_Success" />
+    </UnitTest>
+    <UnitTest name="BuildArgumentList_CurrentWindowsUser_NullCredentials" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="baa71c4f-9ce7-f996-50a3-2e789fde5952">
+      <Execution id="c57ba236-8e73-4019-b748-c6a5a3a18ad2" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.MCLauncherTests" name="BuildArgumentList_CurrentWindowsUser_NullCredentials" />
+    </UnitTest>
+    <UnitTest name="GetConnectionInfoFromCommandLine_EmptyServerAddress_ReturnsNull" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="a2016b5e-6a42-cbd1-5edd-f5c0f5650a0d">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="9017e6f6-3107-4f14-b59b-64fa21f979e0" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="GetConnectionInfoFromCommandLine_EmptyServerAddress_ReturnsNull" />
+    </UnitTest>
+    <UnitTest name="LocalUserOptions_LoadWhenSettingsSaved_InsecureNotSet_ReturnsValidInstance" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="4390d7a6-bf0a-48ea-ceae-11a9b6a4458a">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Administration" />
+      </TestCategory>
+      <Execution id="77a549a0-b513-4586-990b-2575703da19f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.LocalUserOptionTests" name="LocalUserOptions_LoadWhenSettingsSaved_InsecureNotSet_ReturnsValidInstance" />
+    </UnitTest>
+    <UnitTest name="GetAuthenticationType_ValueFound_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="c4c42ef0-0640-c57a-65b9-a5a5a55f0976">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="b7fbe0c5-ce09-4ecc-bf40-b80fe663de32" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="GetAuthenticationType_ValueFound_Success" />
+    </UnitTest>
+    <UnitTest name="HandleLogOnError_IdpCommon_IdpNullTokenException_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="ac7240e9-9d5a-8be1-0652-b13267eebe56">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LogOnErrorHandler" />
+      </TestCategory>
+      <Execution id="96cc9dcc-70ba-427b-829f-7e6e758ccaf1" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.Handlers.LogOnErrorHandlerTests" name="HandleLogOnError_IdpCommon_IdpNullTokenException_Success" />
+    </UnitTest>
+    <UnitTest name="HandleException_AdminIdentityNotFound_ThrowsUnauthorizedAccessException" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="e206d375-05fa-9f0b-d364-21b2faf0c6ee">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="1a37815c-3819-4d10-8092-5dd16e0d2f88" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_AdminIdentityNotFound_ThrowsUnauthorizedAccessException" />
+    </UnitTest>
+    <UnitTest name="GetAuthenticationType_ValueNotValid_ReturnsUnknown" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="3d884529-c3be-d4d4-cd4c-6261ec2ca523">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="a0062e2b-9433-41a2-b11d-efaaece5082a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="GetAuthenticationType_ValueNotValid_ReturnsUnknown" />
+    </UnitTest>
+    <UnitTest name="HandleException_FaultExceptionWithExceptionCode51100_ThrowsDualAuthorizationRequiredException" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="a425ed9f-401f-4a6d-78ad-a8d9eb349c0a">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="036d4c7b-6d5f-49bb-8940-1784cc502541" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_FaultExceptionWithExceptionCode51100_ThrowsDualAuthorizationRequiredException" />
+    </UnitTest>
+    <UnitTest name="HandleException_DuplicateAdminIdentity_ThrowsUnauthorizedAccessException" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="d5d7456a-3658-98f4-e5d0-dbb6f05b7a94">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="ea839faf-368f-4f9c-ab2d-f79aee176859" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_DuplicateAdminIdentity_ThrowsUnauthorizedAccessException" />
+    </UnitTest>
+    <UnitTest name="GetSilentLoginFromCommandLine_SilentLoginFound_ReturnsTrue" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="c6de2aab-12d9-7241-38c3-26687355bc4c">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="392dfae1-4f6e-4ee9-839c-ae9ee645bb32" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="GetSilentLoginFromCommandLine_SilentLoginFound_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="GetSilentLoginFromCommandLine_NullValue_ReturnsFalse" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="758b7028-5c46-b60e-7234-340a823032d1">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="572630e3-b193-421a-b8bc-a7edec533490" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="GetSilentLoginFromCommandLine_NullValue_ReturnsFalse" />
+    </UnitTest>
+    <UnitTest name="LocalUserOptions_LoadWhenSettingsNotSaved_ReturnsDefaultInstance" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="0d135733-c5f5-94bb-6dc0-9de99c5153ab">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Administration" />
+      </TestCategory>
+      <Execution id="564bb5ea-c256-4e10-aa9d-72b7bd731b20" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.LocalUserOptionTests" name="LocalUserOptions_LoadWhenSettingsNotSaved_ReturnsDefaultInstance" />
+    </UnitTest>
+    <UnitTest name="LocalUserOptions_SetInsecureAllowed_SaveAndReload_ReturnsValidInstanceWithAllowInsecureConnectionsTrue" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="27ce45ee-7a2d-5bf7-1a18-400cc5a0633f">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Administration" />
+      </TestCategory>
+      <Execution id="bda4ea33-8f8c-4d54-840b-675297a04786" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.LocalUserOptionTests" name="LocalUserOptions_SetInsecureAllowed_SaveAndReload_ReturnsValidInstanceWithAllowInsecureConnectionsTrue" />
+    </UnitTest>
+    <UnitTest name="HandleException_PasswordRequiresUniqueChars_ReturnsTrue" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="fc832703-9b93-93a3-6435-4763e1bc066c">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="757de5ee-0b01-4c02-bdef-7e5a68d4f67a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_PasswordRequiresUniqueChars_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="HandleLogOnError_IdpCommon_IdpNonceMismatchException_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="1c81f3bb-d450-771a-9b9e-e0cce87abbfa">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LogOnErrorHandler" />
+      </TestCategory>
+      <Execution id="5cd61857-8661-4d5b-9d68-5297ffa9272a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.Handlers.LogOnErrorHandlerTests" name="HandleLogOnError_IdpCommon_IdpNonceMismatchException_Success" />
+    </UnitTest>
+    <UnitTest name="HandleLogOnError_IdpCommon_IdpServerException_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="b798fd8f-efb9-8245-a4ae-1a5e49c050be">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LogOnErrorHandler" />
+      </TestCategory>
+      <Execution id="75be4f78-406a-4ece-ae77-31fa6b11f182" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.Handlers.LogOnErrorHandlerTests" name="HandleLogOnError_IdpCommon_IdpServerException_Success" />
+    </UnitTest>
+    <UnitTest name="SetAllowInsecureConnectionsFromCommandLine_IsNotAllowed" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="5d466fea-a0b0-5250-a0d9-9c417e127f77">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="03e70d08-9f58-4449-81c2-eb1abc74b036" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="SetAllowInsecureConnectionsFromCommandLine_IsNotAllowed" />
+    </UnitTest>
+    <UnitTest name="BuildArgumentListWindowsDefaultUser" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="5b25a65f-8d8f-f0b8-4b44-23d31b2c85ba">
+      <Execution id="15a6bf65-a943-4bc0-a64a-3ef61b13f775" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.MCLauncherTests" name="BuildArgumentListWindowsDefaultUser" />
+    </UnitTest>
+    <UnitTest name="HandleException_LoginAlreadyAssociated_ReturnsTrue" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="5dd6d77b-dfae-4999-00a3-79b5c74b75e2">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="0200d5cf-3d60-48ba-a19e-585b95ae83e7" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_LoginAlreadyAssociated_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="HandleLogOnError_NotMemberOfAuthorizationRoleException_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="b8373626-4ea9-9df7-44cb-3bdf9ec4cb4f">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LogOnErrorHandler" />
+      </TestCategory>
+      <Execution id="9b48800a-c5fb-4926-923a-358fdb3192e2" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.Handlers.LogOnErrorHandlerTests" name="HandleLogOnError_NotMemberOfAuthorizationRoleException_Success" />
+    </UnitTest>
+    <UnitTest name="HandleException_FaultExceptionWithExceptionCode52000_ThrowsServerCommunicationException" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="82819833-5413-cc64-a2bf-aed3bde5d39e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="c4ceabad-c4fa-4810-b6e2-4063a2a93a0f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_FaultExceptionWithExceptionCode52000_ThrowsServerCommunicationException" />
+    </UnitTest>
+    <UnitTest name="HandleException_PasswordTooShort_ReturnsTrue" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="706db54b-cf5d-b039-1fb7-7091ea33f771">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="5fcaf720-85f9-48b2-98aa-9b764bc403ee" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_PasswordTooShort_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="GetConnectionInfoFromCommandLine_SilentLoginNotAllowed_InsecureEndpointNotFoundWarning" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="b77cc879-5882-cba0-4025-9f04e4bc06e5">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="4f7b36f7-6e0b-4296-b800-bb5faefbd8dd" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="GetConnectionInfoFromCommandLine_SilentLoginNotAllowed_InsecureEndpointNotFoundWarning" />
+    </UnitTest>
+    <UnitTest name="HandleLogOnError_NullUserException_Throws_ArgumentNullException" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="e1280668-b314-947c-50f3-4ce4037b3664">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LogOnErrorHandler" />
+      </TestCategory>
+      <Execution id="ce35546c-2e92-44a7-af0f-7202e7004240" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.Handlers.LogOnErrorHandlerTests" name="HandleLogOnError_NullUserException_Throws_ArgumentNullException" />
+    </UnitTest>
+    <UnitTest name="HandleException_UserNotFoundException_ThrowsUnauthorizedAccessException" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="c25bc540-8392-4508-efb1-7676417cb939">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="d28bbf7a-dd42-44c9-bd2b-07cdf23ddaa7" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_UserNotFoundException_ThrowsUnauthorizedAccessException" />
+    </UnitTest>
+    <UnitTest name="HandleLogOnError_InvalidVersionException_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="9b3c353a-8131-bfeb-e930-c289dd604806">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LogOnErrorHandler" />
+      </TestCategory>
+      <Execution id="5ac88b8f-90c3-4f85-acbc-53c5e4d63ee4" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.Handlers.LogOnErrorHandlerTests" name="HandleLogOnError_InvalidVersionException_Success" />
+    </UnitTest>
+    <UnitTest name="HandleException_PasswordRequiresNonAlphanumeric_ReturnsTrue" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="9a8f6a0c-b275-c1f8-08c9-18ab36590f44">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="22c4e535-f6bd-435e-9487-39e0aee1c3bc" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_PasswordRequiresNonAlphanumeric_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="GetConnectionInfoFromCommandLine_SilentLoginNotAllowed_InvalidCertificateWarning" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="4173ba70-1dcd-6e84-485b-1d78a0483847">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="64bbf9df-d5d1-45b4-a78b-44c662ea0d54" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="GetConnectionInfoFromCommandLine_SilentLoginNotAllowed_InvalidCertificateWarning" />
+    </UnitTest>
+    <UnitTest name="GetDomain_ValueFound_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="ed0be081-c52a-ae5e-41a6-fa01b047333f">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="b48b3990-ca52-4388-8c5e-651991e7d706" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="GetDomain_ValueFound_Success" />
+    </UnitTest>
+    <UnitTest name="HandleException_ServerCommunicationException_ReturnsTrue" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="95b4712c-d4c8-23aa-0f5a-05e6aab541b6">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="b68471c4-27a5-4602-a964-49cd665354f1" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_ServerCommunicationException_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="HandleLogOnError_IdpCommon_UnauthorizedException_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="6389dc83-4565-4d7f-e6a8-3a1d2b5544a1">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LogOnErrorHandler" />
+      </TestCategory>
+      <Execution id="4d5f9373-1b0c-4a15-8e96-c0e6aa594d79" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.Handlers.LogOnErrorHandlerTests" name="HandleLogOnError_IdpCommon_UnauthorizedException_Success" />
+    </UnitTest>
+    <UnitTest name="SetAllowInsecureConnectionsFromCommandLine_IsAllowed_True" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="2d291e7f-6d39-5468-9430-651dabc8e209">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Command Line" />
+      </TestCategory>
+      <Execution id="082f66cd-0234-4541-a544-4b31a6694e06" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.CommandLineTests" name="SetAllowInsecureConnectionsFromCommandLine_IsAllowed_True" />
+    </UnitTest>
+    <UnitTest name="HandleLogOnError_Integration_ServerException_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="9b2e65c2-ac08-f2dd-ce1d-cb17194a4ead">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LogOnErrorHandler" />
+      </TestCategory>
+      <Execution id="efde7153-cb95-4553-b0c2-b6e6592e8f32" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.Handlers.LogOnErrorHandlerTests" name="HandleLogOnError_Integration_ServerException_Success" />
+    </UnitTest>
+    <UnitTest name="HandleException_NullException_ReturnsFalse" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="76c3301e-797c-9d8a-18b3-20fcfb4524ff">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="e0c072e6-b23f-447a-af40-fc8d5fd7e40f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_NullException_ReturnsFalse" />
+    </UnitTest>
+    <UnitTest name="HandleLogOnError_Vmo_ConnectionFailureException_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="9c09113c-1422-3f1c-1577-ceeae6dd4d41">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LogOnErrorHandler" />
+      </TestCategory>
+      <Execution id="1cca4939-72a5-4ab3-b473-bc10ff3d31a1" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.UnitTests.Handlers.LogOnErrorHandlerTests" name="HandleLogOnError_Vmo_ConnectionFailureException_Success" />
+    </UnitTest>
+    <UnitTest name="HandleException_DuplicateUserName_ReturnsTrue" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.administration.unittests\bin\x64\debug\videoos.administration.unittests.dll" id="3746303b-5222-2a2b-c21f-818c290b6207">
+      <TestCategory>
+        <TestCategoryItem TestCategory="AdministrationClient" />
+      </TestCategory>
+      <Execution id="4a394bf0-d7e9-4018-adaa-bd790fb96bfa" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Administration.UnitTests\bin\x64\Debug\VideoOS.Administration.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Administration.Client.UnitTests.WebServiceManagerExceptionHandlerTests" name="HandleException_DuplicateUserName_ReturnsTrue" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="2d291e7f-6d39-5468-9430-651dabc8e209" executionId="082f66cd-0234-4541-a544-4b31a6694e06" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="39b358fc-2228-c548-76d5-86633029cc80" executionId="c9bd0b44-8b86-4e59-9103-b7b6f4acc8e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0b10d70b-dfd6-dd9e-3fd5-42957d08880a" executionId="1c4d42a3-6293-4115-a17c-0c7a2bfd4f42" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="190c290d-48e9-e0e1-2256-110a8bfdf33f" executionId="76e218f2-256e-4498-93e0-c8c4d74bbfce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a143ec15-7319-d17b-4b77-25de9beb0149" executionId="07b9c531-d960-4122-a79c-f5cd01efbdcd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d2bf8e51-256c-0432-8f94-2ca9bccadb41" executionId="8f00552f-3545-4ab3-a994-4edbe01e19b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7962aff8-6b97-db80-e5ed-f476f5610258" executionId="73678af7-8842-42a2-a2b2-395531f7aed7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2388295d-e43f-7e64-cc72-3f5dd61b2d49" executionId="59a7e687-d919-46be-9737-c95ecf300f08" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="88713123-cbd6-df24-a848-8e737bd1229f" executionId="b0b2c2fc-9d0d-46ea-a4fd-9260ffd2bd0d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b993dbc5-8760-48b3-49b7-753ab6160087" executionId="e3da727f-11c9-422a-b4c6-203a0f4c7408" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1c81f3bb-d450-771a-9b9e-e0cce87abbfa" executionId="5cd61857-8661-4d5b-9d68-5297ffa9272a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="82819833-5413-cc64-a2bf-aed3bde5d39e" executionId="c4ceabad-c4fa-4810-b6e2-4063a2a93a0f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="76c3301e-797c-9d8a-18b3-20fcfb4524ff" executionId="e0c072e6-b23f-447a-af40-fc8d5fd7e40f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e206d375-05fa-9f0b-d364-21b2faf0c6ee" executionId="1a37815c-3819-4d10-8092-5dd16e0d2f88" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a425ed9f-401f-4a6d-78ad-a8d9eb349c0a" executionId="036d4c7b-6d5f-49bb-8940-1784cc502541" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dac4f57f-f33b-3685-8c65-13147b95e885" executionId="dd02c607-278c-4107-a41f-0b7e7632449e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dbabbd11-4285-4565-e954-79763ba738cd" executionId="beee740a-5ed0-466f-8687-a68755a82653" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0d97a676-0ba2-4387-9803-a35cec0698eb" executionId="c145081a-caf2-4e74-9607-d76ce56df6ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5dd6d77b-dfae-4999-00a3-79b5c74b75e2" executionId="0200d5cf-3d60-48ba-a19e-585b95ae83e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1021f476-dcb5-0d8e-f8c4-12a4e841d6a4" executionId="4dc73ab0-ab9d-440d-9004-75df847999d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3109b7d5-db2f-7b20-2d9f-0d4893833120" executionId="4afad787-ede9-4a49-b530-338731f1abd4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c25bc540-8392-4508-efb1-7676417cb939" executionId="d28bbf7a-dd42-44c9-bd2b-07cdf23ddaa7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1a225a35-6fc4-6a00-ddc9-19833b06fd5c" executionId="3aaeff02-e2b5-4a7c-b7d9-d7700d4b772c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="673425df-99c1-86b3-794f-9d639113f4c4" executionId="d57bdaf0-7696-4176-b2fa-ad31caddcd65" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="42481a92-aba3-7994-9799-039f3c630b8b" executionId="299f83d3-629a-4b2a-bd79-4ad8d0bfc52d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="107d5a73-e96a-cd67-4748-c9b51cfedd07" executionId="8385db7e-7456-45b0-9bb1-be6c1d497905" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cfbeec7e-dfc3-bf0b-a124-11740b7de6ba" executionId="53c90698-8067-4697-8b4c-ab509c0d3b74" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4390d7a6-bf0a-48ea-ceae-11a9b6a4458a" executionId="77a549a0-b513-4586-990b-2575703da19f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f79504dc-5a02-577f-493b-d72f73f0b8ee" executionId="49a3f683-135e-4e61-aac1-1096d3050cde" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6389dc83-4565-4d7f-e6a8-3a1d2b5544a1" executionId="4d5f9373-1b0c-4a15-8e96-c0e6aa594d79" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed0be081-c52a-ae5e-41a6-fa01b047333f" executionId="b48b3990-ca52-4388-8c5e-651991e7d706" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4173ba70-1dcd-6e84-485b-1d78a0483847" executionId="64bbf9df-d5d1-45b4-a78b-44c662ea0d54" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb3e9fd5-a3dd-7f7c-8347-3c8bef5da397" executionId="00408d1e-8f34-4493-9812-6bc3c7849d90" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="baa71c4f-9ce7-f996-50a3-2e789fde5952" executionId="c57ba236-8e73-4019-b748-c6a5a3a18ad2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3cdc3baf-7583-6e9e-143a-0a0feff17b4b" executionId="64750814-e9c2-4baf-877c-c306b8664878" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c6de2aab-12d9-7241-38c3-26687355bc4c" executionId="392dfae1-4f6e-4ee9-839c-ae9ee645bb32" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="505d6fca-f707-836f-b193-3eb275a0485d" executionId="a93be19b-2b02-4cbe-a6ae-9c368075690d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="14c6f940-6aa2-0a30-ba07-bebc11a63046" executionId="3c3d94cf-544f-46d4-978c-e2e9334bc111" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ac9cb484-517b-e08f-a117-4fb14c474371" executionId="97e63070-8ee1-4eb3-a4c2-201c70a6ea23" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="03b7b66a-3826-f5c7-44ce-15c426a24bef" executionId="35f7e622-ab56-430b-a86b-858365cfd2b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c4c42ef0-0640-c57a-65b9-a5a5a55f0976" executionId="b7fbe0c5-ce09-4ecc-bf40-b80fe663de32" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="85bf4641-76a6-ef7e-e04d-747c4587a8a6" executionId="c9b3ada1-3b61-4927-b307-6c4f18edab80" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2e7fc70a-3235-f988-e5d5-862e7f060524" executionId="89bff9b6-85ea-4d39-9a97-afa55bad6bb4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f23cc637-a6ad-59ab-8002-516cf353bf46" executionId="7f156dc3-3419-4182-8194-7c0f1139f138" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="706db54b-cf5d-b039-1fb7-7091ea33f771" executionId="5fcaf720-85f9-48b2-98aa-9b764bc403ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fd1d39db-756c-e554-1a4b-b1cb4d2d441f" executionId="edc03519-48dd-48da-aaa0-a811224e6da3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c4bf81d6-7e1b-0d28-b492-9a36273e5776" executionId="979960cb-3ad2-4fa8-8e3c-1781aa6eacdf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c9465136-dcba-be8d-2785-93b6d7b50ca3" executionId="ba37300b-405b-407b-aee9-9c35e448c37c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="95b4712c-d4c8-23aa-0f5a-05e6aab541b6" executionId="b68471c4-27a5-4602-a964-49cd665354f1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="25ff399b-5c18-4067-61e6-5ec5b7675030" executionId="ba181da6-9089-42d5-89b9-6df91ee19290" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="41866230-32be-26e2-1ee7-efebcaee2b66" executionId="290e120d-4630-4d4f-92f8-4db143b7446b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6c44a44e-fc07-a15b-e844-a038818935ce" executionId="e1bda28a-8cc5-40f5-8e8d-09afb3355048" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7bf79235-3910-d0d5-b85f-586a417b5c1b" executionId="dd3dbb97-7646-414d-bbaf-a556dd2ec283" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9b2e65c2-ac08-f2dd-ce1d-cb17194a4ead" executionId="efde7153-cb95-4553-b0c2-b6e6592e8f32" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="edae705d-182a-e06d-66f2-1ac2abe110dc" executionId="fe78268b-9215-4b6c-8a97-07ee22999e01" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3ca49a2-2439-027d-6483-4c0f194afe21" executionId="aa084e7e-09f2-454f-a9e7-1079027b2ff7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ac7240e9-9d5a-8be1-0652-b13267eebe56" executionId="96cc9dcc-70ba-427b-829f-7e6e758ccaf1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c3be0a3b-6d89-acbb-40b6-f8621e9daf01" executionId="3e1bd8ec-cae3-444c-9e45-8ece6ded8ee5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f670a4e4-2d0c-766c-47ea-51b0ea00c270" executionId="7a6e927d-42fb-4354-8a54-c95f844b4401" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="810133d3-ae19-6ed1-83ff-16e3db2e2baa" executionId="d71ae040-3cd7-4635-9cf3-0ddcba5f30bf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b15948d0-dfc5-0f74-6a46-b14b8b9d9bc9" executionId="e48dd216-f5c8-4c73-b7fa-572621530feb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="efe595bd-6445-41bd-5d78-9a3f66be50f6" executionId="ff913ece-48f8-445d-9e94-92a2e622275f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cdcc7b09-c244-bc06-a2cf-45b29872cc2b" executionId="5914915d-ea0b-4d86-86ce-459e9651ba37" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9b3c353a-8131-bfeb-e930-c289dd604806" executionId="5ac88b8f-90c3-4f85-acbc-53c5e4d63ee4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2e9bb337-a380-ea06-e3c5-90c2ef702946" executionId="889cf54c-f3c4-46c0-a912-00b39ed29f49" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc832703-9b93-93a3-6435-4763e1bc066c" executionId="757de5ee-0b01-4c02-bdef-7e5a68d4f67a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="93517234-dcc2-c803-002e-b98a2df09c92" executionId="8c9d0bf9-7061-4198-ae1f-885a79d0f7c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d884529-c3be-d4d4-cd4c-6261ec2ca523" executionId="a0062e2b-9433-41a2-b11d-efaaece5082a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c676722-9580-4142-fba8-21ca9c7d3b68" executionId="ff9946c2-3b99-47bd-a3bd-544edf212d8c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7a3a6e7-7bb8-8d11-cfb0-b5782c3e7bd4" executionId="8cdd375a-2be1-4feb-84bb-57fa5d5c3f53" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0d135733-c5f5-94bb-6dc0-9de99c5153ab" executionId="564bb5ea-c256-4e10-aa9d-72b7bd731b20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="758b7028-5c46-b60e-7234-340a823032d1" executionId="572630e3-b193-421a-b8bc-a7edec533490" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d5d7456a-3658-98f4-e5d0-dbb6f05b7a94" executionId="ea839faf-368f-4f9c-ab2d-f79aee176859" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f3002ed-8547-53e1-a5dc-f1c21ad26bb9" executionId="62990e57-37cb-4405-91d2-5b30d06f0cd4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3746303b-5222-2a2b-c21f-818c290b6207" executionId="4a394bf0-d7e9-4018-adaa-bd790fb96bfa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="59b76e42-646b-15ab-23a6-c93dee3b4c03" executionId="00928a86-0c92-4a5c-bc50-b85da19c8205" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5b25a65f-8d8f-f0b8-4b44-23d31b2c85ba" executionId="15a6bf65-a943-4bc0-a64a-3ef61b13f775" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="02a18d51-a82e-e903-59cb-a8fac1bed7a3" executionId="5c103b2f-4c98-4982-aff6-bf2d44f253a0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d044f70d-4b82-2985-17a6-16738a371e0c" executionId="a6e061aa-fac7-427e-b595-b5f5ce06b894" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8bd237cb-1821-3e76-55f3-5c1606bb5d9e" executionId="3bbc9359-f92d-4eb2-abc4-e452881757e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="87070804-c132-849a-1cd4-fcb28d989aee" executionId="b50b5f3e-acb9-4c5a-8c3c-51c7388de639" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e1280668-b314-947c-50f3-4ce4037b3664" executionId="ce35546c-2e92-44a7-af0f-7202e7004240" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2016b5e-6a42-cbd1-5edd-f5c0f5650a0d" executionId="9017e6f6-3107-4f14-b59b-64fa21f979e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2b36a0dd-a1fa-be4d-b5f0-af6b7478d37f" executionId="316f7d94-64fd-4400-97bd-1856cbe50c68" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="27ce45ee-7a2d-5bf7-1a18-400cc5a0633f" executionId="bda4ea33-8f8c-4d54-840b-675297a04786" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="878111f9-488a-779f-dd4e-1e9660771eb9" executionId="2cbadfcf-72f3-4fe0-8fa2-b3512a64aa3a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d9e19a6e-edb2-f5cf-2c31-6fd8ee572245" executionId="2bc3a19d-33a5-4fc4-b916-445332752d2f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b8373626-4ea9-9df7-44cb-3bdf9ec4cb4f" executionId="9b48800a-c5fb-4926-923a-358fdb3192e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b798fd8f-efb9-8245-a4ae-1a5e49c050be" executionId="75be4f78-406a-4ece-ae77-31fa6b11f182" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d466fea-a0b0-5250-a0d9-9c417e127f77" executionId="03e70d08-9f58-4449-81c2-eb1abc74b036" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9c09113c-1422-3f1c-1577-ceeae6dd4d41" executionId="1cca4939-72a5-4ab3-b473-bc10ff3d31a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="778b8af1-c789-5e60-7b6a-8ce927d8ca69" executionId="8aa5489e-c208-4275-8b12-62ac8c23f3e6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1f0d1fec-2037-b88a-1465-30ccaa64789e" executionId="d84d9fb8-6ff4-41db-a195-f2303db2929d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="12720682-442e-0841-7f60-8f9803d371fd" executionId="4b8de0d4-64d1-4df2-91d4-d91641181e42" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90d7c8c6-37a5-ed1f-b134-4cdd9452c8fb" executionId="c1ec0aa2-cb3e-40c3-a2ed-4ab9fa787eb6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9a8f6a0c-b275-c1f8-08c9-18ab36590f44" executionId="22c4e535-f6bd-435e-9487-39e0aee1c3bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7d9f033a-2f24-f67b-57e1-4b20eb4b6140" executionId="74d58a0c-1210-4de9-a75d-4b4f71c67f20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2e5ae53f-6215-3926-616c-ac30bc11d3d2" executionId="de9ff333-aaf7-41db-9862-26e35ee91743" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b77cc879-5882-cba0-4025-9f04e4bc06e5" executionId="4f7b36f7-6e0b-4296-b800-bb5faefbd8dd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="99" executed="63" passed="63" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>Test 'Construct_DefaultInstance_CorrectlyUsesEnvironmentCommandLineArgs' was skipped in the test run.&#xD;
+Test 'Construct_ValidInstance_NullArgs_ConvertsToEmptyArray' was skipped in the test run.&#xD;
+Test 'Construct_InvalidInstance_NullServiceContainer_Throws_ArgumentNullException' was skipped in the test run.&#xD;
+Test 'GetSilentLoginFromCommandLine_NullValue_ReturnsFalse' was skipped in the test run.&#xD;
+Test 'GetSilentLoginFromCommandLine_SilentLoginFound_ReturnsTrue' was skipped in the test run.&#xD;
+Test 'GetServerAddressFromCommandLine_NotFound_ReturnsNull' was skipped in the test run.&#xD;
+Test 'Encrypt_NullValue_Throws_ArgumentNullException' was skipped in the test run.&#xD;
+Test 'Decrypt_NullValue_ReturnsNull' was skipped in the test run.&#xD;
+Test 'EncryptAndDecrypt_Success' was skipped in the test run.&#xD;
+Test 'Decrypt_FormatException_ReturnsNull' was skipped in the test run.&#xD;
+Test 'SetAllowInsecureConnectionsFromCommandLine_IsNotAllowed' was skipped in the test run.&#xD;
+Test 'SetAllowInsecureConnectionsFromCommandLine_IsAllowed_True' was skipped in the test run.&#xD;
+Test 'SetAllowInsecureConnectionsFromCommandLine_IsAllowed_False' was skipped in the test run.&#xD;
+Test 'GetConnectionInfoFromCommandLine_NullUriHandler_Throws_ArgumentNullException' was skipped in the test run.&#xD;
+Test 'GetConnectionInfoFromCommandLine_EmptyServerAddress_ReturnsNull' was skipped in the test run.&#xD;
+Test 'GetConnectionInfoFromCommandLine_BadlyFormedAddress_ReturnsNull' was skipped in the test run.&#xD;
+Test 'GetConnectionInfoFromCommandLine_InvalidServerInformation_Throws_InvalidOperationException' was skipped in the test run.&#xD;
+Test 'GetConnectionInfoFromCommandLine_RetrievesValidCredentials' was skipped in the test run.&#xD;
+Test 'GetCommandLineCredentials_PasswordNotEncrypted_RetrievesValidCredentials' was skipped in the test run.&#xD;
+Test 'GetConnectionInfoFromCommandLine_SilentLoginNotAllowed_InvalidCertificateWarning' was skipped in the test run.&#xD;
+Test 'GetConnectionInfoFromCommandLine_SilentLoginNotAllowed_InsecureEndpointNotFoundWarning' was skipped in the test run.&#xD;
+Test 'GetConnectionInfoFromCommandLine_SilentLoginAllowed_BasicUser_UserHasAllowedThroughOptions' was skipped in the test run.&#xD;
+Test 'GetConnectionInfoFromCommandLine_SilentLoginAllowed_BasicUserDomian_WithoutUsername_RevertsToCurrentWindowsUser' was skipped in the test run.&#xD;
+Test 'GetConnectionInfoFromCommandLine_SilentLoginAllowed_DisableCurrentUser_RevertsToWindowsUser' was skipped in the test run.&#xD;
+Test 'GetConnectionInfoFromCommandLine_External' was skipped in the test run.&#xD;
+Test 'GetAuthenticationType_ValueNotFound_ReturnsUnknown' was skipped in the test run.&#xD;
+Test 'GetAuthenticationType_ValueNotValid_ReturnsUnknown' was skipped in the test run.&#xD;
+Test 'GetAuthenticationType_ValueFound_Success' was skipped in the test run.&#xD;
+Test 'GetLoginProviderId_ValueNotFound_ReturnsNull' was skipped in the test run.&#xD;
+Test 'GetLoginProviderId_ValueFound_Success' was skipped in the test run.&#xD;
+Test 'GetUserName_ValueNotFound_ReturnsNull' was skipped in the test run.&#xD;
+Test 'GetUserName_ValueFound_Success' was skipped in the test run.&#xD;
+Test 'GetDomain_ValueNotFound_ReturnsNull' was skipped in the test run.&#xD;
+Test 'GetDomain_ValueFound_Success' was skipped in the test run.&#xD;
+Test 'GetPassword_ValueNotFound_ReturnsNull' was skipped in the test run.&#xD;
+Test 'GetPassword_ValueFound_Success' was skipped in the test run.&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

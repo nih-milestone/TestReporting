@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="1eec9798-99ea-4032-9f62-025e10c8f458" name="DKSR-EFI-04$@DKSR-EFI-04 2023-12-22 09:35:39" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-12-22T09:35:39.0068887+01:00" queuing="2023-12-22T09:35:39.0068887+01:00" start="2023-12-22T09:35:38.0068838+01:00" finish="2023-12-22T09:35:39.6475190+01:00" />
+  <TestSettings name="default" id="ca004bc3-2235-455a-8a2b-dec423bcd8ff">
+    <Deployment runDeploymentRoot="DKSR-EFI-04$_DKSR-EFI-04_2023-12-22_09_35_39" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="490a1505-5b18-41e5-aa62-aa3c31dc88d0" testId="ec9513a6-e143-305e-48b0-abbb58f34c7d" testName="TestChallengesManagerChallengeOrder" computerName="DKSR-EFI-04" duration="00:00:00.0098664" startTime="2023-12-22T09:35:38.9131406+01:00" endTime="2023-12-22T09:35:38.9287771+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="490a1505-5b18-41e5-aa62-aa3c31dc88d0" />
+    <UnitTestResult executionId="64ebfe6d-9556-4c83-976e-12d14098911a" testId="9517f2b4-1d46-bba8-b79b-fd0fd08f5106" testName="TestUpdateAlarmAsync" computerName="DKSR-EFI-04" duration="00:00:00.0179458" startTime="2023-12-22T09:35:39.0068887+01:00" endTime="2023-12-22T09:35:39.0381384+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="64ebfe6d-9556-4c83-976e-12d14098911a" />
+    <UnitTestResult executionId="a876aba5-74f9-4ff6-aca4-6470d1508439" testId="947a4a00-1fd5-6e13-1d6a-ec5fcc92f924" testName="TestChallengesManagerHashing" computerName="DKSR-EFI-04" duration="00:00:00.0105835" startTime="2023-12-22T09:35:38.8037652+01:00" endTime="2023-12-22T09:35:38.8975141+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a876aba5-74f9-4ff6-aca4-6470d1508439" />
+    <UnitTestResult executionId="9dcdfec4-de5f-4ff2-be3a-171b16e291bd" testId="f2309871-8f70-ebf9-c27a-5065aa2fd4c8" testName="TestSetServerEndpointsAsync" computerName="DKSR-EFI-04" duration="00:00:00.0008364" startTime="2023-12-22T09:35:38.9912631+01:00" endTime="2023-12-22T09:35:38.9912631+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9dcdfec4-de5f-4ff2-be3a-171b16e291bd" />
+    <UnitTestResult executionId="a9b4ce34-f9bb-4c67-850a-3bb4c74219a2" testId="10be96b6-489a-2f62-4225-53f8c88623ca" testName="TestSendInvitationSync" computerName="DKSR-EFI-04" duration="00:00:00.0016431" startTime="2023-12-22T09:35:39.0381384+01:00" endTime="2023-12-22T09:35:39.0381384+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a9b4ce34-f9bb-4c67-850a-3bb4c74219a2" />
+    <UnitTestResult executionId="8a6af552-c649-4415-9068-072caab06103" testId="af425367-91a9-be99-e53b-13230cb345a8" testName="TestCheckServerAccessibilityAsync" computerName="DKSR-EFI-04" duration="00:00:00.0207203" startTime="2023-12-22T09:35:38.9287771+01:00" endTime="2023-12-22T09:35:38.9443883+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a6af552-c649-4415-9068-072caab06103" />
+    <UnitTestResult executionId="f915071f-e92a-423f-9e63-8d525a45355d" testId="e374a65d-4543-26e7-e32b-df6be5c84b67" testName="Test_InitFromCommandConnect" computerName="DKSR-EFI-04" duration="00:00:00.0119506" startTime="2023-12-22T09:35:39.0381384+01:00" endTime="2023-12-22T09:35:39.0537641+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f915071f-e92a-423f-9e63-8d525a45355d" />
+    <UnitTestResult executionId="931ba273-b866-4878-b21f-31365b25ea2f" testId="2eb3905a-4269-d114-21b7-9903097022e2" testName="TestGetPermittedUsersAsync" computerName="DKSR-EFI-04" duration="00:00:00.0015994" startTime="2023-12-22T09:35:39.0381384+01:00" endTime="2023-12-22T09:35:39.0381384+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="931ba273-b866-4878-b21f-31365b25ea2f" />
+    <UnitTestResult executionId="6e6b1346-33ad-4d66-a64c-0f80b3959b3a" testId="f0bd355c-7223-772e-9b8d-b99df3c83c63" testName="TestUpdateAlarmSync" computerName="DKSR-EFI-04" duration="00:00:00.0011062" startTime="2023-12-22T09:35:39.0381384+01:00" endTime="2023-12-22T09:35:39.0381384+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6e6b1346-33ad-4d66-a64c-0f80b3959b3a" />
+    <UnitTestResult executionId="3c096ba3-bb6e-4d61-840e-fb8510a95c0b" testId="75fccb44-1d32-4e73-a24a-8935fd837efc" testName="TestInvitationLinksUpdate" computerName="DKSR-EFI-04" duration="00:00:00.0052478" startTime="2023-12-22T09:35:39.2568915+01:00" endTime="2023-12-22T09:35:39.2568915+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c096ba3-bb6e-4d61-840e-fb8510a95c0b" />
+    <UnitTestResult executionId="4618ab34-a286-4cb4-ab51-1daa89338c0f" testId="708f8e2e-0817-c74f-b087-7408ca6ba8e2" testName="TestGetServerEndpointsSync" computerName="DKSR-EFI-04" duration="00:00:00.0008123" startTime="2023-12-22T09:35:38.9912631+01:00" endTime="2023-12-22T09:35:38.9912631+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4618ab34-a286-4cb4-ab51-1daa89338c0f" />
+    <UnitTestResult executionId="f81e97fb-8008-4245-94de-4592fca06f20" testId="7296e270-62b8-9390-6e04-333322c20458" testName="TestAlarmCommandsErrorResult" computerName="DKSR-EFI-04" duration="00:00:00.0006157" startTime="2023-12-22T09:35:39.0381384+01:00" endTime="2023-12-22T09:35:39.0381384+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f81e97fb-8008-4245-94de-4592fca06f20" />
+    <UnitTestResult executionId="4f02aaa6-0454-4d44-a970-d3e3e340d17c" testId="1ceae91f-a634-b98c-e583-dd3d1e33b261" testName="Test_InitFromCommandLogin" computerName="DKSR-EFI-04" duration="00:00:00.0080846" startTime="2023-12-22T09:35:39.0537641+01:00" endTime="2023-12-22T09:35:39.0693932+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f02aaa6-0454-4d44-a970-d3e3e340d17c" />
+    <UnitTestResult executionId="1e0e13fa-9ea5-45cf-886f-a25f464f3c44" testId="805c339e-25d2-526b-26fa-89666663ffce" testName="TestAddressBookServiceCommandsErrorResult" computerName="DKSR-EFI-04" duration="00:00:00.0063001" startTime="2023-12-22T09:35:38.9912631+01:00" endTime="2023-12-22T09:35:38.9912631+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e0e13fa-9ea5-45cf-886f-a25f464f3c44" />
+    <UnitTestResult executionId="aeb97676-42d4-4803-aac0-b2b5bbc9f33c" testId="9af4056b-7ec5-025b-4693-7018d3782c11" testName="TestGetAlarmListSync_WhenFilerByCategoryExist" computerName="DKSR-EFI-04" duration="00:00:00.0010532" startTime="2023-12-22T09:35:39.0068887+01:00" endTime="2023-12-22T09:35:39.0068887+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aeb97676-42d4-4803-aac0-b2b5bbc9f33c" />
+    <UnitTestResult executionId="82770b66-5377-4c89-8af0-4ab507d65351" testId="accca385-7e01-e2a8-dd73-58091292535e" testName="TestGetServerEndpointsAsync" computerName="DKSR-EFI-04" duration="00:00:00.0008825" startTime="2023-12-22T09:35:38.9912631+01:00" endTime="2023-12-22T09:35:38.9912631+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="82770b66-5377-4c89-8af0-4ab507d65351" />
+    <UnitTestResult executionId="66419d5c-e65b-48ca-b9f3-1494b1dba1c7" testId="4fa649c3-1e7e-7336-3a89-a635e899e4e0" testName="TestSetServerEndpointsSync" computerName="DKSR-EFI-04" duration="00:00:00.0008498" startTime="2023-12-22T09:35:38.9912631+01:00" endTime="2023-12-22T09:35:38.9912631+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66419d5c-e65b-48ca-b9f3-1494b1dba1c7" />
+    <UnitTestResult executionId="a4222057-c019-41fd-8503-4594b0dab845" testId="8832084a-8a4f-d7d0-3de0-eb2536bb2154" testName="TestResponseCreation" computerName="DKSR-EFI-04" duration="00:00:00.1895831" startTime="2023-12-22T09:35:39.0693932+01:00" endTime="2023-12-22T09:35:39.2568915+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4222057-c019-41fd-8503-4594b0dab845" />
+    <UnitTestResult executionId="36b54ec3-bfc0-4780-a03d-306456d08eaa" testId="0a5250e0-0997-6d79-c073-1b6d111a4646" testName="TestGetPermittedUsersSync" computerName="DKSR-EFI-04" duration="00:00:00.0005314" startTime="2023-12-22T09:35:39.0381384+01:00" endTime="2023-12-22T09:35:39.0381384+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36b54ec3-bfc0-4780-a03d-306456d08eaa" />
+    <UnitTestResult executionId="a2befe8f-4f3c-4882-8ba2-4f234759e35e" testId="8f173390-bab2-fbd6-ebed-68707ae33b2b" testName="TestSendInvitationAsync" computerName="DKSR-EFI-04" duration="00:00:00.0019994" startTime="2023-12-22T09:35:39.0381384+01:00" endTime="2023-12-22T09:35:39.0381384+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a2befe8f-4f3c-4882-8ba2-4f234759e35e" />
+    <UnitTestResult executionId="f5717efe-c14c-4f0d-bc21-4aa2c01ee192" testId="bfc1bcb6-30bc-2b54-4937-840ad645c541" testName="TestAcknowledgeAlarmSync" computerName="DKSR-EFI-04" duration="00:00:00.0005176" startTime="2023-12-22T09:35:39.0381384+01:00" endTime="2023-12-22T09:35:39.0381384+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f5717efe-c14c-4f0d-bc21-4aa2c01ee192" />
+    <UnitTestResult executionId="a38f7fc0-df6f-4e0f-a693-371d23366cef" testId="8ca08061-9719-f338-3e9f-63ef50f7ccef" testName="TestGetAlarmListAsync" computerName="DKSR-EFI-04" duration="00:00:00.0048999" startTime="2023-12-22T09:35:39.0068887+01:00" endTime="2023-12-22T09:35:39.0068887+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a38f7fc0-df6f-4e0f-a693-371d23366cef" />
+    <UnitTestResult executionId="731b5b70-ea29-481f-ae23-7830351b4a42" testId="0bedfb61-4be9-5359-ab82-20632add9dc4" testName="TestAcknowledgeAlarmAsync" computerName="DKSR-EFI-04" duration="00:00:00.0012664" startTime="2023-12-22T09:35:39.0381384+01:00" endTime="2023-12-22T09:35:39.0381384+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="731b5b70-ea29-481f-ae23-7830351b4a42" />
+    <UnitTestResult executionId="8a04667e-eb25-488a-9646-1bc4d75bbc4a" testId="f7c0c228-ba88-b4ba-a9f1-1b756aa86346" testName="TestCheckServerAccessibilitySync" computerName="DKSR-EFI-04" duration="00:00:00.0334258" startTime="2023-12-22T09:35:38.9443883+01:00" endTime="2023-12-22T09:35:38.9912631+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a04667e-eb25-488a-9646-1bc4d75bbc4a" />
+    <UnitTestResult executionId="344d55aa-103d-43d0-8b2e-351cda9b6a2c" testId="f4384706-14a5-6625-dca6-64a06c3dce30" testName="TestGetAlarmDataSettingsAsync" computerName="DKSR-EFI-04" duration="00:00:00.0007653" startTime="2023-12-22T09:35:39.0381384+01:00" endTime="2023-12-22T09:35:39.0381384+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="344d55aa-103d-43d0-8b2e-351cda9b6a2c" />
+    <UnitTestResult executionId="b980a63b-6de1-4625-bae4-4a944baef916" testId="97a4eae0-9cd3-3064-6b34-af0d44904c65" testName="TestGetAlarmListSync" computerName="DKSR-EFI-04" duration="00:00:00.0027654" startTime="2023-12-22T09:35:39.0068887+01:00" endTime="2023-12-22T09:35:39.0068887+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b980a63b-6de1-4625-bae4-4a944baef916" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestChallengesManagerHashing" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.sdk.portable.test\src\bin\debug\net472\videoos.mobile.sdk.portable.test.dll" id="947a4a00-1fd5-6e13-1d6a-ec5fcc92f924">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="a876aba5-74f9-4ff6-aca4-6470d1508439" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.SDK.Portable.Test\src\bin\Debug\net472\VideoOS.Mobile.SDK.Portable.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.SDK.Portable.Test.Server.Base.ChallengesManagerTest" name="TestChallengesManagerHashing" />
+    </UnitTest>
+    <UnitTest name="TestSetServerEndpointsSync" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.sdk.portable.test\src\bin\debug\net472\videoos.mobile.sdk.portable.test.dll" id="4fa649c3-1e7e-7336-3a89-a635e899e4e0">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="66419d5c-e65b-48ca-b9f3-1494b1dba1c7" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.SDK.Portable.Test\src\bin\Debug\net472\VideoOS.Mobile.SDK.Portable.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.SDK.Portable.Test.Server.Base.Connection.AddressBookServiceCommandsTest" name="TestSetServerEndpointsSync" />
+    </UnitTest>
+    <UnitTest name="TestGetServerEndpointsSync" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.sdk.portable.test\src\bin\debug\net472\videoos.mobile.sdk.portable.test.dll" id="708f8e2e-0817-c74f-b087-7408ca6ba8e2">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="4618ab34-a286-4cb4-ab51-1daa89338c0f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.SDK.Portable.Test\src\bin\Debug\net472\VideoOS.Mobile.SDK.Portable.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.SDK.Portable.Test.Server.Base.Connection.AddressBookServiceCommandsTest" name="TestGetServerEndpointsSync" />
+    </UnitTest>
+    <UnitTest name="TestInvitationLinksUpdate" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.sdk.portable.test\src\bin\debug\net472\videoos.mobile.sdk.portable.test.dll" id="75fccb44-1d32-4e73-a24a-8935fd837efc">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="3c096ba3-bb6e-4d61-840e-fb8510a95c0b" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.SDK.Portable.Test\src\bin\Debug\net472\VideoOS.Mobile.SDK.Portable.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.SDK.Portable.Test.OnlineService.InvitationLinksTest" name="TestInvitationLinksUpdate" />
+    </UnitTest>
+    <UnitTest name="TestCheckServerAccessibilityAsync" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.sdk.portable.test\src\bin\debug\net472\videoos.mobile.sdk.portable.test.dll" id="af425367-91a9-be99-e53b-13230cb345a8">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LongRunning" />
+      </TestCategory>
+      <Execution id="8a6af552-c649-4415-9068-072caab06103" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.SDK.Portable.Test\src\bin\Debug\net472\VideoOS.Mobile.SDK.Portable.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.SDK.Portable.Test.Server.Base.Connection.AddressBookServiceCommandsTest" name="TestCheckServerAccessibilityAsync" />
+    </UnitTest>
+    <UnitTest name="TestSetServerEndpointsAsync" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.sdk.portable.test\src\bin\debug\net472\videoos.mobile.sdk.portable.test.dll" id="f2309871-8f70-ebf9-c27a-5065aa2fd4c8">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="9dcdfec4-de5f-4ff2-be3a-171b16e291bd" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.SDK.Portable.Test\src\bin\Debug\net472\VideoOS.Mobile.SDK.Portable.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.SDK.Portable.Test.Server.Base.Connection.AddressBookServiceCommandsTest" name="TestSetServerEndpointsAsync" />
+    </UnitTest>
+    <UnitTest name="TestAcknowledgeAlarmAsync" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.sdk.portable.test\src\bin\debug\net472\videoos.mobile.sdk.portable.test.dll" id="0bedfb61-4be9-5359-ab82-20632add9dc4">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="731b5b70-ea29-481f-ae23-7830351b4a42" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.SDK.Portable.Test\src\bin\Debug\net472\VideoOS.Mobile.SDK.Portable.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.SDK.Portable.Test.Server.Base.Connection.AlarmCommandsTest" name="TestAcknowledgeAlarmAsync" />
+    </UnitTest>
+    <UnitTest name="TestAcknowledgeAlarmSync" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.sdk.portable.test\src\bin\debug\net472\videoos.mobile.sdk.portable.test.dll" id="bfc1bcb6-30bc-2b54-4937-840ad645c541">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="f5717efe-c14c-4f0d-bc21-4aa2c01ee192" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.SDK.Portable.Test\src\bin\Debug\net472\VideoOS.Mobile.SDK.Portable.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.SDK.Portable.Test.Server.Base.Connection.AlarmCommandsTest" name="TestAcknowledgeAlarmSync" />
+    </UnitTest>
+    <UnitTest name="TestUpdateAlarmSync" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.sdk.portable.test\src\bin\debug\net472\videoos.mobile.sdk.portable.test.dll" id="f0bd355c-7223-772e-9b8d-b99df3c83c63">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="6e6b1346-33ad-4d66-a64c-0f80b3959b3a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.SDK.Portable.Test\src\bin\Debug\net472\VideoOS.Mobile.SDK.Portable.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.SDK.Portable.Test.Server.Base.Connection.AlarmCommandsTest" name="TestUpdateAlarmSync" />
+    </UnitTest>
+    <UnitTest name="TestGetAlarmListSync" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.sdk.portable.test\src\bin\debug\net472\videoos.mobile.sdk.portable.test.dll" id="97a4eae0-9cd3-3064-6b34-af0d44904c65">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="b980a63b-6de1-4625-bae4-4a944baef916" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.SDK.Portable.Test\src\bin\Debug\net472\VideoOS.Mobile.SDK.Portable.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.SDK.Portable.Test.Server.Base.Connection.AlarmCommandsTest" name="TestGetAlarmListSync" />
+    </UnitTest>
+    <UnitTest name="TestChallengesManagerChallengeOrder" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.sdk.portable.test\src\bin\debug\net472\videoos.mobile.sdk.portable.test.dll" id="ec9513a6-e143-305e-48b0-abbb58f34c7d">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="490a1505-5b18-41e5-aa62-aa3c31dc88d0" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.SDK.Portable.Test\src\bin\Debug\net472\VideoOS.Mobile.SDK.Portable.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.SDK.Portable.Test.Server.Base.ChallengesManagerTest" name="TestChallengesManagerChallengeOrder" />
+    </UnitTest>
+    <UnitTest name="TestGetAlarmDataSettingsAsync" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.sdk.portable.test\src\bin\debug\net472\videoos.mobile.sdk.portable.test.dll" id="f4384706-14a5-6625-dca6-64a06c3dce30">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="344d55aa-103d-43d0-8b2e-351cda9b6a2c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.SDK.Portable.Test\src\bin\Debug\net472\VideoOS.Mobile.SDK.Portable.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.SDK.Portable.Test.Server.Base.Connection.AlarmCommandsTest" name="TestGetAlarmDataSettingsAsync" />
+    </UnitTest>
+    <UnitTest name="TestAlarmCommandsErrorResult" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.sdk.portable.test\src\bin\debug\net472\videoos.mobile.sdk.portable.test.dll" id="7296e270-62b8-9390-6e04-333322c20458">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="f81e97fb-8008-4245-94de-4592fca06f20" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.SDK.Portable.Test\src\bin\Debug\net472\VideoOS.Mobile.SDK.Portable.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.SDK.Portable.Test.Server.Base.Connection.AlarmCommandsTest" name="TestAlarmCommandsErrorResult" />
+    </UnitTest>
+    <UnitTest name="TestResponseCreation" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.sdk.portable.test\src\bin\debug\net472\videoos.mobile.sdk.portable.test.dll" id="8832084a-8a4f-d7d0-3de0-eb2536bb2154">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LongRunning" />
+      </TestCategory>
+      <Execution id="a4222057-c019-41fd-8503-4594b0dab845" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.SDK.Portable.Test\src\bin\Debug\net472\VideoOS.Mobile.SDK.Portable.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.SDK.Portable.Test.Server.Base.CommandResult.BaseCommandResponseTest" name="TestResponseCreation" />
+    </UnitTest>
+    <UnitTest name="TestGetAlarmListSync_WhenFilerByCategoryExist" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.sdk.portable.test\src\bin\debug\net472\videoos.mobile.sdk.portable.test.dll" id="9af4056b-7ec5-025b-4693-7018d3782c11">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="aeb97676-42d4-4803-aac0-b2b5bbc9f33c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.SDK.Portable.Test\src\bin\Debug\net472\VideoOS.Mobile.SDK.Portable.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.SDK.Portable.Test.Server.Base.Connection.AlarmCommandsTest" name="TestGetAlarmListSync_WhenFilerByCategoryExist" />
+    </UnitTest>
+    <UnitTest name="TestCheckServerAccessibilitySync" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.sdk.portable.test\src\bin\debug\net472\videoos.mobile.sdk.portable.test.dll" id="f7c0c228-ba88-b4ba-a9f1-1b756aa86346">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="8a04667e-eb25-488a-9646-1bc4d75bbc4a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.SDK.Portable.Test\src\bin\Debug\net472\VideoOS.Mobile.SDK.Portable.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.SDK.Portable.Test.Server.Base.Connection.AddressBookServiceCommandsTest" name="TestCheckServerAccessibilitySync" />
+    </UnitTest>
+    <UnitTest name="TestGetServerEndpointsAsync" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.sdk.portable.test\src\bin\debug\net472\videoos.mobile.sdk.portable.test.dll" id="accca385-7e01-e2a8-dd73-58091292535e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="82770b66-5377-4c89-8af0-4ab507d65351" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.SDK.Portable.Test\src\bin\Debug\net472\VideoOS.Mobile.SDK.Portable.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.SDK.Portable.Test.Server.Base.Connection.AddressBookServiceCommandsTest" name="TestGetServerEndpointsAsync" />
+    </UnitTest>
+    <UnitTest name="TestGetAlarmListAsync" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.sdk.portable.test\src\bin\debug\net472\videoos.mobile.sdk.portable.test.dll" id="8ca08061-9719-f338-3e9f-63ef50f7ccef">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="a38f7fc0-df6f-4e0f-a693-371d23366cef" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.SDK.Portable.Test\src\bin\Debug\net472\VideoOS.Mobile.SDK.Portable.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.SDK.Portable.Test.Server.Base.Connection.AlarmCommandsTest" name="TestGetAlarmListAsync" />
+    </UnitTest>
+    <UnitTest name="TestGetPermittedUsersSync" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.sdk.portable.test\src\bin\debug\net472\videoos.mobile.sdk.portable.test.dll" id="0a5250e0-0997-6d79-c073-1b6d111a4646">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="36b54ec3-bfc0-4780-a03d-306456d08eaa" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.SDK.Portable.Test\src\bin\Debug\net472\VideoOS.Mobile.SDK.Portable.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.SDK.Portable.Test.Server.Base.Connection.AlarmCommandsTest" name="TestGetPermittedUsersSync" />
+    </UnitTest>
+    <UnitTest name="TestUpdateAlarmAsync" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.sdk.portable.test\src\bin\debug\net472\videoos.mobile.sdk.portable.test.dll" id="9517f2b4-1d46-bba8-b79b-fd0fd08f5106">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="64ebfe6d-9556-4c83-976e-12d14098911a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.SDK.Portable.Test\src\bin\Debug\net472\VideoOS.Mobile.SDK.Portable.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.SDK.Portable.Test.Server.Base.Connection.AlarmCommandsTest" name="TestUpdateAlarmAsync" />
+    </UnitTest>
+    <UnitTest name="Test_InitFromCommandConnect" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.sdk.portable.test\src\bin\debug\net472\videoos.mobile.sdk.portable.test.dll" id="e374a65d-4543-26e7-e32b-df6be5c84b67">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="f915071f-e92a-423f-9e63-8d525a45355d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.SDK.Portable.Test\src\bin\Debug\net472\VideoOS.Mobile.SDK.Portable.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.SDK.Portable.Test.Server.Base.Connection.ServerCapabilitiesTest" name="Test_InitFromCommandConnect" />
+    </UnitTest>
+    <UnitTest name="TestSendInvitationAsync" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.sdk.portable.test\src\bin\debug\net472\videoos.mobile.sdk.portable.test.dll" id="8f173390-bab2-fbd6-ebed-68707ae33b2b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="a2befe8f-4f3c-4882-8ba2-4f234759e35e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.SDK.Portable.Test\src\bin\Debug\net472\VideoOS.Mobile.SDK.Portable.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.SDK.Portable.Test.Server.Base.Connection.InvitationCommandsTest" name="TestSendInvitationAsync" />
+    </UnitTest>
+    <UnitTest name="TestAddressBookServiceCommandsErrorResult" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.sdk.portable.test\src\bin\debug\net472\videoos.mobile.sdk.portable.test.dll" id="805c339e-25d2-526b-26fa-89666663ffce">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="1e0e13fa-9ea5-45cf-886f-a25f464f3c44" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.SDK.Portable.Test\src\bin\Debug\net472\VideoOS.Mobile.SDK.Portable.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.SDK.Portable.Test.Server.Base.Connection.AddressBookServiceCommandsTest" name="TestAddressBookServiceCommandsErrorResult" />
+    </UnitTest>
+    <UnitTest name="TestGetPermittedUsersAsync" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.sdk.portable.test\src\bin\debug\net472\videoos.mobile.sdk.portable.test.dll" id="2eb3905a-4269-d114-21b7-9903097022e2">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="931ba273-b866-4878-b21f-31365b25ea2f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.SDK.Portable.Test\src\bin\Debug\net472\VideoOS.Mobile.SDK.Portable.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.SDK.Portable.Test.Server.Base.Connection.AlarmCommandsTest" name="TestGetPermittedUsersAsync" />
+    </UnitTest>
+    <UnitTest name="Test_InitFromCommandLogin" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.sdk.portable.test\src\bin\debug\net472\videoos.mobile.sdk.portable.test.dll" id="1ceae91f-a634-b98c-e583-dd3d1e33b261">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="4f02aaa6-0454-4d44-a970-d3e3e340d17c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.SDK.Portable.Test\src\bin\Debug\net472\VideoOS.Mobile.SDK.Portable.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.SDK.Portable.Test.Server.Base.Connection.ServerFeaturesTest" name="Test_InitFromCommandLogin" />
+    </UnitTest>
+    <UnitTest name="TestSendInvitationSync" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.sdk.portable.test\src\bin\debug\net472\videoos.mobile.sdk.portable.test.dll" id="10be96b6-489a-2f62-4225-53f8c88623ca">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="a9b4ce34-f9bb-4c67-850a-3bb4c74219a2" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.SDK.Portable.Test\src\bin\Debug\net472\VideoOS.Mobile.SDK.Portable.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.SDK.Portable.Test.Server.Base.Connection.InvitationCommandsTest" name="TestSendInvitationSync" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="ec9513a6-e143-305e-48b0-abbb58f34c7d" executionId="490a1505-5b18-41e5-aa62-aa3c31dc88d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9517f2b4-1d46-bba8-b79b-fd0fd08f5106" executionId="64ebfe6d-9556-4c83-976e-12d14098911a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="947a4a00-1fd5-6e13-1d6a-ec5fcc92f924" executionId="a876aba5-74f9-4ff6-aca4-6470d1508439" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f2309871-8f70-ebf9-c27a-5065aa2fd4c8" executionId="9dcdfec4-de5f-4ff2-be3a-171b16e291bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="10be96b6-489a-2f62-4225-53f8c88623ca" executionId="a9b4ce34-f9bb-4c67-850a-3bb4c74219a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="af425367-91a9-be99-e53b-13230cb345a8" executionId="8a6af552-c649-4415-9068-072caab06103" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e374a65d-4543-26e7-e32b-df6be5c84b67" executionId="f915071f-e92a-423f-9e63-8d525a45355d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2eb3905a-4269-d114-21b7-9903097022e2" executionId="931ba273-b866-4878-b21f-31365b25ea2f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0bd355c-7223-772e-9b8d-b99df3c83c63" executionId="6e6b1346-33ad-4d66-a64c-0f80b3959b3a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="75fccb44-1d32-4e73-a24a-8935fd837efc" executionId="3c096ba3-bb6e-4d61-840e-fb8510a95c0b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="708f8e2e-0817-c74f-b087-7408ca6ba8e2" executionId="4618ab34-a286-4cb4-ab51-1daa89338c0f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7296e270-62b8-9390-6e04-333322c20458" executionId="f81e97fb-8008-4245-94de-4592fca06f20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1ceae91f-a634-b98c-e583-dd3d1e33b261" executionId="4f02aaa6-0454-4d44-a970-d3e3e340d17c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="805c339e-25d2-526b-26fa-89666663ffce" executionId="1e0e13fa-9ea5-45cf-886f-a25f464f3c44" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9af4056b-7ec5-025b-4693-7018d3782c11" executionId="aeb97676-42d4-4803-aac0-b2b5bbc9f33c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="accca385-7e01-e2a8-dd73-58091292535e" executionId="82770b66-5377-4c89-8af0-4ab507d65351" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4fa649c3-1e7e-7336-3a89-a635e899e4e0" executionId="66419d5c-e65b-48ca-b9f3-1494b1dba1c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8832084a-8a4f-d7d0-3de0-eb2536bb2154" executionId="a4222057-c019-41fd-8503-4594b0dab845" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0a5250e0-0997-6d79-c073-1b6d111a4646" executionId="36b54ec3-bfc0-4780-a03d-306456d08eaa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f173390-bab2-fbd6-ebed-68707ae33b2b" executionId="a2befe8f-4f3c-4882-8ba2-4f234759e35e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bfc1bcb6-30bc-2b54-4937-840ad645c541" executionId="f5717efe-c14c-4f0d-bc21-4aa2c01ee192" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ca08061-9719-f338-3e9f-63ef50f7ccef" executionId="a38f7fc0-df6f-4e0f-a693-371d23366cef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0bedfb61-4be9-5359-ab82-20632add9dc4" executionId="731b5b70-ea29-481f-ae23-7830351b4a42" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f7c0c228-ba88-b4ba-a9f1-1b756aa86346" executionId="8a04667e-eb25-488a-9646-1bc4d75bbc4a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f4384706-14a5-6625-dca6-64a06c3dce30" executionId="344d55aa-103d-43d0-8b2e-351cda9b6a2c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="97a4eae0-9cd3-3064-6b34-af0d44904c65" executionId="b980a63b-6de1-4625-bae4-4a944baef916" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="26" executed="26" passed="26" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

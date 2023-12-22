@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="3a6a7216-d288-412f-a397-2e3e30887cd8" name="DKSR-EFI-04$@DKSR-EFI-04 2023-12-22 09:34:31" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-12-22T09:34:31.0846631+01:00" queuing="2023-12-22T09:34:31.0846631+01:00" start="2023-12-22T09:34:30.0065326+01:00" finish="2023-12-22T09:34:31.5534174+01:00" />
+  <TestSettings name="default" id="f0b611a7-9209-47b8-9207-b65c761aad9f">
+    <Deployment runDeploymentRoot="DKSR-EFI-04$_DKSR-EFI-04_2023-12-22_09_34_31" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="310251c4-7c6c-42c7-b2cd-1d24f7deba10" testId="42652b4c-86ff-f9a8-6315-ee25d95acd59" testName="CanBeLocalized_ShouldReturnFalse_WhenNotStartingWithTranslationPrefix" computerName="DKSR-EFI-04" duration="00:00:00.0017135" startTime="2023-12-22T09:34:31.0846631+01:00" endTime="2023-12-22T09:34:31.1002883+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="310251c4-7c6c-42c7-b2cd-1d24f7deba10" />
+    <UnitTestResult executionId="42e0798e-c02a-4584-9be5-f96033fc5137" testId="cfcd2b52-5534-22ea-6468-97f1c6719cb8" testName="WithHttpUri_ShouldSetUri_WhenUriIsNotNull" computerName="DKSR-EFI-04" duration="00:00:00.0273225" startTime="2023-12-22T09:34:30.8190385+01:00" endTime="2023-12-22T09:34:30.8502891+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="42e0798e-c02a-4584-9be5-f96033fc5137" />
+    <UnitTestResult executionId="3d9b6f52-986e-40ca-adfc-7cceed4266ce" testId="b36a218f-57ea-64e2-574b-7acc5fa5e784" testName="VideoOsIMCommonGlobalDefinitionsMetadata_ShouldBeEqualTo_VersionControlMetadata" computerName="DKSR-EFI-04" duration="00:00:00.0047739" startTime="2023-12-22T09:34:31.0846631+01:00" endTime="2023-12-22T09:34:31.0846631+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d9b6f52-986e-40ca-adfc-7cceed4266ce" />
+    <UnitTestResult executionId="44e31db7-f1fb-4c73-95ab-4c2d79ced5eb" testId="36011a8f-294e-b730-ef6b-ecc225a42632" testName="WithHttpContent_ShouldRaiseArgumentNullException_WhenRequestIsNull" computerName="DKSR-EFI-04" duration="00:00:00.0008336" startTime="2023-12-22T09:34:30.8659126+01:00" endTime="2023-12-22T09:34:30.8659126+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="44e31db7-f1fb-4c73-95ab-4c2d79ced5eb" />
+    <UnitTestResult executionId="0855ce3d-a756-4f76-8a95-ff43c5e2ad87" testId="0e098f51-6bfb-6254-88f6-69a63516c107" testName="GetResourceKey_ShouldShouldRaiseArgumentException_WhenResourceKeyDoesNotStartWithTranslationPrefix" computerName="DKSR-EFI-04" duration="00:00:00.0008962" startTime="2023-12-22T09:34:31.1002883+01:00" endTime="2023-12-22T09:34:31.1002883+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0855ce3d-a756-4f76-8a95-ff43c5e2ad87" />
+    <UnitTestResult executionId="8ed456df-8931-4560-a134-8e0ef0ed799f" testId="12b6b4c5-558f-4556-8e32-b9f943dadf1f" testName="GetResourceKey_ShouldShouldReturnResourceKey_WhenResourceKeyIsSetAfterTranslationPrefix" computerName="DKSR-EFI-04" duration="00:00:00.0008817" startTime="2023-12-22T09:34:31.1002883+01:00" endTime="2023-12-22T09:34:31.1002883+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ed456df-8931-4560-a134-8e0ef0ed799f" />
+    <UnitTestResult executionId="c3fc7044-41c1-4dda-a48c-cc79e476b6ae" testId="c5bfe85f-9ef4-2f43-66ac-cb06a74612af" testName="GetResourceKey_ShouldShouldRaiseArgumentException_WhenResourceKeyIsNotSetAfterTranslationPrefix" computerName="DKSR-EFI-04" duration="00:00:00.0004694" startTime="2023-12-22T09:34:31.1002883+01:00" endTime="2023-12-22T09:34:31.1002883+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c3fc7044-41c1-4dda-a48c-cc79e476b6ae" />
+    <UnitTestResult executionId="ee05ac10-2e3a-4b78-ac18-2dc329299809" testId="334aa2e0-5e5f-738b-fa0e-fd8d50c07cd3" testName="VideoOsIMCommonDtoMetadata_ShouldBeEqualTo_VersionControlMetadata" computerName="DKSR-EFI-04" duration="00:00:00.0050396" startTime="2023-12-22T09:34:31.0690382+01:00" endTime="2023-12-22T09:34:31.0846631+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee05ac10-2e3a-4b78-ac18-2dc329299809" />
+    <UnitTestResult executionId="7489ae6e-2f2a-4023-a851-349e884c31ab" testId="62ca28ce-5683-f70c-ebe1-cdf9c4f52a4f" testName="WithHttpContent_ShouldSetContent_WhenRequestIsNotNull" computerName="DKSR-EFI-04" duration="00:00:00.2061522" startTime="2023-12-22T09:34:30.8659126+01:00" endTime="2023-12-22T09:34:31.0690382+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7489ae6e-2f2a-4023-a851-349e884c31ab" />
+    <UnitTestResult executionId="54b6e31c-fed9-4db6-9d17-a729af9fe5bd" testId="a0f1972b-c0ca-afef-4c04-f306b4e452a5" testName="WithBearerToken_ShouldRaiseArgumentNullException_WhenAccessTokenIsNull" computerName="DKSR-EFI-04" duration="00:00:00.0016033" startTime="2023-12-22T09:34:30.8502891+01:00" endTime="2023-12-22T09:34:30.8502891+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="54b6e31c-fed9-4db6-9d17-a729af9fe5bd" />
+    <UnitTestResult executionId="d0853922-dda6-4d34-97b0-d8d7b8d0b7f5" testId="4634b0d0-f0a2-5860-69fd-ab3291cb93cb" testName="WithHttpMethod_ShouldSetUri_WhenUriIsNotNull" computerName="DKSR-EFI-04" duration="00:00:00.0012573" startTime="2023-12-22T09:34:30.8502891+01:00" endTime="2023-12-22T09:34:30.8502891+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0853922-dda6-4d34-97b0-d8d7b8d0b7f5" />
+    <UnitTestResult executionId="6f0126c3-4409-41c8-a723-054bd645df18" testId="f48bc468-5a05-2e63-724a-4cc25f561622" testName="CanBeLocalized_ShouldReturnTrue_WhenStartingWithTranslationPrefix" computerName="DKSR-EFI-04" duration="00:00:00.0008953" startTime="2023-12-22T09:34:31.1002883+01:00" endTime="2023-12-22T09:34:31.1002883+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f0126c3-4409-41c8-a723-054bd645df18" />
+    <UnitTestResult executionId="56bdf205-a090-407f-9c4c-5f3bc6e7811a" testId="03a10e52-2ac4-c9dd-2291-00af7367882d" testName="WithBearerToken_ShouldSetAuthorizationHeader_WhenAccessTokenIsNotNull" computerName="DKSR-EFI-04" duration="00:00:00.0098500" startTime="2023-12-22T09:34:30.8502891+01:00" endTime="2023-12-22T09:34:30.8659126+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56bdf205-a090-407f-9c4c-5f3bc6e7811a" />
+    <UnitTestResult executionId="79096e89-56ad-4773-872a-33f8b3083038" testId="b5a1fbcf-7935-09d8-0518-ba88272fd57c" testName="VideoOsIMCommonServiceMetadata_ShouldBeEqualTo_VersionControlMetadata" computerName="DKSR-EFI-04" duration="00:00:00.0006972" startTime="2023-12-22T09:34:31.0846631+01:00" endTime="2023-12-22T09:34:31.0846631+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="79096e89-56ad-4773-872a-33f8b3083038" />
+    <UnitTestResult executionId="6c74b79c-4574-4604-bc12-b819b3b69576" testId="bbfc7bac-875f-37ca-aba8-2300ce181699" testName="WithHttpMethod_ShouldRaiseArgumentNullException_WhenHttpMethodIsNull" computerName="DKSR-EFI-04" duration="00:00:00.0025177" startTime="2023-12-22T09:34:30.8502891+01:00" endTime="2023-12-22T09:34:30.8502891+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6c74b79c-4574-4604-bc12-b819b3b69576" />
+    <UnitTestResult executionId="c306b46d-7402-416f-acdc-2107ebb596f4" testId="a18728af-b2fa-2f7e-cb55-90b6097a74cc" testName="WithHttpUri_ShouldRaiseArgumentNullException_WhenUriIsNull" computerName="DKSR-EFI-04" duration="00:00:00.0404596" startTime="2023-12-22T09:34:30.6784127+01:00" endTime="2023-12-22T09:34:30.8034112+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c306b46d-7402-416f-acdc-2107ebb596f4" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="WithHttpMethod_ShouldRaiseArgumentNullException_WhenHttpMethodIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\common\tst\videoos.im.common.unittest\bin\debug\videoos.im.common.unittest.dll" id="bbfc7bac-875f-37ca-aba8-2300ce181699">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Common.UnitTest.Service.Builders" />
+      </TestCategory>
+      <Execution id="6c74b79c-4574-4604-bc12-b819b3b69576" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Common\tst\VideoOS.IM.Common.UnitTest\bin\Debug\VideoOS.IM.Common.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Common.UnitTest.Service.Builders.HttpRequestMessages.HttpRequestMessageBuilderTests" name="WithHttpMethod_ShouldRaiseArgumentNullException_WhenHttpMethodIsNull" />
+    </UnitTest>
+    <UnitTest name="VideoOsIMCommonServiceMetadata_ShouldBeEqualTo_VersionControlMetadata" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\common\tst\videoos.im.common.unittest\bin\debug\videoos.im.common.unittest.dll" id="b5a1fbcf-7935-09d8-0518-ba88272fd57c">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Common.UnitTest.Metadata" />
+      </TestCategory>
+      <Execution id="79096e89-56ad-4773-872a-33f8b3083038" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Common\tst\VideoOS.IM.Common.UnitTest\bin\Debug\VideoOS.IM.Common.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Common.UnitTest.Metadata.CommonMetadataTests" name="VideoOsIMCommonServiceMetadata_ShouldBeEqualTo_VersionControlMetadata" />
+    </UnitTest>
+    <UnitTest name="WithBearerToken_ShouldRaiseArgumentNullException_WhenAccessTokenIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\common\tst\videoos.im.common.unittest\bin\debug\videoos.im.common.unittest.dll" id="a0f1972b-c0ca-afef-4c04-f306b4e452a5">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Common.UnitTest.Service.Builders" />
+      </TestCategory>
+      <Execution id="54b6e31c-fed9-4db6-9d17-a729af9fe5bd" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Common\tst\VideoOS.IM.Common.UnitTest\bin\Debug\VideoOS.IM.Common.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Common.UnitTest.Service.Builders.HttpRequestMessages.HttpRequestMessageBuilderTests" name="WithBearerToken_ShouldRaiseArgumentNullException_WhenAccessTokenIsNull" />
+    </UnitTest>
+    <UnitTest name="GetResourceKey_ShouldShouldRaiseArgumentException_WhenResourceKeyDoesNotStartWithTranslationPrefix" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\common\tst\videoos.im.common.unittest\bin\debug\videoos.im.common.unittest.dll" id="0e098f51-6bfb-6254-88f6-69a63516c107">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Common.UnitTest.GlobalDefinitions.Utilities" />
+      </TestCategory>
+      <Execution id="0855ce3d-a756-4f76-8a95-ff43c5e2ad87" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Common\tst\VideoOS.IM.Common.UnitTest\bin\Debug\VideoOS.IM.Common.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Common.UnitTest.GlobalDefinitions.Utilities.ExtensionsTests" name="GetResourceKey_ShouldShouldRaiseArgumentException_WhenResourceKeyDoesNotStartWithTranslationPrefix" />
+    </UnitTest>
+    <UnitTest name="WithHttpUri_ShouldSetUri_WhenUriIsNotNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\common\tst\videoos.im.common.unittest\bin\debug\videoos.im.common.unittest.dll" id="cfcd2b52-5534-22ea-6468-97f1c6719cb8">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Common.UnitTest.Service.Builders" />
+      </TestCategory>
+      <Execution id="42e0798e-c02a-4584-9be5-f96033fc5137" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Common\tst\VideoOS.IM.Common.UnitTest\bin\Debug\VideoOS.IM.Common.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Common.UnitTest.Service.Builders.HttpRequestMessages.HttpRequestMessageBuilderTests" name="WithHttpUri_ShouldSetUri_WhenUriIsNotNull" />
+    </UnitTest>
+    <UnitTest name="WithHttpContent_ShouldSetContent_WhenRequestIsNotNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\common\tst\videoos.im.common.unittest\bin\debug\videoos.im.common.unittest.dll" id="62ca28ce-5683-f70c-ebe1-cdf9c4f52a4f">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Common.UnitTest.Service.Builders" />
+      </TestCategory>
+      <Execution id="7489ae6e-2f2a-4023-a851-349e884c31ab" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Common\tst\VideoOS.IM.Common.UnitTest\bin\Debug\VideoOS.IM.Common.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Common.UnitTest.Service.Builders.HttpRequestMessages.HttpRequestMessageBuilderTests" name="WithHttpContent_ShouldSetContent_WhenRequestIsNotNull" />
+    </UnitTest>
+    <UnitTest name="CanBeLocalized_ShouldReturnTrue_WhenStartingWithTranslationPrefix" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\common\tst\videoos.im.common.unittest\bin\debug\videoos.im.common.unittest.dll" id="f48bc468-5a05-2e63-724a-4cc25f561622">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Common.UnitTest.GlobalDefinitions.Utilities" />
+      </TestCategory>
+      <Execution id="6f0126c3-4409-41c8-a723-054bd645df18" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Common\tst\VideoOS.IM.Common.UnitTest\bin\Debug\VideoOS.IM.Common.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Common.UnitTest.GlobalDefinitions.Utilities.ExtensionsTests" name="CanBeLocalized_ShouldReturnTrue_WhenStartingWithTranslationPrefix" />
+    </UnitTest>
+    <UnitTest name="WithBearerToken_ShouldSetAuthorizationHeader_WhenAccessTokenIsNotNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\common\tst\videoos.im.common.unittest\bin\debug\videoos.im.common.unittest.dll" id="03a10e52-2ac4-c9dd-2291-00af7367882d">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Common.UnitTest.Service.Builders" />
+      </TestCategory>
+      <Execution id="56bdf205-a090-407f-9c4c-5f3bc6e7811a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Common\tst\VideoOS.IM.Common.UnitTest\bin\Debug\VideoOS.IM.Common.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Common.UnitTest.Service.Builders.HttpRequestMessages.HttpRequestMessageBuilderTests" name="WithBearerToken_ShouldSetAuthorizationHeader_WhenAccessTokenIsNotNull" />
+    </UnitTest>
+    <UnitTest name="WithHttpUri_ShouldRaiseArgumentNullException_WhenUriIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\common\tst\videoos.im.common.unittest\bin\debug\videoos.im.common.unittest.dll" id="a18728af-b2fa-2f7e-cb55-90b6097a74cc">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Common.UnitTest.Service.Builders" />
+      </TestCategory>
+      <Execution id="c306b46d-7402-416f-acdc-2107ebb596f4" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Common\tst\VideoOS.IM.Common.UnitTest\bin\Debug\VideoOS.IM.Common.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Common.UnitTest.Service.Builders.HttpRequestMessages.HttpRequestMessageBuilderTests" name="WithHttpUri_ShouldRaiseArgumentNullException_WhenUriIsNull" />
+    </UnitTest>
+    <UnitTest name="VideoOsIMCommonGlobalDefinitionsMetadata_ShouldBeEqualTo_VersionControlMetadata" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\common\tst\videoos.im.common.unittest\bin\debug\videoos.im.common.unittest.dll" id="b36a218f-57ea-64e2-574b-7acc5fa5e784">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Common.UnitTest.Metadata" />
+      </TestCategory>
+      <Execution id="3d9b6f52-986e-40ca-adfc-7cceed4266ce" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Common\tst\VideoOS.IM.Common.UnitTest\bin\Debug\VideoOS.IM.Common.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Common.UnitTest.Metadata.CommonMetadataTests" name="VideoOsIMCommonGlobalDefinitionsMetadata_ShouldBeEqualTo_VersionControlMetadata" />
+    </UnitTest>
+    <UnitTest name="GetResourceKey_ShouldShouldRaiseArgumentException_WhenResourceKeyIsNotSetAfterTranslationPrefix" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\common\tst\videoos.im.common.unittest\bin\debug\videoos.im.common.unittest.dll" id="c5bfe85f-9ef4-2f43-66ac-cb06a74612af">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Common.UnitTest.GlobalDefinitions.Utilities" />
+      </TestCategory>
+      <Execution id="c3fc7044-41c1-4dda-a48c-cc79e476b6ae" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Common\tst\VideoOS.IM.Common.UnitTest\bin\Debug\VideoOS.IM.Common.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Common.UnitTest.GlobalDefinitions.Utilities.ExtensionsTests" name="GetResourceKey_ShouldShouldRaiseArgumentException_WhenResourceKeyIsNotSetAfterTranslationPrefix" />
+    </UnitTest>
+    <UnitTest name="WithHttpMethod_ShouldSetUri_WhenUriIsNotNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\common\tst\videoos.im.common.unittest\bin\debug\videoos.im.common.unittest.dll" id="4634b0d0-f0a2-5860-69fd-ab3291cb93cb">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Common.UnitTest.Service.Builders" />
+      </TestCategory>
+      <Execution id="d0853922-dda6-4d34-97b0-d8d7b8d0b7f5" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Common\tst\VideoOS.IM.Common.UnitTest\bin\Debug\VideoOS.IM.Common.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Common.UnitTest.Service.Builders.HttpRequestMessages.HttpRequestMessageBuilderTests" name="WithHttpMethod_ShouldSetUri_WhenUriIsNotNull" />
+    </UnitTest>
+    <UnitTest name="GetResourceKey_ShouldShouldReturnResourceKey_WhenResourceKeyIsSetAfterTranslationPrefix" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\common\tst\videoos.im.common.unittest\bin\debug\videoos.im.common.unittest.dll" id="12b6b4c5-558f-4556-8e32-b9f943dadf1f">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Common.UnitTest.GlobalDefinitions.Utilities" />
+      </TestCategory>
+      <Execution id="8ed456df-8931-4560-a134-8e0ef0ed799f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Common\tst\VideoOS.IM.Common.UnitTest\bin\Debug\VideoOS.IM.Common.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Common.UnitTest.GlobalDefinitions.Utilities.ExtensionsTests" name="GetResourceKey_ShouldShouldReturnResourceKey_WhenResourceKeyIsSetAfterTranslationPrefix" />
+    </UnitTest>
+    <UnitTest name="VideoOsIMCommonDtoMetadata_ShouldBeEqualTo_VersionControlMetadata" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\common\tst\videoos.im.common.unittest\bin\debug\videoos.im.common.unittest.dll" id="334aa2e0-5e5f-738b-fa0e-fd8d50c07cd3">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Common.UnitTest.Metadata" />
+      </TestCategory>
+      <Execution id="ee05ac10-2e3a-4b78-ac18-2dc329299809" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Common\tst\VideoOS.IM.Common.UnitTest\bin\Debug\VideoOS.IM.Common.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Common.UnitTest.Metadata.CommonMetadataTests" name="VideoOsIMCommonDtoMetadata_ShouldBeEqualTo_VersionControlMetadata" />
+    </UnitTest>
+    <UnitTest name="WithHttpContent_ShouldRaiseArgumentNullException_WhenRequestIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\common\tst\videoos.im.common.unittest\bin\debug\videoos.im.common.unittest.dll" id="36011a8f-294e-b730-ef6b-ecc225a42632">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Common.UnitTest.Service.Builders" />
+      </TestCategory>
+      <Execution id="44e31db7-f1fb-4c73-95ab-4c2d79ced5eb" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Common\tst\VideoOS.IM.Common.UnitTest\bin\Debug\VideoOS.IM.Common.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Common.UnitTest.Service.Builders.HttpRequestMessages.HttpRequestMessageBuilderTests" name="WithHttpContent_ShouldRaiseArgumentNullException_WhenRequestIsNull" />
+    </UnitTest>
+    <UnitTest name="CanBeLocalized_ShouldReturnFalse_WhenNotStartingWithTranslationPrefix" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\common\tst\videoos.im.common.unittest\bin\debug\videoos.im.common.unittest.dll" id="42652b4c-86ff-f9a8-6315-ee25d95acd59">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Common.UnitTest.GlobalDefinitions.Utilities" />
+      </TestCategory>
+      <Execution id="310251c4-7c6c-42c7-b2cd-1d24f7deba10" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Common\tst\VideoOS.IM.Common.UnitTest\bin\Debug\VideoOS.IM.Common.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Common.UnitTest.GlobalDefinitions.Utilities.ExtensionsTests" name="CanBeLocalized_ShouldReturnFalse_WhenNotStartingWithTranslationPrefix" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="42652b4c-86ff-f9a8-6315-ee25d95acd59" executionId="310251c4-7c6c-42c7-b2cd-1d24f7deba10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cfcd2b52-5534-22ea-6468-97f1c6719cb8" executionId="42e0798e-c02a-4584-9be5-f96033fc5137" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b36a218f-57ea-64e2-574b-7acc5fa5e784" executionId="3d9b6f52-986e-40ca-adfc-7cceed4266ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="36011a8f-294e-b730-ef6b-ecc225a42632" executionId="44e31db7-f1fb-4c73-95ab-4c2d79ced5eb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0e098f51-6bfb-6254-88f6-69a63516c107" executionId="0855ce3d-a756-4f76-8a95-ff43c5e2ad87" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="12b6b4c5-558f-4556-8e32-b9f943dadf1f" executionId="8ed456df-8931-4560-a134-8e0ef0ed799f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c5bfe85f-9ef4-2f43-66ac-cb06a74612af" executionId="c3fc7044-41c1-4dda-a48c-cc79e476b6ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="334aa2e0-5e5f-738b-fa0e-fd8d50c07cd3" executionId="ee05ac10-2e3a-4b78-ac18-2dc329299809" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="62ca28ce-5683-f70c-ebe1-cdf9c4f52a4f" executionId="7489ae6e-2f2a-4023-a851-349e884c31ab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a0f1972b-c0ca-afef-4c04-f306b4e452a5" executionId="54b6e31c-fed9-4db6-9d17-a729af9fe5bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4634b0d0-f0a2-5860-69fd-ab3291cb93cb" executionId="d0853922-dda6-4d34-97b0-d8d7b8d0b7f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f48bc468-5a05-2e63-724a-4cc25f561622" executionId="6f0126c3-4409-41c8-a723-054bd645df18" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="03a10e52-2ac4-c9dd-2291-00af7367882d" executionId="56bdf205-a090-407f-9c4c-5f3bc6e7811a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b5a1fbcf-7935-09d8-0518-ba88272fd57c" executionId="79096e89-56ad-4773-872a-33f8b3083038" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bbfc7bac-875f-37ca-aba8-2300ce181699" executionId="6c74b79c-4574-4604-bc12-b819b3b69576" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a18728af-b2fa-2f7e-cb55-90b6097a74cc" executionId="c306b46d-7402-416f-acdc-2107ebb596f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="16" executed="16" passed="16" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

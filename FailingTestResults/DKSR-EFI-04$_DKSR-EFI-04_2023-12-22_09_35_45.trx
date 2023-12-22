@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="b6a67e32-db73-4a5f-a322-9880c618c8de" name="DKSR-EFI-04$@DKSR-EFI-04 2023-12-22 09:35:45" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-12-22T09:35:45.8037966+01:00" queuing="2023-12-22T09:35:45.8037966+01:00" start="2023-12-22T09:35:44.3037911+01:00" finish="2023-12-22T09:35:45.8506743+01:00" />
+  <TestSettings name="default" id="8b07e7d1-3e45-4aa2-a266-ddd3c53e16e8">
+    <Deployment runDeploymentRoot="DKSR-EFI-04$_DKSR-EFI-04_2023-12-22_09_35_45" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="b475893b-3a4f-45e5-9994-925401437023" testId="862e120d-fba7-eafa-0bdc-7e573287b03d" testName="HandleCheckBoxChanged_ShouldMarkCheckBoxAndDescendants_WhenParentCheckBoxIsChecked" computerName="DKSR-EFI-04" duration="00:00:00.2514349" startTime="2023-12-22T09:35:45.2256737+01:00" endTime="2023-12-22T09:35:45.4756723+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b475893b-3a4f-45e5-9994-925401437023" />
+    <UnitTestResult executionId="83c4253e-c780-4739-b828-e9d2aec6dd4b" testId="d42c0a23-1f91-3172-6326-bd5b14e491f5" testName="ProcessingServerPluginMetadata_ShouldMatchCurrentBuildAssemblyVersion_WhenIsLoaded" computerName="DKSR-EFI-04" duration="00:00:00.0839911" startTime="2023-12-22T09:35:45.0069208+01:00" endTime="2023-12-22T09:35:45.1631717+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83c4253e-c780-4739-b828-e9d2aec6dd4b" />
+    <UnitTestResult executionId="ba58f07d-eacb-40de-b18f-25de919a248d" testId="ea630910-dc6e-b4a2-64a2-e487f84c86f6" testName="HandleCheckBoxChanged_ShouldRaiseArgumentNullException_WhenNodeCheckBoxIsNull" computerName="DKSR-EFI-04" duration="00:00:00.0176086" startTime="2023-12-22T09:35:45.1787967+01:00" endTime="2023-12-22T09:35:45.2100475+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba58f07d-eacb-40de-b18f-25de919a248d" />
+    <UnitTestResult executionId="7bf10267-a910-472c-9e87-6547368db696" testId="7289c3cc-1f7e-60ee-6048-8fd92a58a24c" testName="HandleCheckBoxChanged_ShouldUncheckParentCheckBox_WhenChildGetsUnchecked" computerName="DKSR-EFI-04" duration="00:00:00.0042801" startTime="2023-12-22T09:35:45.4756723+01:00" endTime="2023-12-22T09:35:45.4912973+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7bf10267-a910-472c-9e87-6547368db696" />
+    <UnitTestResult executionId="a7350fef-d33f-4c53-a960-f9c8b2b2a35d" testId="f220c80f-6de8-fd2d-f06e-9890c3fb0633" testName="HandleCheckBoxChanged_ShouldUncheckAscendantCheckBox_WhenDescendantGetsUnchecked" computerName="DKSR-EFI-04" duration="00:00:00.0056237" startTime="2023-12-22T09:35:45.4912973+01:00" endTime="2023-12-22T09:35:45.4912973+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a7350fef-d33f-4c53-a960-f9c8b2b2a35d" />
+    <UnitTestResult executionId="4785b35e-7bd0-45fe-be08-cd9886374093" testId="0db611d4-7c36-ba91-5aa3-87c7ffec8af0" testName="HandleCheckBoxChanged_ShouldRaiseArgumentNullException_WhenTreeNodeAdvIsNull" computerName="DKSR-EFI-04" duration="00:00:00.0280890" startTime="2023-12-22T09:35:45.2100475+01:00" endTime="2023-12-22T09:35:45.2256737+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4785b35e-7bd0-45fe-be08-cd9886374093" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="HandleCheckBoxChanged_ShouldUncheckParentCheckBox_WhenChildGetsUnchecked" storage="d:\actions-runner\_work\xpco\xpco\processingserver\mipplugins\admin\binaries\tst\unittest\bin\debug\videoos.processingserver.plugin.admin.unittest.dll" id="7289c3cc-1f7e-60ee-6048-8fd92a58a24c">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.ProcessingServer.Plugin.Admin.UnitTest.Admin.UI.Treeview" />
+      </TestCategory>
+      <Execution id="7bf10267-a910-472c-9e87-6547368db696" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\ProcessingServer\MipPlugins\Admin\Binaries\tst\UnitTest\bin\Debug\VideoOS.ProcessingServer.Plugin.Admin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.ProcessingServer.Plugin.Admin.UnitTest.Admin.UI.TreeView.CheckboxControllerTests" name="HandleCheckBoxChanged_ShouldUncheckParentCheckBox_WhenChildGetsUnchecked" />
+    </UnitTest>
+    <UnitTest name="HandleCheckBoxChanged_ShouldRaiseArgumentNullException_WhenTreeNodeAdvIsNull" storage="d:\actions-runner\_work\xpco\xpco\processingserver\mipplugins\admin\binaries\tst\unittest\bin\debug\videoos.processingserver.plugin.admin.unittest.dll" id="0db611d4-7c36-ba91-5aa3-87c7ffec8af0">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.ProcessingServer.Plugin.Admin.UnitTest.Admin.UI.Treeview" />
+      </TestCategory>
+      <Execution id="4785b35e-7bd0-45fe-be08-cd9886374093" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\ProcessingServer\MipPlugins\Admin\Binaries\tst\UnitTest\bin\Debug\VideoOS.ProcessingServer.Plugin.Admin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.ProcessingServer.Plugin.Admin.UnitTest.Admin.UI.TreeView.CheckboxControllerTests" name="HandleCheckBoxChanged_ShouldRaiseArgumentNullException_WhenTreeNodeAdvIsNull" />
+    </UnitTest>
+    <UnitTest name="HandleCheckBoxChanged_ShouldRaiseArgumentNullException_WhenNodeCheckBoxIsNull" storage="d:\actions-runner\_work\xpco\xpco\processingserver\mipplugins\admin\binaries\tst\unittest\bin\debug\videoos.processingserver.plugin.admin.unittest.dll" id="ea630910-dc6e-b4a2-64a2-e487f84c86f6">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.ProcessingServer.Plugin.Admin.UnitTest.Admin.UI.Treeview" />
+      </TestCategory>
+      <Execution id="ba58f07d-eacb-40de-b18f-25de919a248d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\ProcessingServer\MipPlugins\Admin\Binaries\tst\UnitTest\bin\Debug\VideoOS.ProcessingServer.Plugin.Admin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.ProcessingServer.Plugin.Admin.UnitTest.Admin.UI.TreeView.CheckboxControllerTests" name="HandleCheckBoxChanged_ShouldRaiseArgumentNullException_WhenNodeCheckBoxIsNull" />
+    </UnitTest>
+    <UnitTest name="ProcessingServerPluginMetadata_ShouldMatchCurrentBuildAssemblyVersion_WhenIsLoaded" storage="d:\actions-runner\_work\xpco\xpco\processingserver\mipplugins\admin\binaries\tst\unittest\bin\debug\videoos.processingserver.plugin.admin.unittest.dll" id="d42c0a23-1f91-3172-6326-bd5b14e491f5">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.ProcessingServer.Plugin.MetadataTests" />
+      </TestCategory>
+      <Execution id="83c4253e-c780-4739-b828-e9d2aec6dd4b" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\ProcessingServer\MipPlugins\Admin\Binaries\tst\UnitTest\bin\Debug\VideoOS.ProcessingServer.Plugin.Admin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.ProcessingServer.Plugin.Admin.UnitTest.MetadataTests.PluginMetadataTests" name="ProcessingServerPluginMetadata_ShouldMatchCurrentBuildAssemblyVersion_WhenIsLoaded" />
+    </UnitTest>
+    <UnitTest name="HandleCheckBoxChanged_ShouldUncheckAscendantCheckBox_WhenDescendantGetsUnchecked" storage="d:\actions-runner\_work\xpco\xpco\processingserver\mipplugins\admin\binaries\tst\unittest\bin\debug\videoos.processingserver.plugin.admin.unittest.dll" id="f220c80f-6de8-fd2d-f06e-9890c3fb0633">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.ProcessingServer.Plugin.Admin.UnitTest.Admin.UI.Treeview" />
+      </TestCategory>
+      <Execution id="a7350fef-d33f-4c53-a960-f9c8b2b2a35d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\ProcessingServer\MipPlugins\Admin\Binaries\tst\UnitTest\bin\Debug\VideoOS.ProcessingServer.Plugin.Admin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.ProcessingServer.Plugin.Admin.UnitTest.Admin.UI.TreeView.CheckboxControllerTests" name="HandleCheckBoxChanged_ShouldUncheckAscendantCheckBox_WhenDescendantGetsUnchecked" />
+    </UnitTest>
+    <UnitTest name="HandleCheckBoxChanged_ShouldMarkCheckBoxAndDescendants_WhenParentCheckBoxIsChecked" storage="d:\actions-runner\_work\xpco\xpco\processingserver\mipplugins\admin\binaries\tst\unittest\bin\debug\videoos.processingserver.plugin.admin.unittest.dll" id="862e120d-fba7-eafa-0bdc-7e573287b03d">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.ProcessingServer.Plugin.Admin.UnitTest.Admin.UI.Treeview" />
+      </TestCategory>
+      <Execution id="b475893b-3a4f-45e5-9994-925401437023" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\ProcessingServer\MipPlugins\Admin\Binaries\tst\UnitTest\bin\Debug\VideoOS.ProcessingServer.Plugin.Admin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.ProcessingServer.Plugin.Admin.UnitTest.Admin.UI.TreeView.CheckboxControllerTests" name="HandleCheckBoxChanged_ShouldMarkCheckBoxAndDescendants_WhenParentCheckBoxIsChecked" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="862e120d-fba7-eafa-0bdc-7e573287b03d" executionId="b475893b-3a4f-45e5-9994-925401437023" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d42c0a23-1f91-3172-6326-bd5b14e491f5" executionId="83c4253e-c780-4739-b828-e9d2aec6dd4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ea630910-dc6e-b4a2-64a2-e487f84c86f6" executionId="ba58f07d-eacb-40de-b18f-25de919a248d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7289c3cc-1f7e-60ee-6048-8fd92a58a24c" executionId="7bf10267-a910-472c-9e87-6547368db696" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f220c80f-6de8-fd2d-f06e-9890c3fb0633" executionId="a7350fef-d33f-4c53-a960-f9c8b2b2a35d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0db611d4-7c36-ba91-5aa3-87c7ffec8af0" executionId="4785b35e-7bd0-45fe-be08-cd9886374093" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

@@ -1,0 +1,756 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="6baed96f-e925-4fa2-9754-4702b318e093" name="DKSR-EFI-04$@DKSR-EFI-04 2023-12-22 09:36:50" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-12-22T09:36:50.0228915+01:00" queuing="2023-12-22T09:36:50.0228915+01:00" start="2023-12-22T09:36:47.4603790+01:00" finish="2023-12-22T09:37:17.2105373+01:00" />
+  <TestSettings name="default" id="2f4cb5d7-0660-41e2-930f-135b00bb0f27">
+    <Deployment runDeploymentRoot="DKSR-EFI-04$_DKSR-EFI-04_2023-12-22_09_36_50" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="e2c83a98-83fc-4790-aa53-342964144d87" testId="65bbabd0-1aa6-9abd-2678-07f395504fe6" testName="CreateThenUpgradeInCorrectOrder" computerName="DKSR-EFI-04" duration="00:00:01.9577083" startTime="2023-12-22T09:37:07.7181917+01:00" endTime="2023-12-22T09:37:09.6761269+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2c83a98-83fc-4790-aa53-342964144d87">
+      <Output>
+        <StdOut>Executing Baseline scripts&#xD;
+Script content has been replaced. Key: {NewDatabaseLicenseTlsData}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Baseline scripts have been executed&#xD;
+&#xD;
+Retrieving all sql files from: SomePath; Current DB version: 23.3.8&#xD;
+2 sql files found.&#xD;
+Retrieving all sql files from: SomePath\Temp&#xD;
+0 sql files found.&#xD;
+Retrieving all sql files from: SomePath\StoredProcedures&#xD;
+0 sql files found.&#xD;
+System table set to version: 51.1.1&#xD;
+&#xD;
+System table set to version: 55.3.9</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1cc91510-eb51-4f48-8a4b-8c775942ef71" testId="b608d459-68f8-4b17-c569-7ce8de19aa3a" testName="Constructor_DatabaseVersionProviderFactory_Null_Throws_ArgumentNullException" computerName="DKSR-EFI-04" duration="00:00:00.0003282" startTime="2023-12-22T09:37:17.0058998+01:00" endTime="2023-12-22T09:37:17.0063001+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1cc91510-eb51-4f48-8a4b-8c775942ef71" />
+    <UnitTestResult executionId="81df4740-28fa-4824-ada9-36fa341feba5" testId="ac9ae4b8-5b59-bf17-6036-8874e550ac26" testName="CreateVmsDatabase" computerName="DKSR-EFI-04" duration="00:00:03.0314533" startTime="2023-12-22T09:36:48.8983652+01:00" endTime="2023-12-22T09:36:51.9302370+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="81df4740-28fa-4824-ada9-36fa341feba5">
+      <Output>
+        <StdOut>Executing Baseline scripts&#xD;
+Script content has been replaced. Key: {NewDatabaseLicenseTlsData}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Baseline scripts have been executed&#xD;
+&#xD;
+Retrieving all sql files from: ; Current DB version: 23.3.8&#xD;
+0 sql files found.&#xD;
+Retrieving all sql files from: Temp&#xD;
+0 sql files found.&#xD;
+Retrieving all sql files from: StoredProcedures&#xD;
+0 sql files found.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b729dbfc-a391-4761-b7f2-19b7d76bd206" testId="79591c70-394d-9f25-62b4-ef18405cf903" testName="IsReadyToExecute_UpdateScenario_DatabaseExistsButShouldBeDeleted_ShouldSkipVersionAndProductValidation" computerName="DKSR-EFI-04" duration="00:00:00.0035726" startTime="2023-12-22T09:37:17.0246349+01:00" endTime="2023-12-22T09:37:17.0283038+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b729dbfc-a391-4761-b7f2-19b7d76bd206" />
+    <UnitTestResult executionId="8a72d3f0-67c6-4907-a870-9c0a71189bd5" testId="75405596-547d-3d11-b42a-a99c32d62adb" testName="Constructor_AppConfigProvider_Null_Throws_ArgumentNullException" computerName="DKSR-EFI-04" duration="00:00:00.0003684" startTime="2023-12-22T09:37:17.0029874+01:00" endTime="2023-12-22T09:37:17.0034643+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a72d3f0-67c6-4907-a870-9c0a71189bd5" />
+    <UnitTestResult executionId="5ba75619-c7ca-4d34-b9ae-b7549ac1b712" testId="a0f9c482-e7b2-3a3d-cfcc-2dcdd4040ff9" testName="Get_GivenIsExternallyManagedDbArg_ShouldReturnCorrectAppConfig" computerName="DKSR-EFI-04" duration="00:00:00.0023064" startTime="2023-12-22T09:37:17.1325678+01:00" endTime="2023-12-22T09:37:17.1349465+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ba75619-c7ca-4d34-b9ae-b7549ac1b712" />
+    <UnitTestResult executionId="97052485-7e07-4928-95c5-914ccb370c9c" testId="6099c9de-e2d2-7cf0-1838-8a8cc1758227" testName="GetLogLevel_DebugLogLevel_Success" computerName="DKSR-EFI-04" duration="00:00:00.0038580" startTime="2023-12-22T09:37:17.1071273+01:00" endTime="2023-12-22T09:37:17.1110744+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="97052485-7e07-4928-95c5-914ccb370c9c" />
+    <UnitTestResult executionId="33e7063b-7762-4ce3-9497-e5d81117d488" testId="7cf895a2-7f92-0c2a-94f7-77225e4e367a" testName="Constructor_DbOperations_Null_Throws_ArgumentNullException" computerName="DKSR-EFI-04" duration="00:00:00.0003801" startTime="2023-12-22T09:37:17.0039602+01:00" endTime="2023-12-22T09:37:17.0044206+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="33e7063b-7762-4ce3-9497-e5d81117d488" />
+    <UnitTestResult executionId="1ea368c2-5357-4ca5-9862-3caf0555f906" testId="c88add81-88bd-8ea9-989f-db2dfc287771" testName="CreateEmbedded_GivenExistingScriptName_ShouldReturnValidScript" computerName="DKSR-EFI-04" duration="00:00:00.0010633" startTime="2023-12-22T09:37:17.0477050+01:00" endTime="2023-12-22T09:37:17.0488413+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1ea368c2-5357-4ca5-9862-3caf0555f906" />
+    <UnitTestResult executionId="626ae882-b566-4edb-ad7e-21fefa487296" testId="064429b8-a5d8-3b48-d5a4-fc74fc62b102" testName="Get_GivenNotSupportedCommandLineArg_ShouldLogAndReturnNull" computerName="DKSR-EFI-04" duration="00:00:00.0015300" startTime="2023-12-22T09:37:17.1246527+01:00" endTime="2023-12-22T09:37:17.1262648+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="626ae882-b566-4edb-ad7e-21fefa487296" />
+    <UnitTestResult executionId="de44c05a-5e86-4801-aabb-d29166d29871" testId="afc650e6-c5e7-eca3-c24e-cf8137610992" testName="Create_GivenScriptWithoutTransactionComment_ShouldReturnScriptWithDefaultTransactionSupport" computerName="DKSR-EFI-04" duration="00:00:00.0017161" startTime="2023-12-22T09:37:17.0326696+01:00" endTime="2023-12-22T09:37:17.0344772+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="de44c05a-5e86-4801-aabb-d29166d29871" />
+    <UnitTestResult executionId="b268a2c9-1ccd-4771-9a29-e99d730b6615" testId="af31b27d-5c61-fbc3-1ed2-e579eca71705" testName="IsReadyToExecute_UpdateScenario_CurrentDbVersionLowerThanMinimumSupportedVersion_ShouldLogAndReturnFalse" computerName="DKSR-EFI-04" duration="00:00:00.0066437" startTime="2023-12-22T09:37:17.0084269+01:00" endTime="2023-12-22T09:37:17.0151297+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b268a2c9-1ccd-4771-9a29-e99d730b6615" />
+    <UnitTestResult executionId="80559d1a-09cb-4946-99ca-e58e3b1952d3" testId="4f77b768-fdd6-d9f7-17dc-d6fe0dba6a76" testName="GetLogLevel_WarningLogLevel_Success" computerName="DKSR-EFI-04" duration="00:00:00.0005336" startTime="2023-12-22T09:37:17.1111143+01:00" endTime="2023-12-22T09:37:17.1117417+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80559d1a-09cb-4946-99ca-e58e3b1952d3" />
+    <UnitTestResult executionId="7d84ac97-b12c-4600-9fc0-863425595f02" testId="32eb61fc-2450-1ada-8488-7c573853f5df" testName="GetAllScripts_GivenTempScripts_ShouldCollectThem_Success" computerName="DKSR-EFI-04" duration="00:00:00.0031556" startTime="2023-12-22T09:37:17.0624169+01:00" endTime="2023-12-22T09:37:17.0656357+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d84ac97-b12c-4600-9fc0-863425595f02" />
+    <UnitTestResult executionId="8051dda8-2c6f-4d3b-a703-7cdaca8fc987" testId="e78fe158-9bbe-4100-8e01-2da76940083e" testName="IsReadyToExecute_NoVmsConnectionString_ShouldReturnFalse" computerName="DKSR-EFI-04" duration="00:00:00.0002451" startTime="2023-12-22T09:37:17.0081140+01:00" endTime="2023-12-22T09:37:17.0084084+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8051dda8-2c6f-4d3b-a703-7cdaca8fc987" />
+    <UnitTestResult executionId="3091a051-4adf-445a-ba38-a4c7a2edbb19" testId="465f0b10-185c-c9d6-3652-0b9a093b0b3b" testName="ShouldExecute_GivenVmsConnectionString_ShouldReturnTrue" computerName="DKSR-EFI-04" duration="00:00:00.0002649" startTime="2023-12-22T09:37:17.0077836+01:00" endTime="2023-12-22T09:37:17.0080946+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3091a051-4adf-445a-ba38-a4c7a2edbb19" />
+    <UnitTestResult executionId="b530ce98-8066-47f0-8c21-ebdcf245d310" testId="fc744469-1019-677e-ec3e-cac0babb1498" testName="GetVersionedScripts_PathWithoutScripts_EmptyResult_Success" computerName="DKSR-EFI-04" duration="00:00:00.0046300" startTime="2023-12-22T09:37:17.0488698+01:00" endTime="2023-12-22T09:37:17.0536462+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b530ce98-8066-47f0-8c21-ebdcf245d310" />
+    <UnitTestResult executionId="371d871d-feef-4d79-864b-0ddf87866fa9" testId="741339a6-21fe-a872-cd6b-b614a77cc752" testName="CreateEmbedded_GivenEmptyScriptName_ShouldThrow" computerName="DKSR-EFI-04" duration="00:00:00.0004897" startTime="2023-12-22T09:37:17.0442241+01:00" endTime="2023-12-22T09:37:17.0448194+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="371d871d-feef-4d79-864b-0ddf87866fa9" />
+    <UnitTestResult executionId="96a84d84-889d-406b-9fbf-a9b6b4b96250" testId="b981ef1e-0643-0a10-c408-9602ea31071b" testName="GetLogLevel_InvalidArgument_Returns_DefaultLogLevel" computerName="DKSR-EFI-04" duration="00:00:00.0132189" startTime="2023-12-22T09:37:17.0930031+01:00" endTime="2023-12-22T09:37:17.1063182+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96a84d84-889d-406b-9fbf-a9b6b4b96250" />
+    <UnitTestResult executionId="ac2d5036-07ce-495b-a17a-0a881bc78f7c" testId="e9246b2a-5ddd-ce86-661a-ec992691ba70" testName="IsValidConfiguration_GivenNotSupportedCommandLineArg_ShouldLogAndReturnFalse" computerName="DKSR-EFI-04" duration="00:00:00.0014491" startTime="2023-12-22T09:37:17.1268804+01:00" endTime="2023-12-22T09:37:17.1284188+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ac2d5036-07ce-495b-a17a-0a881bc78f7c" />
+    <UnitTestResult executionId="33bb49c8-fb07-4eed-a1dd-3b0a8ebb8a7f" testId="0b5cb3ff-7c31-8b4f-f774-04f204b3af60" testName="CreateThenUpgradeVmsDatabaseToNewVersion" computerName="DKSR-EFI-04" duration="00:00:02.6240960" startTime="2023-12-22T09:36:59.2263098+01:00" endTime="2023-12-22T09:37:01.8506502+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="33bb49c8-fb07-4eed-a1dd-3b0a8ebb8a7f">
+      <Output>
+        <StdOut>Executing Baseline scripts&#xD;
+Script content has been replaced. Key: {NewDatabaseLicenseTlsData}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Baseline scripts have been executed&#xD;
+&#xD;
+Retrieving all sql files from: SomePath; Current DB version: 23.3.8&#xD;
+0 sql files found.&#xD;
+Retrieving all sql files from: SomePath\Temp&#xD;
+0 sql files found.&#xD;
+Retrieving all sql files from: SomePath\StoredProcedures&#xD;
+0 sql files found.&#xD;
+Retrieving all sql files from: SomePath; Current DB version: 23.3.8&#xD;
+Script 21.1.1.SomeScriptName.sql version 21.1.1 is lower than current VMS DB version 23.3.8&#xD;
+1 sql files found.&#xD;
+Retrieving all sql files from: SomePath\Temp&#xD;
+0 sql files found.&#xD;
+Retrieving all sql files from: SomePath\StoredProcedures&#xD;
+0 sql files found.&#xD;
+System table set to version: 55.3.9</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0c3cef1d-f010-4392-bb33-7a1794830d7e" testId="41d30b56-9442-82fc-617e-045fc6735520" testName="Constructor_Logger_Null_Throws_ArgumentNullException" computerName="DKSR-EFI-04" duration="00:00:00.0023994" startTime="2023-12-22T09:37:17.0001330+01:00" endTime="2023-12-22T09:37:17.0029211+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c3cef1d-f010-4392-bb33-7a1794830d7e" />
+    <UnitTestResult executionId="e60c6f20-6ef4-4285-ac44-1bf133af3ab8" testId="3e39c4fd-e569-1a52-6db5-663e0f313655" testName="Execute_GivenScriptContentReplacements_ShouldExecuteScriptWithReplacedContent" computerName="DKSR-EFI-04" duration="00:00:00.0028239" startTime="2023-12-22T09:37:17.0851943+01:00" endTime="2023-12-22T09:37:17.0880784+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e60c6f20-6ef4-4285-ac44-1bf133af3ab8" />
+    <UnitTestResult executionId="b30fd301-6416-4f84-9080-210a40324df8" testId="25819e67-9cc2-8de0-c182-77febfb0511b" testName="Constructor_SqlConnectionFactory_Null_Throws_ArgumentNullException" computerName="DKSR-EFI-04" duration="00:00:00.0002976" startTime="2023-12-22T09:37:17.0055091+01:00" endTime="2023-12-22T09:37:17.0058763+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b30fd301-6416-4f84-9080-210a40324df8" />
+    <UnitTestResult executionId="e717b5b1-808a-4b9a-8166-8e2a39faca35" testId="50a58278-6fbf-6e1e-a6e1-637055c38299" testName="Execute_ScriptNoVersion_ShouldNotSetVersion" computerName="DKSR-EFI-04" duration="00:00:00.0019130" startTime="2023-12-22T09:37:17.0881054+01:00" endTime="2023-12-22T09:37:17.0900788+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e717b5b1-808a-4b9a-8166-8e2a39faca35" />
+    <UnitTestResult executionId="c1225934-ba49-4818-9408-f728a24c3fae" testId="673d823a-c5c2-5092-cff8-6327f96305ec" testName="Execute_GivenEmptyScriptsCollection_ShouldDoNothing" computerName="DKSR-EFI-04" duration="00:00:00.0013693" startTime="2023-12-22T09:37:17.0774291+01:00" endTime="2023-12-22T09:37:17.0788625+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1225934-ba49-4818-9408-f728a24c3fae" />
+    <UnitTestResult executionId="acad2c0a-5714-42a5-a721-6aaeb8b48421" testId="9bfeb736-ca4e-5e91-b7a2-4db35809c59a" testName="IsReadyToExecute_UpdateScenario_HappyPath_ShouldReturnTrue" computerName="DKSR-EFI-04" duration="00:00:00.0048654" startTime="2023-12-22T09:37:17.0196607+01:00" endTime="2023-12-22T09:37:17.0245971+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="acad2c0a-5714-42a5-a721-6aaeb8b48421" />
+    <UnitTestResult executionId="5cb62e25-641c-49b8-b3b6-8942fbbc3854" testId="7e1833b0-8b42-2c29-a2eb-b5a87e60f73a" testName="ShouldExecute_NoVmsConnectionString_ShouldReturnFalse" computerName="DKSR-EFI-04" duration="00:00:00.0002812" startTime="2023-12-22T09:37:17.0074165+01:00" endTime="2023-12-22T09:37:17.0077550+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5cb62e25-641c-49b8-b3b6-8942fbbc3854" />
+    <UnitTestResult executionId="1f04d2aa-3fcf-4863-8cad-6ad9a955bc35" testId="bc65ce97-e1cb-7cff-0568-18a39fed20c2" testName="CreateEmbedded_GivenNonExistingScriptName_ShouldThrow" computerName="DKSR-EFI-04" duration="00:00:00.0020477" startTime="2023-12-22T09:37:17.0455037+01:00" endTime="2023-12-22T09:37:17.0476737+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f04d2aa-3fcf-4863-8cad-6ad9a955bc35" />
+    <UnitTestResult executionId="4e918d0e-536b-410a-8d72-aee1ef8a04fa" testId="ab19b7bf-ad07-089f-53a1-3d3dbecbc8f5" testName="Execute_GivenHelpArg_ShouldLogHelpAndReturnTrue" computerName="DKSR-EFI-04" duration="00:00:00.0122604" startTime="2023-12-22T09:36:48.8854887+01:00" endTime="2023-12-22T09:36:48.8982640+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e918d0e-536b-410a-8d72-aee1ef8a04fa" />
+    <UnitTestResult executionId="19c9e24c-e46a-486a-bdb8-d9af9c9d4940" testId="b6a84fc9-b8af-7638-b578-e83dde990014" testName="CreateAndUpgradeVmsDatabaseToNewVersion" computerName="DKSR-EFI-04" duration="00:00:01.9981140" startTime="2023-12-22T09:37:01.8510425+01:00" endTime="2023-12-22T09:37:03.8493830+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="19c9e24c-e46a-486a-bdb8-d9af9c9d4940">
+      <Output>
+        <StdOut>Executing Baseline scripts&#xD;
+Script content has been replaced. Key: {NewDatabaseLicenseTlsData}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Baseline scripts have been executed&#xD;
+&#xD;
+Retrieving all sql files from: SomePath; Current DB version: 23.3.8&#xD;
+Script 21.1.1.SomeScriptName.sql version 21.1.1 is lower than current VMS DB version 23.3.8&#xD;
+1 sql files found.&#xD;
+Retrieving all sql files from: SomePath\Temp&#xD;
+0 sql files found.&#xD;
+Retrieving all sql files from: SomePath\StoredProcedures&#xD;
+0 sql files found.&#xD;
+System table set to version: 55.3.9</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9960bd92-1dcf-4656-85d6-84a341598125" testId="31e7b9fa-1a47-95f0-5dda-b3bef5a15e43" testName="CreateVmsDatabaseExternallyManaged" computerName="DKSR-EFI-04" duration="00:00:02.3401354" startTime="2023-12-22T09:36:51.9324547+01:00" endTime="2023-12-22T09:36:54.2728099+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9960bd92-1dcf-4656-85d6-84a341598125">
+      <Output>
+        <StdOut>System Table not found&#xD;
+&#xD;
+Executing Baseline scripts&#xD;
+Script content has been replaced. Key: {NewDatabaseLicenseTlsData}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Baseline scripts have been executed&#xD;
+&#xD;
+Retrieving all sql files from: ; Current DB version: 23.3.8&#xD;
+0 sql files found.&#xD;
+Retrieving all sql files from: Temp&#xD;
+0 sql files found.&#xD;
+Retrieving all sql files from: StoredProcedures&#xD;
+0 sql files found.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3129e7fa-d699-46a2-a30e-d41170fda0c9" testId="3cca7369-9ecc-3ef2-22e8-86d9ac384202" testName="GetVersionedScripts_GivenOldScriptThatCurrentDbVersion_ShouldSkipThatScript" computerName="DKSR-EFI-04" duration="00:00:00.0042640" startTime="2023-12-22T09:37:17.0580540+01:00" endTime="2023-12-22T09:37:17.0623838+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3129e7fa-d699-46a2-a30e-d41170fda0c9" />
+    <UnitTestResult executionId="0cd2dd1e-b5d9-4376-9827-dded77ee3854" testId="89a11917-5aa8-feb1-68af-0ce22ad844d0" testName="Get_GivenHelpArg_ShouldSkipArgsValidationAndReturnAppConfig" computerName="DKSR-EFI-04" duration="00:00:00.0012457" startTime="2023-12-22T09:37:17.1232833+01:00" endTime="2023-12-22T09:37:17.1246162+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0cd2dd1e-b5d9-4376-9827-dded77ee3854" />
+    <UnitTestResult executionId="80f9e229-92d5-422b-987b-b8ed149aabd7" testId="10da54e4-c3e2-70d3-8bc7-de9feda214da" testName="Create_GivenNonVersionedScript_ShouldReturnScriptWithoutVersion" computerName="DKSR-EFI-04" duration="00:00:00.0017149" startTime="2023-12-22T09:37:17.0423968+01:00" endTime="2023-12-22T09:37:17.0441929+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80f9e229-92d5-422b-987b-b8ed149aabd7" />
+    <UnitTestResult executionId="5a6360bb-3c02-4671-9dc8-b1b1f6c6127a" testId="95fcec59-d8a9-a66a-a9de-92fa7fa22840" testName="DefaultConstructor_NullEnvironmentWrapper_Throws_ArgumentNullException" computerName="DKSR-EFI-04" duration="00:00:00.0004567" startTime="2023-12-22T09:37:17.0901039+01:00" endTime="2023-12-22T09:37:17.0907133+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5a6360bb-3c02-4671-9dc8-b1b1f6c6127a" />
+    <UnitTestResult executionId="28b54c8f-fd7a-4425-b2a4-9401c5672561" testId="875548f8-2077-d880-325c-60b6c68964fb" testName="GetAllScripts_GivenStoredProcedures_ShouldCollectThem_Success" computerName="DKSR-EFI-04" duration="00:00:00.0029803" startTime="2023-12-22T09:37:17.0656624+01:00" endTime="2023-12-22T09:37:17.0687011+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="28b54c8f-fd7a-4425-b2a4-9401c5672561" />
+    <UnitTestResult executionId="4a14acba-aff7-402a-8d5d-1a5c6975079d" testId="cc68eb69-61b4-2530-3b70-25726734b520" testName="CreateAllDatabasesExternallyManagedUsingLimitedAccounts" computerName="DKSR-EFI-04" duration="00:00:03.9558557" startTime="2023-12-22T09:37:13.0436104+01:00" endTime="2023-12-22T09:37:16.9997574+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a14acba-aff7-402a-8d5d-1a5c6975079d">
+      <Output>
+        <StdOut>System Table not found&#xD;
+&#xD;
+Executing Baseline scripts&#xD;
+Script content has been replaced. Key: {NewDatabaseLicenseTlsData}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Baseline scripts have been executed&#xD;
+&#xD;
+Retrieving all sql files from: SomePath; Current DB version: 23.3.8&#xD;
+1 sql files found.&#xD;
+Retrieving all sql files from: SomePath\Temp&#xD;
+0 sql files found.&#xD;
+Retrieving all sql files from: SomePath\StoredProcedures&#xD;
+0 sql files found.&#xD;
+System table set to version: 23.3.11&#xD;
+&#xD;
+System Table not found&#xD;
+&#xD;
+Executing Baseline scripts&#xD;
+Script does not contain any statements!&#xD;
+Script does not contain any statements!&#xD;
+Script does not contain any statements!&#xD;
+Script does not contain any statements!&#xD;
+Baseline scripts have been executed&#xD;
+&#xD;
+Retrieving all sql files from: SomePath\IDP; Current DB version: 23.1.6&#xD;
+1 sql files found.&#xD;
+Retrieving all sql files from: SomePath\IDP\Temp&#xD;
+0 sql files found.&#xD;
+Retrieving all sql files from: SomePath\IDP\StoredProcedures&#xD;
+0 sql files found.&#xD;
+System table set to version: 23.3.12&#xD;
+&#xD;
+System Table not found&#xD;
+&#xD;
+Executing Baseline scripts&#xD;
+Script does not contain any statements!&#xD;
+Script does not contain any statements!&#xD;
+Script does not contain any statements!&#xD;
+Script does not contain any statements!&#xD;
+Script does not contain any statements!&#xD;
+Script does not contain any statements!&#xD;
+Baseline scripts have been executed&#xD;
+&#xD;
+Retrieving all sql files from: SomePath\IncidentManager; Current DB version: 23.1.1&#xD;
+1 sql files found.&#xD;
+Retrieving all sql files from: SomePath\IncidentManager\Temp&#xD;
+0 sql files found.&#xD;
+Retrieving all sql files from: SomePath\IncidentManager\StoredProcedures&#xD;
+0 sql files found.&#xD;
+System table set to version: 23.3.7</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6ee08c34-40f5-421b-80f6-93b73bb1fa1f" testId="cffab82f-3414-27a9-2389-810a030221f8" testName="OverwriteVmsDatabaseExternallyManagedShouldFail" computerName="DKSR-EFI-04" duration="00:00:02.3351729" startTime="2023-12-22T09:36:54.2729083+01:00" endTime="2023-12-22T09:36:56.6083025+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6ee08c34-40f5-421b-80f6-93b73bb1fa1f">
+      <Output>
+        <StdOut>System Table not found&#xD;
+&#xD;
+Executing Baseline scripts&#xD;
+Script content has been replaced. Key: {NewDatabaseLicenseTlsData}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Baseline scripts have been executed&#xD;
+&#xD;
+Retrieving all sql files from: ; Current DB version: 23.3.8&#xD;
+0 sql files found.&#xD;
+Retrieving all sql files from: Temp&#xD;
+0 sql files found.&#xD;
+Retrieving all sql files from: StoredProcedures&#xD;
+0 sql files found.&#xD;
+Can't delete databases since they are externally managed!</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="57c3cdc9-c75a-4503-b5e4-11758bcac600" testId="b20c96e8-7c10-0b75-3794-96ea9f2e063e" testName="Create_GivenEmptyFilePath_ShouldThrow" computerName="DKSR-EFI-04" duration="00:00:00.0021771" startTime="2023-12-22T09:37:17.0300514+01:00" endTime="2023-12-22T09:37:17.0326099+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="57c3cdc9-c75a-4503-b5e4-11758bcac600" />
+    <UnitTestResult executionId="3d68a55c-de6e-4cca-9041-6f7e25050f61" testId="5bf11d8b-aae6-877c-b28c-17bae43fadfa" testName="Constructor_KeyStorage_Null_Throws_ArgumentNullException" computerName="DKSR-EFI-04" duration="00:00:00.0003056" startTime="2023-12-22T09:37:17.0063232+01:00" endTime="2023-12-22T09:37:17.0066970+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d68a55c-de6e-4cca-9041-6f7e25050f61" />
+    <UnitTestResult executionId="0751aa46-a960-4e93-8fcc-c41d277d4d0c" testId="904deb02-8736-9b32-c134-5c7d259832e2" testName="Execute_GivenOneBrokenScriptInCollection_ShouldThrow" computerName="DKSR-EFI-04" duration="00:00:00.0032935" startTime="2023-12-22T09:37:17.0738863+01:00" endTime="2023-12-22T09:37:17.0774028+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0751aa46-a960-4e93-8fcc-c41d277d4d0c" />
+    <UnitTestResult executionId="447daa6b-2392-4e3e-b6a8-aae896f3d29e" testId="68cb11d5-1985-d85b-200d-5926f8c81604" testName="GetVersionedScripts_Sorting_Success" computerName="DKSR-EFI-04" duration="00:00:00.0042435" startTime="2023-12-22T09:37:17.0536873+01:00" endTime="2023-12-22T09:37:17.0580208+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="447daa6b-2392-4e3e-b6a8-aae896f3d29e" />
+    <UnitTestResult executionId="acdf4352-0eef-46ba-96ee-81e177e6b82e" testId="d6dfd496-6209-a847-e8f3-6fbcdc84c22c" testName="Create_GivenScriptWithMultipleStatements_ShouldReturnScriptWithThatStatements" computerName="DKSR-EFI-04" duration="00:00:00.0015073" startTime="2023-12-22T09:37:17.0390161+01:00" endTime="2023-12-22T09:37:17.0405876+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="acdf4352-0eef-46ba-96ee-81e177e6b82e" />
+    <UnitTestResult executionId="3bd42682-51a5-4429-8334-0dabf4439d65" testId="01826079-be72-7b70-b9e3-2bcdd8fb2e14" testName="GetLogLevel_DefaultLogLevel_Success" computerName="DKSR-EFI-04" duration="00:00:00.0011598" startTime="2023-12-22T09:37:17.0910733+01:00" endTime="2023-12-22T09:37:17.0922868+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3bd42682-51a5-4429-8334-0dabf4439d65" />
+    <UnitTestResult executionId="cdd23077-fe3b-4123-8b5e-7b3eb46a3e26" testId="f64c12ad-84d7-c28d-9e74-5b9666974d96" testName="Create_GivenScriptWithOneStatement_ShouldReturnScriptWithThatStatement" computerName="DKSR-EFI-04" duration="00:00:00.0014708" startTime="2023-12-22T09:37:17.0374572+01:00" endTime="2023-12-22T09:37:17.0389893+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cdd23077-fe3b-4123-8b5e-7b3eb46a3e26" />
+    <UnitTestResult executionId="d725a6b5-b222-4fca-a835-062c1f3b9876" testId="ca18aca4-9d6f-eaf5-771c-009a4cbed329" testName="Get_GivenEmptyCommandLineArgs_ShouldReturnDefaultAppConfig" computerName="DKSR-EFI-04" duration="00:00:00.0025238" startTime="2023-12-22T09:37:17.1205316+01:00" endTime="2023-12-22T09:37:17.1232466+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d725a6b5-b222-4fca-a835-062c1f3b9876" />
+    <UnitTestResult executionId="f96313c6-dcf6-43da-9078-48ed6e0ae1de" testId="702645e6-7396-cb60-9de0-cccaae422d3f" testName="Get_GivenCommandLineArgs_ShouldReturnCorrectAppConfig" computerName="DKSR-EFI-04" duration="00:00:00.0040100" startTime="2023-12-22T09:37:17.1284499+01:00" endTime="2023-12-22T09:37:17.1325365+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f96313c6-dcf6-43da-9078-48ed6e0ae1de" />
+    <UnitTestResult executionId="e11ca7b5-7684-43a6-9ad0-4dbeb11a1ced" testId="095f3b1b-c15f-8f8f-6f45-89cc91d4fcbb" testName="IsReadyToExecute_UpdateScenario_DowngradeProduct_ShouldLogAndReturnFalse" computerName="DKSR-EFI-04" duration="00:00:00.0044010" startTime="2023-12-22T09:37:17.0151605+01:00" endTime="2023-12-22T09:37:17.0196302+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e11ca7b5-7684-43a6-9ad0-4dbeb11a1ced" />
+    <UnitTestResult executionId="3e0a74d5-d4c8-4f4d-83b6-95c7428fb5d3" testId="ab194622-cf10-28ec-2400-b5abc4ca3946" testName="Execute_GivenMultipleScriptsInCollection_ShouldExecuteAllScripts" computerName="DKSR-EFI-04" duration="00:00:00.0032480" startTime="2023-12-22T09:37:17.0818615+01:00" endTime="2023-12-22T09:37:17.0851686+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e0a74d5-d4c8-4f4d-83b6-95c7428fb5d3" />
+    <UnitTestResult executionId="cec3d38a-2009-4a7d-bacb-f0f71c73f048" testId="6717228d-b0db-29cf-2f7d-7fb9f7b75e75" testName="Execute_GivenInvalidAppConfiguration_ShouldLogAndReturnFalse" computerName="DKSR-EFI-04" duration="00:00:00.1905050" startTime="2023-12-22T09:36:48.6634097+01:00" endTime="2023-12-22T09:36:48.8766368+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cec3d38a-2009-4a7d-bacb-f0f71c73f048" />
+    <UnitTestResult executionId="0fe7b120-9909-4531-a4d8-22f0b96c0bf0" testId="78c43138-7ef9-3133-dade-14b848c3191c" testName="Create_GivenVersionedScript_ShouldReturnScriptWithVersion" computerName="DKSR-EFI-04" duration="00:00:00.0016770" startTime="2023-12-22T09:37:17.0406160+01:00" endTime="2023-12-22T09:37:17.0423649+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0fe7b120-9909-4531-a4d8-22f0b96c0bf0" />
+    <UnitTestResult executionId="4dd76aeb-2072-4358-9234-6d10b9307a90" testId="04e2ea31-6c30-6dc2-1890-8643fb008cc3" testName="Constructor_ScriptsCollector_Null_Throws_ArgumentNullException" computerName="DKSR-EFI-04" duration="00:00:00.0003748" startTime="2023-12-22T09:37:17.0044583+01:00" endTime="2023-12-22T09:37:17.0049537+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4dd76aeb-2072-4358-9234-6d10b9307a90" />
+    <UnitTestResult executionId="784470da-2e35-46b7-9a69-7b0cafaae011" testId="dde1f694-7e4c-1e4e-07c3-2a4082992625" testName="CreateThenUpgradeVmsDatabaseNoUpgradeScripts" computerName="DKSR-EFI-04" duration="00:00:02.6169767" startTime="2023-12-22T09:36:56.6086994+01:00" endTime="2023-12-22T09:36:59.2259455+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="784470da-2e35-46b7-9a69-7b0cafaae011">
+      <Output>
+        <StdOut>Executing Baseline scripts&#xD;
+Script content has been replaced. Key: {NewDatabaseLicenseTlsData}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Baseline scripts have been executed&#xD;
+&#xD;
+Retrieving all sql files from: ; Current DB version: 23.3.8&#xD;
+0 sql files found.&#xD;
+Retrieving all sql files from: Temp&#xD;
+0 sql files found.&#xD;
+Retrieving all sql files from: StoredProcedures&#xD;
+0 sql files found.&#xD;
+Retrieving all sql files from: ; Current DB version: 23.3.8&#xD;
+0 sql files found.&#xD;
+Retrieving all sql files from: Temp&#xD;
+0 sql files found.&#xD;
+Retrieving all sql files from: StoredProcedures&#xD;
+0 sql files found.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="71d47280-42d3-407c-bb37-aa34203efcbf" testId="2388efa5-9ced-56ba-7b92-9b5de847fc7e" testName="EnrichConfiguration_GivenInputAppConfig_ShouldReturnCorrectAppConfig" computerName="DKSR-EFI-04" duration="00:00:00.0072704" startTime="2023-12-22T09:37:17.1117751+01:00" endTime="2023-12-22T09:37:17.1192356+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="71d47280-42d3-407c-bb37-aa34203efcbf" />
+    <UnitTestResult executionId="11301626-c0e9-44b4-85a3-794003588b7f" testId="5b23e67a-a2a0-c3c3-cce5-1e6575c01c9d" testName="Create_GivenScriptWithoutValidStatements_ShouldReturnScriptWithoutStatements" computerName="DKSR-EFI-04" duration="00:00:00.0014013" startTime="2023-12-22T09:37:17.0359655+01:00" endTime="2023-12-22T09:37:17.0374292+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="11301626-c0e9-44b4-85a3-794003588b7f" />
+    <UnitTestResult executionId="304dce56-e03a-4dde-a573-2aa1aff417a9" testId="8876f71d-207b-9e98-73fb-269dea525259" testName="EnrichConfiguration_NoScriptsPath_ShouldTakeExecutingAssemblyLocation" computerName="DKSR-EFI-04" duration="00:00:00.0011138" startTime="2023-12-22T09:37:17.1192856+01:00" endTime="2023-12-22T09:37:17.1204962+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="304dce56-e03a-4dde-a573-2aa1aff417a9" />
+    <UnitTestResult executionId="446cd39f-5275-4871-b5e5-40d3d31c6aee" testId="686a860e-766b-012e-f87d-3bb3f66d6abf" testName="CreateVmsDatabaseDatabaseAlreadyExists" computerName="DKSR-EFI-04" startTime="2023-12-22T09:36:51.9317525+01:00" endTime="2023-12-22T09:36:51.9323976+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="446cd39f-5275-4871-b5e5-40d3d31c6aee">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="87950425-96b3-47ce-a236-cfedce3f3ef5" testId="6ee6e7fe-d9ff-b8c7-4cce-86eb02501373" testName="Create_GivenScriptWithoutTransactionSupport_ShouldReturnScriptWithoutTransactionSupport" computerName="DKSR-EFI-04" duration="00:00:00.0013581" startTime="2023-12-22T09:37:17.0345093+01:00" endTime="2023-12-22T09:37:17.0359387+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87950425-96b3-47ce-a236-cfedce3f3ef5" />
+    <UnitTestResult executionId="3f90fb31-4a87-4e8a-a26e-5a1263fe73f0" testId="f419461f-31bf-a70b-f83a-889f52c5c952" testName="GetVmsDbTypeMapper_VmsDbType_AllArguments" computerName="DKSR-EFI-04" duration="00:00:00.0010063" startTime="2023-12-22T09:37:17.0283390+01:00" endTime="2023-12-22T09:37:17.0294940+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f90fb31-4a87-4e8a-a26e-5a1263fe73f0" />
+    <UnitTestResult executionId="aad09f65-1091-4499-9d0a-614f0217af91" testId="bba149cc-081a-f1aa-47df-144245184e0e" testName="GetLogLevel_NoneLogLevel_Success" computerName="DKSR-EFI-04" duration="00:00:00.0005996" startTime="2023-12-22T09:37:17.1063790+01:00" endTime="2023-12-22T09:37:17.1070867+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aad09f65-1091-4499-9d0a-614f0217af91" />
+    <UnitTestResult executionId="627c2c58-21da-4e68-b111-fd5279ad1fdf" testId="9b464051-17df-e8a9-ef0d-733218e9a3ee" testName="Constructor_NoNulls_Success" computerName="DKSR-EFI-04" duration="00:00:00.0001940" startTime="2023-12-22T09:37:17.0071401+01:00" endTime="2023-12-22T09:37:17.0073913+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="627c2c58-21da-4e68-b111-fd5279ad1fdf" />
+    <UnitTestResult executionId="44e767a8-dcf8-4da0-a64a-0f414c16b2b4" testId="e9f0dcf8-8217-8bbf-fe69-3ef1086dfebe" testName="Get_NoScriptsPath_ShouldTakeExecutingAssemblyLocation" computerName="DKSR-EFI-04" duration="00:00:00.0009460" startTime="2023-12-22T09:37:17.1349790+01:00" endTime="2023-12-22T09:37:17.1365802+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="44e767a8-dcf8-4da0-a64a-0f414c16b2b4" />
+    <UnitTestResult executionId="0bd8f9c3-cbbf-4c32-af09-9a0a1d75a95e" testId="5581f54c-df72-453d-9da1-39abdb36fa4f" testName="Constructor_MasterDbOperations_Null_Throws_ArgumentNullException" computerName="DKSR-EFI-04" duration="00:00:00.0003600" startTime="2023-12-22T09:37:17.0034959+01:00" endTime="2023-12-22T09:37:17.0039353+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0bd8f9c3-cbbf-4c32-af09-9a0a1d75a95e" />
+    <UnitTestResult executionId="e3857f1d-70d5-4c7b-bcef-d10a1839216f" testId="6f5df8b4-452b-59af-aaa5-4ca2d6ff793d" testName="CreateAllDatabases" computerName="DKSR-EFI-04" duration="00:00:03.3664992" startTime="2023-12-22T09:37:09.6764276+01:00" endTime="2023-12-22T09:37:13.0431659+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3857f1d-70d5-4c7b-bcef-d10a1839216f">
+      <Output>
+        <StdOut>Executing Baseline scripts&#xD;
+Script content has been replaced. Key: {NewDatabaseLicenseTlsData}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Baseline scripts have been executed&#xD;
+&#xD;
+Retrieving all sql files from: SomePath; Current DB version: 23.3.8&#xD;
+1 sql files found.&#xD;
+Retrieving all sql files from: SomePath\Temp&#xD;
+0 sql files found.&#xD;
+Retrieving all sql files from: SomePath\StoredProcedures&#xD;
+0 sql files found.&#xD;
+System table set to version: 23.3.11&#xD;
+&#xD;
+Executing Baseline scripts&#xD;
+Script does not contain any statements!&#xD;
+Script does not contain any statements!&#xD;
+Script does not contain any statements!&#xD;
+Script does not contain any statements!&#xD;
+Baseline scripts have been executed&#xD;
+&#xD;
+Retrieving all sql files from: SomePath\IDP; Current DB version: 23.1.6&#xD;
+1 sql files found.&#xD;
+Retrieving all sql files from: SomePath\IDP\Temp&#xD;
+0 sql files found.&#xD;
+Retrieving all sql files from: SomePath\IDP\StoredProcedures&#xD;
+0 sql files found.&#xD;
+System table set to version: 23.3.12&#xD;
+&#xD;
+Executing Baseline scripts&#xD;
+Script does not contain any statements!&#xD;
+Script does not contain any statements!&#xD;
+Script does not contain any statements!&#xD;
+Script does not contain any statements!&#xD;
+Script does not contain any statements!&#xD;
+Script does not contain any statements!&#xD;
+Baseline scripts have been executed&#xD;
+&#xD;
+Retrieving all sql files from: SomePath\IncidentManager; Current DB version: 23.1.1&#xD;
+1 sql files found.&#xD;
+Retrieving all sql files from: SomePath\IncidentManager\Temp&#xD;
+0 sql files found.&#xD;
+Retrieving all sql files from: SomePath\IncidentManager\StoredProcedures&#xD;
+0 sql files found.&#xD;
+System table set to version: 23.3.7</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3c72a78d-6f3b-4a26-b8f1-98a807629399" testId="fb86b757-bded-c0b9-e792-10e606c289de" testName="GetScripts_GivenInvalidScripts_ShouldThrow" computerName="DKSR-EFI-04" duration="00:00:00.0025383" startTime="2023-12-22T09:37:17.0708651+01:00" endTime="2023-12-22T09:37:17.0734642+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c72a78d-6f3b-4a26-b8f1-98a807629399" />
+    <UnitTestResult executionId="67f541ef-b9a6-4d32-8243-dc9d7935427c" testId="ca4596e6-88b4-16cc-9437-62363304193e" testName="GetVersionedScripts_GivenNullVersion_ShouldCollect_Success" computerName="DKSR-EFI-04" duration="00:00:00.0020539" startTime="2023-12-22T09:37:17.0687282+01:00" endTime="2023-12-22T09:37:17.0708398+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67f541ef-b9a6-4d32-8243-dc9d7935427c" />
+    <UnitTestResult executionId="a5dbccc4-b7ae-416e-b2c9-2d9fa4026510" testId="bd5aa487-7039-c07f-c64a-9bb61750aff0" testName="Execute_GivenOneScriptInCollection_ShouldExecuteScript" computerName="DKSR-EFI-04" duration="00:00:00.0028699" startTime="2023-12-22T09:37:17.0788931+01:00" endTime="2023-12-22T09:37:17.0818349+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5dbccc4-b7ae-416e-b2c9-2d9fa4026510" />
+    <UnitTestResult executionId="f507e01d-d880-4b6f-a6d8-bc852141401b" testId="3c38b12d-0514-ddbf-d2d8-766e948984fc" testName="CreateThenOverwriteDatabase" computerName="DKSR-EFI-04" duration="00:00:03.8673861" startTime="2023-12-22T09:37:03.8497214+01:00" endTime="2023-12-22T09:37:07.7173120+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f507e01d-d880-4b6f-a6d8-bc852141401b">
+      <Output>
+        <StdOut>Executing Baseline scripts&#xD;
+Script content has been replaced. Key: {NewDatabaseLicenseTlsData}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Baseline scripts have been executed&#xD;
+&#xD;
+Retrieving all sql files from: SomePath; Current DB version: 23.3.8&#xD;
+1 sql files found.&#xD;
+Retrieving all sql files from: SomePath\Temp&#xD;
+0 sql files found.&#xD;
+Retrieving all sql files from: SomePath\StoredProcedures&#xD;
+0 sql files found.&#xD;
+System table set to version: 55.3.9&#xD;
+&#xD;
+Executing Baseline scripts&#xD;
+Script content has been replaced. Key: {NewDatabaseLicenseTlsData}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Script content has been replaced. Key: {NewDatabaseHomeSiteId}&#xD;
+Baseline scripts have been executed&#xD;
+&#xD;
+Retrieving all sql files from: SomePath; Current DB version: 23.3.8&#xD;
+0 sql files found.&#xD;
+Retrieving all sql files from: SomePath\Temp&#xD;
+0 sql files found.&#xD;
+Retrieving all sql files from: SomePath\StoredProcedures&#xD;
+0 sql files found.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="257aff2a-1559-4abc-9728-d22dd3a0a5ed" testId="04f8bbce-1f90-cd92-253a-67e1f4ba674f" testName="Constructor_ScriptsExecutor_Null_Throws_ArgumentNullException" computerName="DKSR-EFI-04" duration="00:00:00.0004059" startTime="2023-12-22T09:37:17.0049844+01:00" endTime="2023-12-22T09:37:17.0054848+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="257aff2a-1559-4abc-9728-d22dd3a0a5ed" />
+    <UnitTestResult executionId="9f7266e8-9163-43ef-9b40-56c6cd67bfe9" testId="700cd3a9-84b0-2e12-b13f-48ceb717eb8b" testName="DefaultConstructor_NullErrorLogger_Throws_ArgumentNullException" computerName="DKSR-EFI-04" duration="00:00:00.0002380" startTime="2023-12-22T09:37:17.0907379+01:00" endTime="2023-12-22T09:37:17.0910510+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f7266e8-9163-43ef-9b40-56c6cd67bfe9" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Constructor_SqlConnectionFactory_Null_Throws_ArgumentNullException" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="25819e67-9cc2-8de0-c182-77febfb0511b">
+      <Execution id="b30fd301-6416-4f84-9080-210a40324df8" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Services.DbServiceTests" name="Constructor_SqlConnectionFactory_Null_Throws_ArgumentNullException" />
+    </UnitTest>
+    <UnitTest name="Execute_GivenScriptContentReplacements_ShouldExecuteScriptWithReplacedContent" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="3e39c4fd-e569-1a52-6db5-663e0f313655">
+      <Execution id="e60c6f20-6ef4-4285-ac44-1bf133af3ab8" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Scripts.ScriptsExecutorTests" name="Execute_GivenScriptContentReplacements_ShouldExecuteScriptWithReplacedContent" />
+    </UnitTest>
+    <UnitTest name="CreateVmsDatabase" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="ac9ae4b8-5b59-bf17-6036-8874e550ac26">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Database" />
+      </TestCategory>
+      <Execution id="81df4740-28fa-4824-ada9-36fa341feba5" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.SqlUpdateDatabaseTests" name="CreateVmsDatabase" />
+    </UnitTest>
+    <UnitTest name="Create_GivenScriptWithoutTransactionComment_ShouldReturnScriptWithDefaultTransactionSupport" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="afc650e6-c5e7-eca3-c24e-cf8137610992">
+      <Execution id="de44c05a-5e86-4801-aabb-d29166d29871" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Scripts.ScriptFactoryTests" name="Create_GivenScriptWithoutTransactionComment_ShouldReturnScriptWithDefaultTransactionSupport" />
+    </UnitTest>
+    <UnitTest name="CreateThenOverwriteDatabase" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="3c38b12d-0514-ddbf-d2d8-766e948984fc">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Database" />
+      </TestCategory>
+      <Execution id="f507e01d-d880-4b6f-a6d8-bc852141401b" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.SqlUpdateDatabaseTests" name="CreateThenOverwriteDatabase" />
+    </UnitTest>
+    <UnitTest name="Get_GivenHelpArg_ShouldSkipArgsValidationAndReturnAppConfig" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="89a11917-5aa8-feb1-68af-0ce22ad844d0">
+      <Execution id="0cd2dd1e-b5d9-4376-9827-dded77ee3854" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Configuration.AppConfigProviderTests" name="Get_GivenHelpArg_ShouldSkipArgsValidationAndReturnAppConfig" />
+    </UnitTest>
+    <UnitTest name="Constructor_AppConfigProvider_Null_Throws_ArgumentNullException" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="75405596-547d-3d11-b42a-a99c32d62adb">
+      <Execution id="8a72d3f0-67c6-4907-a870-9c0a71189bd5" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Services.DbServiceTests" name="Constructor_AppConfigProvider_Null_Throws_ArgumentNullException" />
+    </UnitTest>
+    <UnitTest name="GetVersionedScripts_Sorting_Success" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="68cb11d5-1985-d85b-200d-5926f8c81604">
+      <Execution id="447daa6b-2392-4e3e-b6a8-aae896f3d29e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Scripts.ScriptsCollectorTests" name="GetVersionedScripts_Sorting_Success" />
+    </UnitTest>
+    <UnitTest name="GetVmsDbTypeMapper_VmsDbType_AllArguments" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="f419461f-31bf-a70b-f83a-889f52c5c952">
+      <Execution id="3f90fb31-4a87-4e8a-a26e-5a1263fe73f0" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Services.VmsDbTypeMapperTests" name="GetVmsDbTypeMapper_VmsDbType_AllArguments" />
+    </UnitTest>
+    <UnitTest name="Execute_GivenEmptyScriptsCollection_ShouldDoNothing" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="673d823a-c5c2-5092-cff8-6327f96305ec">
+      <Execution id="c1225934-ba49-4818-9408-f728a24c3fae" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Scripts.ScriptsExecutorTests" name="Execute_GivenEmptyScriptsCollection_ShouldDoNothing" />
+    </UnitTest>
+    <UnitTest name="Create_GivenEmptyFilePath_ShouldThrow" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="b20c96e8-7c10-0b75-3794-96ea9f2e063e">
+      <Execution id="57c3cdc9-c75a-4503-b5e4-11758bcac600" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Scripts.ScriptFactoryTests" name="Create_GivenEmptyFilePath_ShouldThrow" />
+    </UnitTest>
+    <UnitTest name="IsReadyToExecute_NoVmsConnectionString_ShouldReturnFalse" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="e78fe158-9bbe-4100-8e01-2da76940083e">
+      <Execution id="8051dda8-2c6f-4d3b-a703-7cdaca8fc987" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Services.DbServiceTests" name="IsReadyToExecute_NoVmsConnectionString_ShouldReturnFalse" />
+    </UnitTest>
+    <UnitTest name="ShouldExecute_GivenVmsConnectionString_ShouldReturnTrue" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="465f0b10-185c-c9d6-3652-0b9a093b0b3b">
+      <Execution id="3091a051-4adf-445a-ba38-a4c7a2edbb19" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Services.DbServiceTests" name="ShouldExecute_GivenVmsConnectionString_ShouldReturnTrue" />
+    </UnitTest>
+    <UnitTest name="GetVersionedScripts_GivenNullVersion_ShouldCollect_Success" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="ca4596e6-88b4-16cc-9437-62363304193e">
+      <Execution id="67f541ef-b9a6-4d32-8243-dc9d7935427c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Scripts.ScriptsCollectorTests" name="GetVersionedScripts_GivenNullVersion_ShouldCollect_Success" />
+    </UnitTest>
+    <UnitTest name="CreateThenUpgradeVmsDatabaseToNewVersion" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="0b5cb3ff-7c31-8b4f-f774-04f204b3af60">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Database" />
+      </TestCategory>
+      <Execution id="33bb49c8-fb07-4eed-a1dd-3b0a8ebb8a7f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.SqlUpdateDatabaseTests" name="CreateThenUpgradeVmsDatabaseToNewVersion" />
+    </UnitTest>
+    <UnitTest name="Get_NoScriptsPath_ShouldTakeExecutingAssemblyLocation" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="e9f0dcf8-8217-8bbf-fe69-3ef1086dfebe">
+      <Execution id="44e767a8-dcf8-4da0-a64a-0f414c16b2b4" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Configuration.AppConfigProviderTests" name="Get_NoScriptsPath_ShouldTakeExecutingAssemblyLocation" />
+    </UnitTest>
+    <UnitTest name="GetLogLevel_NoneLogLevel_Success" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="bba149cc-081a-f1aa-47df-144245184e0e">
+      <Execution id="aad09f65-1091-4499-9d0a-614f0217af91" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Logger.LogLevelArgumentParserTests" name="GetLogLevel_NoneLogLevel_Success" />
+    </UnitTest>
+    <UnitTest name="GetScripts_GivenInvalidScripts_ShouldThrow" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="fb86b757-bded-c0b9-e792-10e606c289de">
+      <Execution id="3c72a78d-6f3b-4a26-b8f1-98a807629399" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Scripts.ScriptsCollectorTests" name="GetScripts_GivenInvalidScripts_ShouldThrow" />
+    </UnitTest>
+    <UnitTest name="CreateEmbedded_GivenNonExistingScriptName_ShouldThrow" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="bc65ce97-e1cb-7cff-0568-18a39fed20c2">
+      <Execution id="1f04d2aa-3fcf-4863-8cad-6ad9a955bc35" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Scripts.ScriptFactoryTests" name="CreateEmbedded_GivenNonExistingScriptName_ShouldThrow" />
+    </UnitTest>
+    <UnitTest name="GetLogLevel_DebugLogLevel_Success" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="6099c9de-e2d2-7cf0-1838-8a8cc1758227">
+      <Execution id="97052485-7e07-4928-95c5-914ccb370c9c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Logger.LogLevelArgumentParserTests" name="GetLogLevel_DebugLogLevel_Success" />
+    </UnitTest>
+    <UnitTest name="CreateVmsDatabaseExternallyManaged" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="31e7b9fa-1a47-95f0-5dda-b3bef5a15e43">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Database" />
+      </TestCategory>
+      <Execution id="9960bd92-1dcf-4656-85d6-84a341598125" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.SqlUpdateDatabaseTests" name="CreateVmsDatabaseExternallyManaged" />
+    </UnitTest>
+    <UnitTest name="Create_GivenScriptWithoutValidStatements_ShouldReturnScriptWithoutStatements" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="5b23e67a-a2a0-c3c3-cce5-1e6575c01c9d">
+      <Execution id="11301626-c0e9-44b4-85a3-794003588b7f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Scripts.ScriptFactoryTests" name="Create_GivenScriptWithoutValidStatements_ShouldReturnScriptWithoutStatements" />
+    </UnitTest>
+    <UnitTest name="DefaultConstructor_NullErrorLogger_Throws_ArgumentNullException" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="700cd3a9-84b0-2e12-b13f-48ceb717eb8b">
+      <Execution id="9f7266e8-9163-43ef-9b40-56c6cd67bfe9" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Logger.LogLevelArgumentParserTests" name="DefaultConstructor_NullErrorLogger_Throws_ArgumentNullException" />
+    </UnitTest>
+    <UnitTest name="IsReadyToExecute_UpdateScenario_DowngradeProduct_ShouldLogAndReturnFalse" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="095f3b1b-c15f-8f8f-6f45-89cc91d4fcbb">
+      <Execution id="e11ca7b5-7684-43a6-9ad0-4dbeb11a1ced" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Services.DbServiceTests" name="IsReadyToExecute_UpdateScenario_DowngradeProduct_ShouldLogAndReturnFalse" />
+    </UnitTest>
+    <UnitTest name="GetAllScripts_GivenTempScripts_ShouldCollectThem_Success" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="32eb61fc-2450-1ada-8488-7c573853f5df">
+      <Execution id="7d84ac97-b12c-4600-9fc0-863425595f02" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Scripts.ScriptsCollectorTests" name="GetAllScripts_GivenTempScripts_ShouldCollectThem_Success" />
+    </UnitTest>
+    <UnitTest name="Execute_GivenMultipleScriptsInCollection_ShouldExecuteAllScripts" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="ab194622-cf10-28ec-2400-b5abc4ca3946">
+      <Execution id="3e0a74d5-d4c8-4f4d-83b6-95c7428fb5d3" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Scripts.ScriptsExecutorTests" name="Execute_GivenMultipleScriptsInCollection_ShouldExecuteAllScripts" />
+    </UnitTest>
+    <UnitTest name="Create_GivenVersionedScript_ShouldReturnScriptWithVersion" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="78c43138-7ef9-3133-dade-14b848c3191c">
+      <Execution id="0fe7b120-9909-4531-a4d8-22f0b96c0bf0" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Scripts.ScriptFactoryTests" name="Create_GivenVersionedScript_ShouldReturnScriptWithVersion" />
+    </UnitTest>
+    <UnitTest name="OverwriteVmsDatabaseExternallyManagedShouldFail" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="cffab82f-3414-27a9-2389-810a030221f8">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Database" />
+      </TestCategory>
+      <Execution id="6ee08c34-40f5-421b-80f6-93b73bb1fa1f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.SqlUpdateDatabaseTests" name="OverwriteVmsDatabaseExternallyManagedShouldFail" />
+    </UnitTest>
+    <UnitTest name="CreateAndUpgradeVmsDatabaseToNewVersion" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="b6a84fc9-b8af-7638-b578-e83dde990014">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Database" />
+      </TestCategory>
+      <Execution id="19c9e24c-e46a-486a-bdb8-d9af9c9d4940" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.SqlUpdateDatabaseTests" name="CreateAndUpgradeVmsDatabaseToNewVersion" />
+    </UnitTest>
+    <UnitTest name="EnrichConfiguration_NoScriptsPath_ShouldTakeExecutingAssemblyLocation" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="8876f71d-207b-9e98-73fb-269dea525259">
+      <Execution id="304dce56-e03a-4dde-a573-2aa1aff417a9" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Configuration.AppConfigHelperTests" name="EnrichConfiguration_NoScriptsPath_ShouldTakeExecutingAssemblyLocation" />
+    </UnitTest>
+    <UnitTest name="Get_GivenIsExternallyManagedDbArg_ShouldReturnCorrectAppConfig" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="a0f9c482-e7b2-3a3d-cfcc-2dcdd4040ff9">
+      <Execution id="5ba75619-c7ca-4d34-b9ae-b7549ac1b712" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Configuration.AppConfigProviderTests" name="Get_GivenIsExternallyManagedDbArg_ShouldReturnCorrectAppConfig" />
+    </UnitTest>
+    <UnitTest name="GetLogLevel_DefaultLogLevel_Success" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="01826079-be72-7b70-b9e3-2bcdd8fb2e14">
+      <Execution id="3bd42682-51a5-4429-8334-0dabf4439d65" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Logger.LogLevelArgumentParserTests" name="GetLogLevel_DefaultLogLevel_Success" />
+    </UnitTest>
+    <UnitTest name="Execute_GivenHelpArg_ShouldLogHelpAndReturnTrue" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="ab19b7bf-ad07-089f-53a1-3d3dbecbc8f5">
+      <Execution id="4e918d0e-536b-410a-8d72-aee1ef8a04fa" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.MainControllerTests" name="Execute_GivenHelpArg_ShouldLogHelpAndReturnTrue" />
+    </UnitTest>
+    <UnitTest name="GetLogLevel_WarningLogLevel_Success" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="4f77b768-fdd6-d9f7-17dc-d6fe0dba6a76">
+      <Execution id="80559d1a-09cb-4946-99ca-e58e3b1952d3" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Logger.LogLevelArgumentParserTests" name="GetLogLevel_WarningLogLevel_Success" />
+    </UnitTest>
+    <UnitTest name="EnrichConfiguration_GivenInputAppConfig_ShouldReturnCorrectAppConfig" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="2388efa5-9ced-56ba-7b92-9b5de847fc7e">
+      <Execution id="71d47280-42d3-407c-bb37-aa34203efcbf" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Configuration.AppConfigHelperTests" name="EnrichConfiguration_GivenInputAppConfig_ShouldReturnCorrectAppConfig" />
+    </UnitTest>
+    <UnitTest name="Execute_ScriptNoVersion_ShouldNotSetVersion" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="50a58278-6fbf-6e1e-a6e1-637055c38299">
+      <Execution id="e717b5b1-808a-4b9a-8166-8e2a39faca35" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Scripts.ScriptsExecutorTests" name="Execute_ScriptNoVersion_ShouldNotSetVersion" />
+    </UnitTest>
+    <UnitTest name="IsValidConfiguration_GivenNotSupportedCommandLineArg_ShouldLogAndReturnFalse" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="e9246b2a-5ddd-ce86-661a-ec992691ba70">
+      <Execution id="ac2d5036-07ce-495b-a17a-0a881bc78f7c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Configuration.AppConfigProviderTests" name="IsValidConfiguration_GivenNotSupportedCommandLineArg_ShouldLogAndReturnFalse" />
+    </UnitTest>
+    <UnitTest name="Execute_GivenOneBrokenScriptInCollection_ShouldThrow" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="904deb02-8736-9b32-c134-5c7d259832e2">
+      <Execution id="0751aa46-a960-4e93-8fcc-c41d277d4d0c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Scripts.ScriptsExecutorTests" name="Execute_GivenOneBrokenScriptInCollection_ShouldThrow" />
+    </UnitTest>
+    <UnitTest name="CreateAllDatabasesExternallyManagedUsingLimitedAccounts" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="cc68eb69-61b4-2530-3b70-25726734b520">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Database" />
+      </TestCategory>
+      <Execution id="4a14acba-aff7-402a-8d5d-1a5c6975079d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.SqlUpdateDatabaseTests" name="CreateAllDatabasesExternallyManagedUsingLimitedAccounts" />
+    </UnitTest>
+    <UnitTest name="CreateAllDatabases" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="6f5df8b4-452b-59af-aaa5-4ca2d6ff793d">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Database" />
+      </TestCategory>
+      <Execution id="e3857f1d-70d5-4c7b-bcef-d10a1839216f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.SqlUpdateDatabaseTests" name="CreateAllDatabases" />
+    </UnitTest>
+    <UnitTest name="Constructor_ScriptsCollector_Null_Throws_ArgumentNullException" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="04e2ea31-6c30-6dc2-1890-8643fb008cc3">
+      <Execution id="4dd76aeb-2072-4358-9234-6d10b9307a90" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Services.DbServiceTests" name="Constructor_ScriptsCollector_Null_Throws_ArgumentNullException" />
+    </UnitTest>
+    <UnitTest name="IsReadyToExecute_UpdateScenario_HappyPath_ShouldReturnTrue" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="9bfeb736-ca4e-5e91-b7a2-4db35809c59a">
+      <Execution id="acad2c0a-5714-42a5-a721-6aaeb8b48421" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Services.DbServiceTests" name="IsReadyToExecute_UpdateScenario_HappyPath_ShouldReturnTrue" />
+    </UnitTest>
+    <UnitTest name="Create_GivenScriptWithoutTransactionSupport_ShouldReturnScriptWithoutTransactionSupport" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="6ee6e7fe-d9ff-b8c7-4cce-86eb02501373">
+      <Execution id="87950425-96b3-47ce-a236-cfedce3f3ef5" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Scripts.ScriptFactoryTests" name="Create_GivenScriptWithoutTransactionSupport_ShouldReturnScriptWithoutTransactionSupport" />
+    </UnitTest>
+    <UnitTest name="Create_GivenNonVersionedScript_ShouldReturnScriptWithoutVersion" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="10da54e4-c3e2-70d3-8bc7-de9feda214da">
+      <Execution id="80f9e229-92d5-422b-987b-b8ed149aabd7" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Scripts.ScriptFactoryTests" name="Create_GivenNonVersionedScript_ShouldReturnScriptWithoutVersion" />
+    </UnitTest>
+    <UnitTest name="Constructor_MasterDbOperations_Null_Throws_ArgumentNullException" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="5581f54c-df72-453d-9da1-39abdb36fa4f">
+      <Execution id="0bd8f9c3-cbbf-4c32-af09-9a0a1d75a95e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Services.DbServiceTests" name="Constructor_MasterDbOperations_Null_Throws_ArgumentNullException" />
+    </UnitTest>
+    <UnitTest name="GetVersionedScripts_GivenOldScriptThatCurrentDbVersion_ShouldSkipThatScript" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="3cca7369-9ecc-3ef2-22e8-86d9ac384202">
+      <Execution id="3129e7fa-d699-46a2-a30e-d41170fda0c9" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Scripts.ScriptsCollectorTests" name="GetVersionedScripts_GivenOldScriptThatCurrentDbVersion_ShouldSkipThatScript" />
+    </UnitTest>
+    <UnitTest name="Get_GivenNotSupportedCommandLineArg_ShouldLogAndReturnNull" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="064429b8-a5d8-3b48-d5a4-fc74fc62b102">
+      <Execution id="626ae882-b566-4edb-ad7e-21fefa487296" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Configuration.AppConfigProviderTests" name="Get_GivenNotSupportedCommandLineArg_ShouldLogAndReturnNull" />
+    </UnitTest>
+    <UnitTest name="Constructor_DatabaseVersionProviderFactory_Null_Throws_ArgumentNullException" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="b608d459-68f8-4b17-c569-7ce8de19aa3a">
+      <Execution id="1cc91510-eb51-4f48-8a4b-8c775942ef71" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Services.DbServiceTests" name="Constructor_DatabaseVersionProviderFactory_Null_Throws_ArgumentNullException" />
+    </UnitTest>
+    <UnitTest name="Constructor_DbOperations_Null_Throws_ArgumentNullException" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="7cf895a2-7f92-0c2a-94f7-77225e4e367a">
+      <Execution id="33e7063b-7762-4ce3-9497-e5d81117d488" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Services.DbServiceTests" name="Constructor_DbOperations_Null_Throws_ArgumentNullException" />
+    </UnitTest>
+    <UnitTest name="Create_GivenScriptWithMultipleStatements_ShouldReturnScriptWithThatStatements" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="d6dfd496-6209-a847-e8f3-6fbcdc84c22c">
+      <Execution id="acdf4352-0eef-46ba-96ee-81e177e6b82e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Scripts.ScriptFactoryTests" name="Create_GivenScriptWithMultipleStatements_ShouldReturnScriptWithThatStatements" />
+    </UnitTest>
+    <UnitTest name="ShouldExecute_NoVmsConnectionString_ShouldReturnFalse" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="7e1833b0-8b42-2c29-a2eb-b5a87e60f73a">
+      <Execution id="5cb62e25-641c-49b8-b3b6-8942fbbc3854" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Services.DbServiceTests" name="ShouldExecute_NoVmsConnectionString_ShouldReturnFalse" />
+    </UnitTest>
+    <UnitTest name="Constructor_KeyStorage_Null_Throws_ArgumentNullException" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="5bf11d8b-aae6-877c-b28c-17bae43fadfa">
+      <Execution id="3d68a55c-de6e-4cca-9041-6f7e25050f61" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Services.DbServiceTests" name="Constructor_KeyStorage_Null_Throws_ArgumentNullException" />
+    </UnitTest>
+    <UnitTest name="Execute_GivenOneScriptInCollection_ShouldExecuteScript" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="bd5aa487-7039-c07f-c64a-9bb61750aff0">
+      <Execution id="a5dbccc4-b7ae-416e-b2c9-2d9fa4026510" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Scripts.ScriptsExecutorTests" name="Execute_GivenOneScriptInCollection_ShouldExecuteScript" />
+    </UnitTest>
+    <UnitTest name="GetLogLevel_InvalidArgument_Returns_DefaultLogLevel" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="b981ef1e-0643-0a10-c408-9602ea31071b">
+      <Execution id="96a84d84-889d-406b-9fbf-a9b6b4b96250" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Logger.LogLevelArgumentParserTests" name="GetLogLevel_InvalidArgument_Returns_DefaultLogLevel" />
+    </UnitTest>
+    <UnitTest name="Execute_GivenInvalidAppConfiguration_ShouldLogAndReturnFalse" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="6717228d-b0db-29cf-2f7d-7fb9f7b75e75">
+      <Execution id="cec3d38a-2009-4a7d-bacb-f0f71c73f048" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.MainControllerTests" name="Execute_GivenInvalidAppConfiguration_ShouldLogAndReturnFalse" />
+    </UnitTest>
+    <UnitTest name="IsReadyToExecute_UpdateScenario_DatabaseExistsButShouldBeDeleted_ShouldSkipVersionAndProductValidation" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="79591c70-394d-9f25-62b4-ef18405cf903">
+      <Execution id="b729dbfc-a391-4761-b7f2-19b7d76bd206" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Services.DbServiceTests" name="IsReadyToExecute_UpdateScenario_DatabaseExistsButShouldBeDeleted_ShouldSkipVersionAndProductValidation" />
+    </UnitTest>
+    <UnitTest name="CreateThenUpgradeVmsDatabaseNoUpgradeScripts" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="dde1f694-7e4c-1e4e-07c3-2a4082992625">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Database" />
+      </TestCategory>
+      <Execution id="784470da-2e35-46b7-9a69-7b0cafaae011" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.SqlUpdateDatabaseTests" name="CreateThenUpgradeVmsDatabaseNoUpgradeScripts" />
+    </UnitTest>
+    <UnitTest name="Constructor_Logger_Null_Throws_ArgumentNullException" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="41d30b56-9442-82fc-617e-045fc6735520">
+      <Execution id="0c3cef1d-f010-4392-bb33-7a1794830d7e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Services.DbServiceTests" name="Constructor_Logger_Null_Throws_ArgumentNullException" />
+    </UnitTest>
+    <UnitTest name="Get_GivenCommandLineArgs_ShouldReturnCorrectAppConfig" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="702645e6-7396-cb60-9de0-cccaae422d3f">
+      <Execution id="f96313c6-dcf6-43da-9078-48ed6e0ae1de" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Configuration.AppConfigProviderTests" name="Get_GivenCommandLineArgs_ShouldReturnCorrectAppConfig" />
+    </UnitTest>
+    <UnitTest name="Get_GivenEmptyCommandLineArgs_ShouldReturnDefaultAppConfig" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="ca18aca4-9d6f-eaf5-771c-009a4cbed329">
+      <Execution id="d725a6b5-b222-4fca-a835-062c1f3b9876" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Configuration.AppConfigProviderTests" name="Get_GivenEmptyCommandLineArgs_ShouldReturnDefaultAppConfig" />
+    </UnitTest>
+    <UnitTest name="CreateEmbedded_GivenExistingScriptName_ShouldReturnValidScript" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="c88add81-88bd-8ea9-989f-db2dfc287771">
+      <Execution id="1ea368c2-5357-4ca5-9862-3caf0555f906" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Scripts.ScriptFactoryTests" name="CreateEmbedded_GivenExistingScriptName_ShouldReturnValidScript" />
+    </UnitTest>
+    <UnitTest name="Create_GivenScriptWithOneStatement_ShouldReturnScriptWithThatStatement" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="f64c12ad-84d7-c28d-9e74-5b9666974d96">
+      <Execution id="cdd23077-fe3b-4123-8b5e-7b3eb46a3e26" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Scripts.ScriptFactoryTests" name="Create_GivenScriptWithOneStatement_ShouldReturnScriptWithThatStatement" />
+    </UnitTest>
+    <UnitTest name="CreateVmsDatabaseDatabaseAlreadyExists" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="686a860e-766b-012e-f87d-3bb3f66d6abf">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Database" />
+      </TestCategory>
+      <Execution id="446cd39f-5275-4871-b5e5-40d3d31c6aee" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.SqlUpdateDatabaseTests" name="CreateVmsDatabaseDatabaseAlreadyExists" />
+    </UnitTest>
+    <UnitTest name="Constructor_NoNulls_Success" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="9b464051-17df-e8a9-ef0d-733218e9a3ee">
+      <Execution id="627c2c58-21da-4e68-b111-fd5279ad1fdf" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Services.DbServiceTests" name="Constructor_NoNulls_Success" />
+    </UnitTest>
+    <UnitTest name="CreateEmbedded_GivenEmptyScriptName_ShouldThrow" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="741339a6-21fe-a872-cd6b-b614a77cc752">
+      <Execution id="371d871d-feef-4d79-864b-0ddf87866fa9" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Scripts.ScriptFactoryTests" name="CreateEmbedded_GivenEmptyScriptName_ShouldThrow" />
+    </UnitTest>
+    <UnitTest name="GetAllScripts_GivenStoredProcedures_ShouldCollectThem_Success" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="875548f8-2077-d880-325c-60b6c68964fb">
+      <Execution id="28b54c8f-fd7a-4425-b2a4-9401c5672561" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Scripts.ScriptsCollectorTests" name="GetAllScripts_GivenStoredProcedures_ShouldCollectThem_Success" />
+    </UnitTest>
+    <UnitTest name="GetVersionedScripts_PathWithoutScripts_EmptyResult_Success" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="fc744469-1019-677e-ec3e-cac0babb1498">
+      <Execution id="b530ce98-8066-47f0-8c21-ebdcf245d310" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Scripts.ScriptsCollectorTests" name="GetVersionedScripts_PathWithoutScripts_EmptyResult_Success" />
+    </UnitTest>
+    <UnitTest name="CreateThenUpgradeInCorrectOrder" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="65bbabd0-1aa6-9abd-2678-07f395504fe6">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Database" />
+      </TestCategory>
+      <Execution id="e2c83a98-83fc-4790-aa53-342964144d87" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.SqlUpdateDatabaseTests" name="CreateThenUpgradeInCorrectOrder" />
+    </UnitTest>
+    <UnitTest name="DefaultConstructor_NullEnvironmentWrapper_Throws_ArgumentNullException" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="95fcec59-d8a9-a66a-a9de-92fa7fa22840">
+      <Execution id="5a6360bb-3c02-4671-9dc8-b1b1f6c6127a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Logger.LogLevelArgumentParserTests" name="DefaultConstructor_NullEnvironmentWrapper_Throws_ArgumentNullException" />
+    </UnitTest>
+    <UnitTest name="IsReadyToExecute_UpdateScenario_CurrentDbVersionLowerThanMinimumSupportedVersion_ShouldLogAndReturnFalse" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="af31b27d-5c61-fbc3-1ed2-e579eca71705">
+      <Execution id="b268a2c9-1ccd-4771-9a29-e99d730b6615" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Services.DbServiceTests" name="IsReadyToExecute_UpdateScenario_CurrentDbVersionLowerThanMinimumSupportedVersion_ShouldLogAndReturnFalse" />
+    </UnitTest>
+    <UnitTest name="Constructor_ScriptsExecutor_Null_Throws_ArgumentNullException" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\common\videoos.database.common\tst\videoos.sqlupdate.unittests\bin\debug\net6.0\videoos.sqlupdate.unittests.dll" id="04f8bbce-1f90-cd92-253a-67e1f4ba674f">
+      <Execution id="257aff2a-1559-4abc-9728-d22dd3a0a5ed" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\Common\VideoOS.Database.Common\tst\VideoOS.SqlUpdate.UnitTests\bin\Debug\net6.0\VideoOS.SqlUpdate.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.SqlUpdate.UnitTests.Core.Services.DbServiceTests" name="Constructor_ScriptsExecutor_Null_Throws_ArgumentNullException" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="65bbabd0-1aa6-9abd-2678-07f395504fe6" executionId="e2c83a98-83fc-4790-aa53-342964144d87" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b608d459-68f8-4b17-c569-7ce8de19aa3a" executionId="1cc91510-eb51-4f48-8a4b-8c775942ef71" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ac9ae4b8-5b59-bf17-6036-8874e550ac26" executionId="81df4740-28fa-4824-ada9-36fa341feba5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="79591c70-394d-9f25-62b4-ef18405cf903" executionId="b729dbfc-a391-4761-b7f2-19b7d76bd206" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="75405596-547d-3d11-b42a-a99c32d62adb" executionId="8a72d3f0-67c6-4907-a870-9c0a71189bd5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a0f9c482-e7b2-3a3d-cfcc-2dcdd4040ff9" executionId="5ba75619-c7ca-4d34-b9ae-b7549ac1b712" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6099c9de-e2d2-7cf0-1838-8a8cc1758227" executionId="97052485-7e07-4928-95c5-914ccb370c9c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7cf895a2-7f92-0c2a-94f7-77225e4e367a" executionId="33e7063b-7762-4ce3-9497-e5d81117d488" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c88add81-88bd-8ea9-989f-db2dfc287771" executionId="1ea368c2-5357-4ca5-9862-3caf0555f906" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="064429b8-a5d8-3b48-d5a4-fc74fc62b102" executionId="626ae882-b566-4edb-ad7e-21fefa487296" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="afc650e6-c5e7-eca3-c24e-cf8137610992" executionId="de44c05a-5e86-4801-aabb-d29166d29871" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="af31b27d-5c61-fbc3-1ed2-e579eca71705" executionId="b268a2c9-1ccd-4771-9a29-e99d730b6615" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4f77b768-fdd6-d9f7-17dc-d6fe0dba6a76" executionId="80559d1a-09cb-4946-99ca-e58e3b1952d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32eb61fc-2450-1ada-8488-7c573853f5df" executionId="7d84ac97-b12c-4600-9fc0-863425595f02" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e78fe158-9bbe-4100-8e01-2da76940083e" executionId="8051dda8-2c6f-4d3b-a703-7cdaca8fc987" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="465f0b10-185c-c9d6-3652-0b9a093b0b3b" executionId="3091a051-4adf-445a-ba38-a4c7a2edbb19" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc744469-1019-677e-ec3e-cac0babb1498" executionId="b530ce98-8066-47f0-8c21-ebdcf245d310" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="741339a6-21fe-a872-cd6b-b614a77cc752" executionId="371d871d-feef-4d79-864b-0ddf87866fa9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b981ef1e-0643-0a10-c408-9602ea31071b" executionId="96a84d84-889d-406b-9fbf-a9b6b4b96250" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9246b2a-5ddd-ce86-661a-ec992691ba70" executionId="ac2d5036-07ce-495b-a17a-0a881bc78f7c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0b5cb3ff-7c31-8b4f-f774-04f204b3af60" executionId="33bb49c8-fb07-4eed-a1dd-3b0a8ebb8a7f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="41d30b56-9442-82fc-617e-045fc6735520" executionId="0c3cef1d-f010-4392-bb33-7a1794830d7e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3e39c4fd-e569-1a52-6db5-663e0f313655" executionId="e60c6f20-6ef4-4285-ac44-1bf133af3ab8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="25819e67-9cc2-8de0-c182-77febfb0511b" executionId="b30fd301-6416-4f84-9080-210a40324df8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="50a58278-6fbf-6e1e-a6e1-637055c38299" executionId="e717b5b1-808a-4b9a-8166-8e2a39faca35" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="673d823a-c5c2-5092-cff8-6327f96305ec" executionId="c1225934-ba49-4818-9408-f728a24c3fae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9bfeb736-ca4e-5e91-b7a2-4db35809c59a" executionId="acad2c0a-5714-42a5-a721-6aaeb8b48421" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e1833b0-8b42-2c29-a2eb-b5a87e60f73a" executionId="5cb62e25-641c-49b8-b3b6-8942fbbc3854" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bc65ce97-e1cb-7cff-0568-18a39fed20c2" executionId="1f04d2aa-3fcf-4863-8cad-6ad9a955bc35" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab19b7bf-ad07-089f-53a1-3d3dbecbc8f5" executionId="4e918d0e-536b-410a-8d72-aee1ef8a04fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b6a84fc9-b8af-7638-b578-e83dde990014" executionId="19c9e24c-e46a-486a-bdb8-d9af9c9d4940" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="31e7b9fa-1a47-95f0-5dda-b3bef5a15e43" executionId="9960bd92-1dcf-4656-85d6-84a341598125" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3cca7369-9ecc-3ef2-22e8-86d9ac384202" executionId="3129e7fa-d699-46a2-a30e-d41170fda0c9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="89a11917-5aa8-feb1-68af-0ce22ad844d0" executionId="0cd2dd1e-b5d9-4376-9827-dded77ee3854" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="10da54e4-c3e2-70d3-8bc7-de9feda214da" executionId="80f9e229-92d5-422b-987b-b8ed149aabd7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="95fcec59-d8a9-a66a-a9de-92fa7fa22840" executionId="5a6360bb-3c02-4671-9dc8-b1b1f6c6127a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="875548f8-2077-d880-325c-60b6c68964fb" executionId="28b54c8f-fd7a-4425-b2a4-9401c5672561" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc68eb69-61b4-2530-3b70-25726734b520" executionId="4a14acba-aff7-402a-8d5d-1a5c6975079d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cffab82f-3414-27a9-2389-810a030221f8" executionId="6ee08c34-40f5-421b-80f6-93b73bb1fa1f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b20c96e8-7c10-0b75-3794-96ea9f2e063e" executionId="57c3cdc9-c75a-4503-b5e4-11758bcac600" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5bf11d8b-aae6-877c-b28c-17bae43fadfa" executionId="3d68a55c-de6e-4cca-9041-6f7e25050f61" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="904deb02-8736-9b32-c134-5c7d259832e2" executionId="0751aa46-a960-4e93-8fcc-c41d277d4d0c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="68cb11d5-1985-d85b-200d-5926f8c81604" executionId="447daa6b-2392-4e3e-b6a8-aae896f3d29e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d6dfd496-6209-a847-e8f3-6fbcdc84c22c" executionId="acdf4352-0eef-46ba-96ee-81e177e6b82e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="01826079-be72-7b70-b9e3-2bcdd8fb2e14" executionId="3bd42682-51a5-4429-8334-0dabf4439d65" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f64c12ad-84d7-c28d-9e74-5b9666974d96" executionId="cdd23077-fe3b-4123-8b5e-7b3eb46a3e26" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ca18aca4-9d6f-eaf5-771c-009a4cbed329" executionId="d725a6b5-b222-4fca-a835-062c1f3b9876" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="702645e6-7396-cb60-9de0-cccaae422d3f" executionId="f96313c6-dcf6-43da-9078-48ed6e0ae1de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="095f3b1b-c15f-8f8f-6f45-89cc91d4fcbb" executionId="e11ca7b5-7684-43a6-9ad0-4dbeb11a1ced" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab194622-cf10-28ec-2400-b5abc4ca3946" executionId="3e0a74d5-d4c8-4f4d-83b6-95c7428fb5d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6717228d-b0db-29cf-2f7d-7fb9f7b75e75" executionId="cec3d38a-2009-4a7d-bacb-f0f71c73f048" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78c43138-7ef9-3133-dade-14b848c3191c" executionId="0fe7b120-9909-4531-a4d8-22f0b96c0bf0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="04e2ea31-6c30-6dc2-1890-8643fb008cc3" executionId="4dd76aeb-2072-4358-9234-6d10b9307a90" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dde1f694-7e4c-1e4e-07c3-2a4082992625" executionId="784470da-2e35-46b7-9a69-7b0cafaae011" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2388efa5-9ced-56ba-7b92-9b5de847fc7e" executionId="71d47280-42d3-407c-bb37-aa34203efcbf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5b23e67a-a2a0-c3c3-cce5-1e6575c01c9d" executionId="11301626-c0e9-44b4-85a3-794003588b7f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8876f71d-207b-9e98-73fb-269dea525259" executionId="304dce56-e03a-4dde-a573-2aa1aff417a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="686a860e-766b-012e-f87d-3bb3f66d6abf" executionId="446cd39f-5275-4871-b5e5-40d3d31c6aee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6ee6e7fe-d9ff-b8c7-4cce-86eb02501373" executionId="87950425-96b3-47ce-a236-cfedce3f3ef5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f419461f-31bf-a70b-f83a-889f52c5c952" executionId="3f90fb31-4a87-4e8a-a26e-5a1263fe73f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bba149cc-081a-f1aa-47df-144245184e0e" executionId="aad09f65-1091-4499-9d0a-614f0217af91" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9b464051-17df-e8a9-ef0d-733218e9a3ee" executionId="627c2c58-21da-4e68-b111-fd5279ad1fdf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9f0dcf8-8217-8bbf-fe69-3ef1086dfebe" executionId="44e767a8-dcf8-4da0-a64a-0f414c16b2b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5581f54c-df72-453d-9da1-39abdb36fa4f" executionId="0bd8f9c3-cbbf-4c32-af09-9a0a1d75a95e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f5df8b4-452b-59af-aaa5-4ca2d6ff793d" executionId="e3857f1d-70d5-4c7b-bcef-d10a1839216f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fb86b757-bded-c0b9-e792-10e606c289de" executionId="3c72a78d-6f3b-4a26-b8f1-98a807629399" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ca4596e6-88b4-16cc-9437-62363304193e" executionId="67f541ef-b9a6-4d32-8243-dc9d7935427c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bd5aa487-7039-c07f-c64a-9bb61750aff0" executionId="a5dbccc4-b7ae-416e-b2c9-2d9fa4026510" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c38b12d-0514-ddbf-d2d8-766e948984fc" executionId="f507e01d-d880-4b6f-a6d8-bc852141401b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="04f8bbce-1f90-cd92-253a-67e1f4ba674f" executionId="257aff2a-1559-4abc-9728-d22dd3a0a5ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="700cd3a9-84b0-2e12-b13f-48ceb717eb8b" executionId="9f7266e8-9163-43ef-9b40-56c6cd67bfe9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="71" executed="70" passed="70" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>Test 'CreateVmsDatabaseDatabaseAlreadyExists' was skipped in the test run.&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

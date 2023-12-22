@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="c80aca6e-7aa5-43c3-b25f-1982bf666b78" name="DKSR-EFI-04$@DKSR-EFI-04 2023-12-22 09:34:07" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-12-22T09:34:07.0376720+01:00" queuing="2023-12-22T09:34:07.0376720+01:00" start="2023-12-22T09:34:05.9595395+01:00" finish="2023-12-22T09:34:07.0845459+01:00" />
+  <TestSettings name="default" id="4bb6b3b8-63a4-4063-8a94-1183ce6adcc5">
+    <Deployment runDeploymentRoot="DKSR-EFI-04$_DKSR-EFI-04_2023-12-22_09_34_07" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="673b17b9-fb53-413f-9f46-6f681d082354" testId="3762938a-963d-ed90-4277-be50328f7897" testName="GenericEventsCacheReload_Tests" computerName="DKSR-EFI-04" duration="00:00:00.0353535" startTime="2023-12-22T09:34:06.9595428+01:00" endTime="2023-12-22T09:34:07.0064193+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="673b17b9-fb53-413f-9f46-6f681d082354">
+      <Output>
+        <StdOut>Debug Trace:
+[GenericEventsDefinition]:[EventDefinitionsChangedHandler] Configuration change: d4d19c01-03f2-4ac6-9d2b-5356b5de62f1&#xD;
+[GenericEventsDefinition]:[EventDefinitionsChangedHandler] Set flag to reload event definitions.&#xD;
+[GenericEventsDefinition]:DefinedEvents: Reloading generic event definitions&#xD;
+[GenericEventsDefinition]:[EventDefinitionsChangedHandler] Reloaded event definitions.&#xD;
+[GenericEventsDefinition]:[EventDefinitionsChangedHandler] Configuration change: d4d19c01-03f2-4ac6-9d2b-5356b5de62f1&#xD;
+[GenericEventsDefinition]:[EventDefinitionsChangedHandler] Set flag to reload event definitions.&#xD;
+[GenericEventsDefinition]:DefinedEvents: Reloading generic event definitions&#xD;
+[GenericEventsDefinition]:[EventDefinitionsChangedHandler] Reloaded event definitions.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ab4f502b-e6ac-4295-a1ca-6af50c5dadc4" testId="e7efd348-5716-260b-bf58-12603b3cb1b0" testName="DefinedEventsAreLoadedSimple_Test" computerName="DKSR-EFI-04" duration="00:00:00.0167152" startTime="2023-12-22T09:34:06.9439193+01:00" endTime="2023-12-22T09:34:06.9595428+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab4f502b-e6ac-4295-a1ca-6af50c5dadc4">
+      <Output>
+        <StdOut>Debug Trace:
+[GenericEventsDefinition]:DefinedEvents: Reloading generic event definitions</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7586fe61-6359-4c81-ac8c-f3fdfa2c2a36" testId="1c921a4d-638c-7962-796e-0c9dec7c2996" testName="TryGetRelated_Tests" computerName="DKSR-EFI-04" duration="00:00:00.1278277" startTime="2023-12-22T09:34:06.7564169+01:00" endTime="2023-12-22T09:34:06.9282950+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7586fe61-6359-4c81-ac8c-f3fdfa2c2a36" />
+    <UnitTestResult executionId="5819f2c1-dabe-4300-b83f-8bbe50e5e011" testId="1d55c55f-e748-fb3a-a058-61d469e880c1" testName="ConfigurationCacheIsLoadedSimple_Test" computerName="DKSR-EFI-04" duration="00:00:00.0041176" startTime="2023-12-22T09:34:06.9439193+01:00" endTime="2023-12-22T09:34:06.9439193+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5819f2c1-dabe-4300-b83f-8bbe50e5e011" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ConfigurationCacheIsLoadedSimple_Test" storage="d:\actions-runner\_work\xpco\xpco\eventserver\genericevents\genericevents\videoos.generic.events.unittest\bin\debug\videoos.generic.events.unittest.dll" id="1d55c55f-e748-fb3a-a058-61d469e880c1">
+      <Execution id="5819f2c1-dabe-4300-b83f-8bbe50e5e011" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\GenericEvents\GenericEvents\VideoOS.Generic.Events.UnitTest\bin\Debug\VideoOS.Generic.Events.UnitTest.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Generic.Events.UnitTest.UnitTest" name="ConfigurationCacheIsLoadedSimple_Test" />
+    </UnitTest>
+    <UnitTest name="GenericEventsCacheReload_Tests" storage="d:\actions-runner\_work\xpco\xpco\eventserver\genericevents\genericevents\videoos.generic.events.unittest\bin\debug\videoos.generic.events.unittest.dll" id="3762938a-963d-ed90-4277-be50328f7897">
+      <Execution id="673b17b9-fb53-413f-9f46-6f681d082354" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\GenericEvents\GenericEvents\VideoOS.Generic.Events.UnitTest\bin\Debug\VideoOS.Generic.Events.UnitTest.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Generic.Events.UnitTest.UnitTest" name="GenericEventsCacheReload_Tests" />
+    </UnitTest>
+    <UnitTest name="DefinedEventsAreLoadedSimple_Test" storage="d:\actions-runner\_work\xpco\xpco\eventserver\genericevents\genericevents\videoos.generic.events.unittest\bin\debug\videoos.generic.events.unittest.dll" id="e7efd348-5716-260b-bf58-12603b3cb1b0">
+      <Execution id="ab4f502b-e6ac-4295-a1ca-6af50c5dadc4" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\GenericEvents\GenericEvents\VideoOS.Generic.Events.UnitTest\bin\Debug\VideoOS.Generic.Events.UnitTest.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Generic.Events.UnitTest.UnitTest" name="DefinedEventsAreLoadedSimple_Test" />
+    </UnitTest>
+    <UnitTest name="TryGetRelated_Tests" storage="d:\actions-runner\_work\xpco\xpco\eventserver\genericevents\genericevents\videoos.generic.events.unittest\bin\debug\videoos.generic.events.unittest.dll" id="1c921a4d-638c-7962-796e-0c9dec7c2996">
+      <Execution id="7586fe61-6359-4c81-ac8c-f3fdfa2c2a36" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\GenericEvents\GenericEvents\VideoOS.Generic.Events.UnitTest\bin\Debug\VideoOS.Generic.Events.UnitTest.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Generic.Events.UnitTest.UnitTest" name="TryGetRelated_Tests" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="3762938a-963d-ed90-4277-be50328f7897" executionId="673b17b9-fb53-413f-9f46-6f681d082354" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7efd348-5716-260b-bf58-12603b3cb1b0" executionId="ab4f502b-e6ac-4295-a1ca-6af50c5dadc4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1c921a4d-638c-7962-796e-0c9dec7c2996" executionId="7586fe61-6359-4c81-ac8c-f3fdfa2c2a36" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d55c55f-e748-fb3a-a058-61d469e880c1" executionId="5819f2c1-dabe-4300-b83f-8bbe50e5e011" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

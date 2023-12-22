@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="68409073-8578-4e0d-b122-41ee5c146fe4" name="DKSR-EFI-04$@DKSR-EFI-04 2023-12-22 09:36:10" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-12-22T09:36:10.9914357+01:00" queuing="2023-12-22T09:36:10.9914357+01:00" start="2023-12-22T09:35:39.8818979+01:00" finish="2023-12-22T09:37:05.3667254+01:00" />
+  <TestSettings name="default" id="ceb53eb3-1bfa-4e12-9226-2f844a458e20">
+    <Deployment runDeploymentRoot="DKSR-EFI-04$_DKSR-EFI-04_2023-12-22_09_36_10" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="68af47f9-5af9-422a-b4bb-bf196777468f" testId="2e15c9f7-3ba3-8404-6e2e-138334259c1f" testName="TestNumberOfTicksPerSecond" computerName="DKSR-EFI-04" duration="00:00:51.0855427" startTime="2023-12-22T09:36:11.1476855+01:00" endTime="2023-12-22T09:37:02.2417094+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="68af47f9-5af9-422a-b4bb-bf196777468f">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+expectedTicks : 40 _ticksCounter: 39&#xD;
+expectedTicks : 20 _ticksCounter: 19&#xD;
+expectedTicks : 10 _ticksCounter: 9&#xD;
+expectedTicks : 100 _ticksCounter: 99&#xD;
+expectedTicks : 50 _ticksCounter: 49&#xD;
+expectedTicks : 25 _ticksCounter: 24&#xD;
+expectedTicks : 200 _ticksCounter: 199&#xD;
+expectedTicks : 100 _ticksCounter: 99&#xD;
+expectedTicks : 50 _ticksCounter: 49</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4b340219-3f54-45e0-94f0-5bb643353ff0" testId="306086f3-6a86-cb2b-a7d5-f339aa65cfac" testName="ExtendHeaderTest" computerName="DKSR-EFI-04" duration="00:00:00.0036647" startTime="2023-12-22T09:37:05.1792264+01:00" endTime="2023-12-22T09:37:05.1792264+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b340219-3f54-45e0-94f0-5bb643353ff0" />
+    <UnitTestResult executionId="27eae5d3-1da2-44dc-aff7-fd05d1dcb4b8" testId="fb7c8747-f9a8-949c-55a3-21ec2b849458" testName="DotNetZipWrapperTest" computerName="DKSR-EFI-04" duration="00:00:00.5109246" startTime="2023-12-22T09:37:04.5854706+01:00" endTime="2023-12-22T09:37:05.1010981+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="27eae5d3-1da2-44dc-aff7-fd05d1dcb4b8" />
+    <UnitTestResult executionId="be4ed3d6-caff-4456-a4e3-2949a02e0fa1" testId="ed57792f-8faa-ea9a-7951-3f256c424e82" testName="TestCallUpdaterDeleteNone" computerName="DKSR-EFI-04" duration="00:00:00.0004708" startTime="2023-12-22T09:37:04.1323451+01:00" endTime="2023-12-22T09:37:04.1323451+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be4ed3d6-caff-4456-a4e3-2949a02e0fa1" />
+    <UnitTestResult executionId="dba9f59b-4aac-4148-b643-11c87dbc98a8" testId="5aa454e7-748a-49d5-9fc1-3b6e9cdbac34" testName="TestCallCheckerWithUnExpectedResult" computerName="DKSR-EFI-04" duration="00:00:00.0002950" startTime="2023-12-22T09:37:04.1167176+01:00" endTime="2023-12-22T09:37:04.1167176+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dba9f59b-4aac-4148-b643-11c87dbc98a8" />
+    <UnitTestResult executionId="255a38c3-9cd4-49d2-9266-2f625f8e9bf8" testId="f5983b14-da06-0eb9-d958-121cf03d55c7" testName="TestCallUpdaterDeleteAlways" computerName="DKSR-EFI-04" duration="00:00:00.0016024" startTime="2023-12-22T09:37:04.1323451+01:00" endTime="2023-12-22T09:37:04.1323451+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="255a38c3-9cd4-49d2-9266-2f625f8e9bf8" />
+    <UnitTestResult executionId="aeba0624-d1e3-4569-adb4-b91974736df3" testId="e5734965-bc11-86dd-b87a-faa5eb26b5d8" testName="CustomXmlTextWriterTest" computerName="DKSR-EFI-04" duration="00:00:00.0021423" startTime="2023-12-22T09:37:05.1323478+01:00" endTime="2023-12-22T09:37:05.1323478+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aeba0624-d1e3-4569-adb4-b91974736df3" />
+    <UnitTestResult executionId="90dc23dc-6c5e-4df5-afc7-e01060cf7d8a" testId="c60fbfa8-e810-15a0-7327-d1d0413c56e8" testName="WanIPConnectionServiceTest" computerName="DKSR-EFI-04" duration="00:00:00.0006816" startTime="2023-12-22T09:37:05.1636014+01:00" endTime="2023-12-22T09:37:05.1636014+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90dc23dc-6c5e-4df5-afc7-e01060cf7d8a" />
+    <UnitTestResult executionId="c08a92e0-23f8-48fc-81eb-2512f1860887" testId="81508a3d-5b01-ab8c-9e3a-960074571553" testName="TestCallUpdaterAddNone" computerName="DKSR-EFI-04" duration="00:00:00.0004722" startTime="2023-12-22T09:37:04.1323451+01:00" endTime="2023-12-22T09:37:04.1323451+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c08a92e0-23f8-48fc-81eb-2512f1860887" />
+    <UnitTestResult executionId="ba5de113-6d82-443d-82e7-694917b499d2" testId="13fa1089-18bd-1120-29f4-4d05f925c467" testName="HttpMethodsParseTests" computerName="DKSR-EFI-04" duration="00:00:00.0047019" startTime="2023-12-22T09:37:05.1792264+01:00" endTime="2023-12-22T09:37:05.1792264+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba5de113-6d82-443d-82e7-694917b499d2" />
+    <UnitTestResult executionId="2858ed09-83fb-4ab4-bbb3-60ba2aa22379" testId="8ed0abe9-953e-5575-32de-2fb4b0cb9975" testName="TestLongResponse" computerName="DKSR-EFI-04" startTime="2023-12-22T09:37:05.1323478+01:00" endTime="2023-12-22T09:37:05.1323478+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2858ed09-83fb-4ab4-bbb3-60ba2aa22379">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="db49bb0c-97f5-47a2-8cb5-0b2fab48e2b0" testId="041fe7dc-4657-9392-c710-155b2ef29e28" testName="TestToString" computerName="DKSR-EFI-04" duration="00:00:00.0006418" startTime="2023-12-22T09:37:05.2261005+01:00" endTime="2023-12-22T09:37:05.2261005+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db49bb0c-97f5-47a2-8cb5-0b2fab48e2b0" />
+    <UnitTestResult executionId="ddf713bf-49ad-4cf0-bd4d-40d2d153f722" testId="bf8561d7-582b-78d7-9fed-1330a23d90b9" testName="TestCallUpdaterAddAlways" computerName="DKSR-EFI-04" duration="00:00:00.0147234" startTime="2023-12-22T09:37:04.1167176+01:00" endTime="2023-12-22T09:37:04.1323451+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ddf713bf-49ad-4cf0-bd4d-40d2d153f722" />
+    <UnitTestResult executionId="bbb3e804-e746-4386-ad03-7c31cd7897d5" testId="db1baaf6-8901-c066-fc57-490a75d30b28" testName="ProtectAndUnprotectIntWithCurrentUser" computerName="DKSR-EFI-04" duration="00:00:00.0013891" startTime="2023-12-22T09:37:05.1167295+01:00" endTime="2023-12-22T09:37:05.1323478+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bbb3e804-e746-4386-ad03-7c31cd7897d5" />
+    <UnitTestResult executionId="31c8218a-713d-4b04-9f8f-99fc7a7221c5" testId="4bfbd305-04c5-75c5-4edd-6e246d5d666e" testName="ProtectAndUnprotectStringWithCurrentUser" computerName="DKSR-EFI-04" duration="00:00:00.0101516" startTime="2023-12-22T09:37:05.1167295+01:00" endTime="2023-12-22T09:37:05.1167295+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="31c8218a-713d-4b04-9f8f-99fc7a7221c5" />
+    <UnitTestResult executionId="e9abe11b-8e77-44dc-a0cd-767c86773e02" testId="262192d7-fbc4-6c79-6a1c-c22bed72c890" testName="JsonHandlerTest" computerName="DKSR-EFI-04" duration="00:00:00.0000924" startTime="2023-12-22T09:37:05.2261005+01:00" endTime="2023-12-22T09:37:05.2261005+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e9abe11b-8e77-44dc-a0cd-767c86773e02" />
+    <UnitTestResult executionId="09dbd650-bb0d-4923-ab2f-5368120d69cc" testId="c3543ee0-f6c9-7d2e-9f88-d05e546ef44b" testName="TestCreation" computerName="DKSR-EFI-04" duration="00:00:00.0127404" startTime="2023-12-22T09:37:05.2104773+01:00" endTime="2023-12-22T09:37:05.2261005+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="09dbd650-bb0d-4923-ab2f-5368120d69cc" />
+    <UnitTestResult executionId="5e54a299-c725-4b2e-a17a-b7a7f43eb833" testId="12923056-6179-1dfb-664f-bdd4046d74ec" testName="TestCreateSegmentInformationOnCorrectData" computerName="DKSR-EFI-04" duration="00:00:00.0222753" startTime="2023-12-22T09:36:10.9914357+01:00" endTime="2023-12-22T09:36:11.0070615+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5e54a299-c725-4b2e-a17a-b7a7f43eb833" />
+    <UnitTestResult executionId="616c400e-a08f-4000-999f-e31be59bd688" testId="ccc4091b-cf60-01f8-6235-6eb2f38ea6d6" testName="PortMappingTest" computerName="DKSR-EFI-04" duration="00:00:00.0016087" startTime="2023-12-22T09:37:05.1323478+01:00" endTime="2023-12-22T09:37:05.1323478+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="616c400e-a08f-4000-999f-e31be59bd688" />
+    <UnitTestResult executionId="7877c5a4-0ecd-4a49-8129-fa682f317848" testId="9cf4f967-de24-74ca-c4b9-89a36b5715d4" testName="ProtectAndUnprotectStringWithLocalMachine" computerName="DKSR-EFI-04" duration="00:00:00.0008139" startTime="2023-12-22T09:37:05.1167295+01:00" endTime="2023-12-22T09:37:05.1167295+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7877c5a4-0ecd-4a49-8129-fa682f317848" />
+    <UnitTestResult executionId="37f31646-c7a4-45dd-affb-6c1b405673d4" testId="ef7d7616-7cca-90af-b130-a5d161b142c4" testName="TestComparasion" computerName="DKSR-EFI-04" duration="00:00:00.0009284" startTime="2023-12-22T09:37:05.2261005+01:00" endTime="2023-12-22T09:37:05.2261005+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="37f31646-c7a4-45dd-affb-6c1b405673d4" />
+    <UnitTestResult executionId="9f5da32e-0a56-45b2-8c5d-8167023f3d0b" testId="84c42d00-dccf-9b27-e1af-25bdaa309363" testName="AudioParamsTest" computerName="DKSR-EFI-04" duration="00:00:00.0056055" startTime="2023-12-22T09:36:11.1476855+01:00" endTime="2023-12-22T09:36:11.1476855+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f5da32e-0a56-45b2-8c5d-8167023f3d0b" />
+    <UnitTestResult executionId="a952c6e3-d39a-4c89-b0f9-080bd3695226" testId="4b9d32e2-86fe-623a-3140-2f19b84c5f1c" testName="TestCallCheckerWithNullArgument" computerName="DKSR-EFI-04" duration="00:00:00.0019882" startTime="2023-12-22T09:37:04.1167176+01:00" endTime="2023-12-22T09:37:04.1167176+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a952c6e3-d39a-4c89-b0f9-080bd3695226" />
+    <UnitTestResult executionId="ef652609-1249-4763-b9ed-04a3b2ac917b" testId="77f5dc38-1a6e-08d3-a874-0f7878725af8" testName="TestCallCheckerWithException" computerName="DKSR-EFI-04" duration="00:00:00.0029733" startTime="2023-12-22T09:37:04.1167176+01:00" endTime="2023-12-22T09:37:04.1167176+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef652609-1249-4763-b9ed-04a3b2ac917b" />
+    <UnitTestResult executionId="96af1b82-cd7f-4186-95d8-15a9577eca78" testId="e53c2509-f44a-7864-7b06-182c79466ed4" testName="DiscoverableServiceTest" computerName="DKSR-EFI-04" duration="00:00:00.0058951" startTime="2023-12-22T09:37:05.1636014+01:00" endTime="2023-12-22T09:37:05.1792264+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96af1b82-cd7f-4186-95d8-15a9577eca78" />
+    <UnitTestResult executionId="b2d605e8-8a3e-4549-8685-803ecbfd180c" testId="3c305019-294c-18ba-1186-b0f5c4ebb842" testName="ChangeRootPathMapper" computerName="DKSR-EFI-04" duration="00:00:00.0291622" startTime="2023-12-22T09:37:05.1792264+01:00" endTime="2023-12-22T09:37:05.2104773+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b2d605e8-8a3e-4549-8685-803ecbfd180c" />
+    <UnitTestResult executionId="9dba56ca-6290-4ccf-bf56-e87a37dc3576" testId="439ca05c-272c-2f42-da22-7c60cafe03ce" testName="SoapBodySerializerTest" computerName="DKSR-EFI-04" duration="00:00:00.0336666" startTime="2023-12-22T09:37:05.1323478+01:00" endTime="2023-12-22T09:37:05.1636014+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9dba56ca-6290-4ccf-bf56-e87a37dc3576" />
+    <UnitTestResult executionId="f3e59371-a7a0-437c-b119-50c98d507c9b" testId="9b07bea6-1373-a299-10f7-8cbb000349c0" testName="TestCallUpdaterUpdateAlways" computerName="DKSR-EFI-04" duration="00:00:00.0007438" startTime="2023-12-22T09:37:04.1323451+01:00" endTime="2023-12-22T09:37:04.1323451+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f3e59371-a7a0-437c-b119-50c98d507c9b" />
+    <UnitTestResult executionId="813e1f4f-165b-4057-9f47-b2a861614ca6" testId="a1d27722-20ab-fab1-c762-a4f2230ecd5f" testName="TestCallUpdaterUpdateNone" computerName="DKSR-EFI-04" duration="00:00:00.0006931" startTime="2023-12-22T09:37:04.1323451+01:00" endTime="2023-12-22T09:37:04.1323451+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="813e1f4f-165b-4057-9f47-b2a861614ca6" />
+    <UnitTestResult executionId="fc020821-90bf-46e5-a4cc-f191b8add286" testId="d2b0caad-34bd-f74e-2ff8-dbbad5882111" testName="TestBinaryFrameGeneration" computerName="DKSR-EFI-04" duration="00:00:00.1261587" startTime="2023-12-22T09:36:11.0070615+01:00" endTime="2023-12-22T09:36:11.1476855+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fc020821-90bf-46e5-a4cc-f191b8add286" />
+    <UnitTestResult executionId="3a2b4ae2-2ca7-408c-9c07-1fc66085ee63" testId="837bbd99-ad69-9ac5-4552-987b8fd103c6" testName="Test" computerName="DKSR-EFI-04" duration="00:00:00.0063193" startTime="2023-12-22T09:37:05.1010981+01:00" endTime="2023-12-22T09:37:05.1167295+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a2b4ae2-2ca7-408c-9c07-1fc66085ee63" />
+    <UnitTestResult executionId="eb3dc8d6-ec50-4e41-a216-09d58f50644b" testId="36bc091a-a0b5-049c-9177-dc0e01210f9e" testName="TestArrays" computerName="DKSR-EFI-04" duration="00:00:00.0011477" startTime="2023-12-22T09:37:05.1167295+01:00" endTime="2023-12-22T09:37:05.1167295+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eb3dc8d6-ec50-4e41-a216-09d58f50644b" />
+    <UnitTestResult executionId="885a8e91-5a46-4a6e-b681-ef47bee36bf1" testId="bbb6a814-467f-2c5e-8857-8e5c4461ddd7" testName="GetHttpMethodTest" computerName="DKSR-EFI-04" duration="00:00:00.0007903" startTime="2023-12-22T09:37:05.1792264+01:00" endTime="2023-12-22T09:37:05.1792264+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="885a8e91-5a46-4a6e-b681-ef47bee36bf1" />
+    <UnitTestResult executionId="0b4475e6-c030-4778-a760-3b700ea446e8" testId="b9420f26-d684-8fae-0382-eb086328b9d2" testName="IdentityPathMapperTest" computerName="DKSR-EFI-04" duration="00:00:00.0003676" startTime="2023-12-22T09:37:05.2104773+01:00" endTime="2023-12-22T09:37:05.2104773+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0b4475e6-c030-4778-a760-3b700ea446e8" />
+    <UnitTestResult executionId="7151fe0e-b20b-4d0a-b6d3-08ed0dc52ba8" testId="40509fe7-fa68-c960-0c0c-26b40fe63f99" testName="TestIntQueue" computerName="DKSR-EFI-04" duration="00:00:00.4408188" startTime="2023-12-22T09:37:04.1323451+01:00" endTime="2023-12-22T09:37:04.5854706+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7151fe0e-b20b-4d0a-b6d3-08ed0dc52ba8" />
+    <UnitTestResult executionId="0fa4103e-458c-4194-889e-e38cc9b01c8c" testId="3c0a78be-c22a-d348-a33a-f2d336d6fc53" testName="TokenGeneratorTest" computerName="DKSR-EFI-04" duration="00:00:00.0131857" startTime="2023-12-22T09:37:04.5854706+01:00" endTime="2023-12-22T09:37:04.5854706+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0fa4103e-458c-4194-889e-e38cc9b01c8c" />
+    <UnitTestResult executionId="ce1e381f-22dd-4c33-9069-1ccfbee41646" testId="5f8eec6f-ff3b-1e9c-f150-12f557485288" testName="TestList" computerName="DKSR-EFI-04" duration="00:00:00.0005594" startTime="2023-12-22T09:37:05.1167295+01:00" endTime="2023-12-22T09:37:05.1167295+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce1e381f-22dd-4c33-9069-1ccfbee41646" />
+    <UnitTestResult executionId="d987ef5f-189f-49d0-b223-3cf58f36672f" testId="1347ab78-e43f-9f5c-2057-8f27227c5e2c" testName="TestClockIsRunning" computerName="DKSR-EFI-04" duration="00:00:01.8739510" startTime="2023-12-22T09:37:02.2417094+01:00" endTime="2023-12-22T09:37:04.1167176+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d987ef5f-189f-49d0-b223-3cf58f36672f" />
+    <UnitTestResult executionId="ab74addc-91a6-4d3b-81d0-be347514b66b" testId="76b67864-4e8b-1444-61b2-e1eb60082f74" testName="ProtectAndUnprotectIntWithLocalMachine" computerName="DKSR-EFI-04" duration="00:00:00.0008724" startTime="2023-12-22T09:37:05.1323478+01:00" endTime="2023-12-22T09:37:05.1323478+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab74addc-91a6-4d3b-81d0-be347514b66b" />
+    <UnitTestResult executionId="f799e7ce-c1cf-40a8-919f-67187ce87686" testId="574b40db-3ae4-5236-9365-f6113b98f924" testName="SoapClientTest" computerName="DKSR-EFI-04" startTime="2023-12-22T09:37:05.1323478+01:00" endTime="2023-12-22T09:37:05.1323478+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f799e7ce-c1cf-40a8-919f-67187ce87686">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2c288582-353f-4572-bf01-9c3c6566e411" testId="dea4b87d-395b-999c-017f-2abc3ecfdc56" testName="SsdpTest" computerName="DKSR-EFI-04" duration="00:00:29.8776619" startTime="2023-12-22T09:35:40.9912721+01:00" endTime="2023-12-22T09:36:10.9758071+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c288582-353f-4572-bf01-9c3c6566e411" />
+    <UnitTestResult executionId="6995def4-52bc-49ed-8741-31ada9b1fecf" testId="7b16f7aa-ac5d-813f-5c1d-7eb975f6e7d9" testName="TestCallCheckerWithExpectedResult" computerName="DKSR-EFI-04" duration="00:00:00.0003917" startTime="2023-12-22T09:37:04.1167176+01:00" endTime="2023-12-22T09:37:04.1167176+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6995def4-52bc-49ed-8741-31ada9b1fecf" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="JsonHandlerTest" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="262192d7-fbc4-6c79-6a1c-c22bed72c890">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="e9abe11b-8e77-44dc-a0cd-767c86773e02" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Http.HttpSimpleJsonHandlerTests" name="JsonHandlerTest" />
+    </UnitTest>
+    <UnitTest name="ProtectAndUnprotectIntWithLocalMachine" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="76b67864-4e8b-1444-61b2-e1eb60082f74">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="ab74addc-91a6-4d3b-81d0-be347514b66b" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Users.ProtectorTests" name="ProtectAndUnprotectIntWithLocalMachine" />
+    </UnitTest>
+    <UnitTest name="TestCallCheckerWithException" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="77f5dc38-1a6e-08d3-a874-0f7878725af8">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="ef652609-1249-4763-b9ed-04a3b2ac917b" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Utilities.DictionaryUpdaterTests" name="TestCallCheckerWithException" />
+    </UnitTest>
+    <UnitTest name="TestCallUpdaterUpdateNone" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="a1d27722-20ab-fab1-c762-a4f2230ecd5f">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="813e1f4f-165b-4057-9f47-b2a861614ca6" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Utilities.DictionaryUpdaterTests" name="TestCallUpdaterUpdateNone" />
+    </UnitTest>
+    <UnitTest name="TestCallCheckerWithUnExpectedResult" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="5aa454e7-748a-49d5-9fc1-3b6e9cdbac34">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="dba9f59b-4aac-4148-b643-11c87dbc98a8" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Utilities.DictionaryUpdaterTests" name="TestCallCheckerWithUnExpectedResult" />
+    </UnitTest>
+    <UnitTest name="DiscoverableServiceTest" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="e53c2509-f44a-7864-7b06-182c79466ed4">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="96af1b82-cd7f-4186-95d8-15a9577eca78" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Upnp.DeviceDiscoveryService.DiscoverableServiceTests" name="DiscoverableServiceTest" />
+    </UnitTest>
+    <UnitTest name="TestCallCheckerWithExpectedResult" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="7b16f7aa-ac5d-813f-5c1d-7eb975f6e7d9">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="6995def4-52bc-49ed-8741-31ada9b1fecf" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Utilities.DictionaryUpdaterTests" name="TestCallCheckerWithExpectedResult" />
+    </UnitTest>
+    <UnitTest name="PortMappingTest" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="ccc4091b-cf60-01f8-6235-6eb2f38ea6d6">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="616c400e-a08f-4000-999f-e31be59bd688" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Upnp.WANIPConnectionService.PortMappingTests" name="PortMappingTest" />
+    </UnitTest>
+    <UnitTest name="SsdpTest" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="dea4b87d-395b-999c-017f-2abc3ecfdc56">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LongRunning" />
+      </TestCategory>
+      <Execution id="2c288582-353f-4572-bf01-9c3c6566e411" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.UPNP.Test.DeviceDiscoveryService.SsdpTests" name="SsdpTest" />
+    </UnitTest>
+    <UnitTest name="TestCallUpdaterUpdateAlways" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="9b07bea6-1373-a299-10f7-8cbb000349c0">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="f3e59371-a7a0-437c-b119-50c98d507c9b" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Utilities.DictionaryUpdaterTests" name="TestCallUpdaterUpdateAlways" />
+    </UnitTest>
+    <UnitTest name="TestToString" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="041fe7dc-4657-9392-c710-155b2ef29e28">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LongRunning" />
+      </TestCategory>
+      <Execution id="db49bb0c-97f5-47a2-8cb5-0b2fab48e2b0" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Management.VersionTests" name="TestToString" />
+    </UnitTest>
+    <UnitTest name="TestCallCheckerWithNullArgument" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="4b9d32e2-86fe-623a-3140-2f19b84c5f1c">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="a952c6e3-d39a-4c89-b0f9-080bd3695226" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Utilities.DictionaryUpdaterTests" name="TestCallCheckerWithNullArgument" />
+    </UnitTest>
+    <UnitTest name="SoapBodySerializerTest" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="439ca05c-272c-2f42-da22-7c60cafe03ce">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="9dba56ca-6290-4ccf-bf56-e87a37dc3576" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Upnp.WANIPConnectionService.CustomXmlTextWriterTests" name="SoapBodySerializerTest" />
+    </UnitTest>
+    <UnitTest name="ProtectAndUnprotectStringWithCurrentUser" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="4bfbd305-04c5-75c5-4edd-6e246d5d666e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="31c8218a-713d-4b04-9f8f-99fc7a7221c5" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Users.ProtectorTests" name="ProtectAndUnprotectStringWithCurrentUser" />
+    </UnitTest>
+    <UnitTest name="WanIPConnectionServiceTest" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="c60fbfa8-e810-15a0-7327-d1d0413c56e8">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="90dc23dc-6c5e-4df5-afc7-e01060cf7d8a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Upnp.WANIPConnectionService.WanIPConnectionServiceTests" name="WanIPConnectionServiceTest" />
+    </UnitTest>
+    <UnitTest name="ExtendHeaderTest" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="306086f3-6a86-cb2b-a7d5-f339aa65cfac">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="4b340219-3f54-45e0-94f0-5bb643353ff0" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.ReverseProxy.HttpRequestHeadersExtensions" name="ExtendHeaderTest" />
+    </UnitTest>
+    <UnitTest name="CustomXmlTextWriterTest" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="e5734965-bc11-86dd-b87a-faa5eb26b5d8">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="aeba0624-d1e3-4569-adb4-b91974736df3" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Upnp.WANIPConnectionService.CustomXmlTextWriterTests" name="CustomXmlTextWriterTest" />
+    </UnitTest>
+    <UnitTest name="ChangeRootPathMapper" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="3c305019-294c-18ba-1186-b0f5c4ebb842">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="b2d605e8-8a3e-4549-8685-803ecbfd180c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.ReverseProxy.PathMappersTests" name="ChangeRootPathMapper" />
+    </UnitTest>
+    <UnitTest name="TestIntQueue" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="40509fe7-fa68-c960-0c0c-26b40fe63f99">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LongRunning" />
+      </TestCategory>
+      <Execution id="7151fe0e-b20b-4d0a-b6d3-08ed0dc52ba8" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Utilities.TaskObjectTests" name="TestIntQueue" />
+    </UnitTest>
+    <UnitTest name="HttpMethodsParseTests" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="13fa1089-18bd-1120-29f4-4d05f925c467">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="ba5de113-6d82-443d-82e7-694917b499d2" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.ReverseProxy.HttpMethodsTests" name="HttpMethodsParseTests" />
+    </UnitTest>
+    <UnitTest name="AudioParamsTest" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="84c42d00-dccf-9b27-e1af-25bdaa309363">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="9f5da32e-0a56-45b2-8c5d-8167023f3d0b" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Utilities.AudioParamsHelperTest" name="AudioParamsTest" />
+    </UnitTest>
+    <UnitTest name="TestCallUpdaterDeleteNone" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="ed57792f-8faa-ea9a-7951-3f256c424e82">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="be4ed3d6-caff-4456-a4e3-2949a02e0fa1" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Utilities.DictionaryUpdaterTests" name="TestCallUpdaterDeleteNone" />
+    </UnitTest>
+    <UnitTest name="TestCallUpdaterAddAlways" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="bf8561d7-582b-78d7-9fed-1330a23d90b9">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="ddf713bf-49ad-4cf0-bd4d-40d2d153f722" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Utilities.DictionaryUpdaterTests" name="TestCallUpdaterAddAlways" />
+    </UnitTest>
+    <UnitTest name="ProtectAndUnprotectIntWithCurrentUser" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="db1baaf6-8901-c066-fc57-490a75d30b28">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="bbb3e804-e746-4386-ad03-7c31cd7897d5" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Users.ProtectorTests" name="ProtectAndUnprotectIntWithCurrentUser" />
+    </UnitTest>
+    <UnitTest name="ProtectAndUnprotectStringWithLocalMachine" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="9cf4f967-de24-74ca-c4b9-89a36b5715d4">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="7877c5a4-0ecd-4a49-8129-fa682f317848" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Users.ProtectorTests" name="ProtectAndUnprotectStringWithLocalMachine" />
+    </UnitTest>
+    <UnitTest name="TestLongResponse" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="8ed0abe9-953e-5575-32de-2fb4b0cb9975">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="2858ed09-83fb-4ab4-bbb3-60ba2aa22379" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Upnp.WANIPConnectionService.SoapClientTests" name="TestLongResponse" />
+    </UnitTest>
+    <UnitTest name="TokenGeneratorTest" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="3c0a78be-c22a-d348-a33a-f2d336d6fc53">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LongRunning" />
+      </TestCategory>
+      <Execution id="0fa4103e-458c-4194-889e-e38cc9b01c8c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Utilities.TokenGeneratorTests" name="TokenGeneratorTest" />
+    </UnitTest>
+    <UnitTest name="SoapClientTest" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="574b40db-3ae4-5236-9365-f6113b98f924">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LongRunning" />
+      </TestCategory>
+      <Execution id="f799e7ce-c1cf-40a8-919f-67187ce87686" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Upnp.WANIPConnectionService.SoapClientTests" name="SoapClientTest" />
+    </UnitTest>
+    <UnitTest name="TestCallUpdaterAddNone" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="81508a3d-5b01-ab8c-9e3a-960074571553">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="c08a92e0-23f8-48fc-81eb-2512f1860887" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Utilities.DictionaryUpdaterTests" name="TestCallUpdaterAddNone" />
+    </UnitTest>
+    <UnitTest name="TestNumberOfTicksPerSecond" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="2e15c9f7-3ba3-8404-6e2e-138334259c1f">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LongRunning" />
+      </TestCategory>
+      <Execution id="68af47f9-5af9-422a-b4bb-bf196777468f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Utilities.ClockTests" name="TestNumberOfTicksPerSecond" />
+    </UnitTest>
+    <UnitTest name="TestArrays" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="36bc091a-a0b5-049c-9177-dc0e01210f9e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="eb3dc8d6-ec50-4e41-a216-09d58f50644b" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Utilities.JsonS.JsonSerializerTests" name="TestArrays" />
+    </UnitTest>
+    <UnitTest name="GetHttpMethodTest" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="bbb6a814-467f-2c5e-8857-8e5c4461ddd7">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="885a8e91-5a46-4a6e-b681-ef47bee36bf1" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.ReverseProxy.HttpMethodsTests" name="GetHttpMethodTest" />
+    </UnitTest>
+    <UnitTest name="TestList" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="5f8eec6f-ff3b-1e9c-f150-12f557485288">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="ce1e381f-22dd-4c33-9069-1ccfbee41646" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Utilities.JsonS.JsonSerializerTests" name="TestList" />
+    </UnitTest>
+    <UnitTest name="TestClockIsRunning" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="1347ab78-e43f-9f5c-2057-8f27227c5e2c">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LongRunning" />
+      </TestCategory>
+      <Execution id="d987ef5f-189f-49d0-b223-3cf58f36672f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Utilities.ClockTests" name="TestClockIsRunning" />
+    </UnitTest>
+    <UnitTest name="TestComparasion" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="ef7d7616-7cca-90af-b130-a5d161b142c4">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="37f31646-c7a4-45dd-affb-6c1b405673d4" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Management.VersionComparerTests" name="TestComparasion" />
+    </UnitTest>
+    <UnitTest name="TestCallUpdaterDeleteAlways" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="f5983b14-da06-0eb9-d958-121cf03d55c7">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="255a38c3-9cd4-49d2-9266-2f625f8e9bf8" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Utilities.DictionaryUpdaterTests" name="TestCallUpdaterDeleteAlways" />
+    </UnitTest>
+    <UnitTest name="TestBinaryFrameGeneration" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="d2b0caad-34bd-f74e-2ff8-dbbad5882111">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LongRunning" />
+      </TestCategory>
+      <Execution id="fc020821-90bf-46e5-a4cc-f191b8add286" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.VideoChannel.BinaryFrameGeneratorTests" name="TestBinaryFrameGeneration" />
+    </UnitTest>
+    <UnitTest name="IdentityPathMapperTest" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="b9420f26-d684-8fae-0382-eb086328b9d2">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="0b4475e6-c030-4778-a760-3b700ea446e8" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.ReverseProxy.PathMappersTests" name="IdentityPathMapperTest" />
+    </UnitTest>
+    <UnitTest name="Test" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="837bbd99-ad69-9ac5-4552-987b8fd103c6">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="3a2b4ae2-2ca7-408c-9c07-1fc66085ee63" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Utilities.JsonS.JsonSerializerTests" name="Test" />
+    </UnitTest>
+    <UnitTest name="DotNetZipWrapperTest" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="fb7c8747-f9a8-949c-55a3-21ec2b849458">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LongRunning" />
+      </TestCategory>
+      <Execution id="27eae5d3-1da2-44dc-aff7-fd05d1dcb4b8" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Utilities.Zip.DotNetZipWrapperTests" name="DotNetZipWrapperTest" />
+    </UnitTest>
+    <UnitTest name="TestCreateSegmentInformationOnCorrectData" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="12923056-6179-1dfb-664f-bdd4046d74ec">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="5e54a299-c725-4b2e-a17a-b7a7f43eb833" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.VideoSegmentation.SegmentInformationTests" name="TestCreateSegmentInformationOnCorrectData" />
+    </UnitTest>
+    <UnitTest name="TestCreation" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.test\bin\debug\net472\videoos.mobile.test.dll" id="c3543ee0-f6c9-7d2e-9f88-d05e546ef44b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LongRunning" />
+      </TestCategory>
+      <Execution id="09dbd650-bb0d-4923-ab2f-5368120d69cc" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Test\bin\Debug\net472\VideoOS.Mobile.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Test.Management.VersionTests" name="TestCreation" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="2e15c9f7-3ba3-8404-6e2e-138334259c1f" executionId="68af47f9-5af9-422a-b4bb-bf196777468f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="306086f3-6a86-cb2b-a7d5-f339aa65cfac" executionId="4b340219-3f54-45e0-94f0-5bb643353ff0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fb7c8747-f9a8-949c-55a3-21ec2b849458" executionId="27eae5d3-1da2-44dc-aff7-fd05d1dcb4b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed57792f-8faa-ea9a-7951-3f256c424e82" executionId="be4ed3d6-caff-4456-a4e3-2949a02e0fa1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5aa454e7-748a-49d5-9fc1-3b6e9cdbac34" executionId="dba9f59b-4aac-4148-b643-11c87dbc98a8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5983b14-da06-0eb9-d958-121cf03d55c7" executionId="255a38c3-9cd4-49d2-9266-2f625f8e9bf8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e5734965-bc11-86dd-b87a-faa5eb26b5d8" executionId="aeba0624-d1e3-4569-adb4-b91974736df3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c60fbfa8-e810-15a0-7327-d1d0413c56e8" executionId="90dc23dc-6c5e-4df5-afc7-e01060cf7d8a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="81508a3d-5b01-ab8c-9e3a-960074571553" executionId="c08a92e0-23f8-48fc-81eb-2512f1860887" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="13fa1089-18bd-1120-29f4-4d05f925c467" executionId="ba5de113-6d82-443d-82e7-694917b499d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ed0abe9-953e-5575-32de-2fb4b0cb9975" executionId="2858ed09-83fb-4ab4-bbb3-60ba2aa22379" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="041fe7dc-4657-9392-c710-155b2ef29e28" executionId="db49bb0c-97f5-47a2-8cb5-0b2fab48e2b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf8561d7-582b-78d7-9fed-1330a23d90b9" executionId="ddf713bf-49ad-4cf0-bd4d-40d2d153f722" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="db1baaf6-8901-c066-fc57-490a75d30b28" executionId="bbb3e804-e746-4386-ad03-7c31cd7897d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4bfbd305-04c5-75c5-4edd-6e246d5d666e" executionId="31c8218a-713d-4b04-9f8f-99fc7a7221c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="262192d7-fbc4-6c79-6a1c-c22bed72c890" executionId="e9abe11b-8e77-44dc-a0cd-767c86773e02" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c3543ee0-f6c9-7d2e-9f88-d05e546ef44b" executionId="09dbd650-bb0d-4923-ab2f-5368120d69cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="12923056-6179-1dfb-664f-bdd4046d74ec" executionId="5e54a299-c725-4b2e-a17a-b7a7f43eb833" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ccc4091b-cf60-01f8-6235-6eb2f38ea6d6" executionId="616c400e-a08f-4000-999f-e31be59bd688" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9cf4f967-de24-74ca-c4b9-89a36b5715d4" executionId="7877c5a4-0ecd-4a49-8129-fa682f317848" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ef7d7616-7cca-90af-b130-a5d161b142c4" executionId="37f31646-c7a4-45dd-affb-6c1b405673d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="84c42d00-dccf-9b27-e1af-25bdaa309363" executionId="9f5da32e-0a56-45b2-8c5d-8167023f3d0b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4b9d32e2-86fe-623a-3140-2f19b84c5f1c" executionId="a952c6e3-d39a-4c89-b0f9-080bd3695226" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77f5dc38-1a6e-08d3-a874-0f7878725af8" executionId="ef652609-1249-4763-b9ed-04a3b2ac917b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e53c2509-f44a-7864-7b06-182c79466ed4" executionId="96af1b82-cd7f-4186-95d8-15a9577eca78" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c305019-294c-18ba-1186-b0f5c4ebb842" executionId="b2d605e8-8a3e-4549-8685-803ecbfd180c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="439ca05c-272c-2f42-da22-7c60cafe03ce" executionId="9dba56ca-6290-4ccf-bf56-e87a37dc3576" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9b07bea6-1373-a299-10f7-8cbb000349c0" executionId="f3e59371-a7a0-437c-b119-50c98d507c9b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a1d27722-20ab-fab1-c762-a4f2230ecd5f" executionId="813e1f4f-165b-4057-9f47-b2a861614ca6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d2b0caad-34bd-f74e-2ff8-dbbad5882111" executionId="fc020821-90bf-46e5-a4cc-f191b8add286" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="837bbd99-ad69-9ac5-4552-987b8fd103c6" executionId="3a2b4ae2-2ca7-408c-9c07-1fc66085ee63" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="36bc091a-a0b5-049c-9177-dc0e01210f9e" executionId="eb3dc8d6-ec50-4e41-a216-09d58f50644b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bbb6a814-467f-2c5e-8857-8e5c4461ddd7" executionId="885a8e91-5a46-4a6e-b681-ef47bee36bf1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b9420f26-d684-8fae-0382-eb086328b9d2" executionId="0b4475e6-c030-4778-a760-3b700ea446e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="40509fe7-fa68-c960-0c0c-26b40fe63f99" executionId="7151fe0e-b20b-4d0a-b6d3-08ed0dc52ba8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c0a78be-c22a-d348-a33a-f2d336d6fc53" executionId="0fa4103e-458c-4194-889e-e38cc9b01c8c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5f8eec6f-ff3b-1e9c-f150-12f557485288" executionId="ce1e381f-22dd-4c33-9069-1ccfbee41646" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1347ab78-e43f-9f5c-2057-8f27227c5e2c" executionId="d987ef5f-189f-49d0-b223-3cf58f36672f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="76b67864-4e8b-1444-61b2-e1eb60082f74" executionId="ab74addc-91a6-4d3b-81d0-be347514b66b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="574b40db-3ae4-5236-9365-f6113b98f924" executionId="f799e7ce-c1cf-40a8-919f-67187ce87686" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dea4b87d-395b-999c-017f-2abc3ecfdc56" executionId="2c288582-353f-4572-bf01-9c3c6566e411" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b16f7aa-ac5d-813f-5c1d-7eb975f6e7d9" executionId="6995def4-52bc-49ed-8741-31ada9b1fecf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="42" executed="40" passed="40" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>Test 'SoapClientTest' was skipped in the test run.&#xD;
+Test 'TestLongResponse' was skipped in the test run.&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
