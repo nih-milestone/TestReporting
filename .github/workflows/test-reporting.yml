@@ -7,7 +7,7 @@ on:
 permissions:
   contents: read
   actions: read
-  checks: read|write  
+  checks: write  
   
 jobs:
   build-and-test:
@@ -20,7 +20,7 @@ jobs:
         
       - name: 'Roll dice'
         shell: pwsh
-        run: echo "PASS=$(Get-Random -Maximum 4)" >> $env:GITHUB_ENV
+        run: echo "PASS=$(Get-Random -Maximum 3)" >> $env:GITHUB_ENV
        
       - name: 'Parse - Failing results'
         if: env.PASS > 0
