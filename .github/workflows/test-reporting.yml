@@ -27,7 +27,7 @@ jobs:
         uses: nih-milestone/trx-parser@main
         with:
           TRX_PATH: ${{ github.workspace }}\FailingTestResults
-          TRX_GROUPING: 50
+          TRX_GROUPING: 100
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
           
       - name: 'Parse - Passing results'
@@ -35,5 +35,5 @@ jobs:
         uses: nih-milestone/trx-parser@main
         with:
           TRX_PATH: ${{ github.workspace }}\PassingTestResults
-          TRX_GROUPING: 50
+          TRX_GROUPING: 100
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}           
