@@ -1,7 +1,6 @@
 name: 'Test reporting'
 
 on:
-  push:
   pull_request:
   workflow_dispatch:
   
@@ -18,8 +17,13 @@ jobs:
     steps:
       - name: Check out code
         uses: actions/checkout@v4
-
+        
+      - name: 'Roll dice'
+        shell: pwsh
+        run: echo "PASS=$(Get-Random -Maximum 4)" >> $env:GITHUB_ENV
+       
       - name: 'Parse - Failing results'
+        if: env.PASS > 0
         uses: nih-milestone/trx-parser@v0.5.7
         with:
           TRX_PATH: ${{ github.workspace }}\FailingTestResults
@@ -27,7 +31,7 @@ jobs:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
           
       - name: 'Parse - Passing results'
-        if: always()
+        if: env.PASS == 0
         uses: nih-milestone/trx-parser@v0.5.7
         with:
           TRX_PATH: ${{ github.workspace }}\PassingTestResults
