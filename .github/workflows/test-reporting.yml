@@ -36,4 +36,4 @@ jobs:
         with:
           TRX_PATH: ${{ github.workspace }}\PassingTestResults
           TRX_GROUPING: 100
-          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}           
+          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
