@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: 'Parse - Failing results'
-        uses: nih-milestone/trx-parser@v0.5.6
+        uses: nih-milestone/trx-parser@v0.5.7
         with:
           TRX_PATH: ${{ github.workspace }}\FailingTestResults
           TRX_GROUPING: 50
@@ -27,7 +27,7 @@ jobs:
           
       - name: 'Parse - Passing results'
         if: always()
-        uses: nih-milestone/trx-parser@v0.5.6
+        uses: nih-milestone/trx-parser@v0.5.7
         with:
           TRX_PATH: ${{ github.workspace }}\PassingTestResults
           TRX_GROUPING: 50
