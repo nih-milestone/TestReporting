@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="548a5e00-df9b-42eb-83aa-cfc438da5667" name="DKSR-EFI-06$@DKSR-EFI-06 2024-01-09 15:41:07" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-01-09T15:41:07.2631437+01:00" queuing="2024-01-09T15:41:07.2631437+01:00" start="2024-01-09T15:41:05.5287645+01:00" finish="2024-01-09T15:41:07.2943973+01:00" />
+  <TestSettings name="default" id="2a0fe297-a327-4fd2-8bda-01dd898f93d9">
+    <Deployment runDeploymentRoot="DKSR-EFI-06$_DKSR-EFI-06_2024-01-09_15_41_07" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="8e39e880-ec25-4cdd-9e29-60f842ee6546" testId="60636eb2-1984-0c73-334e-ded102f60886" testName="SearchResult_TriggerTime_Is_Within_The_Sequence (1,5)" computerName="DKSR-EFI-06" duration="00:00:00.0000133" startTime="2024-01-09T15:41:06.9506437+01:00" endTime="2024-01-09T15:41:06.9506437+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e39e880-ec25-4cdd-9e29-60f842ee6546" />
+    <UnitTestResult executionId="114d03ef-d7fb-4701-8e6f-52d67ed7e9fe" testId="f292830b-1e47-dff7-fe14-238137f3d52e" testName="SearchResult_TriggerTime_Is_Within_The_Sequence (3,3)" computerName="DKSR-EFI-06" duration="00:00:00.0112646" startTime="2024-01-09T15:41:06.9350194+01:00" endTime="2024-01-09T15:41:06.9506437+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="114d03ef-d7fb-4701-8e6f-52d67ed7e9fe" />
+    <UnitTestResult executionId="1f2832a7-fe09-48ac-9643-bd7d0357b70c" testId="803965db-4cd4-1273-0113-8545d1192476" testName="SearchResult_TriggerTime_Is_Within_The_Sequence (1,3)" computerName="DKSR-EFI-06" duration="00:00:00.0000120" startTime="2024-01-09T15:41:06.9506437+01:00" endTime="2024-01-09T15:41:06.9506437+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f2832a7-fe09-48ac-9643-bd7d0357b70c" />
+    <UnitTestResult executionId="604bf967-d842-41ad-ae50-9c6cecabeddd" testId="1914c50b-32bf-3a27-bcd5-c0e6a0e50110" testName="SearchResult_Not_Modified_When_TriggerTime_Is_Not_Within_The_Sequence (15)" computerName="DKSR-EFI-06" duration="00:00:00.0000113" startTime="2024-01-09T15:41:06.9506437+01:00" endTime="2024-01-09T15:41:06.9506437+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="604bf967-d842-41ad-ae50-9c6cecabeddd" />
+    <UnitTestResult executionId="b4a843bd-ebad-46c1-a4fc-02a314b2bc88" testId="11a97806-8cb9-a574-a9b9-36f4f15b007f" testName="SearchResult_TriggerTime_Is_Within_The_Sequence (3,5)" computerName="DKSR-EFI-06" duration="00:00:00.0000438" startTime="2024-01-09T15:41:06.9506437+01:00" endTime="2024-01-09T15:41:06.9506437+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b4a843bd-ebad-46c1-a4fc-02a314b2bc88" />
+    <UnitTestResult executionId="c370b7e1-ad7c-4f41-8f9e-3a5590630f09" testId="66e288b7-e794-e64d-6b5a-89b4c8862778" testName="Throws_Exception_When_VideoSequence_Is_Empty" computerName="DKSR-EFI-06" duration="00:00:00.0004550" startTime="2024-01-09T15:41:06.9193971+01:00" endTime="2024-01-09T15:41:06.9350194+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c370b7e1-ad7c-4f41-8f9e-3a5590630f09" />
+    <UnitTestResult executionId="363a6a73-1452-4eb7-bc63-6cfb83c3f36d" testId="03b37470-b4ab-c097-9d06-cb5655ac172a" testName="Throws_Exception_When_SearchResultData_Is_Empty" computerName="DKSR-EFI-06" duration="00:00:00.1719923" startTime="2024-01-09T15:41:06.5443925+01:00" endTime="2024-01-09T15:41:06.9037707+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="363a6a73-1452-4eb7-bc63-6cfb83c3f36d" />
+    <UnitTestResult executionId="9d35ff95-44d2-49eb-9ce7-6e756f93b50e" testId="6e44b3ae-20e1-0c15-7ac1-2d4fa5d694b5" testName="SearchResult_Not_Modified_When_TriggerTime_Is_Not_Within_The_Sequence (2)" computerName="DKSR-EFI-06" duration="00:00:00.0004534" startTime="2024-01-09T15:41:06.9506437+01:00" endTime="2024-01-09T15:41:06.9506437+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d35ff95-44d2-49eb-9ce7-6e756f93b50e" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="SearchResult_Not_Modified_When_TriggerTime_Is_Not_Within_The_Sequence (15)" storage="d:\actions-runner\_work\xpco\xpco\common\videoos.common.searchagents\videoos.common.searchagents.tests\bin\debug\videoos.common.searchagents.tests.dll" id="1914c50b-32bf-3a27-bcd5-c0e6a0e50110">
+      <Execution id="604bf967-d842-41ad-ae50-9c6cecabeddd" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Common\VideoOS.Common.SearchAgents\VideoOS.Common.SearchAgents.Tests\bin\Debug\VideoOS.Common.SearchAgents.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Common.SearchAgents.Tests.SearchResultTimeUpdaterTest" name="SearchResult_Not_Modified_When_TriggerTime_Is_Not_Within_The_Sequence" />
+    </UnitTest>
+    <UnitTest name="SearchResult_TriggerTime_Is_Within_The_Sequence (3,3)" storage="d:\actions-runner\_work\xpco\xpco\common\videoos.common.searchagents\videoos.common.searchagents.tests\bin\debug\videoos.common.searchagents.tests.dll" id="f292830b-1e47-dff7-fe14-238137f3d52e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="CommonSearchAgents" />
+      </TestCategory>
+      <Execution id="114d03ef-d7fb-4701-8e6f-52d67ed7e9fe" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Common\VideoOS.Common.SearchAgents\VideoOS.Common.SearchAgents.Tests\bin\Debug\VideoOS.Common.SearchAgents.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Common.SearchAgents.Tests.SearchResultTimeUpdaterTest" name="SearchResult_TriggerTime_Is_Within_The_Sequence" />
+    </UnitTest>
+    <UnitTest name="Throws_Exception_When_VideoSequence_Is_Empty" storage="d:\actions-runner\_work\xpco\xpco\common\videoos.common.searchagents\videoos.common.searchagents.tests\bin\debug\videoos.common.searchagents.tests.dll" id="66e288b7-e794-e64d-6b5a-89b4c8862778">
+      <TestCategory>
+        <TestCategoryItem TestCategory="CommonSearchAgents" />
+      </TestCategory>
+      <Execution id="c370b7e1-ad7c-4f41-8f9e-3a5590630f09" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Common\VideoOS.Common.SearchAgents\VideoOS.Common.SearchAgents.Tests\bin\Debug\VideoOS.Common.SearchAgents.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Common.SearchAgents.Tests.SearchResultTimeUpdaterTest" name="Throws_Exception_When_VideoSequence_Is_Empty" />
+    </UnitTest>
+    <UnitTest name="SearchResult_Not_Modified_When_TriggerTime_Is_Not_Within_The_Sequence (2)" storage="d:\actions-runner\_work\xpco\xpco\common\videoos.common.searchagents\videoos.common.searchagents.tests\bin\debug\videoos.common.searchagents.tests.dll" id="6e44b3ae-20e1-0c15-7ac1-2d4fa5d694b5">
+      <Execution id="9d35ff95-44d2-49eb-9ce7-6e756f93b50e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Common\VideoOS.Common.SearchAgents\VideoOS.Common.SearchAgents.Tests\bin\Debug\VideoOS.Common.SearchAgents.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Common.SearchAgents.Tests.SearchResultTimeUpdaterTest" name="SearchResult_Not_Modified_When_TriggerTime_Is_Not_Within_The_Sequence" />
+    </UnitTest>
+    <UnitTest name="SearchResult_TriggerTime_Is_Within_The_Sequence (1,5)" storage="d:\actions-runner\_work\xpco\xpco\common\videoos.common.searchagents\videoos.common.searchagents.tests\bin\debug\videoos.common.searchagents.tests.dll" id="60636eb2-1984-0c73-334e-ded102f60886">
+      <TestCategory>
+        <TestCategoryItem TestCategory="CommonSearchAgents" />
+      </TestCategory>
+      <Execution id="8e39e880-ec25-4cdd-9e29-60f842ee6546" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Common\VideoOS.Common.SearchAgents\VideoOS.Common.SearchAgents.Tests\bin\Debug\VideoOS.Common.SearchAgents.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Common.SearchAgents.Tests.SearchResultTimeUpdaterTest" name="SearchResult_TriggerTime_Is_Within_The_Sequence" />
+    </UnitTest>
+    <UnitTest name="Throws_Exception_When_SearchResultData_Is_Empty" storage="d:\actions-runner\_work\xpco\xpco\common\videoos.common.searchagents\videoos.common.searchagents.tests\bin\debug\videoos.common.searchagents.tests.dll" id="03b37470-b4ab-c097-9d06-cb5655ac172a">
+      <TestCategory>
+        <TestCategoryItem TestCategory="CommonSearchAgents" />
+      </TestCategory>
+      <Execution id="363a6a73-1452-4eb7-bc63-6cfb83c3f36d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Common\VideoOS.Common.SearchAgents\VideoOS.Common.SearchAgents.Tests\bin\Debug\VideoOS.Common.SearchAgents.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Common.SearchAgents.Tests.SearchResultTimeUpdaterTest" name="Throws_Exception_When_SearchResultData_Is_Empty" />
+    </UnitTest>
+    <UnitTest name="SearchResult_TriggerTime_Is_Within_The_Sequence (3,5)" storage="d:\actions-runner\_work\xpco\xpco\common\videoos.common.searchagents\videoos.common.searchagents.tests\bin\debug\videoos.common.searchagents.tests.dll" id="11a97806-8cb9-a574-a9b9-36f4f15b007f">
+      <TestCategory>
+        <TestCategoryItem TestCategory="CommonSearchAgents" />
+      </TestCategory>
+      <Execution id="b4a843bd-ebad-46c1-a4fc-02a314b2bc88" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Common\VideoOS.Common.SearchAgents\VideoOS.Common.SearchAgents.Tests\bin\Debug\VideoOS.Common.SearchAgents.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Common.SearchAgents.Tests.SearchResultTimeUpdaterTest" name="SearchResult_TriggerTime_Is_Within_The_Sequence" />
+    </UnitTest>
+    <UnitTest name="SearchResult_TriggerTime_Is_Within_The_Sequence (1,3)" storage="d:\actions-runner\_work\xpco\xpco\common\videoos.common.searchagents\videoos.common.searchagents.tests\bin\debug\videoos.common.searchagents.tests.dll" id="803965db-4cd4-1273-0113-8545d1192476">
+      <TestCategory>
+        <TestCategoryItem TestCategory="CommonSearchAgents" />
+      </TestCategory>
+      <Execution id="1f2832a7-fe09-48ac-9643-bd7d0357b70c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Common\VideoOS.Common.SearchAgents\VideoOS.Common.SearchAgents.Tests\bin\Debug\VideoOS.Common.SearchAgents.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Common.SearchAgents.Tests.SearchResultTimeUpdaterTest" name="SearchResult_TriggerTime_Is_Within_The_Sequence" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="60636eb2-1984-0c73-334e-ded102f60886" executionId="8e39e880-ec25-4cdd-9e29-60f842ee6546" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f292830b-1e47-dff7-fe14-238137f3d52e" executionId="114d03ef-d7fb-4701-8e6f-52d67ed7e9fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="803965db-4cd4-1273-0113-8545d1192476" executionId="1f2832a7-fe09-48ac-9643-bd7d0357b70c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1914c50b-32bf-3a27-bcd5-c0e6a0e50110" executionId="604bf967-d842-41ad-ae50-9c6cecabeddd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11a97806-8cb9-a574-a9b9-36f4f15b007f" executionId="b4a843bd-ebad-46c1-a4fc-02a314b2bc88" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="66e288b7-e794-e64d-6b5a-89b4c8862778" executionId="c370b7e1-ad7c-4f41-8f9e-3a5590630f09" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="03b37470-b4ab-c097-9d06-cb5655ac172a" executionId="363a6a73-1452-4eb7-bc63-6cfb83c3f36d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6e44b3ae-20e1-0c15-7ac1-2d4fa5d694b5" executionId="9d35ff95-44d2-49eb-9ce7-6e756f93b50e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="8" executed="8" passed="8" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

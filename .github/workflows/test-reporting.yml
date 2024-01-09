@@ -2,6 +2,7 @@ name: 'Test reporting'
 
 on:
   push:
+  pull_request:
   workflow_dispatch:
   
 permissions:
@@ -18,17 +19,27 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v4
 
+      - name: 'Recursive lookup'
+        uses: nih-milestone/trx-parser@main
+        with:
+          TRX_PATH: ${{ github.workspace }}\TestResults
+        
+      - name: 'Roll dice'
+        shell: pwsh
+        run: echo "PASS=$(Get-Random -Maximum 3)" >> $env:GITHUB_ENV
+       
       - name: 'Parse - Failing results'
-        uses: nih-milestone/trx-parser@v0.5.7
+        if: env.PASS > 0
+        uses: nih-milestone/trx-parser@main
         with:
           TRX_PATH: ${{ github.workspace }}\FailingTestResults
-          TRX_GROUPING: 50
+          TRX_GROUPING: 100
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
           
       - name: 'Parse - Passing results'
-        if: always()
-        uses: nih-milestone/trx-parser@v0.5.7
+        if: env.PASS == 0
+        uses: nih-milestone/trx-parser@main
         with:
           TRX_PATH: ${{ github.workspace }}\PassingTestResults
-          TRX_GROUPING: 50
-          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}           
+          TRX_GROUPING: 100
+          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}

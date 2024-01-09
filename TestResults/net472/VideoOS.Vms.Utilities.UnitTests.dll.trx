@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="c7b44748-118a-40d9-ad5a-10b48ad44d49" name="DKSR-EFI-06$@DKSR-EFI-06 2024-01-09 15:42:04" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-01-09T15:42:04.5445511+01:00" queuing="2024-01-09T15:42:04.5445511+01:00" start="2024-01-09T15:41:53.6226953+01:00" finish="2024-01-09T15:42:06.6539336+01:00" />
+  <TestSettings name="default" id="21148ffb-e8c8-41c5-bd2d-1aa621ea1e02">
+    <Deployment runDeploymentRoot="DKSR-EFI-06$_DKSR-EFI-06_2024-01-09_15_42_04" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="b9e59bfc-a2c5-4937-8e09-adb0c4434df1" testId="d0b6a6c5-4f78-e250-2867-34cd12e5d44c" testName="QueryProvider_NonExisting_Return_Null" computerName="DKSR-EFI-06" duration="00:00:00.0003325" startTime="2024-01-09T15:42:05.5758036+01:00" endTime="2024-01-09T15:42:05.5758036+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9e59bfc-a2c5-4937-8e09-adb0c4434df1" />
+    <UnitTestResult executionId="632f58c7-5cb7-4e4f-8f54-5b033a7a60d3" testId="edd6b848-bbcf-30c9-e994-9b51e3fa5bf9" testName="MilestoneOemResourcesTest" computerName="DKSR-EFI-06" duration="00:00:00.9358577" startTime="2024-01-09T15:42:02.9039163+01:00" endTime="2024-01-09T15:42:04.4351740+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="632f58c7-5cb7-4e4f-8f54-5b033a7a60d3" />
+    <UnitTestResult executionId="1e346767-1af7-4312-a6cc-03ff6f718d05" testId="40d3d527-4708-45a4-d95b-02d11999aced" testName="AssemblyInfoVersionTest" computerName="DKSR-EFI-06" duration="00:00:00.0114623" startTime="2024-01-09T15:42:05.3726790+01:00" endTime="2024-01-09T15:42:05.3883047+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e346767-1af7-4312-a6cc-03ff6f718d05" />
+    <UnitTestResult executionId="690ac369-354f-4484-9f2a-bdc70fd5c03c" testId="f3c8731c-2c95-6e01-edbd-c0ca4b6fa874" testName="ProductCodeTest" computerName="DKSR-EFI-06" duration="00:00:00.0001389" startTime="2024-01-09T15:42:05.3726790+01:00" endTime="2024-01-09T15:42:05.3726790+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="690ac369-354f-4484-9f2a-bdc70fd5c03c" />
+    <UnitTestResult executionId="ebf33f68-9c02-46ad-9855-f1182274f206" testId="e8ac315b-df08-7fab-739d-9eae924710b2" testName="QueryProvider_Null_Throws" computerName="DKSR-EFI-06" duration="00:00:00.0009110" startTime="2024-01-09T15:42:05.5914288+01:00" endTime="2024-01-09T15:42:05.5914288+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ebf33f68-9c02-46ad-9855-f1182274f206">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+Fail: Argument null</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e345c3cf-2482-413d-a332-ea26aac9981e" testId="d71d8867-3c33-a3de-03c1-356af28a4c8b" testName="BaseVersionValidTest" computerName="DKSR-EFI-06" duration="00:00:00.0006937" startTime="2024-01-09T15:42:04.9664282+01:00" endTime="2024-01-09T15:42:05.3258022+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e345c3cf-2482-413d-a332-ea26aac9981e" />
+    <UnitTestResult executionId="5b470e70-3cf1-42cc-acd6-2401051c6a78" testId="dae92a4d-e67d-3b51-312a-20c6c41c772d" testName="ServiceChannelProductVersionTest" computerName="DKSR-EFI-06" duration="00:00:00.0009468" startTime="2024-01-09T15:42:05.3570746+01:00" endTime="2024-01-09T15:42:05.3726790+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b470e70-3cf1-42cc-acd6-2401051c6a78" />
+    <UnitTestResult executionId="56f98ea9-0152-45be-86a9-fffb14cc70f4" testId="9f4baca2-4b95-833f-b08d-5b0b444622bc" testName="Unregister_Success" computerName="DKSR-EFI-06" duration="00:00:00.0017823" startTime="2024-01-09T15:42:05.4351782+01:00" endTime="2024-01-09T15:42:05.4351782+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56f98ea9-0152-45be-86a9-fffb14cc70f4" />
+    <UnitTestResult executionId="1460080d-9420-40ad-8059-a334e5f3c2b6" testId="fc540b3e-64da-a4ef-1b2f-d1f62ae51c68" testName="Unregister_Null_Throws" computerName="DKSR-EFI-06" duration="00:00:00.1206723" startTime="2024-01-09T15:42:05.4508074+01:00" endTime="2024-01-09T15:42:05.5601794+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1460080d-9420-40ad-8059-a334e5f3c2b6">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+Fail: Argument null</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f391ff26-0f9b-4361-8826-7805351c4a6a" testId="3ef095df-dc9e-d510-b0ca-5780ff640db0" testName="ServiceChannelVersionTest" computerName="DKSR-EFI-06" duration="00:00:00.0028117" startTime="2024-01-09T15:42:05.3570746+01:00" endTime="2024-01-09T15:42:05.3570746+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f391ff26-0f9b-4361-8826-7805351c4a6a" />
+    <UnitTestResult executionId="c0d9442c-67e7-412f-87da-1622ebe2c683" testId="a26208d0-2b69-6ba5-e4ef-7f0fb8ce2630" testName="Register_Query_Success" computerName="DKSR-EFI-06" duration="00:00:00.0463515" startTime="2024-01-09T15:42:05.3883047+01:00" endTime="2024-01-09T15:42:05.4351782+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c0d9442c-67e7-412f-87da-1622ebe2c683" />
+    <UnitTestResult executionId="f7fdcef5-26c5-43b0-ad35-5e80cf87cc39" testId="03aaf670-89d5-8aea-7813-adc614bbec65" testName="PinkOemResourcesTest" computerName="DKSR-EFI-06" duration="00:00:00.4340370" startTime="2024-01-09T15:42:04.5133000+01:00" endTime="2024-01-09T15:42:04.9508032+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f7fdcef5-26c5-43b0-ad35-5e80cf87cc39" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="QueryProvider_Null_Throws" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.utilities.unittests\bin\debug\net472\videoos.vms.utilities.unittests.dll" id="e8ac315b-df08-7fab-739d-9eae924710b2">
+      <Execution id="ebf33f68-9c02-46ad-9855-f1182274f206" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.Utilities.UnitTests\bin\Debug\net472\VideoOS.Vms.Utilities.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.Utilitites.UnitTests.Diagnostics.DiagnosticsProviderRepositoryUnitTests" name="QueryProvider_Null_Throws" />
+    </UnitTest>
+    <UnitTest name="QueryProvider_NonExisting_Return_Null" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.utilities.unittests\bin\debug\net472\videoos.vms.utilities.unittests.dll" id="d0b6a6c5-4f78-e250-2867-34cd12e5d44c">
+      <Execution id="b9e59bfc-a2c5-4937-8e09-adb0c4434df1" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.Utilities.UnitTests\bin\Debug\net472\VideoOS.Vms.Utilities.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.Utilitites.UnitTests.Diagnostics.DiagnosticsProviderRepositoryUnitTests" name="QueryProvider_NonExisting_Return_Null" />
+    </UnitTest>
+    <UnitTest name="ServiceChannelVersionTest" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.utilities.unittests\bin\debug\net472\videoos.vms.utilities.unittests.dll" id="3ef095df-dc9e-d510-b0ca-5780ff640db0">
+      <Execution id="f391ff26-0f9b-4361-8826-7805351c4a6a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.Utilities.UnitTests\bin\Debug\net472\VideoOS.Vms.Utilities.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.Utilitites.UnitTests.Oem.AProductVersionUnitTest" name="ServiceChannelVersionTest" />
+    </UnitTest>
+    <UnitTest name="BaseVersionValidTest" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.utilities.unittests\bin\debug\net472\videoos.vms.utilities.unittests.dll" id="d71d8867-3c33-a3de-03c1-356af28a4c8b">
+      <Execution id="e345c3cf-2482-413d-a332-ea26aac9981e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.Utilities.UnitTests\bin\Debug\net472\VideoOS.Vms.Utilities.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.Utilitites.UnitTests.Oem.AProductVersionUnitTest" name="BaseVersionValidTest" />
+    </UnitTest>
+    <UnitTest name="Unregister_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.utilities.unittests\bin\debug\net472\videoos.vms.utilities.unittests.dll" id="9f4baca2-4b95-833f-b08d-5b0b444622bc">
+      <Execution id="56f98ea9-0152-45be-86a9-fffb14cc70f4" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.Utilities.UnitTests\bin\Debug\net472\VideoOS.Vms.Utilities.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.Utilitites.UnitTests.Diagnostics.DiagnosticsProviderRepositoryUnitTests" name="Unregister_Success" />
+    </UnitTest>
+    <UnitTest name="MilestoneOemResourcesTest" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.utilities.unittests\bin\debug\net472\videoos.vms.utilities.unittests.dll" id="edd6b848-bbcf-30c9-e994-9b51e3fa5bf9">
+      <Execution id="632f58c7-5cb7-4e4f-8f54-5b033a7a60d3" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.Utilities.UnitTests\bin\Debug\net472\VideoOS.Vms.Utilities.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.Utilitites.UnitTests.Oem.OemResourcesUnitTests" name="MilestoneOemResourcesTest" />
+    </UnitTest>
+    <UnitTest name="Register_Query_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.utilities.unittests\bin\debug\net472\videoos.vms.utilities.unittests.dll" id="a26208d0-2b69-6ba5-e4ef-7f0fb8ce2630">
+      <Execution id="c0d9442c-67e7-412f-87da-1622ebe2c683" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.Utilities.UnitTests\bin\Debug\net472\VideoOS.Vms.Utilities.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.Utilitites.UnitTests.Diagnostics.DiagnosticsProviderRepositoryUnitTests" name="Register_Query_Success" />
+    </UnitTest>
+    <UnitTest name="AssemblyInfoVersionTest" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.utilities.unittests\bin\debug\net472\videoos.vms.utilities.unittests.dll" id="40d3d527-4708-45a4-d95b-02d11999aced">
+      <Execution id="1e346767-1af7-4312-a6cc-03ff6f718d05" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.Utilities.UnitTests\bin\Debug\net472\VideoOS.Vms.Utilities.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.Utilitites.UnitTests.Oem.AProductVersionUnitTest" name="AssemblyInfoVersionTest" />
+    </UnitTest>
+    <UnitTest name="PinkOemResourcesTest" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.utilities.unittests\bin\debug\net472\videoos.vms.utilities.unittests.dll" id="03aaf670-89d5-8aea-7813-adc614bbec65">
+      <Execution id="f7fdcef5-26c5-43b0-ad35-5e80cf87cc39" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.Utilities.UnitTests\bin\Debug\net472\VideoOS.Vms.Utilities.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.Utilitites.UnitTests.Oem.OemResourcesUnitTests" name="PinkOemResourcesTest" />
+    </UnitTest>
+    <UnitTest name="ProductCodeTest" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.utilities.unittests\bin\debug\net472\videoos.vms.utilities.unittests.dll" id="f3c8731c-2c95-6e01-edbd-c0ca4b6fa874">
+      <Execution id="690ac369-354f-4484-9f2a-bdc70fd5c03c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.Utilities.UnitTests\bin\Debug\net472\VideoOS.Vms.Utilities.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.Utilitites.UnitTests.Oem.AProductVersionUnitTest" name="ProductCodeTest" />
+    </UnitTest>
+    <UnitTest name="Unregister_Null_Throws" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.utilities.unittests\bin\debug\net472\videoos.vms.utilities.unittests.dll" id="fc540b3e-64da-a4ef-1b2f-d1f62ae51c68">
+      <Execution id="1460080d-9420-40ad-8059-a334e5f3c2b6" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.Utilities.UnitTests\bin\Debug\net472\VideoOS.Vms.Utilities.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.Utilitites.UnitTests.Diagnostics.DiagnosticsProviderRepositoryUnitTests" name="Unregister_Null_Throws" />
+    </UnitTest>
+    <UnitTest name="ServiceChannelProductVersionTest" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.utilities.unittests\bin\debug\net472\videoos.vms.utilities.unittests.dll" id="dae92a4d-e67d-3b51-312a-20c6c41c772d">
+      <Execution id="5b470e70-3cf1-42cc-acd6-2401051c6a78" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.Utilities.UnitTests\bin\Debug\net472\VideoOS.Vms.Utilities.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.Utilitites.UnitTests.Oem.AProductVersionUnitTest" name="ServiceChannelProductVersionTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="d0b6a6c5-4f78-e250-2867-34cd12e5d44c" executionId="b9e59bfc-a2c5-4937-8e09-adb0c4434df1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="edd6b848-bbcf-30c9-e994-9b51e3fa5bf9" executionId="632f58c7-5cb7-4e4f-8f54-5b033a7a60d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="40d3d527-4708-45a4-d95b-02d11999aced" executionId="1e346767-1af7-4312-a6cc-03ff6f718d05" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3c8731c-2c95-6e01-edbd-c0ca4b6fa874" executionId="690ac369-354f-4484-9f2a-bdc70fd5c03c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8ac315b-df08-7fab-739d-9eae924710b2" executionId="ebf33f68-9c02-46ad-9855-f1182274f206" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d71d8867-3c33-a3de-03c1-356af28a4c8b" executionId="e345c3cf-2482-413d-a332-ea26aac9981e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dae92a4d-e67d-3b51-312a-20c6c41c772d" executionId="5b470e70-3cf1-42cc-acd6-2401051c6a78" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f4baca2-4b95-833f-b08d-5b0b444622bc" executionId="56f98ea9-0152-45be-86a9-fffb14cc70f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc540b3e-64da-a4ef-1b2f-d1f62ae51c68" executionId="1460080d-9420-40ad-8059-a334e5f3c2b6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3ef095df-dc9e-d510-b0ca-5780ff640db0" executionId="f391ff26-0f9b-4361-8826-7805351c4a6a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a26208d0-2b69-6ba5-e4ef-7f0fb8ce2630" executionId="c0d9442c-67e7-412f-87da-1622ebe2c683" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="03aaf670-89d5-8aea-7813-adc614bbec65" executionId="f7fdcef5-26c5-43b0-ad35-5e80cf87cc39" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="12" executed="12" passed="12" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

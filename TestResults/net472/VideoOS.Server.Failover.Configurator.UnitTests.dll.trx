@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="34a6c09e-54c9-4920-be74-778688e0e2cd" name="DKSR-EFI-06$@DKSR-EFI-06 2024-01-09 15:42:21" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-01-09T15:42:21.5133390+01:00" queuing="2024-01-09T15:42:21.5133390+01:00" start="2024-01-09T15:42:20.2008345+01:00" finish="2024-01-09T15:42:21.5602133+01:00" />
+  <TestSettings name="default" id="1cd038b3-1ffb-4781-aa82-4195b7d8c824">
+    <Deployment runDeploymentRoot="DKSR-EFI-06$_DKSR-EFI-06_2024-01-09_15_42_21" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="62d9f8dc-46b5-47ad-b394-71098d22f693" testId="f5a0182a-ae6a-cea7-f15d-b77123ad83cf" testName="TestMethod1" computerName="DKSR-EFI-06" duration="00:00:00.0056760" startTime="2024-01-09T15:42:21.0602139+01:00" endTime="2024-01-09T15:42:21.1539641+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62d9f8dc-46b5-47ad-b394-71098d22f693" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="d:\actions-runner\_work\xpco\xpco\corporate\videoos.server.failover.configurator.unittests\bin\x64\debug\net472\videoos.server.failover.configurator.unittests.dll" id="f5a0182a-ae6a-cea7-f15d-b77123ad83cf">
+      <Execution id="62d9f8dc-46b5-47ad-b394-71098d22f693" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\VideoOS.Server.Failover.Configurator.UnitTests\bin\x64\Debug\net472\VideoOS.Server.Failover.Configurator.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Server.Failover.Configurator.UnitTests.ConfiguratorTests" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="f5a0182a-ae6a-cea7-f15d-b77123ad83cf" executionId="62d9f8dc-46b5-47ad-b394-71098d22f693" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

@@ -1,0 +1,1055 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="7fcb78f1-9ec5-4ac6-85c4-c74d2430a4e5" name="DKSR-EFI-06$@DKSR-EFI-06 2024-01-09 15:44:32" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-01-09T15:44:32.4668119+01:00" queuing="2024-01-09T15:44:32.4668119+01:00" start="2024-01-09T15:44:31.0761897+01:00" finish="2024-01-09T15:44:34.7793114+01:00" />
+  <TestSettings name="default" id="1b0874fb-6c5a-422b-b4d8-ed7d1a96e4ac">
+    <Deployment runDeploymentRoot="DKSR-EFI-06$_DKSR-EFI-06_2024-01-09_15_44_32" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="a1b6ad73-1a9e-40ef-a9b4-0ddbdc6b9620" testId="15528403-b77a-1f65-5c5c-7a9031de03e4" testName="TestGetAccountNameUnderWhichServiceRuns" computerName="DKSR-EFI-06" duration="00:00:01.1869389" startTime="2024-01-09T15:44:32.6855628+01:00" endTime="2024-01-09T15:44:33.8730607+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1b6ad73-1a9e-40ef-a9b4-0ddbdc6b9620" />
+    <UnitTestResult executionId="5a059e2c-a8b6-4d3a-9f48-2d9ab44fdf24" testId="64a201ff-ba58-d3cd-c3b4-e1e2de13995b" testName="TestMakeRelativePathOnNonRootedName" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:34.1855602+01:00" endTime="2024-01-09T15:44:34.1855602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5a059e2c-a8b6-4d3a-9f48-2d9ab44fdf24">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3132c2e3-5c1b-4511-85c5-eb372385646f" testId="d80019a3-083a-f45a-d53b-09f3d3f539ec" testName="TestIsPathValidOnExceptionShouldReturnFalse" computerName="DKSR-EFI-06" duration="00:00:00.0004224" startTime="2024-01-09T15:44:34.1074372+01:00" endTime="2024-01-09T15:44:34.1074372+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3132c2e3-5c1b-4511-85c5-eb372385646f">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+System.IO.PathTooLongException: The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.&#xD;
+   at System.IO.LongPathHelper.Normalize(String path, UInt32 maxPathLength, Boolean checkInvalidCharacters, Boolean expandShortPaths)&#xD;
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)&#xD;
+   at System.IO.Path.GetFullPathInternal(String path)&#xD;
+   at System.IO.Path.GetFullPath(String path)&#xD;
+   at VideoOS.Mobile.Helpers.DirectoryHelper.IsPathValid(String path, Boolean checkRootExistence) in D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOs.Mobile.Helpers\src\DirectoryHelper.cs:line 223</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c06228e4-a50f-4850-980c-1580d0910cfa" testId="d08edfa2-7033-5e12-2ae9-97c8c94b4462" testName="TestStringToUInt16" computerName="DKSR-EFI-06" duration="00:00:00.0025110" startTime="2024-01-09T15:44:32.4980624+01:00" endTime="2024-01-09T15:44:32.4980624+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c06228e4-a50f-4850-980c-1580d0910cfa" />
+    <UnitTestResult executionId="d58e45bf-e978-4ad2-8d51-43696101e7ff" testId="e4f8196f-7f0d-d388-38a9-adda2490a20c" testName="TestSanitizeUri" computerName="DKSR-EFI-06" duration="00:00:00.0004883" startTime="2024-01-09T15:44:32.4511888+01:00" endTime="2024-01-09T15:44:32.4511888+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d58e45bf-e978-4ad2-8d51-43696101e7ff" />
+    <UnitTestResult executionId="cd3129c2-6dbd-405e-b8ec-fe138073ae79" testId="be46fd75-2262-c67d-2826-f20138c5861e" testName="GetServiceUserNameTest" computerName="DKSR-EFI-06" duration="00:00:00.0120571" startTime="2024-01-09T15:44:34.1386894+01:00" endTime="2024-01-09T15:44:34.1386894+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd3129c2-6dbd-405e-b8ec-fe138073ae79" />
+    <UnitTestResult executionId="4eba2e11-2341-47c1-8740-9f5f0c072107" testId="cc450e7c-b94d-65a6-9a19-23b9f4effad2" testName="TestInitImpersonationOnLocalSystemeUsernameAndNullDomain" computerName="DKSR-EFI-06" duration="00:00:00.0016376" startTime="2024-01-09T15:44:34.1699369+01:00" endTime="2024-01-09T15:44:34.1855602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4eba2e11-2341-47c1-8740-9f5f0c072107" />
+    <UnitTestResult executionId="e2cf5557-1341-41bd-b47f-86a51baa8ee0" testId="2bd378ff-34d5-ecb6-affb-94edd6dd3f10" testName="TestSanitizeString" computerName="DKSR-EFI-06" duration="00:00:00.0004674" startTime="2024-01-09T15:44:34.2011887+01:00" endTime="2024-01-09T15:44:34.2011887+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2cf5557-1341-41bd-b47f-86a51baa8ee0" />
+    <UnitTestResult executionId="21944326-690d-4596-bba0-1e3bf1756e9e" testId="e4862b50-c15b-3e9c-b0bf-f8802e7665d6" testName="TestGetDecryptedValue" computerName="DKSR-EFI-06" duration="00:00:00.0011193" startTime="2024-01-09T15:44:34.1230612+01:00" endTime="2024-01-09T15:44:34.1230612+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="21944326-690d-4596-bba0-1e3bf1756e9e" />
+    <UnitTestResult executionId="f155bba8-e1bc-4ca8-9810-3493078c3274" testId="db51edde-1830-1a13-dd86-7d3912ef8bfe" testName="TestMapCommonAccountNameToSidOnLocalService" computerName="DKSR-EFI-06" duration="00:00:00.0053862" startTime="2024-01-09T15:44:32.6699367+01:00" endTime="2024-01-09T15:44:32.6855628+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f155bba8-e1bc-4ca8-9810-3493078c3274" />
+    <UnitTestResult executionId="742e4244-b11c-49d7-a685-8150d7fc815d" testId="de916dad-78f6-f592-3369-06457c65b0ce" testName="TestIsDirectoryWritableOnWritableShouldReturnTrue" computerName="DKSR-EFI-06" duration="00:00:00.0005724" startTime="2024-01-09T15:44:34.1074372+01:00" endTime="2024-01-09T15:44:34.1074372+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="742e4244-b11c-49d7-a685-8150d7fc815d" />
+    <UnitTestResult executionId="3355f6e8-7e64-4c21-b14d-80e7b1caa046" testId="9e7b6169-b70d-c015-5352-08d5fd1bb911" testName="TestGetFirstExistingParentDirectoryOnNullOrEmptyPathShouldReturnNull" computerName="DKSR-EFI-06" duration="00:00:00.0002975" startTime="2024-01-09T15:44:34.1074372+01:00" endTime="2024-01-09T15:44:34.1074372+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3355f6e8-7e64-4c21-b14d-80e7b1caa046" />
+    <UnitTestResult executionId="4668a255-a905-4434-9a4a-d66227bc5ddb" testId="aa1ae415-0dec-3eab-39bf-a49a73443835" testName="TestInitImpersonationOnNetworkServiceUsernameAndNullDomain" computerName="DKSR-EFI-06" duration="00:00:00.0016163" startTime="2024-01-09T15:44:34.1855602+01:00" endTime="2024-01-09T15:44:34.1855602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4668a255-a905-4434-9a4a-d66227bc5ddb" />
+    <UnitTestResult executionId="2e02a44f-c780-4740-9da1-0329868c944c" testId="16911ed3-8e16-e062-1524-67047441d181" testName="TestAddRemoveCertificateToStore" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:32.4980624+01:00" endTime="2024-01-09T15:44:32.4980624+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e02a44f-c780-4740-9da1-0329868c944c">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d3bc06b4-28c3-4894-a3db-53d10cf7ab08" testId="c9d0764d-f898-fc45-639a-77affba0fd2f" testName="TestIsPathValidOnNotExistingRoot" computerName="DKSR-EFI-06" duration="00:00:00.0014824" startTime="2024-01-09T15:44:34.1074372+01:00" endTime="2024-01-09T15:44:34.1074372+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d3bc06b4-28c3-4894-a3db-53d10cf7ab08" />
+    <UnitTestResult executionId="95c5369a-f3c0-4f01-9b38-a2c5d25d9f47" testId="7296fa72-6f5c-a91d-43dd-a1a91231fd01" testName="TestValidateString" computerName="DKSR-EFI-06" duration="00:00:00.0008798" startTime="2024-01-09T15:44:32.4980624+01:00" endTime="2024-01-09T15:44:32.4980624+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="95c5369a-f3c0-4f01-9b38-a2c5d25d9f47" />
+    <UnitTestResult executionId="edb0845c-b0c0-4410-8f7b-27ec91b4e372" testId="2911ec49-0dac-2227-2509-75a543ae46b9" testName="TestMakeRelativePathOnRootedName" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:34.1855602+01:00" endTime="2024-01-09T15:44:34.1855602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="edb0845c-b0c0-4410-8f7b-27ec91b4e372">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="926605f2-b212-4668-ab7a-b23b40ffc0c0" testId="a2a22c9a-b87c-d6fe-a762-be765dec4a45" testName="TestInitServerIdOnClonnedHuskyIdRegValueGuidShouldSaveUniqueValue" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:34.1855602+01:00" endTime="2024-01-09T15:44:34.1855602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="926605f2-b212-4668-ab7a-b23b40ffc0c0">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="30d7c3b5-2dd6-44f7-b6c1-7873828523d1" testId="4b6c42fe-7d7c-9c21-7fa7-1e3ee45360bd" testName="TestStringToBoolCaseInsensitive" computerName="DKSR-EFI-06" duration="00:00:00.0006376" startTime="2024-01-09T15:44:32.4511888+01:00" endTime="2024-01-09T15:44:32.4511888+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="30d7c3b5-2dd6-44f7-b6c1-7873828523d1" />
+    <UnitTestResult executionId="9d921fbe-e101-4dde-b704-b4cbd3e510ee" testId="799d8999-e8fe-1225-83fa-4c6e4da19c92" testName="TestSanitizedDefaultWithExceptions" computerName="DKSR-EFI-06" duration="00:00:00.0008209" startTime="2024-01-09T15:44:32.4355603+01:00" endTime="2024-01-09T15:44:32.4355603+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d921fbe-e101-4dde-b704-b4cbd3e510ee" />
+    <UnitTestResult executionId="12dd348b-99ff-4804-98b9-ada51219177d" testId="0ed0fe94-6ac4-645a-ffc9-10e8a60bd234" testName="TestValidateString" computerName="DKSR-EFI-06" duration="00:00:00.0046042" startTime="2024-01-09T15:44:34.1855602+01:00" endTime="2024-01-09T15:44:34.1855602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12dd348b-99ff-4804-98b9-ada51219177d" />
+    <UnitTestResult executionId="c9286766-e1f7-4214-9697-2e63a85e75e0" testId="02fa227a-e7ab-5cb2-8cac-05a355de0dc6" testName="TestGetSubKeyNames" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:34.1855602+01:00" endTime="2024-01-09T15:44:34.1855602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c9286766-e1f7-4214-9697-2e63a85e75e0">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="268eabe6-4698-4bdf-ad71-530bcf517804" testId="9fcd7a31-da9e-63b8-f715-f8fa153e9bcb" testName="TestReadRegistryOnExceptionShouldNotThrow" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:34.1855602+01:00" endTime="2024-01-09T15:44:34.1855602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="268eabe6-4698-4bdf-ad71-530bcf517804">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="04bd17e5-3a0e-4a63-aade-e4a958e371c5" testId="aa4f827a-9a88-7b30-ffcb-0ad703294229" testName="TestInitImpersonationOnDomainInUsernameAndNullDomainArg" computerName="DKSR-EFI-06" duration="00:00:00.0001801" startTime="2024-01-09T15:44:34.1855602+01:00" endTime="2024-01-09T15:44:34.1855602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="04bd17e5-3a0e-4a63-aade-e4a958e371c5" />
+    <UnitTestResult executionId="26f2d653-dabe-4eee-955f-21b95a585dbc" testId="048486db-8f0a-6959-5ec5-32303fa8f12f" testName="TestIsTrueCaseInsensitive" computerName="DKSR-EFI-06" duration="00:00:00.0023846" startTime="2024-01-09T15:44:32.4511888+01:00" endTime="2024-01-09T15:44:32.4511888+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="26f2d653-dabe-4eee-955f-21b95a585dbc" />
+    <UnitTestResult executionId="415f52f1-fd2f-4fca-8c25-30efc836fe63" testId="d4705ff3-0d3c-92b5-21c3-4bb0eb1e4669" testName="TestGetFirstExistingParentDirectoryOnExistingDirPathShouldReturnSamePath" computerName="DKSR-EFI-06" duration="00:00:00.0001366" startTime="2024-01-09T15:44:34.1074372+01:00" endTime="2024-01-09T15:44:34.1074372+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="415f52f1-fd2f-4fca-8c25-30efc836fe63" />
+    <UnitTestResult executionId="118ed19d-5442-472e-97c8-879d6b0fd7c0" testId="c044697b-911b-f0a6-b8a8-fb347d0ecaec" testName="TestAddDirectorySecurityShouldNotThrowException" computerName="DKSR-EFI-06" duration="00:00:00.0017665" startTime="2024-01-09T15:44:34.1074372+01:00" endTime="2024-01-09T15:44:34.1074372+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="118ed19d-5442-472e-97c8-879d6b0fd7c0">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+System.IO.DirectoryNotFoundException: D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\test\test1\test2\test3\nonexistentFolder&#xD;
+   at System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)&#xD;
+   at System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)&#xD;
+   at System.Security.AccessControl.DirectorySecurity..ctor(String name, AccessControlSections includeSections)&#xD;
+   at System.IO.DirectoryInfo.GetAccessControl()&#xD;
+   at VideoOS.Mobile.Helpers.DirectoryHelper.AddDirectorySecurity(String directoryName, String account, FileSystemRights rights, InheritanceFlags inheritanceFlags, PropagationFlags propagationFlags, AccessControlType controlType) in D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOs.Mobile.Helpers\src\DirectoryHelper.cs:line 291&#xD;
+System.IO.PathTooLongException: The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.&#xD;
+   at System.IO.LongPathHelper.Normalize(String path, UInt32 maxPathLength, Boolean checkInvalidCharacters, Boolean expandShortPaths)&#xD;
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)&#xD;
+   at System.IO.Path.GetFullPathInternal(String path)&#xD;
+   at System.IO.DirectoryInfo.Init(String path, Boolean checkHost)&#xD;
+   at VideoOS.Mobile.Helpers.DirectoryHelper.AddDirectorySecurity(String directoryName, String account, FileSystemRights rights, InheritanceFlags inheritanceFlags, PropagationFlags propagationFlags, AccessControlType controlType) in D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOs.Mobile.Helpers\src\DirectoryHelper.cs:line 287</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2f192720-6657-487c-b88d-4df2730ec965" testId="61727b0e-5189-b3d3-a1b6-5bd6a0ed6947" testName="TestGetSubKeyNamesOnExceptionShouldNotThrow" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:34.1855602+01:00" endTime="2024-01-09T15:44:34.1855602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f192720-6657-487c-b88d-4df2730ec965">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e8e7988c-6662-4003-b897-59ee8a20bd10" testId="92f8ca34-bf58-cbba-cf29-e408a0811b24" testName="TestHasValueValidCheckerResult" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:34.1855602+01:00" endTime="2024-01-09T15:44:34.1855602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e8e7988c-6662-4003-b897-59ee8a20bd10">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ec4eb576-675e-4b1a-93c9-3e5a9cebca6f" testId="0dc45acf-8879-519e-26a3-69d6da9321df" testName="TestSetAccountRight" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:34.1855602+01:00" endTime="2024-01-09T15:44:34.1855602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ec4eb576-675e-4b1a-93c9-3e5a9cebca6f">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="dfdcb568-4252-4a66-8f5a-29ee3068091e" testId="06cfd815-e290-5dfb-6fc1-464ae460ad2a" testName="TestPBEOnInvalidBytesSizeShouldThrowException" computerName="DKSR-EFI-06" duration="00:00:00.0007143" startTime="2024-01-09T15:44:34.1230612+01:00" endTime="2024-01-09T15:44:34.1386894+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dfdcb568-4252-4a66-8f5a-29ee3068091e" />
+    <UnitTestResult executionId="bfffe742-d933-449a-ae97-9a9e0f48da7d" testId="78454f27-f704-8261-ab21-f4c9d7718bc2" testName="TestSanitizedCustom" computerName="DKSR-EFI-06" duration="00:00:00.0001823" startTime="2024-01-09T15:44:32.4355603+01:00" endTime="2024-01-09T15:44:32.4355603+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bfffe742-d933-449a-ae97-9a9e0f48da7d" />
+    <UnitTestResult executionId="98a01efa-94b1-47e1-ac8f-e646c9c83ee7" testId="a7121714-eda1-10ef-65c3-2c8b64bbc7ea" testName="TestImpersonationInitOnInvalidUsernameAndNullDomain" computerName="DKSR-EFI-06" duration="00:00:00.0005472" startTime="2024-01-09T15:44:34.1699369+01:00" endTime="2024-01-09T15:44:34.1699369+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98a01efa-94b1-47e1-ac8f-e646c9c83ee7" />
+    <UnitTestResult executionId="d072ffc7-b337-4932-802c-9cb8804568a4" testId="256f2032-9677-89b1-89cb-588fed0fa599" testName="TestInitTextBoxOnValidEntry" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:34.1855602+01:00" endTime="2024-01-09T15:44:34.1855602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d072ffc7-b337-4932-802c-9cb8804568a4">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7871fca4-d21e-4e70-ac9f-869bb928b8fb" testId="2a1b6d20-9f05-1602-7f7b-f932af1f5327" testName="Manual_ReservationTest" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:34.1699369+01:00" endTime="2024-01-09T15:44:34.1699369+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7871fca4-d21e-4e70-ac9f-869bb928b8fb">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="eb70b03f-bdbf-40f6-9a0a-8458ae067440" testId="f1a9855c-8925-541b-d3f0-c21fe4f74b62" testName="TestImpersonationInitOnValidSid" computerName="DKSR-EFI-06" duration="00:00:00.0049894" startTime="2024-01-09T15:44:34.1699369+01:00" endTime="2024-01-09T15:44:34.1699369+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eb70b03f-bdbf-40f6-9a0a-8458ae067440" />
+    <UnitTestResult executionId="536f253e-ad58-448f-bfb0-87231d292929" testId="6a7b094b-5049-943d-cd61-2e75b7f753a5" testName="TestSetAccountRightOnExceptionShouldNotThrow" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:34.1855602+01:00" endTime="2024-01-09T15:44:34.1855602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="536f253e-ad58-448f-bfb0-87231d292929">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0a083525-b773-4be8-9e92-63f7578f8810" testId="4f046383-08ce-bf10-e0be-a934af693f2d" testName="TestDispose" computerName="DKSR-EFI-06" duration="00:00:00.0017711" startTime="2024-01-09T15:44:34.2011887+01:00" endTime="2024-01-09T15:44:34.2011887+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a083525-b773-4be8-9e92-63f7578f8810" />
+    <UnitTestResult executionId="a1f254c4-65dc-4046-af9b-1a1c287e6be1" testId="a8d8334f-853a-6cba-bfec-dba6af2025e9" testName="TestDeleteRegistryOnNotExistingKeyShouldReturnFalse" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:34.1855602+01:00" endTime="2024-01-09T15:44:34.1855602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1f254c4-65dc-4046-af9b-1a1c287e6be1">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="69b938a9-80a3-4359-b6d2-d0d4ad4dabfa" testId="66a5154d-6e52-fcc8-1f04-e103e5552f7c" testName="TestIsPathValidOnValidShouldReturnTrue" computerName="DKSR-EFI-06" duration="00:00:00.0001467" startTime="2024-01-09T15:44:34.1074372+01:00" endTime="2024-01-09T15:44:34.1074372+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="69b938a9-80a3-4359-b6d2-d0d4ad4dabfa" />
+    <UnitTestResult executionId="22c5db2c-064c-494e-8955-ccfe40b3a917" testId="13859939-423d-1e5c-1429-4d51fe2b811f" testName="TestGetFirstExistingParentDirectoryOnNonExistingDirPathShouldReturnFirstExisting" computerName="DKSR-EFI-06" duration="00:00:00.0002324" startTime="2024-01-09T15:44:34.1074372+01:00" endTime="2024-01-09T15:44:34.1074372+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22c5db2c-064c-494e-8955-ccfe40b3a917" />
+    <UnitTestResult executionId="ae79de35-dd7c-42bd-badd-44d717cba896" testId="487ee355-73a0-a267-ed5b-97f8f58132c8" testName="TestCopyDirectoryFileNamesAndSizesEqual" computerName="DKSR-EFI-06" duration="00:00:00.0306540" startTime="2024-01-09T15:44:33.9355619+01:00" endTime="2024-01-09T15:44:33.9668119+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ae79de35-dd7c-42bd-badd-44d717cba896" />
+    <UnitTestResult executionId="3db1ae2e-4e35-49ff-9452-2638f20b3f60" testId="de55d2e3-cb64-7a9c-01b3-3ba412424ac7" testName="TestSanitizeFolder" computerName="DKSR-EFI-06" duration="00:00:00.0008486" startTime="2024-01-09T15:44:32.4511888+01:00" endTime="2024-01-09T15:44:32.4511888+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3db1ae2e-4e35-49ff-9452-2638f20b3f60" />
+    <UnitTestResult executionId="b196a5ee-2d64-44f9-87f7-f7bd922169bd" testId="5186c6f8-0ed4-7c67-ad6a-c46c3a55ad6a" testName="TestInitValueOnValidRegistryValueShouldReturnRegistryValue" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:34.1855602+01:00" endTime="2024-01-09T15:44:34.1855602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b196a5ee-2d64-44f9-87f7-f7bd922169bd">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4944c646-520c-4c25-b8a1-c46ea8dd89e1" testId="6e5783c3-ea80-f8bb-da45-b90158250916" testName="TestWriteRegistry" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:34.1855602+01:00" endTime="2024-01-09T15:44:34.1855602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4944c646-520c-4c25-b8a1-c46ea8dd89e1">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f76d3cd9-4b00-45ea-8f47-48dbae578359" testId="d263040a-74f7-02ba-6ac5-75792c1ac598" testName="TestDeleteSubKeyTree" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:34.1855602+01:00" endTime="2024-01-09T15:44:34.1855602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f76d3cd9-4b00-45ea-8f47-48dbae578359">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="029360e5-aa69-4816-9540-d6c28ed469ee" testId="bcbaf2f4-b65c-0d86-61cf-5a8933e12ad8" testName="TestReplaceInvalidFileNameChars" computerName="DKSR-EFI-06" duration="00:00:00.0024357" startTime="2024-01-09T15:44:33.9355619+01:00" endTime="2024-01-09T15:44:33.9355619+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="029360e5-aa69-4816-9540-d6c28ed469ee" />
+    <UnitTestResult executionId="f755e6d1-c197-43f9-ab81-41a84db18fec" testId="777fd10e-1080-5058-5e91-2b2ff17085ad" testName="SetReservationHttpsTest" computerName="DKSR-EFI-06" duration="00:00:00.0131103" startTime="2024-01-09T15:44:34.1543155+01:00" endTime="2024-01-09T15:44:34.1699369+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f755e6d1-c197-43f9-ab81-41a84db18fec" />
+    <UnitTestResult executionId="5def959d-3b47-4e47-b610-4ba2bf9e4bfc" testId="45a32a73-6247-1a15-6148-21aaa655ee46" testName="TestAddDirectorySecurityOnDenyRead" computerName="DKSR-EFI-06" duration="00:00:00.0030697" startTime="2024-01-09T15:44:34.1074372+01:00" endTime="2024-01-09T15:44:34.1074372+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5def959d-3b47-4e47-b610-4ba2bf9e4bfc" />
+    <UnitTestResult executionId="7bb61291-e6fa-4416-adad-c18c5b699278" testId="c73b567f-83d1-c9ec-a832-acc24adf0d3f" testName="TestIsPathValidOnNotFullPathShouldReturnFalse" computerName="DKSR-EFI-06" duration="00:00:00.0003907" startTime="2024-01-09T15:44:34.1074372+01:00" endTime="2024-01-09T15:44:34.1074372+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7bb61291-e6fa-4416-adad-c18c5b699278" />
+    <UnitTestResult executionId="60c17466-d922-4aef-891e-ba685c51cfa1" testId="61395b00-8b1e-2007-c9ff-7e39664f042f" testName="TestStringToInt32" computerName="DKSR-EFI-06" duration="00:00:00.0101147" startTime="2024-01-09T15:44:32.4824364+01:00" endTime="2024-01-09T15:44:32.4980624+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60c17466-d922-4aef-891e-ba685c51cfa1" />
+    <UnitTestResult executionId="04d97985-6620-4e5c-95ef-63429869a810" testId="d2dcf68f-2af8-7f52-37cf-773c794a2fc7" testName="TestBuildCommonApplicationDataFilePath" computerName="DKSR-EFI-06" duration="00:00:00.0104301" startTime="2024-01-09T15:44:33.8730607+01:00" endTime="2024-01-09T15:44:33.9199353+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="04d97985-6620-4e5c-95ef-63429869a810">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+System.InvalidOperationException: Method failed with unexpected error code 3.&#xD;
+   at System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)&#xD;
+   at System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)&#xD;
+   at System.Security.AccessControl.DirectorySecurity..ctor(String name, AccessControlSections includeSections)&#xD;
+   at System.IO.DirectoryInfo.GetAccessControl()&#xD;
+   at VideoOS.Mobile.Helpers.Test.DirectoryHelperTests.TryRemoveAllRestrictionsOnFolder(String path) in D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\DirectoryHelperTests.cs:line 57&#xD;
+System.InvalidOperationException: Method failed with unexpected error code 3.&#xD;
+   at System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)&#xD;
+   at System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)&#xD;
+   at System.Security.AccessControl.DirectorySecurity..ctor(String name, AccessControlSections includeSections)&#xD;
+   at System.IO.DirectoryInfo.GetAccessControl()&#xD;
+   at VideoOS.Mobile.Helpers.Test.DirectoryHelperTests.TryRemoveAllRestrictionsOnFolder(String path) in D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\DirectoryHelperTests.cs:line 57&#xD;
+System.IO.PathTooLongException: The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.&#xD;
+   at System.IO.LongPathHelper.Normalize(String path, UInt32 maxPathLength, Boolean checkInvalidCharacters, Boolean expandShortPaths)&#xD;
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)&#xD;
+   at System.IO.Path.GetFullPathInternal(String path)&#xD;
+   at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)&#xD;
+   at VideoOS.Mobile.Helpers.DirectoryHelper.BuildCommonApplicationDataFilePath(String pathAddition, String applicationName, String vendorShortName, Boolean createDir) in D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOs.Mobile.Helpers\src\DirectoryHelper.cs:line 31&#xD;
+System.IO.PathTooLongException: The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.&#xD;
+   at System.IO.LongPathHelper.Normalize(String path, UInt32 maxPathLength, Boolean checkInvalidCharacters, Boolean expandShortPaths)&#xD;
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)&#xD;
+   at System.IO.Path.GetFullPathInternal(String path)&#xD;
+   at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)&#xD;
+   at VideoOS.Mobile.Helpers.DirectoryHelper.BuildCommonApplicationDataFilePath(String pathAddition, String applicationName, String vendorShortName, Boolean createDir) in D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOs.Mobile.Helpers\src\DirectoryHelper.cs:line 31&#xD;
+System.IO.PathTooLongException: The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.&#xD;
+   at System.IO.LongPathHelper.Normalize(String path, UInt32 maxPathLength, Boolean checkInvalidCharacters, Boolean expandShortPaths)&#xD;
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)&#xD;
+   at System.IO.Path.GetFullPathInternal(String path)&#xD;
+   at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)&#xD;
+   at VideoOS.Mobile.Helpers.DirectoryHelper.BuildCommonApplicationDataFilePath(String pathAddition, String applicationName, String vendorShortName, Boolean createDir) in D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOs.Mobile.Helpers\src\DirectoryHelper.cs:line 31</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="852521ed-f44f-405f-99ac-e77bc3bec80d" testId="babbbbc8-3169-b35e-6e04-dc88be09e5d7" testName="TestValidateStrings" computerName="DKSR-EFI-06" duration="00:00:00.0095951" startTime="2024-01-09T15:44:34.1855602+01:00" endTime="2024-01-09T15:44:34.2011887+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="852521ed-f44f-405f-99ac-e77bc3bec80d" />
+    <UnitTestResult executionId="2c1b852e-e6d2-493d-bc91-85037b8b3356" testId="2c159f2c-b61b-01e9-385b-a99b716fed6f" testName="TestInitValueOnInvalidRegistryValueShouldReturnDefault" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:34.1855602+01:00" endTime="2024-01-09T15:44:34.1855602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c1b852e-e6d2-493d-bc91-85037b8b3356">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bbcff9fb-93ed-4bf9-94a5-c7d5e8fa9904" testId="4281d293-d934-90fd-6e8f-5505d4a40d12" testName="TestInitServerIdOnOldRegValueGuidShouldLeaveItAndReturnIt" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:34.1855602+01:00" endTime="2024-01-09T15:44:34.1855602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bbcff9fb-93ed-4bf9-94a5-c7d5e8fa9904">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7d418205-728e-42a9-87d5-f507152b1dd9" testId="80d44db7-a8c6-8fd1-d6d3-0ddc8e10d308" testName="TestValidateStringLength" computerName="DKSR-EFI-06" duration="00:00:00.0015807" startTime="2024-01-09T15:44:32.4980624+01:00" endTime="2024-01-09T15:44:32.4980624+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d418205-728e-42a9-87d5-f507152b1dd9" />
+    <UnitTestResult executionId="8c3fa1e5-aba2-4a79-85ff-a29fd9ff4a34" testId="6fd867ad-9eda-6f27-38df-ae839e445c66" testName="TestReplaceInvalidPathChars" computerName="DKSR-EFI-06" duration="00:00:00.0006110" startTime="2024-01-09T15:44:33.9355619+01:00" endTime="2024-01-09T15:44:33.9355619+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c3fa1e5-aba2-4a79-85ff-a29fd9ff4a34" />
+    <UnitTestResult executionId="f7981b16-176a-474f-84c3-9a14bec5717a" testId="bae2e97f-33dd-b839-6c4c-ad3cafeb6d1b" testName="TestInputValidation" computerName="DKSR-EFI-06" duration="00:00:00.0046652" startTime="2024-01-09T15:44:32.4355603+01:00" endTime="2024-01-09T15:44:32.4511888+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f7981b16-176a-474f-84c3-9a14bec5717a" />
+    <UnitTestResult executionId="fca45bc6-4422-4ceb-a92b-0356195acab6" testId="3d9de255-2de3-5e8e-af8d-858ba2c93d3e" testName="TestCopyDirectoryNoRecursionFileNamesAndSizesEqual" computerName="DKSR-EFI-06" duration="00:00:00.0077789" startTime="2024-01-09T15:44:34.0761858+01:00" endTime="2024-01-09T15:44:34.0761858+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fca45bc6-4422-4ceb-a92b-0356195acab6" />
+    <UnitTestResult executionId="011d472b-9963-48bd-a59a-116b2300cc9c" testId="0e2427c4-ffb8-f0a6-58e0-fd88b49c1e12" testName="TestIsDirectoryWritableOnNonWritableShouldReturnFalse" computerName="DKSR-EFI-06" duration="00:00:00.0034946" startTime="2024-01-09T15:44:34.0918111+01:00" endTime="2024-01-09T15:44:34.1074372+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="011d472b-9963-48bd-a59a-116b2300cc9c" />
+    <UnitTestResult executionId="07ecd9fe-8383-4b2e-974a-63fd3d838e4f" testId="343e85e6-3f30-f7e0-21ac-0369bea178b1" testName="TestSafeMoveDirectoryFileNamesAndSizesEqual" computerName="DKSR-EFI-06" duration="00:00:00.0129500" startTime="2024-01-09T15:44:34.0761858+01:00" endTime="2024-01-09T15:44:34.0918111+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07ecd9fe-8383-4b2e-974a-63fd3d838e4f">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+System.IO.DirectoryNotFoundException: D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\test\test1\test2&#xD;
+   at System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)&#xD;
+   at System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)&#xD;
+   at System.Security.AccessControl.DirectorySecurity..ctor(String name, AccessControlSections includeSections)&#xD;
+   at System.IO.DirectoryInfo.GetAccessControl()&#xD;
+   at VideoOS.Mobile.Helpers.Test.DirectoryHelperTests.TryRemoveAllRestrictionsOnFolder(String path) in D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\DirectoryHelperTests.cs:line 57&#xD;
+System.InvalidOperationException: Method failed with unexpected error code 3.&#xD;
+   at System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)&#xD;
+   at System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)&#xD;
+   at System.Security.AccessControl.DirectorySecurity..ctor(String name, AccessControlSections includeSections)&#xD;
+   at System.IO.DirectoryInfo.GetAccessControl()&#xD;
+   at VideoOS.Mobile.Helpers.Test.DirectoryHelperTests.TryRemoveAllRestrictionsOnFolder(String path) in D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\DirectoryHelperTests.cs:line 57&#xD;
+System.IO.DirectoryNotFoundException: D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\test\test1\test2&#xD;
+   at System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)&#xD;
+   at System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)&#xD;
+   at System.Security.AccessControl.DirectorySecurity..ctor(String name, AccessControlSections includeSections)&#xD;
+   at System.IO.DirectoryInfo.GetAccessControl()&#xD;
+   at VideoOS.Mobile.Helpers.Test.DirectoryHelperTests.TryRemoveAllRestrictionsOnFolder(String path) in D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\DirectoryHelperTests.cs:line 57&#xD;
+System.InvalidOperationException: Method failed with unexpected error code 3.&#xD;
+   at System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)&#xD;
+   at System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)&#xD;
+   at System.Security.AccessControl.DirectorySecurity..ctor(String name, AccessControlSections includeSections)&#xD;
+   at System.IO.DirectoryInfo.GetAccessControl()&#xD;
+   at VideoOS.Mobile.Helpers.Test.DirectoryHelperTests.TryRemoveAllRestrictionsOnFolder(String path) in D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\DirectoryHelperTests.cs:line 57</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="da7d9cd6-2d29-4774-a29f-6e6704a77cf4" testId="2e89f11c-4c0a-25c4-f54b-d38cfd373a07" testName="TestImpersonationInitOnNullSid" computerName="DKSR-EFI-06" duration="00:00:00.0015701" startTime="2024-01-09T15:44:34.1699369+01:00" endTime="2024-01-09T15:44:34.1699369+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da7d9cd6-2d29-4774-a29f-6e6704a77cf4" />
+    <UnitTestResult executionId="e7efc3d3-03a9-4496-a52b-5aa7c815620f" testId="38fef64b-fd2f-3920-dd4d-2188990002ad" testName="TestReadRegistry" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:34.1855602+01:00" endTime="2024-01-09T15:44:34.1855602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7efc3d3-03a9-4496-a52b-5aa7c815620f">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="baed8592-dee8-42ff-ae4d-6a8af0e33a85" testId="4858bc7e-5523-3ee4-474d-d54b1b7e0e32" testName="TestDeleteContents" computerName="DKSR-EFI-06" duration="00:00:00.0035583" startTime="2024-01-09T15:44:34.0918111+01:00" endTime="2024-01-09T15:44:34.0918111+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="baed8592-dee8-42ff-ae4d-6a8af0e33a85">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+System.IO.DirectoryNotFoundException: D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\test\test1\test2\test3&#xD;
+   at System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)&#xD;
+   at System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)&#xD;
+   at System.Security.AccessControl.DirectorySecurity..ctor(String name, AccessControlSections includeSections)&#xD;
+   at System.IO.DirectoryInfo.GetAccessControl()&#xD;
+   at VideoOS.Mobile.Helpers.Test.DirectoryHelperTests.TryRemoveAllRestrictionsOnFolder(String path) in D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\DirectoryHelperTests.cs:line 57</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f38abf9a-58c9-4b4e-83d6-445766c7914b" testId="5bad3803-77f6-9936-a6f2-0c20a1473dec" testName="TestInitServerIdOnInvalidOrEmptyRegValueGuidShouldSaveUniqueValue" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:34.1855602+01:00" endTime="2024-01-09T15:44:34.1855602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f38abf9a-58c9-4b4e-83d6-445766c7914b">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="74a12bfc-2e91-472b-802b-dabfd717f5ac" testId="b95b047a-43fa-5f4f-3f86-25742d03cda7" testName="TestInputValidationWithExceptions" computerName="DKSR-EFI-06" duration="00:00:00.0041765" startTime="2024-01-09T15:44:32.4511888+01:00" endTime="2024-01-09T15:44:32.4511888+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="74a12bfc-2e91-472b-802b-dabfd717f5ac" />
+    <UnitTestResult executionId="cd2b2fb9-c7c8-4a99-ab5a-b19adf3f32ab" testId="0cab0f4a-629b-5148-e7b1-6dcf0590afac" testName="TestGetFixedStringHint" computerName="DKSR-EFI-06" duration="00:00:00.0004928" startTime="2024-01-09T15:44:34.2011887+01:00" endTime="2024-01-09T15:44:34.2168115+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd2b2fb9-c7c8-4a99-ab5a-b19adf3f32ab" />
+    <UnitTestResult executionId="54e643ff-0f57-4c0b-8ce5-96ce4460ce9e" testId="9c4201a5-85c4-3ea6-fc4c-576109323a4e" testName="TestMegabytesToBytes" computerName="DKSR-EFI-06" duration="00:00:00.0001666" startTime="2024-01-09T15:44:33.9355619+01:00" endTime="2024-01-09T15:44:33.9355619+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="54e643ff-0f57-4c0b-8ce5-96ce4460ce9e" />
+    <UnitTestResult executionId="a91fdb29-fefa-4cf3-90ef-a0b5f5f8d6c7" testId="39126d65-4e79-cd30-f401-e7a98875a8be" testName="TestSafeMoveDirectoryShouldNotThrowException" computerName="DKSR-EFI-06" duration="00:00:00.0004149" startTime="2024-01-09T15:44:34.0918111+01:00" endTime="2024-01-09T15:44:34.0918111+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a91fdb29-fefa-4cf3-90ef-a0b5f5f8d6c7">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+System.IO.PathTooLongException: The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.&#xD;
+   at System.IO.LongPathHelper.Normalize(String path, UInt32 maxPathLength, Boolean checkInvalidCharacters, Boolean expandShortPaths)&#xD;
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)&#xD;
+   at System.IO.Path.GetFullPathInternal(String path)&#xD;
+   at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)&#xD;
+   at VideoOS.Mobile.Helpers.DirectoryHelper.SafeMoveDirectory(String sourcePath, String destPath) in D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOs.Mobile.Helpers\src\DirectoryHelper.cs:line 127</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="204577d9-b531-45e3-963b-db9cc6c8149c" testId="ebffe9ef-d9b8-5b43-1c77-e582f872748b" testName="TestDeleteSubKeyTreeOnNotExistingKeyShouldReturnFalse" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:34.1855602+01:00" endTime="2024-01-09T15:44:34.1855602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="204577d9-b531-45e3-963b-db9cc6c8149c">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3850ef56-8b32-4f9a-bb76-20df3de3cdc1" testId="69798cf5-6340-6c93-b32c-966b6ffa543d" testName="TestIsDirectoryWritableOnNotExistingPath" computerName="DKSR-EFI-06" duration="00:00:00.0005434" startTime="2024-01-09T15:44:34.0918111+01:00" endTime="2024-01-09T15:44:34.0918111+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3850ef56-8b32-4f9a-bb76-20df3de3cdc1" />
+    <UnitTestResult executionId="7432cafc-6891-4872-9496-0b77af4fa280" testId="d2efa3a1-366c-0a3e-e36b-bac63d65ebc1" testName="TestSanitizeStrings" computerName="DKSR-EFI-06" duration="00:00:00.0007937" startTime="2024-01-09T15:44:34.2011887+01:00" endTime="2024-01-09T15:44:34.2011887+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7432cafc-6891-4872-9496-0b77af4fa280" />
+    <UnitTestResult executionId="7f5d73b5-63df-49f2-b451-a9201c46c26e" testId="db1c629a-f79d-60ea-83f3-294112389159" testName="TestGetAllFilesSize" computerName="DKSR-EFI-06" duration="00:00:00.0021291" startTime="2024-01-09T15:44:33.9355619+01:00" endTime="2024-01-09T15:44:33.9355619+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f5d73b5-63df-49f2-b451-a9201c46c26e" />
+    <UnitTestResult executionId="04c22bb0-b0ef-4f92-b3f1-82f216ee5a38" testId="693699e8-ee96-57fc-e519-3505ec19094b" testName="TestInitImpersonationOnUsernameAndDomainArg" computerName="DKSR-EFI-06" duration="00:00:00.0001877" startTime="2024-01-09T15:44:34.1855602+01:00" endTime="2024-01-09T15:44:34.1855602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="04c22bb0-b0ef-4f92-b3f1-82f216ee5a38" />
+    <UnitTestResult executionId="d147b1ff-b398-4acd-a550-be6217c3f29e" testId="e4f4c69f-ff3e-daa5-7469-16a394993004" testName="TestAddDirectorySecurityOnWellKnownUserTypeDeny" computerName="DKSR-EFI-06" duration="00:00:00.0024725" startTime="2024-01-09T15:44:34.1074372+01:00" endTime="2024-01-09T15:44:34.1074372+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d147b1ff-b398-4acd-a550-be6217c3f29e" />
+    <UnitTestResult executionId="ddec5027-57bc-4fa8-8543-633e0789ccc7" testId="2ccc986d-7912-2d0f-edec-182767585679" testName="TestInitImpersonationOnLocalServiceUsernameAndNullDomain" computerName="DKSR-EFI-06" duration="00:00:00.0018538" startTime="2024-01-09T15:44:34.1699369+01:00" endTime="2024-01-09T15:44:34.1699369+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ddec5027-57bc-4fa8-8543-633e0789ccc7" />
+    <UnitTestResult executionId="33597caf-6981-4998-905a-7a98dc1d4ced" testId="80f4d4d2-7fab-6243-0310-0fe046a24d4f" testName="TestDeleteRegistry" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:34.1855602+01:00" endTime="2024-01-09T15:44:34.1855602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="33597caf-6981-4998-905a-7a98dc1d4ced">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5cfe5f67-2c3e-4a46-b4b0-9bfb86288b36" testId="06fbc314-b898-ca28-0223-c5261a8424fc" testName="TestHasValueOnExceptionReturnFalse" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:34.1855602+01:00" endTime="2024-01-09T15:44:34.1855602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5cfe5f67-2c3e-4a46-b4b0-9bfb86288b36">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e68bd386-32c0-46a1-b70b-d6ce985d7586" testId="2ebc0ea6-ee51-442a-3717-cd9e4d00efb5" testName="DeleteReservationHttpTest" computerName="DKSR-EFI-06" duration="00:00:00.0004570" startTime="2024-01-09T15:44:34.1699369+01:00" endTime="2024-01-09T15:44:34.1699369+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e68bd386-32c0-46a1-b70b-d6ce985d7586" />
+    <UnitTestResult executionId="6db356ff-3054-4183-a500-0fbc056b2221" testId="c1f5fa22-e800-4c2b-26d0-710015c69862" testName="TestBindUnbindCertificateOnPortHttpApiDll" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:32.4980624+01:00" endTime="2024-01-09T15:44:32.5136865+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6db356ff-3054-4183-a500-0fbc056b2221">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="950729f4-ffe4-40fe-b0be-6d412555bd72" testId="90eccce5-ae60-6311-44b6-f0b531a1a98a" testName="TestWriteRegistryOnExceptionShouldNotThrow" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:34.1855602+01:00" endTime="2024-01-09T15:44:34.1855602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="950729f4-ffe4-40fe-b0be-6d412555bd72">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="90164420-1dc1-48f9-991d-9a3eb1380e5b" testId="50cb22b0-6800-9e6a-a20a-f6363d32565b" testName="TestMapCommonAccountNameToSidOnNetworkService" computerName="DKSR-EFI-06" duration="00:00:00.0001701" startTime="2024-01-09T15:44:32.6855628+01:00" endTime="2024-01-09T15:44:32.6855628+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90164420-1dc1-48f9-991d-9a3eb1380e5b" />
+    <UnitTestResult executionId="a7317ae4-523b-495a-a977-1930a178f812" testId="3d461fe9-3a51-1a6d-da68-e1b87dc0503e" testName="TestMapCommonAccountNameToSidOnInvalid" computerName="DKSR-EFI-06" duration="00:00:00.0001524" startTime="2024-01-09T15:44:32.6855628+01:00" endTime="2024-01-09T15:44:32.6855628+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a7317ae4-523b-495a-a977-1930a178f812" />
+    <UnitTestResult executionId="28eebfbf-eea1-4985-9722-f207ec194169" testId="8d831d4f-65db-0357-1ec3-c495c96334ce" testName="DeleteReservationHttpsTest" computerName="DKSR-EFI-06" duration="00:00:00.0001776" startTime="2024-01-09T15:44:34.1699369+01:00" endTime="2024-01-09T15:44:34.1699369+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="28eebfbf-eea1-4985-9722-f207ec194169" />
+    <UnitTestResult executionId="f2b90be6-79ea-440b-a51c-e0bfd8159cf1" testId="09ba262a-3875-7ebe-7f50-6e1d7881b581" testName="TestGetAllFilesSizeShouldNotThrowException" computerName="DKSR-EFI-06" duration="00:00:00.0004578" startTime="2024-01-09T15:44:33.9355619+01:00" endTime="2024-01-09T15:44:33.9355619+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2b90be6-79ea-440b-a51c-e0bfd8159cf1">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+System.IO.PathTooLongException: The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.&#xD;
+   at System.IO.LongPathHelper.Normalize(String path, UInt32 maxPathLength, Boolean checkInvalidCharacters, Boolean expandShortPaths)&#xD;
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)&#xD;
+   at System.IO.Path.GetFullPathInternal(String path)&#xD;
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)&#xD;
+   at System.IO.Directory.EnumerateDirectories(String path)&#xD;
+   at VideoOS.Mobile.Helpers.DirectoryHelper.GetAllFilesSize(String path) in D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOs.Mobile.Helpers\src\DirectoryHelper.cs:line 51</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7cbe742e-d565-4032-aef9-07affc54c739" testId="5c037752-dbab-cc42-10f8-141ea0306c34" testName="TestMapCommonAccountNameToSidOnLocalSystem" computerName="DKSR-EFI-06" duration="00:00:00.1596221" startTime="2024-01-09T15:44:32.5136865+01:00" endTime="2024-01-09T15:44:32.6699367+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7cbe742e-d565-4032-aef9-07affc54c739" />
+    <UnitTestResult executionId="0cededf7-fe9d-4540-8c85-19e602d62771" testId="8db8d115-ec3a-6008-7720-c3da49f58912" testName="TestGetValueOnExceptionShouldReturnNull" computerName="DKSR-EFI-06" duration="00:00:00.0103229" startTime="2024-01-09T15:44:34.1230612+01:00" endTime="2024-01-09T15:44:34.1230612+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0cededf7-fe9d-4540-8c85-19e602d62771">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+System.Security.Cryptography.CryptographicException: Padding is invalid and cannot be removed.&#xD;
+   at System.Security.Cryptography.CapiSymmetricAlgorithm.DepadBlock(Byte[] block, Int32 offset, Int32 count)&#xD;
+   at System.Security.Cryptography.CapiSymmetricAlgorithm.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)&#xD;
+   at System.Security.Cryptography.CryptoStream.FlushFinalBlock()&#xD;
+   at VideoOS.Mobile.Helpers.Encryption.PBE.GetDecryptedValue(String inputValue) in D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOs.Mobile.Helpers\src\Encryption.cs:line 118&#xD;
+   at VideoOS.Mobile.Helpers.Encryption.GetValue(String value, Operation operation) in D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOs.Mobile.Helpers\src\Encryption.cs:line 28</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f199670d-ebdf-4947-b855-99cbed4fe204" testId="0961f6c4-0074-b9fe-891e-00192ea87ef7" testName="TestGetEncryptedValue" computerName="DKSR-EFI-06" duration="00:00:00.0036419" startTime="2024-01-09T15:44:34.1074372+01:00" endTime="2024-01-09T15:44:34.1230612+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f199670d-ebdf-4947-b855-99cbed4fe204" />
+    <UnitTestResult executionId="3493cd69-56b8-4e6d-aa4c-05e559fc890f" testId="dcb4288e-af51-d2b0-1db5-4a1ee994faf1" testName="TestSanitizedDefault" computerName="DKSR-EFI-06" duration="00:00:00.0236206" startTime="2024-01-09T15:44:32.2168100+01:00" endTime="2024-01-09T15:44:32.4199362+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3493cd69-56b8-4e6d-aa4c-05e559fc890f" />
+    <UnitTestResult executionId="f0536108-70b2-41e1-ba0f-567dba939b9c" testId="1cdcdb25-bc6f-165e-496d-014dd85da44a" testName="TestInitServerIdOnInvalidRegValueGuidShouldSaveInitValue" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:34.1855602+01:00" endTime="2024-01-09T15:44:34.1855602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f0536108-70b2-41e1-ba0f-567dba939b9c">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="606dc412-f9e0-42cc-a6f8-68885c0ff87d" testId="8f32732a-6ce1-8bbf-807d-44072f46434e" testName="TestInitTextBoxOnInvalidEntry" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:34.1855602+01:00" endTime="2024-01-09T15:44:34.1855602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="606dc412-f9e0-42cc-a6f8-68885c0ff87d">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1fe7e977-0dae-4723-9070-3ea845612752" testId="de348657-31d2-ae69-ae02-83e2ae6a871f" testName="SetReservationHttpTest" computerName="DKSR-EFI-06" duration="00:00:00.0059298" startTime="2024-01-09T15:44:34.1386894+01:00" endTime="2024-01-09T15:44:34.1543155+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1fe7e977-0dae-4723-9070-3ea845612752" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestInitServerIdOnClonnedHuskyIdRegValueGuidShouldSaveUniqueValue" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="a2a22c9a-b87c-d6fe-a762-be765dec4a45">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="926605f2-b212-4668-ab7a-b23b40ffc0c0" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.RegistryHelperBaseTests" name="TestInitServerIdOnClonnedHuskyIdRegValueGuidShouldSaveUniqueValue" />
+    </UnitTest>
+    <UnitTest name="TestSanitizeFolder" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="de55d2e3-cb64-7a9c-01b3-3ba412424ac7">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="3db1ae2e-4e35-49ff-9452-2638f20b3f60" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Portable.Test.CharactersSanitizerTests" name="TestSanitizeFolder" />
+    </UnitTest>
+    <UnitTest name="TestGetFirstExistingParentDirectoryOnNonExistingDirPathShouldReturnFirstExisting" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="13859939-423d-1e5c-1429-4d51fe2b811f">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="22c5db2c-064c-494e-8955-ccfe40b3a917" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.DirectoryHelperTests" name="TestGetFirstExistingParentDirectoryOnNonExistingDirPathShouldReturnFirstExisting" />
+    </UnitTest>
+    <UnitTest name="TestInitTextBoxOnInvalidEntry" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="8f32732a-6ce1-8bbf-807d-44072f46434e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="606dc412-f9e0-42cc-a6f8-68885c0ff87d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.RegistryHelperBaseTests" name="TestInitTextBoxOnInvalidEntry" />
+    </UnitTest>
+    <UnitTest name="TestMapCommonAccountNameToSidOnLocalService" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="db51edde-1830-1a13-dd86-7d3912ef8bfe">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="f155bba8-e1bc-4ca8-9810-3493078c3274" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.AccountHelperTests" name="TestMapCommonAccountNameToSidOnLocalService" />
+    </UnitTest>
+    <UnitTest name="TestMegabytesToBytes" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="9c4201a5-85c4-3ea6-fc4c-576109323a4e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="54e643ff-0f57-4c0b-8ce5-96ce4460ce9e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.DirectoryHelperTests" name="TestMegabytesToBytes" />
+    </UnitTest>
+    <UnitTest name="TestImpersonationInitOnValidSid" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="f1a9855c-8925-541b-d3f0-c21fe4f74b62">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="eb70b03f-bdbf-40f6-9a0a-8458ae067440" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.ImpersonationTests" name="TestImpersonationInitOnValidSid" />
+    </UnitTest>
+    <UnitTest name="TestStringToUInt16" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="d08edfa2-7033-5e12-2ae9-97c8c94b4462">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="c06228e4-a50f-4850-980c-1580d0910cfa" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Portable.Test.CharactersSanitizerTests" name="TestStringToUInt16" />
+    </UnitTest>
+    <UnitTest name="TestIsPathValidOnNotFullPathShouldReturnFalse" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="c73b567f-83d1-c9ec-a832-acc24adf0d3f">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="7bb61291-e6fa-4416-adad-c18c5b699278" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.DirectoryHelperTests" name="TestIsPathValidOnNotFullPathShouldReturnFalse" />
+    </UnitTest>
+    <UnitTest name="TestReadRegistryOnExceptionShouldNotThrow" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="9fcd7a31-da9e-63b8-f715-f8fa153e9bcb">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="268eabe6-4698-4bdf-ad71-530bcf517804" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.ModifyRegistryTests" name="TestReadRegistryOnExceptionShouldNotThrow" />
+    </UnitTest>
+    <UnitTest name="TestGetDecryptedValue" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="e4862b50-c15b-3e9c-b0bf-f8802e7665d6">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="21944326-690d-4596-bba0-1e3bf1756e9e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.EncryptionTests" name="TestGetDecryptedValue" />
+    </UnitTest>
+    <UnitTest name="TestImpersonationInitOnNullSid" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="2e89f11c-4c0a-25c4-f54b-d38cfd373a07">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="da7d9cd6-2d29-4774-a29f-6e6704a77cf4" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.ImpersonationTests" name="TestImpersonationInitOnNullSid" />
+    </UnitTest>
+    <UnitTest name="TestAddDirectorySecurityOnWellKnownUserTypeDeny" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="e4f4c69f-ff3e-daa5-7469-16a394993004">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="d147b1ff-b398-4acd-a550-be6217c3f29e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.DirectoryHelperTests" name="TestAddDirectorySecurityOnWellKnownUserTypeDeny" />
+    </UnitTest>
+    <UnitTest name="TestCopyDirectoryNoRecursionFileNamesAndSizesEqual" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="3d9de255-2de3-5e8e-af8d-858ba2c93d3e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="fca45bc6-4422-4ceb-a92b-0356195acab6" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.DirectoryHelperTests" name="TestCopyDirectoryNoRecursionFileNamesAndSizesEqual" />
+    </UnitTest>
+    <UnitTest name="TestSanitizedCustom" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="78454f27-f704-8261-ab21-f4c9d7718bc2">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="bfffe742-d933-449a-ae97-9a9e0f48da7d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Portable.Test.CharactersSanitizerTests" name="TestSanitizedCustom" />
+    </UnitTest>
+    <UnitTest name="TestInitTextBoxOnValidEntry" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="256f2032-9677-89b1-89cb-588fed0fa599">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LongRunning" />
+      </TestCategory>
+      <Execution id="d072ffc7-b337-4932-802c-9cb8804568a4" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.RegistryHelperBaseTests" name="TestInitTextBoxOnValidEntry" />
+    </UnitTest>
+    <UnitTest name="TestSafeMoveDirectoryShouldNotThrowException" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="39126d65-4e79-cd30-f401-e7a98875a8be">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="a91fdb29-fefa-4cf3-90ef-a0b5f5f8d6c7" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.DirectoryHelperTests" name="TestSafeMoveDirectoryShouldNotThrowException" />
+    </UnitTest>
+    <UnitTest name="TestPBEOnInvalidBytesSizeShouldThrowException" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="06cfd815-e290-5dfb-6fc1-464ae460ad2a">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="dfdcb568-4252-4a66-8f5a-29ee3068091e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.EncryptionTests" name="TestPBEOnInvalidBytesSizeShouldThrowException" />
+    </UnitTest>
+    <UnitTest name="TestInitImpersonationOnDomainInUsernameAndNullDomainArg" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="aa4f827a-9a88-7b30-ffcb-0ad703294229">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="04bd17e5-3a0e-4a63-aade-e4a958e371c5" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.ImpersonationTests" name="TestInitImpersonationOnDomainInUsernameAndNullDomainArg" />
+    </UnitTest>
+    <UnitTest name="SetReservationHttpsTest" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="777fd10e-1080-5058-5e91-2b2ff17085ad">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="f755e6d1-c197-43f9-ab81-41a84db18fec" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.HttpNamespaceInstallerTests" name="SetReservationHttpsTest" />
+    </UnitTest>
+    <UnitTest name="TestMakeRelativePathOnNonRootedName" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="64a201ff-ba58-d3cd-c3b4-e1e2de13995b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="5a059e2c-a8b6-4d3a-9f48-2d9ab44fdf24" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.RegistryHelperBaseTests" name="TestMakeRelativePathOnNonRootedName" />
+    </UnitTest>
+    <UnitTest name="TestMapCommonAccountNameToSidOnLocalSystem" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="5c037752-dbab-cc42-10f8-141ea0306c34">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="7cbe742e-d565-4032-aef9-07affc54c739" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.AccountHelperTests" name="TestMapCommonAccountNameToSidOnLocalSystem" />
+    </UnitTest>
+    <UnitTest name="TestSanitizeUri" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="e4f8196f-7f0d-d388-38a9-adda2490a20c">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="d58e45bf-e978-4ad2-8d51-43696101e7ff" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Portable.Test.CharactersSanitizerTests" name="TestSanitizeUri" />
+    </UnitTest>
+    <UnitTest name="TestGetAllFilesSize" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="db1c629a-f79d-60ea-83f3-294112389159">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="7f5d73b5-63df-49f2-b451-a9201c46c26e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.DirectoryHelperTests" name="TestGetAllFilesSize" />
+    </UnitTest>
+    <UnitTest name="TestStringToInt32" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="61395b00-8b1e-2007-c9ff-7e39664f042f">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="60c17466-d922-4aef-891e-ba685c51cfa1" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Portable.Test.CharactersSanitizerTests" name="TestStringToInt32" />
+    </UnitTest>
+    <UnitTest name="GetServiceUserNameTest" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="be46fd75-2262-c67d-2826-f20138c5861e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="cd3129c2-6dbd-405e-b8ec-fe138073ae79" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.HttpNamespaceInstallerTests" name="GetServiceUserNameTest" />
+    </UnitTest>
+    <UnitTest name="TestIsDirectoryWritableOnNonWritableShouldReturnFalse" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="0e2427c4-ffb8-f0a6-58e0-fd88b49c1e12">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="011d472b-9963-48bd-a59a-116b2300cc9c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.DirectoryHelperTests" name="TestIsDirectoryWritableOnNonWritableShouldReturnFalse" />
+    </UnitTest>
+    <UnitTest name="TestValidateStrings" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="babbbbc8-3169-b35e-6e04-dc88be09e5d7">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="852521ed-f44f-405f-99ac-e77bc3bec80d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.SanitizerWrapperTests" name="TestValidateStrings" />
+    </UnitTest>
+    <UnitTest name="TestReplaceInvalidPathChars" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="6fd867ad-9eda-6f27-38df-ae839e445c66">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="8c3fa1e5-aba2-4a79-85ff-a29fd9ff4a34" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.DirectoryHelperTests" name="TestReplaceInvalidPathChars" />
+    </UnitTest>
+    <UnitTest name="TestGetAccountNameUnderWhichServiceRuns" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="15528403-b77a-1f65-5c5c-7a9031de03e4">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="a1b6ad73-1a9e-40ef-a9b4-0ddbdc6b9620" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.AccountHelperTests" name="TestGetAccountNameUnderWhichServiceRuns" />
+    </UnitTest>
+    <UnitTest name="DeleteReservationHttpTest" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="2ebc0ea6-ee51-442a-3717-cd9e4d00efb5">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="e68bd386-32c0-46a1-b70b-d6ce985d7586" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.HttpNamespaceInstallerTests" name="DeleteReservationHttpTest" />
+    </UnitTest>
+    <UnitTest name="TestWriteRegistryOnExceptionShouldNotThrow" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="90eccce5-ae60-6311-44b6-f0b531a1a98a">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="950729f4-ffe4-40fe-b0be-6d412555bd72" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.ModifyRegistryTests" name="TestWriteRegistryOnExceptionShouldNotThrow" />
+    </UnitTest>
+    <UnitTest name="TestGetEncryptedValue" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="0961f6c4-0074-b9fe-891e-00192ea87ef7">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="f199670d-ebdf-4947-b855-99cbed4fe204" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.EncryptionTests" name="TestGetEncryptedValue" />
+    </UnitTest>
+    <UnitTest name="TestInitServerIdOnInvalidRegValueGuidShouldSaveInitValue" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="1cdcdb25-bc6f-165e-496d-014dd85da44a">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="f0536108-70b2-41e1-ba0f-567dba939b9c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.RegistryHelperBaseTests" name="TestInitServerIdOnInvalidRegValueGuidShouldSaveInitValue" />
+    </UnitTest>
+    <UnitTest name="TestValidateStringLength" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="80d44db7-a8c6-8fd1-d6d3-0ddc8e10d308">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="7d418205-728e-42a9-87d5-f507152b1dd9" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Portable.Test.CharactersSanitizerTests" name="TestValidateStringLength" />
+    </UnitTest>
+    <UnitTest name="TestInitImpersonationOnNetworkServiceUsernameAndNullDomain" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="aa1ae415-0dec-3eab-39bf-a49a73443835">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="4668a255-a905-4434-9a4a-d66227bc5ddb" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.ImpersonationTests" name="TestInitImpersonationOnNetworkServiceUsernameAndNullDomain" />
+    </UnitTest>
+    <UnitTest name="TestImpersonationInitOnInvalidUsernameAndNullDomain" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="a7121714-eda1-10ef-65c3-2c8b64bbc7ea">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="98a01efa-94b1-47e1-ac8f-e646c9c83ee7" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.ImpersonationTests" name="TestImpersonationInitOnInvalidUsernameAndNullDomain" />
+    </UnitTest>
+    <UnitTest name="TestHasValueOnExceptionReturnFalse" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="06fbc314-b898-ca28-0223-c5261a8424fc">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="5cfe5f67-2c3e-4a46-b4b0-9bfb86288b36" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.RegistryHelperBaseTests" name="TestHasValueOnExceptionReturnFalse" />
+    </UnitTest>
+    <UnitTest name="TestCopyDirectoryFileNamesAndSizesEqual" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="487ee355-73a0-a267-ed5b-97f8f58132c8">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="ae79de35-dd7c-42bd-badd-44d717cba896" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.DirectoryHelperTests" name="TestCopyDirectoryFileNamesAndSizesEqual" />
+    </UnitTest>
+    <UnitTest name="TestDeleteSubKeyTree" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="d263040a-74f7-02ba-6ac5-75792c1ac598">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="f76d3cd9-4b00-45ea-8f47-48dbae578359" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.ModifyRegistryTests" name="TestDeleteSubKeyTree" />
+    </UnitTest>
+    <UnitTest name="TestSanitizeStrings" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="d2efa3a1-366c-0a3e-e36b-bac63d65ebc1">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="7432cafc-6891-4872-9496-0b77af4fa280" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.SanitizerWrapperTests" name="TestSanitizeStrings" />
+    </UnitTest>
+    <UnitTest name="TestDeleteContents" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="4858bc7e-5523-3ee4-474d-d54b1b7e0e32">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="baed8592-dee8-42ff-ae4d-6a8af0e33a85" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.DirectoryHelperTests" name="TestDeleteContents" />
+    </UnitTest>
+    <UnitTest name="TestInitImpersonationOnLocalSystemeUsernameAndNullDomain" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="cc450e7c-b94d-65a6-9a19-23b9f4effad2">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="4eba2e11-2341-47c1-8740-9f5f0c072107" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.ImpersonationTests" name="TestInitImpersonationOnLocalSystemeUsernameAndNullDomain" />
+    </UnitTest>
+    <UnitTest name="TestReadRegistry" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="38fef64b-fd2f-3920-dd4d-2188990002ad">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="e7efc3d3-03a9-4496-a52b-5aa7c815620f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.ModifyRegistryTests" name="TestReadRegistry" />
+    </UnitTest>
+    <UnitTest name="TestInitImpersonationOnLocalServiceUsernameAndNullDomain" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="2ccc986d-7912-2d0f-edec-182767585679">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="ddec5027-57bc-4fa8-8543-633e0789ccc7" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.ImpersonationTests" name="TestInitImpersonationOnLocalServiceUsernameAndNullDomain" />
+    </UnitTest>
+    <UnitTest name="TestIsDirectoryWritableOnWritableShouldReturnTrue" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="de916dad-78f6-f592-3369-06457c65b0ce">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="742e4244-b11c-49d7-a685-8150d7fc815d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.DirectoryHelperTests" name="TestIsDirectoryWritableOnWritableShouldReturnTrue" />
+    </UnitTest>
+    <UnitTest name="SetReservationHttpTest" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="de348657-31d2-ae69-ae02-83e2ae6a871f">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="1fe7e977-0dae-4723-9070-3ea845612752" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.HttpNamespaceInstallerTests" name="SetReservationHttpTest" />
+    </UnitTest>
+    <UnitTest name="TestBindUnbindCertificateOnPortHttpApiDll" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="c1f5fa22-e800-4c2b-26d0-710015c69862">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LongRunning" />
+      </TestCategory>
+      <Execution id="6db356ff-3054-4183-a500-0fbc056b2221" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Certificates.Test.CertificateTests" name="TestBindUnbindCertificateOnPortHttpApiDll" />
+    </UnitTest>
+    <UnitTest name="TestBuildCommonApplicationDataFilePath" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="d2dcf68f-2af8-7f52-37cf-773c794a2fc7">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="04d97985-6620-4e5c-95ef-63429869a810" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.DirectoryHelperTests" name="TestBuildCommonApplicationDataFilePath" />
+    </UnitTest>
+    <UnitTest name="Manual_ReservationTest" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="2a1b6d20-9f05-1602-7f7b-f932af1f5327">
+      <Execution id="7871fca4-d21e-4e70-ac9f-869bb928b8fb" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.HttpNamespaceInstallerTests" name="Manual_ReservationTest" />
+    </UnitTest>
+    <UnitTest name="DeleteReservationHttpsTest" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="8d831d4f-65db-0357-1ec3-c495c96334ce">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="28eebfbf-eea1-4985-9722-f207ec194169" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.HttpNamespaceInstallerTests" name="DeleteReservationHttpsTest" />
+    </UnitTest>
+    <UnitTest name="TestDeleteRegistryOnNotExistingKeyShouldReturnFalse" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="a8d8334f-853a-6cba-bfec-dba6af2025e9">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="a1f254c4-65dc-4046-af9b-1a1c287e6be1" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.ModifyRegistryTests" name="TestDeleteRegistryOnNotExistingKeyShouldReturnFalse" />
+    </UnitTest>
+    <UnitTest name="TestInitServerIdOnInvalidOrEmptyRegValueGuidShouldSaveUniqueValue" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="5bad3803-77f6-9936-a6f2-0c20a1473dec">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="f38abf9a-58c9-4b4e-83d6-445766c7914b" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.RegistryHelperBaseTests" name="TestInitServerIdOnInvalidOrEmptyRegValueGuidShouldSaveUniqueValue" />
+    </UnitTest>
+    <UnitTest name="TestMapCommonAccountNameToSidOnNetworkService" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="50cb22b0-6800-9e6a-a20a-f6363d32565b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="90164420-1dc1-48f9-991d-9a3eb1380e5b" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.AccountHelperTests" name="TestMapCommonAccountNameToSidOnNetworkService" />
+    </UnitTest>
+    <UnitTest name="TestGetFixedStringHint" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="0cab0f4a-629b-5148-e7b1-6dcf0590afac">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="cd2b2fb9-c7c8-4a99-ab5a-b19adf3f32ab" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.StringHelperTests" name="TestGetFixedStringHint" />
+    </UnitTest>
+    <UnitTest name="TestAddDirectorySecurityShouldNotThrowException" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="c044697b-911b-f0a6-b8a8-fb347d0ecaec">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="118ed19d-5442-472e-97c8-879d6b0fd7c0" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.DirectoryHelperTests" name="TestAddDirectorySecurityShouldNotThrowException" />
+    </UnitTest>
+    <UnitTest name="TestInitValueOnValidRegistryValueShouldReturnRegistryValue" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="5186c6f8-0ed4-7c67-ad6a-c46c3a55ad6a">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="b196a5ee-2d64-44f9-87f7-f7bd922169bd" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.RegistryHelperBaseTests" name="TestInitValueOnValidRegistryValueShouldReturnRegistryValue" />
+    </UnitTest>
+    <UnitTest name="TestHasValueValidCheckerResult" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="92f8ca34-bf58-cbba-cf29-e408a0811b24">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="e8e7988c-6662-4003-b897-59ee8a20bd10" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.RegistryHelperBaseTests" name="TestHasValueValidCheckerResult" />
+    </UnitTest>
+    <UnitTest name="TestGetSubKeyNamesOnExceptionShouldNotThrow" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="61727b0e-5189-b3d3-a1b6-5bd6a0ed6947">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="2f192720-6657-487c-b88d-4df2730ec965" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.ModifyRegistryTests" name="TestGetSubKeyNamesOnExceptionShouldNotThrow" />
+    </UnitTest>
+    <UnitTest name="TestStringToBoolCaseInsensitive" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="4b6c42fe-7d7c-9c21-7fa7-1e3ee45360bd">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="30d7c3b5-2dd6-44f7-b6c1-7873828523d1" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Portable.Test.CharactersSanitizerTests" name="TestStringToBoolCaseInsensitive" />
+    </UnitTest>
+    <UnitTest name="TestSanitizedDefault" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="dcb4288e-af51-d2b0-1db5-4a1ee994faf1">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="3493cd69-56b8-4e6d-aa4c-05e559fc890f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Portable.Test.CharactersSanitizerTests" name="TestSanitizedDefault" />
+    </UnitTest>
+    <UnitTest name="TestValidateString" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="7296fa72-6f5c-a91d-43dd-a1a91231fd01">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="95c5369a-f3c0-4f01-9b38-a2c5d25d9f47" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Portable.Test.CharactersSanitizerTests" name="TestValidateString" />
+    </UnitTest>
+    <UnitTest name="TestMapCommonAccountNameToSidOnInvalid" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="3d461fe9-3a51-1a6d-da68-e1b87dc0503e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="a7317ae4-523b-495a-a977-1930a178f812" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.AccountHelperTests" name="TestMapCommonAccountNameToSidOnInvalid" />
+    </UnitTest>
+    <UnitTest name="TestDeleteRegistry" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="80f4d4d2-7fab-6243-0310-0fe046a24d4f">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="33597caf-6981-4998-905a-7a98dc1d4ced" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.ModifyRegistryTests" name="TestDeleteRegistry" />
+    </UnitTest>
+    <UnitTest name="TestSanitizedDefaultWithExceptions" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="799d8999-e8fe-1225-83fa-4c6e4da19c92">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="9d921fbe-e101-4dde-b704-b4cbd3e510ee" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Portable.Test.CharactersSanitizerTests" name="TestSanitizedDefaultWithExceptions" />
+    </UnitTest>
+    <UnitTest name="TestGetFirstExistingParentDirectoryOnNullOrEmptyPathShouldReturnNull" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="9e7b6169-b70d-c015-5352-08d5fd1bb911">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="3355f6e8-7e64-4c21-b14d-80e7b1caa046" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.DirectoryHelperTests" name="TestGetFirstExistingParentDirectoryOnNullOrEmptyPathShouldReturnNull" />
+    </UnitTest>
+    <UnitTest name="TestSetAccountRight" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="0dc45acf-8879-519e-26a3-69d6da9321df">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="ec4eb576-675e-4b1a-93c9-3e5a9cebca6f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.ModifyRegistryTests" name="TestSetAccountRight" />
+    </UnitTest>
+    <UnitTest name="TestInitImpersonationOnUsernameAndDomainArg" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="693699e8-ee96-57fc-e519-3505ec19094b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="04c22bb0-b0ef-4f92-b3f1-82f216ee5a38" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.ImpersonationTests" name="TestInitImpersonationOnUsernameAndDomainArg" />
+    </UnitTest>
+    <UnitTest name="TestInputValidationWithExceptions" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="b95b047a-43fa-5f4f-3f86-25742d03cda7">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="74a12bfc-2e91-472b-802b-dabfd717f5ac" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Portable.Test.CharactersSanitizerTests" name="TestInputValidationWithExceptions" />
+    </UnitTest>
+    <UnitTest name="TestSetAccountRightOnExceptionShouldNotThrow" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="6a7b094b-5049-943d-cd61-2e75b7f753a5">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="536f253e-ad58-448f-bfb0-87231d292929" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.ModifyRegistryTests" name="TestSetAccountRightOnExceptionShouldNotThrow" />
+    </UnitTest>
+    <UnitTest name="TestReplaceInvalidFileNameChars" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="bcbaf2f4-b65c-0d86-61cf-5a8933e12ad8">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="029360e5-aa69-4816-9540-d6c28ed469ee" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.DirectoryHelperTests" name="TestReplaceInvalidFileNameChars" />
+    </UnitTest>
+    <UnitTest name="TestGetAllFilesSizeShouldNotThrowException" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="09ba262a-3875-7ebe-7f50-6e1d7881b581">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="f2b90be6-79ea-440b-a51c-e0bfd8159cf1" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.DirectoryHelperTests" name="TestGetAllFilesSizeShouldNotThrowException" />
+    </UnitTest>
+    <UnitTest name="TestValidateString" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="0ed0fe94-6ac4-645a-ffc9-10e8a60bd234">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="12dd348b-99ff-4804-98b9-ada51219177d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.SanitizerWrapperTests" name="TestValidateString" />
+    </UnitTest>
+    <UnitTest name="TestInitServerIdOnOldRegValueGuidShouldLeaveItAndReturnIt" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="4281d293-d934-90fd-6e8f-5505d4a40d12">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="bbcff9fb-93ed-4bf9-94a5-c7d5e8fa9904" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.RegistryHelperBaseTests" name="TestInitServerIdOnOldRegValueGuidShouldLeaveItAndReturnIt" />
+    </UnitTest>
+    <UnitTest name="TestAddRemoveCertificateToStore" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="16911ed3-8e16-e062-1524-67047441d181">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LongRunning" />
+      </TestCategory>
+      <Execution id="2e02a44f-c780-4740-9da1-0329868c944c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Certificates.Test.CertificateTests" name="TestAddRemoveCertificateToStore" />
+    </UnitTest>
+    <UnitTest name="TestGetFirstExistingParentDirectoryOnExistingDirPathShouldReturnSamePath" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="d4705ff3-0d3c-92b5-21c3-4bb0eb1e4669">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="415f52f1-fd2f-4fca-8c25-30efc836fe63" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.DirectoryHelperTests" name="TestGetFirstExistingParentDirectoryOnExistingDirPathShouldReturnSamePath" />
+    </UnitTest>
+    <UnitTest name="TestInitValueOnInvalidRegistryValueShouldReturnDefault" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="2c159f2c-b61b-01e9-385b-a99b716fed6f">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="2c1b852e-e6d2-493d-bc91-85037b8b3356" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.RegistryHelperBaseTests" name="TestInitValueOnInvalidRegistryValueShouldReturnDefault" />
+    </UnitTest>
+    <UnitTest name="TestSafeMoveDirectoryFileNamesAndSizesEqual" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="343e85e6-3f30-f7e0-21ac-0369bea178b1">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LongRunning" />
+      </TestCategory>
+      <Execution id="07ecd9fe-8383-4b2e-974a-63fd3d838e4f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.DirectoryHelperTests" name="TestSafeMoveDirectoryFileNamesAndSizesEqual" />
+    </UnitTest>
+    <UnitTest name="TestGetSubKeyNames" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="02fa227a-e7ab-5cb2-8cac-05a355de0dc6">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="c9286766-e1f7-4214-9697-2e63a85e75e0" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.ModifyRegistryTests" name="TestGetSubKeyNames" />
+    </UnitTest>
+    <UnitTest name="TestAddDirectorySecurityOnDenyRead" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="45a32a73-6247-1a15-6148-21aaa655ee46">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="5def959d-3b47-4e47-b610-4ba2bf9e4bfc" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.DirectoryHelperTests" name="TestAddDirectorySecurityOnDenyRead" />
+    </UnitTest>
+    <UnitTest name="TestGetValueOnExceptionShouldReturnNull" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="8db8d115-ec3a-6008-7720-c3da49f58912">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="0cededf7-fe9d-4540-8c85-19e602d62771" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.EncryptionTests" name="TestGetValueOnExceptionShouldReturnNull" />
+    </UnitTest>
+    <UnitTest name="TestIsTrueCaseInsensitive" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="048486db-8f0a-6959-5ec5-32303fa8f12f">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="26f2d653-dabe-4eee-955f-21b95a585dbc" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Portable.Test.CharactersSanitizerTests" name="TestIsTrueCaseInsensitive" />
+    </UnitTest>
+    <UnitTest name="TestSanitizeString" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="2bd378ff-34d5-ecb6-affb-94edd6dd3f10">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="e2cf5557-1341-41bd-b47f-86a51baa8ee0" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.SanitizerWrapperTests" name="TestSanitizeString" />
+    </UnitTest>
+    <UnitTest name="TestIsPathValidOnExceptionShouldReturnFalse" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="d80019a3-083a-f45a-d53b-09f3d3f539ec">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="3132c2e3-5c1b-4511-85c5-eb372385646f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.DirectoryHelperTests" name="TestIsPathValidOnExceptionShouldReturnFalse" />
+    </UnitTest>
+    <UnitTest name="TestInputValidation" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="bae2e97f-33dd-b839-6c4c-ad3cafeb6d1b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="f7981b16-176a-474f-84c3-9a14bec5717a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Portable.Test.CharactersSanitizerTests" name="TestInputValidation" />
+    </UnitTest>
+    <UnitTest name="TestWriteRegistry" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="6e5783c3-ea80-f8bb-da45-b90158250916">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="4944c646-520c-4c25-b8a1-c46ea8dd89e1" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.ModifyRegistryTests" name="TestWriteRegistry" />
+    </UnitTest>
+    <UnitTest name="TestDispose" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="4f046383-08ce-bf10-e0be-a934af693f2d">
+      <Execution id="0a083525-b773-4be8-9e92-63f7578f8810" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.SharedRefTests" name="TestDispose" />
+    </UnitTest>
+    <UnitTest name="TestIsDirectoryWritableOnNotExistingPath" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="69798cf5-6340-6c93-b32c-966b6ffa543d">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="3850ef56-8b32-4f9a-bb76-20df3de3cdc1" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.DirectoryHelperTests" name="TestIsDirectoryWritableOnNotExistingPath" />
+    </UnitTest>
+    <UnitTest name="TestMakeRelativePathOnRootedName" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="2911ec49-0dac-2227-2509-75a543ae46b9">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="edb0845c-b0c0-4410-8f7b-27ec91b4e372" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.RegistryHelperBaseTests" name="TestMakeRelativePathOnRootedName" />
+    </UnitTest>
+    <UnitTest name="TestIsPathValidOnNotExistingRoot" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="c9d0764d-f898-fc45-639a-77affba0fd2f">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="d3bc06b4-28c3-4894-a3db-53d10cf7ab08" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.DirectoryHelperTests" name="TestIsPathValidOnNotExistingRoot" />
+    </UnitTest>
+    <UnitTest name="TestIsPathValidOnValidShouldReturnTrue" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="66a5154d-6e52-fcc8-1f04-e103e5552f7c">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="69b938a9-80a3-4359-b6d2-d0d4ad4dabfa" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.DirectoryHelperTests" name="TestIsPathValidOnValidShouldReturnTrue" />
+    </UnitTest>
+    <UnitTest name="TestDeleteSubKeyTreeOnNotExistingKeyShouldReturnFalse" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.helpers.test\bin\debug\net472\videoos.mobile.helpers.test.dll" id="ebffe9ef-d9b8-5b43-1c77-e582f872748b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="204577d9-b531-45e3-963b-db9cc6c8149c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Helpers.Test\bin\Debug\net472\VideoOS.Mobile.Helpers.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Helpers.Test.ModifyRegistryTests" name="TestDeleteSubKeyTreeOnNotExistingKeyShouldReturnFalse" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="15528403-b77a-1f65-5c5c-7a9031de03e4" executionId="a1b6ad73-1a9e-40ef-a9b4-0ddbdc6b9620" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="64a201ff-ba58-d3cd-c3b4-e1e2de13995b" executionId="5a059e2c-a8b6-4d3a-9f48-2d9ab44fdf24" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d80019a3-083a-f45a-d53b-09f3d3f539ec" executionId="3132c2e3-5c1b-4511-85c5-eb372385646f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d08edfa2-7033-5e12-2ae9-97c8c94b4462" executionId="c06228e4-a50f-4850-980c-1580d0910cfa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e4f8196f-7f0d-d388-38a9-adda2490a20c" executionId="d58e45bf-e978-4ad2-8d51-43696101e7ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be46fd75-2262-c67d-2826-f20138c5861e" executionId="cd3129c2-6dbd-405e-b8ec-fe138073ae79" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc450e7c-b94d-65a6-9a19-23b9f4effad2" executionId="4eba2e11-2341-47c1-8740-9f5f0c072107" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2bd378ff-34d5-ecb6-affb-94edd6dd3f10" executionId="e2cf5557-1341-41bd-b47f-86a51baa8ee0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e4862b50-c15b-3e9c-b0bf-f8802e7665d6" executionId="21944326-690d-4596-bba0-1e3bf1756e9e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="db51edde-1830-1a13-dd86-7d3912ef8bfe" executionId="f155bba8-e1bc-4ca8-9810-3493078c3274" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de916dad-78f6-f592-3369-06457c65b0ce" executionId="742e4244-b11c-49d7-a685-8150d7fc815d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9e7b6169-b70d-c015-5352-08d5fd1bb911" executionId="3355f6e8-7e64-4c21-b14d-80e7b1caa046" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa1ae415-0dec-3eab-39bf-a49a73443835" executionId="4668a255-a905-4434-9a4a-d66227bc5ddb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="16911ed3-8e16-e062-1524-67047441d181" executionId="2e02a44f-c780-4740-9da1-0329868c944c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c9d0764d-f898-fc45-639a-77affba0fd2f" executionId="d3bc06b4-28c3-4894-a3db-53d10cf7ab08" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7296fa72-6f5c-a91d-43dd-a1a91231fd01" executionId="95c5369a-f3c0-4f01-9b38-a2c5d25d9f47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2911ec49-0dac-2227-2509-75a543ae46b9" executionId="edb0845c-b0c0-4410-8f7b-27ec91b4e372" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2a22c9a-b87c-d6fe-a762-be765dec4a45" executionId="926605f2-b212-4668-ab7a-b23b40ffc0c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4b6c42fe-7d7c-9c21-7fa7-1e3ee45360bd" executionId="30d7c3b5-2dd6-44f7-b6c1-7873828523d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="799d8999-e8fe-1225-83fa-4c6e4da19c92" executionId="9d921fbe-e101-4dde-b704-b4cbd3e510ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0ed0fe94-6ac4-645a-ffc9-10e8a60bd234" executionId="12dd348b-99ff-4804-98b9-ada51219177d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="02fa227a-e7ab-5cb2-8cac-05a355de0dc6" executionId="c9286766-e1f7-4214-9697-2e63a85e75e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9fcd7a31-da9e-63b8-f715-f8fa153e9bcb" executionId="268eabe6-4698-4bdf-ad71-530bcf517804" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa4f827a-9a88-7b30-ffcb-0ad703294229" executionId="04bd17e5-3a0e-4a63-aade-e4a958e371c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="048486db-8f0a-6959-5ec5-32303fa8f12f" executionId="26f2d653-dabe-4eee-955f-21b95a585dbc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4705ff3-0d3c-92b5-21c3-4bb0eb1e4669" executionId="415f52f1-fd2f-4fca-8c25-30efc836fe63" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c044697b-911b-f0a6-b8a8-fb347d0ecaec" executionId="118ed19d-5442-472e-97c8-879d6b0fd7c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="61727b0e-5189-b3d3-a1b6-5bd6a0ed6947" executionId="2f192720-6657-487c-b88d-4df2730ec965" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="92f8ca34-bf58-cbba-cf29-e408a0811b24" executionId="e8e7988c-6662-4003-b897-59ee8a20bd10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0dc45acf-8879-519e-26a3-69d6da9321df" executionId="ec4eb576-675e-4b1a-93c9-3e5a9cebca6f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="06cfd815-e290-5dfb-6fc1-464ae460ad2a" executionId="dfdcb568-4252-4a66-8f5a-29ee3068091e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78454f27-f704-8261-ab21-f4c9d7718bc2" executionId="bfffe742-d933-449a-ae97-9a9e0f48da7d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7121714-eda1-10ef-65c3-2c8b64bbc7ea" executionId="98a01efa-94b1-47e1-ac8f-e646c9c83ee7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="256f2032-9677-89b1-89cb-588fed0fa599" executionId="d072ffc7-b337-4932-802c-9cb8804568a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a1b6d20-9f05-1602-7f7b-f932af1f5327" executionId="7871fca4-d21e-4e70-ac9f-869bb928b8fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f1a9855c-8925-541b-d3f0-c21fe4f74b62" executionId="eb70b03f-bdbf-40f6-9a0a-8458ae067440" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6a7b094b-5049-943d-cd61-2e75b7f753a5" executionId="536f253e-ad58-448f-bfb0-87231d292929" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4f046383-08ce-bf10-e0be-a934af693f2d" executionId="0a083525-b773-4be8-9e92-63f7578f8810" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a8d8334f-853a-6cba-bfec-dba6af2025e9" executionId="a1f254c4-65dc-4046-af9b-1a1c287e6be1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="66a5154d-6e52-fcc8-1f04-e103e5552f7c" executionId="69b938a9-80a3-4359-b6d2-d0d4ad4dabfa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="13859939-423d-1e5c-1429-4d51fe2b811f" executionId="22c5db2c-064c-494e-8955-ccfe40b3a917" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="487ee355-73a0-a267-ed5b-97f8f58132c8" executionId="ae79de35-dd7c-42bd-badd-44d717cba896" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de55d2e3-cb64-7a9c-01b3-3ba412424ac7" executionId="3db1ae2e-4e35-49ff-9452-2638f20b3f60" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5186c6f8-0ed4-7c67-ad6a-c46c3a55ad6a" executionId="b196a5ee-2d64-44f9-87f7-f7bd922169bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6e5783c3-ea80-f8bb-da45-b90158250916" executionId="4944c646-520c-4c25-b8a1-c46ea8dd89e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d263040a-74f7-02ba-6ac5-75792c1ac598" executionId="f76d3cd9-4b00-45ea-8f47-48dbae578359" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bcbaf2f4-b65c-0d86-61cf-5a8933e12ad8" executionId="029360e5-aa69-4816-9540-d6c28ed469ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="777fd10e-1080-5058-5e91-2b2ff17085ad" executionId="f755e6d1-c197-43f9-ab81-41a84db18fec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="45a32a73-6247-1a15-6148-21aaa655ee46" executionId="5def959d-3b47-4e47-b610-4ba2bf9e4bfc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c73b567f-83d1-c9ec-a832-acc24adf0d3f" executionId="7bb61291-e6fa-4416-adad-c18c5b699278" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="61395b00-8b1e-2007-c9ff-7e39664f042f" executionId="60c17466-d922-4aef-891e-ba685c51cfa1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d2dcf68f-2af8-7f52-37cf-773c794a2fc7" executionId="04d97985-6620-4e5c-95ef-63429869a810" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="babbbbc8-3169-b35e-6e04-dc88be09e5d7" executionId="852521ed-f44f-405f-99ac-e77bc3bec80d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c159f2c-b61b-01e9-385b-a99b716fed6f" executionId="2c1b852e-e6d2-493d-bc91-85037b8b3356" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4281d293-d934-90fd-6e8f-5505d4a40d12" executionId="bbcff9fb-93ed-4bf9-94a5-c7d5e8fa9904" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="80d44db7-a8c6-8fd1-d6d3-0ddc8e10d308" executionId="7d418205-728e-42a9-87d5-f507152b1dd9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6fd867ad-9eda-6f27-38df-ae839e445c66" executionId="8c3fa1e5-aba2-4a79-85ff-a29fd9ff4a34" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bae2e97f-33dd-b839-6c4c-ad3cafeb6d1b" executionId="f7981b16-176a-474f-84c3-9a14bec5717a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d9de255-2de3-5e8e-af8d-858ba2c93d3e" executionId="fca45bc6-4422-4ceb-a92b-0356195acab6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0e2427c4-ffb8-f0a6-58e0-fd88b49c1e12" executionId="011d472b-9963-48bd-a59a-116b2300cc9c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="343e85e6-3f30-f7e0-21ac-0369bea178b1" executionId="07ecd9fe-8383-4b2e-974a-63fd3d838e4f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2e89f11c-4c0a-25c4-f54b-d38cfd373a07" executionId="da7d9cd6-2d29-4774-a29f-6e6704a77cf4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="38fef64b-fd2f-3920-dd4d-2188990002ad" executionId="e7efc3d3-03a9-4496-a52b-5aa7c815620f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4858bc7e-5523-3ee4-474d-d54b1b7e0e32" executionId="baed8592-dee8-42ff-ae4d-6a8af0e33a85" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5bad3803-77f6-9936-a6f2-0c20a1473dec" executionId="f38abf9a-58c9-4b4e-83d6-445766c7914b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b95b047a-43fa-5f4f-3f86-25742d03cda7" executionId="74a12bfc-2e91-472b-802b-dabfd717f5ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0cab0f4a-629b-5148-e7b1-6dcf0590afac" executionId="cd2b2fb9-c7c8-4a99-ab5a-b19adf3f32ab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9c4201a5-85c4-3ea6-fc4c-576109323a4e" executionId="54e643ff-0f57-4c0b-8ce5-96ce4460ce9e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="39126d65-4e79-cd30-f401-e7a98875a8be" executionId="a91fdb29-fefa-4cf3-90ef-a0b5f5f8d6c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ebffe9ef-d9b8-5b43-1c77-e582f872748b" executionId="204577d9-b531-45e3-963b-db9cc6c8149c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="69798cf5-6340-6c93-b32c-966b6ffa543d" executionId="3850ef56-8b32-4f9a-bb76-20df3de3cdc1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d2efa3a1-366c-0a3e-e36b-bac63d65ebc1" executionId="7432cafc-6891-4872-9496-0b77af4fa280" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="db1c629a-f79d-60ea-83f3-294112389159" executionId="7f5d73b5-63df-49f2-b451-a9201c46c26e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="693699e8-ee96-57fc-e519-3505ec19094b" executionId="04c22bb0-b0ef-4f92-b3f1-82f216ee5a38" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e4f4c69f-ff3e-daa5-7469-16a394993004" executionId="d147b1ff-b398-4acd-a550-be6217c3f29e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ccc986d-7912-2d0f-edec-182767585679" executionId="ddec5027-57bc-4fa8-8543-633e0789ccc7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="80f4d4d2-7fab-6243-0310-0fe046a24d4f" executionId="33597caf-6981-4998-905a-7a98dc1d4ced" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="06fbc314-b898-ca28-0223-c5261a8424fc" executionId="5cfe5f67-2c3e-4a46-b4b0-9bfb86288b36" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ebc0ea6-ee51-442a-3717-cd9e4d00efb5" executionId="e68bd386-32c0-46a1-b70b-d6ce985d7586" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c1f5fa22-e800-4c2b-26d0-710015c69862" executionId="6db356ff-3054-4183-a500-0fbc056b2221" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90eccce5-ae60-6311-44b6-f0b531a1a98a" executionId="950729f4-ffe4-40fe-b0be-6d412555bd72" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="50cb22b0-6800-9e6a-a20a-f6363d32565b" executionId="90164420-1dc1-48f9-991d-9a3eb1380e5b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d461fe9-3a51-1a6d-da68-e1b87dc0503e" executionId="a7317ae4-523b-495a-a977-1930a178f812" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8d831d4f-65db-0357-1ec3-c495c96334ce" executionId="28eebfbf-eea1-4985-9722-f207ec194169" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="09ba262a-3875-7ebe-7f50-6e1d7881b581" executionId="f2b90be6-79ea-440b-a51c-e0bfd8159cf1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c037752-dbab-cc42-10f8-141ea0306c34" executionId="7cbe742e-d565-4032-aef9-07affc54c739" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8db8d115-ec3a-6008-7720-c3da49f58912" executionId="0cededf7-fe9d-4540-8c85-19e602d62771" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0961f6c4-0074-b9fe-891e-00192ea87ef7" executionId="f199670d-ebdf-4947-b855-99cbed4fe204" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dcb4288e-af51-d2b0-1db5-4a1ee994faf1" executionId="3493cd69-56b8-4e6d-aa4c-05e559fc890f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1cdcdb25-bc6f-165e-496d-014dd85da44a" executionId="f0536108-70b2-41e1-ba0f-567dba939b9c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f32732a-6ce1-8bbf-807d-44072f46434e" executionId="606dc412-f9e0-42cc-a6f8-68885c0ff87d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de348657-31d2-ae69-ae02-83e2ae6a871f" executionId="1fe7e977-0dae-4723-9070-3ea845612752" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="92" executed="65" passed="65" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>Test 'TestAddRemoveCertificateToStore' was skipped in the test run.&#xD;
+Test 'TestBindUnbindCertificateOnPortHttpApiDll' was skipped in the test run.&#xD;
+Test 'Manual_ReservationTest' was skipped in the test run.&#xD;
+Test 'TestWriteRegistry' was skipped in the test run.&#xD;
+Test 'TestWriteRegistryOnExceptionShouldNotThrow' was skipped in the test run.&#xD;
+Test 'TestReadRegistry' was skipped in the test run.&#xD;
+Test 'TestReadRegistryOnExceptionShouldNotThrow' was skipped in the test run.&#xD;
+Test 'TestDeleteRegistry' was skipped in the test run.&#xD;
+Test 'TestDeleteRegistryOnNotExistingKeyShouldReturnFalse' was skipped in the test run.&#xD;
+Test 'TestDeleteSubKeyTree' was skipped in the test run.&#xD;
+Test 'TestDeleteSubKeyTreeOnNotExistingKeyShouldReturnFalse' was skipped in the test run.&#xD;
+Test 'TestGetSubKeyNames' was skipped in the test run.&#xD;
+Test 'TestGetSubKeyNamesOnExceptionShouldNotThrow' was skipped in the test run.&#xD;
+Test 'TestSetAccountRight' was skipped in the test run.&#xD;
+Test 'TestSetAccountRightOnExceptionShouldNotThrow' was skipped in the test run.&#xD;
+Test 'TestInitValueOnValidRegistryValueShouldReturnRegistryValue' was skipped in the test run.&#xD;
+Test 'TestInitValueOnInvalidRegistryValueShouldReturnDefault' was skipped in the test run.&#xD;
+Test 'TestHasValueValidCheckerResult' was skipped in the test run.&#xD;
+Test 'TestHasValueOnExceptionReturnFalse' was skipped in the test run.&#xD;
+Test 'TestInitTextBoxOnValidEntry' was skipped in the test run.&#xD;
+Test 'TestInitTextBoxOnInvalidEntry' was skipped in the test run.&#xD;
+Test 'TestInitServerIdOnOldRegValueGuidShouldLeaveItAndReturnIt' was skipped in the test run.&#xD;
+Test 'TestInitServerIdOnInvalidRegValueGuidShouldSaveInitValue' was skipped in the test run.&#xD;
+Test 'TestInitServerIdOnInvalidOrEmptyRegValueGuidShouldSaveUniqueValue' was skipped in the test run.&#xD;
+Test 'TestInitServerIdOnClonnedHuskyIdRegValueGuidShouldSaveUniqueValue' was skipped in the test run.&#xD;
+Test 'TestMakeRelativePathOnNonRootedName' was skipped in the test run.&#xD;
+Test 'TestMakeRelativePathOnRootedName' was skipped in the test run.&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="90497654-0eea-47e9-b538-f2c367c28eb2" name="DKSR-EFI-06$@DKSR-EFI-06 2024-01-09 15:41:49" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-01-09T15:41:49.9195551+01:00" queuing="2024-01-09T15:41:49.9195551+01:00" start="2024-01-09T15:41:41.2163864+01:00" finish="2024-01-09T15:41:52.0445664+01:00" />
+  <TestSettings name="default" id="ef90915c-b8c2-401e-a275-613e442cdbe9">
+    <Deployment runDeploymentRoot="DKSR-EFI-06$_DKSR-EFI-06_2024-01-09_15_41_49" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="1a5677d6-a3d0-408f-a75d-e8c6b5368919" testId="8026f2ac-cc65-18e0-770e-b2ef4a6d90a7" testName="Allocate_BiggerThanLargest_RoundsUp" computerName="DKSR-EFI-06" duration="00:00:00.0008383" startTime="2024-01-09T15:41:49.8570578+01:00" endTime="2024-01-09T15:41:49.8726809+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a5677d6-a3d0-408f-a75d-e8c6b5368919">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+ &gt;&gt;&gt; Disposing FixedSizeBufferPool that has outstanding buffer allocations!</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8be765b1-6d2d-4aa7-8845-180dbcc7ba16" testId="a1b560fa-8625-d749-3cb0-7caec3f0af5a" testName="CheckForInitXmlParamsSettings_HTTPSEnabled_ReturnsXml" computerName="DKSR-EFI-06" duration="00:00:00.0051356" startTime="2024-01-09T15:41:51.2008103+01:00" endTime="2024-01-09T15:41:51.2164359+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8be765b1-6d2d-4aa7-8845-180dbcc7ba16" />
+    <UnitTestResult executionId="907eb59a-5376-4b73-b004-f038d9ede39a" testId="43121b78-4670-302c-140e-81a30f98bd4f" testName="Allocate_NegativeSize_Throws" computerName="DKSR-EFI-06" duration="00:00:00.0074424" startTime="2024-01-09T15:41:49.8570578+01:00" endTime="2024-01-09T15:41:49.8570578+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="907eb59a-5376-4b73-b004-f038d9ede39a" />
+    <UnitTestResult executionId="df43aa33-e3a7-44e5-8c13-c9db34515f85" testId="d11d7bf0-207e-8a77-a60e-21c3a6490940" testName="AppConfigSettingParser_ParseSettings_NullOrEmpty_Returns_Null" computerName="DKSR-EFI-06" duration="00:00:00.0002899" startTime="2024-01-09T15:41:50.0133073+01:00" endTime="2024-01-09T15:41:50.0133073+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="df43aa33-e3a7-44e5-8c13-c9db34515f85" />
+    <UnitTestResult executionId="da76be81-4105-4d56-9ade-a972b682aa5e" testId="0d39ef7b-6e07-c544-c9c7-6871249a17af" testName="MemoryLeakTest" computerName="DKSR-EFI-06" duration="00:00:00.0489316" startTime="2024-01-09T15:41:49.0758001+01:00" endTime="2024-01-09T15:41:49.5133040+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da76be81-4105-4d56-9ade-a972b682aa5e" />
+    <UnitTestResult executionId="40a1464a-abb8-4f5e-bfa5-6f50b6d46fc2" testId="2a102421-8a1a-0daa-c0d4-a0703833dde4" testName="CheckForInitXmlParamsSettings_NonInit_ReturnsNull" computerName="DKSR-EFI-06" duration="00:00:00.0286411" startTime="2024-01-09T15:41:51.1695622+01:00" endTime="2024-01-09T15:41:51.2008103+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40a1464a-abb8-4f5e-bfa5-6f50b6d46fc2" />
+    <UnitTestResult executionId="dc4799e3-2bc5-4a71-aa48-0731b00f6c03" testId="1215792e-5c2d-e5fd-4d5d-c3a5c74d9208" testName="AppConfigSettingParser_ParseSettings_Same_Size_Twice_Throws_ArguemtnException" computerName="DKSR-EFI-06" duration="00:00:00.0013694" startTime="2024-01-09T15:41:50.0133073+01:00" endTime="2024-01-09T15:41:50.0133073+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc4799e3-2bc5-4a71-aa48-0731b00f6c03" />
+    <UnitTestResult executionId="0cff5187-deb5-4c99-8027-24d69086fde7" testId="69a626bb-2a52-3675-50b0-a082f765d775" testName="AppConfigSettingParser_ParseSettings_Success" computerName="DKSR-EFI-06" duration="00:00:00.1020581" startTime="2024-01-09T15:41:49.9039293+01:00" endTime="2024-01-09T15:41:49.9976819+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0cff5187-deb5-4c99-8027-24d69086fde7" />
+    <UnitTestResult executionId="e70a30a1-b19b-4de3-a52c-b016ee395cf1" testId="0d6ce377-1df5-19d0-5295-69145f34d6c3" testName="AppConfigSettingParser_ParseSettings_InvalidFormat_Returns_Null" computerName="DKSR-EFI-06" duration="00:00:00.0008832" startTime="2024-01-09T15:41:50.0133073+01:00" endTime="2024-01-09T15:41:50.0133073+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e70a30a1-b19b-4de3-a52c-b016ee395cf1" />
+    <UnitTestResult executionId="845c49dd-3523-48ff-9242-ead67d6bcf40" testId="109c387f-1a2a-feb0-a95d-cc46baa45442" testName="Free_SameTwice_Throws" computerName="DKSR-EFI-06" duration="00:00:00.0008307" startTime="2024-01-09T15:41:49.9039293+01:00" endTime="2024-01-09T15:41:49.9039293+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="845c49dd-3523-48ff-9242-ead67d6bcf40" />
+    <UnitTestResult executionId="a6a2f60b-425b-428f-9ec9-06bf4b085f04" testId="698bd98f-43b5-e0a0-06a9-bfc9d54338e7" testName="Free_SunnyDay" computerName="DKSR-EFI-06" duration="00:00:00.0048214" startTime="2024-01-09T15:41:49.8726809+01:00" endTime="2024-01-09T15:41:49.8726809+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6a2f60b-425b-428f-9ec9-06bf4b085f04" />
+    <UnitTestResult executionId="1c35adb7-5746-4d95-9eae-78f58e46a352" testId="f384effd-39da-9ee4-7940-2c2ded240170" testName="Allocate_SunnyDay" computerName="DKSR-EFI-06" duration="00:00:00.2112654" startTime="2024-01-09T15:41:49.6226780+01:00" endTime="2024-01-09T15:41:49.8414306+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c35adb7-5746-4d95-9eae-78f58e46a352">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+ &gt;&gt;&gt; Disposing FixedSizeBufferPool that has outstanding buffer allocations!&#xD;
+ &gt;&gt;&gt; Disposing FixedSizeBufferPool that has outstanding buffer allocations!</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c19d3c73-824b-40fc-8fad-7d50662acdf3" testId="dad95055-de8a-c0d7-7587-9787a6009316" testName="Free_Null_Throws" computerName="DKSR-EFI-06" duration="00:00:00.0039803" startTime="2024-01-09T15:41:49.8726809+01:00" endTime="2024-01-09T15:41:49.8726809+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c19d3c73-824b-40fc-8fad-7d50662acdf3" />
+    <UnitTestResult executionId="bf28b8b0-8b96-4265-8bf3-bfa70d6754f8" testId="fab072b2-5988-2d2c-7d9e-8a9c563cfad7" testName="CollectStatistics_No_Elements" computerName="DKSR-EFI-06" duration="00:00:00.0368290" startTime="2024-01-09T15:41:49.5601788+01:00" endTime="2024-01-09T15:41:49.6070544+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf28b8b0-8b96-4265-8bf3-bfa70d6754f8" />
+    <UnitTestResult executionId="c24322a9-d689-434e-bdf8-38c541323a96" testId="02714b49-4c16-4089-10c7-2c0bccb375d8" testName="InteropUtilities_CreateDriverSettingsFromSettingsChangedEvents_Empty_Settings_Success" computerName="DKSR-EFI-06" duration="00:00:00.0021164" startTime="2024-01-09T15:41:50.0289314+01:00" endTime="2024-01-09T15:41:50.0289314+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c24322a9-d689-434e-bdf8-38c541323a96" />
+    <UnitTestResult executionId="ec4c421a-3491-4011-8c48-6a4f1e9a8d23" testId="699928ba-6707-fb89-d6b2-d5598c6f1419" testName="CollectStatistics_One_Element" computerName="DKSR-EFI-06" duration="00:00:00.0086618" startTime="2024-01-09T15:41:49.6070544+01:00" endTime="2024-01-09T15:41:49.6226780+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ec4c421a-3491-4011-8c48-6a4f1e9a8d23" />
+    <UnitTestResult executionId="3d31721f-4f3d-4e27-bd24-febaab0c72a1" testId="f6e38e24-249d-df16-0b27-b48bf4310183" testName="CheckForInitXmlParamsSettings_HTTPSEnabled_NoInitSet_ReturnsNull" computerName="DKSR-EFI-06" duration="00:00:00.0571591" startTime="2024-01-09T15:41:51.2164359+01:00" endTime="2024-01-09T15:41:51.2789371+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d31721f-4f3d-4e27-bd24-febaab0c72a1" />
+    <UnitTestResult executionId="5de96c84-4a8c-4739-956d-64874ab02357" testId="128850a5-a21a-44f7-8d10-12cd1ad93f7f" testName="Initialize_Null_Throws_ArgumentNullException" computerName="DKSR-EFI-06" duration="00:00:00.0829620" startTime="2024-01-09T15:41:50.0289314+01:00" endTime="2024-01-09T15:41:50.1070558+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5de96c84-4a8c-4739-956d-64874ab02357">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+Fail: Argument null</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6edcd4b0-2090-4401-bb3f-adfcf1955446" testId="b38e7c75-a869-a1a0-9161-7262cd4aef87" testName="CollectStatistics_Two_Elements" computerName="DKSR-EFI-06" duration="00:00:00.0004753" startTime="2024-01-09T15:41:49.6226780+01:00" endTime="2024-01-09T15:41:49.6226780+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6edcd4b0-2090-4401-bb3f-adfcf1955446" />
+    <UnitTestResult executionId="f6672cc9-6e1a-449f-93a4-1d1ccd1f606b" testId="dfceb8ec-27fa-9257-01a9-9056db4ebcdf" testName="CheckForInitXmlParamsSettings_Null_Throws_ArgumentNullException" computerName="DKSR-EFI-06" duration="00:00:01.0525590" startTime="2024-01-09T15:41:50.1226795+01:00" endTime="2024-01-09T15:41:51.1695622+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f6672cc9-6e1a-449f-93a4-1d1ccd1f606b">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+Fail: Argument null</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="CollectStatistics_No_Elements" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.interop.unittests\bin\x64\debug\net472\videoos.io.drivers.interop.unittests.dll" id="fab072b2-5988-2d2c-7d9e-8a9c563cfad7">
+      <Execution id="bf28b8b0-8b96-4265-8bf3-bfa70d6754f8" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.Interop.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.Interop.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.Interop.UnitTests.InteropTransferBufferDiagnosticsUnitTests" name="CollectStatistics_No_Elements" />
+    </UnitTest>
+    <UnitTest name="AppConfigSettingParser_ParseSettings_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.interop.unittests\bin\x64\debug\net472\videoos.io.drivers.interop.unittests.dll" id="69a626bb-2a52-3675-50b0-a082f765d775">
+      <Execution id="0cff5187-deb5-4c99-8027-24d69086fde7" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.Interop.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.Interop.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.Interop.UnitTests.InteropTransferBufferUnitTests" name="AppConfigSettingParser_ParseSettings_Success" />
+    </UnitTest>
+    <UnitTest name="CollectStatistics_Two_Elements" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.interop.unittests\bin\x64\debug\net472\videoos.io.drivers.interop.unittests.dll" id="b38e7c75-a869-a1a0-9161-7262cd4aef87">
+      <Execution id="6edcd4b0-2090-4401-bb3f-adfcf1955446" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.Interop.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.Interop.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.Interop.UnitTests.InteropTransferBufferDiagnosticsUnitTests" name="CollectStatistics_Two_Elements" />
+    </UnitTest>
+    <UnitTest name="Allocate_NegativeSize_Throws" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.interop.unittests\bin\x64\debug\net472\videoos.io.drivers.interop.unittests.dll" id="43121b78-4670-302c-140e-81a30f98bd4f">
+      <Execution id="907eb59a-5376-4b73-b004-f038d9ede39a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.Interop.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.Interop.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.Interop.UnitTests.InteropTransferBufferUnitTests" name="Allocate_NegativeSize_Throws" />
+    </UnitTest>
+    <UnitTest name="MemoryLeakTest" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.interop.unittests\bin\x64\debug\net472\videoos.io.drivers.interop.unittests.dll" id="0d39ef7b-6e07-c544-c9c7-6871249a17af">
+      <Execution id="da76be81-4105-4d56-9ade-a972b682aa5e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.Interop.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.Interop.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.Interop.UnitTests.FixedSizeBufferPoolTest" name="MemoryLeakTest" />
+    </UnitTest>
+    <UnitTest name="CheckForInitXmlParamsSettings_HTTPSEnabled_ReturnsXml" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.interop.unittests\bin\x64\debug\net472\videoos.io.drivers.interop.unittests.dll" id="a1b560fa-8625-d749-3cb0-7caec3f0af5a">
+      <Execution id="8be765b1-6d2d-4aa7-8845-180dbcc7ba16" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.Interop.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.Interop.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.Interop.UnitTests.SettingsAnalyzerUnitTests" name="CheckForInitXmlParamsSettings_HTTPSEnabled_ReturnsXml" />
+    </UnitTest>
+    <UnitTest name="InteropUtilities_CreateDriverSettingsFromSettingsChangedEvents_Empty_Settings_Success" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.interop.unittests\bin\x64\debug\net472\videoos.io.drivers.interop.unittests.dll" id="02714b49-4c16-4089-10c7-2c0bccb375d8">
+      <Execution id="c24322a9-d689-434e-bdf8-38c541323a96" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.Interop.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.Interop.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.Interop.UnitTests.InteropUtilitiesUnitTests" name="InteropUtilities_CreateDriverSettingsFromSettingsChangedEvents_Empty_Settings_Success" />
+    </UnitTest>
+    <UnitTest name="CheckForInitXmlParamsSettings_HTTPSEnabled_NoInitSet_ReturnsNull" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.interop.unittests\bin\x64\debug\net472\videoos.io.drivers.interop.unittests.dll" id="f6e38e24-249d-df16-0b27-b48bf4310183">
+      <Execution id="3d31721f-4f3d-4e27-bd24-febaab0c72a1" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.Interop.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.Interop.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.Interop.UnitTests.SettingsAnalyzerUnitTests" name="CheckForInitXmlParamsSettings_HTTPSEnabled_NoInitSet_ReturnsNull" />
+    </UnitTest>
+    <UnitTest name="AppConfigSettingParser_ParseSettings_NullOrEmpty_Returns_Null" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.interop.unittests\bin\x64\debug\net472\videoos.io.drivers.interop.unittests.dll" id="d11d7bf0-207e-8a77-a60e-21c3a6490940">
+      <Execution id="df43aa33-e3a7-44e5-8c13-c9db34515f85" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.Interop.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.Interop.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.Interop.UnitTests.InteropTransferBufferUnitTests" name="AppConfigSettingParser_ParseSettings_NullOrEmpty_Returns_Null" />
+    </UnitTest>
+    <UnitTest name="AppConfigSettingParser_ParseSettings_Same_Size_Twice_Throws_ArguemtnException" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.interop.unittests\bin\x64\debug\net472\videoos.io.drivers.interop.unittests.dll" id="1215792e-5c2d-e5fd-4d5d-c3a5c74d9208">
+      <Execution id="dc4799e3-2bc5-4a71-aa48-0731b00f6c03" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.Interop.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.Interop.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.Interop.UnitTests.InteropTransferBufferUnitTests" name="AppConfigSettingParser_ParseSettings_Same_Size_Twice_Throws_ArguemtnException" />
+    </UnitTest>
+    <UnitTest name="Free_SunnyDay" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.interop.unittests\bin\x64\debug\net472\videoos.io.drivers.interop.unittests.dll" id="698bd98f-43b5-e0a0-06a9-bfc9d54338e7">
+      <Execution id="a6a2f60b-425b-428f-9ec9-06bf4b085f04" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.Interop.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.Interop.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.Interop.UnitTests.InteropTransferBufferUnitTests" name="Free_SunnyDay" />
+    </UnitTest>
+    <UnitTest name="CollectStatistics_One_Element" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.interop.unittests\bin\x64\debug\net472\videoos.io.drivers.interop.unittests.dll" id="699928ba-6707-fb89-d6b2-d5598c6f1419">
+      <Execution id="ec4c421a-3491-4011-8c48-6a4f1e9a8d23" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.Interop.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.Interop.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.Interop.UnitTests.InteropTransferBufferDiagnosticsUnitTests" name="CollectStatistics_One_Element" />
+    </UnitTest>
+    <UnitTest name="Free_SameTwice_Throws" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.interop.unittests\bin\x64\debug\net472\videoos.io.drivers.interop.unittests.dll" id="109c387f-1a2a-feb0-a95d-cc46baa45442">
+      <Execution id="845c49dd-3523-48ff-9242-ead67d6bcf40" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.Interop.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.Interop.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.Interop.UnitTests.InteropTransferBufferUnitTests" name="Free_SameTwice_Throws" />
+    </UnitTest>
+    <UnitTest name="CheckForInitXmlParamsSettings_Null_Throws_ArgumentNullException" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.interop.unittests\bin\x64\debug\net472\videoos.io.drivers.interop.unittests.dll" id="dfceb8ec-27fa-9257-01a9-9056db4ebcdf">
+      <Execution id="f6672cc9-6e1a-449f-93a4-1d1ccd1f606b" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.Interop.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.Interop.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.Interop.UnitTests.SettingsAnalyzerUnitTests" name="CheckForInitXmlParamsSettings_Null_Throws_ArgumentNullException" />
+    </UnitTest>
+    <UnitTest name="Allocate_SunnyDay" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.interop.unittests\bin\x64\debug\net472\videoos.io.drivers.interop.unittests.dll" id="f384effd-39da-9ee4-7940-2c2ded240170">
+      <Execution id="1c35adb7-5746-4d95-9eae-78f58e46a352" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.Interop.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.Interop.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.Interop.UnitTests.InteropTransferBufferUnitTests" name="Allocate_SunnyDay" />
+    </UnitTest>
+    <UnitTest name="Free_Null_Throws" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.interop.unittests\bin\x64\debug\net472\videoos.io.drivers.interop.unittests.dll" id="dad95055-de8a-c0d7-7587-9787a6009316">
+      <Execution id="c19d3c73-824b-40fc-8fad-7d50662acdf3" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.Interop.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.Interop.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.Interop.UnitTests.InteropTransferBufferUnitTests" name="Free_Null_Throws" />
+    </UnitTest>
+    <UnitTest name="CheckForInitXmlParamsSettings_NonInit_ReturnsNull" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.interop.unittests\bin\x64\debug\net472\videoos.io.drivers.interop.unittests.dll" id="2a102421-8a1a-0daa-c0d4-a0703833dde4">
+      <Execution id="40a1464a-abb8-4f5e-bfa5-6f50b6d46fc2" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.Interop.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.Interop.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.Interop.UnitTests.SettingsAnalyzerUnitTests" name="CheckForInitXmlParamsSettings_NonInit_ReturnsNull" />
+    </UnitTest>
+    <UnitTest name="AppConfigSettingParser_ParseSettings_InvalidFormat_Returns_Null" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.interop.unittests\bin\x64\debug\net472\videoos.io.drivers.interop.unittests.dll" id="0d6ce377-1df5-19d0-5295-69145f34d6c3">
+      <Execution id="e70a30a1-b19b-4de3-a52c-b016ee395cf1" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.Interop.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.Interop.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.Interop.UnitTests.InteropTransferBufferUnitTests" name="AppConfigSettingParser_ParseSettings_InvalidFormat_Returns_Null" />
+    </UnitTest>
+    <UnitTest name="Allocate_BiggerThanLargest_RoundsUp" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.interop.unittests\bin\x64\debug\net472\videoos.io.drivers.interop.unittests.dll" id="8026f2ac-cc65-18e0-770e-b2ef4a6d90a7">
+      <Execution id="1a5677d6-a3d0-408f-a75d-e8c6b5368919" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.Interop.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.Interop.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.Interop.UnitTests.InteropTransferBufferUnitTests" name="Allocate_BiggerThanLargest_RoundsUp" />
+    </UnitTest>
+    <UnitTest name="Initialize_Null_Throws_ArgumentNullException" storage="d:\actions-runner\_work\xpco\xpco\corporate\recordingserver\recorderservice\tst\videoos.io.drivers.interop.unittests\bin\x64\debug\net472\videoos.io.drivers.interop.unittests.dll" id="128850a5-a21a-44f7-8d10-12cd1ad93f7f">
+      <Execution id="5de96c84-4a8c-4739-956d-64874ab02357" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\RecordingServer\RecorderService\tst\VideoOS.IO.Drivers.Interop.UnitTests\bin\x64\Debug\net472\VideoOS.IO.Drivers.Interop.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IO.Drivers.Interop.UnitTests.SettingsAnalyzerUnitTests" name="Initialize_Null_Throws_ArgumentNullException" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="8026f2ac-cc65-18e0-770e-b2ef4a6d90a7" executionId="1a5677d6-a3d0-408f-a75d-e8c6b5368919" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a1b560fa-8625-d749-3cb0-7caec3f0af5a" executionId="8be765b1-6d2d-4aa7-8845-180dbcc7ba16" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="43121b78-4670-302c-140e-81a30f98bd4f" executionId="907eb59a-5376-4b73-b004-f038d9ede39a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d11d7bf0-207e-8a77-a60e-21c3a6490940" executionId="df43aa33-e3a7-44e5-8c13-c9db34515f85" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0d39ef7b-6e07-c544-c9c7-6871249a17af" executionId="da76be81-4105-4d56-9ade-a972b682aa5e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a102421-8a1a-0daa-c0d4-a0703833dde4" executionId="40a1464a-abb8-4f5e-bfa5-6f50b6d46fc2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1215792e-5c2d-e5fd-4d5d-c3a5c74d9208" executionId="dc4799e3-2bc5-4a71-aa48-0731b00f6c03" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="69a626bb-2a52-3675-50b0-a082f765d775" executionId="0cff5187-deb5-4c99-8027-24d69086fde7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0d6ce377-1df5-19d0-5295-69145f34d6c3" executionId="e70a30a1-b19b-4de3-a52c-b016ee395cf1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="109c387f-1a2a-feb0-a95d-cc46baa45442" executionId="845c49dd-3523-48ff-9242-ead67d6bcf40" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="698bd98f-43b5-e0a0-06a9-bfc9d54338e7" executionId="a6a2f60b-425b-428f-9ec9-06bf4b085f04" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f384effd-39da-9ee4-7940-2c2ded240170" executionId="1c35adb7-5746-4d95-9eae-78f58e46a352" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dad95055-de8a-c0d7-7587-9787a6009316" executionId="c19d3c73-824b-40fc-8fad-7d50662acdf3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fab072b2-5988-2d2c-7d9e-8a9c563cfad7" executionId="bf28b8b0-8b96-4265-8bf3-bfa70d6754f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="02714b49-4c16-4089-10c7-2c0bccb375d8" executionId="c24322a9-d689-434e-bdf8-38c541323a96" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="699928ba-6707-fb89-d6b2-d5598c6f1419" executionId="ec4c421a-3491-4011-8c48-6a4f1e9a8d23" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f6e38e24-249d-df16-0b27-b48bf4310183" executionId="3d31721f-4f3d-4e27-bd24-febaab0c72a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="128850a5-a21a-44f7-8d10-12cd1ad93f7f" executionId="5de96c84-4a8c-4739-956d-64874ab02357" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b38e7c75-a869-a1a0-9161-7262cd4aef87" executionId="6edcd4b0-2090-4401-bb3f-adfcf1955446" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dfceb8ec-27fa-9257-01a9-9056db4ebcdf" executionId="f6672cc9-6e1a-449f-93a4-1d1ccd1f606b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="20" executed="20" passed="20" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="469f4720-ea16-43b6-9988-acbe3d38effb" name="DKSR-EFI-06$@DKSR-EFI-06 2024-01-09 15:40:59" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-01-09T15:40:59.6172048+01:00" queuing="2024-01-09T15:40:59.6172048+01:00" start="2024-01-09T15:40:57.5546925+01:00" finish="2024-01-09T15:40:59.6640833+01:00" />
+  <TestSettings name="default" id="24b8f00a-6221-4466-b70d-27d7b45be540">
+    <Deployment runDeploymentRoot="DKSR-EFI-06$_DKSR-EFI-06_2024-01-09_15_40_59" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="29610dd6-04c8-4393-8daa-d7a94be3c07b" testId="b429b79d-0d7c-c9c3-d820-fd82b9c44d58" testName="ServiceShouldTerminateAndAllTasksShouldBeCanceled_WhenOneTaskThrowsUnexpectedException" computerName="DKSR-EFI-06" duration="00:00:00.4640116" startTime="2024-01-09T15:40:58.8801446+01:00" endTime="2024-01-09T15:40:59.3847337+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="29610dd6-04c8-4393-8daa-d7a94be3c07b" />
+    <UnitTestResult executionId="848dfc4e-ffc0-43a1-877c-699359e7c33b" testId="e72a40d1-6789-962b-d54e-100061facfed" testName="Given_CancellationTokenProviderCreatedAndHasGotACancellationToken_When_GetCancellation_Then_ItIsHandedOutImmediately" computerName="DKSR-EFI-06" duration="00:00:00.0045611" startTime="2024-01-09T15:40:59.4200218+01:00" endTime="2024-01-09T15:40:59.4261106+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="848dfc4e-ffc0-43a1-877c-699359e7c33b" />
+    <UnitTestResult executionId="bdc2b2a2-0b56-4825-888c-2bf7716f6caa" testId="fc242a4a-5e58-319d-6b04-f8c6f682404f" testName="ServiceShouldStop_WhenTokenIsCancelled" computerName="DKSR-EFI-06" duration="00:00:00.0084608" startTime="2024-01-09T15:40:59.3950330+01:00" endTime="2024-01-09T15:40:59.4037327+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bdc2b2a2-0b56-4825-888c-2bf7716f6caa" />
+    <UnitTestResult executionId="8fe85b3b-835c-45e9-9ab6-f72690a3b64a" testId="a5429942-1112-f951-dfeb-9860229281fd" testName="Given_CancellationTokenProviderCreated_When_CancellationTokenIsSet_Then_ItIsHandedOutToAllWaitingRecipients" computerName="DKSR-EFI-06" duration="00:00:00.0159309" startTime="2024-01-09T15:40:59.4038381+01:00" endTime="2024-01-09T15:40:59.4199548+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8fe85b3b-835c-45e9-9ab6-f72690a3b64a" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ServiceShouldTerminateAndAllTasksShouldBeCanceled_WhenOneTaskThrowsUnexpectedException" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\cloudconnector\binaries\videoos.cloudconnector.service.unittests\bin\debug\net6.0-windows\videoos.cloudconnector.service.unittests.dll" id="b429b79d-0d7c-c9c3-d820-fd82b9c44d58">
+      <Execution id="29610dd6-04c8-4393-8daa-d7a94be3c07b" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\CloudConnector\Binaries\VideoOS.CloudConnector.Service.UnitTests\bin\Debug\net6.0-windows\VideoOS.CloudConnector.Service.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.CloudConnector.Service.UnitTests.CloudConnectorServiceTest" name="ServiceShouldTerminateAndAllTasksShouldBeCanceled_WhenOneTaskThrowsUnexpectedException" />
+    </UnitTest>
+    <UnitTest name="Given_CancellationTokenProviderCreated_When_CancellationTokenIsSet_Then_ItIsHandedOutToAllWaitingRecipients" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\cloudconnector\binaries\videoos.cloudconnector.service.unittests\bin\debug\net6.0-windows\videoos.cloudconnector.service.unittests.dll" id="a5429942-1112-f951-dfeb-9860229281fd">
+      <Execution id="8fe85b3b-835c-45e9-9ab6-f72690a3b64a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\CloudConnector\Binaries\VideoOS.CloudConnector.Service.UnitTests\bin\Debug\net6.0-windows\VideoOS.CloudConnector.Service.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.CloudConnector.Service.UnitTests.CloudConnectorServiceTest" name="Given_CancellationTokenProviderCreated_When_CancellationTokenIsSet_Then_ItIsHandedOutToAllWaitingRecipients" />
+    </UnitTest>
+    <UnitTest name="ServiceShouldStop_WhenTokenIsCancelled" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\cloudconnector\binaries\videoos.cloudconnector.service.unittests\bin\debug\net6.0-windows\videoos.cloudconnector.service.unittests.dll" id="fc242a4a-5e58-319d-6b04-f8c6f682404f">
+      <Execution id="bdc2b2a2-0b56-4825-888c-2bf7716f6caa" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\CloudConnector\Binaries\VideoOS.CloudConnector.Service.UnitTests\bin\Debug\net6.0-windows\VideoOS.CloudConnector.Service.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.CloudConnector.Service.UnitTests.CloudConnectorServiceTest" name="ServiceShouldStop_WhenTokenIsCancelled" />
+    </UnitTest>
+    <UnitTest name="Given_CancellationTokenProviderCreatedAndHasGotACancellationToken_When_GetCancellation_Then_ItIsHandedOutImmediately" storage="d:\actions-runner\_work\xpco\xpco\allsolutions\..\cloudconnector\binaries\videoos.cloudconnector.service.unittests\bin\debug\net6.0-windows\videoos.cloudconnector.service.unittests.dll" id="e72a40d1-6789-962b-d54e-100061facfed">
+      <Execution id="848dfc4e-ffc0-43a1-877c-699359e7c33b" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\AllSolutions\..\CloudConnector\Binaries\VideoOS.CloudConnector.Service.UnitTests\bin\Debug\net6.0-windows\VideoOS.CloudConnector.Service.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.CloudConnector.Service.UnitTests.CloudConnectorServiceTest" name="Given_CancellationTokenProviderCreatedAndHasGotACancellationToken_When_GetCancellation_Then_ItIsHandedOutImmediately" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="b429b79d-0d7c-c9c3-d820-fd82b9c44d58" executionId="29610dd6-04c8-4393-8daa-d7a94be3c07b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e72a40d1-6789-962b-d54e-100061facfed" executionId="848dfc4e-ffc0-43a1-877c-699359e7c33b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc242a4a-5e58-319d-6b04-f8c6f682404f" executionId="bdc2b2a2-0b56-4825-888c-2bf7716f6caa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a5429942-1112-f951-dfeb-9860229281fd" executionId="8fe85b3b-835c-45e9-9ab6-f72690a3b64a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="aeed0aa6-59dd-41e3-adf3-222f93f1b235" name="DKSR-EFI-06$@DKSR-EFI-06 2024-01-09 15:43:18" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-01-09T15:43:18.0603701+01:00" queuing="2024-01-09T15:43:18.0603701+01:00" start="2024-01-09T15:43:16.0447427+01:00" finish="2024-01-09T15:43:18.0916276+01:00" />
+  <TestSettings name="default" id="97971f9b-e04c-40ad-aa9b-85faa61de5f7">
+    <Deployment runDeploymentRoot="DKSR-EFI-06$_DKSR-EFI-06_2024-01-09_15_43_18" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="75d5a9a8-5dd5-490d-9d0b-9a88a62bc84b" testId="a12d7672-9c41-5bd8-c119-0574524e9f8b" testName="TestSingleIntExceptionAggregation" computerName="DKSR-EFI-06" duration="00:00:00.0171759" startTime="2024-01-09T15:43:17.2947453+01:00" endTime="2024-01-09T15:43:17.3103713+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75d5a9a8-5dd5-490d-9d0b-9a88a62bc84b" />
+    <UnitTestResult executionId="8058fd46-6159-43ca-8f0d-3292997f6fc6" testId="44460e6a-a1eb-2979-67e6-57fb1977478f" testName="TestSingleStringExceptionAggregation" computerName="DKSR-EFI-06" duration="00:00:00.0117853" startTime="2024-01-09T15:43:17.3885417+01:00" endTime="2024-01-09T15:43:17.4041187+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8058fd46-6159-43ca-8f0d-3292997f6fc6" />
+    <UnitTestResult executionId="0f2d1c20-2d43-4f76-9047-82669c6f715d" testId="636ba3c7-748f-f5fa-d7fd-c0416bf4d65e" testName="TestMultpleStringsAndExceptionsAggregation" computerName="DKSR-EFI-06" duration="00:00:00.0079695" startTime="2024-01-09T15:43:17.4509947+01:00" endTime="2024-01-09T15:43:17.4666198+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0f2d1c20-2d43-4f76-9047-82669c6f715d" />
+    <UnitTestResult executionId="3fe44289-a235-4cbe-9238-dcd1db2809a2" testId="bd73d9a2-970a-3ebf-8b1c-29d8355fc4a3" testName="TestMultpleIntsAggregation" computerName="DKSR-EFI-06" duration="00:00:00.0197364" startTime="2024-01-09T15:43:17.3103713+01:00" endTime="2024-01-09T15:43:17.3416195+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3fe44289-a235-4cbe-9238-dcd1db2809a2" />
+    <UnitTestResult executionId="f726d822-5ac9-4591-ac33-8c82e76f1803" testId="1cfc2f26-c47a-a574-c8a1-157f05e6f0fb" testName="TestSingleIntAggregation" computerName="DKSR-EFI-06" duration="00:00:00.0993483" startTime="2024-01-09T15:43:17.1228690+01:00" endTime="2024-01-09T15:43:17.2791186+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f726d822-5ac9-4591-ac33-8c82e76f1803" />
+    <UnitTestResult executionId="709404a5-00f3-463d-a319-74c5651de785" testId="cfee7a8f-28c4-5e8c-a5ca-296a0938fbba" testName="TestMultpleStringsAggregation" computerName="DKSR-EFI-06" duration="00:00:00.0217095" startTime="2024-01-09T15:43:17.4041187+01:00" endTime="2024-01-09T15:43:17.4509947+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="709404a5-00f3-463d-a319-74c5651de785" />
+    <UnitTestResult executionId="1426dacb-9ffb-4658-8765-8ff0d8d3c96f" testId="7b73f3cb-e521-b1d8-0255-c8c946de37f8" testName="TestSingleStringAggregation" computerName="DKSR-EFI-06" duration="00:00:00.0521186" startTime="2024-01-09T15:43:17.3416195+01:00" endTime="2024-01-09T15:43:17.3885417+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1426dacb-9ffb-4658-8765-8ff0d8d3c96f" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestMultpleStringsAndExceptionsAggregation" storage="d:\actions-runner\_work\xpco\xpco\eventserver\shared\dotnet\eventservershared\unittest\bin\debug\videoos.eventserver.shared.unittest.dll" id="636ba3c7-748f-f5fa-d7fd-c0416bf4d65e">
+      <Execution id="0f2d1c20-2d43-4f76-9047-82669c6f715d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Shared\dotNet\EventServerShared\UnitTest\bin\Debug\VideoOS.EventServer.Shared.UnitTest.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.EventServer.Shared.Aggregation.AggregationHelperTest" name="TestMultpleStringsAndExceptionsAggregation" />
+    </UnitTest>
+    <UnitTest name="TestSingleStringExceptionAggregation" storage="d:\actions-runner\_work\xpco\xpco\eventserver\shared\dotnet\eventservershared\unittest\bin\debug\videoos.eventserver.shared.unittest.dll" id="44460e6a-a1eb-2979-67e6-57fb1977478f">
+      <Execution id="8058fd46-6159-43ca-8f0d-3292997f6fc6" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Shared\dotNet\EventServerShared\UnitTest\bin\Debug\VideoOS.EventServer.Shared.UnitTest.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.EventServer.Shared.Aggregation.AggregationHelperTest" name="TestSingleStringExceptionAggregation" />
+    </UnitTest>
+    <UnitTest name="TestMultpleIntsAggregation" storage="d:\actions-runner\_work\xpco\xpco\eventserver\shared\dotnet\eventservershared\unittest\bin\debug\videoos.eventserver.shared.unittest.dll" id="bd73d9a2-970a-3ebf-8b1c-29d8355fc4a3">
+      <Execution id="3fe44289-a235-4cbe-9238-dcd1db2809a2" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Shared\dotNet\EventServerShared\UnitTest\bin\Debug\VideoOS.EventServer.Shared.UnitTest.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.EventServer.Shared.Aggregation.AggregationHelperTest" name="TestMultpleIntsAggregation" />
+    </UnitTest>
+    <UnitTest name="TestMultpleStringsAggregation" storage="d:\actions-runner\_work\xpco\xpco\eventserver\shared\dotnet\eventservershared\unittest\bin\debug\videoos.eventserver.shared.unittest.dll" id="cfee7a8f-28c4-5e8c-a5ca-296a0938fbba">
+      <Execution id="709404a5-00f3-463d-a319-74c5651de785" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Shared\dotNet\EventServerShared\UnitTest\bin\Debug\VideoOS.EventServer.Shared.UnitTest.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.EventServer.Shared.Aggregation.AggregationHelperTest" name="TestMultpleStringsAggregation" />
+    </UnitTest>
+    <UnitTest name="TestSingleStringAggregation" storage="d:\actions-runner\_work\xpco\xpco\eventserver\shared\dotnet\eventservershared\unittest\bin\debug\videoos.eventserver.shared.unittest.dll" id="7b73f3cb-e521-b1d8-0255-c8c946de37f8">
+      <Execution id="1426dacb-9ffb-4658-8765-8ff0d8d3c96f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Shared\dotNet\EventServerShared\UnitTest\bin\Debug\VideoOS.EventServer.Shared.UnitTest.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.EventServer.Shared.Aggregation.AggregationHelperTest" name="TestSingleStringAggregation" />
+    </UnitTest>
+    <UnitTest name="TestSingleIntAggregation" storage="d:\actions-runner\_work\xpco\xpco\eventserver\shared\dotnet\eventservershared\unittest\bin\debug\videoos.eventserver.shared.unittest.dll" id="1cfc2f26-c47a-a574-c8a1-157f05e6f0fb">
+      <Execution id="f726d822-5ac9-4591-ac33-8c82e76f1803" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Shared\dotNet\EventServerShared\UnitTest\bin\Debug\VideoOS.EventServer.Shared.UnitTest.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.EventServer.Shared.Aggregation.AggregationHelperTest" name="TestSingleIntAggregation" />
+    </UnitTest>
+    <UnitTest name="TestSingleIntExceptionAggregation" storage="d:\actions-runner\_work\xpco\xpco\eventserver\shared\dotnet\eventservershared\unittest\bin\debug\videoos.eventserver.shared.unittest.dll" id="a12d7672-9c41-5bd8-c119-0574524e9f8b">
+      <Execution id="75d5a9a8-5dd5-490d-9d0b-9a88a62bc84b" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Shared\dotNet\EventServerShared\UnitTest\bin\Debug\VideoOS.EventServer.Shared.UnitTest.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.EventServer.Shared.Aggregation.AggregationHelperTest" name="TestSingleIntExceptionAggregation" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="a12d7672-9c41-5bd8-c119-0574524e9f8b" executionId="75d5a9a8-5dd5-490d-9d0b-9a88a62bc84b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="44460e6a-a1eb-2979-67e6-57fb1977478f" executionId="8058fd46-6159-43ca-8f0d-3292997f6fc6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="636ba3c7-748f-f5fa-d7fd-c0416bf4d65e" executionId="0f2d1c20-2d43-4f76-9047-82669c6f715d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bd73d9a2-970a-3ebf-8b1c-29d8355fc4a3" executionId="3fe44289-a235-4cbe-9238-dcd1db2809a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1cfc2f26-c47a-a574-c8a1-157f05e6f0fb" executionId="f726d822-5ac9-4591-ac33-8c82e76f1803" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cfee7a8f-28c4-5e8c-a5ca-296a0938fbba" executionId="709404a5-00f3-463d-a319-74c5651de785" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b73f3cb-e521-b1d8-0255-c8c946de37f8" executionId="1426dacb-9ffb-4658-8765-8ff0d8d3c96f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="7" executed="7" passed="7" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

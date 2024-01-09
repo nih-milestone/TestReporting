@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="3e5f0abb-6da8-4b76-b287-775a0a22f42c" name="DKSR-EFI-06$@DKSR-EFI-06 2024-01-09 15:43:57" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-01-09T15:43:57.4667161+01:00" queuing="2024-01-09T15:43:57.4667161+01:00" start="2024-01-09T15:43:55.6385847+01:00" finish="2024-01-09T15:43:57.8729673+01:00" />
+  <TestSettings name="default" id="5e8d4054-b0e0-45d9-914e-854adbeb1a0e">
+    <Deployment runDeploymentRoot="DKSR-EFI-06$_DKSR-EFI-06_2024-01-09_15_43_57" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="b1168144-b8ae-4336-91e1-6a1f1f3b339b" testId="b990f129-f058-c9a2-e40f-67ca3a9b0493" testName="ApplyCertificate_WithManagementServerAddress (,FindByIssuerName,VideoOSLogServer)" computerName="DKSR-EFI-06" duration="00:00:00.0057961" startTime="2024-01-09T15:43:57.2948440+01:00" endTime="2024-01-09T15:43:57.2948440+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1168144-b8ae-4336-91e1-6a1f1f3b339b" />
+    <UnitTestResult executionId="e6ce1372-e280-4ae1-ac63-7b147502d308" testId="65de1812-7ec9-941c-f293-e1df89800a11" testName="ApplyCertificate_NoManagementServerAddress (myThumbprint,FindByThumbprint,myThumbprint)" computerName="DKSR-EFI-06" duration="00:00:00.0023939" startTime="2024-01-09T15:43:57.2948440+01:00" endTime="2024-01-09T15:43:57.2948440+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6ce1372-e280-4ae1-ac63-7b147502d308" />
+    <UnitTestResult executionId="ad2909bf-ce50-48ff-9b69-65dfe7fdb71c" testId="679242e7-057d-343a-df8e-aa52adb8983e" testName="Full_Ctor_SetServerAddress_ReturnSuccess" computerName="DKSR-EFI-06" duration="00:00:00.0174494" startTime="2024-01-09T15:43:57.4042650+01:00" endTime="2024-01-09T15:43:57.4198418+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ad2909bf-ce50-48ff-9b69-65dfe7fdb71c" />
+    <UnitTestResult executionId="d3fcd029-5c74-4b46-b676-a124ba75258d" testId="dcfa7b15-7a84-bd0b-a8ee-f62a87484c89" testName="Full_Ctor_SetServerAddress_AddressToSetIsNull_ThrowsArgumentNullException" computerName="DKSR-EFI-06" duration="00:00:00.0912491" startTime="2024-01-09T15:43:57.3104652+01:00" endTime="2024-01-09T15:43:57.4042650+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d3fcd029-5c74-4b46-b676-a124ba75258d" />
+    <UnitTestResult executionId="70eb54fb-ccd4-4a88-91de-665d0813da42" testId="874d7156-da62-abcd-f703-76121095a8e1" testName="ExecuteCleanup_ReturnSuccess" computerName="DKSR-EFI-06" duration="00:00:00.0045642" startTime="2024-01-09T15:43:57.4198418+01:00" endTime="2024-01-09T15:43:57.4198418+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70eb54fb-ccd4-4a88-91de-665d0813da42" />
+    <UnitTestResult executionId="53f2df02-b8fd-4520-8fbb-0684013d13d6" testId="d3e62d5b-fe89-af1c-f1bf-270913464288" testName="ApplyCertificate_NoManagementServerAddress (,FindByIssuerName,VideoOSLogServer)" computerName="DKSR-EFI-06" duration="00:00:00.5604060" startTime="2024-01-09T15:43:56.6073393+01:00" endTime="2024-01-09T15:43:57.2792159+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53f2df02-b8fd-4520-8fbb-0684013d13d6" />
+    <UnitTestResult executionId="38dc0acb-bac4-4059-9df4-e5e17afb3ecd" testId="221e9736-56ca-6417-89fc-4c5572497529" testName="ApplyCertificate_WithManagementServerAddress (myThumbprint,FindByThumbprint,myThumbprint)" computerName="DKSR-EFI-06" duration="00:00:00.0018034" startTime="2024-01-09T15:43:57.2948440+01:00" endTime="2024-01-09T15:43:57.3104652+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38dc0acb-bac4-4059-9df4-e5e17afb3ecd" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Full_Ctor_SetServerAddress_ReturnSuccess" storage="d:\actions-runner\_work\xpco\xpco\logserver\server\videoos.logserver.registrars.tests\bin\debug\videoos.logserver.registrars.tests.dll" id="679242e7-057d-343a-df8e-aa52adb8983e">
+      <Execution id="ad2909bf-ce50-48ff-9b69-65dfe7fdb71c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\LogServer\Server\VideoOS.LogServer.Registrars.Tests\bin\Debug\VideoOS.LogServer.Registrars.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.LogServer.Registrars.Tests.LogServerSetManagementServerRegistrarTest" name="Full_Ctor_SetServerAddress_ReturnSuccess" />
+    </UnitTest>
+    <UnitTest name="Full_Ctor_SetServerAddress_AddressToSetIsNull_ThrowsArgumentNullException" storage="d:\actions-runner\_work\xpco\xpco\logserver\server\videoos.logserver.registrars.tests\bin\debug\videoos.logserver.registrars.tests.dll" id="dcfa7b15-7a84-bd0b-a8ee-f62a87484c89">
+      <Execution id="d3fcd029-5c74-4b46-b676-a124ba75258d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\LogServer\Server\VideoOS.LogServer.Registrars.Tests\bin\Debug\VideoOS.LogServer.Registrars.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.LogServer.Registrars.Tests.LogServerSetManagementServerRegistrarTest" name="Full_Ctor_SetServerAddress_AddressToSetIsNull_ThrowsArgumentNullException" />
+    </UnitTest>
+    <UnitTest name="ExecuteCleanup_ReturnSuccess" storage="d:\actions-runner\_work\xpco\xpco\logserver\server\videoos.logserver.registrars.tests\bin\debug\videoos.logserver.registrars.tests.dll" id="874d7156-da62-abcd-f703-76121095a8e1">
+      <Execution id="70eb54fb-ccd4-4a88-91de-665d0813da42" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\LogServer\Server\VideoOS.LogServer.Registrars.Tests\bin\Debug\VideoOS.LogServer.Registrars.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.LogServer.Registrars.Tests.LogServerSetManagementServerRegistrarTest" name="ExecuteCleanup_ReturnSuccess" />
+    </UnitTest>
+    <UnitTest name="ApplyCertificate_WithManagementServerAddress (myThumbprint,FindByThumbprint,myThumbprint)" storage="d:\actions-runner\_work\xpco\xpco\logserver\server\videoos.logserver.registrars.tests\bin\debug\videoos.logserver.registrars.tests.dll" id="221e9736-56ca-6417-89fc-4c5572497529">
+      <Execution id="38dc0acb-bac4-4059-9df4-e5e17afb3ecd" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\LogServer\Server\VideoOS.LogServer.Registrars.Tests\bin\Debug\VideoOS.LogServer.Registrars.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.LogServer.Registrars.Tests.LogServerCertificateRegistrarTest" name="ApplyCertificate_WithManagementServerAddress" />
+    </UnitTest>
+    <UnitTest name="ApplyCertificate_NoManagementServerAddress (,FindByIssuerName,VideoOSLogServer)" storage="d:\actions-runner\_work\xpco\xpco\logserver\server\videoos.logserver.registrars.tests\bin\debug\videoos.logserver.registrars.tests.dll" id="d3e62d5b-fe89-af1c-f1bf-270913464288">
+      <Execution id="53f2df02-b8fd-4520-8fbb-0684013d13d6" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\LogServer\Server\VideoOS.LogServer.Registrars.Tests\bin\Debug\VideoOS.LogServer.Registrars.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.LogServer.Registrars.Tests.LogServerCertificateRegistrarTest" name="ApplyCertificate_NoManagementServerAddress" />
+    </UnitTest>
+    <UnitTest name="ApplyCertificate_NoManagementServerAddress (myThumbprint,FindByThumbprint,myThumbprint)" storage="d:\actions-runner\_work\xpco\xpco\logserver\server\videoos.logserver.registrars.tests\bin\debug\videoos.logserver.registrars.tests.dll" id="65de1812-7ec9-941c-f293-e1df89800a11">
+      <Execution id="e6ce1372-e280-4ae1-ac63-7b147502d308" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\LogServer\Server\VideoOS.LogServer.Registrars.Tests\bin\Debug\VideoOS.LogServer.Registrars.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.LogServer.Registrars.Tests.LogServerCertificateRegistrarTest" name="ApplyCertificate_NoManagementServerAddress" />
+    </UnitTest>
+    <UnitTest name="ApplyCertificate_WithManagementServerAddress (,FindByIssuerName,VideoOSLogServer)" storage="d:\actions-runner\_work\xpco\xpco\logserver\server\videoos.logserver.registrars.tests\bin\debug\videoos.logserver.registrars.tests.dll" id="b990f129-f058-c9a2-e40f-67ca3a9b0493">
+      <Execution id="b1168144-b8ae-4336-91e1-6a1f1f3b339b" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\LogServer\Server\VideoOS.LogServer.Registrars.Tests\bin\Debug\VideoOS.LogServer.Registrars.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.LogServer.Registrars.Tests.LogServerCertificateRegistrarTest" name="ApplyCertificate_WithManagementServerAddress" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="b990f129-f058-c9a2-e40f-67ca3a9b0493" executionId="b1168144-b8ae-4336-91e1-6a1f1f3b339b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="65de1812-7ec9-941c-f293-e1df89800a11" executionId="e6ce1372-e280-4ae1-ac63-7b147502d308" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="679242e7-057d-343a-df8e-aa52adb8983e" executionId="ad2909bf-ce50-48ff-9b69-65dfe7fdb71c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dcfa7b15-7a84-bd0b-a8ee-f62a87484c89" executionId="d3fcd029-5c74-4b46-b676-a124ba75258d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="874d7156-da62-abcd-f703-76121095a8e1" executionId="70eb54fb-ccd4-4a88-91de-665d0813da42" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3e62d5b-fe89-af1c-f1bf-270913464288" executionId="53f2df02-b8fd-4520-8fbb-0684013d13d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="221e9736-56ca-6417-89fc-4c5572497529" executionId="38dc0acb-bac4-4059-9df4-e5e17afb3ecd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="7" executed="7" passed="7" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

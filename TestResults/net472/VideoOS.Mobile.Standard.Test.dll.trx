@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="9a1a5cec-f497-4df9-9f0e-618dff7a131c" name="DKSR-EFI-06$@DKSR-EFI-06 2024-01-09 15:44:44" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-01-09T15:44:44.6230851+01:00" queuing="2024-01-09T15:44:44.6230851+01:00" start="2024-01-09T15:44:42.8887030+01:00" finish="2024-01-09T15:45:15.1231462+01:00" />
+  <TestSettings name="default" id="c4adfbf2-a5ee-49b6-a7f1-d479dbb3cf7b">
+    <Deployment runDeploymentRoot="DKSR-EFI-06$_DKSR-EFI-06_2024-01-09_15_44_44" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="e53bef17-78ef-4425-a917-2ec0a731754f" testId="d20f470e-8e1d-b3fc-a951-604b9939bbeb" testName="TestBinaryFrameHeaderHelperReadWrite" computerName="DKSR-EFI-06" duration="00:00:00.0441006" startTime="2024-01-09T15:44:43.7012049+01:00" endTime="2024-01-09T15:44:43.8262064+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e53bef17-78ef-4425-a917-2ec0a731754f" />
+    <UnitTestResult executionId="85892489-665e-40bd-9210-39423cc116f4" testId="21014e01-32ae-031c-e5e8-e13e9dbd7b3d" testName="TestAesCrypter" computerName="DKSR-EFI-06" duration="00:00:00.7338067" startTime="2024-01-09T15:45:12.7793897+01:00" endTime="2024-01-09T15:45:13.5293915+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="85892489-665e-40bd-9210-39423cc116f4">
+      <Output>
+        <StdOut>Test passed 10, failed 0</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5e9ccc56-4bf4-49a4-b821-ebc036c585b4" testId="ae04734e-d07c-6856-36cb-376e59a6ac13" testName="CheckInvalidFolderInitialization" computerName="DKSR-EFI-06" duration="00:00:00.1960370" startTime="2024-01-09T15:44:43.8887071+01:00" endTime="2024-01-09T15:44:44.0918322+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5e9ccc56-4bf4-49a4-b821-ebc036c585b4" />
+    <UnitTestResult executionId="03cfa905-504a-49d7-9936-966534efc0de" testId="85a1694b-29a2-658e-eadf-9d482bdee499" testName="CheckLongLogFileContents" computerName="DKSR-EFI-06" duration="00:00:26.1221120" startTime="2024-01-09T15:44:46.6230923+01:00" endTime="2024-01-09T15:45:12.7481396+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="03cfa905-504a-49d7-9936-966534efc0de">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+2024-01-09;3:44:47 PM;Error;TestErrorMessageOrigin;TestErrorMessage&#xD;
+2024-01-09;3:44:47 PM;Error;TestErrorMessageOrigin;TestErrorMessage&#xD;
+2024-01-09;3:44:47 PM;Warning;TestWarningMessageOrigin;TestWarningMessage&#xD;
+2024-01-09;3:44:48 PM;Error;TestErrorMessageOrigin;TestErrorMessage&#xD;
+2024-01-09;3:44:48 PM;Warning;TestWarningMessageOrigin;TestWarningMessage&#xD;
+2024-01-09;3:44:48 PM;Info;TestInfoMessageOrigin;TestInfoMessage&#xD;
+2024-01-09;3:44:49 PM;Error;TestErrorMessageOrigin;TestErrorMessage&#xD;
+2024-01-09;3:44:49 PM;Warning;TestWarningMessageOrigin;TestWarningMessage&#xD;
+2024-01-09;3:44:49 PM;Info;TestInfoMessageOrigin;TestInfoMessage&#xD;
+2024-01-09;3:44:49 PM;Debug;TestDebugMessageOrigin;TestDebugMessage&#xD;
+2024-01-09;3:44:50 PM;Error;TestErrorMessageOrigin;TestErrorMessage&#xD;
+2024-01-09;3:44:50 PM;Warning;TestWarningMessageOrigin;TestWarningMessage&#xD;
+2024-01-09;3:44:50 PM;Info;TestInfoMessageOrigin;TestInfoMessage&#xD;
+2024-01-09;3:44:50 PM;Debug;TestDebugMessageOrigin;TestDebugMessage&#xD;
+2024-01-09;3:44:50 PM;Trace;TestTraceMessageOrigin;TestTraceMessage&#xD;
+2024-01-09;3:44:51 PM;Error;TestErrorMessageOrigin;TestErrorMessage&#xD;
+2024-01-09;3:44:51 PM;Warning;TestWarningMessageOrigin;TestWarningMessage&#xD;
+2024-01-09;3:44:51 PM;Info;TestInfoMessageOrigin;TestInfoMessage&#xD;
+2024-01-09;3:44:51 PM;Debug;TestDebugMessageOrigin;TestDebugMessage&#xD;
+2024-01-09;3:44:51 PM;Trace;TestTraceMessageOrigin;TestTraceMessage&#xD;
+2024-01-09;3:44:51 PM;Communication;TestCommunicationMessageOrigin;TestCommunicationMessage&#xD;
+2024-01-09;3:44:52 PM;Error;TestErrorMessageOrigin;TestErrorMessage;TestErrorMessage;1;2;3&#xD;
+2024-01-09;3:44:52 PM;Error;TestErrorMessageOrigin;TestErrorMessage;TestErrorMessage;1;2;3&#xD;
+2024-01-09;3:44:52 PM;Warning;TestWarningMessageOrigin;TestWarningMessage;TestWarningMessage;1;2;3&#xD;
+2024-01-09;3:45:06 PM;Error;TestErrorMessageOrigin;TestErrorMessage;TestErrorMessage;1;2;3&#xD;
+2024-01-09;3:45:06 PM;Warning;TestWarningMessageOrigin;TestWarningMessage;TestWarningMessage;1;2;3&#xD;
+2024-01-09;3:45:06 PM;Info;TestInfoMessageOrigin;TestInfoMessage;TestInfoMessage;1;2;3&#xD;
+2024-01-09;3:45:08 PM;Error;TestErrorMessageOrigin;TestErrorMessage;TestErrorMessage;1;2;3&#xD;
+2024-01-09;3:45:08 PM;Warning;TestWarningMessageOrigin;TestWarningMessage;TestWarningMessage;1;2;3&#xD;
+2024-01-09;3:45:08 PM;Info;TestInfoMessageOrigin;TestInfoMessage;TestInfoMessage;1;2;3&#xD;
+2024-01-09;3:45:08 PM;Debug;TestDebugMessageOrigin;TestDebugMessage;TestDebugMessage;1;2;3&#xD;
+2024-01-09;3:45:08 PM;Error;TestErrorMessageOrigin;TestErrorMessage;TestErrorMessage;1;2;3&#xD;
+2024-01-09;3:45:08 PM;Warning;TestWarningMessageOrigin;TestWarningMessage;TestWarningMessage;1;2;3&#xD;
+2024-01-09;3:45:08 PM;Info;TestInfoMessageOrigin;TestInfoMessage;TestInfoMessage;1;2;3&#xD;
+2024-01-09;3:45:08 PM;Debug;TestDebugMessageOrigin;TestDebugMessage;TestDebugMessage;1;2;3&#xD;
+2024-01-09;3:45:08 PM;Trace;TestTraceMessageOrigin;TestTraceMessage;TestTraceMessage;1;2;3&#xD;
+2024-01-09;3:45:12 PM;Error;TestErrorMessageOrigin;TestErrorMessage;TestErrorMessage;1;2;3&#xD;
+2024-01-09;3:45:12 PM;Warning;TestWarningMessageOrigin;TestWarningMessage;TestWarningMessage;1;2;3&#xD;
+2024-01-09;3:45:12 PM;Info;TestInfoMessageOrigin;TestInfoMessage;TestInfoMessage;1;2;3&#xD;
+2024-01-09;3:45:12 PM;Debug;TestDebugMessageOrigin;TestDebugMessage;TestDebugMessage;1;2;3&#xD;
+2024-01-09;3:45:12 PM;Trace;TestTraceMessageOrigin;TestTraceMessage;TestTraceMessage;1;2;3&#xD;
+2024-01-09;3:45:12 PM;Communication;TestCommunicationMessageOrigin;TestCommunicationMessage;TestCommunicationMessage;1;2;3</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ef1eb91b-420b-4f8c-aa3f-f8b79af8fab7" testId="bfe8c798-bd37-df14-4425-acbb69d08c41" testName="CheckLogRetention" computerName="DKSR-EFI-06" duration="00:00:02.5270600" startTime="2024-01-09T15:44:44.0918322+01:00" endTime="2024-01-09T15:44:46.6230923+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef1eb91b-420b-4f8c-aa3f-f8b79af8fab7">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+Exception in BaseLogger.DeleteLog() : The path is not of a legal form.&#xD;
+Exception in BaseLogger.DeleteLog() : The path is not of a legal form.&#xD;
+Exception in BaseLogger.DeleteLog() : The path is not of a legal form.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="17f46bd1-6245-436e-bac0-fee5117a1a94" testId="5606a011-5b2c-764d-3f51-b4cfd1c1e5f9" testName="CheckForCorrectLogDirectory" computerName="DKSR-EFI-06" duration="00:00:00.0358561" startTime="2024-01-09T15:45:12.7481396+01:00" endTime="2024-01-09T15:45:12.7793897+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="17f46bd1-6245-436e-bac0-fee5117a1a94" />
+    <UnitTestResult executionId="92ab353b-2c93-4200-b247-84951cf1e82a" testId="7bebdfe5-c4ea-c711-55fc-0981f086317a" testName="TestWebClientFactory" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:43.8887071+01:00" endTime="2024-01-09T15:44:43.8887071+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92ab353b-2c93-4200-b247-84951cf1e82a">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7700c64e-6086-42e6-9ed3-d0497fddeb99" testId="8df567f5-74b8-635e-02d4-702e7e0b0a12" testName="TestUpnpDeviceDescriptionSerializerImplementer" computerName="DKSR-EFI-06" duration="00:00:00.0487163" startTime="2024-01-09T15:44:43.8418310+01:00" endTime="2024-01-09T15:44:43.8887071+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7700c64e-6086-42e6-9ed3-d0497fddeb99" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestAesCrypter" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.windows.test\bin\debug\net472\videoos.mobile.standard.test.dll" id="21014e01-32ae-031c-e5e8-e13e9dbd7b3d">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LongRunning" />
+      </TestCategory>
+      <Execution id="85892489-665e-40bd-9210-39423cc116f4" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Windows.Test\bin\Debug\net472\VideoOS.Mobile.Standard.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Standard.Test.Encryption.AesCrypterTests" name="TestAesCrypter" />
+    </UnitTest>
+    <UnitTest name="CheckLongLogFileContents" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.windows.test\bin\debug\net472\videoos.mobile.standard.test.dll" id="85a1694b-29a2-658e-eadf-9d482bdee499">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LongRunning" />
+      </TestCategory>
+      <Execution id="03cfa905-504a-49d7-9936-966534efc0de" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Windows.Test\bin\Debug\net472\VideoOS.Mobile.Standard.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Standard.Test.Log.LogTests" name="CheckLongLogFileContents" />
+    </UnitTest>
+    <UnitTest name="TestUpnpDeviceDescriptionSerializerImplementer" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.windows.test\bin\debug\net472\videoos.mobile.standard.test.dll" id="8df567f5-74b8-635e-02d4-702e7e0b0a12">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LongRunning" />
+      </TestCategory>
+      <Execution id="7700c64e-6086-42e6-9ed3-d0497fddeb99" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Windows.Test\bin\Debug\net472\VideoOS.Mobile.Standard.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Standard.Test.Upnp.UpnpDeviceDescriptionSerializerImplementerTests" name="TestUpnpDeviceDescriptionSerializerImplementer" />
+    </UnitTest>
+    <UnitTest name="CheckForCorrectLogDirectory" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.windows.test\bin\debug\net472\videoos.mobile.standard.test.dll" id="5606a011-5b2c-764d-3f51-b4cfd1c1e5f9">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Fast" />
+      </TestCategory>
+      <Execution id="17f46bd1-6245-436e-bac0-fee5117a1a94" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Windows.Test\bin\Debug\net472\VideoOS.Mobile.Standard.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Standard.Test.Log.LogTests" name="CheckForCorrectLogDirectory" />
+    </UnitTest>
+    <UnitTest name="TestWebClientFactory" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.windows.test\bin\debug\net472\videoos.mobile.standard.test.dll" id="7bebdfe5-c4ea-c711-55fc-0981f086317a">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LongRunning" />
+      </TestCategory>
+      <Execution id="92ab353b-2c93-4200-b247-84951cf1e82a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Windows.Test\bin\Debug\net472\VideoOS.Mobile.Standard.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Standard.Test.Net.WebClientFactoryTests" name="TestWebClientFactory" />
+    </UnitTest>
+    <UnitTest name="CheckInvalidFolderInitialization" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.windows.test\bin\debug\net472\videoos.mobile.standard.test.dll" id="ae04734e-d07c-6856-36cb-376e59a6ac13">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LongRunning" />
+      </TestCategory>
+      <Execution id="5e9ccc56-4bf4-49a4-b821-ebc036c585b4" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Windows.Test\bin\Debug\net472\VideoOS.Mobile.Standard.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Standard.Test.Log.LogTests" name="CheckInvalidFolderInitialization" />
+    </UnitTest>
+    <UnitTest name="TestBinaryFrameHeaderHelperReadWrite" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.windows.test\bin\debug\net472\videoos.mobile.standard.test.dll" id="d20f470e-8e1d-b3fc-a951-604b9939bbeb">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LongRunning" />
+      </TestCategory>
+      <Execution id="e53bef17-78ef-4425-a917-2ec0a731754f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Windows.Test\bin\Debug\net472\VideoOS.Mobile.Standard.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Standard.Test.VideoChannel.BinaryFrameHeaderHelperTests" name="TestBinaryFrameHeaderHelperReadWrite" />
+    </UnitTest>
+    <UnitTest name="CheckLogRetention" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.windows.test\bin\debug\net472\videoos.mobile.standard.test.dll" id="bfe8c798-bd37-df14-4425-acbb69d08c41">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LongRunning" />
+      </TestCategory>
+      <Execution id="ef1eb91b-420b-4f8c-aa3f-f8b79af8fab7" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.Windows.Test\bin\Debug\net472\VideoOS.Mobile.Standard.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.Standard.Test.Log.LogTests" name="CheckLogRetention" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="d20f470e-8e1d-b3fc-a951-604b9939bbeb" executionId="e53bef17-78ef-4425-a917-2ec0a731754f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="21014e01-32ae-031c-e5e8-e13e9dbd7b3d" executionId="85892489-665e-40bd-9210-39423cc116f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ae04734e-d07c-6856-36cb-376e59a6ac13" executionId="5e9ccc56-4bf4-49a4-b821-ebc036c585b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="85a1694b-29a2-658e-eadf-9d482bdee499" executionId="03cfa905-504a-49d7-9936-966534efc0de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bfe8c798-bd37-df14-4425-acbb69d08c41" executionId="ef1eb91b-420b-4f8c-aa3f-f8b79af8fab7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5606a011-5b2c-764d-3f51-b4cfd1c1e5f9" executionId="17f46bd1-6245-436e-bac0-fee5117a1a94" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7bebdfe5-c4ea-c711-55fc-0981f086317a" executionId="92ab353b-2c93-4200-b247-84951cf1e82a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8df567f5-74b8-635e-02d4-702e7e0b0a12" executionId="7700c64e-6086-42e6-9ed3-d0497fddeb99" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="8" executed="7" passed="7" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>Test 'TestWebClientFactory' was skipped in the test run.&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

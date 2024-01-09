@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="0603026a-2ea1-4c98-8af9-6ce6d302a414" name="DKSR-EFI-06$@DKSR-EFI-06 2024-01-09 15:44:45" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-01-09T15:44:45.0762131+01:00" queuing="2024-01-09T15:44:45.0762131+01:00" start="2024-01-09T15:44:43.3105793+01:00" finish="2024-01-09T15:44:49.8887267+01:00" />
+  <TestSettings name="default" id="35a551a6-02b0-48da-b849-1509eef8f427">
+    <Deployment runDeploymentRoot="DKSR-EFI-06$_DKSR-EFI-06_2024-01-09_15_44_45" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="3a101aba-cc37-43e1-b981-de3ce45e6561" testId="16504bd5-0fa8-809e-54e9-5f4fc938c651" testName="TestPasswordProtector" computerName="DKSR-EFI-06" duration="00:00:01.1929010" startTime="2024-01-09T15:44:47.3105980+01:00" endTime="2024-01-09T15:44:48.4980966+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a101aba-cc37-43e1-b981-de3ce45e6561" />
+    <UnitTestResult executionId="066abc70-af6a-4bd3-8f34-d837331f649e" testId="e5307fe2-1206-36b6-3863-e8f1ee713338" testName="TestUsersCollection" computerName="DKSR-EFI-06" duration="00:00:00.0182320" startTime="2024-01-09T15:44:48.5918487+01:00" endTime="2024-01-09T15:44:48.6074725+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="066abc70-af6a-4bd3-8f34-d837331f649e" />
+    <UnitTestResult executionId="c240edc0-46a0-44f5-8880-442da8733cae" testId="c67d1e80-4fe9-4517-ca35-0d07f9e906c1" testName="TestBreakOnPreworkFlow" computerName="DKSR-EFI-06" duration="00:00:00.0004962" startTime="2024-01-09T15:44:48.7480990+01:00" endTime="2024-01-09T15:44:48.7480990+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c240edc0-46a0-44f5-8880-442da8733cae" />
+    <UnitTestResult executionId="1fba130a-7edb-4d16-82a5-700d8e5c171c" testId="f1eb2d1a-83ec-ac4d-0d7b-ce30b2352e08" testName="TestCacheGet" computerName="DKSR-EFI-06" duration="00:00:03.0218218" startTime="2024-01-09T15:44:44.2793343+01:00" endTime="2024-01-09T15:44:47.2949706+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1fba130a-7edb-4d16-82a5-700d8e5c171c" />
+    <UnitTestResult executionId="372b7ff5-92d3-42e8-8cb4-94554414f510" testId="156413bc-f993-21dd-1569-c2b8e0a05ebd" testName="TestSomeSucceeded" computerName="DKSR-EFI-06" duration="00:00:01.0945774" startTime="2024-01-09T15:44:48.7480990+01:00" endTime="2024-01-09T15:44:49.8418517+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="372b7ff5-92d3-42e8-8cb4-94554414f510" />
+    <UnitTestResult executionId="f64161af-152e-4cb6-854f-b9b989398110" testId="a828caf3-f430-9ae2-f04a-8f8ae562b524" testName="TestAllSucceeded" computerName="DKSR-EFI-06" duration="00:00:00.1327656" startTime="2024-01-09T15:44:48.6074725+01:00" endTime="2024-01-09T15:44:48.7480990+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f64161af-152e-4cb6-854f-b9b989398110" />
+    <UnitTestResult executionId="5eb17721-3491-4dc5-b41c-a7aa92d962b2" testId="83ad1dcd-9fc5-f3ed-c3f0-cfde42b8089d" testName="TestCallTwice" computerName="DKSR-EFI-06" duration="00:00:00.0026591" startTime="2024-01-09T15:44:47.2949706+01:00" endTime="2024-01-09T15:44:47.3105980+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5eb17721-3491-4dc5-b41c-a7aa92d962b2" />
+    <UnitTestResult executionId="45bf9847-2144-41c5-9f39-9367717b1a83" testId="85cdcd52-cc41-446f-0b20-d5636d10e160" testName="TestUsersConfigSerializationRandomData" computerName="DKSR-EFI-06" duration="00:00:00.0796539" startTime="2024-01-09T15:44:48.4980966+01:00" endTime="2024-01-09T15:44:48.5762227+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="45bf9847-2144-41c5-9f39-9367717b1a83" />
+    <UnitTestResult executionId="2fad252e-dc37-4002-8aeb-51a6bacc9188" testId="a7c75e27-b40b-be4f-05a1-ccc054b29186" testName="TestUsersConfigSerializationRandomProtectedData" computerName="DKSR-EFI-06" duration="00:00:00.0123652" startTime="2024-01-09T15:44:48.5762227+01:00" endTime="2024-01-09T15:44:48.5918487+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2fad252e-dc37-4002-8aeb-51a6bacc9188" />
+    <UnitTestResult executionId="24ab56ce-7f28-4ddc-a562-5e3c44722765" testId="c7122afd-8e74-5453-dc2c-08abcfa0a930" testName="TestMilestonePinkCompleteness" computerName="DKSR-EFI-06" duration="00:00:00.0975449" startTime="2024-01-09T15:44:44.0918322+01:00" endTime="2024-01-09T15:44:44.2480818+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="24ab56ce-7f28-4ddc-a562-5e3c44722765" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestCallTwice" storage="d:\actions-runner\_work\xpco\xpco\onvifbridge\onvifgatewaybinaries\videoos.onvifgateway.commonutilities.test\bin\debug\videoos.onvif.commonutilities.test.dll" id="83ad1dcd-9fc5-f3ed-c3f0-cfde42b8089d">
+      <TestCategory>
+        <TestCategoryItem TestCategory="CallTwice" />
+      </TestCategory>
+      <Execution id="5eb17721-3491-4dc5-b41c-a7aa92d962b2" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\OnvifBridge\OnvifGatewayBinaries\VideoOS.OnvifGateway.CommonUtilities.Test\bin\Debug\VideoOS.Onvif.CommonUtilities.Test.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Onvif.CommonUtilities.Test.Utils.CallTwiceTest" name="TestCallTwice" />
+    </UnitTest>
+    <UnitTest name="TestPasswordProtector" storage="d:\actions-runner\_work\xpco\xpco\onvifbridge\onvifgatewaybinaries\videoos.onvifgateway.commonutilities.test\bin\debug\videoos.onvif.commonutilities.test.dll" id="16504bd5-0fa8-809e-54e9-5f4fc938c651">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Protection" />
+      </TestCategory>
+      <Execution id="3a101aba-cc37-43e1-b981-de3ce45e6561" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\OnvifBridge\OnvifGatewayBinaries\VideoOS.OnvifGateway.CommonUtilities.Test\bin\Debug\VideoOS.Onvif.CommonUtilities.Test.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Onvif.CommonUtilities.Test.Users.ProtectionTests" name="TestPasswordProtector" />
+    </UnitTest>
+    <UnitTest name="TestSomeSucceeded" storage="d:\actions-runner\_work\xpco\xpco\onvifbridge\onvifgatewaybinaries\videoos.onvifgateway.commonutilities.test\bin\debug\videoos.onvif.commonutilities.test.dll" id="156413bc-f993-21dd-1569-c2b8e0a05ebd">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Flow" />
+      </TestCategory>
+      <Execution id="372b7ff5-92d3-42e8-8cb4-94554414f510" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\OnvifBridge\OnvifGatewayBinaries\VideoOS.OnvifGateway.CommonUtilities.Test\bin\Debug\VideoOS.Onvif.CommonUtilities.Test.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Onvif.CommonUtilities.Test.Flow.WorkFlowTest" name="TestSomeSucceeded" />
+    </UnitTest>
+    <UnitTest name="TestUsersConfigSerializationRandomProtectedData" storage="d:\actions-runner\_work\xpco\xpco\onvifbridge\onvifgatewaybinaries\videoos.onvifgateway.commonutilities.test\bin\debug\videoos.onvif.commonutilities.test.dll" id="a7c75e27-b40b-be4f-05a1-ccc054b29186">
+      <TestCategory>
+        <TestCategoryItem TestCategory="UsersConfig" />
+      </TestCategory>
+      <Execution id="2fad252e-dc37-4002-8aeb-51a6bacc9188" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\OnvifBridge\OnvifGatewayBinaries\VideoOS.OnvifGateway.CommonUtilities.Test\bin\Debug\VideoOS.Onvif.CommonUtilities.Test.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Onvif.CommonUtilities.Test.Users.UsersConfigTests" name="TestUsersConfigSerializationRandomProtectedData" />
+    </UnitTest>
+    <UnitTest name="TestAllSucceeded" storage="d:\actions-runner\_work\xpco\xpco\onvifbridge\onvifgatewaybinaries\videoos.onvifgateway.commonutilities.test\bin\debug\videoos.onvif.commonutilities.test.dll" id="a828caf3-f430-9ae2-f04a-8f8ae562b524">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Flow" />
+      </TestCategory>
+      <Execution id="f64161af-152e-4cb6-854f-b9b989398110" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\OnvifBridge\OnvifGatewayBinaries\VideoOS.OnvifGateway.CommonUtilities.Test\bin\Debug\VideoOS.Onvif.CommonUtilities.Test.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Onvif.CommonUtilities.Test.Flow.WorkFlowTest" name="TestAllSucceeded" />
+    </UnitTest>
+    <UnitTest name="TestMilestonePinkCompleteness" storage="d:\actions-runner\_work\xpco\xpco\onvifbridge\onvifgatewaybinaries\videoos.onvifgateway.commonutilities.test\bin\debug\videoos.onvif.commonutilities.test.dll" id="c7122afd-8e74-5453-dc2c-08abcfa0a930">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Pink" />
+      </TestCategory>
+      <Execution id="24ab56ce-7f28-4ddc-a562-5e3c44722765" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\OnvifBridge\OnvifGatewayBinaries\VideoOS.OnvifGateway.CommonUtilities.Test\bin\Debug\VideoOS.Onvif.CommonUtilities.Test.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Onvif.CommonUtilities.Test.OemResourcesTests" name="TestMilestonePinkCompleteness" />
+    </UnitTest>
+    <UnitTest name="TestCacheGet" storage="d:\actions-runner\_work\xpco\xpco\onvifbridge\onvifgatewaybinaries\videoos.onvifgateway.commonutilities.test\bin\debug\videoos.onvif.commonutilities.test.dll" id="f1eb2d1a-83ec-ac4d-0d7b-ce30b2352e08">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Cache" />
+      </TestCategory>
+      <Execution id="1fba130a-7edb-4d16-82a5-700d8e5c171c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\OnvifBridge\OnvifGatewayBinaries\VideoOS.OnvifGateway.CommonUtilities.Test\bin\Debug\VideoOS.Onvif.CommonUtilities.Test.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Onvif.CommonUtilities.Test.Utils.CacheTests" name="TestCacheGet" />
+    </UnitTest>
+    <UnitTest name="TestUsersCollection" storage="d:\actions-runner\_work\xpco\xpco\onvifbridge\onvifgatewaybinaries\videoos.onvifgateway.commonutilities.test\bin\debug\videoos.onvif.commonutilities.test.dll" id="e5307fe2-1206-36b6-3863-e8f1ee713338">
+      <TestCategory>
+        <TestCategoryItem TestCategory="UsersConfig" />
+      </TestCategory>
+      <Execution id="066abc70-af6a-4bd3-8f34-d837331f649e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\OnvifBridge\OnvifGatewayBinaries\VideoOS.OnvifGateway.CommonUtilities.Test\bin\Debug\VideoOS.Onvif.CommonUtilities.Test.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Onvif.CommonUtilities.Test.Users.UsersCollectionTest" name="TestUsersCollection" />
+    </UnitTest>
+    <UnitTest name="TestUsersConfigSerializationRandomData" storage="d:\actions-runner\_work\xpco\xpco\onvifbridge\onvifgatewaybinaries\videoos.onvifgateway.commonutilities.test\bin\debug\videoos.onvif.commonutilities.test.dll" id="85cdcd52-cc41-446f-0b20-d5636d10e160">
+      <TestCategory>
+        <TestCategoryItem TestCategory="UsersConfig" />
+      </TestCategory>
+      <Execution id="45bf9847-2144-41c5-9f39-9367717b1a83" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\OnvifBridge\OnvifGatewayBinaries\VideoOS.OnvifGateway.CommonUtilities.Test\bin\Debug\VideoOS.Onvif.CommonUtilities.Test.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Onvif.CommonUtilities.Test.Users.UsersConfigTests" name="TestUsersConfigSerializationRandomData" />
+    </UnitTest>
+    <UnitTest name="TestBreakOnPreworkFlow" storage="d:\actions-runner\_work\xpco\xpco\onvifbridge\onvifgatewaybinaries\videoos.onvifgateway.commonutilities.test\bin\debug\videoos.onvif.commonutilities.test.dll" id="c67d1e80-4fe9-4517-ca35-0d07f9e906c1">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Flow" />
+      </TestCategory>
+      <Execution id="c240edc0-46a0-44f5-8880-442da8733cae" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\OnvifBridge\OnvifGatewayBinaries\VideoOS.OnvifGateway.CommonUtilities.Test\bin\Debug\VideoOS.Onvif.CommonUtilities.Test.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Onvif.CommonUtilities.Test.Flow.WorkFlowTest" name="TestBreakOnPreworkFlow" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="16504bd5-0fa8-809e-54e9-5f4fc938c651" executionId="3a101aba-cc37-43e1-b981-de3ce45e6561" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e5307fe2-1206-36b6-3863-e8f1ee713338" executionId="066abc70-af6a-4bd3-8f34-d837331f649e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c67d1e80-4fe9-4517-ca35-0d07f9e906c1" executionId="c240edc0-46a0-44f5-8880-442da8733cae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f1eb2d1a-83ec-ac4d-0d7b-ce30b2352e08" executionId="1fba130a-7edb-4d16-82a5-700d8e5c171c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="156413bc-f993-21dd-1569-c2b8e0a05ebd" executionId="372b7ff5-92d3-42e8-8cb4-94554414f510" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a828caf3-f430-9ae2-f04a-8f8ae562b524" executionId="f64161af-152e-4cb6-854f-b9b989398110" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="83ad1dcd-9fc5-f3ed-c3f0-cfde42b8089d" executionId="5eb17721-3491-4dc5-b41c-a7aa92d962b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="85cdcd52-cc41-446f-0b20-d5636d10e160" executionId="45bf9847-2144-41c5-9f39-9367717b1a83" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7c75e27-b40b-be4f-05a1-ccc054b29186" executionId="2fad252e-dc37-4002-8aeb-51a6bacc9188" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c7122afd-8e74-5453-dc2c-08abcfa0a930" executionId="24ab56ce-7f28-4ddc-a562-5e3c44722765" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="10" executed="10" passed="10" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

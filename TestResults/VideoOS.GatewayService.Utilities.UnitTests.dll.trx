@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="b9e8bc8e-92fa-4653-9ace-973894072e56" name="DKSR-EFI-06$@DKSR-EFI-06 2024-01-09 15:44:21" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-01-09T15:44:21.1074279+01:00" queuing="2024-01-09T15:44:21.1074279+01:00" start="2024-01-09T15:44:10.2949016+01:00" finish="2024-01-09T15:44:22.1699314+01:00" />
+  <TestSettings name="default" id="88b6bbc2-a858-484d-8cfe-fd37ee116672">
+    <Deployment runDeploymentRoot="DKSR-EFI-06$_DKSR-EFI-06_2024-01-09_15_44_21" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="bcdbe08b-461a-4bf2-8788-eedbea4d468c" testId="37907c10-095d-3ee6-4e89-1d2d19b7e779" testName="ManagementServerUriExists_UpdateManagementServerUri_UpdatesUriInFile" computerName="DKSR-EFI-06" duration="00:00:00.9042503" startTime="2024-01-09T15:44:19.6386783+01:00" endTime="2024-01-09T15:44:20.9511777+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bcdbe08b-461a-4bf2-8788-eedbea4d468c" />
+    <UnitTestResult executionId="125119ad-717e-4103-b307-cf39136b37c1" testId="21d0bf88-0dbe-5dcd-ff4f-d42d5e994333" testName="RegisterClientIdDoesNotExist_SetCLientID_CreatesIdInFile" computerName="DKSR-EFI-06" duration="00:00:00.0030906" startTime="2024-01-09T15:44:21.0449301+01:00" endTime="2024-01-09T15:44:21.0449301+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="125119ad-717e-4103-b307-cf39136b37c1" />
+    <UnitTestResult executionId="4827dec4-18a6-4027-8776-7368f3011765" testId="5f95ea60-88a4-b94a-d9d4-49c8188bb805" testName="Property_ShouldThrowException_WhenResourceDoesNotExist" computerName="DKSR-EFI-06" duration="00:00:00.0633367" startTime="2024-01-09T15:44:21.4668048+01:00" endTime="2024-01-09T15:44:21.5293050+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4827dec4-18a6-4027-8776-7368f3011765" />
+    <UnitTestResult executionId="82eaf625-9728-47f6-a011-8659d8187847" testId="c42f5cc0-868f-14a1-0e3d-e793435b36b4" testName="RegisterClientIdDoesNotExist_GetCLientID_ReturnsNull" computerName="DKSR-EFI-06" duration="00:00:00.0012997" startTime="2024-01-09T15:44:21.0918050+01:00" endTime="2024-01-09T15:44:21.0918050+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="82eaf625-9728-47f6-a011-8659d8187847" />
+    <UnitTestResult executionId="43643547-ada0-46e4-8442-d3197dd5c433" testId="997e92b8-6525-1466-e691-86dcabab2a0a" testName="Property_ShouldSucceed_WhenResourceIsAString" computerName="DKSR-EFI-06" duration="00:00:00.0054467" startTime="2024-01-09T15:44:21.5605532+01:00" endTime="2024-01-09T15:44:21.5605532+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43643547-ada0-46e4-8442-d3197dd5c433" />
+    <UnitTestResult executionId="57a7939b-c802-46c2-b447-0d31383d3dbb" testId="591c1411-8eae-2b89-2c28-9dca8ce8e7ba" testName="DestinationFolderExists_UpdateDllPath_UpdateDllPathInFile" computerName="DKSR-EFI-06" duration="00:00:00.0099789" startTime="2024-01-09T15:44:21.0136773+01:00" endTime="2024-01-09T15:44:21.0293041+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="57a7939b-c802-46c2-b447-0d31383d3dbb" />
+    <UnitTestResult executionId="007e0b6a-4aab-4a18-b51a-a08e111d5090" testId="8e26a975-219f-6a7c-c96c-764225dfb1a8" testName="RegisterClientIdExists_GetCLientID_ReturnsCorrectId" computerName="DKSR-EFI-06" duration="00:00:00.0172872" startTime="2024-01-09T15:44:21.0449301+01:00" endTime="2024-01-09T15:44:21.0761787+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="007e0b6a-4aab-4a18-b51a-a08e111d5090" />
+    <UnitTestResult executionId="5cb42097-9f5c-4b95-abbf-4bd1134f4965" testId="51d87ad1-3441-0c0c-1c4a-2733b43865b8" testName="Property_ShouldThrowMissingOemResourceException_WhenResourceIsNotAString" computerName="DKSR-EFI-06" duration="00:00:00.0163671" startTime="2024-01-09T15:44:21.5293050+01:00" endTime="2024-01-09T15:44:21.5449309+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5cb42097-9f5c-4b95-abbf-4bd1134f4965" />
+    <UnitTestResult executionId="b375c158-30a4-4c91-9a7c-c918a160c795" testId="6dcc6ecc-da76-9bf9-7b81-d6518e1d749c" testName="OemResource_ShouldThrowException_WhenSignatureIsInvalid" computerName="DKSR-EFI-06" duration="00:00:00.3678269" startTime="2024-01-09T15:44:21.0918050+01:00" endTime="2024-01-09T15:44:21.4668048+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b375c158-30a4-4c91-9a7c-c918a160c795" />
+    <UnitTestResult executionId="979202f9-cc4c-4f3e-8998-f3e5bfd944cb" testId="52621be7-847c-a102-a83f-db8fcb17f493" testName="RegisterClientIdExists_SetCLientID_UpdatesIDInFile" computerName="DKSR-EFI-06" duration="00:00:00.0046336" startTime="2024-01-09T15:44:21.0293041+01:00" endTime="2024-01-09T15:44:21.0449301+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="979202f9-cc4c-4f3e-8998-f3e5bfd944cb" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="DestinationFolderExists_UpdateDllPath_UpdateDllPathInFile" storage="d:\actions-runner\_work\xpco\xpco\mip\apigateway\gatewayservice\tst\videoos.gatewayservice.utilities.unittests\bin\debug\videoos.gatewayservice.utilities.unittests.dll" id="591c1411-8eae-2b89-2c28-9dca8ce8e7ba">
+      <Execution id="57a7939b-c802-46c2-b447-0d31383d3dbb" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\MIP\ApiGateway\GatewayService\tst\VideoOS.GatewayService.Utilities.UnitTests\bin\Debug\VideoOS.GatewayService.Utilities.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.GatewayService.Utilities.UnitTests.ConfigHelperTest" name="DestinationFolderExists_UpdateDllPath_UpdateDllPathInFile" />
+    </UnitTest>
+    <UnitTest name="RegisterClientIdDoesNotExist_SetCLientID_CreatesIdInFile" storage="d:\actions-runner\_work\xpco\xpco\mip\apigateway\gatewayservice\tst\videoos.gatewayservice.utilities.unittests\bin\debug\videoos.gatewayservice.utilities.unittests.dll" id="21d0bf88-0dbe-5dcd-ff4f-d42d5e994333">
+      <Execution id="125119ad-717e-4103-b307-cf39136b37c1" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\MIP\ApiGateway\GatewayService\tst\VideoOS.GatewayService.Utilities.UnitTests\bin\Debug\VideoOS.GatewayService.Utilities.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.GatewayService.Utilities.UnitTests.ConfigHelperTest" name="RegisterClientIdDoesNotExist_SetCLientID_CreatesIdInFile" />
+    </UnitTest>
+    <UnitTest name="Property_ShouldSucceed_WhenResourceIsAString" storage="d:\actions-runner\_work\xpco\xpco\mip\apigateway\gatewayservice\tst\videoos.gatewayservice.utilities.unittests\bin\debug\videoos.gatewayservice.utilities.unittests.dll" id="997e92b8-6525-1466-e691-86dcabab2a0a">
+      <Execution id="43643547-ada0-46e4-8442-d3197dd5c433" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\MIP\ApiGateway\GatewayService\tst\VideoOS.GatewayService.Utilities.UnitTests\bin\Debug\VideoOS.GatewayService.Utilities.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.GatewayService.Utilities.UnitTests.OemResourcesTests" name="Property_ShouldSucceed_WhenResourceIsAString" />
+    </UnitTest>
+    <UnitTest name="RegisterClientIdExists_GetCLientID_ReturnsCorrectId" storage="d:\actions-runner\_work\xpco\xpco\mip\apigateway\gatewayservice\tst\videoos.gatewayservice.utilities.unittests\bin\debug\videoos.gatewayservice.utilities.unittests.dll" id="8e26a975-219f-6a7c-c96c-764225dfb1a8">
+      <Execution id="007e0b6a-4aab-4a18-b51a-a08e111d5090" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\MIP\ApiGateway\GatewayService\tst\VideoOS.GatewayService.Utilities.UnitTests\bin\Debug\VideoOS.GatewayService.Utilities.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.GatewayService.Utilities.UnitTests.ConfigHelperTest" name="RegisterClientIdExists_GetCLientID_ReturnsCorrectId" />
+    </UnitTest>
+    <UnitTest name="RegisterClientIdExists_SetCLientID_UpdatesIDInFile" storage="d:\actions-runner\_work\xpco\xpco\mip\apigateway\gatewayservice\tst\videoos.gatewayservice.utilities.unittests\bin\debug\videoos.gatewayservice.utilities.unittests.dll" id="52621be7-847c-a102-a83f-db8fcb17f493">
+      <Execution id="979202f9-cc4c-4f3e-8998-f3e5bfd944cb" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\MIP\ApiGateway\GatewayService\tst\VideoOS.GatewayService.Utilities.UnitTests\bin\Debug\VideoOS.GatewayService.Utilities.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.GatewayService.Utilities.UnitTests.ConfigHelperTest" name="RegisterClientIdExists_SetCLientID_UpdatesIDInFile" />
+    </UnitTest>
+    <UnitTest name="Property_ShouldThrowException_WhenResourceDoesNotExist" storage="d:\actions-runner\_work\xpco\xpco\mip\apigateway\gatewayservice\tst\videoos.gatewayservice.utilities.unittests\bin\debug\videoos.gatewayservice.utilities.unittests.dll" id="5f95ea60-88a4-b94a-d9d4-49c8188bb805">
+      <Execution id="4827dec4-18a6-4027-8776-7368f3011765" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\MIP\ApiGateway\GatewayService\tst\VideoOS.GatewayService.Utilities.UnitTests\bin\Debug\VideoOS.GatewayService.Utilities.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.GatewayService.Utilities.UnitTests.OemResourcesTests" name="Property_ShouldThrowException_WhenResourceDoesNotExist" />
+    </UnitTest>
+    <UnitTest name="Property_ShouldThrowMissingOemResourceException_WhenResourceIsNotAString" storage="d:\actions-runner\_work\xpco\xpco\mip\apigateway\gatewayservice\tst\videoos.gatewayservice.utilities.unittests\bin\debug\videoos.gatewayservice.utilities.unittests.dll" id="51d87ad1-3441-0c0c-1c4a-2733b43865b8">
+      <Execution id="5cb42097-9f5c-4b95-abbf-4bd1134f4965" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\MIP\ApiGateway\GatewayService\tst\VideoOS.GatewayService.Utilities.UnitTests\bin\Debug\VideoOS.GatewayService.Utilities.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.GatewayService.Utilities.UnitTests.OemResourcesTests" name="Property_ShouldThrowMissingOemResourceException_WhenResourceIsNotAString" />
+    </UnitTest>
+    <UnitTest name="OemResource_ShouldThrowException_WhenSignatureIsInvalid" storage="d:\actions-runner\_work\xpco\xpco\mip\apigateway\gatewayservice\tst\videoos.gatewayservice.utilities.unittests\bin\debug\videoos.gatewayservice.utilities.unittests.dll" id="6dcc6ecc-da76-9bf9-7b81-d6518e1d749c">
+      <Execution id="b375c158-30a4-4c91-9a7c-c918a160c795" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\MIP\ApiGateway\GatewayService\tst\VideoOS.GatewayService.Utilities.UnitTests\bin\Debug\VideoOS.GatewayService.Utilities.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.GatewayService.Utilities.UnitTests.OemResourcesTests" name="OemResource_ShouldThrowException_WhenSignatureIsInvalid" />
+    </UnitTest>
+    <UnitTest name="RegisterClientIdDoesNotExist_GetCLientID_ReturnsNull" storage="d:\actions-runner\_work\xpco\xpco\mip\apigateway\gatewayservice\tst\videoos.gatewayservice.utilities.unittests\bin\debug\videoos.gatewayservice.utilities.unittests.dll" id="c42f5cc0-868f-14a1-0e3d-e793435b36b4">
+      <Execution id="82eaf625-9728-47f6-a011-8659d8187847" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\MIP\ApiGateway\GatewayService\tst\VideoOS.GatewayService.Utilities.UnitTests\bin\Debug\VideoOS.GatewayService.Utilities.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.GatewayService.Utilities.UnitTests.ConfigHelperTest" name="RegisterClientIdDoesNotExist_GetCLientID_ReturnsNull" />
+    </UnitTest>
+    <UnitTest name="ManagementServerUriExists_UpdateManagementServerUri_UpdatesUriInFile" storage="d:\actions-runner\_work\xpco\xpco\mip\apigateway\gatewayservice\tst\videoos.gatewayservice.utilities.unittests\bin\debug\videoos.gatewayservice.utilities.unittests.dll" id="37907c10-095d-3ee6-4e89-1d2d19b7e779">
+      <Execution id="bcdbe08b-461a-4bf2-8788-eedbea4d468c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\MIP\ApiGateway\GatewayService\tst\VideoOS.GatewayService.Utilities.UnitTests\bin\Debug\VideoOS.GatewayService.Utilities.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.GatewayService.Utilities.UnitTests.ConfigHelperTest" name="ManagementServerUriExists_UpdateManagementServerUri_UpdatesUriInFile" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="37907c10-095d-3ee6-4e89-1d2d19b7e779" executionId="bcdbe08b-461a-4bf2-8788-eedbea4d468c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="21d0bf88-0dbe-5dcd-ff4f-d42d5e994333" executionId="125119ad-717e-4103-b307-cf39136b37c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5f95ea60-88a4-b94a-d9d4-49c8188bb805" executionId="4827dec4-18a6-4027-8776-7368f3011765" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c42f5cc0-868f-14a1-0e3d-e793435b36b4" executionId="82eaf625-9728-47f6-a011-8659d8187847" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="997e92b8-6525-1466-e691-86dcabab2a0a" executionId="43643547-ada0-46e4-8442-d3197dd5c433" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="591c1411-8eae-2b89-2c28-9dca8ce8e7ba" executionId="57a7939b-c802-46c2-b447-0d31383d3dbb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8e26a975-219f-6a7c-c96c-764225dfb1a8" executionId="007e0b6a-4aab-4a18-b51a-a08e111d5090" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51d87ad1-3441-0c0c-1c4a-2733b43865b8" executionId="5cb42097-9f5c-4b95-abbf-4bd1134f4965" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6dcc6ecc-da76-9bf9-7b81-d6518e1d749c" executionId="b375c158-30a4-4c91-9a7c-c918a160c795" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="52621be7-847c-a102-a83f-db8fcb17f493" executionId="979202f9-cc4c-4f3e-8998-f3e5bfd944cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="10" executed="10" passed="10" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

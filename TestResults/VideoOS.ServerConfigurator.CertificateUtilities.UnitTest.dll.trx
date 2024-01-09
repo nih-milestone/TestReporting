@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="6e739809-9f22-425e-b498-a97f289588d8" name="DKSR-EFI-06$@DKSR-EFI-06 2024-01-09 15:44:58" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-01-09T15:44:58.5918748+01:00" queuing="2024-01-09T15:44:58.5918748+01:00" start="2024-01-09T15:44:56.9356183+01:00" finish="2024-01-09T15:44:58.6387508+01:00" />
+  <TestSettings name="default" id="25d34781-71d2-483e-a708-699ebfc1464b">
+    <Deployment runDeploymentRoot="DKSR-EFI-06$_DKSR-EFI-06_2024-01-09_15_44_58" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="d267a8da-582a-48d4-bcce-97235a331847" testId="1eaa9baa-5cea-5b39-08f0-8569e6b26463" testName="Test_CertificatesValidNowAndTheNext5Years" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:58.5606256+01:00" endTime="2024-01-09T15:44:58.5606256+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d267a8da-582a-48d4-bcce-97235a331847" />
+    <UnitTestResult executionId="f3cf94eb-1d10-4d59-a558-68a47e52b687" testId="dd23a96e-edd7-def4-4749-0fe48a54db3f" testName="Test_GetAllCertificates" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:58.5293744+01:00" endTime="2024-01-09T15:44:58.5293744+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f3cf94eb-1d10-4d59-a558-68a47e52b687" />
+    <UnitTestResult executionId="754d0985-9db8-4f1b-9b92-bf73c5b11eae" testId="f3a563f8-1d3d-3f54-17d9-a3da5e639b87" testName="Test_GetCertificate_DoesNotExist" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:58.5606256+01:00" endTime="2024-01-09T15:44:58.5606256+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="754d0985-9db8-4f1b-9b92-bf73c5b11eae" />
+    <UnitTestResult executionId="0896bb24-4881-427f-b410-37405396e5fe" testId="1a6a2c9a-1b95-9779-1966-c9070722726f" testName="Test_CertificatesIssuedByCertificateAuthorities" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:58.5606256+01:00" endTime="2024-01-09T15:44:58.5606256+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0896bb24-4881-427f-b410-37405396e5fe" />
+    <UnitTestResult executionId="db4d800c-76ac-4c04-81c0-3626affe4126" testId="0ac78c9e-6ec8-dd9b-74b8-41f29ee96c75" testName="Test_GetCertificate" computerName="DKSR-EFI-06" startTime="2024-01-09T15:44:58.5606256+01:00" endTime="2024-01-09T15:44:58.5606256+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db4d800c-76ac-4c04-81c0-3626affe4126" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Test_CertificatesValidNowAndTheNext5Years" storage="d:\actions-runner\_work\xpco\xpco\serverconfigurator\binaries\videoos.serverconfigurator.certificateutilities.unittest\bin\debug\videoos.serverconfigurator.certificateutilities.unittest.dll" id="1eaa9baa-5cea-5b39-08f0-8569e6b26463">
+      <Execution id="d267a8da-582a-48d4-bcce-97235a331847" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\ServerConfigurator\Binaries\VideoOS.ServerConfigurator.CertificateUtilities.UnitTest\bin\Debug\VideoOS.ServerConfigurator.CertificateUtilities.UnitTest.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.ServerConfigurator.CertificateUtilities.UnitTest.IntegrationTests" name="Test_CertificatesValidNowAndTheNext5Years" />
+    </UnitTest>
+    <UnitTest name="Test_GetAllCertificates" storage="d:\actions-runner\_work\xpco\xpco\serverconfigurator\binaries\videoos.serverconfigurator.certificateutilities.unittest\bin\debug\videoos.serverconfigurator.certificateutilities.unittest.dll" id="dd23a96e-edd7-def4-4749-0fe48a54db3f">
+      <Execution id="f3cf94eb-1d10-4d59-a558-68a47e52b687" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\ServerConfigurator\Binaries\VideoOS.ServerConfigurator.CertificateUtilities.UnitTest\bin\Debug\VideoOS.ServerConfigurator.CertificateUtilities.UnitTest.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.ServerConfigurator.CertificateUtilities.UnitTest.IntegrationTests" name="Test_GetAllCertificates" />
+    </UnitTest>
+    <UnitTest name="Test_CertificatesIssuedByCertificateAuthorities" storage="d:\actions-runner\_work\xpco\xpco\serverconfigurator\binaries\videoos.serverconfigurator.certificateutilities.unittest\bin\debug\videoos.serverconfigurator.certificateutilities.unittest.dll" id="1a6a2c9a-1b95-9779-1966-c9070722726f">
+      <Execution id="0896bb24-4881-427f-b410-37405396e5fe" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\ServerConfigurator\Binaries\VideoOS.ServerConfigurator.CertificateUtilities.UnitTest\bin\Debug\VideoOS.ServerConfigurator.CertificateUtilities.UnitTest.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.ServerConfigurator.CertificateUtilities.UnitTest.IntegrationTests" name="Test_CertificatesIssuedByCertificateAuthorities" />
+    </UnitTest>
+    <UnitTest name="Test_GetCertificate" storage="d:\actions-runner\_work\xpco\xpco\serverconfigurator\binaries\videoos.serverconfigurator.certificateutilities.unittest\bin\debug\videoos.serverconfigurator.certificateutilities.unittest.dll" id="0ac78c9e-6ec8-dd9b-74b8-41f29ee96c75">
+      <Execution id="db4d800c-76ac-4c04-81c0-3626affe4126" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\ServerConfigurator\Binaries\VideoOS.ServerConfigurator.CertificateUtilities.UnitTest\bin\Debug\VideoOS.ServerConfigurator.CertificateUtilities.UnitTest.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.ServerConfigurator.CertificateUtilities.UnitTest.IntegrationTests" name="Test_GetCertificate" />
+    </UnitTest>
+    <UnitTest name="Test_GetCertificate_DoesNotExist" storage="d:\actions-runner\_work\xpco\xpco\serverconfigurator\binaries\videoos.serverconfigurator.certificateutilities.unittest\bin\debug\videoos.serverconfigurator.certificateutilities.unittest.dll" id="f3a563f8-1d3d-3f54-17d9-a3da5e639b87">
+      <Execution id="754d0985-9db8-4f1b-9b92-bf73c5b11eae" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\ServerConfigurator\Binaries\VideoOS.ServerConfigurator.CertificateUtilities.UnitTest\bin\Debug\VideoOS.ServerConfigurator.CertificateUtilities.UnitTest.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.ServerConfigurator.CertificateUtilities.UnitTest.IntegrationTests" name="Test_GetCertificate_DoesNotExist" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="1eaa9baa-5cea-5b39-08f0-8569e6b26463" executionId="d267a8da-582a-48d4-bcce-97235a331847" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd23a96e-edd7-def4-4749-0fe48a54db3f" executionId="f3cf94eb-1d10-4d59-a558-68a47e52b687" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3a563f8-1d3d-3f54-17d9-a3da5e639b87" executionId="754d0985-9db8-4f1b-9b92-bf73c5b11eae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1a6a2c9a-1b95-9779-1966-c9070722726f" executionId="0896bb24-4881-427f-b410-37405396e5fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0ac78c9e-6ec8-dd9b-74b8-41f29ee96c75" executionId="db4d800c-76ac-4c04-81c0-3626affe4126" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="0" passed="0" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>Test 'Test_GetAllCertificates' was skipped in the test run.&#xD;
+Test 'Test_CertificatesValidNowAndTheNext5Years' was skipped in the test run.&#xD;
+Test 'Test_CertificatesIssuedByCertificateAuthorities' was skipped in the test run.&#xD;
+Test 'Test_GetCertificate' was skipped in the test run.&#xD;
+Test 'Test_GetCertificate_DoesNotExist' was skipped in the test run.&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

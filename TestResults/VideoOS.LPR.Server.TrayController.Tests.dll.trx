@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="c0376203-23ff-4810-a353-11948ace7de5" name="DKSR-EFI-06$@DKSR-EFI-06 2024-01-09 15:43:53" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-01-09T15:43:53.0604462+01:00" queuing="2024-01-09T15:43:53.0604462+01:00" start="2024-01-09T15:43:50.6073138+01:00" finish="2024-01-09T15:43:53.1073258+01:00" />
+  <TestSettings name="default" id="b7ff5010-633a-42cb-9469-6d0568839041">
+    <Deployment runDeploymentRoot="DKSR-EFI-06$_DKSR-EFI-06_2024-01-09_15_43_53" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="4f3033bf-c85c-466f-bff7-468dd97a569e" testId="067924fa-dd19-f26c-2695-d0ac3232f129" testName="OemResources_LPRTC_ResourcePackageValidationTest (Milestone)" computerName="DKSR-EFI-06" duration="00:00:00.7149610" startTime="2024-01-09T15:43:51.7323154+01:00" endTime="2024-01-09T15:43:52.5916992+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f3033bf-c85c-466f-bff7-468dd97a569e" />
+    <UnitTestResult executionId="0939e581-ee23-47d8-bf4f-5ed80ab9b0bd" testId="0e015fbe-12dd-5141-ae80-495bcdf8bc41" testName="OemResources_ShouldHaveAll_LPRTC_Test (Milestone)" computerName="DKSR-EFI-06" duration="00:00:00.0034726" startTime="2024-01-09T15:43:52.6073226+01:00" endTime="2024-01-09T15:43:52.6073226+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0939e581-ee23-47d8-bf4f-5ed80ab9b0bd" />
+    <UnitTestResult executionId="69d23de8-3afa-40ba-a2e8-d1e48ed66d1c" testId="97637ec1-b51a-7e9a-5752-392f58418738" testName="OemResources_ShouldHaveAll_LPRTC_Test (Pink)" computerName="DKSR-EFI-06" duration="00:00:00.0004869" startTime="2024-01-09T15:43:52.6073226+01:00" endTime="2024-01-09T15:43:52.6073226+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="69d23de8-3afa-40ba-a2e8-d1e48ed66d1c" />
+    <UnitTestResult executionId="a14ae8a2-3862-44cb-9068-3ea39028cca7" testId="d4bdc5e0-3195-8175-5863-d4fc50159e68" testName="OemResources_LPRTC_ResourcePackageValidationTest (Pink)" computerName="DKSR-EFI-06" duration="00:00:00.0038144" startTime="2024-01-09T15:43:52.6073226+01:00" endTime="2024-01-09T15:43:52.6073226+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a14ae8a2-3862-44cb-9068-3ea39028cca7" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="OemResources_LPRTC_ResourcePackageValidationTest (Milestone)" storage="d:\actions-runner\_work\xpco\xpco\lpr\components\analytics\videoos.lpr.server.traycontroller.tests\bin\x64\debug\videoos.lpr.server.traycontroller.tests.dll" id="067924fa-dd19-f26c-2695-d0ac3232f129">
+      <Execution id="4f3033bf-c85c-466f-bff7-468dd97a569e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\LPR\Components\Analytics\VideoOS.LPR.Server.TrayController.Tests\bin\x64\Debug\VideoOS.LPR.Server.TrayController.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.LPR.Server.TrayController.Tests.Oem.OemTCResourcesUnitTest" name="OemResources_LPRTC_ResourcePackageValidationTest" />
+    </UnitTest>
+    <UnitTest name="OemResources_LPRTC_ResourcePackageValidationTest (Pink)" storage="d:\actions-runner\_work\xpco\xpco\lpr\components\analytics\videoos.lpr.server.traycontroller.tests\bin\x64\debug\videoos.lpr.server.traycontroller.tests.dll" id="d4bdc5e0-3195-8175-5863-d4fc50159e68">
+      <Execution id="a14ae8a2-3862-44cb-9068-3ea39028cca7" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\LPR\Components\Analytics\VideoOS.LPR.Server.TrayController.Tests\bin\x64\Debug\VideoOS.LPR.Server.TrayController.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.LPR.Server.TrayController.Tests.Oem.OemTCResourcesUnitTest" name="OemResources_LPRTC_ResourcePackageValidationTest" />
+    </UnitTest>
+    <UnitTest name="OemResources_ShouldHaveAll_LPRTC_Test (Milestone)" storage="d:\actions-runner\_work\xpco\xpco\lpr\components\analytics\videoos.lpr.server.traycontroller.tests\bin\x64\debug\videoos.lpr.server.traycontroller.tests.dll" id="0e015fbe-12dd-5141-ae80-495bcdf8bc41">
+      <Execution id="0939e581-ee23-47d8-bf4f-5ed80ab9b0bd" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\LPR\Components\Analytics\VideoOS.LPR.Server.TrayController.Tests\bin\x64\Debug\VideoOS.LPR.Server.TrayController.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.LPR.Server.TrayController.Tests.Oem.OemTCResourcesUnitTest" name="OemResources_ShouldHaveAll_LPRTC_Test" />
+    </UnitTest>
+    <UnitTest name="OemResources_ShouldHaveAll_LPRTC_Test (Pink)" storage="d:\actions-runner\_work\xpco\xpco\lpr\components\analytics\videoos.lpr.server.traycontroller.tests\bin\x64\debug\videoos.lpr.server.traycontroller.tests.dll" id="97637ec1-b51a-7e9a-5752-392f58418738">
+      <Execution id="69d23de8-3afa-40ba-a2e8-d1e48ed66d1c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\LPR\Components\Analytics\VideoOS.LPR.Server.TrayController.Tests\bin\x64\Debug\VideoOS.LPR.Server.TrayController.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.LPR.Server.TrayController.Tests.Oem.OemTCResourcesUnitTest" name="OemResources_ShouldHaveAll_LPRTC_Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="067924fa-dd19-f26c-2695-d0ac3232f129" executionId="4f3033bf-c85c-466f-bff7-468dd97a569e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0e015fbe-12dd-5141-ae80-495bcdf8bc41" executionId="0939e581-ee23-47d8-bf4f-5ed80ab9b0bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="97637ec1-b51a-7e9a-5752-392f58418738" executionId="69d23de8-3afa-40ba-a2e8-d1e48ed66d1c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4bdc5e0-3195-8175-5863-d4fc50159e68" executionId="a14ae8a2-3862-44cb-9068-3ea39028cca7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

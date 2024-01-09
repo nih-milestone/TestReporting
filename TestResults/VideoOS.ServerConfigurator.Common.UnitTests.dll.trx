@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="e3058e1f-8596-4c0c-a900-63f7b7cf8759" name="DKSR-EFI-06$@DKSR-EFI-06 2024-01-09 15:45:01" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-01-09T15:45:01.9356177+01:00" queuing="2024-01-09T15:45:01.9356177+01:00" start="2024-01-09T15:44:58.6543753+01:00" finish="2024-01-09T15:45:03.4200378+01:00" />
+  <TestSettings name="default" id="1b2755a3-d882-40ad-ac27-1eb8fdcb823d">
+    <Deployment runDeploymentRoot="DKSR-EFI-06$_DKSR-EFI-06_2024-01-09_15_45_01" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="b9753a4a-fad7-4631-a614-f0181fc342f0" testId="81e79dd3-df91-1dcb-3516-8601eacb17c3" testName="GivenAnImplementationExists_When_CreateInstance_Then_ItReturnsAnImplementation" computerName="DKSR-EFI-06" duration="00:00:01.8063488" startTime="2024-01-09T15:44:59.7012528+01:00" endTime="2024-01-09T15:45:01.5918681+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9753a4a-fad7-4631-a614-f0181fc342f0" />
+    <UnitTestResult executionId="7c0ecb41-7abb-46c6-acb3-942b2629c2ba" testId="0ab27746-0bf6-6d8f-6e5b-5201a54eb47c" testName="GivenTwoImplementationsExistsWithDifferentDependencies_When_UsingTheDependentFunctionality_Then_TheDependentItReturnsAnImplementation" computerName="DKSR-EFI-06" duration="00:00:00.4166911" startTime="2024-01-09T15:45:01.6699922+01:00" endTime="2024-01-09T15:45:02.0918701+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7c0ecb41-7abb-46c6-acb3-942b2629c2ba" />
+    <UnitTestResult executionId="9887bda4-838f-4f3e-9d84-929af63f09cc" testId="b3b4c790-8352-d65d-55f6-b7ba21da5fd0" testName="GivenRegsistrarExists_When_RegisteringClient_Then_UsernameAndPasswordIsCorrectlyReceivedInTheRegistrar" computerName="DKSR-EFI-06" duration="00:00:00.0928652" startTime="2024-01-09T15:45:02.0918701+01:00" endTime="2024-01-09T15:45:02.1856201+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9887bda4-838f-4f3e-9d84-929af63f09cc" />
+    <UnitTestResult executionId="d1958264-cbd7-48a2-a26f-400887c5cbf3" testId="48fb3487-bd70-cae2-f4a6-8566da34909a" testName="TestThatAllResourcesCanBeAccessed_MilestoneOEMResources" computerName="DKSR-EFI-06" startTime="2024-01-09T15:45:02.4200335+01:00" endTime="2024-01-09T15:45:02.4200335+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1958264-cbd7-48a2-a26f-400887c5cbf3" />
+    <UnitTestResult executionId="dca0f5d3-8cf9-4364-8f64-4a697e27aba7" testId="131c8fa4-f4a0-a9d9-b240-06708432d086" testName="TestThatAllResourcesCanBeAccessed_PinkOEMResources" computerName="DKSR-EFI-06" startTime="2024-01-09T15:45:02.4200335+01:00" endTime="2024-01-09T15:45:02.4200335+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dca0f5d3-8cf9-4364-8f64-4a697e27aba7" />
+    <UnitTestResult executionId="b4e10009-121f-471c-a8d4-31048563ce8a" testId="501da781-29cb-fd42-4166-9ba13197ca9a" testName="GivenAnImplementationWithTamperedContent_When_CreateInstance_Then_ItThrowsAFileLoadException" computerName="DKSR-EFI-06" duration="00:00:00.0944712" startTime="2024-01-09T15:45:02.3262452+01:00" endTime="2024-01-09T15:45:02.4200335+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b4e10009-121f-471c-a8d4-31048563ce8a" />
+    <UnitTestResult executionId="f899fe11-85b9-4cf2-9db1-7437e62d8e3c" testId="d84d8458-20a2-074e-5877-98eb1e65d7bf" testName="GivenAnImplementationExistsThatIsNotStrongnamedByMilestone_When_CreateInstance_Then_AFileLoadExceptionIsThrown" computerName="DKSR-EFI-06" duration="00:00:00.1386154" startTime="2024-01-09T15:45:02.1856201+01:00" endTime="2024-01-09T15:45:02.3262452+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f899fe11-85b9-4cf2-9db1-7437e62d8e3c" />
+    <UnitTestResult executionId="6b6588d8-9837-48fb-b5dc-76ec9eab900d" testId="8097abfb-fa78-435a-5875-1224c45c7759" testName="GivenAnImplementationDoesNotExists_When_CreateInstance_Then_ItReturnsNullAndTheLogContainsError" computerName="DKSR-EFI-06" duration="00:00:00.0579937" startTime="2024-01-09T15:45:01.6231161+01:00" endTime="2024-01-09T15:45:01.6699922+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6b6588d8-9837-48fb-b5dc-76ec9eab900d" />
+    <UnitTestResult executionId="91352937-34b4-4b5e-8255-b0a5b5766c79" testId="2a9be944-24eb-b6f4-9bf4-464714ba4a03" testName="TestThatASecurityExceptionIsThrownWhenOEMResourcesFileIsUnsigned" computerName="DKSR-EFI-06" duration="00:00:00.9612812" startTime="2024-01-09T15:45:02.4200335+01:00" endTime="2024-01-09T15:45:03.3887523+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="91352937-34b4-4b5e-8255-b0a5b5766c79" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestThatAllResourcesCanBeAccessed_PinkOEMResources" storage="d:\actions-runner\_work\xpco\xpco\serverconfigurator\binaries\videoos.serverconfigurator.common.unittests\bin\debug\videoos.serverconfigurator.common.unittests.dll" id="131c8fa4-f4a0-a9d9-b240-06708432d086">
+      <Execution id="dca0f5d3-8cf9-4364-8f64-4a697e27aba7" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\ServerConfigurator\Binaries\VideoOS.ServerConfigurator.Common.UnitTests\bin\Debug\VideoOS.ServerConfigurator.Common.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.ServerConfigurator.Common.UnitTests.OEMResourcesUnitTests" name="TestThatAllResourcesCanBeAccessed_PinkOEMResources" />
+    </UnitTest>
+    <UnitTest name="GivenAnImplementationExists_When_CreateInstance_Then_ItReturnsAnImplementation" storage="d:\actions-runner\_work\xpco\xpco\serverconfigurator\binaries\videoos.serverconfigurator.common.unittests\bin\debug\videoos.serverconfigurator.common.unittests.dll" id="81e79dd3-df91-1dcb-3516-8601eacb17c3">
+      <Execution id="b9753a4a-fad7-4631-a614-f0181fc342f0" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\ServerConfigurator\Binaries\VideoOS.ServerConfigurator.Common.UnitTests\bin\Debug\VideoOS.ServerConfigurator.Common.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.ServerConfigurator.Common.UnitTests.ActivatorTest" name="GivenAnImplementationExists_When_CreateInstance_Then_ItReturnsAnImplementation" />
+    </UnitTest>
+    <UnitTest name="GivenAnImplementationExistsThatIsNotStrongnamedByMilestone_When_CreateInstance_Then_AFileLoadExceptionIsThrown" storage="d:\actions-runner\_work\xpco\xpco\serverconfigurator\binaries\videoos.serverconfigurator.common.unittests\bin\debug\videoos.serverconfigurator.common.unittests.dll" id="d84d8458-20a2-074e-5877-98eb1e65d7bf">
+      <Execution id="f899fe11-85b9-4cf2-9db1-7437e62d8e3c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\ServerConfigurator\Binaries\VideoOS.ServerConfigurator.Common.UnitTests\bin\Debug\VideoOS.ServerConfigurator.Common.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.ServerConfigurator.Common.UnitTests.ActivatorTest" name="GivenAnImplementationExistsThatIsNotStrongnamedByMilestone_When_CreateInstance_Then_AFileLoadExceptionIsThrown" />
+    </UnitTest>
+    <UnitTest name="GivenAnImplementationWithTamperedContent_When_CreateInstance_Then_ItThrowsAFileLoadException" storage="d:\actions-runner\_work\xpco\xpco\serverconfigurator\binaries\videoos.serverconfigurator.common.unittests\bin\debug\videoos.serverconfigurator.common.unittests.dll" id="501da781-29cb-fd42-4166-9ba13197ca9a">
+      <Execution id="b4e10009-121f-471c-a8d4-31048563ce8a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\ServerConfigurator\Binaries\VideoOS.ServerConfigurator.Common.UnitTests\bin\Debug\VideoOS.ServerConfigurator.Common.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.ServerConfigurator.Common.UnitTests.ActivatorTest" name="GivenAnImplementationWithTamperedContent_When_CreateInstance_Then_ItThrowsAFileLoadException" />
+    </UnitTest>
+    <UnitTest name="TestThatAllResourcesCanBeAccessed_MilestoneOEMResources" storage="d:\actions-runner\_work\xpco\xpco\serverconfigurator\binaries\videoos.serverconfigurator.common.unittests\bin\debug\videoos.serverconfigurator.common.unittests.dll" id="48fb3487-bd70-cae2-f4a6-8566da34909a">
+      <Execution id="d1958264-cbd7-48a2-a26f-400887c5cbf3" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\ServerConfigurator\Binaries\VideoOS.ServerConfigurator.Common.UnitTests\bin\Debug\VideoOS.ServerConfigurator.Common.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.ServerConfigurator.Common.UnitTests.OEMResourcesUnitTests" name="TestThatAllResourcesCanBeAccessed_MilestoneOEMResources" />
+    </UnitTest>
+    <UnitTest name="TestThatASecurityExceptionIsThrownWhenOEMResourcesFileIsUnsigned" storage="d:\actions-runner\_work\xpco\xpco\serverconfigurator\binaries\videoos.serverconfigurator.common.unittests\bin\debug\videoos.serverconfigurator.common.unittests.dll" id="2a9be944-24eb-b6f4-9bf4-464714ba4a03">
+      <Execution id="91352937-34b4-4b5e-8255-b0a5b5766c79" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\ServerConfigurator\Binaries\VideoOS.ServerConfigurator.Common.UnitTests\bin\Debug\VideoOS.ServerConfigurator.Common.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.ServerConfigurator.Common.UnitTests.OEMResourcesUnitTests" name="TestThatASecurityExceptionIsThrownWhenOEMResourcesFileIsUnsigned" />
+    </UnitTest>
+    <UnitTest name="GivenRegsistrarExists_When_RegisteringClient_Then_UsernameAndPasswordIsCorrectlyReceivedInTheRegistrar" storage="d:\actions-runner\_work\xpco\xpco\serverconfigurator\binaries\videoos.serverconfigurator.common.unittests\bin\debug\videoos.serverconfigurator.common.unittests.dll" id="b3b4c790-8352-d65d-55f6-b7ba21da5fd0">
+      <Execution id="9887bda4-838f-4f3e-9d84-929af63f09cc" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\ServerConfigurator\Binaries\VideoOS.ServerConfigurator.Common.UnitTests\bin\Debug\VideoOS.ServerConfigurator.Common.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.ServerConfigurator.Common.UnitTests.ActivatorTest" name="GivenRegsistrarExists_When_RegisteringClient_Then_UsernameAndPasswordIsCorrectlyReceivedInTheRegistrar" />
+    </UnitTest>
+    <UnitTest name="GivenTwoImplementationsExistsWithDifferentDependencies_When_UsingTheDependentFunctionality_Then_TheDependentItReturnsAnImplementation" storage="d:\actions-runner\_work\xpco\xpco\serverconfigurator\binaries\videoos.serverconfigurator.common.unittests\bin\debug\videoos.serverconfigurator.common.unittests.dll" id="0ab27746-0bf6-6d8f-6e5b-5201a54eb47c">
+      <Execution id="7c0ecb41-7abb-46c6-acb3-942b2629c2ba" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\ServerConfigurator\Binaries\VideoOS.ServerConfigurator.Common.UnitTests\bin\Debug\VideoOS.ServerConfigurator.Common.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.ServerConfigurator.Common.UnitTests.ActivatorTest" name="GivenTwoImplementationsExistsWithDifferentDependencies_When_UsingTheDependentFunctionality_Then_TheDependentItReturnsAnImplementation" />
+    </UnitTest>
+    <UnitTest name="GivenAnImplementationDoesNotExists_When_CreateInstance_Then_ItReturnsNullAndTheLogContainsError" storage="d:\actions-runner\_work\xpco\xpco\serverconfigurator\binaries\videoos.serverconfigurator.common.unittests\bin\debug\videoos.serverconfigurator.common.unittests.dll" id="8097abfb-fa78-435a-5875-1224c45c7759">
+      <Execution id="6b6588d8-9837-48fb-b5dc-76ec9eab900d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\ServerConfigurator\Binaries\VideoOS.ServerConfigurator.Common.UnitTests\bin\Debug\VideoOS.ServerConfigurator.Common.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.ServerConfigurator.Common.UnitTests.ActivatorTest" name="GivenAnImplementationDoesNotExists_When_CreateInstance_Then_ItReturnsNullAndTheLogContainsError" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="81e79dd3-df91-1dcb-3516-8601eacb17c3" executionId="b9753a4a-fad7-4631-a614-f0181fc342f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0ab27746-0bf6-6d8f-6e5b-5201a54eb47c" executionId="7c0ecb41-7abb-46c6-acb3-942b2629c2ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b3b4c790-8352-d65d-55f6-b7ba21da5fd0" executionId="9887bda4-838f-4f3e-9d84-929af63f09cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48fb3487-bd70-cae2-f4a6-8566da34909a" executionId="d1958264-cbd7-48a2-a26f-400887c5cbf3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="131c8fa4-f4a0-a9d9-b240-06708432d086" executionId="dca0f5d3-8cf9-4364-8f64-4a697e27aba7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="501da781-29cb-fd42-4166-9ba13197ca9a" executionId="b4e10009-121f-471c-a8d4-31048563ce8a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d84d8458-20a2-074e-5877-98eb1e65d7bf" executionId="f899fe11-85b9-4cf2-9db1-7437e62d8e3c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8097abfb-fa78-435a-5875-1224c45c7759" executionId="6b6588d8-9837-48fb-b5dc-76ec9eab900d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a9be944-24eb-b6f4-9bf4-464714ba4a03" executionId="91352937-34b4-4b5e-8255-b0a5b5766c79" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="9" executed="7" passed="7" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>Test 'TestThatAllResourcesCanBeAccessed_MilestoneOEMResources' was skipped in the test run.&#xD;
+Test 'TestThatAllResourcesCanBeAccessed_PinkOEMResources' was skipped in the test run.&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

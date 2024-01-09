@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="c7408817-f46c-4542-b68b-d1eff3ff18ba" name="DKSR-EFI-06$@DKSR-EFI-06 2024-01-09 15:43:00" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-01-09T15:43:00.1853408+01:00" queuing="2024-01-09T15:43:00.1853408+01:00" start="2024-01-09T15:42:58.4509633+01:00" finish="2024-01-09T15:43:00.4822170+01:00" />
+  <TestSettings name="default" id="7067fc03-ce26-4aec-b711-cb15a658c33f">
+    <Deployment runDeploymentRoot="DKSR-EFI-06$_DKSR-EFI-06_2024-01-09_15_43_00" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="6da1b679-f379-43c3-89ec-5ae1c63462ed" testId="bc0f3f3c-a5e8-896f-7c5d-10a30e7429f6" testName="CombineLines_EmptyLists_Success" computerName="DKSR-EFI-06" duration="00:00:00.0214357" startTime="2024-01-09T15:42:59.7790909+01:00" endTime="2024-01-09T15:42:59.7947161+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6da1b679-f379-43c3-89ec-5ae1c63462ed" />
+    <UnitTestResult executionId="34afd8fa-262c-41f2-9b95-c4f65e36847d" testId="29cdf88d-df23-a45d-b011-bc2d374aef89" testName="Constructor_ShouldThrowException_WhenInvokedWithNullParameters" computerName="DKSR-EFI-06" duration="00:00:00.3651019" startTime="2024-01-09T15:42:59.8103416+01:00" endTime="2024-01-09T15:43:00.1697173+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34afd8fa-262c-41f2-9b95-c4f65e36847d" />
+    <UnitTestResult executionId="38d535a9-a596-4e25-a84b-2de843404b86" testId="6b9201a7-37b4-d76a-3fb4-f66b07c13aa3" testName="Validate_ShouldShowNoMessage_WhenValidPassword" computerName="DKSR-EFI-06" duration="00:00:00.0012441" startTime="2024-01-09T15:43:00.2634667+01:00" endTime="2024-01-09T15:43:00.2634667+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38d535a9-a596-4e25-a84b-2de843404b86" />
+    <UnitTestResult executionId="5dac1d35-309c-4689-9424-e1505b6c1e75" testId="6d5cb4ef-08f0-a8bf-18f5-9a00d221f10d" testName="Validate_ShouldShowGenericError_WhenErrorOnKeyManager" computerName="DKSR-EFI-06" duration="00:00:00.0308675" startTime="2024-01-09T15:43:00.2322166+01:00" endTime="2024-01-09T15:43:00.2634667+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5dac1d35-309c-4689-9424-e1505b6c1e75" />
+    <UnitTestResult executionId="282bc096-52db-4804-acfa-fadda2fd8ce5" testId="3d992484-eb9d-74f6-636c-b918188175ad" testName="Validate_ShouldShowPasswordError_WhenInvalidPassword" computerName="DKSR-EFI-06" duration="00:00:00.0023038" startTime="2024-01-09T15:43:00.2634667+01:00" endTime="2024-01-09T15:43:00.2634667+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="282bc096-52db-4804-acfa-fadda2fd8ce5" />
+    <UnitTestResult executionId="ee526aa7-35df-4e93-90cb-e8749bcce9e4" testId="c7b9344f-09f8-49f7-f4dc-0a6b5ffe53ff" testName="CombineLines_Success" computerName="DKSR-EFI-06" duration="00:00:00.0003553" startTime="2024-01-09T15:42:59.8103416+01:00" endTime="2024-01-09T15:42:59.8103416+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee526aa7-35df-4e93-90cb-e8749bcce9e4" />
+    <UnitTestResult executionId="b94d9365-8b69-477d-8168-2cf25057f8c3" testId="5d428cd6-5d69-e0f4-1ece-7a215bdb9736" testName="GetLastModifiedLogFile_FromEmptyDirectory_Success" computerName="DKSR-EFI-06" duration="00:00:00.3281820" startTime="2024-01-09T15:42:59.3415912+01:00" endTime="2024-01-09T15:42:59.7479292+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b94d9365-8b69-477d-8168-2cf25057f8c3" />
+    <UnitTestResult executionId="07b08a4e-d477-43d9-8f3b-4fc944ea1b3e" testId="125f7d39-0ada-3520-f81c-ac17effb3398" testName="CombineLines_NonEmptyLists_Success" computerName="DKSR-EFI-06" duration="00:00:00.0005863" startTime="2024-01-09T15:42:59.7947161+01:00" endTime="2024-01-09T15:42:59.7947161+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07b08a4e-d477-43d9-8f3b-4fc944ea1b3e" />
+    <UnitTestResult executionId="06d9390a-ea6c-4b52-a724-429998f67faa" testId="0f4d11da-af98-02d8-a52e-b6a2a840dded" testName="Validate_ShouldShowGenericError_WhenNoKeyFound" computerName="DKSR-EFI-06" duration="00:00:00.0506780" startTime="2024-01-09T15:43:00.1697173+01:00" endTime="2024-01-09T15:43:00.2322166+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06d9390a-ea6c-4b52-a724-429998f67faa" />
+    <UnitTestResult executionId="eeaa3ec9-21fd-4fa9-be29-841435077f46" testId="076e77e8-f239-d8a5-e367-47a7f917299c" testName="GetLastModifiedLogFile_DirectoryDoesntExists_Success" computerName="DKSR-EFI-06" duration="00:00:00.0048017" startTime="2024-01-09T15:42:59.7634656+01:00" endTime="2024-01-09T15:42:59.7634656+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eeaa3ec9-21fd-4fa9-be29-841435077f46" />
+    <UnitTestResult executionId="24ff4abe-f6b8-40e7-9912-d3e155b5ec27" testId="eef5964b-b856-5209-b5c8-86b2617014d5" testName="CombineLines_NewLinesListWith100Elements_Success" computerName="DKSR-EFI-06" duration="00:00:00.0002900" startTime="2024-01-09T15:42:59.7947161+01:00" endTime="2024-01-09T15:42:59.8103416+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="24ff4abe-f6b8-40e7-9912-d3e155b5ec27" />
+    <UnitTestResult executionId="96e47ca7-7bcb-4723-9907-2c475bd711a0" testId="479d4ef4-8669-b270-2800-ac2a7aa2683b" testName="GetLastModifiedLogFile_InvalidFile_Success" computerName="DKSR-EFI-06" duration="00:00:00.0110256" startTime="2024-01-09T15:42:59.7634656+01:00" endTime="2024-01-09T15:42:59.7790909+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96e47ca7-7bcb-4723-9907-2c475bd711a0" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Constructor_ShouldThrowException_WhenInvokedWithNullParameters" storage="d:\actions-runner\_work\xpco\xpco\eventserver\server\components\central\traycontroller.unittest\bin\debug\net472\videoos.event.server.traycontroller.unittest.dll" id="29cdf88d-df23-a45d-b011-bc2d374aef89">
+      <Execution id="34afd8fa-262c-41f2-9b95-c4f65e36847d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Server\Components\Central\TrayController.UnitTest\bin\Debug\net472\VideoOS.Event.Server.TrayController.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Event.Server.TrayController.UnitTest.SystemConfigurationPasswordViewModelTest" name="Constructor_ShouldThrowException_WhenInvokedWithNullParameters" />
+    </UnitTest>
+    <UnitTest name="CombineLines_NonEmptyLists_Success" storage="d:\actions-runner\_work\xpco\xpco\eventserver\server\components\central\traycontroller.unittest\bin\debug\net472\videoos.event.server.traycontroller.unittest.dll" id="125f7d39-0ada-3520-f81c-ac17effb3398">
+      <Execution id="07b08a4e-d477-43d9-8f3b-4fc944ea1b3e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Server\Components\Central\TrayController.UnitTest\bin\Debug\net472\VideoOS.Event.Server.TrayController.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Event.Server.TrayController.UnitTest.LogHelperTest" name="CombineLines_NonEmptyLists_Success" />
+    </UnitTest>
+    <UnitTest name="GetLastModifiedLogFile_InvalidFile_Success" storage="d:\actions-runner\_work\xpco\xpco\eventserver\server\components\central\traycontroller.unittest\bin\debug\net472\videoos.event.server.traycontroller.unittest.dll" id="479d4ef4-8669-b270-2800-ac2a7aa2683b">
+      <Execution id="96e47ca7-7bcb-4723-9907-2c475bd711a0" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Server\Components\Central\TrayController.UnitTest\bin\Debug\net472\VideoOS.Event.Server.TrayController.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Event.Server.TrayController.UnitTest.LogHelperTest" name="GetLastModifiedLogFile_InvalidFile_Success" />
+    </UnitTest>
+    <UnitTest name="CombineLines_NewLinesListWith100Elements_Success" storage="d:\actions-runner\_work\xpco\xpco\eventserver\server\components\central\traycontroller.unittest\bin\debug\net472\videoos.event.server.traycontroller.unittest.dll" id="eef5964b-b856-5209-b5c8-86b2617014d5">
+      <Execution id="24ff4abe-f6b8-40e7-9912-d3e155b5ec27" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Server\Components\Central\TrayController.UnitTest\bin\Debug\net472\VideoOS.Event.Server.TrayController.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Event.Server.TrayController.UnitTest.LogHelperTest" name="CombineLines_NewLinesListWith100Elements_Success" />
+    </UnitTest>
+    <UnitTest name="GetLastModifiedLogFile_FromEmptyDirectory_Success" storage="d:\actions-runner\_work\xpco\xpco\eventserver\server\components\central\traycontroller.unittest\bin\debug\net472\videoos.event.server.traycontroller.unittest.dll" id="5d428cd6-5d69-e0f4-1ece-7a215bdb9736">
+      <Execution id="b94d9365-8b69-477d-8168-2cf25057f8c3" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Server\Components\Central\TrayController.UnitTest\bin\Debug\net472\VideoOS.Event.Server.TrayController.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Event.Server.TrayController.UnitTest.LogHelperTest" name="GetLastModifiedLogFile_FromEmptyDirectory_Success" />
+    </UnitTest>
+    <UnitTest name="GetLastModifiedLogFile_DirectoryDoesntExists_Success" storage="d:\actions-runner\_work\xpco\xpco\eventserver\server\components\central\traycontroller.unittest\bin\debug\net472\videoos.event.server.traycontroller.unittest.dll" id="076e77e8-f239-d8a5-e367-47a7f917299c">
+      <Execution id="eeaa3ec9-21fd-4fa9-be29-841435077f46" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Server\Components\Central\TrayController.UnitTest\bin\Debug\net472\VideoOS.Event.Server.TrayController.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Event.Server.TrayController.UnitTest.LogHelperTest" name="GetLastModifiedLogFile_DirectoryDoesntExists_Success" />
+    </UnitTest>
+    <UnitTest name="Validate_ShouldShowPasswordError_WhenInvalidPassword" storage="d:\actions-runner\_work\xpco\xpco\eventserver\server\components\central\traycontroller.unittest\bin\debug\net472\videoos.event.server.traycontroller.unittest.dll" id="3d992484-eb9d-74f6-636c-b918188175ad">
+      <Execution id="282bc096-52db-4804-acfa-fadda2fd8ce5" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Server\Components\Central\TrayController.UnitTest\bin\Debug\net472\VideoOS.Event.Server.TrayController.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Event.Server.TrayController.UnitTest.SystemConfigurationPasswordViewModelTest" name="Validate_ShouldShowPasswordError_WhenInvalidPassword" />
+    </UnitTest>
+    <UnitTest name="Validate_ShouldShowGenericError_WhenNoKeyFound" storage="d:\actions-runner\_work\xpco\xpco\eventserver\server\components\central\traycontroller.unittest\bin\debug\net472\videoos.event.server.traycontroller.unittest.dll" id="0f4d11da-af98-02d8-a52e-b6a2a840dded">
+      <Execution id="06d9390a-ea6c-4b52-a724-429998f67faa" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Server\Components\Central\TrayController.UnitTest\bin\Debug\net472\VideoOS.Event.Server.TrayController.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Event.Server.TrayController.UnitTest.SystemConfigurationPasswordViewModelTest" name="Validate_ShouldShowGenericError_WhenNoKeyFound" />
+    </UnitTest>
+    <UnitTest name="CombineLines_Success" storage="d:\actions-runner\_work\xpco\xpco\eventserver\server\components\central\traycontroller.unittest\bin\debug\net472\videoos.event.server.traycontroller.unittest.dll" id="c7b9344f-09f8-49f7-f4dc-0a6b5ffe53ff">
+      <Execution id="ee526aa7-35df-4e93-90cb-e8749bcce9e4" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Server\Components\Central\TrayController.UnitTest\bin\Debug\net472\VideoOS.Event.Server.TrayController.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Event.Server.TrayController.UnitTest.LogHelperTest" name="CombineLines_Success" />
+    </UnitTest>
+    <UnitTest name="CombineLines_EmptyLists_Success" storage="d:\actions-runner\_work\xpco\xpco\eventserver\server\components\central\traycontroller.unittest\bin\debug\net472\videoos.event.server.traycontroller.unittest.dll" id="bc0f3f3c-a5e8-896f-7c5d-10a30e7429f6">
+      <Execution id="6da1b679-f379-43c3-89ec-5ae1c63462ed" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Server\Components\Central\TrayController.UnitTest\bin\Debug\net472\VideoOS.Event.Server.TrayController.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Event.Server.TrayController.UnitTest.LogHelperTest" name="CombineLines_EmptyLists_Success" />
+    </UnitTest>
+    <UnitTest name="Validate_ShouldShowGenericError_WhenErrorOnKeyManager" storage="d:\actions-runner\_work\xpco\xpco\eventserver\server\components\central\traycontroller.unittest\bin\debug\net472\videoos.event.server.traycontroller.unittest.dll" id="6d5cb4ef-08f0-a8bf-18f5-9a00d221f10d">
+      <Execution id="5dac1d35-309c-4689-9424-e1505b6c1e75" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Server\Components\Central\TrayController.UnitTest\bin\Debug\net472\VideoOS.Event.Server.TrayController.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Event.Server.TrayController.UnitTest.SystemConfigurationPasswordViewModelTest" name="Validate_ShouldShowGenericError_WhenErrorOnKeyManager" />
+    </UnitTest>
+    <UnitTest name="Validate_ShouldShowNoMessage_WhenValidPassword" storage="d:\actions-runner\_work\xpco\xpco\eventserver\server\components\central\traycontroller.unittest\bin\debug\net472\videoos.event.server.traycontroller.unittest.dll" id="6b9201a7-37b4-d76a-3fb4-f66b07c13aa3">
+      <Execution id="38d535a9-a596-4e25-a84b-2de843404b86" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\EventServer\Server\Components\Central\TrayController.UnitTest\bin\Debug\net472\VideoOS.Event.Server.TrayController.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Event.Server.TrayController.UnitTest.SystemConfigurationPasswordViewModelTest" name="Validate_ShouldShowNoMessage_WhenValidPassword" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="bc0f3f3c-a5e8-896f-7c5d-10a30e7429f6" executionId="6da1b679-f379-43c3-89ec-5ae1c63462ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="29cdf88d-df23-a45d-b011-bc2d374aef89" executionId="34afd8fa-262c-41f2-9b95-c4f65e36847d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6b9201a7-37b4-d76a-3fb4-f66b07c13aa3" executionId="38d535a9-a596-4e25-a84b-2de843404b86" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d5cb4ef-08f0-a8bf-18f5-9a00d221f10d" executionId="5dac1d35-309c-4689-9424-e1505b6c1e75" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d992484-eb9d-74f6-636c-b918188175ad" executionId="282bc096-52db-4804-acfa-fadda2fd8ce5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c7b9344f-09f8-49f7-f4dc-0a6b5ffe53ff" executionId="ee526aa7-35df-4e93-90cb-e8749bcce9e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d428cd6-5d69-e0f4-1ece-7a215bdb9736" executionId="b94d9365-8b69-477d-8168-2cf25057f8c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="125f7d39-0ada-3520-f81c-ac17effb3398" executionId="07b08a4e-d477-43d9-8f3b-4fc944ea1b3e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f4d11da-af98-02d8-a52e-b6a2a840dded" executionId="06d9390a-ea6c-4b52-a724-429998f67faa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="076e77e8-f239-d8a5-e367-47a7f917299c" executionId="eeaa3ec9-21fd-4fa9-be29-841435077f46" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eef5964b-b856-5209-b5c8-86b2617014d5" executionId="24ff4abe-f6b8-40e7-9912-d3e155b5ec27" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="479d4ef4-8669-b270-2800-ac2a7aa2683b" executionId="96e47ca7-7bcb-4723-9907-2c475bd711a0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="12" executed="12" passed="12" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

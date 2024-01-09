@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="4c424bde-4655-48e7-a162-0655ce9f7534" name="DKSR-EFI-06$@DKSR-EFI-06 2024-01-09 15:43:46" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-01-09T15:43:46.4041786+01:00" queuing="2024-01-09T15:43:46.4041786+01:00" start="2024-01-09T15:43:38.9354021+01:00" finish="2024-01-09T15:43:47.4354298+01:00" />
+  <TestSettings name="default" id="6969bb69-63e8-4075-925b-a3af86670e6b">
+    <Deployment runDeploymentRoot="DKSR-EFI-06$_DKSR-EFI-06_2024-01-09_15_43_46" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="a786b538-2182-458f-bd9b-db874f1cc88e" testId="30773f17-3ca4-ed4d-ef8a-bdd31dccf33b" testName="Given_ModelRepositoryWithCertificateModelExists_When_PersistingTheModelRepository_Then_TheCertificateCommandModelIsPersisted" computerName="DKSR-EFI-06" duration="00:00:01.1330178" startTime="2024-01-09T15:43:45.8729280+01:00" endTime="2024-01-09T15:43:47.0135541+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a786b538-2182-458f-bd9b-db874f1cc88e" />
+    <UnitTestResult executionId="e69b9b26-b1b2-4904-af0c-564c60510d54" testId="eaddb506-0bff-51f6-5c4e-53af78efac30" testName="Given_ModelRepositoryExists_When_AddingTheCertificateModelContainer_Then_TheCertificateCommandModelAndQueryModelCanBeFetchedFromTheRepsoitory" computerName="DKSR-EFI-06" duration="00:00:00.9384965" startTime="2024-01-09T15:43:44.7479239+01:00" endTime="2024-01-09T15:43:45.8104277+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e69b9b26-b1b2-4904-af0c-564c60510d54" />
+    <UnitTestResult executionId="6e76b3f1-8b2e-4914-9985-c5b30e214013" testId="f74ecb80-6702-e339-6520-185df29fd81f" testName="Given_ModelRepositoryWithCertificateModelExists_When_PrepareForReebotAndResumeAfterRebootIsCalled_Then_TheRepositoryIsRestored" computerName="DKSR-EFI-06" duration="00:00:00.1077171" startTime="2024-01-09T15:43:47.0135541+01:00" endTime="2024-01-09T15:43:47.1229318+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6e76b3f1-8b2e-4914-9985-c5b30e214013" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Given_ModelRepositoryExists_When_AddingTheCertificateModelContainer_Then_TheCertificateCommandModelAndQueryModelCanBeFetchedFromTheRepsoitory" storage="d:\actions-runner\_work\xpco\xpco\installerframework\videoos.installer.serverconfigurator.unittests\bin\debug\videoos.installer.serverconfigurator.unittests.dll" id="eaddb506-0bff-51f6-5c4e-53af78efac30">
+      <Execution id="e69b9b26-b1b2-4904-af0c-564c60510d54" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\InstallerFramework\VideoOS.Installer.ServerConfigurator.UnitTests\bin\Debug\VideoOS.Installer.ServerConfigurator.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Installer.ServerConfigurator.UnitTests.ModelContainerUnitTest" name="Given_ModelRepositoryExists_When_AddingTheCertificateModelContainer_Then_TheCertificateCommandModelAndQueryModelCanBeFetchedFromTheRepsoitory" />
+    </UnitTest>
+    <UnitTest name="Given_ModelRepositoryWithCertificateModelExists_When_PersistingTheModelRepository_Then_TheCertificateCommandModelIsPersisted" storage="d:\actions-runner\_work\xpco\xpco\installerframework\videoos.installer.serverconfigurator.unittests\bin\debug\videoos.installer.serverconfigurator.unittests.dll" id="30773f17-3ca4-ed4d-ef8a-bdd31dccf33b">
+      <Execution id="a786b538-2182-458f-bd9b-db874f1cc88e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\InstallerFramework\VideoOS.Installer.ServerConfigurator.UnitTests\bin\Debug\VideoOS.Installer.ServerConfigurator.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Installer.ServerConfigurator.UnitTests.ModelContainerUnitTest" name="Given_ModelRepositoryWithCertificateModelExists_When_PersistingTheModelRepository_Then_TheCertificateCommandModelIsPersisted" />
+    </UnitTest>
+    <UnitTest name="Given_ModelRepositoryWithCertificateModelExists_When_PrepareForReebotAndResumeAfterRebootIsCalled_Then_TheRepositoryIsRestored" storage="d:\actions-runner\_work\xpco\xpco\installerframework\videoos.installer.serverconfigurator.unittests\bin\debug\videoos.installer.serverconfigurator.unittests.dll" id="f74ecb80-6702-e339-6520-185df29fd81f">
+      <Execution id="6e76b3f1-8b2e-4914-9985-c5b30e214013" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\InstallerFramework\VideoOS.Installer.ServerConfigurator.UnitTests\bin\Debug\VideoOS.Installer.ServerConfigurator.UnitTests.dll" adapterTypeName="executor://mstestadapter/v1" className="VideoOS.Installer.ServerConfigurator.UnitTests.ModelContainerUnitTest" name="Given_ModelRepositoryWithCertificateModelExists_When_PrepareForReebotAndResumeAfterRebootIsCalled_Then_TheRepositoryIsRestored" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="30773f17-3ca4-ed4d-ef8a-bdd31dccf33b" executionId="a786b538-2182-458f-bd9b-db874f1cc88e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eaddb506-0bff-51f6-5c4e-53af78efac30" executionId="e69b9b26-b1b2-4904-af0c-564c60510d54" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f74ecb80-6702-e339-6520-185df29fd81f" executionId="6e76b3f1-8b2e-4914-9985-c5b30e214013" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>
