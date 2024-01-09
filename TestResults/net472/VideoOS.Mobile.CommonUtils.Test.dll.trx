@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="394b6ea1-0782-4113-9608-49bc9d055cf1" name="DKSR-EFI-06$@DKSR-EFI-06 2024-01-09 15:44:32" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-01-09T15:44:32.4668119+01:00" queuing="2024-01-09T15:44:32.4668119+01:00" start="2024-01-09T15:44:29.8105628+01:00" finish="2024-01-09T15:44:32.5293129+01:00" />
+  <TestSettings name="default" id="2ef692d1-5e59-4240-bd2e-7f723f57007a">
+    <Deployment runDeploymentRoot="DKSR-EFI-06$_DKSR-EFI-06_2024-01-09_15_44_32" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="347c4952-e084-4b0b-8e8e-d791b44bdead" testId="5a6008b9-2ab8-209c-a01d-fc279ab87ef3" testName="TestMilestonePinkOemCompleteness" computerName="DKSR-EFI-06" duration="00:00:01.0902664" startTime="2024-01-09T15:44:30.9199368+01:00" endTime="2024-01-09T15:44:32.1543112+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="347c4952-e084-4b0b-8e8e-d791b44bdead" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestMilestonePinkOemCompleteness" storage="d:\actions-runner\_work\xpco\xpco\mobile\mobileserver\mobileserverbinaries\videoos.mobile.commonutils.test\bin\debug\net472\videoos.mobile.commonutils.test.dll" id="5a6008b9-2ab8-209c-a01d-fc279ab87ef3">
+      <TestCategory>
+        <TestCategoryItem TestCategory="LongRunning" />
+      </TestCategory>
+      <Execution id="347c4952-e084-4b0b-8e8e-d791b44bdead" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Mobile\MobileServer\MobileServerBinaries\VideoOS.Mobile.CommonUtils.Test\bin\Debug\net472\VideoOS.Mobile.CommonUtils.Test.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Mobile.CommonUtils.Test.OemResourcesTests" name="TestMilestonePinkOemCompleteness" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="5a6008b9-2ab8-209c-a01d-fc279ab87ef3" executionId="347c4952-e084-4b0b-8e8e-d791b44bdead" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

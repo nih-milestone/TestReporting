@@ -1,0 +1,602 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="7d1b6f2e-a9c3-4122-8a17-50b6082871c9" name="DKSR-EFI-06$@DKSR-EFI-06 2024-01-09 15:43:22" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-01-09T15:43:22.2010001+01:00" queuing="2024-01-09T15:43:22.2010001+01:00" start="2024-01-09T15:43:19.2791235+01:00" finish="2024-01-09T15:43:23.6072504+01:00" />
+  <TestSettings name="default" id="84715275-03b9-44f7-8b5d-6a019b9eff9a">
+    <Deployment runDeploymentRoot="DKSR-EFI-06$_DKSR-EFI-06_2024-01-09_15_43_22" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="bb6f8f1f-9484-45cd-9168-7f456b077b3b" testId="03aaba94-2bf7-6ec0-49e0-ea102a13564d" testName="UpdateAsync_ShouldKeepTimeZoneFormat_WhenCalled" computerName="DKSR-EFI-06" duration="00:00:00.0029701" startTime="2024-01-09T15:43:22.7947493+01:00" endTime="2024-01-09T15:43:22.7947493+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb6f8f1f-9484-45cd-9168-7f456b077b3b" />
+    <UnitTestResult executionId="add730c4-8182-415a-af63-387e13b50163" testId="41f554f4-830f-815e-510c-978d64201b09" testName="VideoOsIMPluginMetadata_ShouldBeEqualTo_VersionControlMetadata" computerName="DKSR-EFI-06" duration="00:00:00.0010585" startTime="2024-01-09T15:43:23.1228742+01:00" endTime="2024-01-09T15:43:23.1228742+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="add730c4-8182-415a-af63-387e13b50163" />
+    <UnitTestResult executionId="472348e4-7ab2-4e93-b1a6-22d91205bb56" testId="db0611b9-bff4-8359-aad9-7af74534a73e" testName="Constructor_ShouldRaiseArgumentNullException_WhenDtoMilestoneUserIsNull" computerName="DKSR-EFI-06" duration="00:00:00.0006760" startTime="2024-01-09T15:43:22.6853733+01:00" endTime="2024-01-09T15:43:22.6853733+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="472348e4-7ab2-4e93-b1a6-22d91205bb56" />
+    <UnitTestResult executionId="dbfb4546-b35b-44aa-a516-0b0e1aae258d" testId="429a8236-57fe-411e-aef2-4a622b77d73c" testName="VideoOsIMPluginServiceMetadata_ShouldBeEqualTo_VersionControlMetadata" computerName="DKSR-EFI-06" duration="00:00:00.0005855" startTime="2024-01-09T15:43:23.1228742+01:00" endTime="2024-01-09T15:43:23.1228742+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dbfb4546-b35b-44aa-a516-0b0e1aae258d" />
+    <UnitTestResult executionId="ce3d30c0-150c-46ae-ac1b-ad6a268d9356" testId="58421988-2b3a-84aa-5e27-a40934a19e02" testName="GetAsync_ShouldConvertTimeFromUtcToLocal_WhenCalled" computerName="DKSR-EFI-06" duration="00:00:00.0160701" startTime="2024-01-09T15:43:22.7009989+01:00" endTime="2024-01-09T15:43:22.7166241+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce3d30c0-150c-46ae-ac1b-ad6a268d9356" />
+    <UnitTestResult executionId="2e7ba2bd-d33a-4df6-828d-5381e8415286" testId="42568d88-39e5-229f-8325-b7d5eb552fb3" testName="CreateAsync_ShouldConvertTimeFromLocalToUtc_WhenCalled" computerName="DKSR-EFI-06" duration="00:00:00.0036254" startTime="2024-01-09T15:43:22.7478745+01:00" endTime="2024-01-09T15:43:22.7635003+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e7ba2bd-d33a-4df6-828d-5381e8415286" />
+    <UnitTestResult executionId="e9c4c9f8-921d-4523-a1c1-58adcf017d51" testId="0b94fb66-5eac-6cbe-dd2a-27ca028adf4b" testName="Initialize_ShouldCallHelpManagerInitializeMethod_WhenCalled" computerName="DKSR-EFI-06" duration="00:00:00.0190502" startTime="2024-01-09T15:43:22.2634989+01:00" endTime="2024-01-09T15:43:22.2791255+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e9c4c9f8-921d-4523-a1c1-58adcf017d51" />
+    <UnitTestResult executionId="75a8b4ff-4dfe-42af-917c-db5c66366bb3" testId="f9708a97-eb68-dc40-846f-55c4b840bd79" testName="ExecutePutRequestAsync_ShouldRaiseArgumentNullException_WhenApiHostNameIsNull" computerName="DKSR-EFI-06" duration="00:00:00.0033547" startTime="2024-01-09T15:43:22.6384989+01:00" endTime="2024-01-09T15:43:22.6541244+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75a8b4ff-4dfe-42af-917c-db5c66366bb3" />
+    <UnitTestResult executionId="17279b52-921e-4899-adfa-39c0a750014a" testId="c94d039a-9faf-d096-18a4-4d43d3bdc508" testName="Convert_ShouldLocalizeKeyAndAddNewLines_WhenThereAreChildEntries" computerName="DKSR-EFI-06" duration="00:00:00.0006220" startTime="2024-01-09T15:43:22.3884996+01:00" endTime="2024-01-09T15:43:22.3884996+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="17279b52-921e-4899-adfa-39c0a750014a" />
+    <UnitTestResult executionId="03e60a90-46a9-4cf0-b76f-14a3d7d1578c" testId="fbb008ef-eebe-201c-2c97-2199be6bad40" testName="Constructor_ShouldRaiseArgumentNullException_WhenDtoMilestoneUserIsNull" computerName="DKSR-EFI-06" duration="00:00:00.0007166" startTime="2024-01-09T15:43:22.8103755+01:00" endTime="2024-01-09T15:43:22.8103755+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="03e60a90-46a9-4cf0-b76f-14a3d7d1578c" />
+    <UnitTestResult executionId="7dc0aa3d-d873-476e-a9d2-3be361e6a368" testId="48b3c9c9-8976-1f54-f88f-183fe995d28b" testName="ShowHelpTopic_ShouldCallHelpManagerShowWithValidTopic_WhenInternalTopicIdCanBeFound" computerName="DKSR-EFI-06" duration="00:00:00.0018823" startTime="2024-01-09T15:43:22.2947502+01:00" endTime="2024-01-09T15:43:22.2947502+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7dc0aa3d-d873-476e-a9d2-3be361e6a368" />
+    <UnitTestResult executionId="72b3147d-53f4-4032-93ec-43ab2f0b594b" testId="9db06c9e-0ef5-5f30-01db-46823f592804" testName="CreateAsync_ShouldConvertTimeFromLocalToUtc_WhenCalled" computerName="DKSR-EFI-06" duration="00:00:00.0149925" startTime="2024-01-09T15:43:22.6853733+01:00" endTime="2024-01-09T15:43:22.7009989+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="72b3147d-53f4-4032-93ec-43ab2f0b594b" />
+    <UnitTestResult executionId="2ee6331f-edef-4ce7-82d2-947cdf6215c6" testId="ad986e6f-2f8a-674d-e45e-979ab53df359" testName="GetLocalizedResource_ShouldRaiseArgumentNullException_WhenLocalizationKeyIsNull" computerName="DKSR-EFI-06" duration="00:00:00.0006551" startTime="2024-01-09T15:43:22.3884996+01:00" endTime="2024-01-09T15:43:22.3884996+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ee6331f-edef-4ce7-82d2-947cdf6215c6" />
+    <UnitTestResult executionId="2a4e1883-a709-4b3e-b6f0-c616c4ea8abe" testId="401d2f30-e84f-7dcb-6c96-06e618e82ae3" testName="DeleteAsync_ShouldFail_WhenCalled" computerName="DKSR-EFI-06" duration="00:00:00.0011539" startTime="2024-01-09T15:43:22.8260029+01:00" endTime="2024-01-09T15:43:22.8260029+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a4e1883-a709-4b3e-b6f0-c616c4ea8abe" />
+    <UnitTestResult executionId="0ceee711-8ee1-49a1-ba49-3a1a54f8c158" testId="0c8e1b89-c591-d8e8-ebef-e97b7c7fe754" testName="ExecuteDeleteRequestAsync_ShouldRaiseArgumentNullException_WhenPathIsNull" computerName="DKSR-EFI-06" duration="00:00:00.0008787" startTime="2024-01-09T15:43:22.6541244+01:00" endTime="2024-01-09T15:43:22.6541244+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ceee711-8ee1-49a1-ba49-3a1a54f8c158" />
+    <UnitTestResult executionId="41c0c372-7bb3-4e54-9bba-0fc1d07f89ce" testId="3818ab2d-cfd0-bfa9-8b02-087ffe164b29" testName="GetLocalizedResource_ShouldRaiseArgumentException_WhenLocalizationKeyDoesNotExist" computerName="DKSR-EFI-06" duration="00:00:00.0005302" startTime="2024-01-09T15:43:22.3884996+01:00" endTime="2024-01-09T15:43:22.3884996+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="41c0c372-7bb3-4e54-9bba-0fc1d07f89ce" />
+    <UnitTestResult executionId="2324d7c2-3bd1-4933-b5ac-2d6f846d40dd" testId="1e1800a6-ed2b-85e4-4b23-599a6e7c4d7b" testName="Instance_ShouldBeSingleton_WhenCalled" computerName="DKSR-EFI-06" duration="00:00:00.2448066" startTime="2024-01-09T15:43:22.3884996+01:00" endTime="2024-01-09T15:43:22.6384989+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2324d7c2-3bd1-4933-b5ac-2d6f846d40dd" />
+    <UnitTestResult executionId="c79fbd70-d835-4b94-bb47-43aa5f4d13c3" testId="a816781a-f41d-e9e0-8c7a-d3fac176fc67" testName="ExecutePostRequestAsync_ShouldRaiseArgumentNullException_WhenPathIsNull" computerName="DKSR-EFI-06" duration="00:00:00.0008452" startTime="2024-01-09T15:43:22.6384989+01:00" endTime="2024-01-09T15:43:22.6384989+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c79fbd70-d835-4b94-bb47-43aa5f4d13c3" />
+    <UnitTestResult executionId="5898e989-b24b-4705-9ad1-a8b5f0b1afa5" testId="a4854f87-6673-a096-d230-a7a6b068f158" testName="Constructor_ShouldRaiseArgumentNullException_WhenDtoMilestoneUserIsNull" computerName="DKSR-EFI-06" duration="00:00:00.0006981" startTime="2024-01-09T15:43:22.7478745+01:00" endTime="2024-01-09T15:43:22.7478745+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5898e989-b24b-4705-9ad1-a8b5f0b1afa5" />
+    <UnitTestResult executionId="48f83f76-ada0-4e56-9b18-7ef88b9feea0" testId="1732bb13-68c4-42a0-0435-7913f6d7e07e" testName="GetListAsync_ShouldConvertTimeFromUtcToLocal_WhenCalled" computerName="DKSR-EFI-06" duration="00:00:00.0206167" startTime="2024-01-09T15:43:22.7166241+01:00" endTime="2024-01-09T15:43:22.7478745+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="48f83f76-ada0-4e56-9b18-7ef88b9feea0" />
+    <UnitTestResult executionId="127d83ef-f7aa-4d3d-8be8-e8e69e18a598" testId="36456823-755d-d5b7-130a-facd94276fc9" testName="GetNumberFromAdditionalFieldsConfig_ShouldRaisArgumentException_WhenIncidentExtendedPropsConfigValueIsNotValid" computerName="DKSR-EFI-06" duration="00:00:00.0048873" startTime="2024-01-09T15:43:22.2947502+01:00" endTime="2024-01-09T15:43:22.2947502+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="127d83ef-f7aa-4d3d-8be8-e8e69e18a598" />
+    <UnitTestResult executionId="08b581cf-666f-47e6-b09f-8741d94976e7" testId="edf8f192-0d24-8677-2cb2-cc86bdd9c9e8" testName="Constructor_ShouldRaiseArgumentNullException_WhenHelpManagerIsNull" computerName="DKSR-EFI-06" duration="00:00:00.0007262" startTime="2024-01-09T15:43:22.2010001+01:00" endTime="2024-01-09T15:43:22.2010001+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="08b581cf-666f-47e6-b09f-8741d94976e7" />
+    <UnitTestResult executionId="ae602a26-7813-4679-a9ee-311f8b7b4355" testId="9c709baf-26ad-36a7-278d-0527aca60bea" testName="GetListAsync_ShouldConvertTimeFromUtcToLocal_WhenCalled" computerName="DKSR-EFI-06" duration="00:00:00.0058380" startTime="2024-01-09T15:43:22.7635003+01:00" endTime="2024-01-09T15:43:22.7635003+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ae602a26-7813-4679-a9ee-311f8b7b4355" />
+    <UnitTestResult executionId="c60bd7e0-1250-4503-89d6-cc8f07c50918" testId="567f4b1c-eab6-da16-052a-4272dea29149" testName="Convert_ShouldOnlyLocalizeKey_WhenThereAreNoParametersNorChildEntries" computerName="DKSR-EFI-06" duration="00:00:00.0689600" startTime="2024-01-09T15:43:22.3104431+01:00" endTime="2024-01-09T15:43:22.3728741+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c60bd7e0-1250-4503-89d6-cc8f07c50918" />
+    <UnitTestResult executionId="5f4ee481-2a7d-4271-bd37-c8c4ae7fe7dd" testId="26662593-2650-79aa-5809-e6252afa6781" testName="ExecuteDeleteRequestAsync_ShouldRaiseArgumentNullException_WhenApiHostNameIsNull" computerName="DKSR-EFI-06" duration="00:00:00.0030445" startTime="2024-01-09T15:43:22.6541244+01:00" endTime="2024-01-09T15:43:22.6541244+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f4ee481-2a7d-4271-bd37-c8c4ae7fe7dd" />
+    <UnitTestResult executionId="e3526729-0b25-4d91-83ac-b349c173db2c" testId="cf7fea82-51ed-5789-6f3b-7c8ca20e7514" testName="Initialize_ShouldCallHelpManagerCloseMethod_WhenCalled" computerName="DKSR-EFI-06" duration="00:00:00.0592358" startTime="2024-01-09T15:43:22.2010001+01:00" endTime="2024-01-09T15:43:22.2634989+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3526729-0b25-4d91-83ac-b349c173db2c" />
+    <UnitTestResult executionId="010051f5-fbad-414d-9662-6035af0c37c3" testId="4683fbb5-3d6b-a6a1-5470-c17ab1bf1fd7" testName="Constructor_ShouldRaiseArgumentNullException_WhenWebApiUriProviderIsNull" computerName="DKSR-EFI-06" duration="00:00:00.0011026" startTime="2024-01-09T15:43:22.7478745+01:00" endTime="2024-01-09T15:43:22.7478745+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="010051f5-fbad-414d-9662-6035af0c37c3" />
+    <UnitTestResult executionId="16c391f8-20f8-4f35-b970-e01e115b3c53" testId="67a51236-d2ba-d326-3f0d-232587a303de" testName="UpdateAsync_ShouldKeepTimeZoneFormat_WhenCalled" computerName="DKSR-EFI-06" duration="00:00:00.0069602" startTime="2024-01-09T15:43:22.7478745+01:00" endTime="2024-01-09T15:43:22.7478745+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16c391f8-20f8-4f35-b970-e01e115b3c53" />
+    <UnitTestResult executionId="0239cf5c-2381-4dcc-8659-7814beb2a869" testId="ce283f94-d317-2d16-5626-e44f0db8aa9c" testName="ExcludeFromAboutBox_ShouldReturnTrue_WhenCalled" computerName="DKSR-EFI-06" duration="00:00:00.3021120" startTime="2024-01-09T15:43:22.8260029+01:00" endTime="2024-01-09T15:43:23.1228742+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0239cf5c-2381-4dcc-8659-7814beb2a869" />
+    <UnitTestResult executionId="3b4668e7-574e-4d18-a8c1-0c8502b7c5e7" testId="2958c738-6f41-76f9-68a1-5f3762624d01" testName="VideoOsIMPluginWPFControlsMetadata_ShouldBeEqualTo_VersionControlMetadata" computerName="DKSR-EFI-06" duration="00:00:00.0005846" startTime="2024-01-09T15:43:23.1228742+01:00" endTime="2024-01-09T15:43:23.1385018+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b4668e7-574e-4d18-a8c1-0c8502b7c5e7" />
+    <UnitTestResult executionId="34d2620f-54c9-4eba-9441-8894fe6a145d" testId="3b5e2c72-d24e-ad4b-21da-475c3d7ca383" testName="Constructor_ShouldRaiseArgumentNullException_WhenHelpTopicsAssemblyIsNull" computerName="DKSR-EFI-06" duration="00:00:00.6388215" startTime="2024-01-09T15:43:21.3259979+01:00" endTime="2024-01-09T15:43:21.9666251+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34d2620f-54c9-4eba-9441-8894fe6a145d" />
+    <UnitTestResult executionId="8bc73ec1-15f7-4317-bcc2-f34fc2367013" testId="79a17696-4f1f-7370-e171-f4f3d422708c" testName="UpdateAsync_ShouldKeepTimeZoneFormat_WhenCalled" computerName="DKSR-EFI-06" duration="00:00:00.0026058" startTime="2024-01-09T15:43:22.7635003+01:00" endTime="2024-01-09T15:43:22.7635003+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8bc73ec1-15f7-4317-bcc2-f34fc2367013" />
+    <UnitTestResult executionId="fae561e9-5855-47cc-9239-2893bfe53aa4" testId="f7da7cca-13ee-9a8a-f84d-3868c8b9ba05" testName="ShowHelpTopic_ShouldCallHelpManagerShowHelp_WhenCalled" computerName="DKSR-EFI-06" duration="00:00:00.0082126" startTime="2024-01-09T15:43:22.2791255+01:00" endTime="2024-01-09T15:43:22.2947502+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fae561e9-5855-47cc-9239-2893bfe53aa4" />
+    <UnitTestResult executionId="b1ee9c89-7265-4346-8385-c0b1b8758ba6" testId="82aaf990-41a6-8f10-9120-96ea9a3ecaf6" testName="Constructor_ShouldRaiseArgumentNullException_WhenWebApiClientIsNull" computerName="DKSR-EFI-06" duration="00:00:00.0006812" startTime="2024-01-09T15:43:22.7791258+01:00" endTime="2024-01-09T15:43:22.7791258+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1ee9c89-7265-4346-8385-c0b1b8758ba6" />
+    <UnitTestResult executionId="cc0e9bdb-e6fd-4f75-ae36-5718fa9f2742" testId="ec1dc697-20b1-bafe-6d28-a81612cd7724" testName="ExecutePostRequestAsync_ShouldRaiseArgumentNullException_WhenApiHostNameIsNull" computerName="DKSR-EFI-06" duration="00:00:00.0031007" startTime="2024-01-09T15:43:22.6384989+01:00" endTime="2024-01-09T15:43:22.6384989+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc0e9bdb-e6fd-4f75-ae36-5718fa9f2742" />
+    <UnitTestResult executionId="30e0a7dc-e376-4d37-b5db-5ba5bdb31f16" testId="4bd13901-a66d-00af-705f-8c48681942fe" testName="Constructor_ShouldRaiseArgumentNullException_WhenTopicProviderMockIsNull" computerName="DKSR-EFI-06" duration="00:00:00.0007610" startTime="2024-01-09T15:43:22.2010001+01:00" endTime="2024-01-09T15:43:22.2010001+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="30e0a7dc-e376-4d37-b5db-5ba5bdb31f16" />
+    <UnitTestResult executionId="794de357-5591-403a-9424-988e72d43843" testId="8808ac2d-fb0c-3334-3067-e8e8ea93a32b" testName="ExecuteGetRequestAsync_ShouldRaiseArgumentNullException_WhenApiHostNameIsNull" computerName="DKSR-EFI-06" duration="00:00:00.0038407" startTime="2024-01-09T15:43:22.6384989+01:00" endTime="2024-01-09T15:43:22.6384989+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="794de357-5591-403a-9424-988e72d43843" />
+    <UnitTestResult executionId="06c71ade-0c77-4e25-af7e-897ea2362efc" testId="65df916e-0086-6062-e683-701a31fa20ba" testName="GetTopicByInternalTopicId_ShouldRaiseArgumentNullException_WhenInternalTopicIdIsNull" computerName="DKSR-EFI-06" duration="00:00:00.0010036" startTime="2024-01-09T15:43:21.9666251+01:00" endTime="2024-01-09T15:43:21.9666251+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06c71ade-0c77-4e25-af7e-897ea2362efc" />
+    <UnitTestResult executionId="82352b81-f80a-49d2-9c5a-1c4b950686ab" testId="44e0bfad-daf8-68dd-5e66-7aea3e0e30b9" testName="ShowHelpTopic_ShouldRaiseArgumentNullException_WhenInternalTopicIdIsNull" computerName="DKSR-EFI-06" duration="00:00:00.0011496" startTime="2024-01-09T15:43:22.2791255+01:00" endTime="2024-01-09T15:43:22.2791255+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="82352b81-f80a-49d2-9c5a-1c4b950686ab" />
+    <UnitTestResult executionId="2dc3cb9b-31c3-4a85-ac04-8c379faafc4c" testId="a612e3ae-c974-b964-cf15-b7c0182e6065" testName="Create_ShouldConvertTimeFromLocalToUtc_WhenCalled" computerName="DKSR-EFI-06" duration="00:00:00.0048119" startTime="2024-01-09T15:43:22.7791258+01:00" endTime="2024-01-09T15:43:22.7791258+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2dc3cb9b-31c3-4a85-ac04-8c379faafc4c" />
+    <UnitTestResult executionId="e7ca30e8-d7be-455c-845e-4a554f3e1404" testId="7294fa9b-0fd3-cde7-c53d-dccbd999c7d2" testName="Constructor_ShouldRaiseArgumentNullException_WhenWebApiClientIsNull" computerName="DKSR-EFI-06" duration="00:00:00.0006632" startTime="2024-01-09T15:43:22.7478745+01:00" endTime="2024-01-09T15:43:22.7478745+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7ca30e8-d7be-455c-845e-4a554f3e1404" />
+    <UnitTestResult executionId="274be598-0c28-4726-9411-d94cd7565202" testId="64c88343-3526-3a72-a41d-bb0076bb4e02" testName="GetListAsync_ShouldConvertTimeFromUtcToLocal_WhenCalled" computerName="DKSR-EFI-06" duration="00:00:00.0055396" startTime="2024-01-09T15:43:22.8103755+01:00" endTime="2024-01-09T15:43:22.8103755+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="274be598-0c28-4726-9411-d94cd7565202" />
+    <UnitTestResult executionId="6082c572-ea67-47a9-94a3-b1bc56333d58" testId="d57b929f-a3bd-5d92-6a7e-f70fecab7d9e" testName="Constructor_ShouldRaiseArgumentNullException_WhenWebApiUriProviderIsNull" computerName="DKSR-EFI-06" duration="00:00:00.0012335" startTime="2024-01-09T15:43:22.7947493+01:00" endTime="2024-01-09T15:43:22.7947493+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6082c572-ea67-47a9-94a3-b1bc56333d58" />
+    <UnitTestResult executionId="dd316173-f2f5-469b-bd69-77cefe7f142a" testId="4bcbd62b-ea48-1f72-c8eb-eb28e8023e8b" testName="GetTopicByInternalTopicId_ShouldReturnDefaultIMTopic_WhenInternalTopicIdCannotBeFound" computerName="DKSR-EFI-06" duration="00:00:00.1777148" startTime="2024-01-09T15:43:21.9666251+01:00" endTime="2024-01-09T15:43:22.1541255+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd316173-f2f5-469b-bd69-77cefe7f142a" />
+    <UnitTestResult executionId="3728b3de-84c2-4d6d-9b25-8b856a242001" testId="98a0971d-0956-f9c4-eda7-e4b24574128e" testName="GetNumberFromAdditionalFieldsConfig_ShouldReturnNumber_WhenIncidentExtendedPropsConfigValueEndsWithNumber" computerName="DKSR-EFI-06" duration="00:00:00.0075570" startTime="2024-01-09T15:43:22.2947502+01:00" endTime="2024-01-09T15:43:22.3104431+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3728b3de-84c2-4d6d-9b25-8b856a242001" />
+    <UnitTestResult executionId="fade7618-e2bc-420f-89c6-d8bbdb007a4d" testId="e21be94f-b7d7-0a24-0128-1c4987aa83c1" testName="Constructor_ShouldRaiseArgumentNullException_WhenWebApiClientIsNull" computerName="DKSR-EFI-06" duration="00:00:00.0049757" startTime="2024-01-09T15:43:22.6853733+01:00" endTime="2024-01-09T15:43:22.6853733+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fade7618-e2bc-420f-89c6-d8bbdb007a4d" />
+    <UnitTestResult executionId="2de96867-a338-4b3f-a2ad-9b0b0cdc409c" testId="8b247828-16bc-3f00-47b3-1ec37ccf3439" testName="GetAsync_ShouldConvertTimeFromUtcToLocal_WhenCalled" computerName="DKSR-EFI-06" duration="00:00:00.0044590" startTime="2024-01-09T15:43:22.7635003+01:00" endTime="2024-01-09T15:43:22.7635003+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2de96867-a338-4b3f-a2ad-9b0b0cdc409c" />
+    <UnitTestResult executionId="6da341e4-d807-4da6-8e15-695dca181824" testId="f949ac49-11fb-5291-5495-662d06d13210" testName="Constructor_ShouldRaiseArgumentNullException_WhenWebApiUriProviderIsNull" computerName="DKSR-EFI-06" duration="00:00:00.0279352" startTime="2024-01-09T15:43:22.6541244+01:00" endTime="2024-01-09T15:43:22.6853733+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6da341e4-d807-4da6-8e15-695dca181824" />
+    <UnitTestResult executionId="10222417-8d15-464f-b847-081af2043fe4" testId="0f3a4028-8a3a-459d-f423-dc679a86cef4" testName="GetTopicByInternalTopicId_ShouldReturnValidTopic_WhenInternalTopicIdCanBeFound" computerName="DKSR-EFI-06" duration="00:00:00.0005254" startTime="2024-01-09T15:43:22.1541255+01:00" endTime="2024-01-09T15:43:22.1541255+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="10222417-8d15-464f-b847-081af2043fe4" />
+    <UnitTestResult executionId="2a711bda-d339-470c-8d24-2a98640c33dc" testId="ce0c5d57-af61-7c69-098c-791730599745" testName="GetLocalizedResource_ShouldReturnLocalizedString_WhenLocalizationKeyExists" computerName="DKSR-EFI-06" duration="00:00:00.0013412" startTime="2024-01-09T15:43:22.3884996+01:00" endTime="2024-01-09T15:43:22.3884996+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a711bda-d339-470c-8d24-2a98640c33dc" />
+    <UnitTestResult executionId="dd3751f5-3f1e-4aa8-be0a-ca390b4f13b5" testId="9091fcd4-62d5-9bcd-5d1a-0748769a2f8f" testName="Constructor_ShouldRaiseArgumentNullException_WhenLoggerIsNull" computerName="DKSR-EFI-06" duration="00:00:00.7919824" startTime="2024-01-09T15:43:20.2947489+01:00" endTime="2024-01-09T15:43:21.3103742+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd3751f5-3f1e-4aa8-be0a-ca390b4f13b5" />
+    <UnitTestResult executionId="f8142a62-5256-40b9-9307-7aa415f8d6bc" testId="88a09e42-e0f5-c8dc-a9f0-82d5be4835d8" testName="GetAsync_ShouldConvertTimeFromUtcToLocal_WhenCalled" computerName="DKSR-EFI-06" duration="00:00:00.0043211" startTime="2024-01-09T15:43:22.8103755+01:00" endTime="2024-01-09T15:43:22.8103755+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f8142a62-5256-40b9-9307-7aa415f8d6bc" />
+    <UnitTestResult executionId="2cf1a1be-fe8d-4ec7-aa6e-157967acea3a" testId="f378aeeb-3704-ec95-8223-41ed567f6393" testName="Constructor_ShouldRaiseArgumentNullException_WhenWebApiUriProviderIsNull" computerName="DKSR-EFI-06" duration="00:00:00.0010929" startTime="2024-01-09T15:43:22.7635003+01:00" endTime="2024-01-09T15:43:22.7791258+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2cf1a1be-fe8d-4ec7-aa6e-157967acea3a" />
+    <UnitTestResult executionId="61a184e0-a345-4b4c-bb27-d240c26238df" testId="8bc52ff9-0037-b569-8317-309348f703a1" testName="Convert_ShouldLocalizeKeyAndParameters_WhenThereAreParametersAndNoChildEntries" computerName="DKSR-EFI-06" duration="00:00:00.0036516" startTime="2024-01-09T15:43:22.3728741+01:00" endTime="2024-01-09T15:43:22.3884996+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61a184e0-a345-4b4c-bb27-d240c26238df" />
+    <UnitTestResult executionId="a888c3ef-2c50-410e-ac51-1121ecf5bf13" testId="be0da8df-a910-feab-0868-b03b7d514507" testName="GetListAsync_ShouldConvertTimeFromUtcToLocal_WhenCalled" computerName="DKSR-EFI-06" duration="00:00:00.0068334" startTime="2024-01-09T15:43:22.7791258+01:00" endTime="2024-01-09T15:43:22.7947493+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a888c3ef-2c50-410e-ac51-1121ecf5bf13" />
+    <UnitTestResult executionId="2937680d-f8a3-460e-8757-099fdcddd1e8" testId="ae24abe8-7b6e-d23b-7f17-89a741dd6ee0" testName="UpdateAsync_ShouldFail_WhenCalled" computerName="DKSR-EFI-06" duration="00:00:00.0028726" startTime="2024-01-09T15:43:22.8103755+01:00" endTime="2024-01-09T15:43:22.8260029+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2937680d-f8a3-460e-8757-099fdcddd1e8" />
+    <UnitTestResult executionId="396d9f1c-13ce-4222-86ef-9b8a485c9461" testId="302b0bc8-5a75-ca19-34ad-66c06c99d2e9" testName="ExecuteGetRequestAsync_ShouldRaiseArgumentNullException_WhenPathIsNull" computerName="DKSR-EFI-06" duration="00:00:00.0009735" startTime="2024-01-09T15:43:22.6384989+01:00" endTime="2024-01-09T15:43:22.6384989+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="396d9f1c-13ce-4222-86ef-9b8a485c9461" />
+    <UnitTestResult executionId="d2d8f1af-2922-42e2-9772-dc45e421d228" testId="73053870-01b3-fbf9-85a4-38c6358569eb" testName="CreateAsync_ShouldConvertTimeFromLocalToUtc_WhenCalled" computerName="DKSR-EFI-06" duration="00:00:00.0029834" startTime="2024-01-09T15:43:22.8103755+01:00" endTime="2024-01-09T15:43:22.8103755+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d2d8f1af-2922-42e2-9772-dc45e421d228" />
+    <UnitTestResult executionId="f4bbca00-9e3b-4572-b7c8-f1ddcc5f11cb" testId="a5bdec50-8451-1b18-58b1-5d2f67a5fb73" testName="Constructor_ShouldRaiseArgumentNullException_WhenDtoMilestoneUserIsNull" computerName="DKSR-EFI-06" duration="00:00:00.0006345" startTime="2024-01-09T15:43:22.7791258+01:00" endTime="2024-01-09T15:43:22.7791258+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f4bbca00-9e3b-4572-b7c8-f1ddcc5f11cb" />
+    <UnitTestResult executionId="4991679f-8858-41c2-8f60-6830edf565c2" testId="42f29a8d-4e01-2e36-594c-637aaa6a4855" testName="ExecutePutRequestAsync_ShouldRaiseArgumentNullException_WhenPathIsNull" computerName="DKSR-EFI-06" duration="00:00:00.0007981" startTime="2024-01-09T15:43:22.6541244+01:00" endTime="2024-01-09T15:43:22.6541244+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4991679f-8858-41c2-8f60-6830edf565c2" />
+    <UnitTestResult executionId="21d4b306-c9d5-4437-8991-e6ba8270cb17" testId="a612747c-bb96-db7a-2edb-4b3782f01ade" testName="Constructor_ShouldRaiseArgumentNullException_WhenOemResourcesIsNull" computerName="DKSR-EFI-06" duration="00:00:00.0006889" startTime="2024-01-09T15:43:22.2010001+01:00" endTime="2024-01-09T15:43:22.2010001+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="21d4b306-c9d5-4437-8991-e6ba8270cb17" />
+    <UnitTestResult executionId="d7e65790-4447-43b3-8474-fef273178053" testId="eca9945d-94ba-5d9a-4d3c-c3d3532566bb" testName="Constructor_ShouldRaiseArgumentNullException_WhenHelpTopicsResourceNameIsNull" computerName="DKSR-EFI-06" duration="00:00:00.0011571" startTime="2024-01-09T15:43:21.9666251+01:00" endTime="2024-01-09T15:43:21.9666251+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d7e65790-4447-43b3-8474-fef273178053" />
+    <UnitTestResult executionId="cf0b6ca5-eb3a-494f-8eed-aaa919ed9606" testId="4ef6e8e4-b0d9-b258-f574-093b419bb68d" testName="Constructor_ShouldRaiseArgumentNullException_WhenWebApiClientIsNull" computerName="DKSR-EFI-06" duration="00:00:00.0007984" startTime="2024-01-09T15:43:22.7947493+01:00" endTime="2024-01-09T15:43:22.8103755+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cf0b6ca5-eb3a-494f-8eed-aaa919ed9606" />
+    <UnitTestResult executionId="e918c55a-8683-427f-82db-88278c27a633" testId="b5b0f463-72dc-18e2-3fa8-97cdbeee32bf" testName="GetAsync_ShouldConvertTimeFromUtcToLocal_WhenCalled" computerName="DKSR-EFI-06" duration="00:00:00.0053051" startTime="2024-01-09T15:43:22.7791258+01:00" endTime="2024-01-09T15:43:22.7791258+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e918c55a-8683-427f-82db-88278c27a633" />
+    <UnitTestResult executionId="b29c9dc9-dbba-4c1c-8aeb-5f48799a1a1e" testId="553347dc-6f10-bb44-db09-9235f81996b9" testName="Constructor_ShouldRaiseArgumentNullException_WhenLoggerIsNull" computerName="DKSR-EFI-06" duration="00:00:00.0514685" startTime="2024-01-09T15:43:22.1541255+01:00" endTime="2024-01-09T15:43:22.2010001+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b29c9dc9-dbba-4c1c-8aeb-5f48799a1a1e" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Constructor_ShouldRaiseArgumentNullException_WhenDtoMilestoneUserIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="db0611b9-bff4-8359-aad9-7af74534a73e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation" />
+      </TestCategory>
+      <Execution id="472348e4-7ab2-4e93-b1a6-22d91205bb56" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation.DtoIncidentCallDALTests" name="Constructor_ShouldRaiseArgumentNullException_WhenDtoMilestoneUserIsNull" />
+    </UnitTest>
+    <UnitTest name="GetTopicByInternalTopicId_ShouldReturnDefaultIMTopic_WhenInternalTopicIdCannotBeFound" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="4bcbd62b-ea48-1f72-c8eb-eb28e8023e8b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.WPFControls.ManagementClient.Topics" />
+      </TestCategory>
+      <Execution id="dd316173-f2f5-469b-bd69-77cefe7f142a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.WPFControls.ManagementClient.Topics.TopicProviderTests" name="GetTopicByInternalTopicId_ShouldReturnDefaultIMTopic_WhenInternalTopicIdCannotBeFound" />
+    </UnitTest>
+    <UnitTest name="ExecuteGetRequestAsync_ShouldRaiseArgumentNullException_WhenPathIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="302b0bc8-5a75-ca19-34ad-66c06c99d2e9">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.ExternalAgents" />
+      </TestCategory>
+      <Execution id="396d9f1c-13ce-4222-86ef-9b8a485c9461" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.ExternalAgents.WebApiClientTests" name="ExecuteGetRequestAsync_ShouldRaiseArgumentNullException_WhenPathIsNull" />
+    </UnitTest>
+    <UnitTest name="Constructor_ShouldRaiseArgumentNullException_WhenDtoMilestoneUserIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="a4854f87-6673-a096-d230-a7a6b068f158">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation" />
+      </TestCategory>
+      <Execution id="5898e989-b24b-4705-9ad1-a8b5f0b1afa5" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation.DtoIncidentSequenceDALTests" name="Constructor_ShouldRaiseArgumentNullException_WhenDtoMilestoneUserIsNull" />
+    </UnitTest>
+    <UnitTest name="Create_ShouldConvertTimeFromLocalToUtc_WhenCalled" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="a612e3ae-c974-b964-cf15-b7c0182e6065">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation" />
+      </TestCategory>
+      <Execution id="2dc3cb9b-31c3-4a85-ac04-8c379faafc4c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation.DtoIncidentDALTests" name="Create_ShouldConvertTimeFromLocalToUtc_WhenCalled" />
+    </UnitTest>
+    <UnitTest name="GetLocalizedResource_ShouldReturnLocalizedString_WhenLocalizationKeyExists" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="ce0c5d57-af61-7c69-098c-791730599745">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.Strategies" />
+      </TestCategory>
+      <Execution id="2a711bda-d339-470c-8d24-2a98640c33dc" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.Strategies.ResourceFileLocalizationStrategyTests" name="GetLocalizedResource_ShouldReturnLocalizedString_WhenLocalizationKeyExists" />
+    </UnitTest>
+    <UnitTest name="Constructor_ShouldRaiseArgumentNullException_WhenWebApiUriProviderIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="f378aeeb-3704-ec95-8223-41ed567f6393">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation" />
+      </TestCategory>
+      <Execution id="2cf1a1be-fe8d-4ec7-aa6e-157967acea3a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation.DtoIncidentDALTests" name="Constructor_ShouldRaiseArgumentNullException_WhenWebApiUriProviderIsNull" />
+    </UnitTest>
+    <UnitTest name="Instance_ShouldBeSingleton_WhenCalled" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="1e1800a6-ed2b-85e4-4b23-599a6e7c4d7b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.ExternalAgents" />
+      </TestCategory>
+      <Execution id="2324d7c2-3bd1-4933-b5ac-2d6f846d40dd" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.ExternalAgents.WebApiClientTests" name="Instance_ShouldBeSingleton_WhenCalled" />
+    </UnitTest>
+    <UnitTest name="Convert_ShouldLocalizeKeyAndAddNewLines_WhenThereAreChildEntries" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="c94d039a-9faf-d096-18a4-4d43d3bdc508">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.WPFControls.CommonCode.Converters" />
+      </TestCategory>
+      <Execution id="17279b52-921e-4899-adfa-39c0a750014a" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.WPFControls.CommonCode.Converters.LocalizableDescriptionConverterTest" name="Convert_ShouldLocalizeKeyAndAddNewLines_WhenThereAreChildEntries" />
+    </UnitTest>
+    <UnitTest name="GetAsync_ShouldConvertTimeFromUtcToLocal_WhenCalled" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="88a09e42-e0f5-c8dc-a9f0-82d5be4835d8">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation" />
+      </TestCategory>
+      <Execution id="f8142a62-5256-40b9-9307-7aa415f8d6bc" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation.DtoIncidentActivityLogDALTests" name="GetAsync_ShouldConvertTimeFromUtcToLocal_WhenCalled" />
+    </UnitTest>
+    <UnitTest name="GetListAsync_ShouldConvertTimeFromUtcToLocal_WhenCalled" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="64c88343-3526-3a72-a41d-bb0076bb4e02">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation" />
+      </TestCategory>
+      <Execution id="274be598-0c28-4726-9411-d94cd7565202" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation.DtoIncidentActivityLogDALTests" name="GetListAsync_ShouldConvertTimeFromUtcToLocal_WhenCalled" />
+    </UnitTest>
+    <UnitTest name="GetListAsync_ShouldConvertTimeFromUtcToLocal_WhenCalled" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="be0da8df-a910-feab-0868-b03b7d514507">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation" />
+      </TestCategory>
+      <Execution id="a888c3ef-2c50-410e-ac51-1121ecf5bf13" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation.DtoIncidentDALTests" name="GetListAsync_ShouldConvertTimeFromUtcToLocal_WhenCalled" />
+    </UnitTest>
+    <UnitTest name="Constructor_ShouldRaiseArgumentNullException_WhenWebApiClientIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="7294fa9b-0fd3-cde7-c53d-dccbd999c7d2">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation" />
+      </TestCategory>
+      <Execution id="e7ca30e8-d7be-455c-845e-4a554f3e1404" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation.DtoIncidentSequenceDALTests" name="Constructor_ShouldRaiseArgumentNullException_WhenWebApiClientIsNull" />
+    </UnitTest>
+    <UnitTest name="Constructor_ShouldRaiseArgumentNullException_WhenHelpManagerIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="edf8f192-0d24-8677-2cb2-cc86bdd9c9e8">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.WPFControls.ManagementClient.Help" />
+      </TestCategory>
+      <Execution id="08b581cf-666f-47e6-b09f-8741d94976e7" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.WPFControls.ManagementClient.Help.HelpControllerTests" name="Constructor_ShouldRaiseArgumentNullException_WhenHelpManagerIsNull" />
+    </UnitTest>
+    <UnitTest name="Convert_ShouldLocalizeKeyAndParameters_WhenThereAreParametersAndNoChildEntries" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="8bc52ff9-0037-b569-8317-309348f703a1">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.WPFControls.CommonCode.Converters" />
+      </TestCategory>
+      <Execution id="61a184e0-a345-4b4c-bb27-d240c26238df" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.WPFControls.CommonCode.Converters.LocalizableDescriptionConverterTest" name="Convert_ShouldLocalizeKeyAndParameters_WhenThereAreParametersAndNoChildEntries" />
+    </UnitTest>
+    <UnitTest name="VideoOsIMPluginWPFControlsMetadata_ShouldBeEqualTo_VersionControlMetadata" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="2958c738-6f41-76f9-68a1-5f3762624d01">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Metadata" />
+      </TestCategory>
+      <Execution id="3b4668e7-574e-4d18-a8c1-0c8502b7c5e7" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.MetadataTests.PluginMetadataTests" name="VideoOsIMPluginWPFControlsMetadata_ShouldBeEqualTo_VersionControlMetadata" />
+    </UnitTest>
+    <UnitTest name="GetListAsync_ShouldConvertTimeFromUtcToLocal_WhenCalled" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="9c709baf-26ad-36a7-278d-0527aca60bea">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation" />
+      </TestCategory>
+      <Execution id="ae602a26-7813-4679-a9ee-311f8b7b4355" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation.DtoIncidentSequenceDALTests" name="GetListAsync_ShouldConvertTimeFromUtcToLocal_WhenCalled" />
+    </UnitTest>
+    <UnitTest name="Constructor_ShouldRaiseArgumentNullException_WhenTopicProviderMockIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="4bd13901-a66d-00af-705f-8c48681942fe">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.WPFControls.ManagementClient.Help" />
+      </TestCategory>
+      <Execution id="30e0a7dc-e376-4d37-b5db-5ba5bdb31f16" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.WPFControls.ManagementClient.Help.HelpControllerTests" name="Constructor_ShouldRaiseArgumentNullException_WhenTopicProviderMockIsNull" />
+    </UnitTest>
+    <UnitTest name="CreateAsync_ShouldConvertTimeFromLocalToUtc_WhenCalled" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="73053870-01b3-fbf9-85a4-38c6358569eb">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation" />
+      </TestCategory>
+      <Execution id="d2d8f1af-2922-42e2-9772-dc45e421d228" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation.DtoIncidentActivityLogDALTests" name="CreateAsync_ShouldConvertTimeFromLocalToUtc_WhenCalled" />
+    </UnitTest>
+    <UnitTest name="GetTopicByInternalTopicId_ShouldReturnValidTopic_WhenInternalTopicIdCanBeFound" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="0f3a4028-8a3a-459d-f423-dc679a86cef4">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.WPFControls.ManagementClient.Topics" />
+      </TestCategory>
+      <Execution id="10222417-8d15-464f-b847-081af2043fe4" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.WPFControls.ManagementClient.Topics.TopicProviderTests" name="GetTopicByInternalTopicId_ShouldReturnValidTopic_WhenInternalTopicIdCanBeFound" />
+    </UnitTest>
+    <UnitTest name="Constructor_ShouldRaiseArgumentNullException_WhenLoggerIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="9091fcd4-62d5-9bcd-5d1a-0748769a2f8f">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.WPFControls.ManagementClient.Topics" />
+      </TestCategory>
+      <Execution id="dd3751f5-3f1e-4aa8-be0a-ca390b4f13b5" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.WPFControls.ManagementClient.Topics.TopicProviderTests" name="Constructor_ShouldRaiseArgumentNullException_WhenLoggerIsNull" />
+    </UnitTest>
+    <UnitTest name="ShowHelpTopic_ShouldRaiseArgumentNullException_WhenInternalTopicIdIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="44e0bfad-daf8-68dd-5e66-7aea3e0e30b9">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.WPFControls.ManagementClient.Help" />
+      </TestCategory>
+      <Execution id="82352b81-f80a-49d2-9c5a-1c4b950686ab" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.WPFControls.ManagementClient.Help.HelpControllerTests" name="ShowHelpTopic_ShouldRaiseArgumentNullException_WhenInternalTopicIdIsNull" />
+    </UnitTest>
+    <UnitTest name="GetLocalizedResource_ShouldRaiseArgumentNullException_WhenLocalizationKeyIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="ad986e6f-2f8a-674d-e45e-979ab53df359">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.Strategies" />
+      </TestCategory>
+      <Execution id="2ee6331f-edef-4ce7-82d2-947cdf6215c6" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.Strategies.ResourceFileLocalizationStrategyTests" name="GetLocalizedResource_ShouldRaiseArgumentNullException_WhenLocalizationKeyIsNull" />
+    </UnitTest>
+    <UnitTest name="VideoOsIMPluginServiceMetadata_ShouldBeEqualTo_VersionControlMetadata" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="429a8236-57fe-411e-aef2-4a622b77d73c">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Metadata" />
+      </TestCategory>
+      <Execution id="dbfb4546-b35b-44aa-a516-0b0e1aae258d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.MetadataTests.PluginMetadataTests" name="VideoOsIMPluginServiceMetadata_ShouldBeEqualTo_VersionControlMetadata" />
+    </UnitTest>
+    <UnitTest name="GetAsync_ShouldConvertTimeFromUtcToLocal_WhenCalled" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="8b247828-16bc-3f00-47b3-1ec37ccf3439">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation" />
+      </TestCategory>
+      <Execution id="2de96867-a338-4b3f-a2ad-9b0b0cdc409c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation.DtoIncidentSequenceDALTests" name="GetAsync_ShouldConvertTimeFromUtcToLocal_WhenCalled" />
+    </UnitTest>
+    <UnitTest name="Constructor_ShouldRaiseArgumentNullException_WhenDtoMilestoneUserIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="fbb008ef-eebe-201c-2c97-2199be6bad40">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation" />
+      </TestCategory>
+      <Execution id="03e60a90-46a9-4cf0-b76f-14a3d7d1578c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation.DtoIncidentActivityLogDALTests" name="Constructor_ShouldRaiseArgumentNullException_WhenDtoMilestoneUserIsNull" />
+    </UnitTest>
+    <UnitTest name="CreateAsync_ShouldConvertTimeFromLocalToUtc_WhenCalled" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="42568d88-39e5-229f-8325-b7d5eb552fb3">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation" />
+      </TestCategory>
+      <Execution id="2e7ba2bd-d33a-4df6-828d-5381e8415286" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation.DtoIncidentSequenceDALTests" name="CreateAsync_ShouldConvertTimeFromLocalToUtc_WhenCalled" />
+    </UnitTest>
+    <UnitTest name="ExecutePostRequestAsync_ShouldRaiseArgumentNullException_WhenApiHostNameIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="ec1dc697-20b1-bafe-6d28-a81612cd7724">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.ExternalAgents" />
+      </TestCategory>
+      <Execution id="cc0e9bdb-e6fd-4f75-ae36-5718fa9f2742" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.ExternalAgents.WebApiClientTests" name="ExecutePostRequestAsync_ShouldRaiseArgumentNullException_WhenApiHostNameIsNull" />
+    </UnitTest>
+    <UnitTest name="Constructor_ShouldRaiseArgumentNullException_WhenOemResourcesIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="a612747c-bb96-db7a-2edb-4b3782f01ade">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.WPFControls.ManagementClient.Help" />
+      </TestCategory>
+      <Execution id="21d4b306-c9d5-4437-8991-e6ba8270cb17" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.WPFControls.ManagementClient.Help.HelpControllerTests" name="Constructor_ShouldRaiseArgumentNullException_WhenOemResourcesIsNull" />
+    </UnitTest>
+    <UnitTest name="Constructor_ShouldRaiseArgumentNullException_WhenLoggerIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="553347dc-6f10-bb44-db09-9235f81996b9">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.WPFControls.ManagementClient.Help" />
+      </TestCategory>
+      <Execution id="b29c9dc9-dbba-4c1c-8aeb-5f48799a1a1e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.WPFControls.ManagementClient.Help.HelpControllerTests" name="Constructor_ShouldRaiseArgumentNullException_WhenLoggerIsNull" />
+    </UnitTest>
+    <UnitTest name="Constructor_ShouldRaiseArgumentNullException_WhenHelpTopicsAssemblyIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="3b5e2c72-d24e-ad4b-21da-475c3d7ca383">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.WPFControls.ManagementClient.Topics" />
+      </TestCategory>
+      <Execution id="34d2620f-54c9-4eba-9441-8894fe6a145d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.WPFControls.ManagementClient.Topics.TopicProviderTests" name="Constructor_ShouldRaiseArgumentNullException_WhenHelpTopicsAssemblyIsNull" />
+    </UnitTest>
+    <UnitTest name="ExecuteDeleteRequestAsync_ShouldRaiseArgumentNullException_WhenApiHostNameIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="26662593-2650-79aa-5809-e6252afa6781">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.ExternalAgents" />
+      </TestCategory>
+      <Execution id="5f4ee481-2a7d-4271-bd37-c8c4ae7fe7dd" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.ExternalAgents.WebApiClientTests" name="ExecuteDeleteRequestAsync_ShouldRaiseArgumentNullException_WhenApiHostNameIsNull" />
+    </UnitTest>
+    <UnitTest name="UpdateAsync_ShouldKeepTimeZoneFormat_WhenCalled" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="03aaba94-2bf7-6ec0-49e0-ea102a13564d">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation" />
+      </TestCategory>
+      <Execution id="bb6f8f1f-9484-45cd-9168-7f456b077b3b" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation.DtoIncidentDALTests" name="UpdateAsync_ShouldKeepTimeZoneFormat_WhenCalled" />
+    </UnitTest>
+    <UnitTest name="DeleteAsync_ShouldFail_WhenCalled" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="401d2f30-e84f-7dcb-6c96-06e618e82ae3">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation" />
+      </TestCategory>
+      <Execution id="2a4e1883-a709-4b3e-b6f0-c616c4ea8abe" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation.DtoIncidentActivityLogDALTests" name="DeleteAsync_ShouldFail_WhenCalled" />
+    </UnitTest>
+    <UnitTest name="Constructor_ShouldRaiseArgumentNullException_WhenDtoMilestoneUserIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="a5bdec50-8451-1b18-58b1-5d2f67a5fb73">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation" />
+      </TestCategory>
+      <Execution id="f4bbca00-9e3b-4572-b7c8-f1ddcc5f11cb" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation.DtoIncidentDALTests" name="Constructor_ShouldRaiseArgumentNullException_WhenDtoMilestoneUserIsNull" />
+    </UnitTest>
+    <UnitTest name="GetLocalizedResource_ShouldRaiseArgumentException_WhenLocalizationKeyDoesNotExist" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="3818ab2d-cfd0-bfa9-8b02-087ffe164b29">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.Strategies" />
+      </TestCategory>
+      <Execution id="41c0c372-7bb3-4e54-9bba-0fc1d07f89ce" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.Strategies.ResourceFileLocalizationStrategyTests" name="GetLocalizedResource_ShouldRaiseArgumentException_WhenLocalizationKeyDoesNotExist" />
+    </UnitTest>
+    <UnitTest name="GetNumberFromAdditionalFieldsConfig_ShouldRaisArgumentException_WhenIncidentExtendedPropsConfigValueIsNotValid" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="36456823-755d-d5b7-130a-facd94276fc9">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.WPFControls.CommonCode.Converters" />
+      </TestCategory>
+      <Execution id="127d83ef-f7aa-4d3d-8be8-e8e69e18a598" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.WPFControls.CommonCode.Converters.AdditionalFieldsConfigLookupConverterTests" name="GetNumberFromAdditionalFieldsConfig_ShouldRaisArgumentException_WhenIncidentExtendedPropsConfigValueIsNotValid" />
+    </UnitTest>
+    <UnitTest name="Constructor_ShouldRaiseArgumentNullException_WhenWebApiClientIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="e21be94f-b7d7-0a24-0128-1c4987aa83c1">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation" />
+      </TestCategory>
+      <Execution id="fade7618-e2bc-420f-89c6-d8bbdb007a4d" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation.DtoIncidentCallDALTests" name="Constructor_ShouldRaiseArgumentNullException_WhenWebApiClientIsNull" />
+    </UnitTest>
+    <UnitTest name="ExecutePutRequestAsync_ShouldRaiseArgumentNullException_WhenApiHostNameIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="f9708a97-eb68-dc40-846f-55c4b840bd79">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.ExternalAgents" />
+      </TestCategory>
+      <Execution id="75a8b4ff-4dfe-42af-917c-db5c66366bb3" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.ExternalAgents.WebApiClientTests" name="ExecutePutRequestAsync_ShouldRaiseArgumentNullException_WhenApiHostNameIsNull" />
+    </UnitTest>
+    <UnitTest name="GetAsync_ShouldConvertTimeFromUtcToLocal_WhenCalled" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="58421988-2b3a-84aa-5e27-a40934a19e02">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation" />
+      </TestCategory>
+      <Execution id="ce3d30c0-150c-46ae-ac1b-ad6a268d9356" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation.DtoIncidentCallDALTests" name="GetAsync_ShouldConvertTimeFromUtcToLocal_WhenCalled" />
+    </UnitTest>
+    <UnitTest name="ExecutePostRequestAsync_ShouldRaiseArgumentNullException_WhenPathIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="a816781a-f41d-e9e0-8c7a-d3fac176fc67">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.ExternalAgents" />
+      </TestCategory>
+      <Execution id="c79fbd70-d835-4b94-bb47-43aa5f4d13c3" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.ExternalAgents.WebApiClientTests" name="ExecutePostRequestAsync_ShouldRaiseArgumentNullException_WhenPathIsNull" />
+    </UnitTest>
+    <UnitTest name="GetAsync_ShouldConvertTimeFromUtcToLocal_WhenCalled" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="b5b0f463-72dc-18e2-3fa8-97cdbeee32bf">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation" />
+      </TestCategory>
+      <Execution id="e918c55a-8683-427f-82db-88278c27a633" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation.DtoIncidentDALTests" name="GetAsync_ShouldConvertTimeFromUtcToLocal_WhenCalled" />
+    </UnitTest>
+    <UnitTest name="ExcludeFromAboutBox_ShouldReturnTrue_WhenCalled" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="ce283f94-d317-2d16-5626-e44f0db8aa9c">
+      <Execution id="0239cf5c-2381-4dcc-8659-7814beb2a869" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Plugin.IncidentManagerPluginDefinitionTests" name="ExcludeFromAboutBox_ShouldReturnTrue_WhenCalled" />
+    </UnitTest>
+    <UnitTest name="Constructor_ShouldRaiseArgumentNullException_WhenWebApiClientIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="4ef6e8e4-b0d9-b258-f574-093b419bb68d">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation" />
+      </TestCategory>
+      <Execution id="cf0b6ca5-eb3a-494f-8eed-aaa919ed9606" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation.DtoIncidentActivityLogDALTests" name="Constructor_ShouldRaiseArgumentNullException_WhenWebApiClientIsNull" />
+    </UnitTest>
+    <UnitTest name="VideoOsIMPluginMetadata_ShouldBeEqualTo_VersionControlMetadata" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="41f554f4-830f-815e-510c-978d64201b09">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Metadata" />
+      </TestCategory>
+      <Execution id="add730c4-8182-415a-af63-387e13b50163" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.MetadataTests.PluginMetadataTests" name="VideoOsIMPluginMetadata_ShouldBeEqualTo_VersionControlMetadata" />
+    </UnitTest>
+    <UnitTest name="Constructor_ShouldRaiseArgumentNullException_WhenWebApiUriProviderIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="d57b929f-a3bd-5d92-6a7e-f70fecab7d9e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation" />
+      </TestCategory>
+      <Execution id="6082c572-ea67-47a9-94a3-b1bc56333d58" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation.DtoIncidentActivityLogDALTests" name="Constructor_ShouldRaiseArgumentNullException_WhenWebApiUriProviderIsNull" />
+    </UnitTest>
+    <UnitTest name="Convert_ShouldOnlyLocalizeKey_WhenThereAreNoParametersNorChildEntries" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="567f4b1c-eab6-da16-052a-4272dea29149">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.WPFControls.CommonCode.Converters" />
+      </TestCategory>
+      <Execution id="c60bd7e0-1250-4503-89d6-cc8f07c50918" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.WPFControls.CommonCode.Converters.LocalizableDescriptionConverterTest" name="Convert_ShouldOnlyLocalizeKey_WhenThereAreNoParametersNorChildEntries" />
+    </UnitTest>
+    <UnitTest name="ShowHelpTopic_ShouldCallHelpManagerShowHelp_WhenCalled" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="f7da7cca-13ee-9a8a-f84d-3868c8b9ba05">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.WPFControls.ManagementClient.Help" />
+      </TestCategory>
+      <Execution id="fae561e9-5855-47cc-9239-2893bfe53aa4" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.WPFControls.ManagementClient.Help.HelpControllerTests" name="ShowHelpTopic_ShouldCallHelpManagerShowHelp_WhenCalled" />
+    </UnitTest>
+    <UnitTest name="Constructor_ShouldRaiseArgumentNullException_WhenWebApiClientIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="82aaf990-41a6-8f10-9120-96ea9a3ecaf6">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation" />
+      </TestCategory>
+      <Execution id="b1ee9c89-7265-4346-8385-c0b1b8758ba6" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation.DtoIncidentDALTests" name="Constructor_ShouldRaiseArgumentNullException_WhenWebApiClientIsNull" />
+    </UnitTest>
+    <UnitTest name="Initialize_ShouldCallHelpManagerCloseMethod_WhenCalled" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="cf7fea82-51ed-5789-6f3b-7c8ca20e7514">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.WPFControls.ManagementClient.Help" />
+      </TestCategory>
+      <Execution id="e3526729-0b25-4d91-83ac-b349c173db2c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.WPFControls.ManagementClient.Help.HelpControllerTests" name="Initialize_ShouldCallHelpManagerCloseMethod_WhenCalled" />
+    </UnitTest>
+    <UnitTest name="CreateAsync_ShouldConvertTimeFromLocalToUtc_WhenCalled" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="9db06c9e-0ef5-5f30-01db-46823f592804">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation" />
+      </TestCategory>
+      <Execution id="72b3147d-53f4-4032-93ec-43ab2f0b594b" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation.DtoIncidentCallDALTests" name="CreateAsync_ShouldConvertTimeFromLocalToUtc_WhenCalled" />
+    </UnitTest>
+    <UnitTest name="Constructor_ShouldRaiseArgumentNullException_WhenWebApiUriProviderIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="f949ac49-11fb-5291-5495-662d06d13210">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation" />
+      </TestCategory>
+      <Execution id="6da341e4-d807-4da6-8e15-695dca181824" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation.DtoIncidentCallDALTests" name="Constructor_ShouldRaiseArgumentNullException_WhenWebApiUriProviderIsNull" />
+    </UnitTest>
+    <UnitTest name="ExecuteGetRequestAsync_ShouldRaiseArgumentNullException_WhenApiHostNameIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="8808ac2d-fb0c-3334-3067-e8e8ea93a32b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.ExternalAgents" />
+      </TestCategory>
+      <Execution id="794de357-5591-403a-9424-988e72d43843" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.ExternalAgents.WebApiClientTests" name="ExecuteGetRequestAsync_ShouldRaiseArgumentNullException_WhenApiHostNameIsNull" />
+    </UnitTest>
+    <UnitTest name="Initialize_ShouldCallHelpManagerInitializeMethod_WhenCalled" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="0b94fb66-5eac-6cbe-dd2a-27ca028adf4b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.WPFControls.ManagementClient.Help" />
+      </TestCategory>
+      <Execution id="e9c4c9f8-921d-4523-a1c1-58adcf017d51" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.WPFControls.ManagementClient.Help.HelpControllerTests" name="Initialize_ShouldCallHelpManagerInitializeMethod_WhenCalled" />
+    </UnitTest>
+    <UnitTest name="Constructor_ShouldRaiseArgumentNullException_WhenWebApiUriProviderIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="4683fbb5-3d6b-a6a1-5470-c17ab1bf1fd7">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation" />
+      </TestCategory>
+      <Execution id="010051f5-fbad-414d-9662-6035af0c37c3" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation.DtoIncidentSequenceDALTests" name="Constructor_ShouldRaiseArgumentNullException_WhenWebApiUriProviderIsNull" />
+    </UnitTest>
+    <UnitTest name="ExecuteDeleteRequestAsync_ShouldRaiseArgumentNullException_WhenPathIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="0c8e1b89-c591-d8e8-ebef-e97b7c7fe754">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.ExternalAgents" />
+      </TestCategory>
+      <Execution id="0ceee711-8ee1-49a1-ba49-3a1a54f8c158" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.ExternalAgents.WebApiClientTests" name="ExecuteDeleteRequestAsync_ShouldRaiseArgumentNullException_WhenPathIsNull" />
+    </UnitTest>
+    <UnitTest name="Constructor_ShouldRaiseArgumentNullException_WhenHelpTopicsResourceNameIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="eca9945d-94ba-5d9a-4d3c-c3d3532566bb">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.WPFControls.ManagementClient.Topics" />
+      </TestCategory>
+      <Execution id="d7e65790-4447-43b3-8474-fef273178053" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.WPFControls.ManagementClient.Topics.TopicProviderTests" name="Constructor_ShouldRaiseArgumentNullException_WhenHelpTopicsResourceNameIsNull" />
+    </UnitTest>
+    <UnitTest name="UpdateAsync_ShouldKeepTimeZoneFormat_WhenCalled" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="79a17696-4f1f-7370-e171-f4f3d422708c">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation" />
+      </TestCategory>
+      <Execution id="8bc73ec1-15f7-4317-bcc2-f34fc2367013" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation.DtoIncidentSequenceDALTests" name="UpdateAsync_ShouldKeepTimeZoneFormat_WhenCalled" />
+    </UnitTest>
+    <UnitTest name="GetListAsync_ShouldConvertTimeFromUtcToLocal_WhenCalled" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="1732bb13-68c4-42a0-0435-7913f6d7e07e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation" />
+      </TestCategory>
+      <Execution id="48f83f76-ada0-4e56-9b18-7ef88b9feea0" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation.DtoIncidentCallDALTests" name="GetListAsync_ShouldConvertTimeFromUtcToLocal_WhenCalled" />
+    </UnitTest>
+    <UnitTest name="UpdateAsync_ShouldKeepTimeZoneFormat_WhenCalled" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="67a51236-d2ba-d326-3f0d-232587a303de">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation" />
+      </TestCategory>
+      <Execution id="16c391f8-20f8-4f35-b970-e01e115b3c53" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation.DtoIncidentCallDALTests" name="UpdateAsync_ShouldKeepTimeZoneFormat_WhenCalled" />
+    </UnitTest>
+    <UnitTest name="GetNumberFromAdditionalFieldsConfig_ShouldReturnNumber_WhenIncidentExtendedPropsConfigValueEndsWithNumber" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="98a0971d-0956-f9c4-eda7-e4b24574128e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.WPFControls.CommonCode.Converters" />
+      </TestCategory>
+      <Execution id="3728b3de-84c2-4d6d-9b25-8b856a242001" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.WPFControls.CommonCode.Converters.AdditionalFieldsConfigLookupConverterTests" name="GetNumberFromAdditionalFieldsConfig_ShouldReturnNumber_WhenIncidentExtendedPropsConfigValueEndsWithNumber" />
+    </UnitTest>
+    <UnitTest name="ShowHelpTopic_ShouldCallHelpManagerShowWithValidTopic_WhenInternalTopicIdCanBeFound" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="48b3c9c9-8976-1f54-f88f-183fe995d28b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.WPFControls.ManagementClient.Help" />
+      </TestCategory>
+      <Execution id="7dc0aa3d-d873-476e-a9d2-3be361e6a368" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.WPFControls.ManagementClient.Help.HelpControllerTests" name="ShowHelpTopic_ShouldCallHelpManagerShowWithValidTopic_WhenInternalTopicIdCanBeFound" />
+    </UnitTest>
+    <UnitTest name="UpdateAsync_ShouldFail_WhenCalled" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="ae24abe8-7b6e-d23b-7f17-89a741dd6ee0">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation" />
+      </TestCategory>
+      <Execution id="2937680d-f8a3-460e-8757-099fdcddd1e8" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.DALImplementation.DtoIncidentActivityLogDALTests" name="UpdateAsync_ShouldFail_WhenCalled" />
+    </UnitTest>
+    <UnitTest name="GetTopicByInternalTopicId_ShouldRaiseArgumentNullException_WhenInternalTopicIdIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="65df916e-0086-6062-e683-701a31fa20ba">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.WPFControls.ManagementClient.Topics" />
+      </TestCategory>
+      <Execution id="06c71ade-0c77-4e25-af7e-897ea2362efc" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.WPFControls.ManagementClient.Topics.TopicProviderTests" name="GetTopicByInternalTopicId_ShouldRaiseArgumentNullException_WhenInternalTopicIdIsNull" />
+    </UnitTest>
+    <UnitTest name="ExecutePutRequestAsync_ShouldRaiseArgumentNullException_WhenPathIsNull" storage="d:\actions-runner\_work\xpco\xpco\incidentmanager\binaries\plugin\tst\videoos.im.plugin.unittest\bin\x64\debug\videoos.im.plugin.unittest.dll" id="42f29a8d-4e01-2e36-594c-637aaa6a4855">
+      <TestCategory>
+        <TestCategoryItem TestCategory="VideoOS.IM.Plugin.UnitTest.Service.ExternalAgents" />
+      </TestCategory>
+      <Execution id="4991679f-8858-41c2-8f60-6830edf565c2" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\IncidentManager\Binaries\Plugin\tst\VideoOS.IM.Plugin.UnitTest\bin\x64\Debug\VideoOS.IM.Plugin.UnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.IM.Plugin.UnitTest.Service.ExternalAgents.WebApiClientTests" name="ExecutePutRequestAsync_ShouldRaiseArgumentNullException_WhenPathIsNull" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="03aaba94-2bf7-6ec0-49e0-ea102a13564d" executionId="bb6f8f1f-9484-45cd-9168-7f456b077b3b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="41f554f4-830f-815e-510c-978d64201b09" executionId="add730c4-8182-415a-af63-387e13b50163" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="db0611b9-bff4-8359-aad9-7af74534a73e" executionId="472348e4-7ab2-4e93-b1a6-22d91205bb56" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="429a8236-57fe-411e-aef2-4a622b77d73c" executionId="dbfb4546-b35b-44aa-a516-0b0e1aae258d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="58421988-2b3a-84aa-5e27-a40934a19e02" executionId="ce3d30c0-150c-46ae-ac1b-ad6a268d9356" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="42568d88-39e5-229f-8325-b7d5eb552fb3" executionId="2e7ba2bd-d33a-4df6-828d-5381e8415286" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0b94fb66-5eac-6cbe-dd2a-27ca028adf4b" executionId="e9c4c9f8-921d-4523-a1c1-58adcf017d51" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f9708a97-eb68-dc40-846f-55c4b840bd79" executionId="75a8b4ff-4dfe-42af-917c-db5c66366bb3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c94d039a-9faf-d096-18a4-4d43d3bdc508" executionId="17279b52-921e-4899-adfa-39c0a750014a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fbb008ef-eebe-201c-2c97-2199be6bad40" executionId="03e60a90-46a9-4cf0-b76f-14a3d7d1578c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48b3c9c9-8976-1f54-f88f-183fe995d28b" executionId="7dc0aa3d-d873-476e-a9d2-3be361e6a368" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9db06c9e-0ef5-5f30-01db-46823f592804" executionId="72b3147d-53f4-4032-93ec-43ab2f0b594b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad986e6f-2f8a-674d-e45e-979ab53df359" executionId="2ee6331f-edef-4ce7-82d2-947cdf6215c6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="401d2f30-e84f-7dcb-6c96-06e618e82ae3" executionId="2a4e1883-a709-4b3e-b6f0-c616c4ea8abe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0c8e1b89-c591-d8e8-ebef-e97b7c7fe754" executionId="0ceee711-8ee1-49a1-ba49-3a1a54f8c158" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3818ab2d-cfd0-bfa9-8b02-087ffe164b29" executionId="41c0c372-7bb3-4e54-9bba-0fc1d07f89ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1e1800a6-ed2b-85e4-4b23-599a6e7c4d7b" executionId="2324d7c2-3bd1-4933-b5ac-2d6f846d40dd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a816781a-f41d-e9e0-8c7a-d3fac176fc67" executionId="c79fbd70-d835-4b94-bb47-43aa5f4d13c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a4854f87-6673-a096-d230-a7a6b068f158" executionId="5898e989-b24b-4705-9ad1-a8b5f0b1afa5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1732bb13-68c4-42a0-0435-7913f6d7e07e" executionId="48f83f76-ada0-4e56-9b18-7ef88b9feea0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="36456823-755d-d5b7-130a-facd94276fc9" executionId="127d83ef-f7aa-4d3d-8be8-e8e69e18a598" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="edf8f192-0d24-8677-2cb2-cc86bdd9c9e8" executionId="08b581cf-666f-47e6-b09f-8741d94976e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9c709baf-26ad-36a7-278d-0527aca60bea" executionId="ae602a26-7813-4679-a9ee-311f8b7b4355" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="567f4b1c-eab6-da16-052a-4272dea29149" executionId="c60bd7e0-1250-4503-89d6-cc8f07c50918" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="26662593-2650-79aa-5809-e6252afa6781" executionId="5f4ee481-2a7d-4271-bd37-c8c4ae7fe7dd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf7fea82-51ed-5789-6f3b-7c8ca20e7514" executionId="e3526729-0b25-4d91-83ac-b349c173db2c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4683fbb5-3d6b-a6a1-5470-c17ab1bf1fd7" executionId="010051f5-fbad-414d-9662-6035af0c37c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="67a51236-d2ba-d326-3f0d-232587a303de" executionId="16c391f8-20f8-4f35-b970-e01e115b3c53" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ce283f94-d317-2d16-5626-e44f0db8aa9c" executionId="0239cf5c-2381-4dcc-8659-7814beb2a869" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2958c738-6f41-76f9-68a1-5f3762624d01" executionId="3b4668e7-574e-4d18-a8c1-0c8502b7c5e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b5e2c72-d24e-ad4b-21da-475c3d7ca383" executionId="34d2620f-54c9-4eba-9441-8894fe6a145d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="79a17696-4f1f-7370-e171-f4f3d422708c" executionId="8bc73ec1-15f7-4317-bcc2-f34fc2367013" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f7da7cca-13ee-9a8a-f84d-3868c8b9ba05" executionId="fae561e9-5855-47cc-9239-2893bfe53aa4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="82aaf990-41a6-8f10-9120-96ea9a3ecaf6" executionId="b1ee9c89-7265-4346-8385-c0b1b8758ba6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ec1dc697-20b1-bafe-6d28-a81612cd7724" executionId="cc0e9bdb-e6fd-4f75-ae36-5718fa9f2742" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4bd13901-a66d-00af-705f-8c48681942fe" executionId="30e0a7dc-e376-4d37-b5db-5ba5bdb31f16" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8808ac2d-fb0c-3334-3067-e8e8ea93a32b" executionId="794de357-5591-403a-9424-988e72d43843" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="65df916e-0086-6062-e683-701a31fa20ba" executionId="06c71ade-0c77-4e25-af7e-897ea2362efc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="44e0bfad-daf8-68dd-5e66-7aea3e0e30b9" executionId="82352b81-f80a-49d2-9c5a-1c4b950686ab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a612e3ae-c974-b964-cf15-b7c0182e6065" executionId="2dc3cb9b-31c3-4a85-ac04-8c379faafc4c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7294fa9b-0fd3-cde7-c53d-dccbd999c7d2" executionId="e7ca30e8-d7be-455c-845e-4a554f3e1404" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="64c88343-3526-3a72-a41d-bb0076bb4e02" executionId="274be598-0c28-4726-9411-d94cd7565202" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d57b929f-a3bd-5d92-6a7e-f70fecab7d9e" executionId="6082c572-ea67-47a9-94a3-b1bc56333d58" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4bcbd62b-ea48-1f72-c8eb-eb28e8023e8b" executionId="dd316173-f2f5-469b-bd69-77cefe7f142a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="98a0971d-0956-f9c4-eda7-e4b24574128e" executionId="3728b3de-84c2-4d6d-9b25-8b856a242001" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e21be94f-b7d7-0a24-0128-1c4987aa83c1" executionId="fade7618-e2bc-420f-89c6-d8bbdb007a4d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8b247828-16bc-3f00-47b3-1ec37ccf3439" executionId="2de96867-a338-4b3f-a2ad-9b0b0cdc409c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f949ac49-11fb-5291-5495-662d06d13210" executionId="6da341e4-d807-4da6-8e15-695dca181824" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f3a4028-8a3a-459d-f423-dc679a86cef4" executionId="10222417-8d15-464f-b847-081af2043fe4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ce0c5d57-af61-7c69-098c-791730599745" executionId="2a711bda-d339-470c-8d24-2a98640c33dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9091fcd4-62d5-9bcd-5d1a-0748769a2f8f" executionId="dd3751f5-3f1e-4aa8-be0a-ca390b4f13b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="88a09e42-e0f5-c8dc-a9f0-82d5be4835d8" executionId="f8142a62-5256-40b9-9307-7aa415f8d6bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f378aeeb-3704-ec95-8223-41ed567f6393" executionId="2cf1a1be-fe8d-4ec7-aa6e-157967acea3a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8bc52ff9-0037-b569-8317-309348f703a1" executionId="61a184e0-a345-4b4c-bb27-d240c26238df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be0da8df-a910-feab-0868-b03b7d514507" executionId="a888c3ef-2c50-410e-ac51-1121ecf5bf13" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ae24abe8-7b6e-d23b-7f17-89a741dd6ee0" executionId="2937680d-f8a3-460e-8757-099fdcddd1e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="302b0bc8-5a75-ca19-34ad-66c06c99d2e9" executionId="396d9f1c-13ce-4222-86ef-9b8a485c9461" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73053870-01b3-fbf9-85a4-38c6358569eb" executionId="d2d8f1af-2922-42e2-9772-dc45e421d228" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a5bdec50-8451-1b18-58b1-5d2f67a5fb73" executionId="f4bbca00-9e3b-4572-b7c8-f1ddcc5f11cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="42f29a8d-4e01-2e36-594c-637aaa6a4855" executionId="4991679f-8858-41c2-8f60-6830edf565c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a612747c-bb96-db7a-2edb-4b3782f01ade" executionId="21d4b306-c9d5-4437-8991-e6ba8270cb17" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eca9945d-94ba-5d9a-4d3c-c3d3532566bb" executionId="d7e65790-4447-43b3-8474-fef273178053" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ef6e8e4-b0d9-b258-f574-093b419bb68d" executionId="cf0b6ca5-eb3a-494f-8eed-aaa919ed9606" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b5b0f463-72dc-18e2-3fa8-97cdbeee32bf" executionId="e918c55a-8683-427f-82db-88278c27a633" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="553347dc-6f10-bb44-db09-9235f81996b9" executionId="b29c9dc9-dbba-4c1c-8aeb-5f48799a1a1e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="65" executed="65" passed="65" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

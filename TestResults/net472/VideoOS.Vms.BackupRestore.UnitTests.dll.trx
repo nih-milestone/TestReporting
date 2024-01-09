@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="8a2731ce-1f0a-4699-bd47-2d9753d445a1" name="DKSR-EFI-06$@DKSR-EFI-06 2024-01-09 15:41:59" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-01-09T15:41:59.9195899+01:00" queuing="2024-01-09T15:41:59.9195899+01:00" start="2024-01-09T15:41:52.4664412+01:00" finish="2024-01-09T15:42:00.9976604+01:00" />
+  <TestSettings name="default" id="1edf28f3-a477-4afa-8245-cceea97107d9">
+    <Deployment runDeploymentRoot="DKSR-EFI-06$_DKSR-EFI-06_2024-01-09_15_41_59" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="732aca7c-84f4-45c5-b0c4-5fb4150aabfa" testId="d662557d-7eaf-0bac-1223-0314100545db" testName="RestoreTest" computerName="DKSR-EFI-06" duration="00:00:00.0017320" startTime="2024-01-09T15:42:00.2164895+01:00" endTime="2024-01-09T15:42:00.2164895+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="732aca7c-84f4-45c5-b0c4-5fb4150aabfa">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+IncreaseNoofActiveActions to 1&#xD;
+DecreaseNoofActiveActions to 0</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="08d0c6c3-0158-40c3-aeb4-0c4812094062" testId="152bb7f0-de90-c864-0f1b-234f0304f03c" testName="WaitForZeroActiveActionsTest" computerName="DKSR-EFI-06" duration="00:00:00.2395900" startTime="2024-01-09T15:42:00.2164895+01:00" endTime="2024-01-09T15:42:00.4664689+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="08d0c6c3-0158-40c3-aeb4-0c4812094062">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+IncreaseNoofActiveActions to 1</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="34bfd235-603e-4ac9-bb42-a735ffffb4d9" testId="2b0d4561-e5c2-b55f-c41e-54984307696f" testName="RestoreConfigManagerConstructorTest" computerName="DKSR-EFI-06" duration="00:00:00.0006712" startTime="2024-01-09T15:41:59.9820899+01:00" endTime="2024-01-09T15:41:59.9820899+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34bfd235-603e-4ac9-bb42-a735ffffb4d9" />
+    <UnitTestResult executionId="f88810c2-5fa6-4d1a-90d2-ac2a4df030d6" testId="6410649a-261c-98ee-4782-cb603a799e9f" testName="AddComponentTestArgumentNullException" computerName="DKSR-EFI-06" duration="00:00:00.0007094" startTime="2024-01-09T15:41:59.0133376+01:00" endTime="2024-01-09T15:41:59.0133376+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f88810c2-5fa6-4d1a-90d2-ac2a4df030d6" />
+    <UnitTestResult executionId="3f160b10-80db-4ffe-aa40-298396bb2aec" testId="89dcf851-df88-08f9-b798-8193d9d9a306" testName="CorporateConfigData_SerializationNoRegisteredServices" computerName="DKSR-EFI-06" duration="00:00:00.0002821" startTime="2024-01-09T15:41:59.9820899+01:00" endTime="2024-01-09T15:41:59.9820899+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f160b10-80db-4ffe-aa40-298396bb2aec" />
+    <UnitTestResult executionId="b63f3d0a-b549-4d06-8725-8629eb5dc793" testId="db1b8248-4fb5-118e-b29a-9b5e8bb45d12" testName="ValidateForRestoreSuccessTest" computerName="DKSR-EFI-06" duration="00:00:00.0033133" startTime="2024-01-09T15:42:00.2164895+01:00" endTime="2024-01-09T15:42:00.2164895+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b63f3d0a-b549-4d06-8725-8629eb5dc793">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+IncreaseNoofActiveActions to 1&#xD;
+DecreaseNoofActiveActions to 0</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6606924f-f821-4547-9b22-4465fd93b49e" testId="24d951f6-7052-0277-37bc-1dd3238df0ec" testName="StartServicesTest" computerName="DKSR-EFI-06" duration="00:00:00.0012195" startTime="2024-01-09T15:42:00.4664689+01:00" endTime="2024-01-09T15:42:00.4664689+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6606924f-f821-4547-9b22-4465fd93b49e" />
+    <UnitTestResult executionId="a1a4c8ba-9242-4d8e-9359-3b0ca1f613ed" testId="79899e02-b2ef-bd00-bc03-fe46259489d8" testName="BackupTestBackupAlreadyActive" computerName="DKSR-EFI-06" duration="00:00:00.2117179" startTime="2024-01-09T15:41:59.0602115+01:00" endTime="2024-01-09T15:41:59.2633372+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1a4c8ba-9242-4d8e-9359-3b0ca1f613ed" />
+    <UnitTestResult executionId="d5a67a66-42d8-4a08-aea0-a6ec2d47d2a4" testId="1f7e35aa-d6bf-ea17-e85d-0cac36a41b6a" testName="BackupConfigManagerConstructorTestArgumentNullException" computerName="DKSR-EFI-06" duration="00:00:00.0028557" startTime="2024-01-09T15:41:59.0133376+01:00" endTime="2024-01-09T15:41:59.0133376+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5a67a66-42d8-4a08-aea0-a6ec2d47d2a4" />
+    <UnitTestResult executionId="927092fb-ddf6-403f-a215-954e96782fba" testId="71a4ba21-61f2-fe93-ca88-c346c05db124" testName="BackupTest" computerName="DKSR-EFI-06" duration="00:00:00.0212406" startTime="2024-01-09T15:41:59.0289607+01:00" endTime="2024-01-09T15:41:59.0445874+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="927092fb-ddf6-403f-a215-954e96782fba" />
+    <UnitTestResult executionId="0b8c91fb-2354-4be4-affb-a68eed1c84a2" testId="a8c51377-49fd-d76b-d512-252124b248f6" testName="StopServicesTest" computerName="DKSR-EFI-06" duration="00:00:00.0012052" startTime="2024-01-09T15:42:00.4664689+01:00" endTime="2024-01-09T15:42:00.4820956+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0b8c91fb-2354-4be4-affb-a68eed1c84a2" />
+    <UnitTestResult executionId="0e088ba5-43c5-4975-b4f8-198b2c247ba8" testId="d993b096-3067-65d6-8bc1-377277cb776e" testName="BackupConfigManagerConstructorTest" computerName="DKSR-EFI-06" duration="00:00:00.0134713" startTime="2024-01-09T15:41:58.4352092+01:00" endTime="2024-01-09T15:41:58.9195848+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e088ba5-43c5-4975-b4f8-198b2c247ba8" />
+    <UnitTestResult executionId="fa431839-a582-4476-82f8-e815fc443dd5" testId="1350dfe3-4e2c-ffd9-b794-3cd6f005f3b4" testName="BackupTestErrorDeleteFiles" computerName="DKSR-EFI-06" duration="00:00:00.0008268" startTime="2024-01-09T15:41:59.2789623+01:00" endTime="2024-01-09T15:41:59.2789623+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa431839-a582-4476-82f8-e815fc443dd5" />
+    <UnitTestResult executionId="56fdaad1-8263-4474-b81f-403be932ad4b" testId="1a49b7d9-5de3-24ed-3eb1-fd59cec3ff7c" testName="AddComponentTest" computerName="DKSR-EFI-06" duration="00:00:00.0003781" startTime="2024-01-09T15:41:59.0133376+01:00" endTime="2024-01-09T15:41:59.0133376+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56fdaad1-8263-4474-b81f-403be932ad4b" />
+    <UnitTestResult executionId="7bd31870-8a5f-4db4-8f6c-d85eb1ee61aa" testId="5f3e2230-213c-287c-2722-f97f2e4e28a4" testName="CorporateConfigData_Serialization" computerName="DKSR-EFI-06" duration="00:00:00.0088059" startTime="2024-01-09T15:41:59.9664665+01:00" endTime="2024-01-09T15:41:59.9664665+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7bd31870-8a5f-4db4-8f6c-d85eb1ee61aa" />
+    <UnitTestResult executionId="4f59f39e-4c3a-4507-880d-ab2f682044ad" testId="ed8f305a-99a1-8d1a-3316-2877df5955ab" testName="RegisteredService_Serilization" computerName="DKSR-EFI-06" duration="00:00:00.6855858" startTime="2024-01-09T15:41:59.2789623+01:00" endTime="2024-01-09T15:41:59.9664665+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f59f39e-4c3a-4507-880d-ab2f682044ad" />
+    <UnitTestResult executionId="5f3a4b04-c335-4c4c-b21e-12c4b0674c9c" testId="f697ce41-be20-88dd-b796-af617cc0cf2f" testName="CleanUpTest" computerName="DKSR-EFI-06" duration="00:00:00.0013248" startTime="2024-01-09T15:42:00.4664689+01:00" endTime="2024-01-09T15:42:00.4664689+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f3a4b04-c335-4c4c-b21e-12c4b0674c9c" />
+    <UnitTestResult executionId="5dfe274e-c99e-4cfe-8310-82479d5dac22" testId="9c99bc23-1034-86d9-1704-31f928c2649f" testName="BackupTestErrorMissingBackupFolder" computerName="DKSR-EFI-06" duration="00:00:00.0012693" startTime="2024-01-09T15:41:59.0445874+01:00" endTime="2024-01-09T15:41:59.0445874+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5dfe274e-c99e-4cfe-8310-82479d5dac22" />
+    <UnitTestResult executionId="a45dfca7-a238-4aec-a875-cad4d2a25ecf" testId="e32e3fa7-bcdb-2d7e-08a8-39dad1ec14bb" testName="PrepareForRestoreTest" computerName="DKSR-EFI-06" duration="00:00:00.2095281" startTime="2024-01-09T15:41:59.9820899+01:00" endTime="2024-01-09T15:42:00.2008454+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a45dfca7-a238-4aec-a875-cad4d2a25ecf">
+      <Output>
+        <StdOut>Debug Trace:&#xD;
+IncreaseNoofActiveActions to 1&#xD;
+DecreaseNoofActiveActions to 0</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="AddComponentTestArgumentNullException" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.backuprestore.unittests\bin\debug\net472\videoos.vms.backuprestore.unittests.dll" id="6410649a-261c-98ee-4782-cb603a799e9f">
+      <Execution id="f88810c2-5fa6-4d1a-90d2-ac2a4df030d6" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.BackupRestore.UnitTests\bin\Debug\net472\VideoOS.Vms.BackupRestore.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.BackupRestore.UnitTests.BackupConfigManagerTest" name="AddComponentTestArgumentNullException" />
+    </UnitTest>
+    <UnitTest name="PrepareForRestoreTest" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.backuprestore.unittests\bin\debug\net472\videoos.vms.backuprestore.unittests.dll" id="e32e3fa7-bcdb-2d7e-08a8-39dad1ec14bb">
+      <Execution id="a45dfca7-a238-4aec-a875-cad4d2a25ecf" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.BackupRestore.UnitTests\bin\Debug\net472\VideoOS.Vms.BackupRestore.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.BackupRestore.UnitTests.RestoreConfigManagerTest" name="PrepareForRestoreTest" />
+    </UnitTest>
+    <UnitTest name="BackupTestErrorDeleteFiles" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.backuprestore.unittests\bin\debug\net472\videoos.vms.backuprestore.unittests.dll" id="1350dfe3-4e2c-ffd9-b794-3cd6f005f3b4">
+      <Execution id="fa431839-a582-4476-82f8-e815fc443dd5" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.BackupRestore.UnitTests\bin\Debug\net472\VideoOS.Vms.BackupRestore.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.BackupRestore.UnitTests.BackupConfigManagerTest" name="BackupTestErrorDeleteFiles" />
+    </UnitTest>
+    <UnitTest name="BackupTest" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.backuprestore.unittests\bin\debug\net472\videoos.vms.backuprestore.unittests.dll" id="71a4ba21-61f2-fe93-ca88-c346c05db124">
+      <Execution id="927092fb-ddf6-403f-a215-954e96782fba" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.BackupRestore.UnitTests\bin\Debug\net472\VideoOS.Vms.BackupRestore.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.BackupRestore.UnitTests.BackupConfigManagerTest" name="BackupTest" />
+    </UnitTest>
+    <UnitTest name="AddComponentTest" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.backuprestore.unittests\bin\debug\net472\videoos.vms.backuprestore.unittests.dll" id="1a49b7d9-5de3-24ed-3eb1-fd59cec3ff7c">
+      <Execution id="56fdaad1-8263-4474-b81f-403be932ad4b" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.BackupRestore.UnitTests\bin\Debug\net472\VideoOS.Vms.BackupRestore.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.BackupRestore.UnitTests.BackupConfigManagerTest" name="AddComponentTest" />
+    </UnitTest>
+    <UnitTest name="BackupTestBackupAlreadyActive" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.backuprestore.unittests\bin\debug\net472\videoos.vms.backuprestore.unittests.dll" id="79899e02-b2ef-bd00-bc03-fe46259489d8">
+      <Execution id="a1a4c8ba-9242-4d8e-9359-3b0ca1f613ed" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.BackupRestore.UnitTests\bin\Debug\net472\VideoOS.Vms.BackupRestore.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.BackupRestore.UnitTests.BackupConfigManagerTest" name="BackupTestBackupAlreadyActive" />
+    </UnitTest>
+    <UnitTest name="CorporateConfigData_SerializationNoRegisteredServices" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.backuprestore.unittests\bin\debug\net472\videoos.vms.backuprestore.unittests.dll" id="89dcf851-df88-08f9-b798-8193d9d9a306">
+      <Execution id="3f160b10-80db-4ffe-aa40-298396bb2aec" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.BackupRestore.UnitTests\bin\Debug\net472\VideoOS.Vms.BackupRestore.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.BackupRestore.UnitTests.CorporateConfigDataTest" name="CorporateConfigData_SerializationNoRegisteredServices" />
+    </UnitTest>
+    <UnitTest name="WaitForZeroActiveActionsTest" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.backuprestore.unittests\bin\debug\net472\videoos.vms.backuprestore.unittests.dll" id="152bb7f0-de90-c864-0f1b-234f0304f03c">
+      <Execution id="08d0c6c3-0158-40c3-aeb4-0c4812094062" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.BackupRestore.UnitTests\bin\Debug\net472\VideoOS.Vms.BackupRestore.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.BackupRestore.UnitTests.RestoreConfigManagerTest" name="WaitForZeroActiveActionsTest" />
+    </UnitTest>
+    <UnitTest name="CorporateConfigData_Serialization" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.backuprestore.unittests\bin\debug\net472\videoos.vms.backuprestore.unittests.dll" id="5f3e2230-213c-287c-2722-f97f2e4e28a4">
+      <Execution id="7bd31870-8a5f-4db4-8f6c-d85eb1ee61aa" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.BackupRestore.UnitTests\bin\Debug\net472\VideoOS.Vms.BackupRestore.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.BackupRestore.UnitTests.CorporateConfigDataTest" name="CorporateConfigData_Serialization" />
+    </UnitTest>
+    <UnitTest name="BackupConfigManagerConstructorTestArgumentNullException" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.backuprestore.unittests\bin\debug\net472\videoos.vms.backuprestore.unittests.dll" id="1f7e35aa-d6bf-ea17-e85d-0cac36a41b6a">
+      <Execution id="d5a67a66-42d8-4a08-aea0-a6ec2d47d2a4" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.BackupRestore.UnitTests\bin\Debug\net472\VideoOS.Vms.BackupRestore.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.BackupRestore.UnitTests.BackupConfigManagerTest" name="BackupConfigManagerConstructorTestArgumentNullException" />
+    </UnitTest>
+    <UnitTest name="RestoreConfigManagerConstructorTest" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.backuprestore.unittests\bin\debug\net472\videoos.vms.backuprestore.unittests.dll" id="2b0d4561-e5c2-b55f-c41e-54984307696f">
+      <Execution id="34bfd235-603e-4ac9-bb42-a735ffffb4d9" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.BackupRestore.UnitTests\bin\Debug\net472\VideoOS.Vms.BackupRestore.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.BackupRestore.UnitTests.RestoreConfigManagerTest" name="RestoreConfigManagerConstructorTest" />
+    </UnitTest>
+    <UnitTest name="BackupConfigManagerConstructorTest" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.backuprestore.unittests\bin\debug\net472\videoos.vms.backuprestore.unittests.dll" id="d993b096-3067-65d6-8bc1-377277cb776e">
+      <Execution id="0e088ba5-43c5-4975-b4f8-198b2c247ba8" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.BackupRestore.UnitTests\bin\Debug\net472\VideoOS.Vms.BackupRestore.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.BackupRestore.UnitTests.BackupConfigManagerTest" name="BackupConfigManagerConstructorTest" />
+    </UnitTest>
+    <UnitTest name="BackupTestErrorMissingBackupFolder" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.backuprestore.unittests\bin\debug\net472\videoos.vms.backuprestore.unittests.dll" id="9c99bc23-1034-86d9-1704-31f928c2649f">
+      <Execution id="5dfe274e-c99e-4cfe-8310-82479d5dac22" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.BackupRestore.UnitTests\bin\Debug\net472\VideoOS.Vms.BackupRestore.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.BackupRestore.UnitTests.BackupConfigManagerTest" name="BackupTestErrorMissingBackupFolder" />
+    </UnitTest>
+    <UnitTest name="RegisteredService_Serilization" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.backuprestore.unittests\bin\debug\net472\videoos.vms.backuprestore.unittests.dll" id="ed8f305a-99a1-8d1a-3316-2877df5955ab">
+      <Execution id="4f59f39e-4c3a-4507-880d-ab2f682044ad" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.BackupRestore.UnitTests\bin\Debug\net472\VideoOS.Vms.BackupRestore.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.BackupRestore.UnitTests.CorporateConfigDataTest" name="RegisteredService_Serilization" />
+    </UnitTest>
+    <UnitTest name="StartServicesTest" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.backuprestore.unittests\bin\debug\net472\videoos.vms.backuprestore.unittests.dll" id="24d951f6-7052-0277-37bc-1dd3238df0ec">
+      <Execution id="6606924f-f821-4547-9b22-4465fd93b49e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.BackupRestore.UnitTests\bin\Debug\net472\VideoOS.Vms.BackupRestore.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.BackupRestore.UnitTests.RestoreConfigManagerTest" name="StartServicesTest" />
+    </UnitTest>
+    <UnitTest name="RestoreTest" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.backuprestore.unittests\bin\debug\net472\videoos.vms.backuprestore.unittests.dll" id="d662557d-7eaf-0bac-1223-0314100545db">
+      <Execution id="732aca7c-84f4-45c5-b0c4-5fb4150aabfa" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.BackupRestore.UnitTests\bin\Debug\net472\VideoOS.Vms.BackupRestore.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.BackupRestore.UnitTests.RestoreConfigManagerTest" name="RestoreTest" />
+    </UnitTest>
+    <UnitTest name="ValidateForRestoreSuccessTest" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.backuprestore.unittests\bin\debug\net472\videoos.vms.backuprestore.unittests.dll" id="db1b8248-4fb5-118e-b29a-9b5e8bb45d12">
+      <Execution id="b63f3d0a-b549-4d06-8725-8629eb5dc793" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.BackupRestore.UnitTests\bin\Debug\net472\VideoOS.Vms.BackupRestore.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.BackupRestore.UnitTests.RestoreConfigManagerTest" name="ValidateForRestoreSuccessTest" />
+    </UnitTest>
+    <UnitTest name="StopServicesTest" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.backuprestore.unittests\bin\debug\net472\videoos.vms.backuprestore.unittests.dll" id="a8c51377-49fd-d76b-d512-252124b248f6">
+      <Execution id="0b8c91fb-2354-4be4-affb-a68eed1c84a2" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.BackupRestore.UnitTests\bin\Debug\net472\VideoOS.Vms.BackupRestore.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.BackupRestore.UnitTests.RestoreConfigManagerTest" name="StopServicesTest" />
+    </UnitTest>
+    <UnitTest name="CleanUpTest" storage="d:\actions-runner\_work\xpco\xpco\corporate\shared\utilities\tst\videoos.vms.backuprestore.unittests\bin\debug\net472\videoos.vms.backuprestore.unittests.dll" id="f697ce41-be20-88dd-b796-af617cc0cf2f">
+      <Execution id="5f3a4b04-c335-4c4c-b21e-12c4b0674c9c" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\Corporate\Shared\Utilities\tst\VideoOS.Vms.BackupRestore.UnitTests\bin\Debug\net472\VideoOS.Vms.BackupRestore.UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.Vms.BackupRestore.UnitTests.RestoreConfigManagerTest" name="CleanUpTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="d662557d-7eaf-0bac-1223-0314100545db" executionId="732aca7c-84f4-45c5-b0c4-5fb4150aabfa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="152bb7f0-de90-c864-0f1b-234f0304f03c" executionId="08d0c6c3-0158-40c3-aeb4-0c4812094062" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2b0d4561-e5c2-b55f-c41e-54984307696f" executionId="34bfd235-603e-4ac9-bb42-a735ffffb4d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6410649a-261c-98ee-4782-cb603a799e9f" executionId="f88810c2-5fa6-4d1a-90d2-ac2a4df030d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="89dcf851-df88-08f9-b798-8193d9d9a306" executionId="3f160b10-80db-4ffe-aa40-298396bb2aec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="db1b8248-4fb5-118e-b29a-9b5e8bb45d12" executionId="b63f3d0a-b549-4d06-8725-8629eb5dc793" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="24d951f6-7052-0277-37bc-1dd3238df0ec" executionId="6606924f-f821-4547-9b22-4465fd93b49e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="79899e02-b2ef-bd00-bc03-fe46259489d8" executionId="a1a4c8ba-9242-4d8e-9359-3b0ca1f613ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1f7e35aa-d6bf-ea17-e85d-0cac36a41b6a" executionId="d5a67a66-42d8-4a08-aea0-a6ec2d47d2a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="71a4ba21-61f2-fe93-ca88-c346c05db124" executionId="927092fb-ddf6-403f-a215-954e96782fba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a8c51377-49fd-d76b-d512-252124b248f6" executionId="0b8c91fb-2354-4be4-affb-a68eed1c84a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d993b096-3067-65d6-8bc1-377277cb776e" executionId="0e088ba5-43c5-4975-b4f8-198b2c247ba8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1350dfe3-4e2c-ffd9-b794-3cd6f005f3b4" executionId="fa431839-a582-4476-82f8-e815fc443dd5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1a49b7d9-5de3-24ed-3eb1-fd59cec3ff7c" executionId="56fdaad1-8263-4474-b81f-403be932ad4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5f3e2230-213c-287c-2722-f97f2e4e28a4" executionId="7bd31870-8a5f-4db4-8f6c-d85eb1ee61aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed8f305a-99a1-8d1a-3316-2877df5955ab" executionId="4f59f39e-4c3a-4507-880d-ab2f682044ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f697ce41-be20-88dd-b796-af617cc0cf2f" executionId="5f3a4b04-c335-4c4c-b21e-12c4b0674c9c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9c99bc23-1034-86d9-1704-31f928c2649f" executionId="5dfe274e-c99e-4cfe-8310-82479d5dac22" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e32e3fa7-bcdb-2d7e-08a8-39dad1ec14bb" executionId="a45dfca7-a238-4aec-a875-cad4d2a25ecf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="19" executed="19" passed="19" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

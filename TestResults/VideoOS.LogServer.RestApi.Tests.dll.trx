@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="e90095cc-932b-4214-af6c-e9cee3619d98" name="DKSR-EFI-06$@DKSR-EFI-06 2024-01-09 15:44:00" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-01-09T15:44:00.4355163+01:00" queuing="2024-01-09T15:44:00.4355163+01:00" start="2024-01-09T15:43:57.5760905+01:00" finish="2024-01-09T15:44:01.0451530+01:00" />
+  <TestSettings name="default" id="55afea9e-69a9-4d4e-b470-f20eaf0d115a">
+    <Deployment runDeploymentRoot="DKSR-EFI-06$_DKSR-EFI-06_2024-01-09_15_44_00" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="ff6525a7-1f89-421f-9248-346ff05cb400" testId="f94d4263-65c7-0b38-cd6c-1d5a2ebc31a2" testName="ValidateClientAsync_ShouldThrowUnauthorizedAccessException_WhenTokenIsMalformed" computerName="DKSR-EFI-06" duration="00:00:00.0972036" startTime="2024-01-09T15:44:00.2479743+01:00" endTime="2024-01-09T15:44:00.3573494+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff6525a7-1f89-421f-9248-346ff05cb400" />
+    <UnitTestResult executionId="3cdfbde0-6182-4ec9-bcd5-7aeae18e196f" testId="c2607d27-75f1-6f51-5c28-279d36b681fb" testName="HandleAuthenticateAsync_ShouldReturnFalure_WhenClientNotValidated" computerName="DKSR-EFI-06" duration="00:00:00.0091338" startTime="2024-01-09T15:44:00.2479743+01:00" endTime="2024-01-09T15:44:00.2479743+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3cdfbde0-6182-4ec9-bcd5-7aeae18e196f" />
+    <UnitTestResult executionId="65c329c0-70b9-4fc6-ba1f-3161b8749cc3" testId="afbb1fe8-219c-222e-1965-eaecf667f0cc" testName="HandleAuthenticateAsync_ShouldReturnNoResult_WhenRequestDoesntContainHeader" computerName="DKSR-EFI-06" duration="00:00:00.9002947" startTime="2024-01-09T15:43:59.1229717+01:00" endTime="2024-01-09T15:44:00.1854725+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="65c329c0-70b9-4fc6-ba1f-3161b8749cc3" />
+    <UnitTestResult executionId="626b0122-d3bf-4047-a53d-cfc6c44a6c70" testId="8901a2e5-5a52-69c1-a7c9-36f89ddec934" testName="Authorize_ShouldCompleteSuccessfully_WhenAuthenticationSucceeds" computerName="DKSR-EFI-06" duration="00:00:00.0371585" startTime="2024-01-09T15:44:00.4355163+01:00" endTime="2024-01-09T15:44:00.4667238+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="626b0122-d3bf-4047-a53d-cfc6c44a6c70" />
+    <UnitTestResult executionId="b1ded7fa-4c84-4d84-b991-47409f118f68" testId="c8791c87-3b68-906e-0e5b-cef2af8ae911" testName="ValidateClientAsync_ShouldThrowUnauthorizedAccessException_IfTokenHasInvalidScope" computerName="DKSR-EFI-06" duration="00:00:00.0052967" startTime="2024-01-09T15:44:00.3729745+01:00" endTime="2024-01-09T15:44:00.3729745+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1ded7fa-4c84-4d84-b991-47409f118f68" />
+    <UnitTestResult executionId="b9b54c45-a3e7-4e81-b6f7-8f513ae0b076" testId="57277b96-63ae-c6ed-9fdb-b2b6dce8cb22" testName="HandleAuthenticateAsync_ShouldReturnSuccess_WhenClientValidated" computerName="DKSR-EFI-06" duration="00:00:00.0289830" startTime="2024-01-09T15:44:00.2167234+01:00" endTime="2024-01-09T15:44:00.2479743+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9b54c45-a3e7-4e81-b6f7-8f513ae0b076" />
+    <UnitTestResult executionId="f948187e-58ef-4d29-a233-7d029fabaa11" testId="b0562bfe-b878-f986-01c5-73f37070a115" testName="Authorize_ShouldThrowUserValidationException_WhenAuthenticationFails" computerName="DKSR-EFI-06" duration="00:00:00.0478886" startTime="2024-01-09T15:44:00.3885999+01:00" endTime="2024-01-09T15:44:00.4355163+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f948187e-58ef-4d29-a233-7d029fabaa11" />
+    <UnitTestResult executionId="6352d855-15dc-4a58-827b-9914cd09afe9" testId="4e3d3057-90f6-25fe-6f89-b192a84fe2d7" testName="ValidateClientAsync_ShouldThrowUnauthorizedAccessException_IfTokenHasNoScope" computerName="DKSR-EFI-06" duration="00:00:00.0072408" startTime="2024-01-09T15:44:00.3573494+01:00" endTime="2024-01-09T15:44:00.3729745+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6352d855-15dc-4a58-827b-9914cd09afe9" />
+    <UnitTestResult executionId="2e62769c-12e7-4ed7-aff7-fcf8b9afc0e5" testId="9cc42a29-45ce-bbc0-6062-ab5754791674" testName="ValidateClientAsync_ShouldReturnValidClaimsPrincipal_IfTokenValid" computerName="DKSR-EFI-06" duration="00:00:00.0092212" startTime="2024-01-09T15:44:00.3729745+01:00" endTime="2024-01-09T15:44:00.3885999+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e62769c-12e7-4ed7-aff7-fcf8b9afc0e5" />
+    <UnitTestResult executionId="1a9f579b-805a-46e4-9afc-8e51ccc41618" testId="eebb492f-e169-4313-3912-a70190d55ce9" testName="ValidateClientAsync_ShouldThrowUnauthorizedAccessException_IfIdpCallReturnsNull" computerName="DKSR-EFI-06" duration="00:00:00.0070620" startTime="2024-01-09T15:44:00.3573494+01:00" endTime="2024-01-09T15:44:00.3573494+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a9f579b-805a-46e4-9afc-8e51ccc41618" />
+    <UnitTestResult executionId="d429c7bc-122c-467c-b82d-7c40aa520448" testId="cef8efc5-5c93-81ce-93b1-e47d4761af78" testName="ResolveIdpAddressAsync_ShouldReturnCorrectUri" computerName="DKSR-EFI-06" duration="00:00:00.3707011" startTime="2024-01-09T15:44:00.4667238+01:00" endTime="2024-01-09T15:44:00.8417245+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d429c7bc-122c-467c-b82d-7c40aa520448" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Authorize_ShouldThrowUserValidationException_WhenAuthenticationFails" storage="d:\actions-runner\_work\xpco\xpco\logserver\server\videoos.logserver.restapi.tests\bin\debug\videoos.logserver.restapi.tests.dll" id="b0562bfe-b878-f986-01c5-73f37070a115">
+      <Execution id="f948187e-58ef-4d29-a233-7d029fabaa11" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\LogServer\Server\VideoOS.LogServer.RestApi.Tests\bin\Debug\VideoOS.LogServer.RestApi.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.LogServer.RestApi.Tests.Authentication.UserAuthorizationTests" name="Authorize_ShouldThrowUserValidationException_WhenAuthenticationFails" />
+    </UnitTest>
+    <UnitTest name="HandleAuthenticateAsync_ShouldReturnNoResult_WhenRequestDoesntContainHeader" storage="d:\actions-runner\_work\xpco\xpco\logserver\server\videoos.logserver.restapi.tests\bin\debug\videoos.logserver.restapi.tests.dll" id="afbb1fe8-219c-222e-1965-eaecf667f0cc">
+      <Execution id="65c329c0-70b9-4fc6-ba1f-3161b8749cc3" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\LogServer\Server\VideoOS.LogServer.RestApi.Tests\bin\Debug\VideoOS.LogServer.RestApi.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.LogServer.RestApi.Tests.Authentication.BearerAuthenticationHandlerTests" name="HandleAuthenticateAsync_ShouldReturnNoResult_WhenRequestDoesntContainHeader" />
+    </UnitTest>
+    <UnitTest name="ValidateClientAsync_ShouldThrowUnauthorizedAccessException_WhenTokenIsMalformed" storage="d:\actions-runner\_work\xpco\xpco\logserver\server\videoos.logserver.restapi.tests\bin\debug\videoos.logserver.restapi.tests.dll" id="f94d4263-65c7-0b38-cd6c-1d5a2ebc31a2">
+      <Execution id="ff6525a7-1f89-421f-9248-346ff05cb400" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\LogServer\Server\VideoOS.LogServer.RestApi.Tests\bin\Debug\VideoOS.LogServer.RestApi.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.LogServer.RestApi.Tests.Authentication.ClientValidationTests" name="ValidateClientAsync_ShouldThrowUnauthorizedAccessException_WhenTokenIsMalformed" />
+    </UnitTest>
+    <UnitTest name="Authorize_ShouldCompleteSuccessfully_WhenAuthenticationSucceeds" storage="d:\actions-runner\_work\xpco\xpco\logserver\server\videoos.logserver.restapi.tests\bin\debug\videoos.logserver.restapi.tests.dll" id="8901a2e5-5a52-69c1-a7c9-36f89ddec934">
+      <Execution id="626b0122-d3bf-4047-a53d-cfc6c44a6c70" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\LogServer\Server\VideoOS.LogServer.RestApi.Tests\bin\Debug\VideoOS.LogServer.RestApi.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.LogServer.RestApi.Tests.Authentication.UserAuthorizationTests" name="Authorize_ShouldCompleteSuccessfully_WhenAuthenticationSucceeds" />
+    </UnitTest>
+    <UnitTest name="HandleAuthenticateAsync_ShouldReturnSuccess_WhenClientValidated" storage="d:\actions-runner\_work\xpco\xpco\logserver\server\videoos.logserver.restapi.tests\bin\debug\videoos.logserver.restapi.tests.dll" id="57277b96-63ae-c6ed-9fdb-b2b6dce8cb22">
+      <Execution id="b9b54c45-a3e7-4e81-b6f7-8f513ae0b076" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\LogServer\Server\VideoOS.LogServer.RestApi.Tests\bin\Debug\VideoOS.LogServer.RestApi.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.LogServer.RestApi.Tests.Authentication.BearerAuthenticationHandlerTests" name="HandleAuthenticateAsync_ShouldReturnSuccess_WhenClientValidated" />
+    </UnitTest>
+    <UnitTest name="ValidateClientAsync_ShouldThrowUnauthorizedAccessException_IfIdpCallReturnsNull" storage="d:\actions-runner\_work\xpco\xpco\logserver\server\videoos.logserver.restapi.tests\bin\debug\videoos.logserver.restapi.tests.dll" id="eebb492f-e169-4313-3912-a70190d55ce9">
+      <Execution id="1a9f579b-805a-46e4-9afc-8e51ccc41618" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\LogServer\Server\VideoOS.LogServer.RestApi.Tests\bin\Debug\VideoOS.LogServer.RestApi.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.LogServer.RestApi.Tests.Authentication.ClientValidationTests" name="ValidateClientAsync_ShouldThrowUnauthorizedAccessException_IfIdpCallReturnsNull" />
+    </UnitTest>
+    <UnitTest name="ValidateClientAsync_ShouldThrowUnauthorizedAccessException_IfTokenHasInvalidScope" storage="d:\actions-runner\_work\xpco\xpco\logserver\server\videoos.logserver.restapi.tests\bin\debug\videoos.logserver.restapi.tests.dll" id="c8791c87-3b68-906e-0e5b-cef2af8ae911">
+      <Execution id="b1ded7fa-4c84-4d84-b991-47409f118f68" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\LogServer\Server\VideoOS.LogServer.RestApi.Tests\bin\Debug\VideoOS.LogServer.RestApi.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.LogServer.RestApi.Tests.Authentication.ClientValidationTests" name="ValidateClientAsync_ShouldThrowUnauthorizedAccessException_IfTokenHasInvalidScope" />
+    </UnitTest>
+    <UnitTest name="HandleAuthenticateAsync_ShouldReturnFalure_WhenClientNotValidated" storage="d:\actions-runner\_work\xpco\xpco\logserver\server\videoos.logserver.restapi.tests\bin\debug\videoos.logserver.restapi.tests.dll" id="c2607d27-75f1-6f51-5c28-279d36b681fb">
+      <Execution id="3cdfbde0-6182-4ec9-bcd5-7aeae18e196f" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\LogServer\Server\VideoOS.LogServer.RestApi.Tests\bin\Debug\VideoOS.LogServer.RestApi.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.LogServer.RestApi.Tests.Authentication.BearerAuthenticationHandlerTests" name="HandleAuthenticateAsync_ShouldReturnFalure_WhenClientNotValidated" />
+    </UnitTest>
+    <UnitTest name="ValidateClientAsync_ShouldThrowUnauthorizedAccessException_IfTokenHasNoScope" storage="d:\actions-runner\_work\xpco\xpco\logserver\server\videoos.logserver.restapi.tests\bin\debug\videoos.logserver.restapi.tests.dll" id="4e3d3057-90f6-25fe-6f89-b192a84fe2d7">
+      <Execution id="6352d855-15dc-4a58-827b-9914cd09afe9" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\LogServer\Server\VideoOS.LogServer.RestApi.Tests\bin\Debug\VideoOS.LogServer.RestApi.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.LogServer.RestApi.Tests.Authentication.ClientValidationTests" name="ValidateClientAsync_ShouldThrowUnauthorizedAccessException_IfTokenHasNoScope" />
+    </UnitTest>
+    <UnitTest name="ResolveIdpAddressAsync_ShouldReturnCorrectUri" storage="d:\actions-runner\_work\xpco\xpco\logserver\server\videoos.logserver.restapi.tests\bin\debug\videoos.logserver.restapi.tests.dll" id="cef8efc5-5c93-81ce-93b1-e47d4761af78">
+      <Execution id="d429c7bc-122c-467c-b82d-7c40aa520448" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\LogServer\Server\VideoOS.LogServer.RestApi.Tests\bin\Debug\VideoOS.LogServer.RestApi.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.LogServer.RestApi.Tests.Authentication.VmsAddressResolverTests" name="ResolveIdpAddressAsync_ShouldReturnCorrectUri" />
+    </UnitTest>
+    <UnitTest name="ValidateClientAsync_ShouldReturnValidClaimsPrincipal_IfTokenValid" storage="d:\actions-runner\_work\xpco\xpco\logserver\server\videoos.logserver.restapi.tests\bin\debug\videoos.logserver.restapi.tests.dll" id="9cc42a29-45ce-bbc0-6062-ab5754791674">
+      <Execution id="2e62769c-12e7-4ed7-aff7-fcf8b9afc0e5" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\LogServer\Server\VideoOS.LogServer.RestApi.Tests\bin\Debug\VideoOS.LogServer.RestApi.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="VideoOS.LogServer.RestApi.Tests.Authentication.ClientValidationTests" name="ValidateClientAsync_ShouldReturnValidClaimsPrincipal_IfTokenValid" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="f94d4263-65c7-0b38-cd6c-1d5a2ebc31a2" executionId="ff6525a7-1f89-421f-9248-346ff05cb400" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2607d27-75f1-6f51-5c28-279d36b681fb" executionId="3cdfbde0-6182-4ec9-bcd5-7aeae18e196f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="afbb1fe8-219c-222e-1965-eaecf667f0cc" executionId="65c329c0-70b9-4fc6-ba1f-3161b8749cc3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8901a2e5-5a52-69c1-a7c9-36f89ddec934" executionId="626b0122-d3bf-4047-a53d-cfc6c44a6c70" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c8791c87-3b68-906e-0e5b-cef2af8ae911" executionId="b1ded7fa-4c84-4d84-b991-47409f118f68" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="57277b96-63ae-c6ed-9fdb-b2b6dce8cb22" executionId="b9b54c45-a3e7-4e81-b6f7-8f513ae0b076" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b0562bfe-b878-f986-01c5-73f37070a115" executionId="f948187e-58ef-4d29-a233-7d029fabaa11" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4e3d3057-90f6-25fe-6f89-b192a84fe2d7" executionId="6352d855-15dc-4a58-827b-9914cd09afe9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9cc42a29-45ce-bbc0-6062-ab5754791674" executionId="2e62769c-12e7-4ed7-aff7-fcf8b9afc0e5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eebb492f-e169-4313-3912-a70190d55ce9" executionId="1a9f579b-805a-46e4-9afc-8e51ccc41618" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cef8efc5-5c93-81ce-93b1-e47d4761af78" executionId="d429c7bc-122c-467c-b82d-7c40aa520448" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="11" executed="11" passed="11" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>
