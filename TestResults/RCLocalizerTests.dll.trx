@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="148fe5fe-2479-4fc1-8bff-8a46cc754ab1" name="DKSR-EFI-06$@DKSR-EFI-06 2024-01-09 15:44:49" runUser="NT AUTHORITY\NETWORK SERVICE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-01-09T15:44:49.0606002+01:00" queuing="2024-01-09T15:44:49.0606002+01:00" start="2024-01-09T15:44:47.8730962+01:00" finish="2024-01-09T15:44:49.0918500+01:00" />
+  <TestSettings name="default" id="cad1d33a-3c0d-42d4-98ea-e58c54d20fd4">
+    <Deployment runDeploymentRoot="DKSR-EFI-06$_DKSR-EFI-06_2024-01-09_15_44_49" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="68b217ee-4e5f-4e76-bf24-46e874e64d08" testId="ab953eb6-3888-3fb3-ffa9-a19e860741ec" testName="GetPairsTest_BadEntryr_Success" computerName="DKSR-EFI-06" duration="00:00:00.0016998" startTime="2024-01-09T15:44:48.9512262+01:00" endTime="2024-01-09T15:44:48.9512262+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="68b217ee-4e5f-4e76-bf24-46e874e64d08">
+      <Output>
+        <StdOut>Warning: invalid entry in the Localization file. Invalid entry: MISSINGSEMICOLON_INVALID &lt;For at starte programmet, skal du først installere .Net Framework, som du kan downloade fra:\n\n[installurl]\n\nVil du åbne dette link i din browser?&gt;.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5276fab3-c134-403b-813f-87327a6406f0" testId="4e3b0237-f373-7cf1-6ebc-d4e2c2cd39da" testName="GetPairsTest_BadHeader_Fail" computerName="DKSR-EFI-06" duration="00:00:00.0004404" startTime="2024-01-09T15:44:48.9512262+01:00" endTime="2024-01-09T15:44:48.9512262+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5276fab3-c134-403b-813f-87327a6406f0" />
+    <UnitTestResult executionId="7fe6474c-0535-45e0-8d80-cbff9826008e" testId="ebfdc3f8-441e-fae2-4d59-04886bcaa6b3" testName="GetPairsTest_Success" computerName="DKSR-EFI-06" duration="00:00:00.1634072" startTime="2024-01-09T15:44:48.7168494+01:00" endTime="2024-01-09T15:44:48.9356001+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7fe6474c-0535-45e0-8d80-cbff9826008e" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="GetPairsTest_Success" storage="d:\actions-runner\_work\xpco\xpco\sc\components\remoteviewer\smartclientlauncher\rclocalizer\rclocalizertests\bin\debug\rclocalizertests.dll" id="ebfdc3f8-441e-fae2-4d59-04886bcaa6b3">
+      <Execution id="7fe6474c-0535-45e0-8d80-cbff9826008e" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\SC\Components\RemoteViewer\SmartClientLauncher\RCLocalizer\RCLocalizerTests\bin\Debug\RCLocalizerTests.dll" adapterTypeName="executor://mstestadapter/v1" className="RCLocalizer.Tests.LocalizationFileParserTests" name="GetPairsTest_Success" />
+    </UnitTest>
+    <UnitTest name="GetPairsTest_BadHeader_Fail" storage="d:\actions-runner\_work\xpco\xpco\sc\components\remoteviewer\smartclientlauncher\rclocalizer\rclocalizertests\bin\debug\rclocalizertests.dll" id="4e3b0237-f373-7cf1-6ebc-d4e2c2cd39da">
+      <Execution id="5276fab3-c134-403b-813f-87327a6406f0" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\SC\Components\RemoteViewer\SmartClientLauncher\RCLocalizer\RCLocalizerTests\bin\Debug\RCLocalizerTests.dll" adapterTypeName="executor://mstestadapter/v1" className="RCLocalizer.Tests.LocalizationFileParserTests" name="GetPairsTest_BadHeader_Fail" />
+    </UnitTest>
+    <UnitTest name="GetPairsTest_BadEntryr_Success" storage="d:\actions-runner\_work\xpco\xpco\sc\components\remoteviewer\smartclientlauncher\rclocalizer\rclocalizertests\bin\debug\rclocalizertests.dll" id="ab953eb6-3888-3fb3-ffa9-a19e860741ec">
+      <Execution id="68b217ee-4e5f-4e76-bf24-46e874e64d08" />
+      <TestMethod codeBase="D:\actions-runner\_work\XPCO\XPCO\SC\Components\RemoteViewer\SmartClientLauncher\RCLocalizer\RCLocalizerTests\bin\Debug\RCLocalizerTests.dll" adapterTypeName="executor://mstestadapter/v1" className="RCLocalizer.Tests.LocalizationFileParserTests" name="GetPairsTest_BadEntryr_Success" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="ab953eb6-3888-3fb3-ffa9-a19e860741ec" executionId="68b217ee-4e5f-4e76-bf24-46e874e64d08" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4e3b0237-f373-7cf1-6ebc-d4e2c2cd39da" executionId="5276fab3-c134-403b-813f-87327a6406f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ebfdc3f8-441e-fae2-4d59-04886bcaa6b3" executionId="7fe6474c-0535-45e0-8d80-cbff9826008e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

@@ -2,12 +2,18 @@ name: 'Test reporting'
 
 on:
   push:
+  pull_request:
   workflow_dispatch:
   
 permissions:
   contents: read
   actions: read
   checks: write  
+  
+env:
+  BRANCH_NAME_LONG: 'a-very-long-branch-name-which-should-be-truncated-into-something-shorter'
+  BRANCH_NAME_SHORT: 'short'
+  BRANCH_NAME_MAX_LENGTH: 15
   
 jobs:
   build-and-test:
@@ -18,17 +24,40 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v4
 
+      - name: Set default values
+        run: |
+          $TruncatedBranchNameLong = $env:BRANCH_NAME_LONG.Substring(0, $([System.Math]::Min($env:BRANCH_NAME_MAX_LENGTH, $env:BRANCH_NAME_LONG.Length)))
+          $TruncatedBranchNameShort = "${{ env.BRANCH_NAME_SHORT }}".Substring(0, $([System.Math]::Min(${{ env.BRANCH_NAME_MAX_LENGTH }}, "${{ env.BRANCH_NAME_SHORT }}".Length)))
+          echo "BUILD_BRANCH_NAME_LONG=$TruncatedBranchNameLong" >> $env:GITHUB_ENV
+          echo "BUILD_BRANCH_NAME_SHORT=$TruncatedBranchNameShort" >> $env:GITHUB_ENV
+
+      - name: 'Print truncated branch name'
+        shell: pwsh
+        run: |
+          echo "Truncated long branch name: '$env:BUILD_BRANCH_NAME_LONG'"
+          echo "Truncated short branch name: '$env:BUILD_BRANCH_NAME_SHORT'"
+
+      - name: 'Recursive lookup'
+        uses: nih-milestone/trx-parser@main
+        with:
+          TRX_PATH: ${{ github.workspace }}\TestResults
+        
+      - name: 'Roll dice'
+        shell: pwsh
+        run: echo "PASS=$(Get-Random -Maximum 3)" >> $env:GITHUB_ENV
+       
       - name: 'Parse - Failing results'
-        uses: nih-milestone/trx-parser@v0.5.7
+        if: env.PASS > 0
+        uses: nih-milestone/trx-parser@main
         with:
           TRX_PATH: ${{ github.workspace }}\FailingTestResults
-          TRX_GROUPING: 50
+          TRX_GROUPING: 100
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
           
       - name: 'Parse - Passing results'
-        if: always()
-        uses: nih-milestone/trx-parser@v0.5.7
+        if: env.PASS == 0
+        uses: nih-milestone/trx-parser@main
         with:
           TRX_PATH: ${{ github.workspace }}\PassingTestResults
-          TRX_GROUPING: 50
-          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}           
+          TRX_GROUPING: 100
+          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
