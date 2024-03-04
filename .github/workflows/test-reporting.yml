@@ -30,8 +30,9 @@ jobs:
 
       - name: 'Print truncated branch name'
         shell: pwsh
-        run: echo "Truncated long branch name: '$env:BUILD_BRANCH_NAME_LONG'"
-        run: echo "Truncated short branch name: '$env:BUILD_BRANCH_NAME_SHORT'"
+        run: |
+          echo "Truncated long branch name: '$env:BUILD_BRANCH_NAME_LONG'"
+          echo "Truncated short branch name: '$env:BUILD_BRANCH_NAME_SHORT'"
 
       - name: 'Recursive lookup'
         uses: nih-milestone/trx-parser@main
