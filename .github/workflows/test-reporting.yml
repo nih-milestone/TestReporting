@@ -26,7 +26,7 @@ jobs:
 
       - name: Set default values
         run: |
-          echo "BUILD_BRANCH_NAME_LONG=$("${{ env.BRANCH_NAME_LONG }}".Substring(0, $env:BRANCH_NAME_MAX_LENGTH))" >> $env:GITHUB_ENV
+          echo "BUILD_BRANCH_NAME_LONG=$("${{ env.BRANCH_NAME_LONG }}".Substring(0, ${{ env.BRANCH_NAME_MAX_LENGTH }}))" >> $env:GITHUB_ENV
           echo "BUILD_BRANCH_NAME_SHORT=$("${{ env.BRANCH_NAME_SHORT }}".Substring(0, 5))" >> $env:GITHUB_ENV
 
       - name: 'Print truncated branch name'
