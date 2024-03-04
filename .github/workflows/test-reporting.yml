@@ -10,6 +10,10 @@ permissions:
   actions: read
   checks: write  
   
+env:
+  BRANCH_NAME_LONG: 'a-very-long-branch-name-which-should-be-truncated-into-something-shorter'
+  BRANCH_NAME_SHORT: 'short'
+  
 jobs:
   build-and-test:
     name: 'Build, test and report'
@@ -18,6 +22,16 @@ jobs:
     steps:
       - name: Check out code
         uses: actions/checkout@v4
+
+      - name: Set default values
+        run: |
+          echo "BUILD_BRANCH_NAME_LONG=${{ env.BRANCH_NAME_LONG.Substring(0,15) }}" >> $env:GITHUB_ENV
+          echo "BUILD_BRANCH_NAME_SHORT=${{ env.BRANCH_NAME_SHORT.Substring(0,15) }}" >> $env:GITHUB_ENV
+
+      - name: 'Print truncated branch name'
+        shell: pwsh
+        run: echo "Truncated long branch name: '$env:BUILD_BRANCH_NAME_LONG'"
+        run: echo "Truncated short branch name: '$env:BUILD_BRANCH_NAME_SHORT'"
 
       - name: 'Recursive lookup'
         uses: nih-milestone/trx-parser@main
