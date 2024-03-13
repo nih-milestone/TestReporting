@@ -47,5 +47,6 @@ jobs:
           -f 'head_sha=${{ github.sha }}' \
           -f 'status=completed' \
           -f 'conclusion=success' \
-          -f 'summary=A Mighty Summary - ${{ github.run_id }} - ${{ env.NOW }}' \
+          -f 'output[title]=A Mighty Title' \
+          -f 'output[summary]=A Mighty Summary - ${{ github.run_id }} - ${{ env.NOW }}' \
           /repos/${{ github.repository }}/check-runs
