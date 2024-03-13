@@ -13,7 +13,7 @@ permissions:
 jobs:
   build-and-test:
     name: 'Build, test and report'
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     
     steps:
       - name: Check out code
