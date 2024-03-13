@@ -17,4 +17,4 @@ runs:
       shell: powershell
       run: |
         $Summary = "### This is the summary. build-version=${{ inputs.build-version }}, solution=${{ inputs.solution }}"
-        echo "$Summary" >> $GITHUB_STEP_SUMMARY
+        echo "$Summary" >> $env:GITHUB_STEP_SUMMARY
