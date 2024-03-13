@@ -45,6 +45,6 @@ jobs:
           -H "X-GitHub-Api-Version: 2022-11-28" \
           -f 'name=A Mighty Test' \
           -f 'head_sha=${{ github.sha }}' \
-          -f 'status=in_progress' \
+          -f 'status=success' \
           -f 'summary=A Mighty Summary - ${{ github.run_id }} - ${{ env.NOW }}' \
           /repos/${{ github.repository }}/check-runs
