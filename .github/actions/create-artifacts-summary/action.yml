@@ -1,0 +1,20 @@
+name: Create artifact summary
+
+description: "Creates a job summary with Nexus links to the produced artifacts"
+
+inputs:
+  build-version:
+    type: string
+    required: true
+  solution:
+    type: string
+    required: true
+
+runs:
+  using: "composite"
+  steps:
+    - name: return version
+      shell: powershell
+      run: |
+        $Summary = "### This is the summary. build-version=${{ inputs.build-version }}, solution=${{ inputs.solution }}"
+        echo "$Summary" >> $GITHUB_STEP_SUMMARY

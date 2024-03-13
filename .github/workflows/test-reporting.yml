@@ -35,28 +35,13 @@ jobs:
           TRX_GROUPING: 50
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - id: app_token
-        uses: tibdex/github-app-token@v2
-        env:
-          OPENSSL_CONF: /dev/null  # https://github.com/tibdex/github-app-token/issues/54
-        with:
-          app_id: 855383
-          private_key: ${{ secrets.PRIVATE_KEY_CHECKS_API_APP }}
-
-      - name: Set current date as env variable
-        run: echo "NOW=$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV          
-
-      - name: Create Check Run
-        env:
-          GH_TOKEN: ${{ steps.app_token.outputs.token }}
-#          GH_TOKEN: ${{ github.token }}
+      - name: Set ENV variables
         run: |
-          gh api -X POST -H "Accept: application/vnd.github+json" \
-          -H "X-GitHub-Api-Version: 2022-11-28" \
-          -f 'name=A Mighty Test' \
-          -f 'head_sha=${{ github.sha }}' \
-          -f 'status=completed' \
-          -f 'conclusion=success' \
-          -f 'output[title]=A Mighty Title' \
-          -f 'output[summary]=A Mighty Summary - ${{ github.run_id }} - ${{ env.NOW }}' \
-          /repos/${{ github.repository }}/check-runs
+          echo "BUILD_VERSION=1.2.3" >> $env:GITHUB_ENV
+          echo "BUILD_SLN=Gate.slnf" >> $env:GITHUB_ENV
+
+      - name: Create artifacts summary
+        uses: ./.github/actions/create-artifacts-summary
+        with:
+          build-version: ${{ env.BUILD_VERSION }}
+          solution: ${{ env.BUILD_SLN }}
