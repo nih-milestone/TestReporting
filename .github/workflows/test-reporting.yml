@@ -39,7 +39,7 @@ jobs:
         env:
           OPENSSL_CONF: /dev/null  # https://github.com/tibdex/github-app-token/issues/54
         with:
-          app_id: MyChecksApiApp
+          app_id: 855383
           private_key: ${{ secrets.PRIVATE_KEY_CHECKS_API_APP }}
 
       - name: Set current date as env variable
