@@ -61,6 +61,9 @@ jobs:
           build-version: ${{ env.BUILD_VERSION }}
           solution: ${{ env.BUILD_SLN }}
           warn-if-empty: true
+          installers-path: ./publish/compressed-installers
           installers-base-url: "https://nexus.milestone.dev/repository/test-vmsdev-installers/main/${{ env.BUILD_VERSION }}"
+          symbols-path: ./publish/compressed-symbols
           symbols-base-url: "https://nexus.milestone.dev/repository/test-vmsdev-symbols/main/${{ env.BUILD_VERSION }}"
+          documentation-path: ./publish/compressed-documentation
           documentation-base-url: "https://nexus.milestone.dev/repository/test-vmsdev-documentation/main/${{ env.BUILD_VERSION }}"

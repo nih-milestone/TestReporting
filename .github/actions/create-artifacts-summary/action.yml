@@ -15,13 +15,22 @@ inputs:
   solution:
     type: string
     required: true
+  installers-path:
+    type: string
+    required: true      
   installers-base-url:
     type: string
     required: true  
   symbols-base-url:
     type: string
     required: true
+  symbols-path:
+    type: string
+    required: true
   documentation-base-url:
+    type: string
+    required: true
+  documentation-path:
     type: string
     required: true        
   warn-if-empty:
@@ -35,7 +44,6 @@ runs:
     - name: Create summary
       shell: pwsh
       run: |
-        New-Item -Path .\publish\compressed-symbols -ItemType Directory -Force
         $Summary = "### Version ${{ inputs.build-version }}"
         $Summary = $Summary + "`nBranch: **${{ inputs.branch-name }}**"
         $Summary = $Summary + "`nBuild type: **${{ inputs.is-full-build == 'true' && 'Full' || 'Partial' }}** - ${{ inputs.solution }}"
@@ -43,10 +51,10 @@ runs:
         $Summary = $Summary + "`nChangelog: ${{ inputs.installers-base-url }}/CHANGELOG.md"
         $Summary = $Summary + "`nSymbol Server: ${{ inputs.symbols-base-url }}/_SymbolServer"
 
-        if ((Get-ChildItem -Path ".\publish\compressed-installers" -Force | Measure-Object).Count -gt 0)
+        if ((Get-ChildItem -Path "${{ inputs.installers-path }}" -Force | Measure-Object).Count -gt 0)
         {
           $Summary = $Summary + "<br/><br/><details open><summary><b>Installers</b></summary>"
-          Get-ChildItem -Path .\publish\compressed-installers | ForEach-Object {
+          Get-ChildItem -Path "${{ inputs.installers-path }}" | ForEach-Object {
             $Component = $_.Name.Replace("Installers.zip", "");
             $Filename = $_.Name
 
@@ -60,11 +68,11 @@ runs:
           echo "::warning title=No installer artifacts::No installer artifacts where produced by this build"
         }
 
-        if ((Get-ChildItem -Path ".\publish\compressed-symbols" -Force | Measure-Object).Count -gt 0)
+        if ((Get-ChildItem -Path "${{ inputs.symbols-path }}" -Force | Measure-Object).Count -gt 0)
         {
           $Summary = $Summary + "<br/><br/><details open><summary><b>Symbols</b></summary>"
 
-          Get-ChildItem -Path .\publish\compressed-symbols | ForEach-Object {
+          Get-ChildItem -Path "${{ inputs.symbols-path }}" | ForEach-Object {
             $Component = $_.Name.Replace("Symbols.zip", "");
             $Filename = $_.Name
 
@@ -78,11 +86,11 @@ runs:
           echo "::warning title=No symbols artifacts::No symbols artifacts where produced by this build"
         }
 
-        if ((Get-ChildItem -Path ".\publish\compressed-documentation" -Force | Measure-Object).Count -gt 0)
+        if ((Get-ChildItem -Path "${{ inputs.documentation-path }}" -Force | Measure-Object).Count -gt 0)
         {
           $Summary = $Summary + "<br/><br/><details open><summary><b>Documentation</b></summary>"
 
-          Get-ChildItem -Path .\publish\compressed-documentation | ForEach-Object {
+          Get-ChildItem -Path "${{ inputs.documentation-path }}" | ForEach-Object {
             $Component = $_.Name.Replace("Documentation.zip", "");
             $Filename = $_.Name
 
