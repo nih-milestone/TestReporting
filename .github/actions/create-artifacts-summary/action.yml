@@ -28,7 +28,7 @@ runs:
             $Component = $_.Name.Replace("Installers.zip", "");
             $Filename = $_.Name
 
-            $Summary = $Summary + "`n`n#### $Component"
+            $Summary = $Summary + "`n`n**$Component**"
             $Summary = $Summary + "`nNexus link for $Filename"
           }
 
