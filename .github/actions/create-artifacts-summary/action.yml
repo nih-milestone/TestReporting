@@ -29,7 +29,7 @@ runs:
             $Filename = $_.Name
 
             $Summary = $Summary + "`n`n#### $Component"
-            $Summary = $Summary + "Nexus link for $Filename"
+            $Summary = $Summary + "`nNexus link for $Filename"
           }
 
           echo "$Summary" >> $env:GITHUB_STEP_SUMMARY
