@@ -2,9 +2,22 @@ name: 'Test reporting'
 
 on:
   push:
+    
   workflow_dispatch:
+    inputs:
+      configuration:
+        description: 'Configuration'
+        required: true
+        default: 'Release'
+        type: choice
+        options:
+          - Debug
+          - Release
+
   pull_request:
-  
+
+    
+
 permissions:
   contents: read
   actions: read
