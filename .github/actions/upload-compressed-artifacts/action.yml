@@ -1,0 +1,39 @@
+name: Uploads compressed artifacts
+
+description: "Uploads compressed artifact from a configurable path to a configurable route in Nexus"
+
+inputs:
+  artifacts-path:
+    type: string
+    required: true
+  artifacts-suffix:
+    type: string
+    required: true
+  artifacts-base-url:
+    type: string
+    required: true  
+  nexus-usertoken-name:
+    type: string
+    required: true
+  nexus-usertoken-pass:
+    type: string
+    required: true  
+
+runs:
+  using: "composite"
+  steps:
+    - name: Upload artifacts
+      shell: pwsh
+      run: |
+          $SecurePassword = "${{ inputs.nexus-usertoken-pass }}" | ConvertTo-SecureString -AsPlainText -Force
+          $Username = "${{ inputs.nexus-usertoken-name }}"
+          $Credentials = New-Object System.Management.Automation.PSCredential ($Username, $SecurePassword)
+          Get-ChildItem -Path ${{ inputs.artifacts-path }} | ForEach-Object {
+              $Component = $_.Name.Replace("${{ inputs.artifacts-suffix }}", "");
+              $Filename = $_.Name
+              $Url = "${{ inputs.artifacts-base-url }}/$Component/$Filename"
+              Write-Host "URL is: $Url"
+              #Invoke-WebRequest -Uri "$Url" -Method Put -InFile $_.FullName -Credential $Credentials -ContentType "application/octet-stream"
+          }
+
+        

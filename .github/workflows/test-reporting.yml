@@ -54,6 +54,15 @@ jobs:
           echo "BUILD_SLN=Smart Client installer.slnf" >> $env:GITHUB_ENV
 
       - name: Create artifacts summary
+        uses: ./.github/actions/upload-compressed-artifacts
+        with:
+          artifacts-path: .\publish\compressed-installers
+          artifacts-suffix: Installers.zip
+          artifacts-base-url: "https://nexus.milestone.dev/repository/test-vmsdev-installers/main/Milestone/${{ env.BUILD_VERSION }}"
+          nexus-usertoken-name: "username"
+          nexus-usertoken-pass: "password"
+
+      - name: Create artifacts summary
         uses: ./.github/actions/create-artifacts-summary
         with:
           branch-name: "main"
