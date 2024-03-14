@@ -30,7 +30,7 @@ runs:
           $Summary = $Summary + "`n" + "github.event_name=${{ github.event_name }}, build-version=${{ inputs.build-version }}, solution=${{ inputs.solution }}"
           echo "$Summary" >> $env:GITHUB_STEP_SUMMARY
         }
-        else if ("${{ inputs.warn-if-empty }}" -eq "true")
+        elseif ("${{ inputs.warn-if-empty }}" -eq "true")
         {
           
         }
