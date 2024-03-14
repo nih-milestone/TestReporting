@@ -20,5 +20,5 @@ runs:
     - name: return version
       shell: powershell
       run: |
-        $Summary = "This is the summary. build-version=${{ inputs.build-version }}, solution=${{ inputs.solution }}, configuration=${{ inputs.configuration }}"
+        $Summary = "This is the summary. github.event_name=${{ github.event_name }}, build-version=${{ inputs.build-version }}, solution=${{ inputs.solution }}, configuration=${{ inputs.configuration }}"
         echo "$Summary" >> $env:GITHUB_STEP_SUMMARY
