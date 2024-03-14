@@ -28,7 +28,7 @@ runs:
 
         if ((Get-ChildItem -Path ".\publish\compressed-installers" -Force | Measure-Object).Count -gt 0)
         {
-          $Summary = $Summary + "`n`n`n<details open><summary><b>Installers</b></summary>"
+          $Summary = $Summary + "<br/><br/><br/><details open><summary><b>Installers</b></summary>"
           Get-ChildItem -Path .\publish\compressed-installers | ForEach-Object {
             $Component = $_.Name.Replace("Installers.zip", "");
             $Filename = $_.Name
@@ -45,7 +45,7 @@ runs:
 
         if ((Get-ChildItem -Path ".\publish\compressed-symbols" -Force | Measure-Object).Count -gt 0)
         {
-          $Summary = $Summary + "`n`n`n<details open><summary><b>Symbols</b></summary>"
+          $Summary = $Summary + "<br/><br/><br/><details open><summary><b>Symbols</b></summary>"
 
           Get-ChildItem -Path .\publish\compressed-symbols | ForEach-Object {
             $Component = $_.Name.Replace("Symbols.zip", "");
@@ -63,7 +63,7 @@ runs:
 
         if ((Get-ChildItem -Path ".\publish\compressed-documentation" -Force | Measure-Object).Count -gt 0)
         {
-          $Summary = $Summary + "`n`n`n<details open><summary><b>Documentation</b></summary>"
+          $Summary = $Summary + "<br/><br/><br/><details open><summary><b>Documentation</b></summary>"
 
           Get-ChildItem -Path .\publish\compressed-documentation | ForEach-Object {
             $Component = $_.Name.Replace("Documentation.zip", "");
