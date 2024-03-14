@@ -27,7 +27,7 @@ runs:
 
         if ((Get-ChildItem -Path ".\publish\compressed-installers" -Force | Measure-Object).Count -gt 0)
         {
-          $Summary = $Summary + "`n<details><summary>Installers</summary>"
+          $Summary = $Summary + "`n<details><summary open>#### Installers</summary>"
           Get-ChildItem -Path .\publish\compressed-installers | ForEach-Object {
             $Component = $_.Name.Replace("Installers.zip", "");
             $Filename = $_.Name
