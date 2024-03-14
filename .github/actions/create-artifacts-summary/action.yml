@@ -24,6 +24,7 @@ runs:
         $Summary = $Summary + "`nBranch: [Nexus link](https://google.com)"
         $Summary = $Summary + "`nRelease metadata: [Nexus link](https://google.com)"
         $Summary = $Summary + "`nChangelog: [Nexus link](https://google.com)"
+        $Summary = $Summary + "`nSymbol Server: [Nexus link](https://google.com)"
 
         if ((Get-ChildItem -Path ".\publish\compressed-installers" -Force | Measure-Object).Count -gt 0)
         {
@@ -39,9 +40,44 @@ runs:
         }
         elseif ("${{ inputs.warn-if-empty }}" -eq "true")
         {
-          
+          echo "::warning title=No installer artifacts::No installer artifacts where produced by this build"
         }
 
+        if ((Get-ChildItem -Path ".\publish\compressed-symbols" -Force | Measure-Object).Count -gt 0)
+        {
+          $Summary = $Summary + "`n<details open><summary><b>Symbols</b></summary>"
+
+          Get-ChildItem -Path .\publish\compressed-symbols | ForEach-Object {
+            $Component = $_.Name.Replace("Symbols.zip", "");
+            $Filename = $_.Name
+
+            $Summary = $Summary + "`n`n<i>$Component</i>"
+            $Summary = $Summary + "`n[Nexus link for $Filename](https://google.com)"
+          }
+          $Summary = $Summary + "`n</details>"
+        }
+        elseif ("${{ inputs.warn-if-empty }}" -eq "true")
+        {
+          echo "::warning title=No symbols artifacts::No symbols artifacts where produced by this build"
+        }
+
+        if ((Get-ChildItem -Path ".\publish\compressed-documentation" -Force | Measure-Object).Count -gt 0)
+        {
+          $Summary = $Summary + "`n<details open><summary><b>Documentation</b></summary>"
+
+          Get-ChildItem -Path .\publish\compressed-documentation | ForEach-Object {
+            $Component = $_.Name.Replace("Documentation.zip", "");
+            $Filename = $_.Name
+
+            $Summary = $Summary + "`n`n<i>$Component</i>"
+            $Summary = $Summary + "`n[Nexus link for $Filename](https://google.com)"
+          }
+          $Summary = $Summary + "`n</details>"
+        }
+        elseif ("${{ inputs.warn-if-empty }}" -eq "true")
+        {
+          echo "::warning title=No documentation artifacts::No documentation artifacts where produced by this build"
+        }
 
         echo "$Summary" >> $env:GITHUB_STEP_SUMMARY
 
