@@ -9,6 +9,10 @@ inputs:
   solution:
     type: string
     required: true
+  configuration:
+    type: string
+    required: false
+    default: "Funky!"
 
 runs:
   using: "composite"

@@ -2,7 +2,7 @@ name: 'Test reporting'
 
 on:
   push:
-    
+
   workflow_dispatch:
     inputs:
       configuration:
@@ -58,3 +58,4 @@ jobs:
         with:
           build-version: ${{ env.BUILD_VERSION }}
           solution: ${{ env.BUILD_SLN }}
+          configuration: ${{ inputs.configuration }}
