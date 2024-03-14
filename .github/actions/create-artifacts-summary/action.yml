@@ -38,7 +38,7 @@ runs:
         New-Item -Path .\publish\compressed-symbols -ItemType Directory -Force
         $Summary = "### Version ${{ inputs.build-version }}"
         $Summary = $Summary + "`nBranch: **${{ inputs.branch-name }}**"
-        $Summary = $Summary + "`nBuild type: **${{ inputs.is-full-build == 'true' && 'Full' || 'Partial' }}**${{ inputs.is-full-build == 'true' && '' || ' - ' }}${{ inputs.is-full-build == 'true' && '' || inputs.solution }}"
+        $Summary = $Summary + "`nBuild type: **${{ inputs.is-full-build == 'true' && 'Full' || 'Partial' }}** - ${{ inputs.solution }}"
         $Summary = $Summary + "`nRelease metadata: ${{ inputs.installers-base-url }}/RELEASE-metadata.json"
         $Summary = $Summary + "`nChangelog: ${{ inputs.installers-base-url }}/CHANGELOG.md"
         $Summary = $Summary + "`nSymbol Server: ${{ inputs.symbols-base-url }}/_SymbolServer"
