@@ -6,6 +6,9 @@ inputs:
   branch-name:
     type: string
     required: true
+  is-full-build:
+    type: boolean
+    required: true
   build-version:
     type: string
     required: true
@@ -35,6 +38,7 @@ runs:
         New-Item -Path .\publish\compressed-symbols -ItemType Directory -Force
         $Summary = "### Version ${{ inputs.build-version }}"
         $Summary = $Summary + "`nBranch: ${{ inputs.branch-name }}"
+        $Summary = $Summary + "`nBuild type: ${{ inputs.is-full-build == 'true' && 'Full' || 'Partial' }}"
         $Summary = $Summary + "`nRelease metadata: ${{ inputs.installers-base-url }}/RELEASE-metadata.json"
         $Summary = $Summary + "`nChangelog: ${{ inputs.installers-base-url }}/CHANGELOG.md"
         $Summary = $Summary + "`nSymbol Server: ${{ inputs.symbols-base-url }}/_SymbolServer"
