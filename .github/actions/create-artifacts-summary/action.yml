@@ -9,12 +9,30 @@ inputs:
   solution:
     type: string
     required: true
+  warn-if-empty:
+    type: boolean
+    required: false
+    default: true  
 
 runs:
   using: "composite"
   steps:
-    - name: return version
-      shell: powershell
+    - name: Create summary
+      shell: pwsh
       run: |
-        $Summary = "This is the summary. github.event_name=${{ github.event_name }}, build-version=${{ inputs.build-version }}, solution=${{ inputs.solution }}, configuration=${{ inputs.configuration }}"
-        echo "$Summary" >> $env:GITHUB_STEP_SUMMARY
+        if ((Get-ChildItem -Path ".\publish\compressed-installers" -Force | Measure-Object).Count -gt 0)
+        {
+          Get-ChildItem -Path .\publish\compressed-installers | ForEach-Object {
+              $Component = $_.Name.Replace("Installers.zip", "");
+              $Filename = $_.Name
+          }
+          $Summary = "This is the summary"
+          $Summary = $Summary + "`n" + "github.event_name=${{ github.event_name }}, build-version=${{ inputs.build-version }}, solution=${{ inputs.solution }}"
+          echo "$Summary" >> $env:GITHUB_STEP_SUMMARY
+        }
+        else if ("${{ inputs.warn-if-empty }}" -eq "true")
+        {
+          
+        }
+
+        
