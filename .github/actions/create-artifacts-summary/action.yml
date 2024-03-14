@@ -21,18 +21,18 @@ inputs:
   installers-base-url:
     type: string
     required: true  
-  symbols-base-url:
-    type: string
-    required: true
   symbols-path:
     type: string
     required: true
-  documentation-base-url:
+  symbols-base-url:
     type: string
     required: true
   documentation-path:
     type: string
     required: true        
+  documentation-base-url:
+    type: string
+    required: true
   warn-if-empty:
     type: boolean
     required: false
