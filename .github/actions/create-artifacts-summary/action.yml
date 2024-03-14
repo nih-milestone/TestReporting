@@ -3,12 +3,24 @@ name: Create artifact summary
 description: "Creates a job summary with Nexus links to the produced artifacts"
 
 inputs:
+  branch-name:
+    type: string
+    required: true
   build-version:
     type: string
     required: true
   solution:
     type: string
     required: true
+  installers-base-url:
+    type: string
+    required: true  
+  symbols-base-url:
+    type: string
+    required: true
+  documentation-base-url:
+    type: string
+    required: true        
   warn-if-empty:
     type: boolean
     required: false
@@ -21,10 +33,10 @@ runs:
       shell: pwsh
       run: |
         $Summary = "### Version ${{ inputs.build-version }}"
-        $Summary = $Summary + "`nBranch: [Nexus link](https://google.com)"
-        $Summary = $Summary + "`nRelease metadata: [Nexus link](https://google.com)"
-        $Summary = $Summary + "`nChangelog: [Nexus link](https://google.com)"
-        $Summary = $Summary + "`nSymbol Server: [Nexus link](https://google.com)"
+        $Summary = $Summary + "`nBranch: ${{ inputs.branch-name }}"
+        $Summary = $Summary + "`nRelease metadata: (${{ inputs.installers-base-url }}/RELEASE-metadata.json)"
+        $Summary = $Summary + "`nChangelog: (${{ inputs.installers-base-url }}/CHANGELOG.md)"
+        $Summary = $Summary + "`nSymbol Server: (${{ inputs.symbols-base-url }}/_SymbolServer))"
 
         if ((Get-ChildItem -Path ".\publish\compressed-installers" -Force | Measure-Object).Count -gt 0)
         {
@@ -34,7 +46,7 @@ runs:
             $Filename = $_.Name
 
             $Summary = $Summary + "`n`n<i>$Component</i>"
-            $Summary = $Summary + "`n[Nexus link for $Filename](https://google.com)"
+            $Summary = $Summary + "`n(${{ inputs.installers-base-url }}/$Component/$Filename)"
           }
           $Summary = $Summary + "`n</details>"
         }
@@ -52,7 +64,7 @@ runs:
             $Filename = $_.Name
 
             $Summary = $Summary + "`n`n<i>$Component</i>"
-            $Summary = $Summary + "`n[Nexus link for $Filename](https://google.com)"
+            $Summary = $Summary + "`n(${{ inputs.symbols-base-url }}/$Component/$Filename)"
           }
           $Summary = $Summary + "`n</details>"
         }
@@ -70,7 +82,7 @@ runs:
             $Filename = $_.Name
 
             $Summary = $Summary + "`n`n<i>$Component</i>"
-            $Summary = $Summary + "`n[Nexus link for $Filename](https://google.com)"
+            $Summary = $Summary + "`n(${{ inputs.documentation-base-url }}/$Component/$Filename)"
           }
           $Summary = $Summary + "`n</details>"
         }
