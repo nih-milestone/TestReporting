@@ -32,11 +32,12 @@ runs:
     - name: Create summary
       shell: pwsh
       run: |
+        New-Item -Path .\publish\compressed-symbols -ItemType Directory -Force
         $Summary = "### Version ${{ inputs.build-version }}"
         $Summary = $Summary + "`nBranch: ${{ inputs.branch-name }}"
-        $Summary = $Summary + "`nRelease metadata: (${{ inputs.installers-base-url }}/RELEASE-metadata.json)"
-        $Summary = $Summary + "`nChangelog: (${{ inputs.installers-base-url }}/CHANGELOG.md)"
-        $Summary = $Summary + "`nSymbol Server: (${{ inputs.symbols-base-url }}/_SymbolServer))"
+        $Summary = $Summary + "`nRelease metadata: ${{ inputs.installers-base-url }}/RELEASE-metadata.json"
+        $Summary = $Summary + "`nChangelog: ${{ inputs.installers-base-url }}/CHANGELOG.md"
+        $Summary = $Summary + "`nSymbol Server: ${{ inputs.symbols-base-url }}/_SymbolServer"
 
         if ((Get-ChildItem -Path ".\publish\compressed-installers" -Force | Measure-Object).Count -gt 0)
         {
@@ -46,7 +47,7 @@ runs:
             $Filename = $_.Name
 
             $Summary = $Summary + "`n`n<i>$Component</i>"
-            $Summary = $Summary + "`n(${{ inputs.installers-base-url }}/$Component/$Filename)"
+            $Summary = $Summary + "`n${{ inputs.installers-base-url }}/$Component/$Filename"
           }
           $Summary = $Summary + "`n</details>"
         }
@@ -64,7 +65,7 @@ runs:
             $Filename = $_.Name
 
             $Summary = $Summary + "`n`n<i>$Component</i>"
-            $Summary = $Summary + "`n(${{ inputs.symbols-base-url }}/$Component/$Filename)"
+            $Summary = $Summary + "`n${{ inputs.symbols-base-url }}/$Component/$Filename"
           }
           $Summary = $Summary + "`n</details>"
         }
@@ -82,7 +83,7 @@ runs:
             $Filename = $_.Name
 
             $Summary = $Summary + "`n`n<i>$Component</i>"
-            $Summary = $Summary + "`n(${{ inputs.documentation-base-url }}/$Component/$Filename)"
+            $Summary = $Summary + "`n${{ inputs.documentation-base-url }}/$Component/$Filename"
           }
           $Summary = $Summary + "`n</details>"
         }
