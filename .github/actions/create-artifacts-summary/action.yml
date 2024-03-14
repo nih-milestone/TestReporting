@@ -27,12 +27,12 @@ runs:
 
         if ((Get-ChildItem -Path ".\publish\compressed-installers" -Force | Measure-Object).Count -gt 0)
         {
-          $Summary = $Summary + "`n<details><summary open>#### Installers</summary>"
+          $Summary = $Summary + "`n<details><summary open><b>Installers</b></summary>"
           Get-ChildItem -Path .\publish\compressed-installers | ForEach-Object {
             $Component = $_.Name.Replace("Installers.zip", "");
             $Filename = $_.Name
 
-            $Summary = $Summary + "`n`n**$Component**"
+            $Summary = $Summary + "`n`n<i>$Component</i>"
             $Summary = $Summary + "`n[Nexus link for $Filename](https://google.com)"
           }
           $Summary = $Summary + "`n</details>"
