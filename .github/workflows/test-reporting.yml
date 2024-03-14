@@ -61,6 +61,6 @@ jobs:
           build-version: ${{ env.BUILD_VERSION }}
           solution: ${{ env.BUILD_SLN }}
           warn-if-empty: true
-          installers-base-url: "https://nexus.milestone.dev/repository/test-vmsdev-installers/main/${{ env.BUILD_VERSION }}/"
-          symbols-base-url: "https://nexus.milestone.dev/repository/test-vmsdev-symbols/main/${{ env.BUILD_VERSION }}/"
-          documentation-base-url: "https://nexus.milestone.dev/repository/test-vmsdev-documentation/main/${{ env.BUILD_VERSION }}/"
+          installers-base-url: "https://nexus.milestone.dev/repository/test-vmsdev-installers/main/${{ env.BUILD_VERSION }}"
+          symbols-base-url: "https://nexus.milestone.dev/repository/test-vmsdev-symbols/main/${{ env.BUILD_VERSION }}"
+          documentation-base-url: "https://nexus.milestone.dev/repository/test-vmsdev-documentation/main/${{ env.BUILD_VERSION }}"
