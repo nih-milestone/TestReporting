@@ -20,10 +20,14 @@ runs:
     - name: Create summary
       shell: pwsh
       run: |
+        $Summary = "### Version ${{ inputs.build-version }}"
+        $Summary = $Summary + "`nBranch: [Nexus link](https://google.com)"
+        $Summary = $Summary + "`nRelease metadata: [Nexus link](https://google.com)"
+        $Summary = $Summary + "`nChangelog: [Nexus link](https://google.com)"
+
         if ((Get-ChildItem -Path ".\publish\compressed-installers" -Force | Measure-Object).Count -gt 0)
         {
-          $Summary = "### Version ${{ inputs.build-version }}"
-
+          $Summary = $Summary + "`n<details><summary>Installers</summary>"
           Get-ChildItem -Path .\publish\compressed-installers | ForEach-Object {
             $Component = $_.Name.Replace("Installers.zip", "");
             $Filename = $_.Name
@@ -31,12 +35,14 @@ runs:
             $Summary = $Summary + "`n`n**$Component**"
             $Summary = $Summary + "`n[Nexus link for $Filename](https://google.com)"
           }
-
-          echo "$Summary" >> $env:GITHUB_STEP_SUMMARY
+          $Summary = $Summary + "`n</details>"
         }
         elseif ("${{ inputs.warn-if-empty }}" -eq "true")
         {
           
         }
+
+
+        echo "$Summary" >> $env:GITHUB_STEP_SUMMARY
 
         
