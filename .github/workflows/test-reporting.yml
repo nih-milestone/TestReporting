@@ -57,7 +57,7 @@ jobs:
         uses: ./.github/actions/create-artifacts-summary
         with:
           branch-name: "main"
-          is-full-build: false
+          is-full-build: true
           build-version: ${{ env.BUILD_VERSION }}
           solution: ${{ env.BUILD_SLN }}
           warn-if-empty: true
