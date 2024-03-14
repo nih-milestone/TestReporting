@@ -51,13 +51,13 @@ jobs:
       - name: Set ENV variables
         run: |
           echo "BUILD_VERSION=1.2.3" >> $env:GITHUB_ENV
-          echo "BUILD_SLN=Gate.slnf" >> $env:GITHUB_ENV
+          echo "BUILD_SLN=Smart Client installer.slnf" >> $env:GITHUB_ENV
 
       - name: Create artifacts summary
         uses: ./.github/actions/create-artifacts-summary
         with:
           branch-name: "main"
-          is-full-build: true
+          is-full-build: false
           build-version: ${{ env.BUILD_VERSION }}
           solution: ${{ env.BUILD_SLN }}
           warn-if-empty: true
