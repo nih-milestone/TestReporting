@@ -22,12 +22,16 @@ runs:
       run: |
         if ((Get-ChildItem -Path ".\publish\compressed-installers" -Force | Measure-Object).Count -gt 0)
         {
+          $Summary = "### Version ${{ inputs.build-version }}"
+
           Get-ChildItem -Path .\publish\compressed-installers | ForEach-Object {
-              $Component = $_.Name.Replace("Installers.zip", "");
-              $Filename = $_.Name
+            $Component = $_.Name.Replace("Installers.zip", "");
+            $Filename = $_.Name
+
+            $Summary = $Summary + "`n`n#### $Component"
+            $Summary = $Summary + "Nexus link for $Filename"
           }
-          $Summary = "This is the summary"
-          $Summary = $Summary + "`n" + "github.event_name=${{ github.event_name }}, build-version=${{ inputs.build-version }}, solution=${{ inputs.solution }}"
+
           echo "$Summary" >> $env:GITHUB_STEP_SUMMARY
         }
         elseif ("${{ inputs.warn-if-empty }}" -eq "true")
