@@ -9,10 +9,6 @@ inputs:
   solution:
     type: string
     required: true
-  configuration:
-    type: string
-    required: false
-    default: "Funky!"
 
 runs:
   using: "composite"
@@ -20,5 +16,5 @@ runs:
     - name: return version
       shell: powershell
       run: |
-        $Summary = "This is the summary. github.event_name=${{ github.event_name }}, build-version=${{ inputs.build-version }}, solution=${{ inputs.solution }}, configuration=${{ inputs.configuration }}"
+        $Summary = "This is the summary. github.event_name=${{ github.event_name }}, build-version=${{ inputs.build-version }}, solution=${{ inputs.solution }}, configuration=${{ vars.INPUT_CONFIGURATION }}"
         echo "$Summary" >> $env:GITHUB_STEP_SUMMARY

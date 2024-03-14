@@ -58,4 +58,3 @@ jobs:
         with:
           build-version: ${{ env.BUILD_VERSION }}
           solution: ${{ env.BUILD_SLN }}
-          inputs: ${{ inputs }}
