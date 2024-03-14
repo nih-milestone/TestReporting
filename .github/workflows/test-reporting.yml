@@ -56,5 +56,6 @@ jobs:
       - name: Create artifacts summary
         uses: ./.github/actions/create-artifacts-summary
         with:
+          inputs: ${{ inputs }}
           build-version: ${{ env.BUILD_VERSION }}
           solution: ${{ env.BUILD_SLN }}
